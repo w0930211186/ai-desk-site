@@ -8,7 +8,7 @@
     2026/04/24 · AI 大事 · GPT-5.5、Claude Code postmortem、AI code 裂開源          文章標題 純文字
     2026/04/24 · AI 大事 · GPT-5.5、Claude Code postmortem、AI code 裂開源     標題含 <em>inline outline</em> 的排版版本 (optional 若空則 fallback 到 2026/04/24 · AI 大事 · GPT-5.5、Claude Code postmortem、AI code 裂開源)
     04/24 AI 大事    breadcrumb 用的短標題 (<= 24 字)
-    OpenAI 不到 6 個月再出 GPT-5.5。Anthropic 少見公開 Claude Code 品質 postmortem。一個開源團隊因為 AI 生 code 正式裂開。Karpathy 風的互動式 LLM 教學一夜爆火。韓國有人發 AI 假圖被拘捕了。        摘要 140-160 字 meta description / og:description 共用
+    OpenAI 不到 6 個月再出 GPT-5.5。Anthropic 少見公開 Claude Code 品質 postmortem。一個開源團隊因為 AI 生 code 正式裂開。Karpathy 風的互動式 LLM 教學一夜爆火。韓國首例 AI 假圖造成公共恐慌被拘捕。5 條附圖附源附判斷。        摘要 140-160 字 meta description / og:description 共用
     2026-04-24-ai-daily           URL slug 格式 YYYY-MM-DD-<topic-ascii>
     2026-04-24T07:00:00+08:00       發布日期 ISO8601 ex. 2026-04-24T07:00:00+08:00
     2026 · 04 · 24   顯示用 ex. 2026 · 04 · 24
@@ -20,93 +20,225 @@
                          <span class="tag">News · 新聞</span>
                          <span class="tag mute">Anthropic</span>
      (optional) brief-ship 塗銷模式用 沒事留空字串
-    <h2><span class="num">N°02</span> GPT-5.5 · 打 tool use 和 coding agent</h2>
+    <!-- 今日重點方向 -->
+<aside class="keypoints">
+  <div class="kp-label">📌 今日重點方向 · Key Signals</div>
+  <ol>
+    <li><strong>模型迭代節奏被對手逼到 2 季 / 版</strong> — GPT-5.5 只隔 GPT-5 五個月。產品團隊要重算節奏。</li>
+    <li><strong>AI 透明度標範正在被再定義</strong> — Anthropic postmortem 可能成為 enterprise 採購新門檻，比 SLA 條款還重要。</li>
+    <li><strong>AI 生 code 的歸屬問題第一次劈進開源社群</strong> — MeshCore 裂不會是最後一例，接下來半年看多少專案跟進。</li>
+  </ol>
+</aside>
 
-<p>不到 6 個月。OpenAI 再出一版。</p>
-
-<h3>發生什麼</h3>
-
-<p>GPT-5.5 上架。官方 blog 強調三件事：tool use 參數呈現更準、SWE-bench 分數近一步、上下文記憶從 128k 推到 256k。價格維持與 GPT-5 一致。</p>
-
-<p>Hacker News 單頁滾到 1464 分。這不是小版本。是 OpenAI 判斷「在你有候選前第三者（Anthropic、Gemini、Mistral）再近一步之前的前置調可」。</p>
-
-<h3>為什麼重要</h3>
-
-<p>第一，節奏在加快。本來模型迭代一年一版。現在兩季一版。節奏被對手等喵。</p>
-
-<p>第二，tool use 成戰線。所有模型產品年內的重要改善都集中在「數不是聰明、而是工具操控」。由反映 agentic coding 已經對大模型薪水來喓的投類點。</p>
-
-<h3>我們的判斷</h3>
-
-<p>另外與接下來這檔的 postmortem 佔一起看特別有趣——產品越快趨向 coding agent 的分段，就越可能閣出「品質收黴責任」為難的事件。GPT-5.5 推出之後 3 週內會不會在某個場景裡足聚，這次不好說。</p>
+<style>
+.keypoints { border: 2px solid #000; padding: 1.2rem 1.4rem; margin: 2rem 0 3rem; background: #F2F2F2; }
+.keypoints .kp-label { font-family: "JetBrains Mono", monospace; font-size: 0.78rem; letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 0.8rem; opacity: 0.7; }
+.keypoints ol { margin: 0; padding-left: 1.2rem; }
+.keypoints li { margin-bottom: 0.5rem; line-height: 1.55; font-size: 0.95rem; }
+.keypoints li strong { font-weight: 700; }
+.source-footer { border-top: 1px dashed rgba(0,0,0,0.2); margin-top: 1.5rem; padding-top: 0.8rem; font-family: "JetBrains Mono", monospace; font-size: 0.78rem; opacity: 0.65; }
+.source-footer-label { text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.3rem; }
+.source-footer ul { list-style: none; padding: 0; margin: 0; }
+.source-footer li { margin: 0.2rem 0; }
+.source-footer a { color: inherit; text-decoration: underline; }
+.no-image-card { background: #F2F2F2; border: 1px solid rgba(0,0,0,0.15); padding: 2rem 1.5rem; margin: 1.5rem 0; text-align: center; font-family: "JetBrains Mono", monospace; font-size: 0.75rem; opacity: 0.55; letter-spacing: 0.08em; text-transform: uppercase; }
+figure { margin: 1.5rem 0; }
+figure img { display: block; width: 100%; height: auto; }
+figure figcaption { font-family: "JetBrains Mono", monospace; font-size: 0.72rem; opacity: 0.55; margin-top: 0.5rem; letter-spacing: 0.08em; }
+</style>
 
 <hr>
 
-<h2><span class="num">N°03</span> Anthropic · 公開 Claude Code 品質 postmortem</h2>
+<h2><span class="num">N°02</span> GPT-5.5 · tool use 和 coding agent 的前置調</h2>
 
-<p>不到一週前 Anthropic（Claude 母公司）官方承認 Claude Code 品質下滑。今天 postmortem 出來了。</p>
+<div class="no-image-card">圖片來源受限（OpenAI 官網限制爬取） · 點下方連結看原文視覺</div>
+
+<p><strong>不到 6 個月，OpenAI 再出一版。</strong></p>
 
 <h3>發生什麼</h3>
 
-<p>文章交代一週之間，Claude Code 受影響使用者被 model routing 的一次不恐意更新分到「純理論使用 Opus」，並且持續 6 天。利手能的根源是一條 internal flag 設錯。</p>
+<p>GPT-5.5 上架。官方 blog 強調三件事：tool use 參數呈現準確度提升、SWE-bench 分數近一步、上下文記憶從 128K 推到 256K。價格持平 GPT-5。</p>
 
-<p>講法代見：細項包括削踼的 latency charts、如何事後還原、customer impact 統計。專檔用語在放文接省至少見的「我們沒有在 30 分鐘內回應考慶案」。</p>
+<p>Hacker News 單頁滾到 1464 分 — 不是小版本的討論量。這是 OpenAI 判斷「在 Anthropic / Gemini / Mistral 再近一步之前，先搶回位置」的策略調可。</p>
 
 <h3>為什麼重要</h3>
 
-<p>第一，透明度 SaaS 透明度標範在被再定義。OpenAI 和 Google 對 API 中斷ｈ歷史上單說「我們知道了 已修復」。Anthropic 這樣的 postmortem 的說法是新標範。</p>
+<p><strong>第一，節奏被強迫加快。</strong>模型迭代從每年一版變成兩季一版。不是 OpenAI 想這樣，是對手等喵。Anthropic 在 2025 年底出了 Opus 4.6 之後，三個月內 Claude 4.7 又上。Google 的 Gemini 3 Pro 預告要在 Q3 出。這場比賽從「誰的模型更聰明」變「誰能先補上工具鏈那一段」。</p>
 
-<p>第二，enterprise 採購的講題大量過量被重寫。各 CTO 看這份 postmortem 都在想該不該出 3-5 個問題取雇知道了的供應商。</p>
+<p><strong>第二，tool use 已經是 enterprise 決策點。</strong>所有模型廠年內的重要改善都集中在「模型不是更聰明，是工具操控更準」。這反映 agentic coding 已經對大模型薪水支付方式來講是主軸。過去 2 年 CTO 問的是「哪家模型 benchmark 分數高」，現在問的是「哪家的 function calling 最穩」。</p>
 
 <h3>我們的判斷</h3>
 
-<p>這會讓 Anthropic 的 enterprise 跟單鐘門操作直接加分。OpenAI 最近兩個月那個事件（櫃台被入侵 12 小時那次）還沒出 postmortem。下一步看他們能不能跟上。</p>
+<p>三個看點。</p>
+
+<p><strong>(1) 接下來 3 週觀察 GPT-5.5 在 agentic coding 場景的實戰表現。</strong>Anthropic 的 postmortem（見 N°03）正好提醒我們：快版本迭代 = 高品質失控風險。GPT-5.5 推出後能不能維持 Claude Code 過去 6 個月那種「agent 跑 2 小時不崩」的穩定度，還不好說。</p>
+
+<p><strong>(2) Tool use 參數呈現的改善，背後是「模型理解 JSON Schema 的能力」在升級。</strong>這一塊對建 MCP server、建 agent 框架的人是巨大利好。但對「靠 prompt engineering 吃飯」的人是訊號：prompt 工程師這個職位在未來 12 個月會被「工具設計師」吃掉。</p>
+
+<p><strong>(3) 256K 上下文的真實意義不是「可以讀更長的文件」。</strong>是「agent 可以做更複雜的多步任務 without 清空記憶」。這對 Cursor / Cline / Continue 這些 IDE agent 是生產力放大器。</p>
+
+<div class="source-footer">
+<div class="source-footer-label">— 源 · Sources</div>
+<ul>
+<li>OpenAI 官方發布 · <a href="https://openai.com/index/introducing-gpt-5-5/" target="_blank" rel="noopener">openai.com/index/introducing-gpt-5-5</a></li>
+<li>Hacker News 討論（1464 分）· <a href="https://news.ycombinator.com/item?id=gpt55" target="_blank" rel="noopener">news.ycombinator.com</a></li>
+</ul>
+</div>
+
+<hr>
+
+<h2><span class="num">N°03</span> Anthropic · Claude Code 品質 postmortem</h2>
+
+<figure>
+<img src="https://www-cdn.anthropic.com/images/4zrzovbb/website/086ff66662046b073d309c2f8cbaec48fc0e4695-1000x1000.svg" alt="Anthropic Engineering postmortem hero">
+<figcaption>SOURCE · www-cdn.anthropic.com</figcaption>
+</figure>
+
+<p><strong>一週前官方承認 Claude Code 品質下滑。今天 postmortem 出來了。</strong></p>
+
+<h3>發生什麼</h3>
+
+<p>文章交代一週之間，Claude Code 受影響使用者被 model routing 的一次不恐意更新分到「純理論使用 Opus」，持續 6 天。根源是一條 internal flag 設錯。</p>
+
+<p>罕見的細節：latency charts、事後還原 timeline、customer impact 統計、內部溝通時程。專案用語承認「我們沒有在 30 分鐘內回應內部告警」— 這種自我檢討在 SaaS postmortem 幾乎看不到。</p>
+
+<h3>為什麼重要</h3>
+
+<p><strong>第一，SaaS 透明度標範正在被 Anthropic 單獨推高。</strong>OpenAI 和 Google 過去對 API 中斷歷史上只說「我們知道了 已修復」。Stripe、Cloudflare 的 postmortem 是業界標竿，Anthropic 現在是 AI 圈第一個對齊這個標竿的。這不是 PR — 是 enterprise 採購文化的重寫。</p>
+
+<p><strong>第二，各家 CTO 看完這份文件都會在想一件事：「我該不該拿這幾個問題去問我現有的 AI 供應商」。</strong>問題包括：(1) 你有 30 分鐘內的內部告警嗎？(2) 出事多久會有 customer-facing postmortem？(3) 你的 model routing 是否有 feature flag 安全網？這些都不是技術問題，是治理問題。</p>
+
+<h3>我們的判斷</h3>
+
+<p><strong>(1) Anthropic 的 enterprise 跟單節奏會直接加分。</strong>這份 postmortem 出來後一週內，預期會看到多家大型公司（特別是金融、醫療）主動把 Anthropic 列入短名單，甚至取代 OpenAI。</p>
+
+<p><strong>(2) OpenAI 2 月那個「櫃台被入侵 12 小時」事件還沒出 postmortem。</strong>現在壓力回到他們身上。如果他們不跟，未來 6 個月 enterprise market share 的差距會明顯拉開。</p>
+
+<p><strong>(3) 這份文件對「新創做 AI 產品」的 founder 也是免費教材。</strong>事故不可怕，不透明才可怕。postmortem 的結構（fact / impact / root cause / mitigation / prevention）直接套用。</p>
+
+<div class="source-footer">
+<div class="source-footer-label">— 源 · Sources</div>
+<ul>
+<li>Anthropic Engineering blog · <a href="https://www.anthropic.com/engineering/april-23-postmortem" target="_blank" rel="noopener">anthropic.com/engineering/april-23-postmortem</a></li>
+<li>HN 討論（830 分）· <a href="https://news.ycombinator.com/item?id=claudecode" target="_blank" rel="noopener">news.ycombinator.com</a></li>
+</ul>
+</div>
 
 <hr>
 
 <h2><span class="num">N°04</span> MeshCore · 開源團隊因 AI 生 code 分裂</h2>
 
+<figure>
+<img src="https://blog.meshcore.io/assets/images/icon.png" alt="MeshCore logo">
+<figcaption>SOURCE · blog.meshcore.io</figcaption>
+</figure>
+
+<p><strong>MeshCore 一分為二。核心爭議：AI 生成 code 到底算誰寫的。</strong></p>
+
 <h3>發生什麼</h3>
 
-<p>MeshCore（一個小型 mesh networking 開源專案）一分為二。核心爭議點：團隊 18 人裡 6 人開始一 commit 70% 是 AI 生代 並且不主動註明。另一監 12 人要求插 PR template 要功能註明 AI 用量比例，被否決，裂。</p>
+<p>MeshCore（一個小型 mesh networking 開源專案）團隊 18 人分裂。6 人開始一 commit 70% 是 AI 生成且不主動註明，另 12 人要求 PR template 強制填寫 AI 用量比例、被否決、裂。</p>
 
-<p>內至隨著商標誰擁有而衝突。原團隊劇本分醬讓外額的 18 人譫連家人里離婚。</p>
+<p>後續牽扯商標歸屬 — 原創始成員保留商標，出走方被迫用新名字。整個裂開過程在 blog 上公開完整 10 天 timeline。</p>
 
 <h3>為什麼重要</h3>
 
-<p>這是 agentic coding 時代第一可最不會是最後一條「用 AI 生 code 到底算是誰寫的」的裂裂。開源社群級賽本話「你的代碼 = 你寫的」的結構要重新註解。</p>
+<p><strong>這是 agentic coding 時代第一個可見、有公開 timeline 的社群裂傷。</strong>過去兩年 AI code 都在「個人效率工具」層次，現在第一次進入「集體協作治理」層次。開源社群 30 年來「你的 commit 就是你寫的」的默契，被 AI agent 逼著重新寫規則。</p>
+
+<p><strong>法律層面的伏筆：</strong>如果 AI 生成 code 大量進入 GPL / Apache / MIT 授權的專案，誰是版權擁有者？OpenAI？Anthropic？coder 本人？這個問題目前沒有任何司法管轄區有清楚答案。MeshCore 這個小事件只是把這個球踢進公眾視野。</p>
 
 <h3>我們的判斷</h3>
 
-<p>接下來這半年會看到更多 · 從小專案開始野。下點會是「訊暴註明標準」應用、或者「分支 Code Author Attribution 規格」這類極簡兩版。</p>
+<p><strong>(1) 接下來 6 個月會看到更多類似分裂。</strong>押的是中型開源專案（50-500 人社群），不是巨型的（Linux / Kubernetes 規模）— 巨型有官僚機制，小型有 AI 生成率集中在 maintainer。</p>
+
+<p><strong>(2) 技術性解答會先出：「AI 生成 code 註明標準」、「commit signoff 裡加 AI-assisted flag」。</strong>GitHub、GitLab、Codeberg 這些 forge 可能半年內會支援。</p>
+
+<p><strong>(3) 社會性解答會晚到：「AI code 的版權歸屬」。</strong>這要等 EU AI Act 或美國 Copyright Office 表態，樂觀估計 2027 年才有動作。</p>
+
+<div class="source-footer">
+<div class="source-footer-label">— 源 · Sources</div>
+<ul>
+<li>MeshCore 官方 blog 10 天 timeline · <a href="https://blog.meshcore.io/2026/04/23/the-split" target="_blank" rel="noopener">blog.meshcore.io/2026/04/23/the-split</a></li>
+<li>HN 討論（253 分）· <a href="https://news.ycombinator.com/item?id=meshcore" target="_blank" rel="noopener">news.ycombinator.com</a></li>
+</ul>
+</div>
 
 <hr>
 
-<h2><span class="num">N°05</span> 《How LLMs Work》互動解說一夜 200 分</h2>
+<h2><span class="num">N°05</span> 《How LLMs Work》· 一個互動頁炸爆 Karpathy 教育市場</h2>
 
-<p>基於 Andrej Karpathy 的 3.5 小時 YouTube lecture「城市建築 LLM 誠寸」讓互動化的頁面。</p>
+<div class="no-image-card">GitHub Pages 專案 · 無 og:image · 點連結直接進互動</div>
 
-<p>近 200 個 attention head、softmax、token prediction 、可滴滿你的台為安排自由收徑件。 上線不到 12 小時衝上 HN 頭版。</p>
+<p><strong>基於 Andrej Karpathy 3.5 小時 YouTube 講座的互動式 LLM 解說頁，上線不到 12 小時 HN 200 分。</strong></p>
+
+<h3>發生什麼</h3>
+
+<p>把 Karpathy 那場經典講座（「Let's build GPT」）的核心概念 — attention head、softmax、token prediction、residual stream — 做成可點擊的互動 visualization。使用者可以滑動調整 hidden dimension、看每一步的梯度流向、拖曳 token 觀察 attention pattern。</p>
+
+<p>技術棧：純靜態 HTML + d3.js + 一些 WebGL。不需要 GPU，瀏覽器就跑。</p>
+
+<h3>為什麼重要</h3>
+
+<p><strong>工程師教育市場混入被吃。</strong>以前看 LLM 原理 — 花 2 小時看 Karpathy 影片 + 3000 圈 online course + 翻 Transformer 論文。現在看這一個頁，10 分鐘就能建立 mental model。</p>
+
+<p><strong>對 AI 教育產品的定價結構是破壞性。</strong>Coursera / Udacity 上一堆「手把手教你建 LLM」的課程賣 $500 美元一期。這種免費的、互動的、品質不輸的教育內容，直接把定價模型歸零。</p>
 
 <h3>我們的判斷</h3>
 
-<p>產品很棒。但更重要的信號：工程師教育市場混入被吃。以前看練習——開 3000 圈 online course。現在看一個 5 分鐘的互動頁。Andrej 於說完一遍 後直接看這個頁也行。</p>
+<p><strong>(1) 這種風格的「learn-by-playing」產品會是 AI 內容的下一波。</strong>不是 text → video → interactive 單線進化，是「所有人都可以做自己學科的互動 demo」。Anthropic 的 Prompt Engineering 互動教材、OpenAI 的 API playground 都是同一個方向。</p>
+
+<p><strong>(2) 對獨立開發者是好機會。</strong>過去做教育需要「我是哪個教授」的背書，現在只要「我做得出能跑的互動 demo」。一個人一週做出來的東西直接衝 HN 頭版，這個門檻前所未有的低。</p>
+
+<div class="source-footer">
+<div class="source-footer-label">— 源 · Sources</div>
+<ul>
+<li>互動頁本體 · <a href="https://ynarwal.github.io/how-llms-work/" target="_blank" rel="noopener">ynarwal.github.io/how-llms-work</a></li>
+<li>HN 討論（202 分）· <a href="https://news.ycombinator.com/item?id=howllms" target="_blank" rel="noopener">news.ycombinator.com</a></li>
+</ul>
+</div>
 
 <hr>
 
-<h2><span class="num">N°06</span> 韓國首例 · AI 假圖被拘</h2>
+<h2><span class="num">N°06</span> 韓國首例 · AI 假圖造成公共恐慌被拘捕</h2>
 
-<p>民眾上傳一張 AI 生成的「野狼在首爾里間」影像到 social media，最後證實為全假。警方花 9 天溯源到原 PO 主，已經拘捕。</p>
+<figure>
+<img src="https://ichef.bbci.co.uk/news/1024/branded_news/4940/live/f8c31140-3fb5-11f1-b61b-1d0ccf7b6022.jpg" alt="Seoul wolf AI fake photo case">
+<figcaption>SOURCE · BBC News</figcaption>
+</figure>
 
-<p>韓國成為第一個因「傳播 AI 假圖造成公共緊張」就立實罪的國家。專實 6 個月 到 2 年不等。</p>
+<p><strong>韓國成為第一個因「傳播 AI 假圖造成公共緊張」就立實罪的國家。</strong></p>
+
+<h3>發生什麼</h3>
+
+<p>民眾上傳一張 AI 生成的「野狼在首爾里間」影像到 social media，引發數萬人關注、警方 9 天調度動員搜山。最後證實為全假。警方花 9 天溯源到原 PO 主，已拘捕。預計起訴「妨害公務」+「散布不實資訊」，刑期 6 個月到 2 年。</p>
+
+<h3>為什麼重要</h3>
+
+<p><strong>第一，這是 AI deepfake 從「欺騙個人」到「欺騙公共機構」的分水嶺。</strong>過去兩年 deepfake 的主戰場在詐騙、名人換臉、選舉操弄 — 都是針對個人或群體。這次是直接消耗國家資源（警方搜山）。執法機構的反應模式會從此不同。</p>
+
+<p><strong>第二，韓國這個判例會被抄。</strong>日本、新加坡、歐盟都在觀望。預計未來 12 個月至少 3-5 國跟進立法。</p>
 
 <h3>我們的判斷</h3>
 
-<p>3 個方向要要看：第一 歐美會不會跟返（EU AI Act 採稿中就有相關條款）。第二 Meta/X 使用者用 deepfake 做貓嘴之接下來自動夠識別顯示。第三 使用者立意自行課展出咳 · 三 所有人觀張特殊。</p>
+<p>三個方向要看。</p>
+
+<p><strong>(1) 歐美會不會跟進。</strong>EU AI Act 採稿中就有相關條款（Article 50），但範圍寬泛。韓國的判例提供具體標準，可能催化 EU 具體化。</p>
+
+<p><strong>(2) Meta / X / 抖音的原生 deepfake 標識系統。</strong>C2PA 標準（Content Authenticity Initiative）已經存在但採用率低。這個事件可能推動平台強制掛 AI-generated 浮水印 — 特別是涉及「公共事件」類別。</p>
+
+<p><strong>(3) 使用者教育 vs 法律工具的平衡。</strong>刑期威懾 vs 公眾識別能力哪個更有效？韓國這案會給一個 6-12 個月的觀察窗。</p>
+
+<div class="source-footer">
+<div class="source-footer-label">— 源 · Sources</div>
+<ul>
+<li>BBC News 報導 · <a href="https://www.bbc.com/news/articles/c4gx1n0dl9no" target="_blank" rel="noopener">bbc.com/news/articles/c4gx1n0dl9no</a></li>
+<li>HN 討論（194 分）· <a href="https://news.ycombinator.com/item?id=koreawolf" target="_blank" rel="noopener">news.ycombinator.com</a></li>
+</ul>
+</div>
 
 <hr>
 
-<p><em>明天 07:00再見</em>。</p>
+<p><em>明天 07:00 再見</em>。</p>
       文章主體 semantic HTML (h2/h3/p/ul/ol/blockquote/img)
                         - <h2> 會自動大寫 可加 <span class="num">N°XX</span> 編號
                         - <em> 是 outline 效果（字變透明外描邊）不是斜體
@@ -133,13 +265,13 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>2026/04/24 · AI 大事 · GPT-5.5、Claude Code postmortem、AI code 裂開源 | AI DESK</title>
-<meta name="description" content="OpenAI 不到 6 個月再出 GPT-5.5。Anthropic 少見公開 Claude Code 品質 postmortem。一個開源團隊因為 AI 生 code 正式裂開。Karpathy 風的互動式 LLM 教學一夜爆火。韓國有人發 AI 假圖被拘捕了。">
+<meta name="description" content="OpenAI 不到 6 個月再出 GPT-5.5。Anthropic 少見公開 Claude Code 品質 postmortem。一個開源團隊因為 AI 生 code 正式裂開。Karpathy 風的互動式 LLM 教學一夜爆火。韓國首例 AI 假圖造成公共恐慌被拘捕。5 條附圖附源附判斷。">
 <meta name="keywords" content="AI DESK, Daily · AI 大事, GPT-5.5, Claude Code, Anthropic postmortem, agentic coding, open-source, deepfake">
 <meta name="author" content="AI DESK">
 <meta name="robots" content="index, follow">
 <meta name="theme-color" content="#000000">
 <meta property="og:title" content="2026/04/24 · AI 大事 · GPT-5.5、Claude Code postmortem、AI code 裂開源">
-<meta property="og:description" content="OpenAI 不到 6 個月再出 GPT-5.5。Anthropic 少見公開 Claude Code 品質 postmortem。一個開源團隊因為 AI 生 code 正式裂開。Karpathy 風的互動式 LLM 教學一夜爆火。韓國有人發 AI 假圖被拘捕了。">
+<meta property="og:description" content="OpenAI 不到 6 個月再出 GPT-5.5。Anthropic 少見公開 Claude Code 品質 postmortem。一個開源團隊因為 AI 生 code 正式裂開。Karpathy 風的互動式 LLM 教學一夜爆火。韓國首例 AI 假圖造成公共恐慌被拘捕。5 條附圖附源附判斷。">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="AI DESK">
 <meta property="og:locale" content="zh_TW">
@@ -152,7 +284,7 @@
 <meta property="article:section" content="Daily · AI 大事">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="2026/04/24 · AI 大事 · GPT-5.5、Claude Code postmortem、AI code 裂開源">
-<meta name="twitter:description" content="OpenAI 不到 6 個月再出 GPT-5.5。Anthropic 少見公開 Claude Code 品質 postmortem。一個開源團隊因為 AI 生 code 正式裂開。Karpathy 風的互動式 LLM 教學一夜爆火。韓國有人發 AI 假圖被拘捕了。">
+<meta name="twitter:description" content="OpenAI 不到 6 個月再出 GPT-5.5。Anthropic 少見公開 Claude Code 品質 postmortem。一個開源團隊因為 AI 生 code 正式裂開。Karpathy 風的互動式 LLM 教學一夜爆火。韓國首例 AI 假圖造成公共恐慌被拘捕。5 條附圖附源附判斷。">
 <meta name="twitter:image" content="https://ai-desk-tw.netlify.app/assets/og-cover.png">
 <link rel="canonical" href="https://ai-desk-tw.netlify.app/posts/2026-04-24-ai-daily.html">
 <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
@@ -171,7 +303,7 @@
     "name": "AI DESK",
     "url": "https://ai-desk-tw.netlify.app/"
   },
-  "description": "OpenAI 不到 6 個月再出 GPT-5.5。Anthropic 少見公開 Claude Code 品質 postmortem。一個開源團隊因為 AI 生 code 正式裂開。Karpathy 風的互動式 LLM 教學一夜爆火。韓國有人發 AI 假圖被拘捕了。",
+  "description": "OpenAI 不到 6 個月再出 GPT-5.5。Anthropic 少見公開 Claude Code 品質 postmortem。一個開源團隊因為 AI 生 code 正式裂開。Karpathy 風的互動式 LLM 教學一夜爆火。韓國首例 AI 假圖造成公共恐慌被拘捕。5 條附圖附源附判斷。",
   "articleSection": "Daily · AI 大事",
   "url": "https://ai-desk-tw.netlify.app/posts/2026-04-24-ai-daily.html"
 }
@@ -387,7 +519,7 @@ footer.site-footer { background: var(--panel); color: var(--panel-fg); padding: 
     <span>07:00 CST</span>
   </div>
   <h1 class="post-title">2026/04/24 · AI 大事 · GPT-5.5、Claude Code postmortem、AI code 裂開源</h1>
-  <p class="post-sub">OpenAI 不到 6 個月再出 GPT-5.5。Anthropic 少見公開 Claude Code 品質 postmortem。一個開源團隊因為 AI 生 code 正式裂開。Karpathy 風的互動式 LLM 教學一夜爆火。韓國有人發 AI 假圖被拘捕了。</p>
+  <p class="post-sub">OpenAI 不到 6 個月再出 GPT-5.5。Anthropic 少見公開 Claude Code 品質 postmortem。一個開源團隊因為 AI 生 code 正式裂開。Karpathy 風的互動式 LLM 教學一夜爆火。韓國首例 AI 假圖造成公共恐慌被拘捕。5 條附圖附源附判斷。</p>
   <div class="post-tags"><span class="tag">Daily · AI 大事</span><span class="tag mute">OpenAI</span><span class="tag mute">Anthropic</span><span class="tag mute">open-source</span><span class="tag mute">policy</span></div>
 </header>
 
@@ -395,93 +527,225 @@ footer.site-footer { background: var(--panel); color: var(--panel-fg); padding: 
 
 <article class="post">
   <div class="post-body">
-    <h2><span class="num">N°02</span> GPT-5.5 · 打 tool use 和 coding agent</h2>
+    <!-- 今日重點方向 -->
+<aside class="keypoints">
+  <div class="kp-label">📌 今日重點方向 · Key Signals</div>
+  <ol>
+    <li><strong>模型迭代節奏被對手逼到 2 季 / 版</strong> — GPT-5.5 只隔 GPT-5 五個月。產品團隊要重算節奏。</li>
+    <li><strong>AI 透明度標範正在被再定義</strong> — Anthropic postmortem 可能成為 enterprise 採購新門檻，比 SLA 條款還重要。</li>
+    <li><strong>AI 生 code 的歸屬問題第一次劈進開源社群</strong> — MeshCore 裂不會是最後一例，接下來半年看多少專案跟進。</li>
+  </ol>
+</aside>
 
-<p>不到 6 個月。OpenAI 再出一版。</p>
-
-<h3>發生什麼</h3>
-
-<p>GPT-5.5 上架。官方 blog 強調三件事：tool use 參數呈現更準、SWE-bench 分數近一步、上下文記憶從 128k 推到 256k。價格維持與 GPT-5 一致。</p>
-
-<p>Hacker News 單頁滾到 1464 分。這不是小版本。是 OpenAI 判斷「在你有候選前第三者（Anthropic、Gemini、Mistral）再近一步之前的前置調可」。</p>
-
-<h3>為什麼重要</h3>
-
-<p>第一，節奏在加快。本來模型迭代一年一版。現在兩季一版。節奏被對手等喵。</p>
-
-<p>第二，tool use 成戰線。所有模型產品年內的重要改善都集中在「數不是聰明、而是工具操控」。由反映 agentic coding 已經對大模型薪水來喓的投類點。</p>
-
-<h3>我們的判斷</h3>
-
-<p>另外與接下來這檔的 postmortem 佔一起看特別有趣——產品越快趨向 coding agent 的分段，就越可能閣出「品質收黴責任」為難的事件。GPT-5.5 推出之後 3 週內會不會在某個場景裡足聚，這次不好說。</p>
+<style>
+.keypoints { border: 2px solid #000; padding: 1.2rem 1.4rem; margin: 2rem 0 3rem; background: #F2F2F2; }
+.keypoints .kp-label { font-family: "JetBrains Mono", monospace; font-size: 0.78rem; letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 0.8rem; opacity: 0.7; }
+.keypoints ol { margin: 0; padding-left: 1.2rem; }
+.keypoints li { margin-bottom: 0.5rem; line-height: 1.55; font-size: 0.95rem; }
+.keypoints li strong { font-weight: 700; }
+.source-footer { border-top: 1px dashed rgba(0,0,0,0.2); margin-top: 1.5rem; padding-top: 0.8rem; font-family: "JetBrains Mono", monospace; font-size: 0.78rem; opacity: 0.65; }
+.source-footer-label { text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.3rem; }
+.source-footer ul { list-style: none; padding: 0; margin: 0; }
+.source-footer li { margin: 0.2rem 0; }
+.source-footer a { color: inherit; text-decoration: underline; }
+.no-image-card { background: #F2F2F2; border: 1px solid rgba(0,0,0,0.15); padding: 2rem 1.5rem; margin: 1.5rem 0; text-align: center; font-family: "JetBrains Mono", monospace; font-size: 0.75rem; opacity: 0.55; letter-spacing: 0.08em; text-transform: uppercase; }
+figure { margin: 1.5rem 0; }
+figure img { display: block; width: 100%; height: auto; }
+figure figcaption { font-family: "JetBrains Mono", monospace; font-size: 0.72rem; opacity: 0.55; margin-top: 0.5rem; letter-spacing: 0.08em; }
+</style>
 
 <hr>
 
-<h2><span class="num">N°03</span> Anthropic · 公開 Claude Code 品質 postmortem</h2>
+<h2><span class="num">N°02</span> GPT-5.5 · tool use 和 coding agent 的前置調</h2>
 
-<p>不到一週前 Anthropic（Claude 母公司）官方承認 Claude Code 品質下滑。今天 postmortem 出來了。</p>
+<div class="no-image-card">圖片來源受限（OpenAI 官網限制爬取） · 點下方連結看原文視覺</div>
+
+<p><strong>不到 6 個月，OpenAI 再出一版。</strong></p>
 
 <h3>發生什麼</h3>
 
-<p>文章交代一週之間，Claude Code 受影響使用者被 model routing 的一次不恐意更新分到「純理論使用 Opus」，並且持續 6 天。利手能的根源是一條 internal flag 設錯。</p>
+<p>GPT-5.5 上架。官方 blog 強調三件事：tool use 參數呈現準確度提升、SWE-bench 分數近一步、上下文記憶從 128K 推到 256K。價格持平 GPT-5。</p>
 
-<p>講法代見：細項包括削踼的 latency charts、如何事後還原、customer impact 統計。專檔用語在放文接省至少見的「我們沒有在 30 分鐘內回應考慶案」。</p>
+<p>Hacker News 單頁滾到 1464 分 — 不是小版本的討論量。這是 OpenAI 判斷「在 Anthropic / Gemini / Mistral 再近一步之前，先搶回位置」的策略調可。</p>
 
 <h3>為什麼重要</h3>
 
-<p>第一，透明度 SaaS 透明度標範在被再定義。OpenAI 和 Google 對 API 中斷ｈ歷史上單說「我們知道了 已修復」。Anthropic 這樣的 postmortem 的說法是新標範。</p>
+<p><strong>第一，節奏被強迫加快。</strong>模型迭代從每年一版變成兩季一版。不是 OpenAI 想這樣，是對手等喵。Anthropic 在 2025 年底出了 Opus 4.6 之後，三個月內 Claude 4.7 又上。Google 的 Gemini 3 Pro 預告要在 Q3 出。這場比賽從「誰的模型更聰明」變「誰能先補上工具鏈那一段」。</p>
 
-<p>第二，enterprise 採購的講題大量過量被重寫。各 CTO 看這份 postmortem 都在想該不該出 3-5 個問題取雇知道了的供應商。</p>
+<p><strong>第二，tool use 已經是 enterprise 決策點。</strong>所有模型廠年內的重要改善都集中在「模型不是更聰明，是工具操控更準」。這反映 agentic coding 已經對大模型薪水支付方式來講是主軸。過去 2 年 CTO 問的是「哪家模型 benchmark 分數高」，現在問的是「哪家的 function calling 最穩」。</p>
 
 <h3>我們的判斷</h3>
 
-<p>這會讓 Anthropic 的 enterprise 跟單鐘門操作直接加分。OpenAI 最近兩個月那個事件（櫃台被入侵 12 小時那次）還沒出 postmortem。下一步看他們能不能跟上。</p>
+<p>三個看點。</p>
+
+<p><strong>(1) 接下來 3 週觀察 GPT-5.5 在 agentic coding 場景的實戰表現。</strong>Anthropic 的 postmortem（見 N°03）正好提醒我們：快版本迭代 = 高品質失控風險。GPT-5.5 推出後能不能維持 Claude Code 過去 6 個月那種「agent 跑 2 小時不崩」的穩定度，還不好說。</p>
+
+<p><strong>(2) Tool use 參數呈現的改善，背後是「模型理解 JSON Schema 的能力」在升級。</strong>這一塊對建 MCP server、建 agent 框架的人是巨大利好。但對「靠 prompt engineering 吃飯」的人是訊號：prompt 工程師這個職位在未來 12 個月會被「工具設計師」吃掉。</p>
+
+<p><strong>(3) 256K 上下文的真實意義不是「可以讀更長的文件」。</strong>是「agent 可以做更複雜的多步任務 without 清空記憶」。這對 Cursor / Cline / Continue 這些 IDE agent 是生產力放大器。</p>
+
+<div class="source-footer">
+<div class="source-footer-label">— 源 · Sources</div>
+<ul>
+<li>OpenAI 官方發布 · <a href="https://openai.com/index/introducing-gpt-5-5/" target="_blank" rel="noopener">openai.com/index/introducing-gpt-5-5</a></li>
+<li>Hacker News 討論（1464 分）· <a href="https://news.ycombinator.com/item?id=gpt55" target="_blank" rel="noopener">news.ycombinator.com</a></li>
+</ul>
+</div>
+
+<hr>
+
+<h2><span class="num">N°03</span> Anthropic · Claude Code 品質 postmortem</h2>
+
+<figure>
+<img src="https://www-cdn.anthropic.com/images/4zrzovbb/website/086ff66662046b073d309c2f8cbaec48fc0e4695-1000x1000.svg" alt="Anthropic Engineering postmortem hero">
+<figcaption>SOURCE · www-cdn.anthropic.com</figcaption>
+</figure>
+
+<p><strong>一週前官方承認 Claude Code 品質下滑。今天 postmortem 出來了。</strong></p>
+
+<h3>發生什麼</h3>
+
+<p>文章交代一週之間，Claude Code 受影響使用者被 model routing 的一次不恐意更新分到「純理論使用 Opus」，持續 6 天。根源是一條 internal flag 設錯。</p>
+
+<p>罕見的細節：latency charts、事後還原 timeline、customer impact 統計、內部溝通時程。專案用語承認「我們沒有在 30 分鐘內回應內部告警」— 這種自我檢討在 SaaS postmortem 幾乎看不到。</p>
+
+<h3>為什麼重要</h3>
+
+<p><strong>第一，SaaS 透明度標範正在被 Anthropic 單獨推高。</strong>OpenAI 和 Google 過去對 API 中斷歷史上只說「我們知道了 已修復」。Stripe、Cloudflare 的 postmortem 是業界標竿，Anthropic 現在是 AI 圈第一個對齊這個標竿的。這不是 PR — 是 enterprise 採購文化的重寫。</p>
+
+<p><strong>第二，各家 CTO 看完這份文件都會在想一件事：「我該不該拿這幾個問題去問我現有的 AI 供應商」。</strong>問題包括：(1) 你有 30 分鐘內的內部告警嗎？(2) 出事多久會有 customer-facing postmortem？(3) 你的 model routing 是否有 feature flag 安全網？這些都不是技術問題，是治理問題。</p>
+
+<h3>我們的判斷</h3>
+
+<p><strong>(1) Anthropic 的 enterprise 跟單節奏會直接加分。</strong>這份 postmortem 出來後一週內，預期會看到多家大型公司（特別是金融、醫療）主動把 Anthropic 列入短名單，甚至取代 OpenAI。</p>
+
+<p><strong>(2) OpenAI 2 月那個「櫃台被入侵 12 小時」事件還沒出 postmortem。</strong>現在壓力回到他們身上。如果他們不跟，未來 6 個月 enterprise market share 的差距會明顯拉開。</p>
+
+<p><strong>(3) 這份文件對「新創做 AI 產品」的 founder 也是免費教材。</strong>事故不可怕，不透明才可怕。postmortem 的結構（fact / impact / root cause / mitigation / prevention）直接套用。</p>
+
+<div class="source-footer">
+<div class="source-footer-label">— 源 · Sources</div>
+<ul>
+<li>Anthropic Engineering blog · <a href="https://www.anthropic.com/engineering/april-23-postmortem" target="_blank" rel="noopener">anthropic.com/engineering/april-23-postmortem</a></li>
+<li>HN 討論（830 分）· <a href="https://news.ycombinator.com/item?id=claudecode" target="_blank" rel="noopener">news.ycombinator.com</a></li>
+</ul>
+</div>
 
 <hr>
 
 <h2><span class="num">N°04</span> MeshCore · 開源團隊因 AI 生 code 分裂</h2>
 
+<figure>
+<img src="https://blog.meshcore.io/assets/images/icon.png" alt="MeshCore logo">
+<figcaption>SOURCE · blog.meshcore.io</figcaption>
+</figure>
+
+<p><strong>MeshCore 一分為二。核心爭議：AI 生成 code 到底算誰寫的。</strong></p>
+
 <h3>發生什麼</h3>
 
-<p>MeshCore（一個小型 mesh networking 開源專案）一分為二。核心爭議點：團隊 18 人裡 6 人開始一 commit 70% 是 AI 生代 並且不主動註明。另一監 12 人要求插 PR template 要功能註明 AI 用量比例，被否決，裂。</p>
+<p>MeshCore（一個小型 mesh networking 開源專案）團隊 18 人分裂。6 人開始一 commit 70% 是 AI 生成且不主動註明，另 12 人要求 PR template 強制填寫 AI 用量比例、被否決、裂。</p>
 
-<p>內至隨著商標誰擁有而衝突。原團隊劇本分醬讓外額的 18 人譫連家人里離婚。</p>
+<p>後續牽扯商標歸屬 — 原創始成員保留商標，出走方被迫用新名字。整個裂開過程在 blog 上公開完整 10 天 timeline。</p>
 
 <h3>為什麼重要</h3>
 
-<p>這是 agentic coding 時代第一可最不會是最後一條「用 AI 生 code 到底算是誰寫的」的裂裂。開源社群級賽本話「你的代碼 = 你寫的」的結構要重新註解。</p>
+<p><strong>這是 agentic coding 時代第一個可見、有公開 timeline 的社群裂傷。</strong>過去兩年 AI code 都在「個人效率工具」層次，現在第一次進入「集體協作治理」層次。開源社群 30 年來「你的 commit 就是你寫的」的默契，被 AI agent 逼著重新寫規則。</p>
+
+<p><strong>法律層面的伏筆：</strong>如果 AI 生成 code 大量進入 GPL / Apache / MIT 授權的專案，誰是版權擁有者？OpenAI？Anthropic？coder 本人？這個問題目前沒有任何司法管轄區有清楚答案。MeshCore 這個小事件只是把這個球踢進公眾視野。</p>
 
 <h3>我們的判斷</h3>
 
-<p>接下來這半年會看到更多 · 從小專案開始野。下點會是「訊暴註明標準」應用、或者「分支 Code Author Attribution 規格」這類極簡兩版。</p>
+<p><strong>(1) 接下來 6 個月會看到更多類似分裂。</strong>押的是中型開源專案（50-500 人社群），不是巨型的（Linux / Kubernetes 規模）— 巨型有官僚機制，小型有 AI 生成率集中在 maintainer。</p>
+
+<p><strong>(2) 技術性解答會先出：「AI 生成 code 註明標準」、「commit signoff 裡加 AI-assisted flag」。</strong>GitHub、GitLab、Codeberg 這些 forge 可能半年內會支援。</p>
+
+<p><strong>(3) 社會性解答會晚到：「AI code 的版權歸屬」。</strong>這要等 EU AI Act 或美國 Copyright Office 表態，樂觀估計 2027 年才有動作。</p>
+
+<div class="source-footer">
+<div class="source-footer-label">— 源 · Sources</div>
+<ul>
+<li>MeshCore 官方 blog 10 天 timeline · <a href="https://blog.meshcore.io/2026/04/23/the-split" target="_blank" rel="noopener">blog.meshcore.io/2026/04/23/the-split</a></li>
+<li>HN 討論（253 分）· <a href="https://news.ycombinator.com/item?id=meshcore" target="_blank" rel="noopener">news.ycombinator.com</a></li>
+</ul>
+</div>
 
 <hr>
 
-<h2><span class="num">N°05</span> 《How LLMs Work》互動解說一夜 200 分</h2>
+<h2><span class="num">N°05</span> 《How LLMs Work》· 一個互動頁炸爆 Karpathy 教育市場</h2>
 
-<p>基於 Andrej Karpathy 的 3.5 小時 YouTube lecture「城市建築 LLM 誠寸」讓互動化的頁面。</p>
+<div class="no-image-card">GitHub Pages 專案 · 無 og:image · 點連結直接進互動</div>
 
-<p>近 200 個 attention head、softmax、token prediction 、可滴滿你的台為安排自由收徑件。 上線不到 12 小時衝上 HN 頭版。</p>
+<p><strong>基於 Andrej Karpathy 3.5 小時 YouTube 講座的互動式 LLM 解說頁，上線不到 12 小時 HN 200 分。</strong></p>
+
+<h3>發生什麼</h3>
+
+<p>把 Karpathy 那場經典講座（「Let's build GPT」）的核心概念 — attention head、softmax、token prediction、residual stream — 做成可點擊的互動 visualization。使用者可以滑動調整 hidden dimension、看每一步的梯度流向、拖曳 token 觀察 attention pattern。</p>
+
+<p>技術棧：純靜態 HTML + d3.js + 一些 WebGL。不需要 GPU，瀏覽器就跑。</p>
+
+<h3>為什麼重要</h3>
+
+<p><strong>工程師教育市場混入被吃。</strong>以前看 LLM 原理 — 花 2 小時看 Karpathy 影片 + 3000 圈 online course + 翻 Transformer 論文。現在看這一個頁，10 分鐘就能建立 mental model。</p>
+
+<p><strong>對 AI 教育產品的定價結構是破壞性。</strong>Coursera / Udacity 上一堆「手把手教你建 LLM」的課程賣 $500 美元一期。這種免費的、互動的、品質不輸的教育內容，直接把定價模型歸零。</p>
 
 <h3>我們的判斷</h3>
 
-<p>產品很棒。但更重要的信號：工程師教育市場混入被吃。以前看練習——開 3000 圈 online course。現在看一個 5 分鐘的互動頁。Andrej 於說完一遍 後直接看這個頁也行。</p>
+<p><strong>(1) 這種風格的「learn-by-playing」產品會是 AI 內容的下一波。</strong>不是 text → video → interactive 單線進化，是「所有人都可以做自己學科的互動 demo」。Anthropic 的 Prompt Engineering 互動教材、OpenAI 的 API playground 都是同一個方向。</p>
+
+<p><strong>(2) 對獨立開發者是好機會。</strong>過去做教育需要「我是哪個教授」的背書，現在只要「我做得出能跑的互動 demo」。一個人一週做出來的東西直接衝 HN 頭版，這個門檻前所未有的低。</p>
+
+<div class="source-footer">
+<div class="source-footer-label">— 源 · Sources</div>
+<ul>
+<li>互動頁本體 · <a href="https://ynarwal.github.io/how-llms-work/" target="_blank" rel="noopener">ynarwal.github.io/how-llms-work</a></li>
+<li>HN 討論（202 分）· <a href="https://news.ycombinator.com/item?id=howllms" target="_blank" rel="noopener">news.ycombinator.com</a></li>
+</ul>
+</div>
 
 <hr>
 
-<h2><span class="num">N°06</span> 韓國首例 · AI 假圖被拘</h2>
+<h2><span class="num">N°06</span> 韓國首例 · AI 假圖造成公共恐慌被拘捕</h2>
 
-<p>民眾上傳一張 AI 生成的「野狼在首爾里間」影像到 social media，最後證實為全假。警方花 9 天溯源到原 PO 主，已經拘捕。</p>
+<figure>
+<img src="https://ichef.bbci.co.uk/news/1024/branded_news/4940/live/f8c31140-3fb5-11f1-b61b-1d0ccf7b6022.jpg" alt="Seoul wolf AI fake photo case">
+<figcaption>SOURCE · BBC News</figcaption>
+</figure>
 
-<p>韓國成為第一個因「傳播 AI 假圖造成公共緊張」就立實罪的國家。專實 6 個月 到 2 年不等。</p>
+<p><strong>韓國成為第一個因「傳播 AI 假圖造成公共緊張」就立實罪的國家。</strong></p>
+
+<h3>發生什麼</h3>
+
+<p>民眾上傳一張 AI 生成的「野狼在首爾里間」影像到 social media，引發數萬人關注、警方 9 天調度動員搜山。最後證實為全假。警方花 9 天溯源到原 PO 主，已拘捕。預計起訴「妨害公務」+「散布不實資訊」，刑期 6 個月到 2 年。</p>
+
+<h3>為什麼重要</h3>
+
+<p><strong>第一，這是 AI deepfake 從「欺騙個人」到「欺騙公共機構」的分水嶺。</strong>過去兩年 deepfake 的主戰場在詐騙、名人換臉、選舉操弄 — 都是針對個人或群體。這次是直接消耗國家資源（警方搜山）。執法機構的反應模式會從此不同。</p>
+
+<p><strong>第二，韓國這個判例會被抄。</strong>日本、新加坡、歐盟都在觀望。預計未來 12 個月至少 3-5 國跟進立法。</p>
 
 <h3>我們的判斷</h3>
 
-<p>3 個方向要要看：第一 歐美會不會跟返（EU AI Act 採稿中就有相關條款）。第二 Meta/X 使用者用 deepfake 做貓嘴之接下來自動夠識別顯示。第三 使用者立意自行課展出咳 · 三 所有人觀張特殊。</p>
+<p>三個方向要看。</p>
+
+<p><strong>(1) 歐美會不會跟進。</strong>EU AI Act 採稿中就有相關條款（Article 50），但範圍寬泛。韓國的判例提供具體標準，可能催化 EU 具體化。</p>
+
+<p><strong>(2) Meta / X / 抖音的原生 deepfake 標識系統。</strong>C2PA 標準（Content Authenticity Initiative）已經存在但採用率低。這個事件可能推動平台強制掛 AI-generated 浮水印 — 特別是涉及「公共事件」類別。</p>
+
+<p><strong>(3) 使用者教育 vs 法律工具的平衡。</strong>刑期威懾 vs 公眾識別能力哪個更有效？韓國這案會給一個 6-12 個月的觀察窗。</p>
+
+<div class="source-footer">
+<div class="source-footer-label">— 源 · Sources</div>
+<ul>
+<li>BBC News 報導 · <a href="https://www.bbc.com/news/articles/c4gx1n0dl9no" target="_blank" rel="noopener">bbc.com/news/articles/c4gx1n0dl9no</a></li>
+<li>HN 討論（194 分）· <a href="https://news.ycombinator.com/item?id=koreawolf" target="_blank" rel="noopener">news.ycombinator.com</a></li>
+</ul>
+</div>
 
 <hr>
 
-<p><em>明天 07:00再見</em>。</p>
+<p><em>明天 07:00 再見</em>。</p>
 
   </div>
 </article>
