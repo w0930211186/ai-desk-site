@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Journal — all editions | AI DESK</title>
+<meta name="description" content="AI DESK 全部刊文索引 — AI 大事 / AI 新聞 / 一週回顧 / 站務。每天 07:00 CST 上線。">
+<meta name="keywords" content="AI 新聞, AI 大事, AI 週報, AI journal, AI DESK editions">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#000000">
+<meta property="og:title" content="Journal — all editions | AI DESK">
+<meta property="og:description" content="AI DESK 全部刊文索引 · 每天 07:00 CST 上線。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://ai-desk.netlify.app/posts/">
+<meta property="og:image" content="https://ai-desk.netlify.app/assets/og-cover.png">
+<meta property="og:locale" content="zh_TW">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Journal — all editions | AI DESK">
+<meta name="twitter:description" content="AI DESK 全部刊文索引 · 每天 07:00 CST 上線。">
+<meta name="twitter:image" content="https://ai-desk.netlify.app/assets/og-cover.png">
+<link rel="canonical" href="https://ai-desk.netlify.app/posts/">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Journal — AI DESK",
+  "description": "AI DESK 全部刊文索引",
+  "url": "https://ai-desk.netlify.app/posts/",
+  "inLanguage": ["zh-Hant", "en"],
+  "isPartOf": { "@type": "WebSite", "name": "AI DESK", "url": "https://ai-desk.netlify.app/" }
+}
+</script>
+<link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Noto+Sans+TC:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+<style>
+:root {
+  --bg: #000000;
+  --fg: #FFFFFF;
+  --panel: #F2F2F2;
+  --panel-fg: #0A0A0A;
+  --mute: #8A8A8A;
+  --mute-2: #5A5A5A;
+  --line: rgba(255, 255, 255, 0.14);
+  --line-dark: rgba(0, 0, 0, 0.14);
+  --f-display: 'Inter Tight', 'Noto Sans TC', -apple-system, sans-serif;
+  --f-sans: 'Space Grotesk', 'Noto Sans TC', -apple-system, sans-serif;
+  --f-body: 'Noto Sans TC', 'Inter Tight', sans-serif;
+  --f-mono: 'JetBrains Mono', 'SF Mono', Menlo, monospace;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+body { font-family: var(--f-body); background: var(--bg); color: var(--fg); line-height: 1.6; font-size: 16px; overflow-x: hidden; }
+a { color: inherit; text-decoration: none; }
+button { font-family: inherit; background: none; border: none; color: inherit; cursor: pointer; }
+::selection { background: #FFFFFF; color: #000000; }
+
+.nav-top {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+  padding: 1.5rem 2rem; display: flex; justify-content: space-between; align-items: center;
+  mix-blend-mode: difference;
+}
+.nav-brand { font-family: var(--f-display); font-weight: 900; font-size: 0.92rem; letter-spacing: 0.04em; text-transform: uppercase; display: flex; align-items: center; gap: 0.6rem; }
+.nav-brand .diamond { width: 10px; height: 10px; background: var(--fg); display: inline-block; animation: spin 4s linear infinite; }
+@keyframes spin { from { transform: rotate(45deg); } to { transform: rotate(405deg); } }
+.nav-links { display: flex; gap: 1.4rem; font-family: var(--f-sans); font-size: 0.72rem; letter-spacing: 0.2em; text-transform: uppercase; font-weight: 500; }
+.nav-links a { padding: 0.4rem 0.8rem; border: 1px solid transparent; transition: border-color .25s; }
+.nav-links a:hover, .nav-links a.active { border-color: var(--fg); }
+
+/* =================== HEAD =================== */
+.page-head {
+  padding: 12rem 2rem 6rem; position: relative; overflow: hidden;
+  border-bottom: 1px solid var(--line);
+}
+.page-watermark {
+  position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+  font-family: var(--f-display); font-weight: 900;
+  font-size: clamp(10rem, 32vw, 38rem);
+  line-height: 0.8; letter-spacing: -0.06em;
+  color: transparent; -webkit-text-stroke: 1px rgba(255, 255, 255, 0.06);
+  white-space: nowrap; pointer-events: none; user-select: none; z-index: 0;
+}
+.page-head-inner { max-width: 1400px; margin: 0 auto; position: relative; z-index: 2; }
+.page-head h1 {
+  font-family: var(--f-display); font-weight: 900;
+  font-size: clamp(4rem, 12vw, 10rem);
+  line-height: 0.9; letter-spacing: -0.05em;
+  text-transform: uppercase;
+}
+.page-head .lede {
+  margin-top: 2rem; max-width: 640px;
+  font-family: var(--f-display); font-weight: 500; font-size: 1.25rem;
+  color: var(--mute); letter-spacing: -0.005em;
+}
+.page-head .stats {
+  margin-top: 3rem; display: grid; grid-template-columns: repeat(4, 1fr); gap: 2rem;
+  border-top: 1px solid var(--line); padding-top: 2rem;
+  font-family: var(--f-sans);
+}
+.page-head .stats .cell .label { font-size: 0.66rem; letter-spacing: 0.28em; text-transform: uppercase; color: var(--mute-2); margin-bottom: 0.4rem; }
+.page-head .stats .cell .val { font-family: var(--f-display); font-weight: 800; font-size: 1.1rem; letter-spacing: -0.01em; }
+
+/* =================== FILTER =================== */
+.filter-bar {
+  padding: 3rem 2rem 2rem; max-width: 1400px; margin: 0 auto;
+  display: flex; justify-content: space-between; align-items: center;
+  flex-wrap: wrap; gap: 1rem;
+}
+.filter-bar .tag-toggle { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.filter-bar button {
+  padding: 0.6rem 1.1rem; border: 1px solid var(--line);
+  font-family: var(--f-sans); font-size: 0.7rem; letter-spacing: 0.2em;
+  text-transform: uppercase; color: var(--fg);
+  transition: background .25s, color .25s, border-color .25s;
+}
+.filter-bar button:hover,
+.filter-bar button.active { background: var(--fg); color: var(--bg); border-color: var(--fg); }
+.filter-bar .count { font-family: var(--f-mono); font-size: 0.72rem; letter-spacing: 0.18em; color: var(--mute); text-transform: uppercase; }
+
+/* =================== LIST =================== */
+section.posts {
+  max-width: 1400px; margin: 0 auto;
+  padding: 2rem 2rem 8rem; position: relative;
+}
+.month-block { margin-bottom: 4rem; }
+.month-label {
+  font-family: var(--f-display); font-weight: 900;
+  font-size: clamp(2rem, 4.5vw, 4rem);
+  letter-spacing: -0.03em; text-transform: uppercase;
+  line-height: 1; padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--line);
+  display: flex; justify-content: space-between; align-items: baseline;
+}
+.month-label .count { font-family: var(--f-mono); font-weight: 400; font-size: 0.9rem; letter-spacing: 0.2em; color: var(--mute); text-transform: uppercase; }
+
+.post-row {
+  display: grid; grid-template-columns: 120px 1fr 80px;
+  gap: 2rem; padding: 2rem 0;
+  border-bottom: 1px solid var(--line);
+  align-items: start; transition: background .3s;
+}
+.post-row:hover { background: rgba(255, 255, 255, 0.03); }
+.post-row .date {
+  font-family: var(--f-mono); font-size: 0.82rem;
+  letter-spacing: 0.12em; color: var(--mute); text-transform: uppercase;
+  padding-top: 0.4rem;
+}
+.post-row .info h3 {
+  font-family: var(--f-display); font-weight: 800;
+  font-size: clamp(1.4rem, 2.4vw, 2rem);
+  line-height: 1.15; letter-spacing: -0.02em;
+  margin-bottom: 0.8rem;
+}
+.post-row .info .excerpt {
+  font-family: var(--f-body); font-size: 0.94rem;
+  line-height: 1.65; color: var(--mute);
+  margin-bottom: 1rem; max-width: 70ch;
+}
+.post-row .info .inline-tags {
+  font-family: var(--f-sans); font-size: 0.66rem;
+  letter-spacing: 0.24em; text-transform: uppercase;
+  color: var(--fg); display: inline-flex; gap: 0.5rem; flex-wrap: wrap;
+}
+.post-row .info .inline-tags span {
+  padding: 0.3rem 0.8rem; border: 1px solid var(--line);
+}
+.post-row .arrow {
+  font-family: var(--f-display); font-weight: 900; font-size: 1.6rem;
+  color: var(--fg); text-align: right; transition: transform .3s;
+}
+.post-row:hover .arrow { transform: translateX(8px); }
+
+.empty-state {
+  padding: 5rem 0; text-align: center;
+  font-family: var(--f-sans); font-size: 0.82rem;
+  letter-spacing: 0.26em; color: var(--mute); text-transform: uppercase;
+}
+
+/* =================== FOOTER =================== */
+footer.site-footer {
+  background: var(--panel); color: var(--panel-fg);
+  padding: 6rem 2rem 3rem; position: relative; overflow: hidden;
+}
+.footer-inner { max-width: 1400px; margin: 0 auto; position: relative; z-index: 2; }
+.footer-lockup {
+  font-family: var(--f-display); font-weight: 900;
+  font-size: clamp(4rem, 14vw, 16rem); line-height: 0.85;
+  letter-spacing: -0.06em; text-transform: uppercase;
+}
+.footer-row {
+  margin-top: 4rem; padding-top: 2rem; border-top: 1px solid var(--panel-fg);
+  display: grid; grid-template-columns: repeat(4, 1fr); gap: 2rem;
+  font-family: var(--f-sans); font-size: 0.8rem;
+}
+.footer-row .cell .label { font-size: 0.66rem; letter-spacing: 0.28em; text-transform: uppercase; color: var(--mute-2); font-weight: 500; margin-bottom: 0.5rem; }
+.footer-row .cell .val { font-family: var(--f-display); font-weight: 700; letter-spacing: -0.01em; font-size: 1rem; }
+.footer-row .cell .val a { border-bottom: 1px solid transparent; transition: border-color .2s; }
+.footer-row .cell .val a:hover { border-bottom-color: var(--panel-fg); }
+.footer-base {
+  margin-top: 4rem; display: flex; justify-content: space-between; align-items: center;
+  font-family: var(--f-mono); font-size: 0.7rem; letter-spacing: 0.12em;
+  color: var(--mute-2); text-transform: uppercase; flex-wrap: wrap; gap: 1rem;
+}
+
+@media (max-width: 900px) {
+  .page-head .stats { grid-template-columns: repeat(2, 1fr); }
+  .post-row { grid-template-columns: 100px 1fr 40px; gap: 1rem; padding: 1.4rem 0; }
+  .post-row .date { font-size: 0.74rem; }
+  .footer-row { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 600px) {
+  .nav-top { padding: 1rem; }
+  .nav-links { gap: 0.5rem; font-size: 0.58rem; }
+  .nav-links a { padding: 0.3rem 0.5rem; }
+  .page-head { padding: 9rem 1rem 4rem; }
+  .filter-bar { padding: 2rem 1rem 1rem; }
+  section.posts { padding: 1rem 1rem 4rem; }
+  .post-row { grid-template-columns: 1fr; }
+  .post-row .arrow { text-align: left; }
+  footer.site-footer { padding: 4rem 1rem 2rem; }
+  .footer-row { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+
+<nav class="nav-top">
+  <a href="../index.html" class="nav-brand">
+    <span class="diamond"></span>
+    AI DESK
+  </a>
+  <div class="nav-links">
+    <a href="index.html" class="active">Journal</a>
+    <a href="../about.html">About</a>
+    <a href="../index.html#contact">Contact</a>
+  </div>
+</nav>
+
+<section class="page-head">
+  <div class="page-watermark">JOURNAL</div>
+  <div class="page-head-inner">
+    <h1>Journal<br>— all editions</h1>
+    <p class="lede">全部刊文索引 · 每天 07:00 上線 只寫三條線 · AI 大事（1 分鐘看完 · 附源連結）／ AI 新聞精選 ／ 一週 AI 大事回顧。</p>
+    <div class="stats">
+      <div class="cell"><div class="label">Total</div><div class="val">1 edition</div></div>
+      <div class="cell"><div class="label">Cadence</div><div class="val">Daily · 07:00</div></div>
+      <div class="cell"><div class="label">Active since</div><div class="val">2026 · 04 · 24</div></div>
+      <div class="cell"><div class="label">Mode</div><div class="val">Editorial</div></div>
+    </div>
+  </div>
+</section>
+
+<div class="filter-bar">
+  <div class="tag-toggle">
+    <button class="active" data-filter="all">All</button>
+    <button data-filter="daily">Daily · 大事</button>
+    <button data-filter="news">News · 新聞</button>
+    <button data-filter="weekly">Weekly · 週回顧</button>
+    <button data-filter="meta">Meta · 站務</button>
+  </div>
+  <div class="count"><span id="vcount">1</span> / 1 visible</div>
+</div>
+
+<section class="posts">
+  <!-- POSTS-INJECTION-START -->
+  <div class="month-block" data-month="2026-04">
+    <div class="month-label"><span>APR — 2026</span><span class="count">1 edition</span></div>
+
+    <a href="2026-04-24-ai-desk-opening.html" class="post-row" data-tags="meta">
+      <div class="date">04 · 24 · FRI<br>N°01</div>
+      <div class="info">
+        <h3>發刊詞 — 獨立 AI 編輯台的第一頁</h3>
+        <p class="excerpt">為什麼要有這個編輯台 只寫什麼三條線 不做什麼 怎麼寫出來的 讀者該期待什麼 一份把刀磨好再開門的立場書。</p>
+        <div class="inline-tags"><span>Meta · 站務</span><span>發刊詞</span></div>
+      </div>
+      <div class="arrow">→</div>
+    </a>
+  </div>
+  <!-- POSTS-INJECTION-END -->
+
+  <div class="empty-state" id="emptyState" style="display: none;">
+    這個分類還沒東西 · 下一輪 07:00 上線
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-lockup">AI DESK</div>
+    <div class="footer-row">
+      <div class="cell">
+        <div class="label">Contact</div>
+        <div class="val"><a href="mailto:hello@ai-desk.xyz">hello [at] ai-desk.xyz</a></div>
+      </div>
+      <div class="cell">
+        <div class="label">Index</div>
+        <div class="val"><a href="../index.html">Homepage →</a></div>
+      </div>
+      <div class="cell">
+        <div class="label">About</div>
+        <div class="val"><a href="../about.html">The stance →</a></div>
+      </div>
+      <div class="cell">
+        <div class="label">Cadence</div>
+        <div class="val">Daily · 07:00 CST</div>
+      </div>
+    </div>
+    <div class="footer-base">
+      <div>© 2026 AI DESK · Independent editorial</div>
+      <div>A signal, not the noise.</div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  const buttons = document.querySelectorAll('.tag-toggle button');
+  const rows = document.querySelectorAll('.post-row');
+  const vcount = document.getElementById('vcount');
+  const empty = document.getElementById('emptyState');
+
+  buttons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      buttons.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const f = btn.dataset.filter;
+      let shown = 0;
+      rows.forEach(r => {
+        const tags = (r.dataset.tags || '').split(/\s+/);
+        const match = f === 'all' || tags.includes(f);
+        r.style.display = match ? '' : 'none';
+        if (match) shown++;
+      });
+      vcount.textContent = shown;
+      empty.style.display = shown === 0 ? 'block' : 'none';
+
+      // hide month blocks with zero visible rows
+      document.querySelectorAll('.month-block').forEach(mb => {
+        const any = [...mb.querySelectorAll('.post-row')].some(r => r.style.display !== 'none');
+        mb.style.display = any ? '' : 'none';
+      });
+    });
+  });
+</script>
+
+</body>
+</html>

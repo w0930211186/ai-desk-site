@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect width="1200" height="630" fill="#000000"/>
+
+  <!-- 4 floating diamonds -->
+  <rect x="90" y="90" width="18" height="18" fill="#FFFFFF" transform="rotate(45 99 99)"/>
+  <rect x="1080" y="130" width="14" height="14" fill="#FFFFFF" opacity="0.8" transform="rotate(45 1087 137)"/>
+  <rect x="120" y="520" width="10" height="10" fill="#FFFFFF" opacity="0.7" transform="rotate(45 125 525)"/>
+  <rect x="1060" y="500" width="18" height="18" fill="#FFFFFF" transform="rotate(45 1069 509)"/>
+
+  <!-- Giant outline watermark -->
+  <text x="600" y="440" text-anchor="middle"
+        font-family="'Inter Tight', 'Helvetica Neue', Arial, sans-serif"
+        font-weight="900" font-size="580" fill="none"
+        stroke="rgba(255,255,255,0.06)" stroke-width="1"
+        letter-spacing="-25">AI DESK</text>
+
+  <!-- Top label -->
+  <text x="60" y="60" font-family="'Inter Tight', sans-serif" font-size="14"
+        fill="#8A8A8A" letter-spacing="4" font-weight="500">
+    INDEPENDENT EDITORIAL DESK FOR AI · EST. 2026
+  </text>
+
+  <!-- Main lockup -->
+  <text x="60" y="310" font-family="'Inter Tight', sans-serif"
+        font-weight="900" font-size="150" fill="#FFFFFF" letter-spacing="-5">
+    AI DESK
+  </text>
+
+  <!-- Tagline -->
+  <text x="60" y="400" font-family="'Inter Tight', sans-serif"
+        font-weight="500" font-size="38" fill="#FFFFFF" letter-spacing="-1">
+    A signal, not the noise.
+  </text>
+
+  <!-- Three-line -->
+  <text x="60" y="470" font-family="'Space Grotesk', sans-serif" font-size="20"
+        fill="#8A8A8A" letter-spacing="3" font-weight="500">
+    DAILY 07:00 CST · AI 大事 · AI 新聞 · 一週回顧
+  </text>
+
+  <!-- Bottom bar -->
+  <line x1="60" y1="555" x2="1140" y2="555" stroke="rgba(255,255,255,0.14)" stroke-width="1"/>
+
+  <text x="60" y="585" font-family="'JetBrains Mono', monospace" font-size="13"
+        fill="#8A8A8A" letter-spacing="2">
+    2026 · TAIPEI · EDITORIAL
+  </text>
+  <text x="1140" y="585" text-anchor="end"
+        font-family="'JetBrains Mono', monospace" font-size="13"
+        fill="#8A8A8A" letter-spacing="2">
+    AI-DESK.NETLIFY.APP
+  </text>
+
+  <!-- Corner diamond lockup -->
+  <rect x="1090" y="60" width="14" height="14" fill="#FFFFFF" transform="rotate(45 1097 67)"/>
+</svg>

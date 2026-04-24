@@ -1,0 +1,22 @@
+User-agent: *
+Allow: /
+Disallow: /posts/_template.html
+Disallow: /_planning/
+
+# AI crawlers explicitly welcomed — this is an editorial desk, index us
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+Sitemap: https://ai-desk.netlify.app/sitemap.xml

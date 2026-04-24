@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI DESK — Independent Editorial Desk for AI</title>
+<meta name="description" content="AI DESK — 獨立的 AI 編輯台。每天 07:00 上線 只寫三條線：AI 大事（1 分鐘看完 · 附源連結）／ AI 新聞精選 ／ 一週 AI 大事回顧。不做 feed 噪音 只寫 editorial。An independent editorial desk for AI.">
+<meta name="keywords" content="AI 新聞, AI 大事, AI 週報, AI 編輯台, AI daily, AI journal, Independent AI newsletter, AI DESK">
+<meta name="author" content="AI DESK">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#000000">
+<meta property="og:title" content="AI DESK — Independent Editorial Desk for AI">
+<meta property="og:description" content="每天 07:00 上線 只寫三條線：AI 大事 · AI 新聞 · 一週回顧。Signal, not the noise.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="AI DESK">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:url" content="https://ai-desk.netlify.app/">
+<meta property="og:image" content="https://ai-desk.netlify.app/assets/og-cover.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="AI DESK — Independent Editorial Desk for AI">
+<meta name="twitter:description" content="每天 07:00 只寫三條線：AI 大事 · AI 新聞 · 一週回顧。">
+<meta name="twitter:image" content="https://ai-desk.netlify.app/assets/og-cover.png">
+<link rel="canonical" href="https://ai-desk.netlify.app/">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Noto+Sans+TC:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "AI DESK",
+  "alternateName": "AI 編輯台",
+  "url": "https://ai-desk.netlify.app/",
+  "description": "Independent editorial desk for AI. 每天 07:00 上線 三條線：AI 大事 / 新聞 / 週回顧.",
+  "inLanguage": ["zh-Hant", "en"],
+  "publisher": {
+    "@type": "Organization",
+    "name": "AI DESK",
+    "url": "https://ai-desk.netlify.app/",
+    "logo": "https://ai-desk.netlify.app/assets/favicon.svg"
+  },
+  "potentialAction": {
+    "@type": "ReadAction",
+    "target": "https://ai-desk.netlify.app/posts/"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "AI DESK",
+  "url": "https://ai-desk.netlify.app/",
+  "logo": "https://ai-desk.netlify.app/assets/favicon.svg",
+  "description": "獨立 AI 編輯台 每天 07:00 上線 三條線：AI 大事 / AI 新聞 / 一週回顧",
+  "foundingDate": "2026-04-24",
+  "foundingLocation": "Taipei, Taiwan"
+}
+</script>
+
+<style>
+:root {
+  --bg: #000000;
+  --fg: #FFFFFF;
+  --panel: #F2F2F2;
+  --panel-fg: #0A0A0A;
+  --mute: #8A8A8A;
+  --mute-2: #5A5A5A;
+  --line: rgba(255, 255, 255, 0.14);
+  --line-dark: rgba(0, 0, 0, 0.14);
+  --f-display: 'Inter Tight', 'Noto Sans TC', -apple-system, sans-serif;
+  --f-sans: 'Space Grotesk', 'Noto Sans TC', -apple-system, sans-serif;
+  --f-body: 'Noto Sans TC', 'Inter Tight', sans-serif;
+  --f-mono: 'JetBrains Mono', 'SF Mono', Menlo, monospace;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+body {
+  font-family: var(--f-body);
+  background: var(--bg);
+  color: var(--fg);
+  line-height: 1.6;
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
+a { color: inherit; text-decoration: none; }
+button { font-family: inherit; background: none; border: none; color: inherit; cursor: pointer; }
+
+::selection { background: #FFFFFF; color: #000000; }
+
+/* =================== NAV =================== */
+.nav-top {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+  padding: 1.5rem 2rem;
+  display: flex; justify-content: space-between; align-items: center;
+  mix-blend-mode: difference;
+}
+.nav-brand {
+  font-family: var(--f-display); font-weight: 900;
+  font-size: 0.92rem; letter-spacing: 0.04em;
+  text-transform: uppercase; display: flex; align-items: center; gap: 0.6rem;
+}
+.nav-brand .diamond {
+  width: 10px; height: 10px; background: var(--fg);
+  display: inline-block;
+  animation: spin 4s linear infinite;
+}
+@keyframes spin { from { transform: rotate(45deg); } to { transform: rotate(405deg); } }
+.nav-links { display: flex; gap: 1.4rem; font-family: var(--f-sans); font-size: 0.72rem; letter-spacing: 0.2em; text-transform: uppercase; font-weight: 500; }
+.nav-links a { padding: 0.4rem 0.8rem; border: 1px solid transparent; transition: border-color .25s; }
+.nav-links a:hover { border-color: var(--fg); }
+
+/* =================== HERO =================== */
+section.hero {
+  min-height: 100vh; position: relative; overflow: hidden;
+  display: flex; align-items: center; justify-content: center;
+}
+.hero-watermark {
+  position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+  font-family: var(--f-display); font-weight: 900;
+  font-size: clamp(8rem, 28vw, 32rem);
+  line-height: 0.85; letter-spacing: -0.05em;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.08);
+  white-space: nowrap; pointer-events: none;
+  user-select: none; z-index: 1;
+}
+.hero-inner {
+  position: relative; z-index: 2;
+  display: flex; flex-direction: column; align-items: center; gap: 2rem;
+}
+.circle-wrap {
+  position: relative;
+  width: clamp(340px, 44vw, 560px);
+  height: clamp(340px, 44vw, 560px);
+  display: flex; align-items: center; justify-content: center;
+}
+.circle-text { position: absolute; inset: 0; animation: rotate-circle 26s linear infinite; }
+@keyframes rotate-circle { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+.circle-text svg { width: 100%; height: 100%; }
+.circle-text text {
+  fill: var(--fg); font-family: var(--f-sans); font-size: 10px;
+  letter-spacing: 0.38em; text-transform: uppercase; font-weight: 500;
+}
+.enter-btn {
+  position: relative; z-index: 3;
+  width: clamp(130px, 14vw, 190px); height: clamp(130px, 14vw, 190px);
+  border-radius: 50%;
+  border: 1px solid var(--fg);
+  background: var(--bg); color: var(--fg);
+  font-family: var(--f-sans); font-weight: 500;
+  font-size: 0.8rem; letter-spacing: 0.3em; text-transform: uppercase;
+  display: flex; align-items: center; justify-content: center;
+  cursor: pointer; transition: background .3s, color .3s, transform .3s;
+}
+.enter-btn:hover { background: var(--fg); color: var(--bg); transform: scale(1.05); }
+
+.enter-hint {
+  margin-top: 0.4rem;
+  font-family: var(--f-sans); font-size: 0.66rem;
+  letter-spacing: 0.28em; text-transform: uppercase;
+  color: var(--mute); font-weight: 500;
+  text-align: center;
+}
+
+.hero-banner {
+  position: absolute; top: 8rem; left: 50%; transform: translateX(-50%);
+  z-index: 2; text-align: center;
+  font-family: var(--f-sans); font-size: 0.72rem;
+  letter-spacing: 0.3em; text-transform: uppercase; color: var(--fg);
+  display: flex; align-items: center; gap: 0.8rem;
+  border: 1px solid var(--line); padding: 0.5rem 1.2rem;
+  background: rgba(0,0,0,0.5); backdrop-filter: blur(4px);
+}
+.hero-banner .dot { width: 6px; height: 6px; background: var(--fg); border-radius: 50%; animation: pulse 2s ease-in-out infinite; }
+@keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.3; } }
+
+.hero-caption {
+  position: absolute; bottom: 3rem; left: 0; right: 0;
+  display: flex; justify-content: space-between; align-items: flex-end;
+  padding: 0 2rem; z-index: 2;
+  font-family: var(--f-sans); font-size: 0.7rem;
+  letter-spacing: 0.24em; text-transform: uppercase; color: var(--mute);
+}
+.hero-caption .left { max-width: 300px; line-height: 1.7; font-size: 0.78rem; color: var(--fg); }
+.hero-caption .left b { font-family: var(--f-display); font-weight: 800; letter-spacing: 0.02em; font-size: 0.92rem; display: block; margin-bottom: 0.4rem; }
+.hero-caption .mid { font-family: var(--f-display); font-weight: 900; font-size: 1rem; letter-spacing: 0; color: var(--fg); text-transform: none; }
+.hero-caption .right { text-align: right; }
+
+.float-diamond {
+  position: absolute; width: 18px; height: 18px;
+  background: var(--fg); pointer-events: none; z-index: 2;
+}
+.float-diamond.fd1 { top: 18%; left: 12%; animation: float-a 6s ease-in-out infinite; }
+.float-diamond.fd2 { top: 74%; left: 8%; width: 10px; height: 10px; animation: float-b 9s ease-in-out infinite; opacity: 0.7; }
+.float-diamond.fd3 { top: 22%; right: 14%; width: 14px; height: 14px; animation: float-c 7s ease-in-out infinite; opacity: 0.8; }
+.float-diamond.fd4 { top: 80%; right: 16%; animation: float-a 8s ease-in-out infinite reverse; }
+@keyframes float-a { 0%,100% { transform: rotate(45deg) translateY(0); } 50% { transform: rotate(225deg) translateY(-24px); } }
+@keyframes float-b { 0%,100% { transform: rotate(45deg) translate(0,0); } 50% { transform: rotate(-135deg) translate(18px,-12px); } }
+@keyframes float-c { 0%,100% { transform: rotate(45deg) translate(0,0); } 50% { transform: rotate(405deg) translate(-20px,14px); } }
+
+/* =================== SECTION LABEL =================== */
+.section-label {
+  display: flex; align-items: center; gap: 1rem;
+  font-family: var(--f-sans); font-size: 0.72rem;
+  letter-spacing: 0.3em; text-transform: uppercase; font-weight: 500;
+  color: var(--mute); padding: 0 2rem 2rem;
+}
+.section-label .num { font-family: var(--f-display); font-weight: 900; color: var(--fg); font-size: 1.2rem; letter-spacing: 0; }
+.section-label .bar { flex: 1; height: 1px; background: var(--line); }
+
+/* =================== JOURNAL =================== */
+section.journal {
+  position: relative; padding: 10rem 0 14rem;
+  min-height: 100vh; overflow: hidden;
+}
+.journal-watermark {
+  position: absolute; top: 45%; left: 50%; transform: translate(-50%, -50%);
+  font-family: var(--f-display); font-weight: 900;
+  font-size: clamp(10rem, 32vw, 38rem);
+  line-height: 0.8; letter-spacing: -0.06em;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.06);
+  white-space: nowrap; pointer-events: none; user-select: none; z-index: 0;
+}
+.journal-head {
+  position: relative; z-index: 2; max-width: 1400px; margin: 0 auto;
+  padding: 0 2rem 4rem; display: flex; justify-content: space-between; align-items: flex-end;
+  gap: 2rem; flex-wrap: wrap;
+}
+.journal-head h2 {
+  font-family: var(--f-display); font-weight: 900;
+  font-size: clamp(3rem, 8vw, 7rem); line-height: 0.95; letter-spacing: -0.04em;
+  text-transform: uppercase;
+}
+.journal-head .sub {
+  font-family: var(--f-sans); font-size: 0.78rem; letter-spacing: 0.26em;
+  text-transform: uppercase; color: var(--mute); max-width: 300px; line-height: 1.7;
+}
+.tag-toggle {
+  position: relative; z-index: 2; max-width: 1400px; margin: 0 auto 4rem;
+  padding: 0 2rem; display: flex; flex-wrap: wrap; gap: 0.5rem;
+}
+.tag-toggle button {
+  padding: 0.6rem 1.1rem; border: 1px solid var(--line);
+  font-family: var(--f-sans); font-size: 0.7rem; letter-spacing: 0.2em;
+  text-transform: uppercase; color: var(--fg);
+  transition: background .25s, color .25s, border-color .25s;
+}
+.tag-toggle button:hover,
+.tag-toggle button.active { background: var(--fg); color: var(--bg); border-color: var(--fg); }
+
+.cards-stage {
+  position: relative; z-index: 2; max-width: 1400px; margin: 0 auto;
+  padding: 0 2rem; min-height: 760px;
+}
+.journal-card {
+  position: relative;
+  background: var(--fg); color: var(--panel-fg);
+  padding: 1.6rem 1.4rem; width: 320px;
+  border: 1px solid var(--fg);
+  transition: transform .5s cubic-bezier(.2,.8,.2,1);
+  will-change: transform; display: block;
+}
+.journal-card::before {
+  content: ""; position: absolute; inset: -1px;
+  border: 1px solid var(--fg); z-index: -1; transform: translate(6px, 6px);
+  opacity: 0.3;
+}
+.journal-card .card-meta {
+  font-family: var(--f-mono); font-size: 0.7rem; letter-spacing: 0.14em;
+  color: var(--mute-2); margin-bottom: 1rem; display: flex; justify-content: space-between;
+  text-transform: uppercase;
+}
+.journal-card h3 {
+  font-family: var(--f-display); font-weight: 800;
+  font-size: 1.35rem; line-height: 1.15; letter-spacing: -0.02em;
+  margin-bottom: 0.9rem; color: var(--panel-fg);
+}
+.journal-card p {
+  font-family: var(--f-body); font-size: 0.88rem; line-height: 1.55;
+  color: var(--mute-2); margin-bottom: 1.2rem;
+}
+.journal-card .card-foot {
+  display: flex; justify-content: space-between; align-items: center;
+  font-family: var(--f-sans); font-size: 0.7rem; letter-spacing: 0.22em;
+  text-transform: uppercase; color: var(--panel-fg); border-top: 1px solid var(--line-dark);
+  padding-top: 0.9rem;
+}
+.journal-card .card-foot .arrow { font-weight: 700; font-size: 1rem; }
+.journal-card:hover { transform: rotate(0deg) translateY(-8px) !important; }
+
+.cards-stage .c1 { position: absolute; top: 20px;  left: 4%;  transform: rotate(-5deg); }
+.cards-stage .c2 { position: absolute; top: 120px; left: 32%; transform: rotate(3deg); }
+.cards-stage .c3 { position: absolute; top: 60px;  right: 6%; transform: rotate(-4deg); }
+.cards-stage .c4 { position: absolute; top: 440px; left: 10%; transform: rotate(4deg); }
+.cards-stage .c5 { position: absolute; top: 400px; left: 40%; transform: rotate(-3deg); }
+.cards-stage .c6 { position: absolute; top: 480px; right: 4%; transform: rotate(6deg); }
+
+.journal-card.ghost {
+  background: transparent; color: var(--fg);
+  border-color: var(--line);
+}
+.journal-card.ghost::before { border-color: var(--line); }
+.journal-card.ghost h3, .journal-card.ghost .card-foot { color: var(--fg); }
+.journal-card.ghost p { color: var(--mute); }
+.journal-card.ghost .card-foot { border-top-color: var(--line); }
+
+/* =================== ABOUT SLAB =================== */
+section.about-slab {
+  background: var(--panel); color: var(--panel-fg);
+  padding: 10rem 2rem; position: relative; overflow: hidden;
+}
+.about-slab-inner {
+  max-width: 1400px; margin: 0 auto; position: relative; z-index: 2;
+  display: grid; grid-template-columns: 1fr 1.6fr; gap: 4rem; align-items: start;
+}
+.about-tag {
+  font-family: var(--f-sans); font-size: 0.72rem;
+  letter-spacing: 0.3em; text-transform: uppercase; font-weight: 600;
+  color: var(--panel-fg); border-top: 1px solid var(--panel-fg); padding-top: 1rem;
+  display: flex; gap: 1rem;
+}
+.about-tag .num { font-family: var(--f-display); font-weight: 900; }
+.about-lede {
+  font-family: var(--f-display); font-weight: 900;
+  font-size: clamp(2.2rem, 4.4vw, 4.4rem);
+  line-height: 1.05; letter-spacing: -0.03em; color: var(--panel-fg);
+}
+.about-lede em {
+  font-style: normal; background: var(--panel-fg); color: var(--panel);
+  padding: 0 0.2em; display: inline-block;
+}
+.about-body {
+  font-family: var(--f-body); font-size: 1.05rem; line-height: 1.8;
+  color: #1A1A1A; max-width: 60ch; margin-top: 2rem;
+}
+.about-body p + p { margin-top: 1.2rem; }
+.about-body strong { font-weight: 700; color: #000; }
+
+.about-watermark {
+  position: absolute; bottom: -3rem; left: 50%; transform: translateX(-50%);
+  font-family: var(--f-display); font-weight: 900;
+  font-size: clamp(10rem, 26vw, 28rem); letter-spacing: -0.06em; line-height: 0.8;
+  color: transparent; -webkit-text-stroke: 1px rgba(0, 0, 0, 0.12);
+  white-space: nowrap; pointer-events: none; user-select: none; z-index: 1;
+}
+
+.about-meta-grid {
+  grid-column: 1 / -1; margin-top: 4rem; padding-top: 3rem;
+  border-top: 1px solid var(--panel-fg);
+  display: grid; grid-template-columns: repeat(4, 1fr); gap: 2rem;
+  font-family: var(--f-sans); font-size: 0.78rem;
+}
+.about-meta-grid .cell .label {
+  font-size: 0.66rem; letter-spacing: 0.28em; text-transform: uppercase;
+  color: var(--mute-2); font-weight: 500; margin-bottom: 0.5rem;
+}
+.about-meta-grid .cell .val {
+  font-family: var(--f-display); font-weight: 800; font-size: 1.15rem;
+  color: var(--panel-fg); letter-spacing: -0.01em;
+}
+
+/* =================== MANIFESTO =================== */
+section.manifesto {
+  background: var(--bg); color: var(--fg);
+  padding: 10rem 2rem; position: relative; overflow: hidden;
+}
+.manifesto-inner { max-width: 1200px; margin: 0 auto; position: relative; z-index: 2; }
+.manifesto-text {
+  font-family: var(--f-display); font-weight: 800;
+  font-size: clamp(2.2rem, 5vw, 5rem);
+  line-height: 1.05; letter-spacing: -0.03em;
+}
+.manifesto-text em {
+  font-style: normal; color: transparent; -webkit-text-stroke: 1px var(--fg);
+}
+.manifesto-sig {
+  margin-top: 3rem; font-family: var(--f-mono); font-size: 0.78rem;
+  letter-spacing: 0.18em; color: var(--mute); text-transform: uppercase;
+}
+
+/* =================== FOOTER =================== */
+footer.site-footer {
+  background: var(--panel); color: var(--panel-fg);
+  padding: 6rem 2rem 3rem; position: relative; overflow: hidden;
+}
+.footer-inner { max-width: 1400px; margin: 0 auto; position: relative; z-index: 2; }
+.footer-lockup {
+  font-family: var(--f-display); font-weight: 900;
+  font-size: clamp(4rem, 14vw, 16rem); line-height: 0.85;
+  letter-spacing: -0.06em; text-transform: uppercase;
+}
+.footer-row {
+  margin-top: 4rem; padding-top: 2rem; border-top: 1px solid var(--panel-fg);
+  display: grid; grid-template-columns: repeat(4, 1fr); gap: 2rem;
+  font-family: var(--f-sans); font-size: 0.8rem;
+}
+.footer-row .cell .label {
+  font-size: 0.66rem; letter-spacing: 0.28em; text-transform: uppercase;
+  color: var(--mute-2); font-weight: 500; margin-bottom: 0.5rem;
+}
+.footer-row .cell .val { font-family: var(--f-display); font-weight: 700; letter-spacing: -0.01em; font-size: 1rem; }
+.footer-row .cell .val a { border-bottom: 1px solid transparent; transition: border-color .2s; }
+.footer-row .cell .val a:hover { border-bottom-color: var(--panel-fg); }
+.footer-base {
+  margin-top: 4rem; display: flex; justify-content: space-between; align-items: center;
+  font-family: var(--f-mono); font-size: 0.7rem; letter-spacing: 0.12em;
+  color: var(--mute-2); text-transform: uppercase; flex-wrap: wrap; gap: 1rem;
+}
+
+/* =================== REVEAL =================== */
+.reveal { opacity: 0; transform: translateY(20px); transition: opacity .8s ease, transform .8s ease; }
+.reveal.in { opacity: 1; transform: none; }
+
+/* =================== RESPONSIVE =================== */
+@media (max-width: 900px) {
+  .about-slab-inner { grid-template-columns: 1fr; gap: 2rem; }
+  .about-meta-grid { grid-template-columns: repeat(2, 1fr); }
+  .footer-row { grid-template-columns: repeat(2, 1fr); }
+  .cards-stage { min-height: auto; padding: 0 1rem; }
+  .cards-stage .c1, .cards-stage .c2, .cards-stage .c3,
+  .cards-stage .c4, .cards-stage .c5, .cards-stage .c6 {
+    position: relative; top: auto; left: auto; right: auto;
+    transform: none; margin: 0 auto 1.2rem; width: 100%; max-width: 360px;
+  }
+  .journal-head h2 { font-size: 3rem; }
+  .hero-caption { flex-direction: column; gap: 1rem; text-align: center; }
+  .hero-caption .right { text-align: center; }
+}
+@media (max-width: 600px) {
+  .nav-top { padding: 1rem 1rem; }
+  .nav-links { gap: 0.5rem; font-size: 0.58rem; }
+  .nav-links a { padding: 0.3rem 0.5rem; }
+  section.about-slab, section.manifesto, section.journal { padding-left: 1rem; padding-right: 1rem; }
+  footer.site-footer { padding: 4rem 1rem 2rem; }
+  .footer-row { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+
+<nav class="nav-top">
+  <a href="/" class="nav-brand">
+    <span class="diamond"></span>
+    AI DESK
+  </a>
+  <div class="nav-links">
+    <a href="posts/">Journal</a>
+    <a href="about.html">About</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="hero-watermark">AI DESK</div>
+
+  <span class="float-diamond fd1"></span>
+  <span class="float-diamond fd2"></span>
+  <span class="float-diamond fd3"></span>
+  <span class="float-diamond fd4"></span>
+
+  <div class="hero-inner">
+    <div class="circle-wrap">
+      <div class="circle-text">
+        <svg viewBox="0 0 400 400">
+          <defs>
+            <path id="circlePath" d="M 200,200 m -170,0 a 170,170 0 1,1 340,0 a 170,170 0 1,1 -340,0"/>
+          </defs>
+          <text>
+            <textPath href="#circlePath" startOffset="0">
+              INDEPENDENT EDITORIAL DESK FOR AI · SIGNAL NOT THE NOISE · EST. 2026 · TAIPEI ·
+            </textPath>
+          </text>
+        </svg>
+      </div>
+      <a href="posts/" class="enter-btn" aria-label="Enter journal">Enter</a>
+    </div>
+    <div class="enter-hint">→ 看全部刊文 · all editions</div>
+  </div>
+
+  <div class="hero-banner" role="status">
+    <span class="dot"></span>
+    <span>Daily 07:00 CST · AI 大事 · 新聞 · 週回顧</span>
+  </div>
+
+  <div class="hero-caption">
+    <div class="left">
+      <b>每天 07:00 上線</b>
+      只寫三條線：<br>
+      · AI 大事（1 分鐘看完 · 附源連結）<br>
+      · AI 新聞（深度挑）<br>
+      · 一週回顧（週日 09:00）
+    </div>
+    <div class="mid">AI DESK</div>
+    <div class="right">
+      2026 · 04 · 24 / FRI<br>
+      EDITION N°01
+    </div>
+  </div>
+</section>
+
+<div class="section-label">
+  <span class="num">01</span>
+  <span>Journal — latest editions</span>
+  <span class="bar"></span>
+  <span>6 slots · 1 published</span>
+</div>
+
+<section class="journal">
+  <div class="journal-watermark">JOURNAL</div>
+
+  <div class="journal-head">
+    <h2>Latest<br>Editions</h2>
+    <p class="sub">
+      每天早上 07:00<br>
+      只寫三條線 不做 feed 噪音<br>
+      AI 大事 · AI 新聞 · 一週回顧
+    </p>
+  </div>
+
+  <div class="tag-toggle" role="tablist" aria-label="Filter editions">
+    <button class="active" data-filter="all">All</button>
+    <button data-filter="daily">Daily · 大事</button>
+    <button data-filter="news">News · 新聞</button>
+    <button data-filter="weekly">Weekly · 週回顧</button>
+    <button data-filter="meta">Meta · 站務</button>
+  </div>
+
+  <div class="cards-stage">
+    <!-- FEED-INJECTION-START -->
+    <a href="posts/2026-04-24-ai-desk-opening.html" class="journal-card c1 reveal" data-tags="meta">
+      <div class="card-meta"><span>N°01</span><span>2026 · 04 · 24</span></div>
+      <h3>發刊詞 — 獨立 AI 編輯台的第一頁</h3>
+      <p>為什麼要有這個編輯台 只寫什麼三條線 不做什麼 怎麼寫出來的 讀者該期待什麼 一份把刀磨好再開門的立場書。</p>
+      <div class="card-foot"><span>Meta · 站務</span><span class="arrow">→</span></div>
+    </a>
+
+    <div class="journal-card ghost c2 reveal" data-tags="daily">
+      <div class="card-meta"><span>N°02</span><span>Coming</span></div>
+      <h3>AI 大事<br>1 分鐘看完本日</h3>
+      <p>每天 07:00 CST · 三到五條過去 24 小時真正要命的 AI 大事 每條附原始網址 看完走人。</p>
+      <div class="card-foot"><span>Daily · 大事</span><span class="arrow">→</span></div>
+    </div>
+
+    <div class="journal-card ghost c3 reveal" data-tags="news">
+      <div class="card-meta"><span>N°03</span><span>Coming</span></div>
+      <h3>AI 新聞精選<br>這週值得深讀的一條</h3>
+      <p>每週二 · 五 07:00 從七天的大事裡挑一件真正有後座力的 把前因後果拆到你懂為止。</p>
+      <div class="card-foot"><span>News · 新聞</span><span class="arrow">→</span></div>
+    </div>
+
+    <div class="journal-card ghost c4 reveal" data-tags="weekly">
+      <div class="card-meta"><span>N°04</span><span>Coming</span></div>
+      <h3>一週回顧<br>七天 AI 大事一口氣掃</h3>
+      <p>每週日 09:00 CST 把整週的 AI 大事按時間線排好 重要度標註 錯過的也能一次補回來。</p>
+      <div class="card-foot"><span>Weekly · 週回顧</span><span class="arrow">→</span></div>
+    </div>
+
+    <div class="journal-card ghost c5 reveal" data-tags="meta">
+      <div class="card-meta"><span>N°05</span><span>Coming</span></div>
+      <h3>Meta · 站務<br>編輯台自己的事</h3>
+      <p>季度一次 講這個編輯台怎麼運作 供稿管線 AI 怎麼跑 人工怎麼守門 全透明 給讀者看後台。</p>
+      <div class="card-foot"><span>Meta · 站務</span><span class="arrow">→</span></div>
+    </div>
+
+    <div class="journal-card ghost c6 reveal" data-tags="weekly">
+      <div class="card-meta"><span>N°06</span><span>Coming</span></div>
+      <h3>週末長文<br>一件值得想兩天的事</h3>
+      <p>不定期 · 週末上線 一個 AI 大命題 拆開來用三千字說清楚 不趕 KPI 只寫給會讀完的人。</p>
+      <div class="card-foot"><span>Weekly · 長文</span><span class="arrow">→</span></div>
+    </div>
+    <!-- FEED-INJECTION-END -->
+  </div>
+</section>
+
+<div class="section-label">
+  <span class="num">02</span>
+  <span>About — the stance</span>
+  <span class="bar"></span>
+  <span>Independent editorial</span>
+</div>
+
+<section class="about-slab">
+  <div class="about-watermark">EDITORIAL</div>
+  <div class="about-slab-inner">
+    <div>
+      <div class="about-tag"><span class="num">02</span><span>About the desk</span></div>
+    </div>
+    <div>
+      <h2 class="about-lede">
+        AI 不是故事。<br>
+        <em>你怎麼用它，</em><br>
+        才是唯一的<br>
+        新聞。
+      </h2>
+      <div class="about-body">
+        <p>AI DESK 是一個獨立的編輯台 不是 newsletter 不是自媒體 不是某個品牌的副產品 自己一套視覺 自己一條聲音線 自己一個立場。</p>
+        <p>每天早上 <strong>07:00</strong> 上線 只寫 <strong>三條線</strong>：AI 大事（1 分鐘看完 · 附源連結）／ AI 新聞精選 ／ 一週 AI 大事回顧。多的不寫 少的不湊。</p>
+        <p>我們不做 hype 不湊熱度 不跟 feed 拼速度。我們做 <strong>editorial</strong> — 把真正要命的那幾條挑出來 寫清楚 寫完為止。</p>
+      </div>
+    </div>
+
+    <div class="about-meta-grid">
+      <div class="cell">
+        <div class="label">Est.</div>
+        <div class="val">2026 · 04 · 24</div>
+      </div>
+      <div class="cell">
+        <div class="label">Cadence</div>
+        <div class="val">Daily · 07:00 CST</div>
+      </div>
+      <div class="cell">
+        <div class="label">Lines</div>
+        <div class="val">Daily / News / Weekly</div>
+      </div>
+      <div class="cell">
+        <div class="label">Mode</div>
+        <div class="val">Editorial · Independent</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="section-label">
+  <span class="num">03</span>
+  <span>Manifesto — N°01</span>
+  <span class="bar"></span>
+  <span>1 of 1</span>
+</div>
+
+<section class="manifesto">
+  <div class="manifesto-inner">
+    <p class="manifesto-text">
+      We publish a <em>signal</em>,<br>
+      not the noise.<br>
+      07:00. Three lines.<br>
+      <em>Ship or shut up.</em>
+    </p>
+    <div class="manifesto-sig">— AI DESK · Manifesto N°01 · 2026 · 04 · 24 · Taipei</div>
+  </div>
+</section>
+
+<footer class="site-footer" id="contact">
+  <div class="footer-inner">
+    <div class="footer-lockup">AI DESK</div>
+    <div class="footer-row">
+      <div class="cell">
+        <div class="label">Contact</div>
+        <div class="val"><a href="mailto:hello@ai-desk.xyz">hello [at] ai-desk.xyz</a></div>
+      </div>
+      <div class="cell">
+        <div class="label">Journal</div>
+        <div class="val"><a href="posts/">All editions →</a></div>
+      </div>
+      <div class="cell">
+        <div class="label">About</div>
+        <div class="val"><a href="about.html">The stance →</a></div>
+      </div>
+      <div class="cell">
+        <div class="label">Cadence</div>
+        <div class="val">Daily · 07:00 CST</div>
+      </div>
+    </div>
+    <div class="footer-base">
+      <div>© 2026 AI DESK · Independent editorial</div>
+      <div>A signal, not the noise.</div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+  }, { threshold: 0.1 });
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+
+  document.querySelectorAll('.tag-toggle button').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.tag-toggle button').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const filter = btn.getAttribute('data-filter') || 'all';
+      document.querySelectorAll('.cards-stage .journal-card').forEach(card => {
+        const tags = (card.getAttribute('data-tags') || '').split(/\s+/);
+        const show = filter === 'all' || tags.includes(filter);
+        card.style.display = show ? '' : 'none';
+      });
+    });
+  });
+</script>
+
+</body>
+</html>
