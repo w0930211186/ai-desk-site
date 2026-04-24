@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect width="1200" height="630" fill="#000"/>
+  <g fill="none" stroke="#fff" stroke-width="2" opacity="0.08">
+    <line x1="0" y1="100" x2="1200" y2="100"/>
+    <line x1="0" y1="200" x2="1200" y2="200"/>
+    <line x1="0" y1="300" x2="1200" y2="300"/>
+    <line x1="0" y1="400" x2="1200" y2="400"/>
+    <line x1="0" y1="500" x2="1200" y2="500"/>
+  </g>
+  <text x="60" y="90" font-family="JetBrains Mono, monospace" font-size="14" fill="#fff" opacity="0.45" letter-spacing="4">SOURCE · MESHCORE · 2026.04.23</text>
+  <text x="60" y="270" font-family="Inter, -apple-system, sans-serif" font-weight="900" font-size="95" fill="#fff" letter-spacing="-3">MeshCore</text>
+  <text x="60" y="380" font-family="Inter, -apple-system, sans-serif" font-weight="900" font-size="70" fill="#fff" letter-spacing="-2">一分為二</text>
+  <text x="60" y="450" font-family="Inter, -apple-system, sans-serif" font-weight="400" font-size="28" fill="#fff" opacity="0.55">18 人團隊 · 6 vs 12 · AI-gen code</text>
+  <text x="60" y="570" font-family="JetBrains Mono, monospace" font-size="13" fill="#fff" opacity="0.35" letter-spacing="3">· 10-DAY SPLIT TIMELINE · EDITORIAL RENDER ·</text>
+</svg>
