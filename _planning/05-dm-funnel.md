@@ -89,7 +89,7 @@ exports.handler = async (event) => {
 1. 回到 Meta Developer App
 2. sidebar → Webhooks
 3. Object: `instagram`
-4. Callback URL: `https://ai-desk.netlify.app/.netlify/functions/ig-webhook`
+4. Callback URL: `https://ai-desk-tw.netlify.app/.netlify/functions/ig-webhook`
 5. Verify Token: 自己定一個 random string 存到 Netlify env var
 6. Subscribe fields: `messages` + `message_reactions` + `comments` + `live_comments`
 
@@ -178,7 +178,7 @@ https://notion.so/ai-desk/YYYY-MM-DD-xxxxx
 📍 明天 07:00 一樣的時間見
 
 想訂閱每日推播？
-官網 → ai-desk.netlify.app 右下角 email 欄
+官網 → ai-desk-tw.netlify.app 右下角 email 欄
 ```
 
 ### Step 3 · 同一人 7 天內再觸發

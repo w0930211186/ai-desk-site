@@ -22,7 +22,7 @@ NOTION_DATABASE_ID=xxxxxxxxxxxx
 GITHUB_TOKEN=ghp_xxxx
 GITHUB_REPO=username/ai-desk-site
 GIT_AUTHOR_NAME=ai-desk-bot
-GIT_AUTHOR_EMAIL=bot@ai-desk.netlify.app
+GIT_AUTHOR_EMAIL=bot@ai-desk-tw.netlify.app
 ```
 
 **檔案依賴**

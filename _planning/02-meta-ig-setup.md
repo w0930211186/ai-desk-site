@@ -43,7 +43,7 @@
 ## 3. 設定 App 基本資訊
 
 側邊 App Settings → Basic：
-- App Domains：`ai-desk.netlify.app`（等網址確定再填）
+- App Domains：`ai-desk-tw.netlify.app`（等網址確定再填）
 - Privacy Policy URL：網站上線後一定要有 `/privacy.html`
 - Category：`Business and Pages`
 - 先存草稿 不用馬上送審
@@ -119,7 +119,7 @@ https://graph.facebook.com/v19.0/<PAGE_ID>?fields=instagram_business_account&acc
 **Step 1 · 建 container**（建立但先不發）
 ```
 POST https://graph.facebook.com/v19.0/<IG_BUSINESS_ID>/media
-  ?image_url=https://ai-desk.netlify.app/assets/og-cover.png
+  ?image_url=https://ai-desk-tw.netlify.app/assets/og-cover.png
   &caption=測試 · AI DESK
   &access_token=<PAGE_ACCESS_TOKEN>
 ```
