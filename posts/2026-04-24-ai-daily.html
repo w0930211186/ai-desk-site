@@ -8,7 +8,7 @@
     2026/04/24 · AI 大事 · GPT-5.5、Claude Code postmortem、AI code 裂開源          文章標題 純文字
     2026/04/24 · AI 大事 · GPT-5.5、Claude Code postmortem、AI code 裂開源     標題含 <em>inline outline</em> 的排版版本 (optional 若空則 fallback 到 2026/04/24 · AI 大事 · GPT-5.5、Claude Code postmortem、AI code 裂開源)
     04/24 AI 大事    breadcrumb 用的短標題 (<= 24 字)
-    OpenAI 不到 6 個月再出 GPT-5.5。Anthropic 少見公開 Claude Code 品質 postmortem。一個開源團隊因為 AI 生 code 正式裂開。Karpathy 風的互動式 LLM 教學一夜爆火。韓國首例 AI 假圖造成公共恐慌被拘捕。5 條附圖附源附判斷。        摘要 140-160 字 meta description / og:description 共用
+    OpenAI 不到 6 個月再出 GPT-5.5。Anthropic 少見公開 Claude Code postmortem。一個開源團隊因為 AI 生 code 正式裂開。Karpathy 風的互動式 LLM 教學一夜爆火。韓國首例 AI 假圖造成公共恐慌被拘捕。5 條附圖附源附判斷。        摘要 140-160 字 meta description / og:description 共用
     2026-04-24-ai-daily           URL slug 格式 YYYY-MM-DD-<topic-ascii>
     2026-04-24T07:00:00+08:00       發布日期 ISO8601 ex. 2026-04-24T07:00:00+08:00
     2026 · 04 · 24   顯示用 ex. 2026 · 04 · 24
@@ -31,27 +31,31 @@
 </aside>
 
 <style>
-.keypoints { border: 2px solid #000; padding: 1.2rem 1.4rem; margin: 2rem 0 3rem; background: #F2F2F2; }
-.keypoints .kp-label { font-family: "JetBrains Mono", monospace; font-size: 0.78rem; letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 0.8rem; opacity: 0.7; }
-.keypoints ol { margin: 0; padding-left: 1.2rem; }
-.keypoints li { margin-bottom: 0.5rem; line-height: 1.55; font-size: 0.95rem; }
-.keypoints li strong { font-weight: 700; }
-.source-footer { border-top: 1px dashed rgba(0,0,0,0.2); margin-top: 1.5rem; padding-top: 0.8rem; font-family: "JetBrains Mono", monospace; font-size: 0.78rem; opacity: 0.65; }
-.source-footer-label { text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.3rem; }
+/* 深色配色 · 跟站站同步 */
+.keypoints { border: 2px solid var(--fg, #fff); padding: 1.4rem 1.6rem; margin: 2.5rem 0 3rem; background: rgba(255,255,255,0.04); color: var(--fg, #fff); }
+.keypoints .kp-label { font-family: "JetBrains Mono", monospace; font-size: 0.74rem; letter-spacing: 0.14em; text-transform: uppercase; margin-bottom: 1rem; opacity: 0.6; color: var(--fg, #fff); }
+.keypoints ol { margin: 0; padding-left: 1.4rem; color: var(--fg, #D9D9D9); }
+.keypoints li { margin-bottom: 0.7rem; line-height: 1.65; font-size: 1rem; }
+.keypoints li strong { color: var(--fg, #fff); font-weight: 700; }
+
+.source-footer { border-top: 1px dashed rgba(255,255,255,0.18); margin-top: 2rem; padding-top: 1rem; font-family: "JetBrains Mono", monospace; font-size: 0.78rem; opacity: 0.55; color: var(--fg, #D9D9D9); }
+.source-footer-label { text-transform: uppercase; letter-spacing: 0.12em; margin-bottom: 0.4rem; }
 .source-footer ul { list-style: none; padding: 0; margin: 0; }
-.source-footer li { margin: 0.2rem 0; }
-.source-footer a { color: inherit; text-decoration: underline; }
-.no-image-card { background: #F2F2F2; border: 1px dashed rgba(0,0,0,0.2); padding: 1.2rem 1.5rem; margin: 1.5rem 0; text-align: center; font-family: "JetBrains Mono", monospace; font-size: 0.72rem; opacity: 0.5; letter-spacing: 0.08em; text-transform: uppercase; }
-figure { margin: 1.5rem 0; }
-figure img { display: block; width: 100%; height: auto; max-height: 420px; object-fit: cover; object-position: center; background: #F2F2F2; }
-figure figcaption { font-family: "JetBrains Mono", monospace; font-size: 0.72rem; opacity: 0.55; margin-top: 0.5rem; letter-spacing: 0.08em; }
+.source-footer li { margin: 0.25rem 0; }
+.source-footer a { color: var(--fg, #fff); text-decoration: underline; }
+
+.no-image-card { background: rgba(255,255,255,0.03); border: 1px dashed rgba(255,255,255,0.2); padding: 1.4rem 1.5rem; margin: 1.8rem 0; text-align: center; font-family: "JetBrains Mono", monospace; font-size: 0.72rem; opacity: 0.6; letter-spacing: 0.08em; text-transform: uppercase; color: var(--fg, #D9D9D9); }
+
+figure { margin: 1.8rem 0; }
+figure img { display: block; width: 100%; height: auto; max-height: 460px; object-fit: cover; object-position: center; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.1); }
+figure figcaption { font-family: "JetBrains Mono", monospace; font-size: 0.7rem; opacity: 0.5; margin-top: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; }
 </style>
 
 <hr>
 
 <h2><span class="num">N°02</span> GPT-5.5 · tool use 和 coding agent 的前置調</h2>
 
-<div class="no-image-card">圖片來源受限（OpenAI 官網限制爬取） · 點下方連結看原文視覺</div>
+<div class="no-image-card">OpenAI 官網限制爬取 · 點下方連結看原文視覺</div>
 
 <p><strong>不到 6 個月，OpenAI 再出一版。</strong></p>
 
@@ -89,7 +93,10 @@ figure figcaption { font-family: "JetBrains Mono", monospace; font-size: 0.72rem
 
 <h2><span class="num">N°03</span> Anthropic · Claude Code 品質 postmortem</h2>
 
-<div class="no-image-card">Anthropic 官方 postmortem · 點下方連結看完整 timeline 和 latency charts</div>
+<figure>
+<img src="https://www-cdn.anthropic.com/images/4zrzovbb/website/de3bcf9733b61f57234d8c45e663b1bd48677ea1-3840x2160.png" alt="Claude Code 事件 latency chart">
+<figcaption>SOURCE · anthropic.com · latency chart · 事件期間</figcaption>
+</figure>
 
 <p><strong>一週前官方承認 Claude Code 品質下滑。今天 postmortem 出來了。</strong></p>
 
@@ -125,7 +132,10 @@ figure figcaption { font-family: "JetBrains Mono", monospace; font-size: 0.72rem
 
 <h2><span class="num">N°04</span> MeshCore · 開源團隊因 AI 生 code 分裂</h2>
 
-<div class="no-image-card">MeshCore 官方 blog · 10 天裂開 timeline 全記錄 · 點下方連結</div>
+<figure>
+<img src="https://blog.meshcore.io/assets/images/2026/04/23/trust-ai-gen-firmware.png" alt="MeshCore 團隊內部對 AI 生成 firmware 的信任討論">
+<figcaption>SOURCE · blog.meshcore.io · 團隊內部 PR template 爭議</figcaption>
+</figure>
 
 <p><strong>MeshCore 一分為二。核心爭議：AI 生成 code 到底算誰寫的。</strong></p>
 
@@ -152,7 +162,7 @@ figure figcaption { font-family: "JetBrains Mono", monospace; font-size: 0.72rem
 <div class="source-footer">
 <div class="source-footer-label">— 源 · Sources</div>
 <ul>
-<li>MeshCore 官方 blog 10 天 timeline · <a href="https://blog.meshcore.io/2026/04/23/the-split" target="_blank" rel="noopener">blog.meshcore.io/2026/04/23/the-split</a></li>
+<li>MeshCore 官方 blog · <a href="https://blog.meshcore.io/2026/04/23/the-split" target="_blank" rel="noopener">blog.meshcore.io/2026/04/23/the-split</a></li>
 <li>HN 討論（253 分）· <a href="https://news.ycombinator.com/item?id=meshcore" target="_blank" rel="noopener">news.ycombinator.com</a></li>
 </ul>
 </div>
@@ -161,7 +171,7 @@ figure figcaption { font-family: "JetBrains Mono", monospace; font-size: 0.72rem
 
 <h2><span class="num">N°05</span> 《How LLMs Work》· 一個互動頁炸爆 Karpathy 教育市場</h2>
 
-<div class="no-image-card">GitHub Pages 專案 · 無 og:image · 點連結直接進互動</div>
+<div class="no-image-card">GitHub Pages 純 JS 互動 · 沒有 og:image · 點連結直接體驗</div>
 
 <p><strong>基於 Andrej Karpathy 3.5 小時 YouTube 講座的互動式 LLM 解說頁，上線不到 12 小時 HN 200 分。</strong></p>
 
@@ -197,7 +207,7 @@ figure figcaption { font-family: "JetBrains Mono", monospace; font-size: 0.72rem
 
 <figure>
 <img src="https://ichef.bbci.co.uk/news/1024/branded_news/4940/live/f8c31140-3fb5-11f1-b61b-1d0ccf7b6022.jpg" alt="Seoul wolf AI fake photo case">
-<figcaption>SOURCE · BBC News</figcaption>
+<figcaption>SOURCE · BBC News · 首爾 AI 假狼事件</figcaption>
 </figure>
 
 <p><strong>韓國成為第一個因「傳播 AI 假圖造成公共緊張」就立實罪的國家。</strong></p>
@@ -259,13 +269,13 @@ figure figcaption { font-family: "JetBrains Mono", monospace; font-size: 0.72rem
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>2026/04/24 · AI 大事 · GPT-5.5、Claude Code postmortem、AI code 裂開源 | AI DESK</title>
-<meta name="description" content="OpenAI 不到 6 個月再出 GPT-5.5。Anthropic 少見公開 Claude Code 品質 postmortem。一個開源團隊因為 AI 生 code 正式裂開。Karpathy 風的互動式 LLM 教學一夜爆火。韓國首例 AI 假圖造成公共恐慌被拘捕。5 條附圖附源附判斷。">
+<meta name="description" content="OpenAI 不到 6 個月再出 GPT-5.5。Anthropic 少見公開 Claude Code postmortem。一個開源團隊因為 AI 生 code 正式裂開。Karpathy 風的互動式 LLM 教學一夜爆火。韓國首例 AI 假圖造成公共恐慌被拘捕。5 條附圖附源附判斷。">
 <meta name="keywords" content="AI DESK, Daily · AI 大事, GPT-5.5, Claude Code, Anthropic postmortem, agentic coding, open-source, deepfake">
 <meta name="author" content="AI DESK">
 <meta name="robots" content="index, follow">
 <meta name="theme-color" content="#000000">
 <meta property="og:title" content="2026/04/24 · AI 大事 · GPT-5.5、Claude Code postmortem、AI code 裂開源">
-<meta property="og:description" content="OpenAI 不到 6 個月再出 GPT-5.5。Anthropic 少見公開 Claude Code 品質 postmortem。一個開源團隊因為 AI 生 code 正式裂開。Karpathy 風的互動式 LLM 教學一夜爆火。韓國首例 AI 假圖造成公共恐慌被拘捕。5 條附圖附源附判斷。">
+<meta property="og:description" content="OpenAI 不到 6 個月再出 GPT-5.5。Anthropic 少見公開 Claude Code postmortem。一個開源團隊因為 AI 生 code 正式裂開。Karpathy 風的互動式 LLM 教學一夜爆火。韓國首例 AI 假圖造成公共恐慌被拘捕。5 條附圖附源附判斷。">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="AI DESK">
 <meta property="og:locale" content="zh_TW">
@@ -278,7 +288,7 @@ figure figcaption { font-family: "JetBrains Mono", monospace; font-size: 0.72rem
 <meta property="article:section" content="Daily · AI 大事">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="2026/04/24 · AI 大事 · GPT-5.5、Claude Code postmortem、AI code 裂開源">
-<meta name="twitter:description" content="OpenAI 不到 6 個月再出 GPT-5.5。Anthropic 少見公開 Claude Code 品質 postmortem。一個開源團隊因為 AI 生 code 正式裂開。Karpathy 風的互動式 LLM 教學一夜爆火。韓國首例 AI 假圖造成公共恐慌被拘捕。5 條附圖附源附判斷。">
+<meta name="twitter:description" content="OpenAI 不到 6 個月再出 GPT-5.5。Anthropic 少見公開 Claude Code postmortem。一個開源團隊因為 AI 生 code 正式裂開。Karpathy 風的互動式 LLM 教學一夜爆火。韓國首例 AI 假圖造成公共恐慌被拘捕。5 條附圖附源附判斷。">
 <meta name="twitter:image" content="https://ai-desk-tw.netlify.app/assets/og-cover.png">
 <link rel="canonical" href="https://ai-desk-tw.netlify.app/posts/2026-04-24-ai-daily.html">
 <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
@@ -297,7 +307,7 @@ figure figcaption { font-family: "JetBrains Mono", monospace; font-size: 0.72rem
     "name": "AI DESK",
     "url": "https://ai-desk-tw.netlify.app/"
   },
-  "description": "OpenAI 不到 6 個月再出 GPT-5.5。Anthropic 少見公開 Claude Code 品質 postmortem。一個開源團隊因為 AI 生 code 正式裂開。Karpathy 風的互動式 LLM 教學一夜爆火。韓國首例 AI 假圖造成公共恐慌被拘捕。5 條附圖附源附判斷。",
+  "description": "OpenAI 不到 6 個月再出 GPT-5.5。Anthropic 少見公開 Claude Code postmortem。一個開源團隊因為 AI 生 code 正式裂開。Karpathy 風的互動式 LLM 教學一夜爆火。韓國首例 AI 假圖造成公共恐慌被拘捕。5 條附圖附源附判斷。",
   "articleSection": "Daily · AI 大事",
   "url": "https://ai-desk-tw.netlify.app/posts/2026-04-24-ai-daily.html"
 }
@@ -513,7 +523,7 @@ footer.site-footer { background: var(--panel); color: var(--panel-fg); padding: 
     <span>07:00 CST</span>
   </div>
   <h1 class="post-title">2026/04/24 · AI 大事 · GPT-5.5、Claude Code postmortem、AI code 裂開源</h1>
-  <p class="post-sub">OpenAI 不到 6 個月再出 GPT-5.5。Anthropic 少見公開 Claude Code 品質 postmortem。一個開源團隊因為 AI 生 code 正式裂開。Karpathy 風的互動式 LLM 教學一夜爆火。韓國首例 AI 假圖造成公共恐慌被拘捕。5 條附圖附源附判斷。</p>
+  <p class="post-sub">OpenAI 不到 6 個月再出 GPT-5.5。Anthropic 少見公開 Claude Code postmortem。一個開源團隊因為 AI 生 code 正式裂開。Karpathy 風的互動式 LLM 教學一夜爆火。韓國首例 AI 假圖造成公共恐慌被拘捕。5 條附圖附源附判斷。</p>
   <div class="post-tags"><span class="tag">Daily · AI 大事</span><span class="tag mute">OpenAI</span><span class="tag mute">Anthropic</span><span class="tag mute">open-source</span><span class="tag mute">policy</span></div>
 </header>
 
@@ -532,27 +542,31 @@ footer.site-footer { background: var(--panel); color: var(--panel-fg); padding: 
 </aside>
 
 <style>
-.keypoints { border: 2px solid #000; padding: 1.2rem 1.4rem; margin: 2rem 0 3rem; background: #F2F2F2; }
-.keypoints .kp-label { font-family: "JetBrains Mono", monospace; font-size: 0.78rem; letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 0.8rem; opacity: 0.7; }
-.keypoints ol { margin: 0; padding-left: 1.2rem; }
-.keypoints li { margin-bottom: 0.5rem; line-height: 1.55; font-size: 0.95rem; }
-.keypoints li strong { font-weight: 700; }
-.source-footer { border-top: 1px dashed rgba(0,0,0,0.2); margin-top: 1.5rem; padding-top: 0.8rem; font-family: "JetBrains Mono", monospace; font-size: 0.78rem; opacity: 0.65; }
-.source-footer-label { text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.3rem; }
+/* 深色配色 · 跟站站同步 */
+.keypoints { border: 2px solid var(--fg, #fff); padding: 1.4rem 1.6rem; margin: 2.5rem 0 3rem; background: rgba(255,255,255,0.04); color: var(--fg, #fff); }
+.keypoints .kp-label { font-family: "JetBrains Mono", monospace; font-size: 0.74rem; letter-spacing: 0.14em; text-transform: uppercase; margin-bottom: 1rem; opacity: 0.6; color: var(--fg, #fff); }
+.keypoints ol { margin: 0; padding-left: 1.4rem; color: var(--fg, #D9D9D9); }
+.keypoints li { margin-bottom: 0.7rem; line-height: 1.65; font-size: 1rem; }
+.keypoints li strong { color: var(--fg, #fff); font-weight: 700; }
+
+.source-footer { border-top: 1px dashed rgba(255,255,255,0.18); margin-top: 2rem; padding-top: 1rem; font-family: "JetBrains Mono", monospace; font-size: 0.78rem; opacity: 0.55; color: var(--fg, #D9D9D9); }
+.source-footer-label { text-transform: uppercase; letter-spacing: 0.12em; margin-bottom: 0.4rem; }
 .source-footer ul { list-style: none; padding: 0; margin: 0; }
-.source-footer li { margin: 0.2rem 0; }
-.source-footer a { color: inherit; text-decoration: underline; }
-.no-image-card { background: #F2F2F2; border: 1px dashed rgba(0,0,0,0.2); padding: 1.2rem 1.5rem; margin: 1.5rem 0; text-align: center; font-family: "JetBrains Mono", monospace; font-size: 0.72rem; opacity: 0.5; letter-spacing: 0.08em; text-transform: uppercase; }
-figure { margin: 1.5rem 0; }
-figure img { display: block; width: 100%; height: auto; max-height: 420px; object-fit: cover; object-position: center; background: #F2F2F2; }
-figure figcaption { font-family: "JetBrains Mono", monospace; font-size: 0.72rem; opacity: 0.55; margin-top: 0.5rem; letter-spacing: 0.08em; }
+.source-footer li { margin: 0.25rem 0; }
+.source-footer a { color: var(--fg, #fff); text-decoration: underline; }
+
+.no-image-card { background: rgba(255,255,255,0.03); border: 1px dashed rgba(255,255,255,0.2); padding: 1.4rem 1.5rem; margin: 1.8rem 0; text-align: center; font-family: "JetBrains Mono", monospace; font-size: 0.72rem; opacity: 0.6; letter-spacing: 0.08em; text-transform: uppercase; color: var(--fg, #D9D9D9); }
+
+figure { margin: 1.8rem 0; }
+figure img { display: block; width: 100%; height: auto; max-height: 460px; object-fit: cover; object-position: center; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.1); }
+figure figcaption { font-family: "JetBrains Mono", monospace; font-size: 0.7rem; opacity: 0.5; margin-top: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; }
 </style>
 
 <hr>
 
 <h2><span class="num">N°02</span> GPT-5.5 · tool use 和 coding agent 的前置調</h2>
 
-<div class="no-image-card">圖片來源受限（OpenAI 官網限制爬取） · 點下方連結看原文視覺</div>
+<div class="no-image-card">OpenAI 官網限制爬取 · 點下方連結看原文視覺</div>
 
 <p><strong>不到 6 個月，OpenAI 再出一版。</strong></p>
 
@@ -590,7 +604,10 @@ figure figcaption { font-family: "JetBrains Mono", monospace; font-size: 0.72rem
 
 <h2><span class="num">N°03</span> Anthropic · Claude Code 品質 postmortem</h2>
 
-<div class="no-image-card">Anthropic 官方 postmortem · 點下方連結看完整 timeline 和 latency charts</div>
+<figure>
+<img src="https://www-cdn.anthropic.com/images/4zrzovbb/website/de3bcf9733b61f57234d8c45e663b1bd48677ea1-3840x2160.png" alt="Claude Code 事件 latency chart">
+<figcaption>SOURCE · anthropic.com · latency chart · 事件期間</figcaption>
+</figure>
 
 <p><strong>一週前官方承認 Claude Code 品質下滑。今天 postmortem 出來了。</strong></p>
 
@@ -626,7 +643,10 @@ figure figcaption { font-family: "JetBrains Mono", monospace; font-size: 0.72rem
 
 <h2><span class="num">N°04</span> MeshCore · 開源團隊因 AI 生 code 分裂</h2>
 
-<div class="no-image-card">MeshCore 官方 blog · 10 天裂開 timeline 全記錄 · 點下方連結</div>
+<figure>
+<img src="https://blog.meshcore.io/assets/images/2026/04/23/trust-ai-gen-firmware.png" alt="MeshCore 團隊內部對 AI 生成 firmware 的信任討論">
+<figcaption>SOURCE · blog.meshcore.io · 團隊內部 PR template 爭議</figcaption>
+</figure>
 
 <p><strong>MeshCore 一分為二。核心爭議：AI 生成 code 到底算誰寫的。</strong></p>
 
@@ -653,7 +673,7 @@ figure figcaption { font-family: "JetBrains Mono", monospace; font-size: 0.72rem
 <div class="source-footer">
 <div class="source-footer-label">— 源 · Sources</div>
 <ul>
-<li>MeshCore 官方 blog 10 天 timeline · <a href="https://blog.meshcore.io/2026/04/23/the-split" target="_blank" rel="noopener">blog.meshcore.io/2026/04/23/the-split</a></li>
+<li>MeshCore 官方 blog · <a href="https://blog.meshcore.io/2026/04/23/the-split" target="_blank" rel="noopener">blog.meshcore.io/2026/04/23/the-split</a></li>
 <li>HN 討論（253 分）· <a href="https://news.ycombinator.com/item?id=meshcore" target="_blank" rel="noopener">news.ycombinator.com</a></li>
 </ul>
 </div>
@@ -662,7 +682,7 @@ figure figcaption { font-family: "JetBrains Mono", monospace; font-size: 0.72rem
 
 <h2><span class="num">N°05</span> 《How LLMs Work》· 一個互動頁炸爆 Karpathy 教育市場</h2>
 
-<div class="no-image-card">GitHub Pages 專案 · 無 og:image · 點連結直接進互動</div>
+<div class="no-image-card">GitHub Pages 純 JS 互動 · 沒有 og:image · 點連結直接體驗</div>
 
 <p><strong>基於 Andrej Karpathy 3.5 小時 YouTube 講座的互動式 LLM 解說頁，上線不到 12 小時 HN 200 分。</strong></p>
 
@@ -698,7 +718,7 @@ figure figcaption { font-family: "JetBrains Mono", monospace; font-size: 0.72rem
 
 <figure>
 <img src="https://ichef.bbci.co.uk/news/1024/branded_news/4940/live/f8c31140-3fb5-11f1-b61b-1d0ccf7b6022.jpg" alt="Seoul wolf AI fake photo case">
-<figcaption>SOURCE · BBC News</figcaption>
+<figcaption>SOURCE · BBC News · 首爾 AI 假狼事件</figcaption>
 </figure>
 
 <p><strong>韓國成為第一個因「傳播 AI 假圖造成公共緊張」就立實罪的國家。</strong></p>
