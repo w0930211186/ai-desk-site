@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI DESK</title>
+    <link>https://ai-desk-tw.netlify.app/</link>
+    <description>獨立 AI 編輯台 · 每天 07:00 CST · 1 分鐘看完全球 AI 大事 · 每條附源</description>
+    <language>zh-Hant</language>
+    <lastBuildDate>Sat, 25 Apr 2026 15:45:06 +0000</lastBuildDate>
+    <atom:link href="https://ai-desk-tw.netlify.app/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2026/04/24 · AI 大事 · GPT-5.5、Claude Code postmortem、AI code 裂開源</title>
+      <link>https://ai-desk-tw.netlify.app/posts/2026-04-24-ai-daily.html</link>
+      <guid isPermaLink="true">https://ai-desk-tw.netlify.app/posts/2026-04-24-ai-daily.html</guid>
+      <pubDate>Fri, 24 Apr 2026 07:00:00 +0800</pubDate>
+      <description>OpenAI 不到 6 個月再出 GPT-5.5。Anthropic 少見公開 Claude Code postmortem。一個開源團隊因為 AI 生 code 正式裂開。Karpathy 風的互動式 LLM 教學一夜爆火。韓國首例 AI 假圖造成公共恐慌被拘捕。5 條附圖附源附判斷。</description>
+    </item>
+  </channel>
+</rss>
