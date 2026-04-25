@@ -1,4 +1,67 @@
 # ============================================================
+# AI DESK — Netlify 部署設定（v1.1 · independent editorial）
+# v1.0 → v1.1 變更:
+#   + 加 Strict-Transport-Security (HSTS preload)
+#   + 加 Content-Security-Policy (P2-6)
+#   + 加 /posts/:slug.html → /posts/:slug 301 (URL 統一 P2-2)
+# ============================================================
+
+[build]
+  publish = "."
+  # 純靜態站 無 build 步驟
+
+# --- 全站安全 header ---
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "geolocation=(), microphone=(), camera=()"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+    Content-Security-Policy = "default-src 'self'; img-src 'self' data: https:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; script-src 'self' 'unsafe-inline'; base-uri 'self'; frame-ancestors 'self'; form-action 'self'"
+
+# --- 靜態資源長 cache ---
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# --- HTML 永遠 revalidate ---
+[[headers]]
+  for = "*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+# ============================================================
+# Redirects（順序很重要：specific → catch-all）
+# ============================================================
+
+# URL 統一：把 /posts/:slug.html 301 到無擴展名版本
+[[redirects]]
+  from = "/posts/:slug.html"
+  to = "/posts/:slug"
+  status = 301
+  force = true
+
+# 美化 URL / 的落點
+[[redirects]]
+  from = "/posts"
+  to = "/posts/"
+  status = 301
+
+# about 若以後改路徑
+[[redirects]]
+  from = "/about"
+  to = "/about.html"
+  status = 301
+
+# 404 fallback（catch-all 一定要放最後）
+[[redirects]]
+  from = "/*"
+  to = "/404.html"
+  status = 404
+# ============================================================
 # AI DESK — Netlify 部署設定（v1.0 · independent editorial）
 # ============================================================
 
