@@ -8,7 +8,8 @@
 
 [build]
   publish = "."
-  # 純靜態站 無 build 步驟
+  # v3 起加 Pagefind 站內搜尋索引產生
+  command = "npx -y pagefind --site . --output-path pagefind"
 
 # --- 全站安全 header ---
 [[headers]]
@@ -46,11 +47,31 @@
   to = "/posts/"
   status = 301
 
-# about 若以後改路徑
+# v4 起 about 已下架 → redirect 到首頁
 [[redirects]]
   from = "/about"
-  to = "/about.html"
+  to = "/"
   status = 301
+  force = true
+
+[[redirects]]
+  from = "/about.html"
+  to = "/"
+  status = 301
+  force = true
+
+# v4 起 opening 文章已下架 → redirect 到 journal index
+[[redirects]]
+  from = "/posts/2026-04-24-ai-desk-opening"
+  to = "/posts/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/posts/2026-04-24-ai-desk-opening.html"
+  to = "/posts/"
+  status = 301
+  force = true
 
 # 404 fallback（catch-all 一定要放最後）
 [[redirects]]
