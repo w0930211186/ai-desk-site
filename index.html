@@ -442,7 +442,203 @@ footer.site-footer {
   footer.site-footer { padding: 4rem 1rem 2rem; }
   .footer-row { grid-template-columns: 1fr; }
 }
+
+
+/* ============================================================
+   ACCESSIBILITY · v2 (audit 2026-04-25)
+   - P0-A: focus-visible 鍵盤導航指示
+   - P0-B: prefers-reduced-motion 動畫退場
+   - P1-C: 手機觸控目標 ≥ 44px
+   - bonus: skip-to-content link
+   ============================================================ */
+
+/* P0-A · 鍵盤 focus 指示（mono brutalist 風格） */
+*:focus-visible {
+  outline: 2px solid var(--fg);
+  outline-offset: 3px;
+}
+.nav-links a:focus-visible,
+.back-cta:focus-visible,
+.tag-toggle button:focus-visible {
+  outline-offset: 1px;
+}
+.enter-btn:focus-visible {
+  outline-offset: 5px;
+}
+.journal-card:focus-visible {
+  outline-offset: -2px;
+}
+
+/* bonus · skip-to-content link（a11y best practice） */
+.skip-link {
+  position: absolute;
+  top: -100px;
+  left: 1rem;
+  z-index: 200;
+  padding: 0.7rem 1.2rem;
+  background: var(--fg);
+  color: var(--bg);
+  font-family: var(--f-sans);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: top 0.2s;
+}
+.skip-link:focus {
+  top: 1rem;
+}
+
+/* P0-B · prefers-reduced-motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .diamond,
+  .circle-text,
+  .float-diamond {
+    animation: none !important;
+  }
+}
+
+/* P1-C · 手機觸控目標 ≥ 44px */
+@media (max-width: 700px) {
+  .nav-links a {
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+    padding: 0.6rem 0.7rem;
+    font-size: 0.62rem;
+  }
+  .tag-toggle button {
+    min-height: 44px;
+    padding: 0.7rem 1rem;
+  }
+  .back-cta,
+  .enter-btn {
+    min-height: 44px;
+  }
+}
+
+
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+
+
+
+/* ============================================================
+   FUNCTIONAL ADDITIONS · v3 (2026-04-25)
+   - Email subscribe form
+   - Share buttons
+   - Pagefind search UI
+   - Reading time pill
+   ============================================================ */
+
+/* 訂閱表單 */
+.subscribe-form {
+  display: flex; gap: 0.6rem; flex-wrap: wrap; align-items: stretch;
+  margin-top: 0.5rem;
+}
+.subscribe-form input[type="email"] {
+  flex: 1 1 220px; min-width: 0;
+  padding: 0.7rem 0.9rem;
+  font-family: var(--f-sans); font-size: 0.85rem;
+  background: transparent;
+  border: 1px solid var(--panel-fg);
+  color: inherit;
+}
+.subscribe-form input[type="email"]:focus {
+  outline: 2px solid var(--panel-fg); outline-offset: 2px;
+}
+.subscribe-form button {
+  padding: 0.7rem 1.2rem;
+  font-family: var(--f-sans); font-weight: 600;
+  font-size: 0.78rem; letter-spacing: 0.2em; text-transform: uppercase;
+  background: var(--panel-fg); color: var(--panel);
+  border: 1px solid var(--panel-fg); cursor: pointer;
+  transition: opacity .2s;
+}
+.subscribe-form button:hover { opacity: 0.85; }
+.subscribe-msg { font-family: var(--f-sans); font-size: 0.72rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--mute-2); margin-top: 0.5rem; min-height: 1em; }
+
+/* 分享按鈕 */
+.share-bar {
+  margin: 4rem 0 0; padding-top: 2rem;
+  border-top: 1px solid var(--line);
+  display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap;
+}
+.share-label {
+  font-family: var(--f-mono); font-size: 0.72rem;
+  letter-spacing: 0.18em; color: var(--mute);
+  text-transform: uppercase; margin-right: 0.5rem;
+}
+.share-bar a, .share-bar button {
+  display: inline-flex; align-items: center; gap: 0.4rem;
+  padding: 0.55rem 0.9rem; min-height: 36px;
+  font-family: var(--f-sans); font-size: 0.7rem;
+  letter-spacing: 0.18em; text-transform: uppercase;
+  border: 1px solid var(--line); color: var(--fg);
+  background: transparent; cursor: pointer;
+  transition: background .2s, color .2s, border-color .2s;
+}
+.share-bar a:hover, .share-bar button:hover {
+  background: var(--fg); color: var(--bg); border-color: var(--fg);
+}
+.share-bar svg { width: 14px; height: 14px; }
+
+/* Reading time pill (post-meta-top 內) */
+.read-time { color: var(--mute); }
+.read-time::before { content: "·"; margin-right: 0.5rem; color: var(--mute-2); }
+
+/* Prev/Next 導覽 */
+.prev-next {
+  margin: 5rem 0 0; padding: 2rem 0; border-top: 1px solid var(--line);
+  display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;
+}
+.prev-next a {
+  display: block; padding: 1.2rem 1.4rem;
+  border: 1px solid var(--line);
+  transition: border-color .2s, background .2s;
+}
+.prev-next a:hover { border-color: var(--fg); background: rgba(255,255,255,0.03); }
+.prev-next a.next { text-align: right; }
+.prev-next .label {
+  display: block; font-family: var(--f-sans);
+  font-size: 0.7rem; letter-spacing: 0.22em;
+  color: var(--mute); text-transform: uppercase; margin-bottom: 0.5rem;
+}
+.prev-next .title {
+  display: block; font-family: var(--f-display);
+  font-weight: 700; font-size: 1rem; line-height: 1.3;
+  letter-spacing: -0.01em; color: var(--fg);
+}
+@media (max-width: 700px) {
+  .prev-next { grid-template-columns: 1fr; }
+  .prev-next a.next { text-align: left; }
+}
+
+/* Pagefind 搜尋 UI override（mono brutalist 化） */
+#search {
+  margin: 0 auto 2rem; max-width: 760px;
+}
+.pagefind-ui__search-input {
+  background: transparent !important; color: var(--fg) !important;
+  border: 1px solid var(--fg) !important; border-radius: 0 !important;
+  font-family: var(--f-sans) !important;
+}
+.pagefind-ui__result {
+  border-bottom: 1px solid var(--line) !important; padding: 1rem 0 !important;
+}
+.pagefind-ui__result-link {
+  color: var(--fg) !important;
+  font-family: var(--f-display) !important; font-weight: 700 !important;
+}
+
 </style>
+<link rel="alternate" type="application/rss+xml" title="AI DESK RSS" href="/rss.xml">
 </head>
 <body>
 
@@ -453,10 +649,15 @@ footer.site-footer {
   </a>
   <div class="nav-links">
     <a href="posts/">Journal</a>
-    <a href="about.html">About</a>
-    <a href="#contact">Contact</a>
+    <a href="https://www.instagram.com/ai_desk_0424?igsh=eHd5Mzg1NTV3MDNi&utm_source=qr" target="_blank" rel="noopener">IG</a>
   </div>
 </nav>
+
+<a href="#main" class="skip-link">Skip to content</a>
+
+<main id="main">
+  <h1 class="sr-only">AI DESK — Independent Editorial Desk for AI · 獨立 AI 編輯台</h1>
+
 
 <section class="hero">
   <div class="hero-watermark">AI DESK</div>
@@ -535,11 +736,11 @@ footer.site-footer {
 
   <div class="cards-stage">
     <!-- FEED-INJECTION-START -->
-    <a href="posts/2026-04-24-ai-desk-opening.html" class="journal-card c1 reveal" data-tags="meta">
-      <div class="card-meta"><span>N°01</span><span>2026 · 04 · 24</span></div>
-      <h3>發刊詞 — 獨立 AI 編輯台的第一頁</h3>
-      <p>為什麼要有這個編輯台 只寫什麼三條線 不做什麼 怎麼寫出來的 讀者該期待什麼 一份把刀磨好再開門的立場書。</p>
-      <div class="card-foot"><span>Meta · 站務</span><span class="arrow">→</span></div>
+    <a href="posts/2026-04-24-ai-daily.html" class="journal-card c1 reveal" data-tags="daily">
+      <div class="card-meta"><span>N°02</span><span>2026 · 04 · 24</span></div>
+      <h3>2026/04/24 · AI 大事 · GPT-5.5、Claude Code postmortem、AI code 裂開源</h3>
+      <p>OpenAI 不到 6 個月再出 GPT-5.5。Anthropic 少見公開 Claude Code postmortem。一個開源團隊因為 AI 生 code 正式裂開。Karpathy 風的互動式 LLM 教學一夜爆火。韓國首例 AI 假圖造成公共恐慌被拘捕。5 條附圖附源附判斷。</p>
+      <div class="card-foot"><span>Daily · 大事</span><span class="arrow">→</span></div>
     </a>
 
     <div class="journal-card ghost c2 reveal" data-tags="daily">
@@ -580,93 +781,36 @@ footer.site-footer {
   </div>
 </section>
 
-<div class="section-label">
-  <span class="num">02</span>
-  <span>About — the stance</span>
-  <span class="bar"></span>
-  <span>Independent editorial</span>
-</div>
+</main>
 
-<section class="about-slab">
-  <div class="about-watermark">EDITORIAL</div>
-  <div class="about-slab-inner">
-    <div>
-      <div class="about-tag"><span class="num">02</span><span>About the desk</span></div>
-    </div>
-    <div>
-      <h2 class="about-lede">
-        AI 不是故事。<br>
-        <em>你怎麼用它，</em><br>
-        才是唯一的<br>
-        新聞。
-      </h2>
-      <div class="about-body">
-        <p>AI DESK 是一個獨立的編輯台 不是 newsletter 不是自媒體 不是某個品牌的副產品 自己一套視覺 自己一條聲音線 自己一個立場。</p>
-        <p>每天早上 <strong>07:00</strong> 上線 只寫 <strong>三條線</strong>：AI 大事（1 分鐘看完 · 附源連結）／ AI 新聞精選 ／ 一週 AI 大事回顧。多的不寫 少的不湊。</p>
-        <p>我們不做 hype 不湊熱度 不跟 feed 拼速度。我們做 <strong>editorial</strong> — 把真正要命的那幾條挑出來 寫清楚 寫完為止。</p>
-      </div>
-    </div>
 
-    <div class="about-meta-grid">
-      <div class="cell">
-        <div class="label">Est.</div>
-        <div class="val">2026 · 04 · 24</div>
-      </div>
-      <div class="cell">
-        <div class="label">Cadence</div>
-        <div class="val">Daily · 07:00 CST</div>
-      </div>
-      <div class="cell">
-        <div class="label">Lines</div>
-        <div class="val">Daily / News / Weekly</div>
-      </div>
-      <div class="cell">
-        <div class="label">Mode</div>
-        <div class="val">Editorial · Independent</div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<div class="section-label">
-  <span class="num">03</span>
-  <span>Manifesto — N°01</span>
-  <span class="bar"></span>
-  <span>1 of 1</span>
-</div>
-
-<section class="manifesto">
-  <div class="manifesto-inner">
-    <p class="manifesto-text">
-      We publish a <em>signal</em>,<br>
-      not the noise.<br>
-      07:00. Three lines.<br>
-      <em>Ship or shut up.</em>
-    </p>
-    <div class="manifesto-sig">— AI DESK · Manifesto N°01 · 2026 · 04 · 24 · Taipei</div>
-  </div>
-</section>
 
 <footer class="site-footer" id="contact">
   <div class="footer-inner">
     <div class="footer-lockup">AI DESK</div>
     <div class="footer-row">
       <div class="cell">
-        <div class="label">Contact</div>
-        <div class="val"><a href="mailto:hello@ai-desk.xyz">hello [at] ai-desk.xyz</a></div>
+        <div class="label">Instagram</div>
+        <div class="val"><a href="https://www.instagram.com/ai_desk_0424?igsh=eHd5Mzg1NTV3MDNi&utm_source=qr" target="_blank" rel="noopener">@ai_desk_0424</a></div>
       </div>
       <div class="cell">
         <div class="label">Journal</div>
         <div class="val"><a href="posts/">All editions →</a></div>
       </div>
       <div class="cell">
-        <div class="label">About</div>
-        <div class="val"><a href="about.html">The stance →</a></div>
-      </div>
-      <div class="cell">
         <div class="label">Cadence</div>
         <div class="val">Daily · 07:00 CST</div>
       </div>
+        <div class="cell" style="grid-column: span 2;">
+    <div class="label">Subscribe</div>
+    <form name="subscribe" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="subscribe-form" action="/?subscribed=1">
+      <input type="hidden" name="form-name" value="subscribe">
+      <p hidden><label>Don't fill this: <input name="bot-field"></label></p>
+      <input type="email" name="email" placeholder="email@example.com" required aria-label="Email address">
+      <button type="submit">Subscribe →</button>
+    </form>
+    <div class="subscribe-msg">每日 07:00 CST 收信 · 不轉售名單</div>
+  </div>
     </div>
     <div class="footer-base">
       <div>© 2026 AI DESK · Independent editorial</div>
