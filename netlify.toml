@@ -36,13 +36,9 @@
 # ============================================================
 # Redirects（順序很重要：specific → catch-all）
 # ============================================================
-
-# URL 統一：把 /posts/:slug.html 301 到無擴展名版本
-[[redirects]]
-  from = "/posts/:slug.html"
-  to = "/posts/:slug"
-  status = 301
-  force = true
+# 註：Netlify 預設已支援 clean URLs（/posts/foo 與 /posts/foo.html 都 200），
+#     所以不需要手動加 .html → no-extension 的 redirect。
+#     之前那條 :slug 規則會無限迴圈 寫入 literal :slug 到 Location header 整站炸。
 
 # 美化 URL / 的落點
 [[redirects]]
