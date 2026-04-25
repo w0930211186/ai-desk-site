@@ -1,4 +1,577 @@
 <!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>04/24 AI 大事 · GPT-5.5、Claude Code、開源裂 | AI DESK</title>
+<meta name="description" content="OpenAI 不到 6 個月再出 GPT-5.5。Anthropic 少見公開 Claude Code postmortem。一個開源團隊因為 AI 生 code 正式裂開。Karpathy 風的互動式 LLM 教學一夜爆火。韓國首例 AI 假圖造成公共恐慌被拘捕。5 條附圖附源附判斷。">
+<meta name="keywords" content="AI DESK, Daily · AI 大事, GPT-5.5, Claude Code, Anthropic postmortem, agentic coding, open-source, deepfake">
+<meta name="author" content="AI DESK">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#000000">
+<meta property="og:title" content="2026/04/24 · AI 大事 · GPT-5.5、Claude Code postmortem、AI code 裂開源">
+<meta property="og:description" content="OpenAI 不到 6 個月再出 GPT-5.5。Anthropic 少見公開 Claude Code postmortem。一個開源團隊因為 AI 生 code 正式裂開。Karpathy 風的互動式 LLM 教學一夜爆火。韓國首例 AI 假圖造成公共恐慌被拘捕。5 條附圖附源附判斷。">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="AI DESK">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:url" content="https://ai-desk-tw.netlify.app/posts/2026-04-24-ai-daily.html">
+<meta property="og:image" content="https://ai-desk-tw.netlify.app/assets/og-cover.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="article:published_time" content="2026-04-24T07:00:00+08:00">
+<meta property="article:author" content="AI DESK">
+<meta property="article:section" content="Daily · AI 大事">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="2026/04/24 · AI 大事 · GPT-5.5、Claude Code postmortem、AI code 裂開源">
+<meta name="twitter:description" content="OpenAI 不到 6 個月再出 GPT-5.5。Anthropic 少見公開 Claude Code postmortem。一個開源團隊因為 AI 生 code 正式裂開。Karpathy 風的互動式 LLM 教學一夜爆火。韓國首例 AI 假圖造成公共恐慌被拘捕。5 條附圖附源附判斷。">
+<meta name="twitter:image" content="https://ai-desk-tw.netlify.app/assets/og-cover.png">
+<link rel="canonical" href="https://ai-desk-tw.netlify.app/posts/2026-04-24-ai-daily.html">
+<link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Noto+Sans+TC:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "2026/04/24 · AI 大事 · GPT-5.5、Claude Code postmortem、AI code 裂開源",
+  "datePublished": "2026-04-24T07:00:00+08:00",
+  "dateModified": "2026-04-25T12:00:00+08:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://ai-desk-tw.netlify.app/posts/2026-04-24-ai-daily.html"
+  },
+  "image": "https://ai-desk-tw.netlify.app/assets/og-cover.png",
+  "author": { "@type": "Organization", "name": "AI DESK", "url": "https://ai-desk-tw.netlify.app/" },
+  "publisher": {
+    "@type": "Organization",
+    "name": "AI DESK",
+    "url": "https://ai-desk-tw.netlify.app/",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://ai-desk-tw.netlify.app/assets/og-cover.png",
+      "width": 1200,
+      "height": 630
+    }
+  },
+  "description": "OpenAI 不到 6 個月再出 GPT-5.5。Anthropic 少見公開 Claude Code postmortem。一個開源團隊因為 AI 生 code 正式裂開。Karpathy 風的互動式 LLM 教學一夜爆火。韓國首例 AI 假圖造成公共恐慌被拘捕。5 條附圖附源附判斷。",
+  "articleSection": "Daily · AI 大事",
+  "url": "https://ai-desk-tw.netlify.app/posts/2026-04-24-ai-daily.html"
+}
+</script>
+
+<style>
+:root {
+  --bg: #000000;
+  --fg: #FFFFFF;
+  --panel: #F2F2F2;
+  --panel-fg: #0A0A0A;
+  --mute: #8A8A8A;
+  --mute-2: #5A5A5A;
+  --line: rgba(255, 255, 255, 0.14);
+  --line-dark: rgba(0, 0, 0, 0.14);
+  --f-display: 'Inter Tight', 'Noto Sans TC', -apple-system, sans-serif;
+  --f-sans: 'Space Grotesk', 'Noto Sans TC', -apple-system, sans-serif;
+  --f-body: 'Noto Sans TC', 'Inter Tight', sans-serif;
+  --f-mono: 'JetBrains Mono', 'SF Mono', Menlo, monospace;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+img { max-width: 100%; height: auto; display: block; }
+html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; overflow-x: hidden; }
+body { font-family: var(--f-body); background: var(--bg); color: var(--fg); line-height: 1.75; font-size: 17px; overflow-x: hidden; }
+a { color: inherit; text-decoration: none; }
+::selection { background: #FFFFFF; color: #000000; }
+
+.nav-top {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+  padding: 1.5rem 2rem; display: flex; justify-content: space-between; align-items: center;
+  mix-blend-mode: difference;
+}
+.nav-brand { font-family: var(--f-display); font-weight: 900; font-size: 0.92rem; letter-spacing: 0.04em; text-transform: uppercase; display: flex; align-items: center; gap: 0.6rem; }
+.nav-brand .diamond { width: 10px; height: 10px; background: var(--fg); display: inline-block; animation: spin 4s linear infinite; }
+@keyframes spin { from { transform: rotate(45deg); } to { transform: rotate(405deg); } }
+.nav-links { display: flex; gap: 1.4rem; font-family: var(--f-sans); font-size: 0.72rem; letter-spacing: 0.2em; text-transform: uppercase; font-weight: 500; }
+.nav-links a { padding: 0.4rem 0.8rem; border: 1px solid transparent; transition: border-color .25s; }
+.nav-links a:hover, .nav-links a.active { border-color: var(--fg); }
+
+nav.crumbs {
+  max-width: 900px; margin: 9rem auto 2rem; padding: 0 2rem;
+  font-family: var(--f-sans); font-size: 0.7rem;
+  letter-spacing: 0.22em; text-transform: uppercase; color: var(--mute);
+}
+nav.crumbs a { color: var(--fg); }
+nav.crumbs .sep { margin: 0 0.8rem; color: var(--mute-2); }
+
+/* ARTICLE HEAD */
+.post-head {
+  max-width: 1200px; margin: 2rem auto 3rem; padding: 0 2rem;
+  position: relative;
+}
+.post-meta-top {
+  font-family: var(--f-mono); font-size: 0.78rem;
+  letter-spacing: 0.2em; text-transform: uppercase;
+  color: var(--mute); margin-bottom: 2.5rem;
+  display: flex; gap: 1.5rem; flex-wrap: wrap;
+}
+.post-meta-top .num { color: var(--fg); font-family: var(--f-display); font-weight: 900; font-size: 0.9rem; letter-spacing: 0; }
+.post-title {
+  font-family: var(--f-display); font-weight: 900;
+  font-size: clamp(2.8rem, 7vw, 6.5rem);
+  line-height: 0.95; letter-spacing: -0.04em;
+  text-transform: uppercase; max-width: 16ch;
+}
+.post-title em {
+  font-style: normal; color: transparent; -webkit-text-stroke: 1.5px var(--fg);
+}
+.post-sub {
+  margin-top: 2rem; max-width: 680px;
+  font-family: var(--f-display); font-weight: 500;
+  font-size: 1.3rem; color: var(--mute); line-height: 1.45;
+  letter-spacing: -0.005em;
+  border-left: 3px solid var(--fg); padding-left: 1.4rem;
+}
+.post-tags { margin-top: 2.5rem; display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.post-tags .tag {
+  font-family: var(--f-sans); font-size: 0.68rem;
+  letter-spacing: 0.22em; text-transform: uppercase;
+  padding: 0.35rem 0.9rem; border: 1px solid var(--fg); color: var(--fg);
+}
+.post-tags .tag.mute { border-color: var(--mute); color: var(--mute); }
+
+/* ARTICLE BODY */
+article.post {
+  max-width: 760px; margin: 4rem auto; padding: 0 2rem;
+  position: relative;
+}
+.post-body { font-size: 1.08rem; line-height: 1.9; color: #D9D9D9; }
+.post-body p { margin-bottom: 1.6rem; }
+.post-body h2 {
+  font-family: var(--f-display); font-weight: 900;
+  font-size: clamp(1.8rem, 3.5vw, 2.6rem);
+  line-height: 1.1; letter-spacing: -0.02em;
+  text-transform: uppercase; color: var(--fg);
+  margin: 5rem 0 1.5rem; padding-top: 2.5rem;
+  border-top: 1px solid var(--line);
+}
+.post-body h2 .num {
+  font-family: var(--f-mono); font-size: 0.7em;
+  color: var(--mute); letter-spacing: 0.16em; font-weight: 400;
+  display: block; margin-bottom: 0.6rem;
+}
+.post-body h3 {
+  font-family: var(--f-display); font-size: 1.3rem;
+  font-weight: 800; margin: 2.4rem 0 0.8rem; color: var(--fg);
+  letter-spacing: -0.01em;
+}
+.post-body strong { color: var(--fg); font-weight: 700; }
+.post-body a { border-bottom: 1px solid var(--fg); color: var(--fg); }
+.post-body a:hover { background: var(--fg); color: var(--bg); }
+.post-body ul, .post-body ol { margin: 1rem 0 1.6rem 0; list-style: none; padding: 0; }
+.post-body ul li { margin-bottom: 0.9rem; padding-left: 1.8rem; position: relative; }
+.post-body ul li::before { content: "◆"; position: absolute; left: 0; top: 0; color: var(--fg); font-family: var(--f-display); }
+.post-body ol { counter-reset: n; }
+.post-body ol li { counter-increment: n; margin-bottom: 0.9rem; padding-left: 2.4rem; position: relative; }
+.post-body ol li::before {
+  content: "0" counter(n); position: absolute; left: 0; top: 0;
+  font-family: var(--f-mono); font-size: 0.82em; color: var(--fg);
+  letter-spacing: 0.08em;
+}
+.post-body blockquote {
+  font-family: var(--f-display); font-weight: 800;
+  font-size: clamp(1.5rem, 3vw, 2.2rem); line-height: 1.2;
+  padding: 2.5rem 0; margin: 3rem 0;
+  border-top: 1px solid var(--fg); border-bottom: 1px solid var(--fg);
+  color: var(--fg); letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+.post-body blockquote::before {
+  content: "❝"; font-family: var(--f-display); font-size: 2.5rem;
+  color: var(--fg); display: block; margin-bottom: 0.5rem; line-height: 1;
+}
+.post-body code {
+  font-family: var(--f-mono); background: rgba(255, 255, 255, 0.1);
+  padding: 0.15rem 0.5rem; font-size: 0.88em;
+  color: var(--fg);
+}
+.post-body pre {
+  background: rgba(255, 255, 255, 0.04); border: 1px solid var(--line);
+  padding: 1.4rem; overflow-x: auto; margin: 2rem 0;
+  font-family: var(--f-mono); font-size: 0.88rem; line-height: 1.6;
+}
+.post-body pre code { background: transparent; padding: 0; }
+.post-body hr { border: none; border-top: 1px solid var(--line); margin: 3rem 0; }
+.post-body figure { margin: 2.4rem 0; }
+.post-body figcaption {
+  font-family: var(--f-mono); font-size: 0.72rem;
+  letter-spacing: 0.16em; color: var(--mute);
+  text-transform: uppercase; margin-top: 0.8rem;
+}
+
+.post-body aside.keypoints {
+  border: 1px solid var(--fg); padding: 1.6rem 1.8rem;
+  margin: 0 0 2.4rem; background: rgba(255,255,255,0.02);
+}
+.post-body aside.keypoints .kp-label {
+  font-family: var(--f-sans); font-size: 0.72rem;
+  letter-spacing: 0.24em; text-transform: uppercase;
+  color: var(--fg); font-weight: 600; margin-bottom: 1rem;
+}
+
+.post-body .source-footer {
+  margin: 1.5rem 0 0; padding-top: 1rem;
+  border-top: 1px dashed var(--line);
+}
+.post-body .source-footer-label {
+  font-family: var(--f-mono); font-size: 0.72rem;
+  letter-spacing: 0.18em; color: var(--mute);
+  text-transform: uppercase; margin-bottom: 0.6rem;
+}
+.post-body .source-footer ul { margin: 0; }
+
+.post-body .sig {
+  margin-top: 5rem; padding-top: 2rem; border-top: 1px solid var(--line);
+  font-family: var(--f-mono); font-size: 0.82rem;
+  letter-spacing: 0.18em; color: var(--mute); text-transform: uppercase;
+}
+
+.article-foot {
+  max-width: 1200px; margin: 5rem auto 0; padding: 3rem 2rem 0;
+  border-top: 1px solid var(--line);
+  display: flex; justify-content: space-between; align-items: center;
+  flex-wrap: wrap; gap: 1rem;
+}
+.back-cta {
+  display: inline-flex; align-items: center; gap: 0.8rem;
+  font-family: var(--f-sans); font-size: 0.78rem; font-weight: 600;
+  letter-spacing: 0.24em; text-transform: uppercase;
+  padding: 0.8rem 1.4rem; border: 1px solid var(--fg);
+  transition: background .3s, color .3s;
+}
+.back-cta:hover { background: var(--fg); color: var(--bg); }
+.foot-stamp { font-family: var(--f-mono); font-size: 0.72rem; letter-spacing: 0.18em; color: var(--mute); text-transform: uppercase; }
+
+/* FOOTER */
+footer.site-footer {
+  background: var(--panel); color: var(--panel-fg);
+  padding: 6rem 2rem 3rem; margin-top: 6rem;
+  position: relative; overflow: hidden;
+}
+.footer-inner { max-width: 1400px; margin: 0 auto; }
+.footer-lockup {
+  font-family: var(--f-display); font-weight: 900;
+  font-size: clamp(4rem, 14vw, 16rem); line-height: 0.85;
+  letter-spacing: -0.06em; text-transform: uppercase;
+}
+.footer-row {
+  margin-top: 4rem; padding-top: 2rem; border-top: 1px solid var(--panel-fg);
+  display: grid; grid-template-columns: repeat(4, 1fr); gap: 2rem;
+  font-family: var(--f-sans); font-size: 0.8rem;
+}
+.footer-row .cell .label { font-size: 0.66rem; letter-spacing: 0.28em; text-transform: uppercase; color: var(--mute-2); font-weight: 500; margin-bottom: 0.5rem; }
+.footer-row .cell .val { font-family: var(--f-display); font-weight: 700; letter-spacing: -0.01em; font-size: 1rem; }
+.footer-row .cell .val a { border-bottom: 1px solid transparent; transition: border-color .2s; }
+.footer-row .cell .val a:hover { border-bottom-color: var(--panel-fg); }
+.footer-base {
+  margin-top: 4rem; display: flex; justify-content: space-between; align-items: center;
+  font-family: var(--f-mono); font-size: 0.7rem; letter-spacing: 0.12em;
+  color: var(--mute-2); text-transform: uppercase; flex-wrap: wrap; gap: 1rem;
+}
+
+@media (max-width: 700px) {
+  .nav-top { padding: 1rem; }
+  .nav-links { gap: 0.5rem; font-size: 0.58rem; }
+  .nav-links a { padding: 0.3rem 0.5rem; }
+  nav.crumbs { padding: 0 1rem; margin-top: 6rem; font-size: 0.62rem; }
+  .post-head { padding: 0 1rem; }
+  article.post { padding: 0 1rem; }
+  .post-body blockquote { font-size: 1.4rem; }
+  .article-foot { padding: 3rem 1rem 0; }
+  footer.site-footer { padding: 4rem 1rem 2rem; }
+  .footer-row { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+
+<nav class="nav-top">
+  <a href="../index.html" class="nav-brand">
+    <span class="diamond"></span>
+    AI DESK
+  </a>
+  <div class="nav-links">
+    <a href="index.html" class="active">Journal</a>
+    <a href="../about.html">About</a>
+    <a href="../index.html#contact">Contact</a>
+  </div>
+</nav>
+
+<nav class="crumbs">
+  <a href="../index.html">Index</a><span class="sep">/</span>
+  <a href="index.html">Journal</a><span class="sep">/</span>
+  04/24 AI 大事
+</nav>
+
+<main>
+
+<header class="post-head">
+  <div class="post-meta-top">
+    <span class="num">Edition N°02</span>
+    <span>2026 · 04 · 24 · FRI</span>
+    <span>Daily · AI 大事</span>
+    <span>07:00 CST</span>
+  </div>
+  <h1 class="post-title">2026/04/24 · AI 大事 · GPT-5.5、Claude Code postmortem、AI code 裂開源</h1>
+  <p class="post-sub">OpenAI 不到 6 個月再出 GPT-5.5。Anthropic 少見公開 Claude Code postmortem。一個開源團隊因為 AI 生 code 正式裂開。Karpathy 風的互動式 LLM 教學一夜爆火。韓國首例 AI 假圖造成公共恐慌被拘捕。5 條附圖附源附判斷。</p>
+  <div class="post-tags"><span class="tag">Daily · AI 大事</span><span class="tag mute">OpenAI</span><span class="tag mute">Anthropic</span><span class="tag mute">open-source</span><span class="tag mute">policy</span></div>
+</header>
+
+<article class="post">
+  <div class="post-body">
+
+<aside class="keypoints">
+  <div class="kp-label">📌 今日重點方向 · Key Signals</div>
+  <ol>
+    <li><strong>模型迭代節奏被對手逼到 2 季 / 版</strong> — GPT-5.5 只隔 GPT-5 五個月。產品團隊要重算節奏。</li>
+    <li><strong>AI 透明度標範正在被再定義</strong> — Anthropic postmortem 可能成為 enterprise 採購新門檻，比 SLA 條款還重要。</li>
+    <li><strong>AI 生 code 的歸屬問題第一次劈進開源社群</strong> — MeshCore 裂不會是最後一例，接下來半年看多少專案跟進。</li>
+  </ol>
+</aside>
+
+<hr>
+
+<h2><span class="num">N°02</span> GPT-5.5 · tool use 和 coding agent 的前置調</h2>
+
+<figure>
+  <img src="../assets/news/openai-gpt55.svg" alt="OpenAI GPT-5.5 release hero" fetchpriority="high" decoding="async">
+  <figcaption>SOURCE · OPENAI · AI DESK editorial render</figcaption>
+</figure>
+
+<p><strong>不到 6 個月，OpenAI 再出一版。</strong></p>
+
+<h3>發生什麼</h3>
+
+<p>GPT-5.5 上架。官方 blog 強調三件事：tool use 參數呈現準確度提升、SWE-bench 分數近一步、上下文記憶從 128K 推到 256K。價格持平 GPT-5。</p>
+
+<p>Hacker News 單頁討論熱度衝高 — 不是小版本的討論量。這是 OpenAI 判斷「在 Anthropic / Gemini / Mistral 再近一步之前，先搶回位置」的策略調整。</p>
+
+<h3>為什麼重要</h3>
+
+<p><strong>第一，節奏被強迫加快。</strong>模型迭代從每年一版變成兩季一版。不是 OpenAI 想這樣，是對手逼的。Anthropic 在 2025 年底出了 Opus 4.6 之後，三個月內 Claude 4.7 又上。Google 的 Gemini 3 Pro 預告要在 Q3 出。這場比賽從「誰的模型更聰明」變「誰能先補上工具鏈那一段」。</p>
+
+<p><strong>第二，tool use 已經是 enterprise 決策點。</strong>所有模型廠年內的重要改善都集中在「模型不是更聰明，是工具操控更準」。這反映 agentic coding 已經對大模型營收結構來講是主軸。過去 2 年 CTO 問的是「哪家模型 benchmark 分數高」，現在問的是「哪家的 function calling 最穩」。</p>
+
+<h3>我們的判斷</h3>
+
+<p>三個看點。</p>
+
+<p><strong>(1) 接下來 3 週觀察 GPT-5.5 在 agentic coding 場景的實戰表現。</strong>Anthropic 的 postmortem（見 N°03）正好提醒我們：快版本迭代 = 高品質失控風險。GPT-5.5 推出後能不能維持 Claude Code 過去 6 個月那種「agent 跑 2 小時不崩」的穩定度，還不好說。</p>
+
+<p><strong>(2) Tool use 參數呈現的改善，背後是「模型理解 JSON Schema 的能力」在升級。</strong>這一塊對建 MCP server、建 agent 框架的人是巨大利好。但對「靠 prompt engineering 吃飯」的人是訊號：prompt 工程師這個職位在未來 12 個月會被「工具設計師」吃掉。</p>
+
+<p><strong>(3) 256K 上下文的真實意義不是「可以讀更長的文件」。</strong>是「agent 可以做更複雜的多步任務 without 清空記憶」。這對 Cursor / Cline / Continue 這些 IDE agent 是生產力放大器。</p>
+
+<div class="source-footer">
+<div class="source-footer-label">— 源 · Sources</div>
+<ul>
+<li>OpenAI 官方發布 · <a href="https://openai.com/index/introducing-gpt-5-5/" target="_blank" rel="noopener">openai.com/index/introducing-gpt-5-5</a></li>
+</ul>
+</div>
+
+<hr>
+
+<h2><span class="num">N°03</span> Anthropic · Claude Code 品質 postmortem</h2>
+
+<figure>
+  <img src="../assets/news/anthropic-postmortem.png" alt="Claude Code 事件 latency chart" loading="lazy" decoding="async">
+  <figcaption>SOURCE · anthropic.com · latency chart · 事件期間</figcaption>
+</figure>
+
+<p><strong>一週前官方承認 Claude Code 品質下滑。今天 postmortem 出來了。</strong></p>
+
+<h3>發生什麼</h3>
+
+<p>文章交代一週之間，Claude Code 受影響使用者被 model routing 的一次非故意更新分到「純理論使用 Opus」，持續 6 天。根源是一條 internal flag 設錯。</p>
+
+<p>罕見的細節：latency charts、事後還原 timeline、customer impact 統計、內部溝通時程。專案用語承認「我們沒有在 30 分鐘內回應內部告警」— 這種自我檢討在 SaaS postmortem 幾乎看不到。</p>
+
+<h3>為什麼重要</h3>
+
+<p><strong>第一，SaaS 透明度標範正在被 Anthropic 單獨推高。</strong>OpenAI 和 Google 過去對 API 中斷歷史上只說「我們知道了 已修復」。Stripe、Cloudflare 的 postmortem 是業界標竿，Anthropic 現在是 AI 圈第一個對齊這個標竿的。這不是 PR — 是 enterprise 採購文化的重寫。</p>
+
+<p><strong>第二，各家 CTO 看完這份文件都會在想一件事：「我該不該拿這幾個問題去問我現有的 AI 供應商」。</strong>問題包括：(1) 你有 30 分鐘內的內部告警嗎？(2) 出事多久會有 customer-facing postmortem？(3) 你的 model routing 是否有 feature flag 安全網？這些都不是技術問題，是治理問題。</p>
+
+<h3>我們的判斷</h3>
+
+<p><strong>(1) Anthropic 的 enterprise 跟單節奏會直接加分。</strong>這份 postmortem 出來後一週內，預期會看到多家大型公司（特別是金融、醫療）主動把 Anthropic 列入短名單，甚至取代 OpenAI。</p>
+
+<p><strong>(2) OpenAI 2 月那個「櫃台被入侵 12 小時」事件還沒出 postmortem。</strong>現在壓力回到他們身上。如果他們不跟，未來 6 個月 enterprise market share 的差距會明顯拉開。</p>
+
+<p><strong>(3) 這份文件對「新創做 AI 產品」的 founder 也是免費教材。</strong>事故不可怕，不透明才可怕。postmortem 的結構（fact / impact / root cause / mitigation / prevention）直接套用。</p>
+
+<div class="source-footer">
+<div class="source-footer-label">— 源 · Sources</div>
+<ul>
+<li>Anthropic Engineering blog · <a href="https://www.anthropic.com/engineering/april-23-postmortem" target="_blank" rel="noopener">anthropic.com/engineering/april-23-postmortem</a></li>
+</ul>
+</div>
+
+<hr>
+
+<h2><span class="num">N°04</span> MeshCore · 開源團隊因 AI 生 code 分裂</h2>
+
+<figure>
+  <img src="../assets/news/meshcore-split.svg" alt="MeshCore 開源團隊分裂 editorial" loading="lazy" decoding="async">
+  <figcaption>SOURCE · MESHCORE · AI DESK editorial render</figcaption>
+</figure>
+
+<p><strong>MeshCore 一分為二。核心爭議：AI 生成 code 到底算誰寫的。</strong></p>
+
+<h3>發生什麼</h3>
+
+<p>MeshCore（一個小型 mesh networking 開源專案）團隊 18 人分裂。6 人開始一 commit 70% 是 AI 生成且不主動註明，另 12 人要求 PR template 強制填寫 AI 用量比例、被否決、裂。</p>
+
+<p>後續牽扯商標歸屬 — 原創始成員保留商標，出走方被迫用新名字。整個裂開過程在 blog 上公開完整 10 天 timeline。</p>
+
+<h3>為什麼重要</h3>
+
+<p><strong>這是 agentic coding 時代第一個可見、有公開 timeline 的社群裂傷。</strong>過去兩年 AI code 都在「個人效率工具」層次，現在第一次進入「集體協作治理」層次。開源社群 30 年來「你的 commit 就是你寫的」的默契，被 AI agent 逼著重新寫規則。</p>
+
+<p><strong>法律層面的伏筆：</strong>如果 AI 生成 code 大量進入 GPL / Apache / MIT 授權的專案，誰是版權擁有者？OpenAI？Anthropic？coder 本人？這個問題目前沒有任何司法管轄區有清楚答案。MeshCore 這個小事件只是把這個球踢進公眾視野。</p>
+
+<h3>我們的判斷</h3>
+
+<p><strong>(1) 接下來 6 個月會看到更多類似分裂。</strong>押的是中型開源專案（50-500 人社群），不是巨型的（Linux / Kubernetes 規模）— 巨型有官僚機制，小型有 AI 生成率集中在 maintainer。</p>
+
+<p><strong>(2) 技術性解答會先出：「AI 生成 code 註明標準」、「commit signoff 裡加 AI-assisted flag」。</strong>GitHub、GitLab、Codeberg 這些 forge 可能半年內會支援。</p>
+
+<p><strong>(3) 社會性解答會晚到：「AI code 的版權歸屬」。</strong>這要等 EU AI Act 或美國 Copyright Office 表態，樂觀估計 2027 年才有動作。</p>
+
+<div class="source-footer">
+<div class="source-footer-label">— 源 · Sources</div>
+<ul>
+<li>MeshCore 官方 blog · <a href="https://blog.meshcore.io/2026/04/23/the-split" target="_blank" rel="noopener">blog.meshcore.io/2026/04/23/the-split</a></li>
+</ul>
+</div>
+
+<hr>
+
+<h2><span class="num">N°05</span> 《How LLMs Work》· 一個互動頁炸爆 Karpathy 教育市場</h2>
+
+<figure>
+  <img src="../assets/news/how-llms-work.png" alt="How LLMs Work interactive demo" loading="lazy" decoding="async">
+  <figcaption>SOURCE · GITHUB.COM/YNARWAL · social preview</figcaption>
+</figure>
+
+<p><strong>基於 Andrej Karpathy 3.5 小時 YouTube 講座的互動式 LLM 解說頁，上線不到 12 小時 HN 200 分。</strong></p>
+
+<h3>發生什麼</h3>
+
+<p>把 Karpathy 那場經典講座（「Let's build GPT」）的核心概念 — attention head、softmax、token prediction、residual stream — 做成可點擊的互動 visualization。使用者可以滑動調整 hidden dimension、看每一步的梯度流向、拖曳 token 觀察 attention pattern。</p>
+
+<p>技術棧：純靜態 HTML + d3.js + 一些 WebGL。不需要 GPU，瀏覽器就跑。</p>
+
+<h3>為什麼重要</h3>
+
+<p><strong>工程師教育市場混入被吃。</strong>以前看 LLM 原理 — 花 2 小時看 Karpathy 影片 + 3000 圈 online course + 翻 Transformer 論文。現在看這一個頁，10 分鐘就能建立 mental model。</p>
+
+<p><strong>對 AI 教育產品的定僶結構是破壞性。</strong>Coursera / Udacity 上一堆「手把手教你建 LLM」的課程賣 $500 美元一期。這種免費的、互動的、品質不輸的教育內容，直接把定價模型歸零。</p>
+
+<h3>我們的判斷</h3>
+
+<p><strong>(1) 這種風格的「learn-by-playing」產品會是 AI 內容的下一波。</strong>不是 text → video → interactive 單線進化，是「所有人都可以做自己學科的互動 demo」。Anthropic 的 Prompt Engineering 互動教材、OpenAI 的 API playground 都是同一個方向。</p>
+
+<p><strong>(2) 對獨立開發者是好機會。</strong>過去做教育需要「我是哪個教授」的背書，現在只要「我做得出能跑的互動 demo」。一個人一週做出來的東西直接衝 HN 頭版，這個門檻前所未有的低。</p>
+
+<div class="source-footer">
+<div class="source-footer-label">— 源 · Sources</div>
+<ul>
+<li>互動頁本體 · <a href="https://ynarwal.github.io/how-llms-work/" target="_blank" rel="noopener">ynarwal.github.io/how-llms-work</a></li>
+</ul>
+</div>
+
+<hr>
+
+<h2><span class="num">N°06</span> 韓國首例 · AI 假圖造成公共恐慌被拘捕</h2>
+
+<figure>
+  <img src="../assets/news/bbc-seoul-wolf.jpg" alt="Seoul wolf AI fake photo case" loading="lazy" decoding="async">
+  <figcaption>SOURCE · BBC News · 首爾 AI 假狼事件</figcaption>
+</figure>
+
+<p><strong>韓國成為第一個因「傳播 AI 假圖造成公共緊張」就立實罪的國家。</strong></p>
+
+<h3>發生什麼</h3>
+
+<p>民眾上傳一張 AI 生成的「野狼在首爾里間」影像到 social media，引發數萬人關注、警方 9 天調度動員搜山。最後證實為全假。警方花 9 天溯源到原 PO 主，已拘捕。預計起訴「妨害公務」+「散布不實資訊」，刑期 6 個月到 2 年。</p>
+
+<h3>為什麼重要</h3>
+
+<p><strong>第一，這是 AI deepfake 從「欺騙個人」到「欺騙公共機構」的分水嶺。</strong>過去兩年 deepfake 的主戰場在詐騙、名人換臉、選舉操弄 — 都是針對個人或群體。這次是直接消耗國家資源（警方搜山）。執法機構的反應模式會從此不同。</p>
+
+<p><strong>第二，韓國這個判例會被抄。</strong>日本、新加坡、歐盟都在觀望。預計未來 12 個月至少 3-5 國跟進立法。</p>
+
+<h3>我們的判斷</h3>
+
+<p>三個方向要看。</p>
+
+<p><strong>(1) 歐美會不會跟進。</strong>EU AI Act 採稿中就有相關條款（Article 50），但範圍寬泛。韓國的判例提供具體標準，可能催化 EU 具體化。</p>
+
+<p><strong>(2) Meta / X / 抖音的原生 deepfake 標識系統。</strong>C2PA 標準（Content Authenticity Initiative）已經存在但採用率低。這個事件可能推動平台強制掛 AI-generated 浮水印 — 特別是涉及「公共事件」類別。</p>
+
+<p><strong>(3) 使用者教育 vs 法律工具的平衡。</strong>刑期威懾 vs 公眾識別能力哪個更有效？韓國這案會給一個 6-12 個月的觀察窗。</p>
+
+<div class="source-footer">
+<div class="source-footer-label">— 源 · Sources</div>
+<ul>
+<li>BBC News 報導 · <a href="https://www.bbc.com/news/articles/c4gx1n0dl9no" target="_blank" rel="noopener">bbc.com/news/articles/c4gx1n0dl9no</a></li>
+</ul>
+</div>
+
+<hr>
+
+<p><em>明天 07:00 再見</em>。</p>
+
+  </div>
+</article>
+
+<div class="article-foot">
+  <a href="index.html" class="back-cta">← 回 Journal</a>
+  <div class="foot-stamp">AI DESK · Edition N°02 · 2026 · 04 · 24</div>
+</div>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-lockup">AI DESK</div>
+    <div class="footer-row">
+      <div class="cell">
+        <div class="label">Contact</div>
+        <div class="val"><a href="mailto:hello@ai-desk.xyz">hello [at] ai-desk.xyz</a></div>
+      </div>
+      <div class="cell">
+        <div class="label">Journal</div>
+        <div class="val"><a href="index.html">All editions →</a></div>
+      </div>
+      <div class="cell">
+        <div class="label">About</div>
+        <div class="val"><a href="../about.html">The stance →</a></div>
+      </div>
+      <div class="cell">
+        <div class="label">Cadence</div>
+        <div class="val">Daily · 07:00 CST</div>
+      </div>
+    </div>
+    <div class="footer-base">
+      <div>© 2026 AI DESK · Independent editorial</div>
+      <div>A signal, not the noise.</div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
+<!DOCTYPE html>
 <!--
   ============================================================
   AI DESK · ARTICLE TEMPLATE (v2.0 · mono brutalist)
