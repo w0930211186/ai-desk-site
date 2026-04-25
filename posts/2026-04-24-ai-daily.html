@@ -289,7 +289,200 @@ footer.site-footer {
   footer.site-footer { padding: 4rem 1rem 2rem; }
   .footer-row { grid-template-columns: 1fr; }
 }
+
+
+/* ============================================================
+   ACCESSIBILITY · v2 (audit 2026-04-25)
+   - P0-A: focus-visible 鍵盤導航指示
+   - P0-B: prefers-reduced-motion 動畫退場
+   - P1-C: 手機觸控目標 ≥ 44px
+   - bonus: skip-to-content link
+   ============================================================ */
+
+/* P0-A · 鍵盤 focus 指示（mono brutalist 風格） */
+*:focus-visible {
+  outline: 2px solid var(--fg);
+  outline-offset: 3px;
+}
+.nav-links a:focus-visible,
+.back-cta:focus-visible,
+.tag-toggle button:focus-visible {
+  outline-offset: 1px;
+}
+.enter-btn:focus-visible {
+  outline-offset: 5px;
+}
+.journal-card:focus-visible {
+  outline-offset: -2px;
+}
+
+/* bonus · skip-to-content link（a11y best practice） */
+.skip-link {
+  position: absolute;
+  top: -100px;
+  left: 1rem;
+  z-index: 200;
+  padding: 0.7rem 1.2rem;
+  background: var(--fg);
+  color: var(--bg);
+  font-family: var(--f-sans);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: top 0.2s;
+}
+.skip-link:focus {
+  top: 1rem;
+}
+
+/* P0-B · prefers-reduced-motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .diamond,
+  .circle-text,
+  .float-diamond {
+    animation: none !important;
+  }
+}
+
+/* P1-C · 手機觸控目標 ≥ 44px */
+@media (max-width: 700px) {
+  .nav-links a {
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+    padding: 0.6rem 0.7rem;
+    font-size: 0.62rem;
+  }
+  .tag-toggle button {
+    min-height: 44px;
+    padding: 0.7rem 1rem;
+  }
+  .back-cta,
+  .enter-btn {
+    min-height: 44px;
+  }
+}
+
+
+
+/* ============================================================
+   FUNCTIONAL ADDITIONS · v3 (2026-04-25)
+   - Email subscribe form
+   - Share buttons
+   - Pagefind search UI
+   - Reading time pill
+   ============================================================ */
+
+/* 訂閱表單 */
+.subscribe-form {
+  display: flex; gap: 0.6rem; flex-wrap: wrap; align-items: stretch;
+  margin-top: 0.5rem;
+}
+.subscribe-form input[type="email"] {
+  flex: 1 1 220px; min-width: 0;
+  padding: 0.7rem 0.9rem;
+  font-family: var(--f-sans); font-size: 0.85rem;
+  background: transparent;
+  border: 1px solid var(--panel-fg);
+  color: inherit;
+}
+.subscribe-form input[type="email"]:focus {
+  outline: 2px solid var(--panel-fg); outline-offset: 2px;
+}
+.subscribe-form button {
+  padding: 0.7rem 1.2rem;
+  font-family: var(--f-sans); font-weight: 600;
+  font-size: 0.78rem; letter-spacing: 0.2em; text-transform: uppercase;
+  background: var(--panel-fg); color: var(--panel);
+  border: 1px solid var(--panel-fg); cursor: pointer;
+  transition: opacity .2s;
+}
+.subscribe-form button:hover { opacity: 0.85; }
+.subscribe-msg { font-family: var(--f-sans); font-size: 0.72rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--mute-2); margin-top: 0.5rem; min-height: 1em; }
+
+/* 分享按鈕 */
+.share-bar {
+  margin: 4rem 0 0; padding-top: 2rem;
+  border-top: 1px solid var(--line);
+  display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap;
+}
+.share-label {
+  font-family: var(--f-mono); font-size: 0.72rem;
+  letter-spacing: 0.18em; color: var(--mute);
+  text-transform: uppercase; margin-right: 0.5rem;
+}
+.share-bar a, .share-bar button {
+  display: inline-flex; align-items: center; gap: 0.4rem;
+  padding: 0.55rem 0.9rem; min-height: 36px;
+  font-family: var(--f-sans); font-size: 0.7rem;
+  letter-spacing: 0.18em; text-transform: uppercase;
+  border: 1px solid var(--line); color: var(--fg);
+  background: transparent; cursor: pointer;
+  transition: background .2s, color .2s, border-color .2s;
+}
+.share-bar a:hover, .share-bar button:hover {
+  background: var(--fg); color: var(--bg); border-color: var(--fg);
+}
+.share-bar svg { width: 14px; height: 14px; }
+
+/* Reading time pill (post-meta-top 內) */
+.read-time { color: var(--mute); }
+.read-time::before { content: "·"; margin-right: 0.5rem; color: var(--mute-2); }
+
+/* Prev/Next 導覽 */
+.prev-next {
+  margin: 5rem 0 0; padding: 2rem 0; border-top: 1px solid var(--line);
+  display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;
+}
+.prev-next a {
+  display: block; padding: 1.2rem 1.4rem;
+  border: 1px solid var(--line);
+  transition: border-color .2s, background .2s;
+}
+.prev-next a:hover { border-color: var(--fg); background: rgba(255,255,255,0.03); }
+.prev-next a.next { text-align: right; }
+.prev-next .label {
+  display: block; font-family: var(--f-sans);
+  font-size: 0.7rem; letter-spacing: 0.22em;
+  color: var(--mute); text-transform: uppercase; margin-bottom: 0.5rem;
+}
+.prev-next .title {
+  display: block; font-family: var(--f-display);
+  font-weight: 700; font-size: 1rem; line-height: 1.3;
+  letter-spacing: -0.01em; color: var(--fg);
+}
+@media (max-width: 700px) {
+  .prev-next { grid-template-columns: 1fr; }
+  .prev-next a.next { text-align: left; }
+}
+
+/* Pagefind 搜尋 UI override（mono brutalist 化） */
+#search {
+  margin: 0 auto 2rem; max-width: 760px;
+}
+.pagefind-ui__search-input {
+  background: transparent !important; color: var(--fg) !important;
+  border: 1px solid var(--fg) !important; border-radius: 0 !important;
+  font-family: var(--f-sans) !important;
+}
+.pagefind-ui__result {
+  border-bottom: 1px solid var(--line) !important; padding: 1rem 0 !important;
+}
+.pagefind-ui__result-link {
+  color: var(--fg) !important;
+  font-family: var(--f-display) !important; font-weight: 700 !important;
+}
+
 </style>
+<link rel="alternate" type="application/rss+xml" title="AI DESK RSS" href="/rss.xml">
 </head>
 <body>
 
@@ -300,8 +493,7 @@ footer.site-footer {
   </a>
   <div class="nav-links">
     <a href="index.html" class="active">Journal</a>
-    <a href="../about.html">About</a>
-    <a href="../index.html#contact">Contact</a>
+    <a href="https://www.instagram.com/ai_desk_0424?igsh=eHd5Mzg1NTV3MDNi&utm_source=qr" target="_blank" rel="noopener">IG</a>
   </div>
 </nav>
 
@@ -311,7 +503,7 @@ footer.site-footer {
   04/24 AI 大事
 </nav>
 
-<main>
+<main id="main">
 
 <header class="post-head">
   <div class="post-meta-top">
@@ -319,6 +511,7 @@ footer.site-footer {
     <span>2026 · 04 · 24 · FRI</span>
     <span>Daily · AI 大事</span>
     <span>07:00 CST</span>
+    <span class="read-time">13 min read</span>
   </div>
   <h1 class="post-title">2026/04/24 · AI 大事 · GPT-5.5、Claude Code postmortem、AI code 裂開源</h1>
   <p class="post-sub">OpenAI 不到 6 個月再出 GPT-5.5。Anthropic 少見公開 Claude Code postmortem。一個開源團隊因為 AI 生 code 正式裂開。Karpathy 風的互動式 LLM 教學一夜爆火。韓國首例 AI 假圖造成公共恐慌被拘捕。5 條附圖附源附判斷。</p>
@@ -537,6 +730,31 @@ footer.site-footer {
   </div>
 </article>
 
+
+
+
+<div class="share-bar" aria-label="分享這篇">
+  <span class="share-label">— Share</span>
+  <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fai-desk-tw.netlify.app%2Fposts%2F2026-04-24-ai-daily.html&text=2026%2F04%2F24%20%C2%B7%20AI%20%E5%A4%A7%E4%BA%8B%20%C2%B7%20GPT-5.5%E3%80%81Claude%20Code%20postmortem%E3%80%81AI%20code%20%E8%A3%82%E9%96%8B%E6%BA%90" target="_blank" rel="noopener" aria-label="Share on X (Twitter)">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+    X
+  </a>
+  <a href="https://www.threads.net/intent/post?text=2026%2F04%2F24%20%C2%B7%20AI%20%E5%A4%A7%E4%BA%8B%20%C2%B7%20GPT-5.5%E3%80%81Claude%20Code%20postmortem%E3%80%81AI%20code%20%E8%A3%82%E9%96%8B%E6%BA%90%20https%3A%2F%2Fai-desk-tw.netlify.app%2Fposts%2F2026-04-24-ai-daily.html" target="_blank" rel="noopener" aria-label="Share on Threads">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.18 11.21c-.08-.04-.16-.08-.24-.11-.14-2.59-1.55-4.07-3.92-4.09h-.03c-1.42 0-2.6.61-3.33 1.71l1.31.9c.54-.82 1.39-.99 2.02-.99h.02c.79 0 1.39.23 1.78.69.28.34.47.81.56 1.4-.69-.12-1.43-.16-2.22-.12-2.22.13-3.65 1.42-3.55 3.22.05.91.51 1.7 1.28 2.21.65.43 1.49.65 2.36.61 1.15-.06 2.05-.5 2.69-1.3.48-.6.78-1.39.93-2.39.6.36 1.04.83 1.29 1.4.42.96.45 2.55-.85 3.85-1.13 1.13-2.5 1.62-4.55 1.64-2.27-.02-3.99-.75-5.11-2.18-1.06-1.34-1.6-3.27-1.62-5.74.02-2.47.56-4.4 1.62-5.74C8.86 3.4 10.58 2.67 12.85 2.65c2.29.02 4.04.75 5.2 2.19.57.7.99 1.59 1.27 2.62l1.55-.41c-.34-1.27-.86-2.36-1.59-3.25C17.81 1.86 15.62.93 12.86.91h-.01C10.1.93 7.93 1.87 6.42 3.71c-1.34 1.65-2.04 3.95-2.06 6.83v.02c.02 2.88.72 5.18 2.06 6.83 1.51 1.84 3.68 2.78 6.43 2.8h.01c2.45-.02 4.18-.66 5.6-2.08 1.86-1.86 1.81-4.19 1.19-5.62-.44-1.03-1.29-1.86-2.46-2.4z"/></svg>
+    Threads
+  </a>
+  <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fai-desk-tw.netlify.app%2Fposts%2F2026-04-24-ai-daily.html" target="_blank" rel="noopener" aria-label="Share on LinkedIn">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.761 0 5-2.239 5-5v-14c0-2.761-2.239-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+    LinkedIn
+  </a>
+  <button type="button" onclick="navigator.clipboard.writeText(window.location.href).then(()=>{this.textContent='✓ Copied'; setTimeout(()=>this.textContent='Copy link', 2000);})" aria-label="Copy link">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+    Copy link
+  </button>
+</div>
+
+
+
 <div class="article-foot">
   <a href="index.html" class="back-cta">← 回 Journal</a>
   <div class="foot-stamp">AI DESK · Edition N°02 · 2026 · 04 · 24</div>
@@ -549,21 +767,27 @@ footer.site-footer {
     <div class="footer-lockup">AI DESK</div>
     <div class="footer-row">
       <div class="cell">
-        <div class="label">Contact</div>
-        <div class="val"><a href="mailto:hello@ai-desk.xyz">hello [at] ai-desk.xyz</a></div>
+        <div class="label">Instagram</div>
+        <div class="val"><a href="https://www.instagram.com/ai_desk_0424?igsh=eHd5Mzg1NTV3MDNi&utm_source=qr" target="_blank" rel="noopener">@ai_desk_0424</a></div>
       </div>
       <div class="cell">
         <div class="label">Journal</div>
         <div class="val"><a href="index.html">All editions →</a></div>
       </div>
       <div class="cell">
-        <div class="label">About</div>
-        <div class="val"><a href="../about.html">The stance →</a></div>
-      </div>
-      <div class="cell">
         <div class="label">Cadence</div>
         <div class="val">Daily · 07:00 CST</div>
       </div>
+        <div class="cell" style="grid-column: span 2;">
+    <div class="label">Subscribe</div>
+    <form name="subscribe" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="subscribe-form" action="/?subscribed=1">
+      <input type="hidden" name="form-name" value="subscribe">
+      <p hidden><label>Don't fill this: <input name="bot-field"></label></p>
+      <input type="email" name="email" placeholder="email@example.com" required aria-label="Email address">
+      <button type="submit">Subscribe →</button>
+    </form>
+    <div class="subscribe-msg">每日 07:00 CST 收信 · 不轉售名單</div>
+  </div>
     </div>
     <div class="footer-base">
       <div>© 2026 AI DESK · Independent editorial</div>
