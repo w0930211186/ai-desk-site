@@ -1,46 +1,4 @@
 <!DOCTYPE html>
-<!--
-  ============================================================
-  AI DESK · ARTICLE TEMPLATE (v2.0 · mono brutalist)
-  給未來 ai-journal-sync skill 用的文章骨架
-  ============================================================
-  Placeholder 規範：
-    {{TITLE}}          文章標題 純文字
-    {{TITLE_HTML}}     標題含 <em>inline outline</em> 的排版版本 (optional 若空則 fallback 到 {{TITLE}})
-    {{TITLE_SHORT}}    breadcrumb 用的短標題 (<= 24 字)
-    {{SUMMARY}}        摘要 140-160 字 meta description / og:description 共用
-    {{SLUG}}           URL slug 格式 YYYY-MM-DD-<topic-ascii>
-    {{DATE_ISO}}       發布日期 ISO8601 ex. 2026-04-24T07:00:00+08:00
-    {{DATE_DISPLAY}}   顯示用 ex. 2026 · 04 · 24
-    {{DAY}}            星期縮寫 ex. FRI
-    {{EDITION_NUM}}    期數 ex. 01 / 02 / 03
-    {{CATEGORY}}       主分類 news / tools / intel / meta
-    {{CATEGORY_LABEL}} 中文分類標籤 ex. News · 新聞 / Tools · 工具 / Intel · 情報 / Meta · 站務
-    {{TAG_CHIPS}}      tag 片段 HTML 例:
-                         <span class="tag">News · 新聞</span>
-                         <span class="tag mute">Anthropic</span>
-    {{WARNING_BANNER}} (optional) brief-ship 塗銷模式用 沒事留空字串
-    {{BODY_HTML}}      文章主體 semantic HTML (h2/h3/p/ul/ol/blockquote/img)
-                        - <h2> 會自動大寫 可加 <span class="num">N°XX</span> 編號
-                        - <em> 是 outline 效果（字變透明外描邊）不是斜體
-                        - <ul> 為 ◆ bullets 不需寫 list-style
-                        - <blockquote> 全寬橫線 + ❝ 開口 用於金句
-                        - inline <code> / <pre> 都有 token 樣式
-    {{PREV_SLUG}}/{{PREV_TITLE}} 上一篇 (optional)
-    {{NEXT_SLUG}}/{{NEXT_TITLE}} 下一篇 (optional)
-  ============================================================
-  路徑規範：
-    - 文章頁在 /posts/ 下 所以 favicon / 導覽鏈結都用 ../ 相對路徑
-    - 開發時雙擊 .html 打開 (file://) 也能看到完整樣式
-    - 上 Netlify 後絕對路徑 /posts/ 依然有效
-  ============================================================
-  品牌規範 (v2.0 · mono brutalist)：
-    - 色系 pure black + pure white + light gray #F2F2F2 完全 monochrome
-    - 無 acid / 無 gold / 無任何彩色 — 強度靠 type / size / contrast
-    - 字體 Inter Tight (heavy) + Space Grotesk + Noto Sans TC 全 sans
-    - 調性 editorial / brutalist / editorial signal
-  ============================================================
--->
 <html lang="zh-Hant">
 <head>
 <meta charset="UTF-8">
@@ -312,18 +270,7 @@ footer.site-footer { background: var(--panel); color: var(--panel-fg); padding: 
   </div>
 </article>
 
-<!-- PREV/NEXT skill 若 {{PREV_SLUG}} 存在 則注入以下 block 整段
-<nav class="prev-next">
-  <a href="{{PREV_SLUG}}.html" class="prev">
-    <span class="label">← 上一篇</span>
-    <span class="title">{{PREV_TITLE}}</span>
-  </a>
-  <a href="{{NEXT_SLUG}}.html" class="next">
-    <span class="label">下一篇 →</span>
-    <span class="title">{{NEXT_TITLE}}</span>
-  </a>
-</nav>
--->
+{{PREV_NEXT_NAV}}
 
 <div class="article-foot">
   <a href="index.html" class="back-cta">← 回 Journal</a>
