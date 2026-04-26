@@ -28,6 +28,19 @@ English: auto post IG / publish IG story / push to IG / auto IG / IG auto
 | Claude in Chrome extension | ✅ 已裝 | + Act without asking ON |
 | ai-desk-ig-story skill | ✅ 已裝 | 產 story.png |
 
+### Chrome 擴充功能權限（一次設好，0 觸碰前提）
+
+在 Chrome 右上角 Claude 擴充功能 icon 點開 → **business.facebook.com** 站點設定：
+
+- ✅ **On all sites** 或 **business.facebook.com** 設成 Always allow
+- ✅ **Act without asking** ON
+- ✅ **Allow clicking submit-style buttons**（一定要勾，不然「分享」按鈕點擊會被擋）
+- ✅ **Allow JavaScript injection**（drop event 需要）
+- ✅ **Allow file uploads**（file_upload tool 需要）
+
+⚠️ **沒勾「Allow clicking submit-style buttons」會怎樣**：
+圖會自動上傳 + 預覽出來，但最後一步「分享」按鈕被擋 → Telegram 收到「⚠️ 分享按鈕被擋，請手動點」 → 你還是要碰。設好之後才是真 0 觸碰。
+
 ## Cowork 排程設定
 
 接在 ai-desk-publish 後面：
