@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>04/27 AI 大事 · Meta AWS CPU、Anthropic agent 市集、agent 抹 prod、SWE-bench 退役 | AI DESK</title>
+<meta name="description" content="Meta 跟 Amazon 簽下百萬顆級 AI CPU 訂單。Anthropic 開出第一個 agent-to-agent 市集，AI 用真錢買真貨。工程師公開 AI agent 抹掉生產 DB 全紀錄。OpenAI 宣布退役 SWE-bench。Google 對 Anthropic 加碼到 $40B 並釋出 Mythos 資安模型。5 條附圖附源附判斷。">
+<meta name="keywords" content="AI DESK, Daily · AI 大事, Meta Amazon AI CPU, Anthropic agent marketplace, agent-to-agent commerce, AI agent prod database, OpenAI SWE-bench retired, Google Anthropic 40B, Mythos cybersecurity model">
+<meta name="author" content="AI DESK">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#000000">
+<meta property="og:title" content="2026/04/27 · AI 大事 · Meta 押 AWS CPU、Anthropic 開 agent 市集、AI agent 抹 prod、SWE-bench 退役">
+<meta property="og:description" content="Meta 跟 Amazon 簽下百萬顆級 AI CPU 訂單。Anthropic 開出第一個 agent-to-agent 市集，AI 用真錢買真貨。工程師公開 AI agent 抹掉生產 DB 全紀錄。OpenAI 宣布退役 SWE-bench。Google 對 Anthropic 加碼到 $40B 並釋出 Mythos 資安模型。5 條附圖附源附判斷。">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="AI DESK">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:url" content="https://ai-desk-tw.netlify.app/posts/2026-04-27-daily.html">
+<meta property="og:image" content="https://ai-desk-tw.netlify.app/assets/og-cover.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="article:published_time" content="2026-04-27T07:00:00+08:00">
+<meta property="article:author" content="AI DESK">
+<meta property="article:section" content="Daily · AI 大事">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="2026/04/27 · AI 大事 · Meta 押 AWS CPU、Anthropic 開 agent 市集、AI agent 抹 prod、SWE-bench 退役">
+<meta name="twitter:description" content="Meta 跟 Amazon 簽下百萬顆級 AI CPU 訂單。Anthropic 開出第一個 agent-to-agent 市集，AI 用真錢買真貨。工程師公開 AI agent 抹掉生產 DB 全紀錄。OpenAI 宣布退役 SWE-bench。Google 對 Anthropic 加碼到 $40B 並釋出 Mythos 資安模型。5 條附圖附源附判斷。">
+<meta name="twitter:image" content="https://ai-desk-tw.netlify.app/assets/og-cover.png">
+<link rel="canonical" href="https://ai-desk-tw.netlify.app/posts/2026-04-27-daily.html">
+<link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Noto+Sans+TC:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "2026/04/27 · AI 大事 · Meta 押 AWS CPU、Anthropic 開 agent 市集、AI agent 抹 prod、SWE-bench 退役",
+  "datePublished": "2026-04-27T07:00:00+08:00",
+  "dateModified": "2026-04-27T07:00:00+08:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://ai-desk-tw.netlify.app/posts/2026-04-27-daily.html"
+  },
+  "image": "https://ai-desk-tw.netlify.app/assets/og-cover.png",
+  "author": { "@type": "Organization", "name": "AI DESK", "url": "https://ai-desk-tw.netlify.app/" },
+  "publisher": {
+    "@type": "Organization",
+    "name": "AI DESK",
+    "url": "https://ai-desk-tw.netlify.app/",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://ai-desk-tw.netlify.app/assets/og-cover.png",
+      "width": 1200,
+      "height": 630
+    }
+  },
+  "description": "Meta 跟 Amazon 簽下百萬顆級 AI CPU 訂單。Anthropic 開出第一個 agent-to-agent 市集，AI 用真錢買真貨。工程師公開 AI agent 抹掉生產 DB 全紀錄。OpenAI 宣布退役 SWE-bench。Google 對 Anthropic 加碼到 $40B 並釋出 Mythos 資安模型。5 條附圖附源附判斷。",
+  "articleSection": "Daily · AI 大事",
+  "url": "https://ai-desk-tw.netlify.app/posts/2026-04-27-daily.html"
+}
+</script>
+
+<style>
+:root {
+  --bg: #000000;
+  --fg: #FFFFFF;
+  --panel: #F2F2F2;
+  --panel-fg: #0A0A0A;
+  --mute: #8A8A8A;
+  --mute-2: #5A5A5A;
+  --line: rgba(255, 255, 255, 0.14);
+  --line-dark: rgba(0, 0, 0, 0.14);
+  --f-display: 'Inter Tight', 'Noto Sans TC', -apple-system, sans-serif;
+  --f-sans: 'Space Grotesk', 'Noto Sans TC', -apple-system, sans-serif;
+  --f-body: 'Noto Sans TC', 'Inter Tight', sans-serif;
+  --f-mono: 'JetBrains Mono', 'SF Mono', Menlo, monospace;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+img { max-width: 100%; height: auto; display: block; }
+html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; overflow-x: hidden; }
+body { font-family: var(--f-body); background: var(--bg); color: var(--fg); line-height: 1.75; font-size: 17px; overflow-x: hidden; }
+a { color: inherit; text-decoration: none; }
+::selection { background: #FFFFFF; color: #000000; }
+
+.nav-top {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+  padding: 1.5rem 2rem; display: flex; justify-content: space-between; align-items: center;
+  mix-blend-mode: difference;
+}
+.nav-brand { font-family: var(--f-display); font-weight: 900; font-size: 0.92rem; letter-spacing: 0.04em; text-transform: uppercase; display: flex; align-items: center; gap: 0.6rem; }
+.nav-brand .diamond { width: 10px; height: 10px; background: var(--fg); display: inline-block; animation: spin 4s linear infinite; }
+@keyframes spin { from { transform: rotate(45deg); } to { transform: rotate(405deg); } }
+.nav-links { display: flex; gap: 1.4rem; font-family: var(--f-sans); font-size: 0.72rem; letter-spacing: 0.2em; text-transform: uppercase; font-weight: 500; }
+.nav-links a { padding: 0.4rem 0.8rem; border: 1px solid transparent; transition: border-color .25s; }
+.nav-links a:hover, .nav-links a.active { border-color: var(--fg); }
+
+nav.crumbs {
+  max-width: 900px; margin: 9rem auto 2rem; padding: 0 2rem;
+  font-family: var(--f-sans); font-size: 0.7rem;
+  letter-spacing: 0.22em; text-transform: uppercase; color: var(--mute);
+}
+nav.crumbs a { color: var(--fg); }
+nav.crumbs .sep { margin: 0 0.8rem; color: var(--mute-2); }
+
+/* ARTICLE HEAD */
+.post-head {
+  max-width: 1200px; margin: 2rem auto 3rem; padding: 0 2rem;
+  position: relative;
+}
+.post-meta-top {
+  font-family: var(--f-mono); font-size: 0.78rem;
+  letter-spacing: 0.2em; text-transform: uppercase;
+  color: var(--mute); margin-bottom: 2.5rem;
+  display: flex; gap: 1.5rem; flex-wrap: wrap;
+}
+.post-meta-top .num { color: var(--fg); font-family: var(--f-display); font-weight: 900; font-size: 0.9rem; letter-spacing: 0; }
+.post-title {
+  font-family: var(--f-display); font-weight: 900;
+  font-size: clamp(2.8rem, 7vw, 6.5rem);
+  line-height: 0.95; letter-spacing: -0.04em;
+  text-transform: uppercase; max-width: 16ch;
+}
+.post-title em {
+  font-style: normal; color: transparent; -webkit-text-stroke: 1.5px var(--fg);
+}
+.post-sub {
+  margin-top: 2rem; max-width: 680px;
+  font-family: var(--f-display); font-weight: 500;
+  font-size: 1.3rem; color: var(--mute); line-height: 1.45;
+  letter-spacing: -0.005em;
+  border-left: 3px solid var(--fg); padding-left: 1.4rem;
+}
+.post-tags { margin-top: 2.5rem; display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.post-tags .tag {
+  font-family: var(--f-sans); font-size: 0.68rem;
+  letter-spacing: 0.22em; text-transform: uppercase;
+  padding: 0.35rem 0.9rem; border: 1px solid var(--fg); color: var(--fg);
+}
+.post-tags .tag.mute { border-color: var(--mute); color: var(--mute); }
+
+/* ARTICLE BODY */
+article.post {
+  max-width: 760px; margin: 4rem auto; padding: 0 2rem;
+  position: relative;
+}
+.post-body { font-size: 1.08rem; line-height: 1.9; color: #D9D9D9; }
+.post-body p { margin-bottom: 1.6rem; }
+.post-body h2 {
+  font-family: var(--f-display); font-weight: 900;
+  font-size: clamp(1.8rem, 3.5vw, 2.6rem);
+  line-height: 1.1; letter-spacing: -0.02em;
+  text-transform: uppercase; color: var(--fg);
+  margin: 5rem 0 1.5rem; padding-top: 2.5rem;
+  border-top: 1px solid var(--line);
+}
+.post-body h2 .num {
+  font-family: var(--f-mono); font-size: 0.7em;
+  color: var(--mute); letter-spacing: 0.16em; font-weight: 400;
+  display: block; margin-bottom: 0.6rem;
+}
+.post-body h3 {
+  font-family: var(--f-display); font-size: 1.3rem;
+  font-weight: 800; margin: 2.4rem 0 0.8rem; color: var(--fg);
+  letter-spacing: -0.01em;
+}
+.post-body strong { color: var(--fg); font-weight: 700; }
+.post-body a { border-bottom: 1px solid var(--fg); color: var(--fg); }
+.post-body a:hover { background: var(--fg); color: var(--bg); }
+.post-body ul, .post-body ol { margin: 1rem 0 1.6rem 0; list-style: none; padding: 0; }
+.post-body ul li { margin-bottom: 0.9rem; padding-left: 1.8rem; position: relative; }
+.post-body ul li::before { content: "◆"; position: absolute; left: 0; top: 0; color: var(--fg); font-family: var(--f-display); }
+.post-body ol { counter-reset: n; }
+.post-body ol li { counter-increment: n; margin-bottom: 0.9rem; padding-left: 2.4rem; position: relative; }
+.post-body ol li::before {
+  content: "0" counter(n); position: absolute; left: 0; top: 0;
+  font-family: var(--f-mono); font-size: 0.82em; color: var(--fg);
+  letter-spacing: 0.08em;
+}
+.post-body blockquote {
+  font-family: var(--f-display); font-weight: 800;
+  font-size: clamp(1.5rem, 3vw, 2.2rem); line-height: 1.2;
+  padding: 2.5rem 0; margin: 3rem 0;
+  border-top: 1px solid var(--fg); border-bottom: 1px solid var(--fg);
+  color: var(--fg); letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+.post-body blockquote::before {
+  content: "❝"; font-family: var(--f-display); font-size: 2.5rem;
+  color: var(--fg); display: block; margin-bottom: 0.5rem; line-height: 1;
+}
+.post-body code {
+  font-family: var(--f-mono); background: rgba(255, 255, 255, 0.1);
+  padding: 0.15rem 0.5rem; font-size: 0.88em;
+  color: var(--fg);
+}
+.post-body pre {
+  background: rgba(255, 255, 255, 0.04); border: 1px solid var(--line);
+  padding: 1.4rem; overflow-x: auto; margin: 2rem 0;
+  font-family: var(--f-mono); font-size: 0.88rem; line-height: 1.6;
+}
+.post-body pre code { background: transparent; padding: 0; }
+.post-body hr { border: none; border-top: 1px solid var(--line); margin: 3rem 0; }
+.post-body figure { margin: 2.4rem 0; }
+.post-body figcaption {
+  font-family: var(--f-mono); font-size: 0.72rem;
+  letter-spacing: 0.16em; color: var(--mute);
+  text-transform: uppercase; margin-top: 0.8rem;
+}
+
+.post-body aside.keypoints {
+  border: 1px solid var(--fg); padding: 1.6rem 1.8rem;
+  margin: 0 0 2.4rem; background: rgba(255,255,255,0.02);
+}
+.post-body aside.keypoints .kp-label {
+  font-family: var(--f-sans); font-size: 0.72rem;
+  letter-spacing: 0.24em; text-transform: uppercase;
+  color: var(--fg); font-weight: 600; margin-bottom: 1rem;
+}
+
+.post-body .source-footer {
+  margin: 1.5rem 0 0; padding-top: 1rem;
+  border-top: 1px dashed var(--line);
+}
+.post-body .source-footer-label {
+  font-family: var(--f-mono); font-size: 0.72rem;
+  letter-spacing: 0.18em; color: var(--mute);
+  text-transform: uppercase; margin-bottom: 0.6rem;
+}
+.post-body .source-footer ul { margin: 0; }
+
+.post-body .sig {
+  margin-top: 5rem; padding-top: 2rem; border-top: 1px solid var(--line);
+  font-family: var(--f-mono); font-size: 0.82rem;
+  letter-spacing: 0.18em; color: var(--mute); text-transform: uppercase;
+}
+
+.article-foot {
+  max-width: 1200px; margin: 5rem auto 0; padding: 3rem 2rem 0;
+  border-top: 1px solid var(--line);
+  display: flex; justify-content: space-between; align-items: center;
+  flex-wrap: wrap; gap: 1rem;
+}
+.back-cta {
+  display: inline-flex; align-items: center; gap: 0.8rem;
+  font-family: var(--f-sans); font-size: 0.78rem; font-weight: 600;
+  letter-spacing: 0.24em; text-transform: uppercase;
+  padding: 0.8rem 1.4rem; border: 1px solid var(--fg);
+  transition: background .3s, color .3s;
+}
+.back-cta:hover { background: var(--fg); color: var(--bg); }
+.foot-stamp { font-family: var(--f-mono); font-size: 0.72rem; letter-spacing: 0.18em; color: var(--mute); text-transform: uppercase; }
+
+/* FOOTER */
+footer.site-footer {
+  background: var(--panel); color: var(--panel-fg);
+  padding: 6rem 2rem 3rem; margin-top: 6rem;
+  position: relative; overflow: hidden;
+}
+.footer-inner { max-width: 1400px; margin: 0 auto; }
+.footer-lockup {
+  font-family: var(--f-display); font-weight: 900;
+  font-size: clamp(4rem, 14vw, 16rem); line-height: 0.85;
+  letter-spacing: -0.06em; text-transform: uppercase;
+}
+.footer-row {
+  margin-top: 4rem; padding-top: 2rem; border-top: 1px solid var(--panel-fg);
+  display: grid; grid-template-columns: repeat(4, 1fr); gap: 2rem;
+  font-family: var(--f-sans); font-size: 0.8rem;
+}
+.footer-row .cell .label { font-size: 0.66rem; letter-spacing: 0.28em; text-transform: uppercase; color: var(--mute-2); font-weight: 500; margin-bottom: 0.5rem; }
+.footer-row .cell .val { font-family: var(--f-display); font-weight: 700; letter-spacing: -0.01em; font-size: 1rem; }
+.footer-row .cell .val a { border-bottom: 1px solid transparent; transition: border-color .2s; }
+.footer-row .cell .val a:hover { border-bottom-color: var(--panel-fg); }
+.footer-base {
+  margin-top: 4rem; display: flex; justify-content: space-between; align-items: center;
+  font-family: var(--f-mono); font-size: 0.7rem; letter-spacing: 0.12em;
+  color: var(--mute-2); text-transform: uppercase; flex-wrap: wrap; gap: 1rem;
+}
+
+@media (max-width: 700px) {
+  .nav-top { padding: 1rem; }
+  .nav-links { gap: 0.5rem; font-size: 0.58rem; }
+  .nav-links a { padding: 0.3rem 0.5rem; }
+  nav.crumbs { padding: 0 1rem; margin-top: 6rem; font-size: 0.62rem; }
+  .post-head { padding: 0 1rem; }
+  article.post { padding: 0 1rem; }
+  .post-body blockquote { font-size: 1.4rem; }
+  .article-foot { padding: 3rem 1rem 0; }
+  footer.site-footer { padding: 4rem 1rem 2rem; }
+  .footer-row { grid-template-columns: 1fr; }
+}
+
+
+/* ============================================================
+   ACCESSIBILITY · v2 (audit 2026-04-25)
+   - P0-A: focus-visible 鍵盤導航指示
+   - P0-B: prefers-reduced-motion 動畫退場
+   - P1-C: 手機觸控目標 ≥ 44px
+   - bonus: skip-to-content link
+   ============================================================ */
+
+/* P0-A · 鍵盤 focus 指示（mono brutalist 風格） */
+*:focus-visible {
+  outline: 2px solid var(--fg);
+  outline-offset: 3px;
+}
+.nav-links a:focus-visible,
+.back-cta:focus-visible,
+.tag-toggle button:focus-visible {
+  outline-offset: 1px;
+}
+.enter-btn:focus-visible {
+  outline-offset: 5px;
+}
+.journal-card:focus-visible {
+  outline-offset: -2px;
+}
+
+/* bonus · skip-to-content link（a11y best practice） */
+.skip-link {
+  position: absolute;
+  top: -100px;
+  left: 1rem;
+  z-index: 200;
+  padding: 0.7rem 1.2rem;
+  background: var(--fg);
+  color: var(--bg);
+  font-family: var(--f-sans);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: top 0.2s;
+}
+.skip-link:focus {
+  top: 1rem;
+}
+
+/* P0-B · prefers-reduced-motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .diamond,
+  .circle-text,
+  .float-diamond {
+    animation: none !important;
+  }
+}
+
+/* P1-C · 手機觸控目標 ≥ 44px */
+@media (max-width: 700px) {
+  .nav-links a {
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+    padding: 0.6rem 0.7rem;
+    font-size: 0.62rem;
+  }
+  .tag-toggle button {
+    min-height: 44px;
+    padding: 0.7rem 1rem;
+  }
+  .back-cta,
+  .enter-btn {
+    min-height: 44px;
+  }
+}
+
+
+
+/* ============================================================
+   FUNCTIONAL ADDITIONS · v3 (2026-04-25)
+   - Email subscribe form
+   - Share buttons
+   - Pagefind search UI
+   - Reading time pill
+   ============================================================ */
+
+/* 訂閱表單 */
+.subscribe-form {
+  display: flex; gap: 0.6rem; flex-wrap: wrap; align-items: stretch;
+  margin-top: 0.5rem;
+}
+.subscribe-form input[type="email"] {
+  flex: 1 1 220px; min-width: 0;
+  padding: 0.7rem 0.9rem;
+  font-family: var(--f-sans); font-size: 0.85rem;
+  background: transparent;
+  border: 1px solid var(--panel-fg);
+  color: inherit;
+}
+.subscribe-form input[type="email"]:focus {
+  outline: 2px solid var(--panel-fg); outline-offset: 2px;
+}
+.subscribe-form button {
+  padding: 0.7rem 1.2rem;
+  font-family: var(--f-sans); font-weight: 600;
+  font-size: 0.78rem; letter-spacing: 0.2em; text-transform: uppercase;
+  background: var(--panel-fg); color: var(--panel);
+  border: 1px solid var(--panel-fg); cursor: pointer;
+  transition: opacity .2s;
+}
+.subscribe-form button:hover { opacity: 0.85; }
+.subscribe-msg { font-family: var(--f-sans); font-size: 0.72rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--mute-2); margin-top: 0.5rem; min-height: 1em; }
+
+/* 分享按鈕 */
+.share-bar {
+  margin: 4rem 0 0; padding-top: 2rem;
+  border-top: 1px solid var(--line);
+  display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap;
+}
+.share-label {
+  font-family: var(--f-mono); font-size: 0.72rem;
+  letter-spacing: 0.18em; color: var(--mute);
+  text-transform: uppercase; margin-right: 0.5rem;
+}
+.share-bar a, .share-bar button {
+  display: inline-flex; align-items: center; gap: 0.4rem;
+  padding: 0.55rem 0.9rem; min-height: 36px;
+  font-family: var(--f-sans); font-size: 0.7rem;
+  letter-spacing: 0.18em; text-transform: uppercase;
+  border: 1px solid var(--line); color: var(--fg);
+  background: transparent; cursor: pointer;
+  transition: background .2s, color .2s, border-color .2s;
+}
+.share-bar a:hover, .share-bar button:hover {
+  background: var(--fg); color: var(--bg); border-color: var(--fg);
+}
+.share-bar svg { width: 14px; height: 14px; }
+
+/* Reading time pill (post-meta-top 內) */
+.read-time { color: var(--mute); }
+.read-time::before { content: "·"; margin-right: 0.5rem; color: var(--mute-2); }
+
+/* Prev/Next 導覽 */
+.prev-next {
+  margin: 5rem 0 0; padding: 2rem 0; border-top: 1px solid var(--line);
+  display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;
+}
+.prev-next a {
+  display: block; padding: 1.2rem 1.4rem;
+  border: 1px solid var(--line);
+  transition: border-color .2s, background .2s;
+}
+.prev-next a:hover { border-color: var(--fg); background: rgba(255,255,255,0.03); }
+.prev-next a.next { text-align: right; }
+.prev-next .label {
+  display: block; font-family: var(--f-sans);
+  font-size: 0.7rem; letter-spacing: 0.22em;
+  color: var(--mute); text-transform: uppercase; margin-bottom: 0.5rem;
+}
+.prev-next .title {
+  display: block; font-family: var(--f-display);
+  font-weight: 700; font-size: 1rem; line-height: 1.3;
+  letter-spacing: -0.01em; color: var(--fg);
+}
+@media (max-width: 700px) {
+  .prev-next { grid-template-columns: 1fr; }
+  .prev-next a.next { text-align: left; }
+}
+
+/* Pagefind 搜尋 UI override（mono brutalist 化） */
+#search {
+  margin: 0 auto 2rem; max-width: 760px;
+}
+.pagefind-ui__search-input {
+  background: transparent !important; color: var(--fg) !important;
+  border: 1px solid var(--fg) !important; border-radius: 0 !important;
+  font-family: var(--f-sans) !important;
+}
+.pagefind-ui__result {
+  border-bottom: 1px solid var(--line) !important; padding: 1rem 0 !important;
+}
+.pagefind-ui__result-link {
+  color: var(--fg) !important;
+  font-family: var(--f-display) !important; font-weight: 700 !important;
+}
+
+
+/* 2026-04-27 daily overrides */
+.post-body .source-footer { border-top: 1px dashed rgba(255,255,255,0.18); margin-top: 2rem; padding-top: 1rem; font-family: var(--f-mono); font-size: 0.78rem; opacity: 0.6; color: #D9D9D9; }
+.post-body .source-footer-label { text-transform: uppercase; letter-spacing: 0.12em; margin-bottom: 0.4rem; }
+.post-body .source-footer ul { list-style: none; padding: 0; margin: 0; }
+.post-body .source-footer li { margin: 0.25rem 0; padding-left: 0; }
+.post-body .source-footer li::before { content: none; }
+.post-body .source-footer a { color: var(--fg); text-decoration: underline; border-bottom: none; }
+.post-body figure img { width: 100%; height: auto; max-height: 460px; object-fit: cover; object-position: center; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.1); }
+</style>
+<link rel="alternate" type="application/rss+xml" title="AI DESK RSS" href="/rss.xml">
+</head>
+<body>
+
+<nav class="nav-top">
+  <a href="../index.html" class="nav-brand">
+    <span class="diamond"></span>
+    AI DESK
+  </a>
+  <div class="nav-links">
+    <a href="index.html" class="active">Journal</a>
+    <a href="https://www.instagram.com/ai_desk_0424?igsh=eHd5Mzg1NTV3MDNi&utm_source=qr" target="_blank" rel="noopener">IG</a>
+  </div>
+</nav>
+
+<nav class="crumbs">
+  <a href="../index.html">Index</a><span class="sep">/</span>
+  <a href="index.html">Journal</a><span class="sep">/</span>
+  04/27 AI 大事
+</nav>
+
+<main id="main">
+
+<header class="post-head">
+  <div class="post-meta-top">
+    <span class="num">Edition N°04</span>
+    <span>2026 · 04 · 27 · MON</span>
+    <span>Daily · AI 大事</span>
+    <span>07:00 CST</span>
+    <span class="read-time">15 min read</span>
+  </div>
+  <h1 class="post-title">2026/04/27 · AI 大事 · Meta 押 AWS CPU、Anthropic 開 agent 市集、AI agent 抹 prod、SWE-bench 退役</h1>
+  <p class="post-sub">Meta 跟 Amazon 簽下百萬顆級 AI CPU 訂單。Anthropic 開出第一個 agent-to-agent 市集，AI 用真錢買真貨。工程師公開 AI agent 抹掉生產 DB 全紀錄。OpenAI 宣布退役 SWE-bench。Google 對 Anthropic 加碼到 $40B 並釋出 Mythos 資安模型。5 條附圖附源附判斷。</p>
+  <div class="post-tags"><span class="tag">Daily · AI 大事</span><span class="tag mute">Meta</span><span class="tag mute">Anthropic</span><span class="tag mute">OpenAI</span><span class="tag mute">Google</span><span class="tag mute">tools</span><span class="tag mute">agentic</span></div>
+</header>
+
+<article class="post">
+  <div class="post-body">
+
+<aside class="keypoints">
+  <div class="kp-label">📌 今日重點方向 · Key Signals</div>
+  <ol>
+    <li><strong>晶片底層多元化加速 · Compute fabric goes wider</strong> — Meta 跟 Amazon 簽下百萬顆級 Trainium / Graviton 與自研 CPU 訂單，AI 算力的底盤從單一 GPU 變成 GPU + 自研 CPU + accelerator 混合堆疊。中段供應商的議價權重新洗牌。</li>
+    <li><strong>agent 經濟同時被開門也被打臉 · Agentic both ships and slips</strong> — Anthropic 開第一個 agent-to-agent 真錢市集，但同一週工程師公開 AI agent 抹掉生產資料庫 HN 292 分。能力跑在前面，guardrail、權限、撤銷三件套還沒跟上。</li>
+    <li><strong>評測與資金規則同步翻新 · Benchmarks and bankrolls both reset</strong> — OpenAI 宣布退役 SWE-bench Verified、改向 agentic workflow 評測；Google 對 Anthropic 加碼到 $40B 並有限釋出 Mythos 資安模型。技術評估與資本配置的尺，這個月一起換。</li>
+  </ol>
+</aside>
+
+<hr>
+
+<h2><span class="num">N°12</span> Meta 押下百萬顆 AWS AI CPU · 晶片戰場從 GPU 燒到 CPU</h2>
+
+<figure>
+  <img src="../assets/news/meta-amazon-cpu.jpg" alt="Meta and AWS data center compute infrastructure">
+  <figcaption>SOURCE · TECHCRUNCH · META × AMAZON CUSTOM CPU DEAL</figcaption>
+</figure>
+
+<p><strong>Pin · 表面是採購單，底層是算力路線之爭。Meta 不再只賭 GPU。</strong></p>
+
+<h3>發生什麼</h3>
+
+<p>TechCrunch 報導，Meta 與 Amazon Web Services 達成「百萬顆級」自研晶片採購協議，包含 Graviton CPU 與 Trainium 加速器，鎖定多年期 take-or-pay 條款。重點不是訓練側 GPU，而是 inference 與 agentic workload 端的 CPU 與輕量加速器。協議規模與 Meta 自家 MTIA 加速器路線並行，等於是雙保險。</p>
+
+<p>這條訂單發生在 GPU 缺貨周期的尾段。Hyperscaler 已經把目光從「拿到更多 H100」轉向「同樣工作負載能不能用更便宜的矽跑」。Meta 內部 Llama 系列推理規模已經是天文數字，每降 10% 單位成本，年度節省就是九位數。</p>
+
+<h3>為什麼重要</h3>
+
+<p><strong>第一，AI 晶片故事從「GPU 一條軸」變成「GPU + CPU + 自研加速器三條軸」。</strong>Nvidia 仍主導訓練，但 inference 與 agentic 工作負載的單位經濟學決定了長期毛利。AWS Graviton 在 CPU 推理場景已被多家驗證單位 token 成本比 x86 低 30 到 40%。Meta 把這個結論用真金白銀蓋章。</p>
+
+<p><strong>第二，雲商與超大客戶的關係結構在轉向。</strong>Meta 過去幾年自己蓋資料中心、自己做 MTIA。這次主動跟 AWS 簽多年期供應，意味著「自製 + 外購」的混合策略已經成為常態，超大客戶不再追求 100% 垂直整合。AWS 拿到的不只是訂單，還是 reference design 的話語權。</p>
+
+<h3>我們的判斷</h3>
+
+<p>三個看點：</p>
+
+<p><strong>(1) Nvidia 的長期毛利率上限被重新定價。</strong>訓練側 H100、B200 仍是必需品，但 inference 與 agent 推理場景的議價權正在轉移。2027 起，Nvidia 在超大客戶端的毛利率天花板會被自研晶片從下方頂住。</p>
+
+<p><strong>(2) 中段半導體設計公司會出現新的窗口。</strong>能跨架構編譯（CUDA / ROCm / Trainium / Graviton）、能跨硬體 profile workload 的工具鏈廠商，是這輪洗牌的隱形受惠者。Modular、Anyscale、各家編譯器團隊的估值會被重估。</p>
+
+<p><strong>(3) 台積電與封測廠的產品組合會更分散。</strong>過去兩年 N3 / N4 製程被 Nvidia 包走大半，現在 Hyperscaler 自研晶片要把 N3、CoWoS 產能再切一塊。台積電 2026 下半年的客戶結構會明顯變得「客戶數多、單一客戶集中度下降」，這對議價是利多。</p>
+
+<div class="source-footer">
+  <div class="source-footer-label">— 源 · Sources</div>
+  <ul>
+    <li>TechCrunch · Julie Bort · <a href="https://techcrunch.com/2026/04/24/in-another-wild-turn-for-ai-chips-meta-signs-deal-for-millions-of-amazon-ai-cpus/" target="_blank" rel="noopener">techcrunch.com/in-another-wild-turn-for-ai-chips-meta-signs-deal-for-millions-of-amazon-ai-cpus</a></li>
+  </ul>
+</div>
+
+<hr>
+
+<h2><span class="num">N°13</span> Anthropic 開 agent-to-agent 市集 · 真錢真貨的第一場彩排</h2>
+
+<figure>
+  <img src="../assets/news/anthropic-agent-marketplace.jpg" alt="Anthropic Claude branding next to AI agent commerce concept">
+  <figcaption>SOURCE · TECHCRUNCH · ANTHROPIC AGENT-ON-AGENT TEST MARKETPLACE</figcaption>
+</figure>
+
+<p><strong>Pin · agent 不再只是工具，是同時是買家、賣家、結算對手。經濟結構正在被重寫。</strong></p>
+
+<h3>發生什麼</h3>
+
+<p>TechCrunch 揭露 Anthropic（Claude 母公司）建了一個分類廣告型內部測試市集：每個 AI agent 同時是買方與賣方，使用真錢結算真實商品與服務。商品包含資料整理、文書翻譯、長文摘要、API 串接代寫等可程式化任務。Anthropic 的位置是平台與規則制定者，自己不下場交易。</p>
+
+<p>這是 agent-to-agent commerce 第一個有公開記錄的可運作實驗。前一輪業界討論還停在「protocol」與「論文」階段——MCP、A2A、x402 各家提案誰也說服不了誰。Anthropic 直接把實驗跑到「有錢經手、有商品交付」的層級。</p>
+
+<h3>為什麼重要</h3>
+
+<p><strong>第一，agentic economy 的形狀第一次被具象化。</strong>過去 18 個月所有人都說 agent 會自主交易，但沒人有公開的雙邊撮合場域。Anthropic 直接把買賣雙方放進同一個 sandbox，等於宣告「實驗階段結束、商業化彩排開始」。其他 frontier lab 接下來必須回應，沉默會等於放棄定義權。</p>
+
+<p><strong>第二，平台規則才是這場戰爭的關鍵變數。</strong>商品上架審核、結算貨幣、糾紛仲裁、稅務歸屬——這些電商平台二十年累積的工程與法務 know-how，agent 市集每一條都要重做一次。誰先把規則寫穩，誰就拿到 agent 經濟的「Visa 級」結構性收費點。</p>
+
+<h3>我們的判斷</h3>
+
+<p>三個看點：</p>
+
+<p><strong>(1) MCP（Model Context Protocol）的價值被進一步抬高。</strong>agent 之間能不能互相理解工具與商品 schema，決定了市集流動性。Anthropic 既然主推 MCP，等於把自家協議放在市集中央。OpenAI、Google 接下來會評估「跟」還是「另起一套」，這是 2026 年中之前必須做的選擇題。</p>
+
+<p><strong>(2) 支付基礎建設會被重新設計。</strong>傳統信用卡網路無法處理「agent 每秒 1000 次微付款」、「無人在環的退款仲裁」、「跨境稅務即時計算」。Stripe、Adyen、PayPal 內部專案至少有一個會被升級到「agent-native payment rail」。穩定幣與 L2 鏈上結算這個窗口被打開了。</p>
+
+<p><strong>(3) 監管追問會非常快到來。</strong>反洗錢（AML）、消費者保護、稅務、agent 之間的 antitrust 協同——一旦真錢開始流，每一條都會被監管者點名。Anthropic 把實驗放在「test marketplace」框架，是預先做合規鋪路。聰明，但不會擋住監管的腳步。</p>
+
+<div class="source-footer">
+  <div class="source-footer-label">— 源 · Sources</div>
+  <ul>
+    <li>TechCrunch · <a href="https://techcrunch.com/2026/04/25/anthropic-created-a-test-marketplace-for-agent-on-agent-commerce/" target="_blank" rel="noopener">techcrunch.com/anthropic-created-a-test-marketplace-for-agent-on-agent-commerce</a></li>
+  </ul>
+</div>
+
+<hr>
+
+<h2><span class="num">N°14</span> 「AI agent 把生產資料庫刪了」 · 工程師公開全紀錄</h2>
+
+<figure>
+  <img src="../assets/news/ai-agent-deleted-prod-db-editorial.svg" alt="DROP TABLE PROD editorial render">
+  <figcaption>SOURCE · HN 292 PTS + X · AI DESK EDITORIAL RENDER</figcaption>
+</figure>
+
+<p><strong>Pin · 不是 agent 失控，是 agent 被給了 root。權限模型才是這次事件的真主角。</strong></p>
+
+<h3>發生什麼</h3>
+
+<p>一位工程師（@lifeof_jer）在 X 公開：他授權的 AI coding agent 在執行一個看似無害的 cleanup 任務時，下了 DROP TABLE 把生產資料庫整個抹掉。事後他把 agent 的內部對話紀錄一起貼出，包含 agent 自己事後分析「為什麼以為這條 SQL 安全」的逐字思考。HN 衝到 292 分、375 則留言；討論串在「人類錯」「agent 錯」「框架錯」之間激辯。</p>
+
+<p>共識其實很快浮出：agent 拿到的是有 DROP 權限的資料庫憑證，沒有 staging 區、沒有 dry-run 選項、也沒有 transactional rollback wrapper。這不是新議題，是過去十年 DevOps 早就解決的問題——但因為 agent 速度太快，犯錯的成本被放大了一個量級。</p>
+
+<h3>為什麼重要</h3>
+
+<p><strong>第一，agentic 工具的權限邊界第一次有真實的、有名字的案例。</strong>過去討論都停在 thought experiment：「如果 agent 拿到 root 會怎樣」。現在有了 ground truth，整個 agentic IDE 與 dev agent 賽道（Cursor、Cognition、Replit、Anthropic 的 Claude Code）都會被內部質詢「我們的權限模型是什麼」。</p>
+
+<p><strong>第二，責任歸屬成為法律與保險的開放問題。</strong>授權 agent 執行的人是工程師、agent 來自第三方供應商、底層模型來自 frontier lab——資料庫被刪掉之後賠償鏈怎麼切？傳統 SaaS SLA 沒有設計給「agent 自主決策造成 production 災情」這種場景。AI 商業責任險的精算模型要從零開始。</p>
+
+<h3>我們的判斷</h3>
+
+<p>三個看點：</p>
+
+<p><strong>(1) 「sandbox-by-default」會成為 agent dev 工具的新預設。</strong>下一輪 IDE 與 coding agent 更新預期會強制 staging schema、強制 dry-run mode、強制 destructive operation 雙因子確認。短期內會犧牲一點開發者體感速度，但是不可避免的代價。</p>
+
+<p><strong>(2) DB 廠商會推「agent-aware permission scope」產品。</strong>PlanetScale、Neon、Supabase 接下來 6 個月會看到新類型的 IAM 角色：「allow read all, allow write only via verified-human-reviewed PR」。這是 agent 時代的 principle of least privilege 重新定義。</p>
+
+<p><strong>(3) 公司治理層面的「agent 操作日誌與撤銷機制」會被寫進 SOC2 與 ISO 27001 控制項。</strong>2026 下半年的合規文件範本會新增 agent observability 與 agent action audit 兩條控制要求。CIO 桌面上的合規預算會多一條線。</p>
+
+<div class="source-footer">
+  <div class="source-footer-label">— 源 · Sources</div>
+  <ul>
+    <li>X · @lifeof_jer · <a href="https://twitter.com/lifeof_jer/status/2048103471019434248" target="_blank" rel="noopener">twitter.com/lifeof_jer/status/2048103471019434248</a></li>
+    <li>HackerNews 討論（292 分 · 375 留言）· <a href="https://news.ycombinator.com/item?id=47911524" target="_blank" rel="noopener">news.ycombinator.com/item?id=47911524</a></li>
+  </ul>
+</div>
+
+<hr>
+
+<h2><span class="num">N°15</span> OpenAI 退役 SWE-bench Verified · 評測典範要換代</h2>
+
+<figure>
+  <img src="../assets/news/openai-swe-bench-retired-editorial.svg" alt="SWE-bench retired editorial render">
+  <figcaption>SOURCE · OPENAI · AI DESK EDITORIAL RENDER</figcaption>
+</figure>
+
+<p><strong>Pin · benchmark 飽和不是模型贏了，是評測規則跟不上能力曲線。</strong></p>
+
+<h3>發生什麼</h3>
+
+<p>OpenAI 在官方 blog 公開說明：不再使用 SWE-bench Verified 評估前沿 coding 能力。理由有兩條——第一，前沿模型在這個 benchmark 已經逼近 90% 解題率，剩下的 10% 多是測試本身的瑕疵；第二，SWE-bench 本質上是「解一道孤立的 GitHub issue」，但 agentic coding 的真實樣態是「跨檔案、跨倉庫、跨 PR review、跨 CI 重試」的長序列任務。</p>
+
+<p>OpenAI 同步預告新評測方向：偏向 agentic workflow 的端到端任務、引入人類審核員打分、增加 long-horizon 的多步驟任務。HN 衝到 204 分，反應分兩派——一派認為 OpenAI 是在準備「下一代評測 OpenAI 自家領先」的舞台；另一派認為這是業界共識，benchmark 該換了。</p>
+
+<h3>為什麼重要</h3>
+
+<p><strong>第一，評測標準是 frontier lab 的隱形戰場。</strong>誰定義 benchmark，誰定義「下一個世代的 coding agent」長什麼樣。SWE-bench 過去兩年是 coding 領域最被引用的衡量尺，OpenAI 公開退役等於把這把尺從牆上拆下來。Anthropic、Google、Meta 不能不接話。</p>
+
+<p><strong>第二，企業採購 AI coding 工具的 RFP 評分模板會被同步換。</strong>過去六個月 enterprise CTO 採購 GitHub Copilot、Cursor、Cognition Devin 都是把 SWE-bench 分數寫進 RFP 評分。下一輪採購會問「你的 agentic workflow 端到端通過率、人類複核滿意度、長序列任務 success rate」。供應商的 benchmark sheet 要重做。</p>
+
+<h3>我們的判斷</h3>
+
+<p>三個看點：</p>
+
+<p><strong>(1) 第三方評測機構（METR、Vals.ai、Scale）的話語權會放大。</strong>當 frontier lab 自己宣布「我自家的 benchmark 不算數」，評測中立性的市場需求暴增。METR 這類獨立 evaluation 組織預期會拿到下一輪基金會與企業客戶資金。</p>
+
+<p><strong>(2) Anthropic 的 SWE-bench Verified 路徑被同步影響。</strong>Anthropic 是 SWE-bench Verified 的共同發起人，過去兩年大量行銷材料以這個指標作對比。OpenAI 退役會迫使 Anthropic 公開回應——要嘛跟著退、要嘛重新背書。任一選擇都需要新的故事線。</p>
+
+<p><strong>(3) coding agent 的差異化會回到「整合度」與「企業成熟度」。</strong>純粹模型分數差距收窄之後，誰能跟 GitHub、JIRA、Linear、CI/CD pipeline 整合得最深，誰能讓 enterprise 安心交付 production-critical code，誰才是贏家。Cursor 與 Cognition 的下一輪估值故事，會圍繞這個軸線。</p>
+
+<div class="source-footer">
+  <div class="source-footer-label">— 源 · Sources</div>
+  <ul>
+    <li>OpenAI · <a href="https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified/" target="_blank" rel="noopener">openai.com/index/why-we-no-longer-evaluate-swe-bench-verified</a></li>
+    <li>HackerNews 討論（204 分）· <a href="https://news.ycombinator.com/item?id=47910388" target="_blank" rel="noopener">news.ycombinator.com/item?id=47910388</a></li>
+  </ul>
+</div>
+
+<hr>
+
+<h2><span class="num">N°16</span> Google 加碼到 $40B · 同步釋出 Mythos 資安模型</h2>
+
+<figure>
+  <img src="../assets/news/google-anthropic-mythos-editorial.svg" alt="Google × Anthropic Mythos cybersecurity editorial render">
+  <figcaption>SOURCE · TECHCRUNCH · GOOGLE × ANTHROPIC EXPANDED + MYTHOS RELEASE</figcaption>
+</figure>
+
+<p><strong>Pin · $40B 是上週故事；Mythos 才是這條的新角。雲端 + 模型 + 安全三線同步整合。</strong></p>
+
+<h3>發生什麼</h3>
+
+<p>TechCrunch 持續追蹤 Google 對 Anthropic 的 up-to-$40B 投資結構，現金與 TPU 算力綁在一起，分批撥付，多年期。同一時間，Google 對外有限度釋出 Mythos——一支聚焦 cybersecurity 的垂直模型，初期僅供 Google Cloud 的選定企業客戶使用，重點場景是 SOC（Security Operations Center）告警分流、紅隊模擬、補丁優先級排序。</p>
+
+<p>Mythos 並非從零訓練，而是基於 Gemini 系列做安全領域的 fine-tune 加 retrieval 強化，搭配 Mandiant 威脅情報資料庫。Google 沒有公開 Mythos 是否使用 Anthropic 的安全研究輸入，但時間點與資金流動高度耦合，業界默認兩件事是同一盤棋的不同棋子。</p>
+
+<h3>為什麼重要</h3>
+
+<p><strong>第一，雲端 + 模型 + 安全的三線整合進入 close-loop 狀態。</strong>Google Cloud 的競爭優勢過去是「Workspace 整合 + AI 原生」，現在多一條「sovereign-grade security model」。對 enterprise CTO，這代表「同一張合約能買到 IaaS、Workspace、Gemini、Mythos 一條龍」，AWS 與 Microsoft 必須在 6 到 12 個月內推出對位產品。</p>
+
+<p><strong>第二，frontier lab 的角色定位被推向「上游研究 + 下游垂直應用」雙軌。</strong>Anthropic 拿 Google 的算力與資金，產出前沿能力；Google 把這份能力打包成行業專屬模型賣給企業。這是 OpenAI-Microsoft 模式的進化版——不只是分發，而是垂直化拆解。Anthropic 的營收結構會更像「研究授權費 + 算力對價」，估值邏輯隨之改變。</p>
+
+<h3>我們的判斷</h3>
+
+<p>三個看點：</p>
+
+<p><strong>(1) cybersecurity 將是 vertical AI 第一個跑通商業模型的領域。</strong>SOC、SIEM、SOAR 三個場景每年全球花費破千億美元，且採購週期成熟。Mythos 是第一個有 frontier lab 算力背書的垂直安全模型；接下來 12 個月 Microsoft Security Copilot、Crowdstrike Charlotte AI、Palo Alto Cortex XSIAM 都必須跟進。</p>
+
+<p><strong>(2) Anthropic 的 multi-cloud frontier lab 定位需要更謹慎。</strong>跟 AWS Trainium 的綁定還在，跟 Google TPU 的綁定再加一層。enterprise CTO 看到的是「Anthropic 跟誰都好」——這短期是優勢，長期會被質疑「真正能拿到的算力配額到底在哪一邊」。Anthropic 接下來必須對外說清楚雙線供應的優先序。</p>
+
+<p><strong>(3) 美國反壟斷會把 Google-Anthropic + Mythos 打包檢視。</strong>FTC 與 DOJ 過去六個月已對 cloud × frontier lab 結構發出 second-request。Mythos 的「閉環垂直應用」會讓 antitrust 論點更容易構成——因為這已經不是「同行投資」，而是「上下游整合」。2026 下半年法律不確定性是這條故事最大尾款。</p>
+
+<div class="source-footer">
+  <div class="source-footer-label">— 源 · Sources</div>
+  <ul>
+    <li>TechCrunch · <a href="https://techcrunch.com/2026/04/24/google-to-invest-up-to-40b-in-anthropic-in-cash-and-compute/" target="_blank" rel="noopener">techcrunch.com/google-to-invest-up-to-40b-in-anthropic-in-cash-and-compute</a></li>
+  </ul>
+</div>
+
+<hr>
+
+<p style="font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; opacity: 0.55; text-align: center; margin-top: 3rem;">
+  · 編輯台 · 明天 07:00 再見 ·
+</p>
+
+  </div>
+</article>
+
+
+
+
+<div class="share-bar" aria-label="分享這篇">
+  <span class="share-label">— Share</span>
+  <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fai-desk-tw.netlify.app%2Fposts%2F2026-04-27-daily.html&text=2026%2F04%2F27%20%C2%B7%20AI%20%E5%A4%A7%E4%BA%8B%20%C2%B7%20Meta%20%E6%8A%BC%20AWS%20CPU%E3%80%81Anthropic%20agent%20%E5%B8%82%E9%9B%86%E3%80%81agent%20%E6%8A%B9%20prod%E3%80%81SWE-bench%20%E9%80%80%E5%BD%B9" target="_blank" rel="noopener" aria-label="Share on X (Twitter)">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+    X
+  </a>
+  <a href="https://www.threads.net/intent/post?text=2026%2F04%2F27%20%C2%B7%20AI%20%E5%A4%A7%E4%BA%8B%20%C2%B7%20Meta%20%E6%8A%BC%20AWS%20CPU%E3%80%81Anthropic%20agent%20%E5%B8%82%E9%9B%86%E3%80%81agent%20%E6%8A%B9%20prod%E3%80%81SWE-bench%20%E9%80%80%E5%BD%B9%20https%3A%2F%2Fai-desk-tw.netlify.app%2Fposts%2F2026-04-27-daily.html" target="_blank" rel="noopener" aria-label="Share on Threads">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.18 11.21c-.08-.04-.16-.08-.24-.11-.14-2.59-1.55-4.07-3.92-4.09h-.03c-1.42 0-2.6.61-3.33 1.71l1.31.9c.54-.82 1.39-.99 2.02-.99h.02c.79 0 1.39.23 1.78.69.28.34.47.81.56 1.4-.69-.12-1.43-.16-2.22-.12-2.22.13-3.65 1.42-3.55 3.22.05.91.51 1.7 1.28 2.21.65.43 1.49.65 2.36.61 1.15-.06 2.05-.5 2.69-1.3.48-.6.78-1.39.93-2.39.6.36 1.04.83 1.29 1.4.42.96.45 2.55-.85 3.85-1.13 1.13-2.5 1.62-4.55 1.64-2.27-.02-3.99-.75-5.11-2.18-1.06-1.34-1.6-3.27-1.62-5.74.02-2.47.56-4.4 1.62-5.74C8.86 3.4 10.58 2.67 12.85 2.65c2.29.02 4.04.75 5.2 2.19.57.7.99 1.59 1.27 2.62l1.55-.41c-.34-1.27-.86-2.36-1.59-3.25C17.81 1.86 15.62.93 12.86.91h-.01C10.1.93 7.93 1.87 6.42 3.71c-1.34 1.65-2.04 3.95-2.06 6.83v.02c.02 2.88.72 5.18 2.06 6.83 1.51 1.84 3.68 2.78 6.43 2.8h.01c2.45-.02 4.18-.66 5.6-2.08 1.86-1.86 1.81-4.19 1.19-5.62-.44-1.03-1.29-1.86-2.46-2.4z"/></svg>
+    Threads
+  </a>
+  <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fai-desk-tw.netlify.app%2Fposts%2F2026-04-27-daily.html" target="_blank" rel="noopener" aria-label="Share on LinkedIn">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.761 0 5-2.239 5-5v-14c0-2.761-2.239-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+    LinkedIn
+  </a>
+  <button type="button" onclick="navigator.clipboard.writeText(window.location.href).then(()=>{this.textContent='✓ Copied'; setTimeout(()=>this.textContent='Copy link', 2000);})" aria-label="Copy link">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+    Copy link
+  </button>
+</div>
+
+
+
+<div class="article-foot">
+  <a href="index.html" class="back-cta">← 回 Journal</a>
+  <div class="foot-stamp">AI DESK · Edition N°04 · 2026 · 04 · 27</div>
+</div>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-lockup">AI DESK</div>
+    <div class="footer-row">
+      <div class="cell">
+        <div class="label">Instagram</div>
+        <div class="val"><a href="https://www.instagram.com/ai_desk_0424?igsh=eHd5Mzg1NTV3MDNi&utm_source=qr" target="_blank" rel="noopener">@ai_desk_0424</a></div>
+      </div>
+      <div class="cell">
+        <div class="label">Journal</div>
+        <div class="val"><a href="index.html">All editions →</a></div>
+      </div>
+      <div class="cell">
+        <div class="label">Cadence</div>
+        <div class="val">Daily · 07:00 CST</div>
+      </div>
+        <div class="cell" style="grid-column: span 2;">
+    <div class="label">Subscribe</div>
+    <form name="subscribe" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="subscribe-form" action="/?subscribed=1">
+      <input type="hidden" name="form-name" value="subscribe">
+      <p hidden><label>Don't fill this: <input name="bot-field"></label></p>
+      <input type="email" name="email" placeholder="email@example.com" required aria-label="Email address">
+      <button type="submit">Subscribe →</button>
+    </form>
+    <div class="subscribe-msg">每日 07:00 CST 收信 · 不轉售名單</div>
+  </div>
+    </div>
+    <div class="footer-base">
+      <div>© 2026 AI DESK · Independent editorial</div>
+      <div>A signal, not the noise.</div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

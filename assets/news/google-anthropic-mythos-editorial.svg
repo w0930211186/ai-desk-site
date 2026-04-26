@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect width="1200" height="630" fill="#000"/>
+  <g fill="none" stroke="#fff" stroke-width="2" opacity="0.08">
+    <line x1="0" y1="100" x2="1200" y2="100"/>
+    <line x1="0" y1="200" x2="1200" y2="200"/>
+    <line x1="0" y1="300" x2="1200" y2="300"/>
+    <line x1="0" y1="400" x2="1200" y2="400"/>
+    <line x1="0" y1="500" x2="1200" y2="500"/>
+  </g>
+  <text x="60" y="90" font-family="JetBrains Mono, monospace" font-size="14" fill="#fff" opacity="0.45" letter-spacing="4">SOURCE · TECHCRUNCH · GOOGLE × ANTHROPIC · 2026.04.27</text>
+  <text x="60" y="260" font-family="Inter, sans-serif" font-weight="900" font-size="120" fill="#fff" letter-spacing="-4">MYTHOS</text>
+  <text x="60" y="380" font-family="Inter, sans-serif" font-weight="900" font-size="78" fill="#fff" letter-spacing="-3">CYBERSEC.</text>
+  <text x="60" y="470" font-family="Inter, sans-serif" font-weight="400" font-size="28" fill="#fff" opacity="0.55">$40B 加碼 Anthropic · 同步釋出資安垂直模型</text>
+  <text x="60" y="510" font-family="Inter, sans-serif" font-weight="400" font-size="22" fill="#fff" opacity="0.45">cloud × model × security · 三層整合</text>
+  <text x="60" y="580" font-family="JetBrains Mono, monospace" font-size="13" fill="#fff" opacity="0.35" letter-spacing="3">· EDITORIAL RENDER ·</text>
+</svg>
