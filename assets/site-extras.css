@@ -1,0 +1,246 @@
+/* ============================================================
+   AI DESK · site-extras.css · v1 (2026-04-27)
+   Bonus 加分 + RWD 細調 + Print + Light mode 全套
+   ============================================================ */
+
+/* ------------------------------------------------------------
+   1. 全站 overflow-x: hidden + safe-area for notch
+   ------------------------------------------------------------ */
+html, body {
+  overflow-x: hidden;
+}
+body {
+  padding-left: env(safe-area-inset-left);
+  padding-right: env(safe-area-inset-right);
+}
+.nav-top, footer.site-footer {
+  padding-left: max(2rem, env(safe-area-inset-left)) !important;
+  padding-right: max(2rem, env(safe-area-inset-right)) !important;
+}
+
+/* ------------------------------------------------------------
+   2. Reading progress bar
+   ------------------------------------------------------------ */
+.read-progress {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  height: 3px;
+  background: transparent;
+  z-index: 1000;
+  pointer-events: none;
+}
+.read-progress > .bar {
+  height: 100%;
+  width: 0;
+  background: var(--fg, #fff);
+  transition: width 0.08s linear;
+  will-change: width;
+}
+
+/* ------------------------------------------------------------
+   3. Light mode toggle button + prefers-color-scheme support
+   ------------------------------------------------------------ */
+.theme-toggle {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 1px solid var(--line, rgba(255,255,255,0.14));
+  background: var(--bg, #000);
+  color: var(--fg, #fff);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 1rem;
+  cursor: pointer;
+  z-index: 90;
+  display: flex; align-items: center; justify-content: center;
+  transition: background .25s, color .25s, transform .25s;
+  padding-bottom: env(safe-area-inset-bottom);
+}
+.theme-toggle:hover { transform: scale(1.06); }
+
+/* light mode override（用 [data-theme="light"] 而非自動切，使用者主動選） */
+[data-theme="light"] {
+  --bg: #FAFAFA;
+  --fg: #0A0A0A;
+  --panel: #0A0A0A;
+  --panel-fg: #FAFAFA;
+  --mute: #5A5A5A;
+  --mute-2: #8A8A8A;
+  --line: rgba(0,0,0,0.14);
+}
+[data-theme="light"] body { background: var(--bg); color: var(--fg); }
+[data-theme="light"] .read-progress > .bar { background: var(--fg); }
+[data-theme="light"] ::selection { background: var(--fg); color: var(--bg); }
+[data-theme="light"] .nav-brand .diamond { background: var(--fg); }
+
+/* ------------------------------------------------------------
+   4. Print stylesheet — editorial 列印友善
+   ------------------------------------------------------------ */
+@media print {
+  body {
+    background: #FFF !important;
+    color: #000 !important;
+    font-family: 'Noto Sans TC', Georgia, serif !important;
+    line-height: 1.6;
+  }
+  .nav-top, .nav-links, .skip-link, .read-progress, .theme-toggle,
+  .share-bar, .prev-next, footer.site-footer, .float-diamond,
+  .hero-banner, .hero-watermark, .circle-text, .enter-btn,
+  .subscribe-form, .subscribe-msg, .subscribe-consent,
+  #search-trigger, #search-modal, .save-buttons, .web-share-btn {
+    display: none !important;
+  }
+  a { color: #000 !important; text-decoration: none; }
+  a[href^="http"]::after { content: " (" attr(href) ")"; font-size: 0.85em; color: #666; }
+  h1, h2, h3 { page-break-after: avoid; color: #000 !important; }
+  pre, blockquote { page-break-inside: avoid; border-color: #000 !important; }
+  img { max-width: 100% !important; page-break-inside: avoid; }
+  article, main, .post-body { max-width: 100% !important; padding: 0 !important; }
+  @page { margin: 1.5cm; size: A4; }
+  body::after {
+    content: "AI DESK · ai-desk-tw.netlify.app · 2026 © Independent editorial";
+    display: block;
+    margin-top: 2cm; padding-top: 0.6cm; border-top: 1px solid #000;
+    font-size: 0.7rem; color: #666;
+  }
+}
+
+/* ------------------------------------------------------------
+   5. iPad / landscape / 大字體 a11y / 觸控目標
+   ------------------------------------------------------------ */
+
+/* iPad portrait (768-1024) — 中間區帶不再尷尬 */
+@media (min-width: 700px) and (max-width: 1024px) {
+  .hero-inner { gap: 1.8rem; }
+  .circle-wrap { width: 380px; height: 380px; }
+  .enter-btn { width: 140px; height: 140px; }
+  .journal-head h2 { font-size: 4.2rem; }
+  .footer-lockup { font-size: clamp(5rem, 16vw, 11rem); }
+}
+
+/* 手機 landscape：hero 不要 100vh（會擠死） */
+@media (max-width: 900px) and (orientation: landscape) {
+  section.hero {
+    min-height: auto;
+    padding: 2rem 1.5rem;
+  }
+  .circle-wrap { width: 220px; height: 220px; }
+  .enter-btn { width: 90px; height: 90px; font-size: 0.66rem; }
+  .hero-banner { font-size: 0.58rem; }
+}
+
+/* 大字體 a11y：使用者放大系統字體不會讓排版炸 */
+@supports (font-size: clamp(1rem, 4vw, 1.2rem)) {
+  body { font-size: clamp(15px, 1vw + 0.7rem, 17px); }
+}
+
+/* WCAG 2.5.5 觸控目標 ≥ 48px（提升 from 44px → 48px） */
+@media (max-width: 900px) {
+  .nav-links a,
+  .tag-toggle button,
+  .back-cta,
+  .enter-btn,
+  .share-bar a,
+  .share-bar button,
+  .subscribe-form button,
+  .prev-next a {
+    min-height: 48px;
+  }
+}
+
+/* ------------------------------------------------------------
+   6. Web Share + Save buttons (post pages)
+   ------------------------------------------------------------ */
+.share-bar .web-share-btn,
+.share-bar .save-pocket,
+.share-bar .save-instapaper {
+  display: none; /* JS 偵測支援後解鎖 */
+}
+.share-bar.web-share-ready .web-share-btn { display: inline-flex; }
+.share-bar .save-pocket,
+.share-bar .save-instapaper { display: inline-flex; }
+
+/* ------------------------------------------------------------
+   7. Quote selection share popover (post pages)
+   ------------------------------------------------------------ */
+.quote-popover {
+  position: absolute;
+  display: none;
+  background: var(--fg, #fff);
+  color: var(--bg, #000);
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 0.72rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  padding: 0.5rem 0.8rem;
+  border-radius: 0;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.4);
+  z-index: 200;
+  white-space: nowrap;
+  cursor: pointer;
+  user-select: none;
+}
+.quote-popover.show { display: inline-flex; gap: 0.4rem; }
+.quote-popover::before {
+  content: "「 ";
+}
+
+/* ------------------------------------------------------------
+   8. Keyboard shortcut hint + search trigger (home)
+   ------------------------------------------------------------ */
+.search-trigger {
+  display: inline-flex; align-items: center; gap: 0.6rem;
+  padding: 0.6rem 1rem;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 0.7rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  background: transparent;
+  border: 1px solid var(--line, rgba(255,255,255,0.14));
+  color: var(--fg, #fff);
+  cursor: pointer;
+  transition: background .2s, border-color .2s;
+}
+.search-trigger:hover { background: var(--fg, #fff); color: var(--bg, #000); border-color: var(--fg, #fff); }
+.search-trigger kbd {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.7rem;
+  padding: 0.15rem 0.4rem;
+  border: 1px solid currentColor;
+  border-radius: 3px;
+  opacity: 0.7;
+}
+
+#search-modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.85);
+  backdrop-filter: blur(8px);
+  z-index: 500;
+  display: none;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 6rem 1.5rem 2rem;
+}
+#search-modal.show { display: flex; }
+#search-modal .search-box {
+  width: 100%;
+  max-width: 760px;
+  background: var(--bg, #000);
+  border: 1px solid var(--line, rgba(255,255,255,0.14));
+  padding: 1.5rem;
+}
+#search-modal .close {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  font-size: 1.5rem;
+  background: transparent;
+  border: 1px solid var(--line);
+  color: var(--fg);
+  width: 44px;
+  height: 44px;
+  cursor: pointer;
+}
