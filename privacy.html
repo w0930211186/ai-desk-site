@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy · AI DESK</title>
+<meta name="description" content="AI DESK 隱私政策 — 我們收什麼、不收什麼、怎麼用、怎麼退訂。">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://ai-desk-tw.netlify.app/privacy">
+<link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+<link rel="alternate" type="application/rss+xml" title="AI DESK RSS" href="/rss.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;700;900&family=Space+Grotesk:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #000; --fg: #FFF; --mute: #8A8A8A; --mute-2: #5A5A5A;
+  --line: rgba(255,255,255,0.14);
+  --f-display: 'Inter Tight', 'Noto Sans TC', sans-serif;
+  --f-sans: 'Space Grotesk', 'Noto Sans TC', sans-serif;
+  --f-body: 'Noto Sans TC', sans-serif;
+  --f-mono: 'JetBrains Mono', monospace;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { -webkit-font-smoothing: antialiased; }
+body { font-family: var(--f-body); background: var(--bg); color: var(--fg); line-height: 1.7; font-size: 16px; }
+a { color: inherit; }
+*:focus-visible { outline: 2px solid var(--fg); outline-offset: 3px; }
+
+.nav-top { padding: 1.5rem 2rem; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--line); }
+.nav-brand { font-family: var(--f-display); font-weight: 900; font-size: 0.92rem; letter-spacing: 0.04em; text-transform: uppercase; display: flex; align-items: center; gap: 0.6rem; text-decoration: none; }
+.nav-brand .diamond { width: 10px; height: 10px; background: var(--fg); transform: rotate(45deg); }
+.nav-links { display: flex; gap: 1.4rem; font-family: var(--f-sans); font-size: 0.72rem; letter-spacing: 0.2em; text-transform: uppercase; }
+.nav-links a { padding: 0.4rem 0.8rem; border: 1px solid transparent; text-decoration: none; }
+.nav-links a:hover { border-color: var(--fg); }
+
+main { max-width: 760px; margin: 0 auto; padding: 6rem 2rem 6rem; }
+h1 { font-family: var(--f-display); font-weight: 900; font-size: clamp(3rem, 7vw, 5.5rem); line-height: 0.92; letter-spacing: -0.04em; text-transform: uppercase; margin-bottom: 1rem; }
+.lede { font-family: var(--f-display); font-size: 1.1rem; color: var(--mute); margin-bottom: 3rem; max-width: 560px; }
+.updated { font-family: var(--f-mono); font-size: 0.7rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--mute-2); margin-bottom: 4rem; padding-bottom: 1rem; border-bottom: 1px solid var(--line); }
+h2 { font-family: var(--f-display); font-weight: 800; font-size: 1.4rem; letter-spacing: -0.01em; margin: 3rem 0 1rem; padding-top: 2rem; border-top: 1px solid var(--line); }
+h2:first-of-type { border-top: none; padding-top: 0; }
+p, li { color: var(--fg); margin-bottom: 1rem; max-width: 65ch; }
+ul { padding-left: 1.4rem; margin: 0.6rem 0 1.5rem; }
+li { margin-bottom: 0.4rem; }
+strong { font-weight: 700; }
+.contact { font-family: var(--f-mono); font-size: 0.86rem; padding: 1.2rem 1.4rem; border: 1px solid var(--line); margin-top: 2rem; }
+.contact a { border-bottom: 1px solid var(--mute); padding-bottom: 1px; }
+
+footer.site-footer { background: #F2F2F2; color: #0A0A0A; padding: 4rem 2rem 2rem; }
+.footer-inner { max-width: 1400px; margin: 0 auto; }
+.footer-base { display: flex; justify-content: space-between; font-family: var(--f-mono); font-size: 0.7rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--mute-2); flex-wrap: wrap; gap: 1rem; }
+
+@media (max-width: 700px) {
+  .nav-top { padding: 1rem; }
+  .nav-links a { padding: 0.6rem 0.6rem; font-size: 0.62rem; }
+  main { padding: 3rem 1.2rem 4rem; }
+  h1 { font-size: 2.6rem; }
+}
+</style>
+</head>
+<body>
+
+<nav class="nav-top">
+  <a class="nav-brand" href="/">
+    <span class="diamond"></span>
+    AI DESK
+  </a>
+  <div class="nav-links">
+    <a href="/posts/">Journal</a>
+    <a href="https://www.instagram.com/ai_desk_0424" target="_blank" rel="noopener">IG</a>
+  </div>
+</nav>
+
+<main>
+  <h1>Privacy</h1>
+  <p class="lede">短版：我們只收 email · 只用來發 AI DESK daily · 一鍵退訂 · 不賣不換不分享。</p>
+  <p class="updated">Last updated · 2026 · 04 · 27</p>
+
+  <h2>1 · 我們收什麼</h2>
+  <p>只收一樣東西：你訂閱表單填的 <strong>email 地址</strong>。</p>
+  <p>我們不收：姓名、公司、IP、瀏覽紀錄、cookie 個資、分析 ID、設備指紋、地理位置、年齡、性別。</p>
+
+  <h2>2 · Cookie</h2>
+  <p>整站不放 third-party cookie。沒 GA、沒 Facebook Pixel、沒 GTM、沒 Hotjar、沒 Mixpanel、沒任何分析腳本。Netlify Forms 必要時會用 first-party cookie 做 honeypot 防垃圾投稿。</p>
+
+  <h2>3 · 我們用 email 做什麼</h2>
+  <ul>
+    <li>每天 07:00 CST 寄當日 daily 文章連結（以及週日 09:00 寄一週回顧）</li>
+    <li>站務重大公告（極少，例如停刊、改網址）</li>
+  </ul>
+  <p>就這兩條。<strong>不會</strong>寄業配、聯名行銷、付費 webinar、課程廣告。</p>
+
+  <h2>4 · 退訂</h2>
+  <p>每封信底部有 unsubscribe 連結。點下去一鍵退訂，立刻從名單移除，不需 email 客服、不問理由、不會挽留信轟炸。</p>
+  <p>也可以直接寄一封含「unsubscribe」的信到 <a href="mailto:hi@ai-desk-tw.example.com">hi@ai-desk-tw.example.com</a>，我們手動下名單。</p>
+
+  <h2>5 · 資料儲存</h2>
+  <p>名單存在 Netlify Forms（後端）跟一份 encrypted backup（每月一次匯出至作者本機）。<strong>不會</strong>同步到 Mailchimp / SendGrid / ConvertKit / Substack 等第三方行銷平台。</p>
+
+  <h2>6 · 第三方</h2>
+  <p>我們唯一會把你的 email 給：你訂閱信件投遞用的服務（目前是 Netlify Forms 觸發 + 作者個人寄送）。沒有再轉給任何人。</p>
+
+  <h2>7 · 你的權利（GDPR / 個資法）</h2>
+  <ul>
+    <li><strong>查閱</strong>：寄信來，我會回你你的 email 在不在名單上、何時加入</li>
+    <li><strong>更正</strong>：寄信來改 email</li>
+    <li><strong>刪除</strong>：寄信來或點 unsubscribe，48 小時內從備份也刪掉</li>
+    <li><strong>攜出</strong>：你的資料就一個 email，沒什麼好攜出的</li>
+  </ul>
+
+  <h2>8 · 兒童</h2>
+  <p>AI DESK 內容適合所有年齡，但訂閱表單預設給成年讀者。如果你 13 歲以下，請不要訂閱。</p>
+
+  <h2>9 · 變更</h2>
+  <p>這份政策一變，會在這頁更新「Last updated」日期。重大變更（例如要開始放分析腳本）會在 daily 信件公告。</p>
+
+  <h2>10 · 連絡</h2>
+  <div class="contact">
+    AI DESK · Independent editorial<br>
+    Email: <a href="mailto:hi@ai-desk-tw.example.com">hi@ai-desk-tw.example.com</a><br>
+    IG: <a href="https://www.instagram.com/ai_desk_0424" target="_blank" rel="noopener">@ai_desk_0424</a>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-base">
+      <div>© 2026 AI DESK · Independent editorial</div>
+      <div><a href="/">Home</a> · <a href="/posts/">Journal</a> · <a href="/privacy">Privacy</a></div>
+      <div>A signal, not the noise.</div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
