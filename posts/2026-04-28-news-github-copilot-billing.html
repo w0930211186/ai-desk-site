@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>04/28 News 深度 · GitHub Copilot 從吃到飽改 token 計價：編碼代理商業模式重設 | AI DESK</title>
+<meta name="description" content="GitHub 宣布 Copilot 從固定月費 $10 / $19 改成 token-based 用量計價。HN 衝到 439 分熱議。背後反映 AI 編碼代理在 agent loop 推論成本暴漲下舊定價模式撐不住，是 IDE Coding Agent 商業模式的全面重設。AI DESK 解構：成本結構、競爭動態、Cursor / Windsurf / JetBrains 的對應、企業採購衝擊，以及這條路為何不一定是好事——含反方觀點。">
+<meta name="keywords" content="AI DESK, News 深度, GitHub Copilot usage based billing, token pricing, AI coding agent, Cursor, Windsurf, JetBrains, IDE pricing reset">
+<meta name="author" content="AI DESK">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#000000">
+<meta property="og:title" content="2026/04/28 · News 深度 · GitHub Copilot 從吃到飽改 token 計價：編碼代理商業模式全面重設">
+<meta property="og:description" content="GitHub 宣布 Copilot 從固定月費 $10 / $19 改成 token-based 用量計價。HN 衝到 439 分熱議。背後反映 AI 編碼代理在 agent loop 推論成本暴漲下舊定價模式撐不住，是 IDE Coding Agent 商業模式的全面重設。AI DESK 解構：成本結構、競爭動態、Cursor / Windsurf / JetBrains 的對應、企業採購衝擊，以及這條路為何不一定是好事——含反方觀點。">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="AI DESK">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:url" content="https://ai-desk-tw.netlify.app/posts/2026-04-28-news-github-copilot-billing.html">
+<meta property="og:image" content="https://ai-desk-tw.netlify.app/assets/og/2026-04-28-news-github-copilot-billing-og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="article:published_time" content="2026-04-28T07:00:00+08:00">
+<meta property="article:author" content="AI DESK">
+<meta property="article:section" content="News · 深度">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="2026/04/28 · News 深度 · GitHub Copilot 從吃到飽改 token 計價：編碼代理商業模式全面重設">
+<meta name="twitter:description" content="GitHub 宣布 Copilot 從固定月費 $10 / $19 改成 token-based 用量計價。HN 衝到 439 分熱議。背後反映 AI 編碼代理在 agent loop 推論成本暴漲下舊定價模式撐不住，是 IDE Coding Agent 商業模式的全面重設。AI DESK 解構：成本結構、競爭動態、Cursor / Windsurf / JetBrains 的對應、企業採購衝擊，以及這條路為何不一定是好事——含反方觀點。">
+<meta name="twitter:image" content="https://ai-desk-tw.netlify.app/assets/og/2026-04-28-news-github-copilot-billing-og.png">
+<link rel="canonical" href="https://ai-desk-tw.netlify.app/posts/2026-04-28-news-github-copilot-billing.html">
+<link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Noto+Sans+TC:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "2026/04/28 · News 深度 · GitHub Copilot 從吃到飽改 token 計價：編碼代理商業模式全面重設",
+  "datePublished": "2026-04-28T07:00:00+08:00",
+  "dateModified": "2026-04-28T07:00:00+08:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://ai-desk-tw.netlify.app/posts/2026-04-28-news-github-copilot-billing.html"
+  },
+  "image": "https://ai-desk-tw.netlify.app/assets/og-cover.png",
+  "author": { "@type": "Organization", "name": "AI DESK", "url": "https://ai-desk-tw.netlify.app/" },
+  "publisher": {
+    "@type": "Organization",
+    "name": "AI DESK",
+    "url": "https://ai-desk-tw.netlify.app/",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://ai-desk-tw.netlify.app/assets/og-cover.png",
+      "width": 1200,
+      "height": 630
+    }
+  },
+  "description": "GitHub 宣布 Copilot 從固定月費 $10 / $19 改成 token-based 用量計價。HN 衝到 439 分熱議。背後反映 AI 編碼代理在 agent loop 推論成本暴漲下舊定價模式撐不住，是 IDE Coding Agent 商業模式的全面重設。AI DESK 解構：成本結構、競爭動態、Cursor / Windsurf / JetBrains 的對應、企業採購衝擊，以及這條路為何不一定是好事——含反方觀點。",
+  "articleSection": "News · 深度",
+  "url": "https://ai-desk-tw.netlify.app/posts/2026-04-28-news-github-copilot-billing.html"
+}
+</script>
+
+<style>
+:root {
+  --bg: #000000;
+  --fg: #FFFFFF;
+  --panel: #F2F2F2;
+  --panel-fg: #0A0A0A;
+  --mute: #8A8A8A;
+  --mute-2: #5A5A5A;
+  --line: rgba(255, 255, 255, 0.14);
+  --line-dark: rgba(0, 0, 0, 0.14);
+  --f-display: 'Inter Tight', 'Noto Sans TC', -apple-system, sans-serif;
+  --f-sans: 'Space Grotesk', 'Noto Sans TC', -apple-system, sans-serif;
+  --f-body: 'Noto Sans TC', 'Inter Tight', sans-serif;
+  --f-mono: 'JetBrains Mono', 'SF Mono', Menlo, monospace;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+img { max-width: 100%; height: auto; display: block; }
+html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; overflow-x: hidden; }
+body { font-family: var(--f-body); background: var(--bg); color: var(--fg); line-height: 1.75; font-size: 17px; overflow-x: hidden; }
+a { color: inherit; text-decoration: none; }
+::selection { background: #FFFFFF; color: #000000; }
+
+.nav-top {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+  padding: 1.5rem 2rem; display: flex; justify-content: space-between; align-items: center;
+  mix-blend-mode: difference;
+}
+.nav-brand { font-family: var(--f-display); font-weight: 900; font-size: 0.92rem; letter-spacing: 0.04em; text-transform: uppercase; display: flex; align-items: center; gap: 0.6rem; }
+.nav-brand .diamond { width: 10px; height: 10px; background: var(--fg); display: inline-block; animation: spin 4s linear infinite; }
+@keyframes spin { from { transform: rotate(45deg); } to { transform: rotate(405deg); } }
+.nav-links { display: flex; gap: 1.4rem; font-family: var(--f-sans); font-size: 0.72rem; letter-spacing: 0.2em; text-transform: uppercase; font-weight: 500; }
+.nav-links a { padding: 0.4rem 0.8rem; border: 1px solid transparent; transition: border-color .25s; }
+.nav-links a:hover, .nav-links a.active { border-color: var(--fg); }
+
+nav.crumbs {
+  max-width: 900px; margin: 9rem auto 2rem; padding: 0 2rem;
+  font-family: var(--f-sans); font-size: 0.7rem;
+  letter-spacing: 0.22em; text-transform: uppercase; color: var(--mute);
+}
+nav.crumbs a { color: var(--fg); }
+nav.crumbs .sep { margin: 0 0.8rem; color: var(--mute-2); }
+
+/* ARTICLE HEAD */
+.post-head {
+  max-width: 1200px; margin: 2rem auto 3rem; padding: 0 2rem;
+  position: relative;
+}
+.post-meta-top {
+  font-family: var(--f-mono); font-size: 0.78rem;
+  letter-spacing: 0.2em; text-transform: uppercase;
+  color: var(--mute); margin-bottom: 2.5rem;
+  display: flex; gap: 1.5rem; flex-wrap: wrap;
+}
+.post-meta-top .num { color: var(--fg); font-family: var(--f-display); font-weight: 900; font-size: 0.9rem; letter-spacing: 0; }
+.post-title {
+  font-family: var(--f-display); font-weight: 900;
+  font-size: clamp(2.8rem, 7vw, 6.5rem);
+  line-height: 0.95; letter-spacing: -0.04em;
+  text-transform: uppercase; max-width: 16ch;
+}
+.post-title em {
+  font-style: normal; color: transparent; -webkit-text-stroke: 1.5px var(--fg);
+}
+.post-sub {
+  margin-top: 2rem; max-width: 680px;
+  font-family: var(--f-display); font-weight: 500;
+  font-size: 1.3rem; color: var(--mute); line-height: 1.45;
+  letter-spacing: -0.005em;
+  border-left: 3px solid var(--fg); padding-left: 1.4rem;
+}
+.post-tags { margin-top: 2.5rem; display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.post-tags .tag {
+  font-family: var(--f-sans); font-size: 0.68rem;
+  letter-spacing: 0.22em; text-transform: uppercase;
+  padding: 0.35rem 0.9rem; border: 1px solid var(--fg); color: var(--fg);
+}
+.post-tags .tag.mute { border-color: var(--mute); color: var(--mute); }
+
+/* ARTICLE BODY */
+article.post {
+  max-width: 760px; margin: 4rem auto; padding: 0 2rem;
+  position: relative;
+}
+.post-body { font-size: 1.08rem; line-height: 1.9; color: #D9D9D9; }
+.post-body p { margin-bottom: 1.6rem; }
+.post-body h2 {
+  font-family: var(--f-display); font-weight: 900;
+  font-size: clamp(1.8rem, 3.5vw, 2.6rem);
+  line-height: 1.1; letter-spacing: -0.02em;
+  text-transform: uppercase; color: var(--fg);
+  margin: 5rem 0 1.5rem; padding-top: 2.5rem;
+  border-top: 1px solid var(--line);
+}
+.post-body h2 .num {
+  font-family: var(--f-mono); font-size: 0.7em;
+  color: var(--mute); letter-spacing: 0.16em; font-weight: 400;
+  display: block; margin-bottom: 0.6rem;
+}
+.post-body h3 {
+  font-family: var(--f-display); font-size: 1.3rem;
+  font-weight: 800; margin: 2.4rem 0 0.8rem; color: var(--fg);
+  letter-spacing: -0.01em;
+}
+.post-body strong { color: var(--fg); font-weight: 700; }
+.post-body a { border-bottom: 1px solid var(--fg); color: var(--fg); }
+.post-body a:hover { background: var(--fg); color: var(--bg); }
+.post-body ul, .post-body ol { margin: 1rem 0 1.6rem 0; list-style: none; padding: 0; }
+.post-body ul li { margin-bottom: 0.9rem; padding-left: 1.8rem; position: relative; }
+.post-body ul li::before { content: "◆"; position: absolute; left: 0; top: 0; color: var(--fg); font-family: var(--f-display); }
+.post-body ol { counter-reset: n; }
+.post-body ol li { counter-increment: n; margin-bottom: 0.9rem; padding-left: 2.4rem; position: relative; }
+.post-body ol li::before {
+  content: "0" counter(n); position: absolute; left: 0; top: 0;
+  font-family: var(--f-mono); font-size: 0.82em; color: var(--fg);
+  letter-spacing: 0.08em;
+}
+.post-body blockquote {
+  font-family: var(--f-display); font-weight: 800;
+  font-size: clamp(1.5rem, 3vw, 2.2rem); line-height: 1.2;
+  padding: 2.5rem 0; margin: 3rem 0;
+  border-top: 1px solid var(--fg); border-bottom: 1px solid var(--fg);
+  color: var(--fg); letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+.post-body blockquote::before {
+  content: "❝"; font-family: var(--f-display); font-size: 2.5rem;
+  color: var(--fg); display: block; margin-bottom: 0.5rem; line-height: 1;
+}
+.post-body code {
+  font-family: var(--f-mono); background: rgba(255, 255, 255, 0.1);
+  padding: 0.15rem 0.5rem; font-size: 0.88em;
+  color: var(--fg);
+}
+.post-body pre {
+  background: rgba(255, 255, 255, 0.04); border: 1px solid var(--line);
+  padding: 1.4rem; overflow-x: auto; margin: 2rem 0;
+  font-family: var(--f-mono); font-size: 0.88rem; line-height: 1.6;
+}
+.post-body pre code { background: transparent; padding: 0; }
+.post-body hr { border: none; border-top: 1px solid var(--line); margin: 3rem 0; }
+.post-body figure { margin: 2.4rem 0; }
+.post-body figcaption {
+  font-family: var(--f-mono); font-size: 0.72rem;
+  letter-spacing: 0.16em; color: var(--mute);
+  text-transform: uppercase; margin-top: 0.8rem;
+}
+
+.post-body aside.keypoints {
+  border: 1px solid var(--fg); padding: 1.6rem 1.8rem;
+  margin: 0 0 2.4rem; background: rgba(255,255,255,0.02);
+}
+.post-body aside.keypoints .kp-label {
+  font-family: var(--f-sans); font-size: 0.72rem;
+  letter-spacing: 0.24em; text-transform: uppercase;
+  color: var(--fg); font-weight: 600; margin-bottom: 1rem;
+}
+
+.post-body .source-footer {
+  margin: 1.5rem 0 0; padding-top: 1rem;
+  border-top: 1px dashed var(--line);
+}
+.post-body .source-footer-label {
+  font-family: var(--f-mono); font-size: 0.72rem;
+  letter-spacing: 0.18em; color: var(--mute);
+  text-transform: uppercase; margin-bottom: 0.6rem;
+}
+.post-body .source-footer ul { margin: 0; }
+
+.post-body .sig {
+  margin-top: 5rem; padding-top: 2rem; border-top: 1px solid var(--line);
+  font-family: var(--f-mono); font-size: 0.82rem;
+  letter-spacing: 0.18em; color: var(--mute); text-transform: uppercase;
+}
+
+.article-foot {
+  max-width: 1200px; margin: 5rem auto 0; padding: 3rem 2rem 0;
+  border-top: 1px solid var(--line);
+  display: flex; justify-content: space-between; align-items: center;
+  flex-wrap: wrap; gap: 1rem;
+}
+.back-cta {
+  display: inline-flex; align-items: center; gap: 0.8rem;
+  font-family: var(--f-sans); font-size: 0.78rem; font-weight: 600;
+  letter-spacing: 0.24em; text-transform: uppercase;
+  padding: 0.8rem 1.4rem; border: 1px solid var(--fg);
+  transition: background .3s, color .3s;
+}
+.back-cta:hover { background: var(--fg); color: var(--bg); }
+.foot-stamp { font-family: var(--f-mono); font-size: 0.72rem; letter-spacing: 0.18em; color: var(--mute); text-transform: uppercase; }
+
+/* FOOTER */
+footer.site-footer {
+  background: var(--panel); color: var(--panel-fg);
+  padding: 6rem 2rem 3rem; margin-top: 6rem;
+  position: relative; overflow: hidden;
+}
+.footer-inner { max-width: 1400px; margin: 0 auto; }
+.footer-lockup {
+  font-family: var(--f-display); font-weight: 900;
+  font-size: clamp(4rem, 14vw, 16rem); line-height: 0.85;
+  letter-spacing: -0.06em; text-transform: uppercase;
+}
+.footer-row {
+  margin-top: 4rem; padding-top: 2rem; border-top: 1px solid var(--panel-fg);
+  display: grid; grid-template-columns: repeat(4, 1fr); gap: 2rem;
+  font-family: var(--f-sans); font-size: 0.8rem;
+}
+.footer-row .cell .label { font-size: 0.66rem; letter-spacing: 0.28em; text-transform: uppercase; color: var(--mute-2); font-weight: 500; margin-bottom: 0.5rem; }
+.footer-row .cell .val { font-family: var(--f-display); font-weight: 700; letter-spacing: -0.01em; font-size: 1rem; }
+.footer-row .cell .val a { border-bottom: 1px solid transparent; transition: border-color .2s; }
+.footer-row .cell .val a:hover { border-bottom-color: var(--panel-fg); }
+.footer-base {
+  margin-top: 4rem; display: flex; justify-content: space-between; align-items: center;
+  font-family: var(--f-mono); font-size: 0.7rem; letter-spacing: 0.12em;
+  color: var(--mute-2); text-transform: uppercase; flex-wrap: wrap; gap: 1rem;
+}
+
+@media (max-width: 700px) {
+  .nav-top { padding: 1rem; }
+  .nav-links { gap: 0.5rem; font-size: 0.58rem; }
+  .nav-links a { padding: 0.3rem 0.5rem; }
+  nav.crumbs { padding: 0 1rem; margin-top: 6rem; font-size: 0.62rem; }
+  .post-head { padding: 0 1rem; }
+  article.post { padding: 0 1rem; }
+  .post-body blockquote { font-size: 1.4rem; }
+  .article-foot { padding: 3rem 1rem 0; }
+  footer.site-footer { padding: 4rem 1rem 2rem; }
+  .footer-row { grid-template-columns: 1fr; }
+}
+
+
+/* ============================================================
+   ACCESSIBILITY · v2 (audit 2026-04-25)
+   - P0-A: focus-visible 鍵盤導航指示
+   - P0-B: prefers-reduced-motion 動畫退場
+   - P1-C: 手機觸控目標 ≥ 44px
+   - bonus: skip-to-content link
+   ============================================================ */
+
+/* P0-A · 鍵盤 focus 指示（mono brutalist 風格） */
+*:focus-visible {
+  outline: 2px solid var(--fg);
+  outline-offset: 3px;
+}
+.nav-links a:focus-visible,
+.back-cta:focus-visible,
+.tag-toggle button:focus-visible {
+  outline-offset: 1px;
+}
+.enter-btn:focus-visible {
+  outline-offset: 5px;
+}
+.journal-card:focus-visible {
+  outline-offset: -2px;
+}
+
+/* bonus · skip-to-content link（a11y best practice） */
+.skip-link {
+  position: absolute;
+  top: -100px;
+  left: 1rem;
+  z-index: 200;
+  padding: 0.7rem 1.2rem;
+  background: var(--fg);
+  color: var(--bg);
+  font-family: var(--f-sans);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: top 0.2s;
+}
+.skip-link:focus {
+  top: 1rem;
+}
+
+/* P0-B · prefers-reduced-motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .diamond,
+  .circle-text,
+  .float-diamond {
+    animation: none !important;
+  }
+}
+
+/* P1-C · 手機觸控目標 ≥ 44px */
+@media (max-width: 700px) {
+  .nav-links a {
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+    padding: 0.6rem 0.7rem;
+    font-size: 0.62rem;
+  }
+  .tag-toggle button {
+    min-height: 44px;
+    padding: 0.7rem 1rem;
+  }
+  .back-cta,
+  .enter-btn {
+    min-height: 44px;
+  }
+}
+
+
+
+/* ============================================================
+   FUNCTIONAL ADDITIONS · v3 (2026-04-25)
+   - Email subscribe form
+   - Share buttons
+   - Pagefind search UI
+   - Reading time pill
+   ============================================================ */
+
+/* 訂閱表單 */
+.subscribe-form {
+  display: flex; gap: 0.6rem; flex-wrap: wrap; align-items: stretch;
+  margin-top: 0.5rem;
+}
+.subscribe-form input[type="email"] {
+  flex: 1 1 220px; min-width: 0;
+  padding: 0.7rem 0.9rem;
+  font-family: var(--f-sans); font-size: 0.85rem;
+  background: transparent;
+  border: 1px solid var(--panel-fg);
+  color: inherit;
+}
+.subscribe-form input[type="email"]:focus {
+  outline: 2px solid var(--panel-fg); outline-offset: 2px;
+}
+.subscribe-form button {
+  padding: 0.7rem 1.2rem;
+  font-family: var(--f-sans); font-weight: 600;
+  font-size: 0.78rem; letter-spacing: 0.2em; text-transform: uppercase;
+  background: var(--panel-fg); color: var(--panel);
+  border: 1px solid var(--panel-fg); cursor: pointer;
+  transition: opacity .2s;
+}
+.subscribe-form button:hover { opacity: 0.85; }
+.subscribe-msg { font-family: var(--f-sans); font-size: 0.72rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--mute-2); margin-top: 0.5rem; min-height: 1em; }
+
+/* 分享按鈕 */
+.share-bar {
+  margin: 4rem 0 0; padding-top: 2rem;
+  border-top: 1px solid var(--line);
+  display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap;
+}
+.share-label {
+  font-family: var(--f-mono); font-size: 0.72rem;
+  letter-spacing: 0.18em; color: var(--mute);
+  text-transform: uppercase; margin-right: 0.5rem;
+}
+.share-bar a, .share-bar button {
+  display: inline-flex; align-items: center; gap: 0.4rem;
+  padding: 0.55rem 0.9rem; min-height: 36px;
+  font-family: var(--f-sans); font-size: 0.7rem;
+  letter-spacing: 0.18em; text-transform: uppercase;
+  border: 1px solid var(--line); color: var(--fg);
+  background: transparent; cursor: pointer;
+  transition: background .2s, color .2s, border-color .2s;
+}
+.share-bar a:hover, .share-bar button:hover {
+  background: var(--fg); color: var(--bg); border-color: var(--fg);
+}
+.share-bar svg { width: 14px; height: 14px; }
+
+/* Reading time pill (post-meta-top 內) */
+.read-time { color: var(--mute); }
+.read-time::before { content: "·"; margin-right: 0.5rem; color: var(--mute-2); }
+
+/* Prev/Next 導覽 */
+.prev-next {
+  margin: 5rem 0 0; padding: 2rem 0; border-top: 1px solid var(--line);
+  display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;
+}
+.prev-next a {
+  display: block; padding: 1.2rem 1.4rem;
+  border: 1px solid var(--line);
+  transition: border-color .2s, background .2s;
+}
+.prev-next a:hover { border-color: var(--fg); background: rgba(255,255,255,0.03); }
+.prev-next a.next { text-align: right; }
+.prev-next .label {
+  display: block; font-family: var(--f-sans);
+  font-size: 0.7rem; letter-spacing: 0.22em;
+  color: var(--mute); text-transform: uppercase; margin-bottom: 0.5rem;
+}
+.prev-next .title {
+  display: block; font-family: var(--f-display);
+  font-weight: 700; font-size: 1rem; line-height: 1.3;
+  letter-spacing: -0.01em; color: var(--fg);
+}
+@media (max-width: 700px) {
+  .prev-next { grid-template-columns: 1fr; }
+  .prev-next a.next { text-align: left; }
+}
+
+/* Pagefind 搜尋 UI override（mono brutalist 化） */
+#search {
+  margin: 0 auto 2rem; max-width: 760px;
+}
+.pagefind-ui__search-input {
+  background: transparent !important; color: var(--fg) !important;
+  border: 1px solid var(--fg) !important; border-radius: 0 !important;
+  font-family: var(--f-sans) !important;
+}
+.pagefind-ui__result {
+  border-bottom: 1px solid var(--line) !important; padding: 1rem 0 !important;
+}
+.pagefind-ui__result-link {
+  color: var(--fg) !important;
+  font-family: var(--f-display) !important; font-weight: 700 !important;
+}
+
+
+/* 2026-04-27 daily overrides */
+.post-body .source-footer { border-top: 1px dashed rgba(255,255,255,0.18); margin-top: 2rem; padding-top: 1rem; font-family: var(--f-mono); font-size: 0.78rem; opacity: 0.6; color: #D9D9D9; }
+.post-body .source-footer-label { text-transform: uppercase; letter-spacing: 0.12em; margin-bottom: 0.4rem; }
+.post-body .source-footer ul { list-style: none; padding: 0; margin: 0; }
+.post-body .source-footer li { margin: 0.25rem 0; padding-left: 0; }
+.post-body .source-footer li::before { content: none; }
+.post-body .source-footer a { color: var(--fg); text-decoration: underline; border-bottom: none; }
+.post-body figure img { width: 100%; height: auto; max-height: 460px; object-fit: cover; object-position: center; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.1); }
+</style>
+<link rel="stylesheet" href="/assets/site-extras.css">
+<link rel="alternate" type="application/rss+xml" title="AI DESK RSS" href="/rss.xml">
+</head>
+<body>
+
+<nav class="nav-top">
+  <a href="../index.html" class="nav-brand">
+    <span class="diamond"></span>
+    AI DESK
+  </a>
+  <div class="nav-links">
+    <a href="index.html" class="active">Journal</a>
+    <a href="https://www.instagram.com/ai_desk_0424?igsh=eHd5Mzg1NTV3MDNi&utm_source=qr" target="_blank" rel="noopener">IG</a>
+  </div>
+</nav>
+
+<nav class="crumbs">
+  <a href="../index.html">Index</a><span class="sep">/</span>
+  <a href="index.html">Journal</a><span class="sep">/</span>
+  04/28 News 深度
+</nav>
+
+<main id="main">
+
+<header class="post-head">
+  <div class="post-meta-top">
+    <span class="num">News N°01</span>
+    <span>2026 · 04 · 28 · TUE</span>
+    <span>News · 深度</span>
+    <span>07:00 CST</span>
+    <span class="read-time">22 min read</span>
+  </div>
+  <h1 class="post-title">2026/04/28 · GitHub Copilot 從吃到飽改 token 計價 · 編碼代理商業模式全面重設</h1>
+  <p class="post-sub">GitHub 宣布 Copilot 從固定月費 $10 / $19 改成 token-based 用量計價。HN 439 分熱議。背後反映 AI 編碼代理在 agent loop 推論成本暴漲下舊定價模式撐不住。AI DESK 解構：成本結構、競爭動態、Cursor / Windsurf / JetBrains 的對應、企業採購衝擊，以及這條路為何不一定是好事——含反方觀點。</p>
+  <div class="post-tags"><span class="tag">News · 深度</span><span class="tag mute">tools</span><span class="tag mute">policy</span><span class="tag mute">GitHub</span><span class="tag mute">Microsoft</span><span class="tag mute">developer</span><span class="tag mute">pricing</span></div>
+</header>
+
+<article class="post">
+  <div class="post-body">
+
+<aside class="keypoints">
+  <div class="kp-label">📌 重點方向 · Key Signals</div>
+  <ol>
+    <li><strong>定價模式從 SaaS 轉雲端計量 · From flat-fee SaaS to metered cloud</strong> — Copilot $10 / $19 月費走入歷史，新方案以 token 與 agent run 為計價單位。Coding Agent 的單位經濟學，從「Notion 訂閱邏輯」靠攏「AWS 計量邏輯」。</li>
+    <li><strong>agent loop 才是真正的成本放大器 · Agent loops are the cost multiplier</strong> — 一次互動式 chat 大概 5K-20K tokens，但一個多步驟 agent run 動輒幾十萬。GitHub 改價的真正壓力來自 agentic 而非 autocomplete。</li>
+    <li><strong>定價權的重新分配 · Repricing reshuffles winners</strong> — Cursor、Windsurf、JetBrains 都被迫跟。重度用戶月費可能翻倍，輕度用戶反而更便宜，企業採購談判桌全部重來。</li>
+  </ol>
+</aside>
+
+<hr>
+
+<h2><span class="num">N°01</span> 序章 · 為什麼這條新聞不是「漲價」而是「重設」</h2>
+
+<figure>
+  <img src="../assets/news/github-copilot-billing-editorial.svg" alt="GitHub Copilot pay-per-token editorial render">
+  <figcaption>SOURCE · GITHUB BLOG · AI DESK EDITORIAL RENDER</figcaption>
+</figure>
+
+<p><strong>Pin · 表面是改價，本質是 AI Coding Agent 商業模式從 SaaS 進化到雲端計量的分水嶺。</strong></p>
+
+<p>2026 年 4 月 27 日，GitHub 在官方部落格公告：Copilot 將從吃到飽月費（個人 $10、商業 $19）轉為 token-based 用量計費。新方案保留小額月費（含基礎額度），超出後按使用量計價，agentic mode 與多步驟 workflow 視為高權重消費。HN 衝上 439 分、514 則留言，社群兩極分裂——有人罵漲價、有人說早該如此。</p>
+
+<p>新聞表層是漲價／降價的數字戰，但這條故事真正的份量不在帳單。它告訴行業一件事：過去三年「AI Coding Tools 是 SaaS 訂閱」這個假設，已經支撐不住。當 Copilot、Cursor、Windsurf、Cognition 全部被推向 agent 多步驟工作流，每個用戶背後消耗的算力差距是十倍、百倍級。靠固定月費補貼重度用戶，是擺在 P&L 上的明牌負債。GitHub 是第一個在 frontier 賽道公開承認這件事的玩家。</p>
+
+<p>本文用六個視角拆解：成本結構為什麼撐不住、競爭格局如何被重排、企業採購邏輯被換了什麼、開發者體感與工作流被推往哪、為什麼仍有合理的反方觀點、以及對 Rick 社群讀者的實際操作建議。</p>
+
+<hr>
+
+<h2><span class="num">N°02</span> 成本結構拆解 · 為什麼吃到飽撐不住</h2>
+
+<figure>
+  <img src="../assets/news/github-copilot-billing-editorial.svg" alt="agent run token cost editorial render">
+  <figcaption>COST STRUCTURE · AGENT LOOP × TOKEN BURN · AI DESK EDITORIAL</figcaption>
+</figure>
+
+<p><strong>Pin · 不是模型變貴，是工作流變長。</strong></p>
+
+<h3>autocomplete 時代的單位經濟</h3>
+
+<p>2021 至 2023 年的 Copilot 是純 autocomplete。每次補全請求大約 1K 至 3K input tokens、輸出 100 至 500 tokens。即使 GPT-3.5 級別模型，每次互動成本以美分計。$10 月費對應的算力消耗是被精算過的：一個 active developer 一天約 200 至 500 次補全，月度 token 消耗在百萬級。對應雲端成本約 $1 至 $3，毛利率 70% 以上。</p>
+
+<h3>agentic 時代的單位經濟</h3>
+
+<p>2024 年中之後 Copilot 加入 chat、workspace、agent mode、PR review。每一條都把 token 消耗推上一個量級：</p>
+
+<ul>
+  <li>Chat 模式：一次互動 5K 至 20K tokens（含 context 注入）</li>
+  <li>Workspace 模式：一次任務 50K 至 200K tokens（多檔案 retrieval）</li>
+  <li>Agent mode：一次 run 動輒 200K 至 2M tokens（多步驟、tool use、self-correction loop）</li>
+  <li>PR review agent：每個 PR 100K 至 500K tokens</li>
+</ul>
+
+<p>底層模型也從 GPT-3.5 級別漲到 GPT-4 / Claude 4 / GPT-5 級別，input 與 output 單價都翻倍以上。重度用戶一天可以跑 30 至 100 個 agent run，月度 token 消耗從百萬跳到數十億。對應雲端成本飆到 $200 至 $1500，遠超 $19 商業版月費。GitHub 的 P&L 上，每多一個重度 agent 用戶就多一份赤字。</p>
+
+<h3>補貼結構的崩解</h3>
+
+<p>SaaS 月費模型靠「輕度用戶補貼重度用戶」運作。但 AI Coding Agent 的使用分佈高度不對稱：少於 10% 的重度用戶消耗 70% 以上的 token。在 GPU 短缺的市場條件下，這種補貼結構代表 GitHub 必須限速、限額、排隊——而這每一條都直接傷害產品體驗。改 token 計價是把成本訊號傳回用戶，讓重度用戶自己決定「值不值得」。</p>
+
+<h3>數字推算 · 重度用戶月費上限</h3>
+
+<p>假設 GitHub 用戶平均 token 單價 $5 / 1M（混合 prompt + completion + cache，含毛利），重度用戶一天 50 個 agent run、每個 run 平均 800K tokens：日消耗 40M tokens、月消耗 1.2B tokens、月成本 $6,000。即使重度用戶只有 5% 也是個天文數字。新計價之後，這 5% 用戶會被推向「自願降載」或「企業合約轉型」，公司平均單位經濟學能恢復到正毛利區間。</p>
+
+<div class="source-footer">
+  <div class="source-footer-label">— 源 · Sources</div>
+  <ul>
+    <li>GitHub Blog · <a href="https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/" target="_blank" rel="noopener">github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing</a></li>
+  </ul>
+</div>
+
+<hr>
+
+<h2><span class="num">N°03</span> 競爭動態 · Cursor、Windsurf、JetBrains 全部被迫跟</h2>
+
+<figure>
+  <img src="../assets/news/github-copilot-billing-editorial.svg" alt="competitive dynamics across coding agent vendors editorial render">
+  <figcaption>COMPETITIVE LANDSCAPE · AI CODING AGENT PRICING WAVE · AI DESK EDITORIAL</figcaption>
+</figure>
+
+<p><strong>Pin · GitHub 是第一張倒下的骨牌。下一張在哪？答案不只一個。</strong></p>
+
+<h3>Cursor · 已部分採用量制</h3>
+
+<p>Cursor 過去 12 個月已逐步把高階模型（Claude 4 Sonnet、GPT-5）切到量制——免費額度耗盡後按 token 計價。GitHub 跟進等於行業共識成形。Cursor 接下來預期會做的事：把 agent mode 與 background agent 的計費權重再上調、推出企業 multi-tenant 套餐、加大 token cache 與 prompt compression 投資以拉開單位經濟差距。</p>
+
+<h3>Windsurf · Codeium 主品牌的兩難</h3>
+
+<p>Windsurf（前身 Codeium）是過去 24 個月發展最快的後進者，主打 Cascade agent 與 inline AI 的整合體驗。Codeium 一向以「個人免費」為主要 acquisition 槓桿。GitHub 改價讓 Windsurf 進退兩難——跟進量制等於拋棄差異化，不跟則繼續燒投資人的錢。最可能的折衷是「保留個人免費的 autocomplete + agent 改量制」，類似 Cursor 已經跑的雙軌結構。</p>
+
+<h3>JetBrains AI Assistant · 老牌 IDE 的算盤</h3>
+
+<p>JetBrains 的 AI 產品線過去兩年一直是價格保守派——固定月費、含在 IDE 訂閱包裡。GitHub 改價對 JetBrains 構成兩種壓力：第一，自家 AI Assistant 的成本曲線跟 Copilot 沒有本質差異，現在被迫評估是否同步轉量制；第二，IntelliJ / PyCharm 訂閱本身的「AI 含在內」承諾被市場重新定價，不轉量制就要漲價（已經試過一輪用戶反彈）、轉量制則打破訂閱包邏輯。預期 JetBrains 會在 2026 下半年推一條新訂閱層，把 AI Assistant 的高階能力獨立出來計量。</p>
+
+<h3>Cognition Devin · 從第一天就是量制</h3>
+
+<p>Cognition 的 Devin 從上市起就是高單價、按 task 計費的產品，因此這波對它幾乎沒有衝擊——反而是利多。當行業全面轉向量制，Devin 的「我們從第一天就誠實計價」敘事，會變成 enterprise sales pitch 的核心論點。Cognition 估值的下一輪故事，會圍繞「企業級 agent 採購標準制定者」展開。</p>
+
+<h3>Replit Agent、Anthropic Claude Code、Codex CLI</h3>
+
+<p>Replit 與 Anthropic 的 Claude Code 已是量制（Anthropic 一向用 token 計價）。這波對它們是利多——市場被教育成接受量制之後，他們的客戶獲取成本會降。OpenAI 的 Codex CLI 仍綁在 ChatGPT 訂閱裡，預期會在 6 至 12 個月內切出獨立計量層。</p>
+
+<div class="source-footer">
+  <div class="source-footer-label">— 源 · Sources</div>
+  <ul>
+    <li>HackerNews 討論（439 分）· <a href="https://news.ycombinator.com/item?id=47923357" target="_blank" rel="noopener">news.ycombinator.com/item?id=47923357</a></li>
+  </ul>
+</div>
+
+<hr>
+
+<h2><span class="num">N°04</span> 企業採購衝擊 · RFP 與資訊安全部門的新戰場</h2>
+
+<figure>
+  <img src="../assets/news/github-copilot-billing-editorial.svg" alt="enterprise procurement implications editorial render">
+  <figcaption>ENTERPRISE PROCUREMENT · NEW RFP TEMPLATE · AI DESK EDITORIAL</figcaption>
+</figure>
+
+<p><strong>Pin · 改價不只動 Devx，動到 CFO 的預算審核流程。</strong></p>
+
+<h3>採購邏輯的根本變動</h3>
+
+<p>過去三年企業採購 Copilot 的邏輯是「每個工程師席次 $19，800 人就是 $182K 年費」。這條算式簡單、可預測、可預算。改量制之後變成「我們公司一年用多少 token？」——這是個沒人能回答的問題。CFO、CTO、CIO 三個 office 的對話結構整盤重來。</p>
+
+<h3>RFP 評分模板會被換</h3>
+
+<p>新一輪 RFP 會問六個之前沒問過的問題：</p>
+
+<ul>
+  <li>token 計費的單價、計算口徑（是否含 cache、是否含 thinking tokens）</li>
+  <li>企業統一 quota 還是個人 quota？超量處理機制？</li>
+  <li>使用儀表板（觀察單位團隊、單位開發者的 token 消耗）</li>
+  <li>跨模型切換（自動降級、自動升級的策略）</li>
+  <li>企業合約折扣與 commit-based pricing</li>
+  <li>稽核日誌（哪些 agent run 動了哪些 repo / data，符合 SOC2、ISO 27001）</li>
+</ul>
+
+<p>這六條每一條都是供應商的差異化競爭點。GitHub 既有的 enterprise contract 板模也要重寫，這是 Microsoft sales 接下來 6 個月最重的工作。</p>
+
+<h3>資訊安全的新風險面</h3>
+
+<p>量制計費同時暴露兩個新風險。第一，prompt injection 攻擊可能造成 token 消耗暴衝（攻擊者植入長 context 觸發大量 retrieval），等於 DDoS 但燒的是受害公司的錢。第二，內部威脅（rogue insider）可以故意跑高消耗 task 把企業 quota 燒掉。CISO 桌面會多兩條 control：「agent run 異常 token 消耗告警」與「人均 token 上限與審批工作流」。</p>
+
+<h3>對 Rick 社群讀者的實際操作建議</h3>
+
+<p>三條：</p>
+
+<p><strong>(1) 重度個人用戶現在就要做 token budget。</strong>用 GitHub 提供的儀表板抓兩週的基線，估算月度成本上限。如果月成本超過 $50，要評估是繼續用 Copilot、還是切到 Cursor 或 Claude Code，後兩者在重度 agent 場景的單位經濟可能更划算。</p>
+
+<p><strong>(2) 企業客戶不要急著續約。</strong>新方案上線初期供應商議價空間最大。把續約延後 2 至 3 個月，要求供應商提供至少 30 天的試用儀表板數據，再做正式採購決策。Microsoft sales 在這個窗口會給比平常多一檔的折扣。</p>
+
+<p><strong>(3) 對開發團隊主管：建立內部「token consciousness」文化。</strong>不是要省，是要讓開發者知道 agent 不是免費的。最簡單的做法是把月度 token 消耗放進團隊 Slack 每週通報，跟 PR merge 數量並列。Token 是新時代的 build minute。</p>
+
+<div class="source-footer">
+  <div class="source-footer-label">— 源 · Sources</div>
+  <ul>
+    <li>GitHub Blog · <a href="https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/" target="_blank" rel="noopener">github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing</a></li>
+    <li>HackerNews 討論（439 分）· <a href="https://news.ycombinator.com/item?id=47923357" target="_blank" rel="noopener">news.ycombinator.com/item?id=47923357</a></li>
+  </ul>
+</div>
+
+<hr>
+
+<h2><span class="num">N°05</span> 反方觀點 · 為什麼這條路不一定是好事</h2>
+
+<figure>
+  <img src="../assets/news/github-copilot-billing-editorial.svg" alt="counter-argument and risks editorial render">
+  <figcaption>COUNTER-ARGUMENT · WHY METERING MAY BACKFIRE · AI DESK EDITORIAL</figcaption>
+</figure>
+
+<p><strong>Pin · 量制不是萬靈丹。它解掉一個問題，但同時打開三個新的。</strong></p>
+
+<h3>反方一 · 思考摩擦回到開發者身上</h3>
+
+<p>SaaS 訂閱最大的優點是「無限制思考」——開發者不用算成本就敢隨手丟問題給 AI。量制計費把這層摩擦還回來。HN 討論串裡最常被提及的擔憂是：「我每按一次 Enter 都在燒錢，這會改變我問問題的方式。」研究上有大量證據顯示，當人意識到每次行動都有單位成本，會傾向少做、少試錯。對 AI 工具的核心承諾——「降低嘗試新事物的成本」——這是個結構性反向力。</p>
+
+<p>反駁這個論點的人會說：基礎額度足以涵蓋 90% 用戶的日常使用，只有重度才需要付額外。這是事實，但忽略了「焦慮成本」——即使預算夠用，知道自己在計量的人會自動降載。這是行為經濟學裡的 mental accounting effect。GitHub 接下來的 UX 設計會被這個張力左右——是讓用戶看見每次 token 消耗（透明）、還是只看見月度總計（降焦慮）。</p>
+
+<h3>反方二 · 對小公司與獨立開發者不利</h3>
+
+<p>$10 / $19 月費的 SaaS 結構雖然壓榨重度用戶、補貼輕度用戶，但對「中度但無預算」的小團隊（5 至 20 人）很友善——預算是固定的、可預測的。轉量制之後，這個層級會被推向兩個方向：要嘛回到本地開源工具（Continue、Aider 自己跑模型）、要嘛接受財務不確定性（這個月可能 $200，下個月可能 $800）。獨立開發者社群與 indie hacker 會是受傷最大的一群。GitHub 過去用 Copilot 經營出的「平民開發者品牌」——這次改價是逆向動作。</p>
+
+<h3>反方三 · 評估 ROI 變得很難</h3>
+
+<p>SaaS 訂閱讓 ROI 衡量很簡單：每席次 $19、開發者每月省 5 小時 = 划算。轉量制之後，ROI 評估變成「我這個月燒了 $X，估算節省 Y 小時」——分子分母都浮動。CFO 看到的不是 OPEX 而是準 COGS。這條路對「AI 工具能不能說服 finance」會多增加一層阻力。</p>
+
+<h3>反方四 · 量制可能變成創新的天花板</h3>
+
+<p>Coding Agent 的下一個前沿是「長序列任務」——讓 agent 跑 3 小時、處理整個 repo migration、自動修復幾十個 issue。這些任務的 token 消耗動輒上億。量制計費讓這些任務的「敢不敢按下執行鍵」門檻很高。結果可能是：技術上能做、但因為計費焦慮沒人做。創新的速度被定價結構綁住。</p>
+
+<h3>所以呢</h3>
+
+<p>反方論點不是說量制錯——商業上量制是無可避免。是說量制不是中性的。GitHub、Cursor、Windsurf 接下來的差異化，會回到誰能把「降低計量焦慮」做到最好。可能的方向有：透明可預測的 token 預算、agentic 任務的事前成本估算、企業合約裡的 commit-based discount、開發者 dashboard 的 UX。能在這層贏的人，才會是 2027 年的勝者。</p>
+
+<div class="source-footer">
+  <div class="source-footer-label">— 源 · Sources · 反方觀點</div>
+  <ul>
+    <li>HackerNews 討論串（439 分 514 留言）· <a href="https://news.ycombinator.com/item?id=47923357" target="_blank" rel="noopener">news.ycombinator.com/item?id=47923357</a></li>
+  </ul>
+</div>
+
+<hr>
+
+<h2><span class="num">N°06</span> 三年後回看 · 這條新聞會被當成什麼</h2>
+
+<p><strong>Pin · 2029 年回看 2026/04/27，這天會被記住的不是改價，而是「Coding Agent 從 SaaS 變雲端」的官方分水嶺。</strong></p>
+
+<p>三年後回頭看 GitHub 這次改價，最可能的歷史定位有三條。第一，它是 AI Coding Tools 計費邏輯改朝換代的標誌——從 Notion-style flat fee 進到 AWS-style metered。第二，它是 enterprise AI 採購標準化的起點——RFP 會多六條、CISO 會多兩條 control、CFO 會多一張 dashboard。第三，它是行業差異化從「模型誰最強」轉到「成本透明度誰最強」的轉捩點——當所有家都用相似的前沿模型，誰能讓客戶安心預算才是贏家。</p>
+
+<p>但歷史的另一面總是更有趣。三年後也可能回看，這次改價是 AI Coding 工具「平民化敘事」的高峰結束。$19 月費讓任何工程師、任何學生、任何 indie hacker 都能用上世界級工具。改量制讓這扇門半關上。下一輪「平民化敘事」要由誰承接？可能是本地開源（Aider、Continue 跑 Llama）、可能是某個破壞式定價的後進者、也可能是某家把推論成本壓到極限的硬體公司（Groq、Cerebras）。</p>
+
+<p>這是給 2026 年中所有寫程式的人——以及所有靠寫程式工作的人——的訊號：定價結構即將進入一段不穩定期。三件事值得做。第一，把自己的 token 消耗實際量化，不要再憑感覺。第二，至少準備一條「不依賴單一供應商」的 fallback 方案。第三，在工作流程裡培養 token 意識，把它跟 build minute、CI cost 一起放進開發者的 dashboard。</p>
+
+<p>編輯台會繼續追這條故事——下一個 milestone 是 Cursor、Windsurf、JetBrains 的對應動作。如果有任何家在 90 天內推出截然不同的對手方案（例如完全本地推論的訂閱模型），會是 News 深度的下一條。</p>
+
+<div class="source-footer">
+  <div class="source-footer-label">— 源 · 全文總彙</div>
+  <ul>
+    <li>GitHub Blog · 官方公告 · <a href="https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/" target="_blank" rel="noopener">github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing</a></li>
+    <li>HackerNews 討論（439 分 · 514 留言）· <a href="https://news.ycombinator.com/item?id=47923357" target="_blank" rel="noopener">news.ycombinator.com/item?id=47923357</a></li>
+  </ul>
+</div>
+
+<hr>
+
+<p style="font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; opacity: 0.55; text-align: center; margin-top: 3rem;">
+  · News 深度 · 不定期更新 · 下一篇預期追 Cursor / Windsurf / JetBrains 對應方案 ·
+</p>
+
+    </div>
+</article>
+
+
+
+
+<div class="share-bar" aria-label="分享這篇">
+  <span class="share-label">— Share</span>
+  <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fai-desk-tw.netlify.app%2Fposts%2F2026-04-28-news-github-copilot-billing.html&text=2026/04/28%20%C2%B7%20GitHub%20Copilot%20%E5%BE%9E%E5%90%83%E5%88%B0%E9%A3%BD%E6%94%B9%20token%20%E8%A8%88%E5%83%B9%20%C2%B7%20%E7%B7%A8%E7%A2%BC%E4%BB%A3%E7%90%86%E5%95%86%E6%A5%AD%E6%A8%A1%E5%BC%8F%E5%85%A8%E9%9D%A2%E9%87%8D%E8%A8%AD" target="_blank" rel="noopener" aria-label="Share on X (Twitter)">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+    X
+  </a>
+  <a href="https://www.threads.net/intent/post?text=2026/04/28%20%C2%B7%20GitHub%20Copilot%20%E5%BE%9E%E5%90%83%E5%88%B0%E9%A3%BD%E6%94%B9%20token%20%E8%A8%88%E5%83%B9%20%C2%B7%20%E7%B7%A8%E7%A2%BC%E4%BB%A3%E7%90%86%E5%95%86%E6%A5%AD%E6%A8%A1%E5%BC%8F%E5%85%A8%E9%9D%A2%E9%87%8D%E8%A8%AD%20https%3A%2F%2Fai-desk-tw.netlify.app%2Fposts%2F2026-04-28-news-github-copilot-billing.html" target="_blank" rel="noopener" aria-label="Share on Threads">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.18 11.21c-.08-.04-.16-.08-.24-.11-.14-2.59-1.55-4.07-3.92-4.09h-.03c-1.42 0-2.6.61-3.33 1.71l1.31.9c.54-.82 1.39-.99 2.02-.99h.02c.79 0 1.39.23 1.78.69.28.34.47.81.56 1.4-.69-.12-1.43-.16-2.22-.12-2.22.13-3.65 1.42-3.55 3.22.05.91.51 1.7 1.28 2.21.65.43 1.49.65 2.36.61 1.15-.06 2.05-.5 2.69-1.3.48-.6.78-1.39.93-2.39.6.36 1.04.83 1.29 1.4.42.96.45 2.55-.85 3.85-1.13 1.13-2.5 1.62-4.55 1.64-2.27-.02-3.99-.75-5.11-2.18-1.06-1.34-1.6-3.27-1.62-5.74.02-2.47.56-4.4 1.62-5.74C8.86 3.4 10.58 2.67 12.85 2.65c2.29.02 4.04.75 5.2 2.19.57.7.99 1.59 1.27 2.62l1.55-.41c-.34-1.27-.86-2.36-1.59-3.25C17.81 1.86 15.62.93 12.86.91h-.01C10.1.93 7.93 1.87 6.42 3.71c-1.34 1.65-2.04 3.95-2.06 6.83v.02c.02 2.88.72 5.18 2.06 6.83 1.51 1.84 3.68 2.78 6.43 2.8h.01c2.45-.02 4.18-.66 5.6-2.08 1.86-1.86 1.81-4.19 1.19-5.62-.44-1.03-1.29-1.86-2.46-2.4z"/></svg>
+    Threads
+  </a>
+  <button type="button" onclick="navigator.clipboard.writeText(window.location.href).then(()=>{this.textContent='✓ Copied'; setTimeout(()=>this.textContent='Copy link', 2000);})" aria-label="Copy link">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+    Copy link
+  </button>
+</div>
+
+
+
+<div class="article-foot">
+  <a href="index.html" class="back-cta">← 回 Journal</a>
+  <div class="foot-stamp">AI DESK · News N°01 · 2026 · 04 · 28</div>
+</div>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-lockup">AI DESK</div>
+    <div class="footer-row">
+      <div class="cell">
+        <div class="label">Instagram</div>
+        <div class="val"><a href="https://www.instagram.com/ai_desk_0424?igsh=eHd5Mzg1NTV3MDNi&utm_source=qr" target="_blank" rel="noopener">@ai_desk_0424</a></div>
+      </div>
+      <div class="cell">
+        <div class="label">Journal</div>
+        <div class="val"><a href="index.html">All editions →</a></div>
+      </div>
+      <div class="cell">
+        <div class="label">Cadence</div>
+        <div class="val">Daily · 07:00 CST</div>
+      </div>
+        <div class="cell" style="grid-column: span 2;">
+    <div class="label">Subscribe</div>
+    <form name="subscribe" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="subscribe-form" action="/?subscribed=1">
+      <input type="hidden" name="form-name" value="subscribe">
+      <p hidden><label>Don't fill this: <input name="bot-field"></label></p>
+      <input type="email" name="email" placeholder="email@example.com" required aria-label="Email address">
+      <button type="submit">Subscribe →</button>
+    </form>
+    <div class="subscribe-msg">每日 07:00 CST 收信 · 不轉售名單</div>
+  </div>
+    </div>
+    <div class="footer-base">
+      <div>© 2026 AI DESK · Independent editorial</div>
+      <div>A signal, not the noise.</div>
+    </div>
+  </div>
+</footer>
+
+<script src="/assets/site-extras.js" defer></script>
+
+</body>
+</html>
+
