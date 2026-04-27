@@ -97,31 +97,15 @@
   }
 
   // ----------------------------------------------------------------
-  // 4. Save to Pocket / Instapaper buttons
+  // 4. Save buttons — disabled per Rick 2026-04-27 (用不到)
   // ----------------------------------------------------------------
   function initSaveButtons() {
-    var bars = document.querySelectorAll('.share-bar');
-    if (!bars.length) return;
-    var url = encodeURIComponent(location.href);
-    var title = encodeURIComponent(document.title);
-    bars.forEach(function (bar) {
-      var pocket = document.createElement('a');
-      pocket.className = 'save-pocket';
-      pocket.target = '_blank';
-      pocket.rel = 'noopener';
-      pocket.href = 'https://getpocket.com/save?url=' + url + '&title=' + title;
-      pocket.textContent = 'POCKET';
-
-      var insta = document.createElement('a');
-      insta.className = 'save-instapaper';
-      insta.target = '_blank';
-      insta.rel = 'noopener';
-      insta.href = 'https://www.instapaper.com/hello2?url=' + url + '&title=' + title;
-      insta.textContent = 'INSTAPAPER';
-
-      bar.appendChild(pocket);
-      bar.appendChild(insta);
-    });
+    // 不再加 Pocket / Instapaper 按鈕。
+    // 如果未來要加回，取消註解下面這段：
+    // var bars = document.querySelectorAll('.share-bar');
+    // var url = encodeURIComponent(location.href);
+    // var title = encodeURIComponent(document.title);
+    // bars.forEach(function (bar) { ... });
   }
 
   // ----------------------------------------------------------------
@@ -218,7 +202,6 @@
     initThemeToggle();
     initProgressBar();
     initWebShare();
-    initSaveButtons();
     initQuoteShare();
     initSearch();
   });
