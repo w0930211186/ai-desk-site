@@ -723,6 +723,7 @@ footer.site-footer {
 }
 
 </style>
+<link rel="stylesheet" href="/assets/site-extras.css">
 <link rel="alternate" type="application/rss+xml" title="AI DESK RSS" href="/rss.xml">
 </head>
 <body>
@@ -734,6 +735,9 @@ footer.site-footer {
   </a>
   <div class="nav-links">
     <a href="posts/">Journal</a>
+    <button id="search-trigger" class="search-trigger" type="button" aria-label="Search editions">
+      <span>SEARCH</span><kbd>/</kbd>
+    </button>
     <a href="https://www.instagram.com/ai_desk_0424?igsh=eHd5Mzg1NTV3MDNi&utm_source=qr" target="_blank" rel="noopener">IG</a>
   </div>
 </nav>
@@ -902,6 +906,23 @@ footer.site-footer {
     </div>
   </div>
 </footer>
+
+<!-- Search modal · 鍵盤 / 觸發 / Pagefind UI -->
+<div id="search-modal" role="dialog" aria-label="Search editions">
+  <button class="close" type="button" aria-label="Close search">×</button>
+  <div class="search-box">
+    <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
+    <script src="/pagefind/pagefind-ui.js"></script>
+    <div id="search"></div>
+    <script>
+      window.addEventListener('DOMContentLoaded', () => {
+        if (window.PagefindUI) new PagefindUI({ element: '#search', showSubResults: true });
+      });
+    </script>
+  </div>
+</div>
+
+<script src="/assets/site-extras.js" defer></script>
 
 <script>
   const io = new IntersectionObserver((entries) => {
