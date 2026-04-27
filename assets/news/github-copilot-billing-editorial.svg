@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect width="1200" height="630" fill="#000"/>
+  <g fill="none" stroke="#fff" stroke-width="2" opacity="0.08">
+    <line x1="0" y1="100" x2="1200" y2="100"/>
+    <line x1="0" y1="200" x2="1200" y2="200"/>
+    <line x1="0" y1="300" x2="1200" y2="300"/>
+    <line x1="0" y1="400" x2="1200" y2="400"/>
+    <line x1="0" y1="500" x2="1200" y2="500"/>
+  </g>
+  <text x="60" y="90" font-family="JetBrains Mono, monospace" font-size="14" fill="#fff" opacity="0.45" letter-spacing="4">SOURCE · GITHUB BLOG · 2026.04.27</text>
+  <text x="60" y="270" font-family="Inter, sans-serif" font-weight="900" font-size="120" fill="#fff" letter-spacing="-4">COPILOT</text>
+  <text x="60" y="395" font-family="Inter, sans-serif" font-weight="900" font-size="92" fill="#fff" letter-spacing="-3">PAY-PER-TOKEN</text>
+  <text x="60" y="475" font-family="Inter, sans-serif" font-weight="400" font-size="26" fill="#fff" opacity="0.55">吃到飽月費結束 · 編碼代理計價時代正式上線</text>
+  <text x="60" y="560" font-family="JetBrains Mono, monospace" font-size="13" fill="#fff" opacity="0.35" letter-spacing="3">· AI DESK EDITORIAL RENDER ·</text>
+</svg>
