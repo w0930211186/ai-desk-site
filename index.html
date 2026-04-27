@@ -684,6 +684,8 @@ footer.site-footer {
   .hero-caption {
     position: static;
     flex-direction: column;
+    align-items: center;       /* 蓋掉 base 的 flex-end，不然子元素會被推到右邊 */
+    justify-content: center;
     gap: 1.4rem;
     text-align: center;
     padding: 2rem 1rem 0;
