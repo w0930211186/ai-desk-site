@@ -29,7 +29,9 @@ CONFIG = {
     'page_id': '61562839956251',
     'ig_handle': 'ai_desk_0424',
     'site_url': 'https://ai-desk-tw.netlify.app',
+    'latest_url': 'https://ai-desk-tw.netlify.app/latest',
     'story_composer_url': 'https://business.facebook.com/latest/story_composer/',
+    'feed_composer_url': 'https://business.facebook.com/latest/composer/',
     'tg_bot_token_env': 'TELEGRAM_BOT_TOKEN',
     'tg_chat_id_env': 'TELEGRAM_CHAT_ID',
     'chunk_size': 18000,
@@ -120,15 +122,105 @@ def build_check_success_js() -> str:
 })())'''
 
 
-def build_telegram_success_msg(slug: str, edition: str) -> str:
-    article_url = f"{CONFIG['site_url']}/posts/{slug}.html"
+def build_telegram_success_msg(slug: str, edition: str, parts_done: list = None) -> str:
+    article_url = f"{CONFIG['site_url']}/posts/{slug}"
+    if parts_done is None:
+        parts_done = ['story', 'feed']
+    parts_lines = []
+    if 'story' in parts_done:
+        parts_lines.append(f"✓ Story · IG @{CONFIG['ig_handle']} + FB")
+    if 'feed' in parts_done:
+        parts_lines.append(f"✓ Feed Post · IG @{CONFIG['ig_handle']} + FB")
+    parts_str = "\n".join(parts_lines)
     return (
-        "✅ *AI DESK · IG 限動自動發布完成*\n\n"
+        "✅ *AI DESK · IG/FB 自動發布完成*\n\n"
         f"N°{edition} · {datetime.now().strftime('%m/%d')} daily\n"
-        "✓ FB AI DESK Page\n"
-        f"✓ IG @{CONFIG['ig_handle']}\n\n"
+        f"{parts_str}\n\n"
         f"🌐 全文：{article_url}\n"
+        f"🔗 Latest：{CONFIG['latest_url']}\n"
         f"🔗 IG：instagram.com/{CONFIG['ig_handle']}"
+    )
+
+
+# ============================================================
+# Feed Post (v2 加) — 同 story.png 再發一次成 IG/FB Feed Post
+# ============================================================
+
+def build_paste_caption_js(caption_text: str) -> str:
+    """找 caption textarea / contenteditable，貼進去 caption 內容"""
+    safe_caption = json.dumps(caption_text)
+    return f'''((async () => {{
+  await new Promise(r => setTimeout(r, 800));
+  const text = {safe_caption};
+  // 1) 標準 textarea
+  let target = Array.from(document.querySelectorAll('textarea'))
+    .find(t => t.offsetParent && (/撰寫|貼文|Write|caption/i.test(t.placeholder + " " + (t.getAttribute('aria-label') || ''))));
+  // 2) 退而求其次：contenteditable
+  if (!target) {{
+    target = Array.from(document.querySelectorAll('div[contenteditable="true"], div[role="textbox"]'))
+      .find(d => d.offsetParent && d.getBoundingClientRect().width > 200);
+  }}
+  if (!target) return {{ error: "no caption field", textareas: document.querySelectorAll('textarea').length, editables: document.querySelectorAll('[contenteditable="true"]').length }};
+  target.focus();
+  if (target.tagName === "TEXTAREA") {{
+    target.value = text;
+    target.dispatchEvent(new Event("input", {{ bubbles: true }}));
+    target.dispatchEvent(new Event("change", {{ bubbles: true }}));
+  }} else {{
+    // contenteditable
+    document.execCommand("insertText", false, text);
+  }}
+  return {{ ok: true, length: text.length }};
+}})())'''
+
+
+def build_click_publish_js() -> str:
+    """找並點 Feed Post 的「發佈/發布/Publish/Post」按鈕"""
+    return '''((async () => {
+  await new Promise(r => setTimeout(r, 800));
+  const btn = Array.from(document.querySelectorAll('div[role="button"], button'))
+    .find(b => /^(發佈|發布|Publish|Post)$/.test(b.textContent.trim()) && b.offsetParent && !b.getAttribute("aria-disabled"));
+  if (!btn) return { error: "no publish button", buttons: Array.from(document.querySelectorAll('div[role="button"], button')).map(b => b.textContent.trim()).filter(t => t).slice(0, 15) };
+  btn.click();
+  return { ok: true };
+})())'''
+
+
+def build_check_feed_success_js() -> str:
+    """確認 Feed Post 發佈成功"""
+    return '''((async () => {
+  await new Promise(r => setTimeout(r, 5000));
+  const text = document.body.innerText;
+  return {
+    success: /已發佈|貼文已發|published|Posted/i.test(text),
+    bodySnippet: text.slice(0, 800).replace(/\\s+/g, " ")
+  };
+})())'''
+
+
+def build_feed_caption(title: str, edition: str, summary_zh: str, summary_en: str,
+                       keypoints: list, hashtags: list = None) -> str:
+    """組 Feed Post caption 文字（雙語短摘要 + keypoints + hashtag）"""
+    base_tags = [
+        "#AIDESK", "#AI大事", "#AINews", "#獨立編輯台", "#AIDailyBrief",
+        "#AI", "#editorial", "#monobrutalist"
+    ]
+    if hashtags:
+        base_tags.extend(hashtags)
+    tags_line = " ".join(base_tags)
+
+    kp_lines = "\n".join(f"◆ {k}" for k in keypoints[:3])
+    date_str = datetime.now().strftime('%Y/%m/%d')
+
+    return (
+        f"{title}\n\n"
+        f"— N°{edition} · {date_str} · AI DESK —\n\n"
+        f"{summary_zh}\n\n"
+        f"{summary_en}\n\n"
+        f"{kp_lines}\n\n"
+        "····\n\n"
+        f"全文 → bio · {CONFIG['latest_url'].replace('https://', '')}\n\n"
+        f"{tags_line}"
     )
 
 
@@ -177,16 +269,33 @@ EXECUTION_PLAN = """
 - [ ] 等 8 秒
 - [ ] javascript_exec 確認預覽出現
 
-### 6. 點分享
+### 6. Story · 點分享
 - [ ] javascript_exec click_share_js
+- [ ] 等 5 秒，javascript_exec check_success_js
+- [ ] 確認「你的限時動態已發佈」
 
-### 7. 等成功訊息
-- [ ] 等 5 秒
-- [ ] javascript_exec check_success_js
-- [ ] 若 success: 推 Telegram「✅ 完成」
-- [ ] 若 fail: 推 Telegram「⚠️ 失敗 + 截圖」+ 提示用戶手動
+### 7. Feed Post · 開 Composer（v2 加）
+- [ ] navigate to https://business.facebook.com/latest/composer/?asset_id=1141294485727223&business_id=1274367634384629
+- [ ] 等 3 秒
+- [ ] 同樣方式 inject + drop story.png（同一張）
+- [ ] 等 6 秒等預覽
 
-### 8. 結束
+### 8. Feed Post · 貼 caption
+- [ ] 從 ~/Downloads/ai-desk-ig-stories/<today>/caption.txt 讀
+- [ ] 或呼叫 build_feed_caption(title, edition, summary_zh, summary_en, keypoints)
+- [ ] javascript_exec build_paste_caption_js(caption)
+
+### 9. Feed Post · 點發佈
+- [ ] javascript_exec build_click_publish_js()
+- [ ] 等 6 秒
+- [ ] javascript_exec build_check_feed_success_js()
+
+### 10. Telegram 通知
+- [ ] 兩篇都成功 → build_telegram_success_msg(slug, edition, ['story', 'feed'])
+- [ ] Story 成功 Feed 失敗 → build_telegram_success_msg(slug, edition, ['story']) + 失敗備註
+- [ ] 都失敗 → build_telegram_failure_msg(reason)
+
+### 11. 結束
 - [ ] log 結果到 ~/.config/ai-desk/ig-auto-post.log
 """
 

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI DESK · Latest Edition</title>
+<meta name="description" content="AI DESK — Latest edition redirect. 永遠跳到最新一篇 daily。">
+<meta name="robots" content="noindex,follow">
+<link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+<link rel="canonical" href="https://ai-desk-tw.netlify.app/posts/">
+
+<style>
+  html, body {
+    margin: 0; padding: 0; height: 100%;
+    background: #000; color: #fff;
+    font-family: 'Inter Tight', -apple-system, sans-serif;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .wrap { text-align: center; padding: 2rem; }
+  .diamond { width: 14px; height: 14px; background: #fff; display: inline-block; transform: rotate(45deg); animation: spin 4s linear infinite; }
+  @keyframes spin { from { transform: rotate(45deg); } to { transform: rotate(405deg); } }
+  h1 { font-weight: 900; font-size: 1.4rem; letter-spacing: -0.01em; margin: 1.6rem 0 0.4rem; text-transform: uppercase; }
+  p { font-size: 0.78rem; letter-spacing: 0.18em; text-transform: uppercase; color: #888; margin: 0.4rem 0; }
+  a { color: #fff; border-bottom: 1px solid #fff; padding-bottom: 2px; font-size: 0.78rem; letter-spacing: 0.18em; text-transform: uppercase; text-decoration: none; }
+  .err { color: #f55; font-size: 0.7rem; margin-top: 1rem; display: none; }
+</style>
+
+<script>
+  // 抓 /posts/ index 第一個 daily 連結 → 直接跳轉
+  (async function() {
+    try {
+      const res = await fetch('/posts/', { cache: 'no-store' });
+      if (!res.ok) throw new Error('posts index not 200');
+      const html = await res.text();
+      // 找第一個 .post-row href，避免抓到 archived opening 那篇
+      // 優先找 daily slug
+      const dailyMatch = html.match(/<a[^>]+class=['"]post-row['"][^>]+href=['"]([^'"]*-daily[^'"]*)['"]/i);
+      const anyMatch  = html.match(/<a[^>]+class=['"]post-row['"][^>]+href=['"]([^'"]+)['"]/i);
+      const target = (dailyMatch && dailyMatch[1]) || (anyMatch && anyMatch[1]) || '/posts/';
+      window.location.replace(target);
+    } catch (e) {
+      document.getElementById('err').style.display = 'block';
+      document.getElementById('err').textContent = '抓取最新文章失敗：' + e.message;
+    }
+  })();
+</script>
+</head>
+<body>
+  <div class="wrap">
+    <span class="diamond"></span>
+    <h1>AI DESK</h1>
+    <p>Loading latest edition…</p>
+    <p><a href="/posts/">→ View all editions</a></p>
+    <p class="err" id="err"></p>
+  </div>
+  <noscript>
+    <meta http-equiv="refresh" content="0; url=/posts/">
+  </noscript>
+</body>
+</html>

@@ -52,7 +52,16 @@ chain_after: ai-desk-publish
 trigger_on_demand: true
 ```
 
-## 執行流程
+## 執行流程（v2 · 加 Feed Post）
+
+整體：**Story 限動 + Feed Post 貼文** 各一篇，同一張 story.png，caption 不同。
+
+```
+Step 1   產 story.png + caption.txt
+Step 2A  發 IG/FB Story 限動（24h 消失）
+Step 2B  發 IG/FB Feed Post 貼文（永久）
+Step 3   推 Telegram 通知
+```
 
 ### Step 1 · 產 story 素材
 呼叫 `ai-desk-ig-story` skill：
@@ -147,18 +156,93 @@ shareBtn.click();
 const success = document.body.innerText.includes('你的限時動態已發佈');
 ```
 
-### Step 8 · Telegram 通知用戶
+---
+
+## Step 2B · 接著發 Feed Post 貼文（v2 新加）
+
+Story 發完後，**同一張 story.png 再發一次成 IG Feed Post + FB Page Post**。Feed Post 的差別：
+- **永久存在** profile 九宮格（不像 Story 24h 消失）
+- 有大段 **caption 區**（最多 2200 字）→ 放雙語短摘要 + 3 keypoints + hashtag
+- 不可放可點連結 → caption 結尾寫「全文 → bio · ai-desk-tw.netlify.app/latest」
+
+### Step 2B-1 · 開 Composer
+
+```
+https://business.facebook.com/latest/composer/?asset_id=1141294485727223&business_id=1274367634384629
+```
+
+等 page load（~3 秒）。確認 IG + FB 兩個頭像都勾起。
+
+### Step 2B-2 · 上傳同一張 story.png
+
+跟 Story 一樣：file_upload 用絕對 Mac 路徑，或 base64 chunk drop。Composer 會自動把 9:16 切成 4:5 顯示在 IG Feed（中央 crop）。
+
+### Step 2B-3 · 貼 caption
+
+從 `~/Downloads/ai-desk-ig-stories/<YYYY-MM-DD>/caption.txt` 讀內容，找 caption textarea：
+
+```js
+const ta = document.querySelector('textarea[placeholder*="撰寫貼文"], textarea[aria-label*="撰寫"], div[contenteditable="true"][role="textbox"]');
+ta.focus();
+document.execCommand('insertText', false, captionText);
+// 或者
+ta.value = captionText;
+ta.dispatchEvent(new Event('input', {bubbles: true}));
+```
+
+caption 格式：
+
+```
+<title>
+
+— N°<edition> · <date> · AI DESK —
+
+<summary 80字 中文>
+
+<summary 60words English>
+
+◆ <keypoint 1>
+◆ <keypoint 2>
+◆ <keypoint 3>
+
+····
+
+全文 → bio · ai-desk-tw.netlify.app/latest
+
+#AIDESK #AI大事 #AINews #獨立編輯台 #AIDailyBrief #AI #editorial #monobrutalist <文章專屬 hashtags>
+```
+
+### Step 2B-4 · 點「發佈」
+
+跟 Story 一樣找按鈕：
+
+```js
+const publishBtn = Array.from(document.querySelectorAll('div[role="button"], button'))
+  .find(b => /發佈|發布|Publish|Post/.test(b.textContent.trim()) && b.offsetParent);
+publishBtn.click();
+```
+
+### Step 2B-5 · 確認
+
+```js
+const ok = /已發佈|貼文已發|published/i.test(document.body.innerText);
+```
+
+---
+
+### Step 3 · Telegram 通知用戶（兩篇都發完後）
 
 呼叫 `send_telegram.py` 發訊息：
 
 ```
-✅ AI DESK · IG 限動自動發布完成
+✅ AI DESK · IG/FB 雙篇自動發布完成
 
 N°XX · MM/DD daily
-✓ FB AI DESK Page
-✓ IG @ai_desk_0424
+✓ Story · IG @ai_desk_0424 + FB
+✓ Feed Post · IG @ai_desk_0424 + FB
 
-🌐 全文：https://ai-desk-tw.netlify.app/posts/<slug>.html
+🌐 全文：https://ai-desk-tw.netlify.app/posts/<slug>
+🔗 Latest: ai-desk-tw.netlify.app/latest
 🔗 IG：instagram.com/ai_desk_0424
 ```
 
