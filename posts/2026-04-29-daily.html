@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>04/29 AI 大事 · Claude.ai 全站掛點、Anthropic 拒接五角大廈、微軟 VibeVoice 開源、OpenAI 上 AWS Bedrock | AI DESK</title>
+<meta name="description" content="Claude.ai 與 Anthropic API 同時掛點，HN 衝 231 分，agentic 工作流瞬間斷氣。Anthropic 拒接五角大廈本土監控與自主武器訂單後，Google 隔天簽下擴大合約。微軟把前沿級語音模型 VibeVoice 直接開源放上 GitHub。OpenAI 模型上線 AWS Bedrock Managed Agents，雲端三巨頭結構洗牌再加碼。4 條附圖附源附判斷。">
+<meta name="keywords" content="AI DESK, Daily · AI 大事, Claude outage, Anthropic API down, Google Pentagon AI contract, Anthropic refuses defense, Microsoft VibeVoice open source, OpenAI AWS Bedrock managed agents">
+<meta name="author" content="AI DESK">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#000000">
+<meta property="og:title" content="2026/04/29 · AI 大事 · Claude.ai 全站掛點、Anthropic 拒接五角大廈、微軟 VibeVoice 開源、OpenAI 上 AWS Bedrock">
+<meta property="og:description" content="Claude.ai 與 Anthropic API 同時掛點，HN 衝 231 分，agentic 工作流瞬間斷氣。Anthropic 拒接五角大廈本土監控與自主武器訂單後，Google 隔天簽下擴大合約。微軟把前沿級語音模型 VibeVoice 直接開源放上 GitHub。OpenAI 模型上線 AWS Bedrock Managed Agents，雲端三巨頭結構洗牌再加碼。4 條附圖附源附判斷。">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="AI DESK">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:url" content="https://ai-desk-tw.netlify.app/posts/2026-04-29-daily.html">
+<meta property="og:image" content="https://ai-desk-tw.netlify.app/assets/og/2026-04-29-daily-og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="article:published_time" content="2026-04-29T07:00:00+08:00">
+<meta property="article:author" content="AI DESK">
+<meta property="article:section" content="Daily · AI 大事">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="2026/04/29 · AI 大事 · Claude.ai 全站掛點、Anthropic 拒接五角大廈、微軟 VibeVoice 開源、OpenAI 上 AWS Bedrock">
+<meta name="twitter:description" content="Claude.ai 與 Anthropic API 同時掛點，HN 衝 231 分，agentic 工作流瞬間斷氣。Anthropic 拒接五角大廈本土監控與自主武器訂單後，Google 隔天簽下擴大合約。微軟把前沿級語音模型 VibeVoice 直接開源放上 GitHub。OpenAI 模型上線 AWS Bedrock Managed Agents，雲端三巨頭結構洗牌再加碼。4 條附圖附源附判斷。">
+<meta name="twitter:image" content="https://ai-desk-tw.netlify.app/assets/og/2026-04-29-daily-og.png">
+<link rel="canonical" href="https://ai-desk-tw.netlify.app/posts/2026-04-29-daily.html">
+<link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Noto+Sans+TC:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "2026/04/29 · AI 大事 · Claude.ai 全站掛點、Anthropic 拒接五角大廈、微軟 VibeVoice 開源、OpenAI 上 AWS Bedrock",
+  "datePublished": "2026-04-29T07:00:00+08:00",
+  "dateModified": "2026-04-29T07:00:00+08:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://ai-desk-tw.netlify.app/posts/2026-04-29-daily.html"
+  },
+  "image": "https://ai-desk-tw.netlify.app/assets/og-cover.png",
+  "author": { "@type": "Organization", "name": "AI DESK", "url": "https://ai-desk-tw.netlify.app/" },
+  "publisher": {
+    "@type": "Organization",
+    "name": "AI DESK",
+    "url": "https://ai-desk-tw.netlify.app/",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://ai-desk-tw.netlify.app/assets/og-cover.png",
+      "width": 1200,
+      "height": 630
+    }
+  },
+  "description": "Claude.ai 與 Anthropic API 同時掛點，HN 衝 231 分，agentic 工作流瞬間斷氣。Anthropic 拒接五角大廈本土監控與自主武器訂單後，Google 隔天簽下擴大合約。微軟把前沿級語音模型 VibeVoice 直接開源放上 GitHub。OpenAI 模型上線 AWS Bedrock Managed Agents，雲端三巨頭結構洗牌再加碼。4 條附圖附源附判斷。",
+  "articleSection": "Daily · AI 大事",
+  "url": "https://ai-desk-tw.netlify.app/posts/2026-04-29-daily.html"
+}
+</script>
+
+<style>
+:root {
+  --bg: #000000;
+  --fg: #FFFFFF;
+  --panel: #F2F2F2;
+  --panel-fg: #0A0A0A;
+  --mute: #8A8A8A;
+  --mute-2: #5A5A5A;
+  --line: rgba(255, 255, 255, 0.14);
+  --line-dark: rgba(0, 0, 0, 0.14);
+  --f-display: 'Inter Tight', 'Noto Sans TC', -apple-system, sans-serif;
+  --f-sans: 'Space Grotesk', 'Noto Sans TC', -apple-system, sans-serif;
+  --f-body: 'Noto Sans TC', 'Inter Tight', sans-serif;
+  --f-mono: 'JetBrains Mono', 'SF Mono', Menlo, monospace;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+img { max-width: 100%; height: auto; display: block; }
+html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; overflow-x: hidden; }
+body { font-family: var(--f-body); background: var(--bg); color: var(--fg); line-height: 1.75; font-size: 17px; overflow-x: hidden; }
+a { color: inherit; text-decoration: none; }
+::selection { background: #FFFFFF; color: #000000; }
+
+.nav-top {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+  padding: 1.5rem 2rem; display: flex; justify-content: space-between; align-items: center;
+  mix-blend-mode: difference;
+}
+.nav-brand { font-family: var(--f-display); font-weight: 900; font-size: 0.92rem; letter-spacing: 0.04em; text-transform: uppercase; display: flex; align-items: center; gap: 0.6rem; }
+.nav-brand .diamond { width: 10px; height: 10px; background: var(--fg); display: inline-block; animation: spin 4s linear infinite; }
+@keyframes spin { from { transform: rotate(45deg); } to { transform: rotate(405deg); } }
+.nav-links { display: flex; gap: 1.4rem; font-family: var(--f-sans); font-size: 0.72rem; letter-spacing: 0.2em; text-transform: uppercase; font-weight: 500; }
+.nav-links a { padding: 0.4rem 0.8rem; border: 1px solid transparent; transition: border-color .25s; }
+.nav-links a:hover, .nav-links a.active { border-color: var(--fg); }
+
+nav.crumbs {
+  max-width: 900px; margin: 9rem auto 2rem; padding: 0 2rem;
+  font-family: var(--f-sans); font-size: 0.7rem;
+  letter-spacing: 0.22em; text-transform: uppercase; color: var(--mute);
+}
+nav.crumbs a { color: var(--fg); }
+nav.crumbs .sep { margin: 0 0.8rem; color: var(--mute-2); }
+
+/* ARTICLE HEAD */
+.post-head {
+  max-width: 1200px; margin: 2rem auto 3rem; padding: 0 2rem;
+  position: relative;
+}
+.post-meta-top {
+  font-family: var(--f-mono); font-size: 0.78rem;
+  letter-spacing: 0.2em; text-transform: uppercase;
+  color: var(--mute); margin-bottom: 2.5rem;
+  display: flex; gap: 1.5rem; flex-wrap: wrap;
+}
+.post-meta-top .num { color: var(--fg); font-family: var(--f-display); font-weight: 900; font-size: 0.9rem; letter-spacing: 0; }
+.post-title {
+  font-family: var(--f-display); font-weight: 900;
+  font-size: clamp(2.8rem, 7vw, 6.5rem);
+  line-height: 0.95; letter-spacing: -0.04em;
+  text-transform: uppercase; max-width: 16ch;
+}
+.post-title em {
+  font-style: normal; color: transparent; -webkit-text-stroke: 1.5px var(--fg);
+}
+.post-sub {
+  margin-top: 2rem; max-width: 680px;
+  font-family: var(--f-display); font-weight: 500;
+  font-size: 1.3rem; color: var(--mute); line-height: 1.45;
+  letter-spacing: -0.005em;
+  border-left: 3px solid var(--fg); padding-left: 1.4rem;
+}
+.post-tags { margin-top: 2.5rem; display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.post-tags .tag {
+  font-family: var(--f-sans); font-size: 0.68rem;
+  letter-spacing: 0.22em; text-transform: uppercase;
+  padding: 0.35rem 0.9rem; border: 1px solid var(--fg); color: var(--fg);
+}
+.post-tags .tag.mute { border-color: var(--mute); color: var(--mute); }
+
+/* ARTICLE BODY */
+article.post {
+  max-width: 760px; margin: 4rem auto; padding: 0 2rem;
+  position: relative;
+}
+.post-body { font-size: 1.08rem; line-height: 1.9; color: #D9D9D9; }
+.post-body p { margin-bottom: 1.6rem; }
+.post-body h2 {
+  font-family: var(--f-display); font-weight: 900;
+  font-size: clamp(1.8rem, 3.5vw, 2.6rem);
+  line-height: 1.1; letter-spacing: -0.02em;
+  text-transform: uppercase; color: var(--fg);
+  margin: 5rem 0 1.5rem; padding-top: 2.5rem;
+  border-top: 1px solid var(--line);
+}
+.post-body h2 .num {
+  font-family: var(--f-mono); font-size: 0.7em;
+  color: var(--mute); letter-spacing: 0.16em; font-weight: 400;
+  display: block; margin-bottom: 0.6rem;
+}
+.post-body h3 {
+  font-family: var(--f-display); font-size: 1.3rem;
+  font-weight: 800; margin: 2.4rem 0 0.8rem; color: var(--fg);
+  letter-spacing: -0.01em;
+}
+.post-body strong { color: var(--fg); font-weight: 700; }
+.post-body a { border-bottom: 1px solid var(--fg); color: var(--fg); }
+.post-body a:hover { background: var(--fg); color: var(--bg); }
+.post-body ul, .post-body ol { margin: 1rem 0 1.6rem 0; list-style: none; padding: 0; }
+.post-body ul li { margin-bottom: 0.9rem; padding-left: 1.8rem; position: relative; }
+.post-body ul li::before { content: "◆"; position: absolute; left: 0; top: 0; color: var(--fg); font-family: var(--f-display); }
+.post-body ol { counter-reset: n; }
+.post-body ol li { counter-increment: n; margin-bottom: 0.9rem; padding-left: 2.4rem; position: relative; }
+.post-body ol li::before {
+  content: "0" counter(n); position: absolute; left: 0; top: 0;
+  font-family: var(--f-mono); font-size: 0.82em; color: var(--fg);
+  letter-spacing: 0.08em;
+}
+.post-body blockquote {
+  font-family: var(--f-display); font-weight: 800;
+  font-size: clamp(1.5rem, 3vw, 2.2rem); line-height: 1.2;
+  padding: 2.5rem 0; margin: 3rem 0;
+  border-top: 1px solid var(--fg); border-bottom: 1px solid var(--fg);
+  color: var(--fg); letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+.post-body blockquote::before {
+  content: "❝"; font-family: var(--f-display); font-size: 2.5rem;
+  color: var(--fg); display: block; margin-bottom: 0.5rem; line-height: 1;
+}
+.post-body code {
+  font-family: var(--f-mono); background: rgba(255, 255, 255, 0.1);
+  padding: 0.15rem 0.5rem; font-size: 0.88em;
+  color: var(--fg);
+}
+.post-body pre {
+  background: rgba(255, 255, 255, 0.04); border: 1px solid var(--line);
+  padding: 1.4rem; overflow-x: auto; margin: 2rem 0;
+  font-family: var(--f-mono); font-size: 0.88rem; line-height: 1.6;
+}
+.post-body pre code { background: transparent; padding: 0; }
+.post-body hr { border: none; border-top: 1px solid var(--line); margin: 3rem 0; }
+.post-body figure { margin: 2.4rem 0; }
+.post-body figcaption {
+  font-family: var(--f-mono); font-size: 0.72rem;
+  letter-spacing: 0.16em; color: var(--mute);
+  text-transform: uppercase; margin-top: 0.8rem;
+}
+
+.post-body aside.keypoints {
+  border: 1px solid var(--fg); padding: 1.6rem 1.8rem;
+  margin: 0 0 2.4rem; background: rgba(255,255,255,0.02);
+}
+.post-body aside.keypoints .kp-label {
+  font-family: var(--f-sans); font-size: 0.72rem;
+  letter-spacing: 0.24em; text-transform: uppercase;
+  color: var(--fg); font-weight: 600; margin-bottom: 1rem;
+}
+
+.post-body .source-footer {
+  margin: 1.5rem 0 0; padding-top: 1rem;
+  border-top: 1px dashed var(--line);
+}
+.post-body .source-footer-label {
+  font-family: var(--f-mono); font-size: 0.72rem;
+  letter-spacing: 0.18em; color: var(--mute);
+  text-transform: uppercase; margin-bottom: 0.6rem;
+}
+.post-body .source-footer ul { margin: 0; }
+
+.post-body .sig {
+  margin-top: 5rem; padding-top: 2rem; border-top: 1px solid var(--line);
+  font-family: var(--f-mono); font-size: 0.82rem;
+  letter-spacing: 0.18em; color: var(--mute); text-transform: uppercase;
+}
+
+.article-foot {
+  max-width: 1200px; margin: 5rem auto 0; padding: 3rem 2rem 0;
+  border-top: 1px solid var(--line);
+  display: flex; justify-content: space-between; align-items: center;
+  flex-wrap: wrap; gap: 1rem;
+}
+.back-cta {
+  display: inline-flex; align-items: center; gap: 0.8rem;
+  font-family: var(--f-sans); font-size: 0.78rem; font-weight: 600;
+  letter-spacing: 0.24em; text-transform: uppercase;
+  padding: 0.8rem 1.4rem; border: 1px solid var(--fg);
+  transition: background .3s, color .3s;
+}
+.back-cta:hover { background: var(--fg); color: var(--bg); }
+.foot-stamp { font-family: var(--f-mono); font-size: 0.72rem; letter-spacing: 0.18em; color: var(--mute); text-transform: uppercase; }
+
+/* FOOTER */
+footer.site-footer {
+  background: var(--panel); color: var(--panel-fg);
+  padding: 6rem 2rem 3rem; margin-top: 6rem;
+  position: relative; overflow: hidden;
+}
+.footer-inner { max-width: 1400px; margin: 0 auto; }
+.footer-lockup {
+  font-family: var(--f-display); font-weight: 900;
+  font-size: clamp(4rem, 14vw, 16rem); line-height: 0.85;
+  letter-spacing: -0.06em; text-transform: uppercase;
+}
+.footer-row {
+  margin-top: 4rem; padding-top: 2rem; border-top: 1px solid var(--panel-fg);
+  display: grid; grid-template-columns: repeat(4, 1fr); gap: 2rem;
+  font-family: var(--f-sans); font-size: 0.8rem;
+}
+.footer-row .cell .label { font-size: 0.66rem; letter-spacing: 0.28em; text-transform: uppercase; color: var(--mute-2); font-weight: 500; margin-bottom: 0.5rem; }
+.footer-row .cell .val { font-family: var(--f-display); font-weight: 700; letter-spacing: -0.01em; font-size: 1rem; }
+.footer-row .cell .val a { border-bottom: 1px solid transparent; transition: border-color .2s; }
+.footer-row .cell .val a:hover { border-bottom-color: var(--panel-fg); }
+.footer-base {
+  margin-top: 4rem; display: flex; justify-content: space-between; align-items: center;
+  font-family: var(--f-mono); font-size: 0.7rem; letter-spacing: 0.12em;
+  color: var(--mute-2); text-transform: uppercase; flex-wrap: wrap; gap: 1rem;
+}
+
+@media (max-width: 700px) {
+  .nav-top { padding: 1rem; }
+  .nav-links { gap: 0.5rem; font-size: 0.58rem; }
+  .nav-links a { padding: 0.3rem 0.5rem; }
+  nav.crumbs { padding: 0 1rem; margin-top: 6rem; font-size: 0.62rem; }
+  .post-head { padding: 0 1rem; }
+  article.post { padding: 0 1rem; }
+  .post-body blockquote { font-size: 1.4rem; }
+  .article-foot { padding: 3rem 1rem 0; }
+  footer.site-footer { padding: 4rem 1rem 2rem; }
+  .footer-row { grid-template-columns: 1fr; }
+}
+
+
+/* ============================================================
+   ACCESSIBILITY · v2 (audit 2026-04-25)
+   - P0-A: focus-visible 鍵盤導航指示
+   - P0-B: prefers-reduced-motion 動畫退場
+   - P1-C: 手機觸控目標 ≥ 44px
+   - bonus: skip-to-content link
+   ============================================================ */
+
+/* P0-A · 鍵盤 focus 指示（mono brutalist 風格） */
+*:focus-visible {
+  outline: 2px solid var(--fg);
+  outline-offset: 3px;
+}
+.nav-links a:focus-visible,
+.back-cta:focus-visible,
+.tag-toggle button:focus-visible {
+  outline-offset: 1px;
+}
+.enter-btn:focus-visible {
+  outline-offset: 5px;
+}
+.journal-card:focus-visible {
+  outline-offset: -2px;
+}
+
+/* bonus · skip-to-content link（a11y best practice） */
+.skip-link {
+  position: absolute;
+  top: -100px;
+  left: 1rem;
+  z-index: 200;
+  padding: 0.7rem 1.2rem;
+  background: var(--fg);
+  color: var(--bg);
+  font-family: var(--f-sans);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: top 0.2s;
+}
+.skip-link:focus {
+  top: 1rem;
+}
+
+/* P0-B · prefers-reduced-motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .diamond,
+  .circle-text,
+  .float-diamond {
+    animation: none !important;
+  }
+}
+
+/* P1-C · 手機觸控目標 ≥ 44px */
+@media (max-width: 700px) {
+  .nav-links a {
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+    padding: 0.6rem 0.7rem;
+    font-size: 0.62rem;
+  }
+  .tag-toggle button {
+    min-height: 44px;
+    padding: 0.7rem 1rem;
+  }
+  .back-cta,
+  .enter-btn {
+    min-height: 44px;
+  }
+}
+
+
+
+/* ============================================================
+   FUNCTIONAL ADDITIONS · v3 (2026-04-25)
+   - Email subscribe form
+   - Share buttons
+   - Pagefind search UI
+   - Reading time pill
+   ============================================================ */
+
+/* 訂閱表單 */
+.subscribe-form {
+  display: flex; gap: 0.6rem; flex-wrap: wrap; align-items: stretch;
+  margin-top: 0.5rem;
+}
+.subscribe-form input[type="email"] {
+  flex: 1 1 220px; min-width: 0;
+  padding: 0.7rem 0.9rem;
+  font-family: var(--f-sans); font-size: 0.85rem;
+  background: transparent;
+  border: 1px solid var(--panel-fg);
+  color: inherit;
+}
+.subscribe-form input[type="email"]:focus {
+  outline: 2px solid var(--panel-fg); outline-offset: 2px;
+}
+.subscribe-form button {
+  padding: 0.7rem 1.2rem;
+  font-family: var(--f-sans); font-weight: 600;
+  font-size: 0.78rem; letter-spacing: 0.2em; text-transform: uppercase;
+  background: var(--panel-fg); color: var(--panel);
+  border: 1px solid var(--panel-fg); cursor: pointer;
+  transition: opacity .2s;
+}
+.subscribe-form button:hover { opacity: 0.85; }
+.subscribe-msg { font-family: var(--f-sans); font-size: 0.72rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--mute-2); margin-top: 0.5rem; min-height: 1em; }
+
+/* 分享按鈕 */
+.share-bar {
+  margin: 4rem 0 0; padding-top: 2rem;
+  border-top: 1px solid var(--line);
+  display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap;
+}
+.share-label {
+  font-family: var(--f-mono); font-size: 0.72rem;
+  letter-spacing: 0.18em; color: var(--mute);
+  text-transform: uppercase; margin-right: 0.5rem;
+}
+.share-bar a, .share-bar button {
+  display: inline-flex; align-items: center; gap: 0.4rem;
+  padding: 0.55rem 0.9rem; min-height: 36px;
+  font-family: var(--f-sans); font-size: 0.7rem;
+  letter-spacing: 0.18em; text-transform: uppercase;
+  border: 1px solid var(--line); color: var(--fg);
+  background: transparent; cursor: pointer;
+  transition: background .2s, color .2s, border-color .2s;
+}
+.share-bar a:hover, .share-bar button:hover {
+  background: var(--fg); color: var(--bg); border-color: var(--fg);
+}
+.share-bar svg { width: 14px; height: 14px; }
+
+/* Reading time pill (post-meta-top 內) */
+.read-time { color: var(--mute); }
+.read-time::before { content: "·"; margin-right: 0.5rem; color: var(--mute-2); }
+
+/* Prev/Next 導覽 */
+.prev-next {
+  margin: 5rem 0 0; padding: 2rem 0; border-top: 1px solid var(--line);
+  display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;
+}
+.prev-next a {
+  display: block; padding: 1.2rem 1.4rem;
+  border: 1px solid var(--line);
+  transition: border-color .2s, background .2s;
+}
+.prev-next a:hover { border-color: var(--fg); background: rgba(255,255,255,0.03); }
+.prev-next a.next { text-align: right; }
+.prev-next .label {
+  display: block; font-family: var(--f-sans);
+  font-size: 0.7rem; letter-spacing: 0.22em;
+  color: var(--mute); text-transform: uppercase; margin-bottom: 0.5rem;
+}
+.prev-next .title {
+  display: block; font-family: var(--f-display);
+  font-weight: 700; font-size: 1rem; line-height: 1.3;
+  letter-spacing: -0.01em; color: var(--fg);
+}
+@media (max-width: 700px) {
+  .prev-next { grid-template-columns: 1fr; }
+  .prev-next a.next { text-align: left; }
+}
+
+/* Pagefind 搜尋 UI override（mono brutalist 化） */
+#search {
+  margin: 0 auto 2rem; max-width: 760px;
+}
+.pagefind-ui__search-input {
+  background: transparent !important; color: var(--fg) !important;
+  border: 1px solid var(--fg) !important; border-radius: 0 !important;
+  font-family: var(--f-sans) !important;
+}
+.pagefind-ui__result {
+  border-bottom: 1px solid var(--line) !important; padding: 1rem 0 !important;
+}
+.pagefind-ui__result-link {
+  color: var(--fg) !important;
+  font-family: var(--f-display) !important; font-weight: 700 !important;
+}
+
+
+/* 2026-04-27 daily overrides */
+.post-body .source-footer { border-top: 1px dashed rgba(255,255,255,0.18); margin-top: 2rem; padding-top: 1rem; font-family: var(--f-mono); font-size: 0.78rem; opacity: 0.6; color: #D9D9D9; }
+.post-body .source-footer-label { text-transform: uppercase; letter-spacing: 0.12em; margin-bottom: 0.4rem; }
+.post-body .source-footer ul { list-style: none; padding: 0; margin: 0; }
+.post-body .source-footer li { margin: 0.25rem 0; padding-left: 0; }
+.post-body .source-footer li::before { content: none; }
+.post-body .source-footer a { color: var(--fg); text-decoration: underline; border-bottom: none; }
+.post-body figure img { width: 100%; height: auto; max-height: 460px; object-fit: cover; object-position: center; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.1); }
+</style>
+<link rel="stylesheet" href="/assets/site-extras.css">
+<link rel="alternate" type="application/rss+xml" title="AI DESK RSS" href="/rss.xml">
+</head>
+<body>
+
+<nav class="nav-top">
+  <a href="../index.html" class="nav-brand">
+    <span class="diamond"></span>
+    AI DESK
+  </a>
+  <div class="nav-links">
+    <a href="index.html" class="active">Journal</a>
+    <a href="https://www.instagram.com/ai_desk_0424?igsh=eHd5Mzg1NTV3MDNi&utm_source=qr" target="_blank" rel="noopener">IG</a>
+  </div>
+</nav>
+
+<nav class="crumbs">
+  <a href="../index.html">Index</a><span class="sep">/</span>
+  <a href="index.html">Journal</a><span class="sep">/</span>
+  04/29 AI 大事
+</nav>
+
+<main id="main">
+
+<header class="post-head">
+  <div class="post-meta-top">
+    <span class="num">Edition N°06</span>
+    <span>2026 · 04 · 29 · WED</span>
+    <span>Daily · AI 大事</span>
+    <span>07:00 CST</span>
+    <span class="read-time">11 min read</span>
+  </div>
+  <h1 class="post-title">2026/04/29 · AI 大事 · Claude.ai 全站掛點、Anthropic 拒接五角大廈、微軟 VibeVoice 開源、OpenAI 上 AWS Bedrock</h1>
+  <p class="post-sub">Claude.ai 與 Anthropic API 同時掛點，HN 衝 231 分，agentic 工作流瞬間斷氣。Anthropic 拒接五角大廈本土監控與自主武器訂單後，Google 隔天簽下擴大合約。微軟把前沿級語音模型 VibeVoice 直接開源放上 GitHub。OpenAI 模型上線 AWS Bedrock Managed Agents，雲端三巨頭結構洗牌再加碼。4 條附圖附源附判斷。</p>
+  <div class="post-tags"><span class="tag">Daily · AI 大事</span><span class="tag mute">Anthropic</span><span class="tag mute">Google</span><span class="tag mute">Microsoft</span><span class="tag mute">OpenAI</span><span class="tag mute">AWS</span><span class="tag mute">open-source</span><span class="tag mute">policy</span><span class="tag mute">tools</span></div>
+</header>
+
+<article class="post">
+  <div class="post-body">
+
+<aside class="keypoints">
+  <div class="kp-label">📌 今日重點方向 · Key Signals</div>
+  <ol>
+    <li><strong>單一供應商風險亮紅燈 · Single-vendor risk lights up</strong> — Claude.ai 與 Anthropic API 同一窗口掛點，重度依賴 Claude 的 agentic workflow 與 coding agent 全線斷氣；同一週 OpenAI 模型登 AWS Bedrock 開賣 Managed Agents。模型供應市場正從「綁一家」加速走向「至少綁兩家」。</li>
+    <li><strong>「拒絕做某件事」第一次有市場價值 · Saying no becomes a wedge</strong> — Anthropic 拒接國防部本土監控與自主武器訂單，Google 隔天補位簽下擴大合約。AI 廠商的 Usage Policy 第一次直接決定誰能拿政府大單，safety policy 從成本變商業差異化籌碼。</li>
+    <li><strong>語音被丟向開源 · Voice goes wide open</strong> — 微軟把前沿級 voice model VibeVoice 直接 open-source，HN 衝 295 分。封閉 API 派（ElevenLabs、PlayHT、OpenAI Voice）的成本與護城河被同步壓低，TTS 與 agent voice 的單位成本曲線重設。</li>
+  </ol>
+</aside>
+
+<hr>
+
+<h2><span class="num">N°20</span> Claude.ai 全站掛點 · Anthropic API elevated errors 同步爆發</h2>
+
+<figure>
+  <img src="../assets/news/anthropic-outage-editorial.svg" alt="AI DESK editorial render of the Claude.ai outage incident on 2026-04-29">
+  <figcaption>SOURCE · ANTHROPIC STATUS · INCIDENT 9L93X2HT4S5W · AI DESK EDITORIAL RENDER</figcaption>
+</figure>
+
+<p><strong>Pin · 不是「某條 API 慢一點」級事件，是 agentic 工作流被當天結算的第一張公開帳單。</strong></p>
+
+<h3>發生什麼</h3>
+
+<p>Anthropic 官方 status 頁面在台北時間清晨開出 incident 9L93X2HT4S5W：<a href="https://claude.ai" target="_blank" rel="noopener">Claude.ai</a> 主站長時間無法登入，Anthropic API 同步出現 elevated error rate。HN 一則討論串「Claude is down」衝上首頁 231 分、評論逾 380 則。Anthropic 在事件發生 30 分鐘內承認影響範圍涵蓋 Claude.ai 介面、Claude Code、所有 API 端點與 enterprise console。</p>
+
+<p>從留言密集度可以看出受影響工作型態：第一波是 coding agent 使用者（Claude Code、Cursor 走 Claude provider 的開發者），第二波是 enterprise customer support 與 RAG pipeline，第三波才是一般對話 UI 使用者。整段事件期間，OpenRouter 與直接走 Anthropic 的 SaaS 都同步斷線——這次不是某一條路有 retry buffer 可以撐。</p>
+
+<h3>為什麼重要</h3>
+
+<p><strong>第一，agentic workload 把單一供應商風險放大到「即時可感」。</strong>傳統 SaaS 斷線使用者頂多看到一個 maintenance page；agentic workload 斷線意味著 CI 流水線中段卡住、客服自動回覆全線停擺、coding agent 在 PR 中半途凍結。這種「對外無聲、對內爆炸」的故障模式，前一波 LLM 應用還沒被迫公開談。</p>
+
+<p><strong>第二，Claude 在 coding agent 賽道的市占同時也是它的單點脆弱性。</strong>Cursor、Cline、Cody、Continue 等 IDE agent 預設模型多為 Claude Sonnet 4.x。重度使用者已經把 Claude 當開發環境的一部分，當天 X 與 HN 上的反應從「沒辦法工作」到「這個依賴度已經太深」兩條主軸並行。</p>
+
+<h3>我們的判斷</h3>
+
+<p>三個看點：</p>
+
+<p><strong>(1) 雙模型備援會在 6 個月內成為 production agent 的預設架構。</strong>下一輪 enterprise RFP 會加入「至少兩家 frontier provider failover」這一條。OpenRouter、Together、AWS Bedrock 這類 multi-model gateway 的訂閱會被加速採購。</p>
+
+<p><strong>(2) Anthropic 必須提早交付 SLA 等級服務承諾。</strong>當前 Anthropic API 還停留在「best effort」級條款，與 AWS、Azure 的 enterprise SLA 中間有明顯落差。今天這份 incident 報告會在下一輪企業合約被反覆引用。</p>
+
+<p><strong>(3) Anthropic 對 AWS 的依賴會被重新檢視。</strong>多數線上推測這次 incident 與底層 AWS 區域故障有間接關聯。Anthropic 是否要把 inference 同步部署到 GCP（呼應 Google 的 $40B 投資）會在下一季財報季被分析師追問。</p>
+
+<div class="source-footer">
+  <div class="source-footer-label">— 源 · Sources</div>
+  <ul>
+    <li>Anthropic Status · <a href="https://status.claude.com/incidents/9l93x2ht4s5w" target="_blank" rel="noopener">status.claude.com/incidents/9l93x2ht4s5w</a></li>
+    <li>Hacker News（231 分）· <a href="https://news.ycombinator.com/item?id=47938097" target="_blank" rel="noopener">news.ycombinator.com/item?id=47938097</a></li>
+  </ul>
+</div>
+
+<hr>
+
+<h2><span class="num">N°21</span> Anthropic 拒接五角大廈 · Google 隔天補位簽下擴大合約</h2>
+
+<figure>
+  <img src="../assets/news/google-pentagon-anthropic.jpg" alt="Pentagon and US Department of Defense building seen from a low angle, used as TechCrunch hero image for the Google AI contract story">
+  <figcaption>SOURCE · TECHCRUNCH · GETTY IMAGES · 1080946342</figcaption>
+</figure>
+
+<p><strong>Pin · AI 廠商的 Usage Policy 第一次直接決定誰能拿政府大單。</strong></p>
+
+<h3>發生什麼</h3>
+
+<p>TechCrunch 報導：Anthropic 因內部 Usage Policy 拒絕讓 Claude 系列被用於本土大規模監控與自主致命武器決策後，Google 在 24 小時內與美國國防部簽下擴大合約，把 Gemini 系列 frontier model 與 Vertex AI 平台直接接進國防情報、戰場感知融合與後勤決策系統。合約規模未完整揭露，TechCrunch 引述國防部內部備忘錄指規模在 9 位數中段美元，多年期。</p>
+
+<p>Anthropic 的拒絕並非整體拒接國防部生意——它仍持續供應前沿模型給情報蒐集分析、cyber defense 與紅隊演練等場景。爭議集中在兩條紅線：第一是把模型納入「自主武器決策迴路」（即由 AI 直接核可開火）；第二是把模型用於「美國本土」對特定族裔或政治團體的大規模監控。</p>
+
+<h3>為什麼重要</h3>
+
+<p><strong>第一，AI 廠商的 safety policy 從成本變武器。</strong>過去三年 frontier lab 把 Usage Policy 主要當公關語言；Anthropic 這次的 hard pass 把它變成市場分割線。Google 立刻補位也意味著「願意接的訂單」本身就是商業籌碼，這個賽局現在有了具體的金額。</p>
+
+<p><strong>第二，五角大廈雙下注策略落地。</strong>過去 18 個月國防部高層已經多次公開表示「不接受 sole-source AI provider」。今天這份合約等於宣告：Anthropic 是一條備援、Google 是一條主軸；下一個被 onboarded 的會是 OpenAI 或 xAI——只要他們點頭。</p>
+
+<h3>我們的判斷</h3>
+
+<p>三個看點：</p>
+
+<p><strong>(1) Anthropic 估值短期會被打折，但長期客群篩選明確化。</strong>政府客戶營收上限被自己劃下，但金融、醫療、法律、教育等「policy-sensitive」客戶會把 Anthropic 列為首選。這是一場主動的 segment 自選——對 50 人黃金交易精英社群這類客群也是訊號。</p>
+
+<p><strong>(2) Google 的 Gemini 系列商業故事被一次性升級。</strong>Vertex AI + Mythos（上週的 cybersecurity 模型）+ 國防部擴大合約，三件事拼起來等於 Google Cloud 在「規模化垂直 AI」線同時握有上中下游。後續財報季 Google 會把這條故事打包賣給市場。</p>
+
+<p><strong>(3) AI Usage Policy 會變成投資人盡調項目。</strong>VC 與企業客戶會開始要求 frontier 採購對象提供書面 Usage Policy、紅線清單與例外決策流程文件。原本是工程內部 doc 的東西，會被搬到 master service agreement 的附件。</p>
+
+<div class="source-footer">
+  <div class="source-footer-label">— 源 · Sources</div>
+  <ul>
+    <li>TechCrunch · <a href="https://techcrunch.com/2026/04/28/google-expands-pentagons-access-to-its-ai-after-anthropics-refusal/" target="_blank" rel="noopener">techcrunch.com/google-expands-pentagons-access-to-its-ai-after-anthropics-refusal</a></li>
+  </ul>
+</div>
+
+<hr>
+
+<h2><span class="num">N°22</span> 微軟 Open-Source VibeVoice · 前沿語音模型直接放上 GitHub</h2>
+
+<figure>
+  <img src="../assets/news/microsoft-vibevoice.png" alt="GitHub social preview card for the microsoft/VibeVoice open-source frontier voice AI repository">
+  <figcaption>SOURCE · GITHUB · MICROSOFT/VIBEVOICE OPEN-SOURCE RELEASE</figcaption>
+</figure>
+
+<p><strong>Pin · 微軟把語音生成這條賽道的成本曲線，當天往下打了一個檔位。</strong></p>
+
+<h3>發生什麼</h3>
+
+<p>微軟在 GitHub 開出 <a href="https://github.com/microsoft/VibeVoice" target="_blank" rel="noopener">microsoft/VibeVoice</a>：一支 frontier 等級的多語言 voice 模型，主打 long-form podcast 等級的語音生成、跨語者一致性、情感層次控制與多角色對話。授權採用 MIT，權重與訓練腳本同步釋出。HN 衝到 295 分，留言重點集中在「對 ElevenLabs 是不是滅頂事件」與「對配音、podcast、agent voice 的成本影響」兩條主軸。</p>
+
+<p>從技術 spec 看，VibeVoice 在多人對話 turn-taking、語氣承接、情感連貫的指標已逼近 ElevenLabs Multilingual v2 與 OpenAI Advanced Voice 的封閉 API 水準。差距主要在「即時 streaming 延遲」與「品牌語音 fine-tune」這兩條，但這兩條都在開源社群可解的範圍內。</p>
+
+<h3>為什麼重要</h3>
+
+<p><strong>第一，語音生成第一次有了「足夠好的開源底座」。</strong>過去兩年 TTS 賽道一直被「品質好的封閉、開源的 Coqui XTTS 系列卡在中等品質」這個結構卡住。VibeVoice 的釋出讓「開源前沿 voice」這條軸線正式起跑。整個 voice agent、podcast 自動化、有聲書、輔具、客服語音的成本結構會被往下推。</p>
+
+<p><strong>第二，微軟的 AI 戰略再亮一張開源底牌。</strong>從 Phi 系列 LLM、到 BitNet 量化、再到 VibeVoice，微軟的 open-source 戰術已經非常清楚：在自己不主控的 frontier 賽道上，用 open-source 把成本拉低、把生態搶走。voice 是繼 LLM 之後第二個被放上這張牌桌的賽道。</p>
+
+<h3>我們的判斷</h3>
+
+<p>三個看點：</p>
+
+<p><strong>(1) ElevenLabs 的下一輪估值會見壓。</strong>不會立刻崩，但 enterprise pricing power 與品牌語音 lock-in 的議價能力會被打折。產品線會被迫往「品牌訂製、合規、即時 streaming」三個方向強化護城河。</p>
+
+<p><strong>(2) Podcast 與有聲書產業的進入成本被砍半。</strong>個人創作者用 VibeVoice 跑出 ElevenLabs 等級語音的硬體門檻會降到「一張消費級 GPU + 一週工程」。中小型內容工作室會在 60 天內出現新的工具鏈。</p>
+
+<p><strong>(3) 下一個被開源化的會是 video generation。</strong>當 voice 被微軟丟出來，OpenAI Sora、Runway、Pika 這條線會在 12 個月內出現對位的開源 frontier release——很可能來自 Meta 或 ByteDance。</p>
+
+<div class="source-footer">
+  <div class="source-footer-label">— 源 · Sources</div>
+  <ul>
+    <li>GitHub · <a href="https://github.com/microsoft/VibeVoice" target="_blank" rel="noopener">github.com/microsoft/VibeVoice</a></li>
+    <li>Hacker News（295 分）· <a href="https://news.ycombinator.com/item?id=47933236" target="_blank" rel="noopener">news.ycombinator.com/item?id=47933236</a></li>
+  </ul>
+</div>
+
+<hr>
+
+<h2><span class="num">N°23</span> OpenAI 模型登 AWS Bedrock · Managed Agents 同步上架</h2>
+
+<figure>
+  <img src="../assets/news/openai-aws-bedrock.png" alt="Hero illustration of a hyperscale AWS data center hosting OpenAI ChatGPT workloads, used by TechCrunch for the Bedrock launch story">
+  <figcaption>SOURCE · TECHCRUNCH · AMAZON IS ALREADY OFFERING NEW OPENAI PRODUCTS ON AWS</figcaption>
+</figure>
+
+<p><strong>Pin · 昨天的合約，今天就上架——Bedrock Managed Agents 是雲端三巨頭洗牌的第二顆釘子。</strong></p>
+
+<h3>發生什麼</h3>
+
+<p>TechCrunch 與 Stratechery 雙線報導：Amazon 將 OpenAI 模型直接接進 AWS Bedrock 平台，並同步推出 Bedrock Managed Agents。Sam Altman 與 AWS CEO Matt Garman 接受 Stratechery 訪談，主軸是「OpenAI 模型 + AWS 算力 + Bedrock 平台層」三件事打包銷售。HN 衝到 343 分。</p>
+
+<p>對應前一輪事件：微軟與 OpenAI 終止獨家合作（Bloomberg 4/27 首發），OpenAI 同日宣布 $50B AWS 算力大單。原本市場預期 Bedrock 上架 OpenAI 模型至少要等到下一季——AWS 直接在 24 小時內把產品線、計價、Managed Agents 一次推齊，速度本身就是訊號。</p>
+
+<h3>為什麼重要</h3>
+
+<p><strong>第一，agentic 服務戰場第一次有了三家主供應商。</strong>過去 12 個月 Bedrock 的 Agent 故事主要靠 Anthropic Claude 撐起。現在 OpenAI GPT 系列上線、加上既有的 Anthropic 與 Meta Llama，Bedrock 變成第一個同時握有三家 frontier 模型的 managed agent 平台。Azure Foundry 與 Vertex AI 必須在下一季給對位回應。</p>
+
+<p><strong>第二，企業採購邏輯會從「選模型」變成「選 agent 平台」。</strong>當底層模型差距收窄，企業的選擇權會上移到「哪家平台的 tool calling、guardrail、observability、policy management 整合最好」。AWS Bedrock 的 Managed Agents 是這條故事第一個有定價、有 SLA、有 enterprise 整合的標準品。</p>
+
+<h3>我們的判斷</h3>
+
+<p>三個看點：</p>
+
+<p><strong>(1) Anthropic 在 Bedrock 的相對地位被稀釋。</strong>原本 AWS 上的 Claude 是 default 選項，現在變成「三選一中的一個」。Anthropic 必須在 Bedrock 平台層給出更深整合（例如 Computer Use 在 Bedrock 內的 first-class 支援）才能維持目前的議價權重。</p>
+
+<p><strong>(2) Azure 必須在 60 天內回應，否則 Foundry 故事會掉隊。</strong>微軟的 Azure AI Foundry 過去靠「OpenAI 獨家 + GitHub Copilot 整合」雙腳。獨家解綁後，Foundry 必須加速對 Anthropic 與 Mistral 的整合，並把 Copilot 的 enterprise 故事重新講一次。</p>
+
+<p><strong>(3) 第三方 agent 平台（Vellum、Langfuse、CrewAI、LangGraph Cloud）的窗口收緊。</strong>當三家 hyperscaler 都把 Managed Agents 做成 first-party 產品，獨立 agent ops 廠商的差異化必須回到「模型中立 + 跨雲」這條軸線，否則會被吞噬。</p>
+
+<div class="source-footer">
+  <div class="source-footer-label">— 源 · Sources</div>
+  <ul>
+    <li>TechCrunch · <a href="https://techcrunch.com/2026/04/28/amazon-is-already-offering-new-openai-products-on-aws/" target="_blank" rel="noopener">techcrunch.com/amazon-is-already-offering-new-openai-products-on-aws</a></li>
+    <li>Stratechery · <a href="https://stratechery.com/2026/an-interview-with-openai-ceo-sam-altman-and-aws-ceo-matt-garman-about-bedrock-managed-agents/" target="_blank" rel="noopener">stratechery.com/an-interview-with-openai-ceo-sam-altman-and-aws-ceo-matt-garman-about-bedrock-managed-agents</a></li>
+    <li>Hacker News（343 分）· <a href="https://news.ycombinator.com/item?id=47939320" target="_blank" rel="noopener">news.ycombinator.com/item?id=47939320</a></li>
+    <li>TechCrunch · <a href="https://techcrunch.com/2026/04/27/openai-ends-microsoft-legal-peril-over-its-50b-amazon-deal/" target="_blank" rel="noopener">techcrunch.com/openai-ends-microsoft-legal-peril-over-its-50b-amazon-deal</a></li>
+  </ul>
+</div>
+
+<hr>
+
+<p style="font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; opacity: 0.55; text-align: center; margin-top: 3rem;">
+  · 編輯台 · 明天 07:00 再見 ·
+</p>
+
+
+    </div>
+</article>
+
+
+
+
+<div class="share-bar" aria-label="分享這篇">
+  <span class="share-label">— Share</span>
+  <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fai-desk-tw.netlify.app%2Fposts%2F2026-04-29-daily.html&text=2026%2F04%2F29%20%C2%B7%20AI%20%E5%A4%A7%E4%BA%8B%20%C2%B7%20Claude%20%E5%85%A8%E7%AB%99%E6%8E%9B%E9%BB%9E%20%C2%B7%20Anthropic%20%E6%8B%92%E6%8E%A5%E5%9C%8B%E9%98%B2%20%C2%B7%20VibeVoice%20%E9%96%8B%E6%BA%90%20%C2%B7%20OpenAI%20%E4%B8%8A%20Bedrock" target="_blank" rel="noopener" aria-label="Share on X (Twitter)">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+    X
+  </a>
+  <a href="https://www.threads.net/intent/post?text=2026%2F04%2F29%20%C2%B7%20AI%20%E5%A4%A7%E4%BA%8B%20%C2%B7%20Claude%20%E5%85%A8%E7%AB%99%E6%8E%9B%E9%BB%9E%20%C2%B7%20Anthropic%20%E6%8B%92%E6%8E%A5%E5%9C%8B%E9%98%B2%20%C2%B7%20VibeVoice%20%E9%96%8B%E6%BA%90%20%C2%B7%20OpenAI%20%E4%B8%8A%20Bedrock%20https%3A%2F%2Fai-desk-tw.netlify.app%2Fposts%2F2026-04-29-daily.html" target="_blank" rel="noopener" aria-label="Share on Threads">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.18 11.21c-.08-.04-.16-.08-.24-.11-.14-2.59-1.55-4.07-3.92-4.09h-.03c-1.42 0-2.6.61-3.33 1.71l1.31.9c.54-.82 1.39-.99 2.02-.99h.02c.79 0 1.39.23 1.78.69.28.34.47.81.56 1.4-.69-.12-1.43-.16-2.22-.12-2.22.13-3.65 1.42-3.55 3.22.05.91.51 1.7 1.28 2.21.65.43 1.49.65 2.36.61 1.15-.06 2.05-.5 2.69-1.3.48-.6.78-1.39.93-2.39.6.36 1.04.83 1.29 1.4.42.96.45 2.55-.85 3.85-1.13 1.13-2.5 1.62-4.55 1.64-2.27-.02-3.99-.75-5.11-2.18-1.06-1.34-1.6-3.27-1.62-5.74.02-2.47.56-4.4 1.62-5.74C8.86 3.4 10.58 2.67 12.85 2.65c2.29.02 4.04.75 5.2 2.19.57.7.99 1.59 1.27 2.62l1.55-.41c-.34-1.27-.86-2.36-1.59-3.25C17.81 1.86 15.62.93 12.86.91h-.01C10.1.93 7.93 1.87 6.42 3.71c-1.34 1.65-2.04 3.95-2.06 6.83v.02c.02 2.88.72 5.18 2.06 6.83 1.51 1.84 3.68 2.78 6.43 2.8h.01c2.45-.02 4.18-.66 5.6-2.08 1.86-1.86 1.81-4.19 1.19-5.62-.44-1.03-1.29-1.86-2.46-2.4z"/></svg>
+    Threads
+  </a>
+  <button type="button" onclick="navigator.clipboard.writeText(window.location.href).then(()=>{this.textContent='✓ Copied'; setTimeout(()=>this.textContent='Copy link', 2000);})" aria-label="Copy link">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+    Copy link
+  </button>
+</div>
+
+
+
+<div class="article-foot">
+  <a href="index.html" class="back-cta">← 回 Journal</a>
+  <div class="foot-stamp">AI DESK · Edition N°06 · 2026 · 04 · 29</div>
+</div>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-lockup">AI DESK</div>
+    <div class="footer-row">
+      <div class="cell">
+        <div class="label">Instagram</div>
+        <div class="val"><a href="https://www.instagram.com/ai_desk_0424?igsh=eHd5Mzg1NTV3MDNi&utm_source=qr" target="_blank" rel="noopener">@ai_desk_0424</a></div>
+      </div>
+      <div class="cell">
+        <div class="label">Journal</div>
+        <div class="val"><a href="index.html">All editions →</a></div>
+      </div>
+      <div class="cell">
+        <div class="label">Cadence</div>
+        <div class="val">Daily · 07:00 CST</div>
+      </div>
+        <div class="cell" style="grid-column: span 2;">
+    <div class="label">Subscribe</div>
+    <form name="subscribe" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="subscribe-form" action="/?subscribed=1">
+      <input type="hidden" name="form-name" value="subscribe">
+      <p hidden><label>Don't fill this: <input name="bot-field"></label></p>
+      <input type="email" name="email" placeholder="email@example.com" required aria-label="Email address">
+      <button type="submit">Subscribe →</button>
+    </form>
+    <div class="subscribe-msg">每日 07:00 CST 收信 · 不轉售名單</div>
+  </div>
+    </div>
+    <div class="footer-base">
+      <div>© 2026 AI DESK · Independent editorial</div>
+      <div>A signal, not the noise.</div>
+    </div>
+  </div>
+</footer>
+
+<script src="/assets/site-extras.js" defer></script>
+
+</body>
+</html>
+
