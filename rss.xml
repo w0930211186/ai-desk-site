@@ -5,8 +5,29 @@
     <link>https://ai-desk-tw.netlify.app/</link>
     <description>獨立 AI 編輯台 · 每天 07:00 CST · 1 分鐘看完全球 AI 大事 · 每條附源</description>
     <language>zh-Hant</language>
-    <lastBuildDate>Mon, 27 Apr 2026 14:47:27 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Apr 2026 23:07:49 +0000</lastBuildDate>
     <atom:link href="https://ai-desk-tw.netlify.app/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2026/04/29 · AI 大事 · Claude.ai 全站掛點、Anthropic 拒接五角大廈、微軟 VibeVoice 開源、OpenAI 上 AWS Bedrock</title>
+      <link>https://ai-desk-tw.netlify.app/posts/2026-04-29-daily.html</link>
+      <guid isPermaLink="true">https://ai-desk-tw.netlify.app/posts/2026-04-29-daily.html</guid>
+      <pubDate>Wed, 29 Apr 2026 07:00:00 +0800</pubDate>
+      <description>Claude.ai 與 Anthropic API 同時掛點，HN 衝 231 分，agentic 工作流瞬間斷氣。Anthropic 拒接五角大廈本土監控與自主武器訂單後，Google 隔天簽下擴大合約。微軟把前沿級語音模型 VibeVoice 直接開源放上 GitHub。OpenAI 模型上線 AWS Bedrock Managed Agents，雲端三巨頭結構洗牌再加碼。4 條附圖附源附判斷。</description>
+    </item>
+    <item>
+      <title>2026/04/28 · AI 大事 · 中國否決 Meta-Manus 案、OpenAI 解綁微軟簽 AWS 50B、David Silver 起 Ineffable Intelligence</title>
+      <link>https://ai-desk-tw.netlify.app/posts/2026-04-28-daily.html</link>
+      <guid isPermaLink="true">https://ai-desk-tw.netlify.app/posts/2026-04-28-daily.html</guid>
+      <pubDate>Tue, 28 Apr 2026 07:00:00 +0800</pubDate>
+      <description>中國反壟斷封殺 Meta 對中國 AI Agent 新創 Manus 的 $2B 收購，中美 AI 跨境併購窗口關上。OpenAI 與微軟終止獨家分潤協議、與 Amazon 簽下 $50B 算力大單，雲端三巨頭結構洗牌。AlphaGo 之父 David Silver 出走 DeepMind 創 Ineffable Intelligence，$5.1B 估值募 $1.1B 押純強化學習路線。3 條附圖附源附判斷。</description>
+    </item>
+    <item>
+      <title>2026/04/28 · News 深度 · GitHub Copilot 從吃到飽改 token 計價：編碼代理商業模式全面重設</title>
+      <link>https://ai-desk-tw.netlify.app/posts/2026-04-28-news-github-copilot-billing.html</link>
+      <guid isPermaLink="true">https://ai-desk-tw.netlify.app/posts/2026-04-28-news-github-copilot-billing.html</guid>
+      <pubDate>Tue, 28 Apr 2026 07:00:00 +0800</pubDate>
+      <description>GitHub 宣布 Copilot 從固定月費 $10 / $19 改成 token-based 用量計價。HN 衝到 439 分熱議。背後反映 AI 編碼代理在 agent loop 推論成本暴漲下舊定價模式撐不住，是 IDE Coding Agent 商業模式的全面重設。AI DESK 解構：成本結構、競爭動態、Cursor / Windsurf / JetBrains 的對應、企業採購衝擊，以及這條路為何不一定是好事——含反方觀點。</description>
+    </item>
     <item>
       <title>2026/04/27 · AI 大事 · Meta 押 AWS CPU、Anthropic 開 agent 市集、AI agent 抹 prod、SWE-bench 退役</title>
       <link>https://ai-desk-tw.netlify.app/posts/2026-04-27-daily.html</link>
