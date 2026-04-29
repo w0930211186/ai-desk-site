@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>04/30 AI 大事 · DeepMind 王牌募 11 億 · OpenAI 解套 MSFT 上 AWS · Mistral Medium 3.5 · Anthropic 計費 bug 炎上 | AI DESK</title>
+<meta name="description" content="DeepMind 王牌 David Silver 出走募 11 億美元，估值 51 億，押注「不靠人類資料的 RL」對沖 LLM scaling。OpenAI 終結 Microsoft 獨家綁定，新版模型隔天直接登上 AWS Bedrock，三巨頭雲端 AI 結構一夜重畫。Mistral Medium 3.5 把 remote agents + vibe coding 推向中型開源價位。Anthropic Hermes 計費 bug 多扣 200 美拒退，HN 一夜 756 pts 炎上。4 條附圖附源附判斷。">
+<meta name="keywords" content="AI DESK, Daily · AI 大事, David Silver Ineffable Intelligence, DeepMind 募資, RL without human data, OpenAI Microsoft 解套, OpenAI AWS Bedrock, Mistral Medium 3.5, vibe coding, remote agents, Anthropic billing bug, Claude Code HERMES.md, HN 756 pts">
+<meta name="author" content="AI DESK">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#000000">
+P26/04/30 · AI 大事 · DeepMind 王牌募 11 億賭新 RL · OpenAI 解套 Microsoft 上 AWS · Mistral 中型 agent · Anthropic 計費 bug 炎上">
+<meta property="og:description" content="DeepMind 王牌 David Silver 出走募 11 億美元，估值 51 億，押注「不靠人類資料的 RL」對沖 LLM scaling。OpenAI 終結 Microsoft 獨家綁定，新版模型隔天直接登上 AWS Bedrock，三巨頭雲端 AI 結構一夜重畫。Mistral Medium 3.5 把 remote agents + vibe coding 推向中型開源價位。Anthropic Hermes 計費 bug 多扣 200 美拒退，HN 一夜 756 pts 炎上。4 條附圖附源附判斷。">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="AI DESK">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:url" content="https://ai-desk-tw.netlify.app/posts/2026-04-30-daily.html">
+<meta property="og:image" content="https://ai-desk-tw.netlify.app/assets/og-cover.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+P26-04-30T07:00:00+08:00">
+<meta property="article:author" content="AI DESK">
+<meta property="article:section" content="Daily · AI 大事">
+<meta name="twitter:card" content="summary_large_image">
+P26/04/30 · AI 大事 · DeepMind 王牌募 11 億賭新 RL · OpenAI 解套 Microsoft 上 AWS · Mistral 中型 agent · Anthropic 計費 bug 炎上">
+<meta name="twitter:description" content="DeepMind 王牌 David Silver 出走募 11 億美元，估值 51 億，押注「不靠人類資料的 RL」對沖 LLM scaling。OpenAI 終結 Microsoft 獨家綁定，新版模型隔天直接登上 AWS Bedrock，三巨頭雲端 AI 結構一夜重畫。Mistral Medium 3.5 把 remote agents + vibe coding 推向中型開源價位。Anthropic Hermes 計費 bug 多扣 200 美拒退，HN 一夜 756 pts 炎上。4 條附圖附源附判斷。">
+<meta name="twitter:image" content="https://ai-desk-tw.netlify.app/assets/og-cover.png">
+<link rel="canonical" href="https://ai-desk-tw.netlify.app/posts/2026-04-30-daily.html">
+<link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Noto+Sans+TC:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "2026/04/30 · AI 大事 · DeepMind 王牌募 11 億賭新 RL · OpenAI 解套 Microsoft 上 AWS · Mistral 中型 agent · Anthropic 計費 bug 炎上",
+  "datePublished": "2026-04-30T07:00:00+08:00",
+  "dateModified": "2026-04-30T07:00:00+08:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://ai-desk-tw.netlify.app/posts/2026-04-30-daily.html"
+  },
+  "image": "https://ai-desk-tw.netlify.app/assets/og-cover.png",
+  "author": { "@type": "Organization", "name": "AI DESK", "url": "https://ai-desk-tw.netlify.app/" },
+  "publisher": {
+    "@type": "Organization",
+    "name": "AI DESK",
+    "url": "https://ai-desk-tw.netlify.app/",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://ai-desk-tw.netlify.app/assets/og-cover.png",
+      "width": 1200,
+      "height": 630
+    }
+  },
+  "description": "Claude.ai 與 Anthropic API 同時掛點，HN 衝 231 分，agentic 工作流瞬間斷氣。Anthropic 拒接五角大廈本土監控與自主武器訂單後，Google 隔天簽下擴大合約。微軟把前沿級語音模型 VibeVoice 直接開源放上 GitHub。OpenAI 模型上線 AWS Bedrock Managed Agents，雲端三巨頭結構洗牌再加碼。4 條附圖附源附判斷。",
+  "articleSection": "Daily · AI 大事",
+  "url": "https://ai-desk-tw.netlify.app/posts/2026-04-30-daily.html"
+}
+</script>
+
+<style>
+:root {
+  --bg: #000000;
+  --fg: #FFFFFF;
+  --panel: #F2F2F2;
+  --panel-fg: #0A0A0A;
+  --mute: #8A8A8A;
+  --mute-2: #5A5A5A;
+  --line: rgba(255, 255, 255, 0.14);
+  --line-dark: rgba(0, 0, 0, 0.14);
+  --f-display: 'Inter Tight', 'Noto Sans TC', -apple-system, sans-serif;
+  --f-sans: 'Space Grotesk', 'Noto Sans TC', -apple-system, sans-serif;
+  --f-body: 'Noto Sans TC', 'Inter Tight', sans-serif;
+  --f-mono: 'JetBrains Mono', 'SF Mono', Menlo, monospace;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+img { max-width: 100%; height: auto; display: block; }
+html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; overflow-x: hidden; }
+body { font-family: var(--f-body); background: var(--bg); color: var(--fg); line-height: 1.75; font-size: 17px; overflow-x: hidden; }
+a { color: inherit; text-decoration: none; }
+::selection { background: #FFFFFF; color: #000000; }
+
+.nav-top {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+  padding: 1.5rem 2rem; display: flex; justify-content: space-between; align-items: center;
+  mix-blend-mode: difference;
+}
+.nav-brand { font-family: var(--f-display); font-weight: 900; font-size: 0.92rem; letter-spacing: 0.04em; text-transform: uppercase; display: flex; align-items: center; gap: 0.6rem; }
+.nav-brand .diamond { width: 10px; height: 10px; background: var(--fg); display: inline-block; animation: spin 4s linear infinite; }
+@keyframes spin { from { transform: rotate(45deg); } to { transform: rotate(405deg); } }
+.nav-links { display: flex; gap: 1.4rem; font-family: var(--f-sans); font-size: 0.72rem; letter-spacing: 0.2em; text-transform: uppercase; font-weight: 500; }
+.nav-links a { padding: 0.4rem 0.8rem; border: 1px solid transparent; transition: border-color .25s; }
+.nav-links a:hover, .nav-links a.active { border-color: var(--fg); }
+
+nav.crumbs {
+  max-width: 900px; margin: 9rem auto 2rem; padding: 0 2rem;
+  font-family: var(--f-sans); font-size: 0.7rem;
+  letter-spacing: 0.22em; text-transform: uppercase; color: var(--mute);
+}
+nav.crumbs a { color: var(--fg); }
+nav.crumbs .sep { margin: 0 0.8rem; color: var(--mute-2); }
+
+/* ARTICLE HEAD */
+.post-head {
+  max-width: 1200px; margin: 2rem auto 3rem; padding: 0 2rem;
+  position: relative;
+}
+.post-meta-top {
+  font-family: var(--f-mono); font-size: 0.78rem;
+  letter-spacing: 0.2em; text-transform: uppercase;
+  color: var(--mute); margin-bottom: 2.5rem;
+  display: flex; gap: 1.5rem; flex-wrap: wrap;
+}
+.post-meta-top .num { color: var(--fg); font-family: var(--f-display); font-weight: 900; font-size: 0.9rem; letter-spacing: 0; }
+.post-title {
+  font-family: var(--f-display); font-weight: 900;
+  font-size: clamp(2.8rem, 7vw, 6.5rem);
+  line-height: 0.95; letter-spacing: -0.04em;
+  text-transform: uppercase; max-width: 16ch;
+}
+.post-title em {
+  font-style: normal; color: transparent; -webkit-text-stroke: 1.5px var(--fg);
+}
+.post-sub {
+  margin-top: 2rem; max-width: 680px;
+  font-family: var(--f-display); font-weight: 500;
+  font-size: 1.3rem; color: var(--mute); line-height: 1.45;
+  letter-spacing: -0.005em;
+  border-left: 3px solid var(--fg); padding-left: 1.4rem;
+}
+.post-tags { margin-top: 2.5rem; display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.post-tags .tag {
+  font-family: var(--f-sans); font-size: 0.68rem;
+  letter-spacing: 0.22em; text-transform: uppercase;
+  padding: 0.35rem 0.9rem; border: 1px solid var(--fg); color: var(--fg);
+}
+.post-tags .tag.mute { border-color: var(--mute); color: var(--mute); }
+
+/* ARTICLE BODY */
+article.post {
+  max-width: 760px; margin: 4rem auto; padding: 0 2rem;
+  position: relative;
+}
+.post-body { font-size: 1.08rem; line-height: 1.9; color: #D9D9D9; }
+.post-body p { margin-bottom: 1.6rem; }
+.post-body h2 {
+  font-family: var(--f-display); font-weight: 900;
+  font-size: clamp(1.8rem, 3.5vw, 2.6rem);
+  line-height: 1.1; letter-spacing: -0.02em;
+  text-transform: uppercase; color: var(--fg);
+  margin: 5rem 0 1.5rem; padding-top: 2.5rem;
+  border-top: 1px solid var(--line);
+}
+.post-body h2 .num {
+  font-family: var(--f-mono); font-size: 0.7em;
+  color: var(--mute); letter-spacing: 0.16em; font-weight: 400;
+  display: block; margin-bottom: 0.6rem;
+}
+.post-body h3 {
+  font-family: var(--f-display); font-size: 1.3rem;
+  font-weight: 800; margin: 2.4rem 0 0.8rem; color: var(--fg);
+  letter-spacing: -0.01em;
+}
+.post-body strong { color: var(--fg); font-weight: 700; }
+.post-body a { border-bottom: 1px solid var(--fg); color: var(--fg); }
+.post-body a:hover { background: var(--fg); color: var(--bg); }
+.post-body ul, .post-body ol { margin: 1rem 0 1.6rem 0; list-style: none; padding: 0; }
+.post-body ul li { margin-bottom: 0.9rem; padding-left: 1.8rem; position: relative; }
+.post-body ul li::before { content: "◆"; position: absolute; left: 0; top: 0; color: var(--fg); font-family: var(--f-display); }
+.post-body ol { counter-reset: n; }
+.post-body ol li { counter-increment: n; margin-bottom: 0.9rem; padding-left: 2.4rem; position: relative; }
+.post-body ol li::before {
+  content: "0" counter(n); position: absolute; left: 0; top: 0;
+  font-family: var(--f-mono); font-size: 0.82em; color: var(--fg);
+  letter-spacing: 0.08em;
+}
+.post-body blockquote {
+  font-family: var(--f-display); font-weight: 800;
+  font-size: clamp(1.5rem, 3vw, 2.2rem); line-height: 1.2;
+  padding: 2.5rem 0; margin: 3rem 0;
+  border-top: 1px solid var(--fg); border-bottom: 1px solid var(--fg);
+  color: var(--fg); letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+.post-body blockquote::before {
+  content: "❝"; font-family: var(--f-display); font-size: 2.5rem;
+  color: var(--fg); display: block; margin-bottom: 0.5rem; line-height: 1;
+}
+.post-body code {
+  font-family: var(--f-mono); background: rgba(255, 255, 255, 0.1);
+  padding: 0.15rem 0.5rem; font-size: 0.88em;
+  color: var(--fg);
+}
+.post-body pre {
+  background: rgba(255, 255, 255, 0.04); border: 1px solid var(--line);
+  padding: 1.4rem; overflow-x: auto; margin: 2rem 0;
+  font-family: var(--f-mono); font-size: 0.88rem; line-height: 1.6;
+}
+.post-body pre code { background: transparent; padding: 0; }
+.post-body hr { border: none; border-top: 1px solid var(--line); margin: 3rem 0; }
+.post-body figure { margin: 2.4rem 0; }
+.post-body figcaption {
+  font-family: var(--f-mono); font-size: 0.72rem;
+  letter-spacing: 0.16em; color: var(--mute);
+  text-transform: uppercase; margin-top: 0.8rem;
+}
+
+.post-body aside.keypoints {
+  border: 1px solid var(--fg); padding: 1.6rem 1.8rem;
+  margin: 0 0 2.4rem; background: rgba(255,255,255,0.02);
+}
+.post-body aside.keypoints .kp-label {
+  font-family: var(--f-sans); font-size: 0.72rem;
+  letter-spacing: 0.24em; text-transform: uppercase;
+  color: var(--fg); font-weight: 600; margin-bottom: 1rem;
+}
+
+.post-body .source-footer {
+  margin: 1.5rem 0 0; padding-top: 1rem;
+  border-top: 1px dashed var(--line);
+}
+.post-body .source-footer-label {
+  font-family: var(--f-mono); font-size: 0.72rem;
+  letter-spacing: 0.18em; color: var(--mute);
+  text-transform: uppercase; margin-bottom: 0.6rem;
+}
+.post-body .source-footer ul { margin: 0; }
+
+.post-body .sig {
+  margin-top: 5rem; padding-top: 2rem; border-top: 1px solid var(--line);
+  font-family: var(--f-mono); font-size: 0.82rem;
+  letter-spacing: 0.18em; color: var(--mute); text-transform: uppercase;
+}
+
+.article-foot {
+  max-width: 1200px; margin: 5rem auto 0; padding: 3rem 2rem 0;
+  border-top: 1px solid var(--line);
+  display: flex; justify-content: space-between; align-items: center;
+  flex-wrap: wrap; gap: 1rem;
+}
+.back-cta {
+  display: inline-flex; align-items: center; gap: 0.8rem;
+  font-family: var(--f-sans); font-size: 0.78rem; font-weight: 600;
+  letter-spacing: 0.24em; text-transform: uppercase;
+  padding: 0.8rem 1.4rem; border: 1px solid var(--fg);
+  transition: background .3s, color .3s;
+}
+.back-cta:hover { background: var(--fg); color: var(--bg); }
+.foot-stamp { font-family: var(--f-mono); font-size: 0.72rem; letter-spacing: 0.18em; color: var(--mute); text-transform: uppercase; }
+
+/* FOOTER */
+footer.site-footer {
+  background: var(--panel); color: var(--panel-fg);
+  padding: 6rem 2rem 3rem; margin-top: 6rem;
+  position: relative; overflow: hidden;
+}
+.footer-inner { max-width: 1400px; margin: 0 auto; }
+.footer-lockup {
+  font-family: var(--f-display); font-weight: 900;
+  font-size: clamp(4rem, 14vw, 16rem); line-height: 0.85;
+  letter-spacing: -0.06em; text-transform: uppercase;
+}
+.footer-row {
+  margin-top: 4rem; padding-top: 2rem; border-top: 1px solid var(--panel-fg);
+  display: grid; grid-template-columns: repeat(4, 1fr); gap: 2rem;
+  font-family: var(--f-sans); font-size: 0.8rem;
+}
+.footer-row .cell .label { font-size: 0.66rem; letter-spacing: 0.28em; text-transform: uppercase; color: var(--mute-2); font-weight: 500; margin-bottom: 0.5rem; }
+.footer-row .cell .val { font-family: var(--f-display); font-weight: 700; letter-spacing: -0.01em; font-size: 1rem; }
+.footer-row .cell .val a { border-bottom: 1px solid transparent; transition: border-color .2s; }
+.footer-row .cell .val a:hover { border-bottom-color: var(--panel-fg); }
+.footer-base {
+  margin-top: 4rem; display: flex; justify-content: space-between; align-items: center;
+  font-family: var(--f-mono); font-size: 0.7rem; letter-spacing: 0.12em;
+  color: var(--mute-2); text-transform: uppercase; flex-wrap: wrap; gap: 1rem;
+}
+
+@media (max-width: 700px) {
+  .nav-top { padding: 1rem; }
+  .nav-links { gap: 0.5rem; font-size: 0.58rem; }
+  .nav-links a { padding: 0.3rem 0.5rem; }
+  nav.crumbs { padding: 0 1rem; margin-top: 6rem; font-size: 0.62rem; }
+  .post-head { padding: 0 1rem; }
+  article.post { padding: 0 1rem; }
+  .post-body blockquote { font-size: 1.4rem; }
+  .article-foot { padding: 3rem 1rem 0; }
+  footer.site-footer { padding: 4rem 1rem 2rem; }
+  .footer-row { grid-template-columns: 1fr; }
+}
+
+
+/* ============================================================
+   ACCESSIBILITY · v2 (audit 2026-04-25)
+   - P0-A: focus-visible 鍵盤導航指示
+   - P0-B: prefers-reduced-motion 動畫退場
+   - P1-C: 手機觸控目標 ≥ 44px
+   - bonus: skip-to-content link
+   ============================================================ */
+
+/* P0-A · 鍵盤 focus 指示（mono brutalist 風格） */
+*:focus-visible {
+  outline: 2px solid var(--fg);
+  outline-offset: 3px;
+}
+.nav-links a:focus-visible,
+.back-cta:focus-visible,
+.tag-toggle button:focus-visible {
+  outline-offset: 1px;
+}
+.enter-btn:focus-visible {
+  outline-offset: 5px;
+}
+.journal-card:focus-visible {
+  outline-offset: -2px;
+}
+
+/* bonus · skip-to-content link（a11y best practice） */
+.skip-link {
+  position: absolute;
+  top: -100px;
+  left: 1rem;
+  z-index: 200;
+  padding: 0.7rem 1.2rem;
+  background: var(--fg);
+  color: var(--bg);
+  font-family: var(--f-sans);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: top 0.2s;
+}
+.skip-link:focus {
+  top: 1rem;
+}
+
+/* P0-B · prefers-reduced-motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .diamond,
+  .circle-text,
+  .float-diamond {
+    animation: none !important;
+  }
+}
+
+/* P1-C · 手機觸控目標 ≥ 44px */
+@media (max-width: 700px) {
+  .nav-links a {
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+    padding: 0.6rem 0.7rem;
+    font-size: 0.62rem;
+  }
+  .tag-toggle button {
+    min-height: 44px;
+    padding: 0.7rem 1rem;
+  }
+  .back-cta,
+  .enter-btn {
+    min-height: 44px;
+  }
+}
+
+
+
+/* ============================================================
+   FUNCTIONAL ADDITIONS · v3 (2026-04-25)
+   - Email subscribe form
+   - Share buttons
+   - Pagefind search UI
+   - Reading time pill
+   ============================================================ */
+
+/* 訂閱表單 */
+.subscribe-form {
+  display: flex; gap: 0.6rem; flex-wrap: wrap; align-items: stretch;
+  margin-top: 0.5rem;
+}
+.subscribe-form input[type="email"] {
+  flex: 1 1 220px; min-width: 0;
+  padding: 0.7rem 0.9rem;
+  font-family: var(--f-sans); font-size: 0.85rem;
+  background: transparent;
+  border: 1px solid var(--panel-fg);
+  color: inherit;
+}
+.subscribe-form input[type="email"]:focus {
+  outline: 2px solid var(--panel-fg); outline-offset: 2px;
+}
+.subscribe-form button {
+  padding: 0.7rem 1.2rem;
+  font-family: var(--f-sans); font-weight: 600;
+  font-size: 0.78rem; letter-spacing: 0.2em; text-transform: uppercase;
+  background: var(--panel-fg); color: var(--panel);
+  border: 1px solid var(--panel-fg); cursor: pointer;
+  transition: opacity .2s;
+}
+.subscribe-form button:hover { opacity: 0.85; }
+.subscribe-msg { font-family: var(--f-sans); font-size: 0.72rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--mute-2); margin-top: 0.5rem; min-height: 1em; }
+
+/* 分享按鈕 */
+.share-bar {
+  margin: 4rem 0 0; padding-top: 2rem;
+  border-top: 1px solid var(--line);
+  display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap;
+}
+.share-label {
+  font-family: var(--f-mono); font-size: 0.72rem;
+  letter-spacing: 0.18em; color: var(--mute);
+  text-transform: uppercase; margin-right: 0.5rem;
+}
+.share-bar a, .share-bar button {
+  display: inline-flex; align-items: center; gap: 0.4rem;
+  padding: 0.55rem 0.9rem; min-height: 36px;
+  font-family: var(--f-sans); font-size: 0.7rem;
+  letter-spacing: 0.18em; text-transform: uppercase;
+  border: 1px solid var(--line); color: var(--fg);
+  background: transparent; cursor: pointer;
+  transition: background .2s, color .2s, border-color .2s;
+}
+.share-bar a:hover, .share-bar button:hover {
+  background: var(--fg); color: var(--bg); border-color: var(--fg);
+}
+.share-bar svg { width: 14px; height: 14px; }
+
+/* Reading time pill (post-meta-top 內) */
+.read-time { color: var(--mute); }
+.read-time::before { content: "·"; margin-right: 0.5rem; color: var(--mute-2); }
+
+/* Prev/Next 導覽 */
+.prev-next {
+  margin: 5rem 0 0; padding: 2rem 0; border-top: 1px solid var(--line);
+  display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;
+}
+.prev-next a {
+  display: block; padding: 1.2rem 1.4rem;
+  border: 1px solid var(--line);
+  transition: border-color .2s, background .2s;
+}
+.prev-next a:hover { border-color: var(--fg); background: rgba(255,255,255,0.03); }
+.prev-next a.next { text-align: right; }
+.prev-next .label {
+  display: block; font-family: var(--f-sans);
+  font-size: 0.7rem; letter-spacing: 0.22em;
+  color: var(--mute); text-transform: uppercase; margin-bottom: 0.5rem;
+}
+.prev-next .title {
+  display: block; font-family: var(--f-display);
+  font-weight: 700; font-size: 1rem; line-height: 1.3;
+  letter-spacing: -0.01em; color: var(--fg);
+}
+@media (max-width: 700px) {
+  .prev-next { grid-template-columns: 1fr; }
+  .prev-next a.next { text-align: left; }
+}
+
+/* Pagefind 搜尋 UI override（mono brutalist 化） */
+#search {
+  margin: 0 auto 2rem; max-width: 760px;
+}
+.pagefind-ui__search-input {
+  background: transparent !important; color: var(--fg) !important;
+  border: 1px solid var(--fg) !important; border-radius: 0 !important;
+  font-family: var(--f-sans) !important;
+}
+.pagefind-ui__result {
+  border-bottom: 1px solid var(--line) !important; padding: 1rem 0 !important;
+}
+.pagefind-ui__result-link {
+  color: var(--fg) !important;
+  font-family: var(--f-display) !important; font-weight: 700 !important;
+}
+
+
+/* 2026-04-27 daily overrides */
+.post-body .source-footer { border-top: 1px dashed rgba(255,255,255,0.18); margin-top: 2rem; padding-top: 1rem; font-family: var(--f-mono); font-size: 0.78rem; opacity: 0.6; color: #D9D9D9; }
+.post-body .source-footer-label { text-transform: uppercase; letter-spacing: 0.12em; margin-bottom: 0.4rem; }
+.post-body .source-footer ul { list-style: none; padding: 0; margin: 0; }
+.post-body .source-footer li { margin: 0.25rem 0; padding-left: 0; }
+.post-body .source-footer li::before { content: none; }
+.post-body .source-footer a { color: var(--fg); text-decoration: underline; border-bottom: none; }
+.post-body figure img { width: 100%; height: auto; max-height: 460px; object-fit: cover; object-position: center; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.1); }
+</style>
+<link rel="stylesheet" href="/assets/site-extras.css">
+<link rel="alternate" type="application/rss+xml" title="AI DESK RSS" href="/rss.xml">
+</head>
+<body>
+
+<nav class="nav-top">
+  <a href="../index.html" class="nav-brand">
+    <span class="diamond"></span>
+    AI DESK
+  </a>
+  <div class="nav-links">
+    <a href="index.html" class="active">Journal</a>
+    <a href="https://www.instagram.com/ai_desk_0424?igsh=eHd5Mzg1NTV3MDNi&utm_source=qr" target="_blank" rel="noopener">IG</a>
+  </div>
+</nav>
+
+<nav class="crumbs">
+  <a href="../index.html">Index</a><span class="sep">/</span>
+  <a href="index.html">Journal</a><span class="sep">/</span>
+  04/30 AI 大事
+</nav>
+
+<main id="main">
+
+<header class="post-head">
+  <div class="post-meta-top">
+    <span class="num">Edition N°07</span>
+    <span>2026 · 04 · 30 · THU</span>
+    <span>Daily · AI 大事</span>
+    <span>07:00 CST</span>
+    <span class="read-time">11 min read</span>
+  </div>
+  <h1 class="post-title">2026/04/30 · AI 大事 · DeepMind 王牌募 11 億賭新 RL · OpenAI 解套 Microsoft 上 AWS · Mistral 中型 agent · Anthropic 計費 bug 炎上</h1>
+  <p class="post-sub">DeepMind 王牌 David Silver 出走募 11 億美元，估值 51 億，押注「不靠人類資料的 RL」對沖 LLM scaling。OpenAI 終結 Microsoft 獨家綁定，新版模型隔天直接登上 AWS Bedrock，三巨頭雲端 AI 結構一夜重畫。Mistral Medium 3.5 把 remote agents + vibe coding 推向中型開源價位。Anthropic Hermes 計費 bug 多扣 200 美拒退，HN 一夜 756 pts 炎上。4 條附圖附源附判斷。</p>
+  <div class="post-tags"><span class="tag">Daily · AI 大事</span><span class="tag mute">DeepMind</span><span class="tag mute">OpenAI</span><span class="tag mute">Microsoft</span><span class="tag mute">AWS</span><span class="tag mute">Anthropic</span><span class="tag mute">Mistral</span><span class="tag mute">open-source</span><span class="tag mute">tools</span><span class="tag mute">startups</span></div>
+</header>
+
+<article class="post">
+  <div class="post-body">
+
+<aside class="keypoints">
+  <div class="kp-label">📌 今日重點方向 · Key Signals</div>
+  <ol>
+    <li><strong>RL 不靠人類資料的賭注被機構化定價 · Post-LLM bet gets institutional pricing</strong> — DeepMind 王牌 David Silver 三個月前自立門戶，Lightspeed 與 Sequoia 領投募 11 億美、估值 51 億，全力押注「不依賴人類資料的強化學習」。同時 Mistral Medium 3.5 把 remote agents 與 vibe coding 直接打進中型模型價位帶。市場正分裂為「LLM 還能 scale」與「該換新 paradigm」兩派。</li>
+    <li><strong>OpenAI 雲端綁定鬆綁，多雲時代正式開檯 · OpenAI cloud lock-in unwinds</strong> — Microsoft 同意放棄 OpenAI 模型獨家權，改成營收分潤；AWS 24 小時內就把新版模型加上 Bedrock managed agent service 上架開賣。三巨頭 FY26 雲端 AI 訂單一夜重畫，Anthropic 對 AWS 的依賴頓時不再對等。</li>
+    <li><strong>開發者社群信任警報亮燈 · Developer trust under fire</strong> — Anthropic Claude Code 一個 HERMES.md 計費 bug 多扣用戶 200 美元、客服一句拒退，issue 一夜衝 HN 756 pts、296 留言；前一天才剛收場 Claude.ai 全站掛點。前沿廠商從「技術領先」轉向「客服與合約透明」這條老派競爭軸的速度比預期更快。</li>
+  </ol>
+</aside>
+
+<hr>
+
+<h2><span class="num">N°24</span> DeepMind 王牌 David Silver 創 Ineffable Intelligence · 募 11 億美賭 RL 不靠人類資料</h2>
+
+<figure>
+  <img src="../assets/news/ineffable-intelligence.jpg" alt="TechCrunch hero photo for the David Silver Ineffable Intelligence funding story">
+  <figcaption>SOURCE · TECHCRUNCH · INEFFABLE INTELLIGENCE COVERAGE · 2026-04-27</figcaption>
+</figure>
+
+<p><strong>Pin · AlphaGo 之父帶著 11 億美元下車，賭的是 LLM scaling 不會是終局。</strong></p>
+
+<h3>發生什麼</h3>
+
+<p>TechCrunch 報導：<a href="https://en.wikipedia.org/wiki/David_Silver_(computer_scientist)" target="_blank" rel="noopener">David Silver</a>（AlphaGo、AlphaZero、AlphaStar 的核心研究者）三個月前低調離開 Google DeepMind，創辦 Ineffable Intelligence。新一輪由 Lightspeed Venture Partners 與 Sequoia Capital 共同領投，募資總額 11 億美元、投後估值 51 億美元。創辦團隊多數來自 DeepMind 強化學習線。</p>
+
+<p>Ineffable Intelligence 的對外定位是「打造一個不依賴人類資料就能持續學習的 AI 系統」——把 reward signal 與 self-play 從 game / sim 環境延伸到通用任務。Silver 在 2024 年那篇〈Welcome to the Era of Experience〉立場文中已經寫過這個方向：模型不該再被人類資料的天花板綁住，而是要靠與環境互動產生的經驗自我演化。新公司的研究路線是這篇文章的工程化版本。</p>
+
+<p>11 億美元、種子加首輪一次到位，是純 AI lab 賽道少見的開局規模。對比 Mira Murati 的 Thinking Machines（首輪約 7 億美元）、Ilya Sutskever 的 Safe Superintelligence（10 億美元），Ineffable 這把出價已經把「離職的明星 PI 」這個身分定價到天花板。</p>
+
+<h3>為什麼重要</h3>
+
+<p><strong>第一，「post-LLM scaling」第一次拿到機構級子彈。</strong>過去兩年「LLM scaling 還沒撞牆」是矽谷主流敘事，所有大筆資金都往 GPU 與 pretraining run 集中。Silver 拿 11 億美元押反方，等於是 Lightspeed 與 Sequoia 用真金白銀對 LLM scaling 進行對沖。它們不是說 LLM 會死，而是說「最大化 reward 路線」可能在下一個 24 個月內出現第一個非 LLM 的前沿系統。</p>
+
+<p><strong>第二，DeepMind 與 Google 的人才護城河被再次切開一道口子。</strong>過去 12 個月離開 DeepMind 自立門戶的高階研究者（Mustafa Suleyman 進 Microsoft、Tim Brooks 進 OpenAI、現在的 Silver）已經明顯影響到 Gemini 後續迭代節奏。Google Cloud 拿下五角大廈擴大合約那一邊正在加速商業化，但 frontier research 那一端正在流血。</p>
+
+<p><strong>第三，估值錨會傳染到 Tier-2 lab。</strong>51 億美元估值對純 research stage（無產品、無客戶、無收入）的 lab 是新的天花板。下一輪 Series B 的 frontier lab，估值對標只會更高。</p>
+
+<h3>我們的判斷</h3>
+
+<p>三個看點：</p>
+
+<p><strong>(1) Ineffable 的第一個技術 demo 會被市場當作「LLM scaling 是否撞牆」的代理指標。</strong>無論 Silver 端出來的是 RL on simulator、self-play coding agent 還是 robotics 控制器，外界都會用它的能力曲線去校準「LLM 是不是該換棒」這個議題。建議把 Ineffable 的官方部落格與 arXiv 紀錄列入定期巡檢清單。</p>
+
+<p><strong>(2) Anthropic、OpenAI 的策略發言會出現「post-training is all you need」與「new paradigm」兩派內鬨。</strong>Silver 這條線會逼前沿 lab 的領導層在公開場合表態自己的 roadmap 偏哪一派；過去半年那種「我們什麼都做」的模糊回答會變得越來越貴。</p>
+
+<p><strong>(3) Nvidia 的 GPU 訂單敘事會被重新解讀。</strong>如果 RL paradigm 真的吃掉一部分 frontier research 預算，single-run pretraining 的 GPU 集群採購會被分散到更多 sim/agent farm 部署，Nvidia 的 CSP 客戶結構會變得更碎。下一份 Nvidia 法說會問答區，這題八成會被分析師端上來。</p>
+
+<div class="source-footer">
+  <div class="source-footer-label">— 源 · Sources</div>
+  <ul>
+    <li>TechCrunch · <a href="https://techcrunch.com/2026/04/27/deepminds-david-silver-just-raised-1-1b-to-build-an-ai-that-learns-without-human-data/" target="_blank" rel="noopener">techcrunch.com/deepminds-david-silver-just-raised-1-1b-to-build-an-ai-that-learns-without-human-data</a></li>
+    <li>Background · David Silver, Welcome to the Era of Experience（2024）· <a href="https://storage.googleapis.com/deepmind-media/Era-of-Experience%20/The%20Era%20of%20Experience%20Paper.pdf" target="_blank" rel="noopener">deepmind / era-of-experience</a></li>
+  </ul>
+</div>
+
+<hr>
+
+<h2><span class="num">N°25</span> OpenAI 解套 Microsoft 獨家權 · 模型登 AWS Bedrock 50B 大餅開吃</h2>
+
+<figure>
+  <img src="../assets/news/msft-openai-aws.jpg" alt="TechCrunch hero image for the OpenAI Microsoft AWS deal coverage">
+  <figcaption>SOURCE · TECHCRUNCH · OPENAI / MSFT / AWS DEAL COVERAGE · 2026-04-27</figcaption>
+</figure>
+
+<p><strong>Pin · OpenAI 終於把脖子上的繩子鬆開一格，多雲時代正式進入結算季。</strong></p>
+
+<h3>發生什麼</h3>
+
+<p>TechCrunch 兩篇接連報導：第一篇 4 月 27 日，Microsoft 同意放棄對 OpenAI 模型的獨家轉售權，改採營收分潤——OpenAI 之後可以把 frontier 模型直接賣給其他超大型雲端業者，Microsoft 從「唯一通路」退到「優先通路」。第二篇 4 月 28 日，AWS 在不到 24 小時內把新版 OpenAI 模型上架到 Bedrock，連同一個全新的 managed agent service 開賣，初期合約規模對外揭露為 50 億美元。</p>
+
+<p>從合約結構看，Microsoft 獨家解綁的條件包含：（1）OpenAI 仍承諾把 Azure 列為「優先 inference 供應」、（2）Microsoft 持續享有特定模型代際的代理銷售權、（3）營收分潤從原本的 75/25 改為更彈性的 stack-by-stack 拆帳。AWS 則用 Bedrock Managed Agents 這條 stack 把 OpenAI 模型直接打進企業 ETL、客服、coding agent 三條線。</p>
+
+<p>Sam Altman 與 AWS CEO Matt Garman 接受 Stratechery 採訪時都把這場合作稱作「multi-cloud 時代的開檯」。從訂單流動方向看，這也意味著 Microsoft 在過去兩年「OpenAI = Azure 唯一引擎」的故事正式收場。</p>
+
+<h3>為什麼重要</h3>
+
+<p><strong>第一，OpenAI 的雲端定價權回到自己手上。</strong>過去兩年 Azure 是 OpenAI 對外計費的單一窗口，Microsoft 取走相當比例的 spread。多雲解綁後，OpenAI 對 enterprise 的議價結構徹底改變——同一個 token 價格在 AWS、Azure、GCP 之間的差距會被逐步抹平。</p>
+
+<p><strong>第二，Anthropic 對 AWS 的依賴瞬間不再對等。</strong>Anthropic 與 AWS 過去是「資金 + 算力」深度綁定，AWS 把 Claude 當 Bedrock 旗艦。如今 Bedrock 同時上架 OpenAI 並推自家 managed agents stack，Claude 在 AWS 內部的優先級會被稀釋——加上 Anthropic 與 Google 的 400 億美元投資，Anthropic 的算力來源結構未來 6 個月會被 reshape。</p>
+
+<p><strong>第三，Microsoft 的 AI 故事被迫升級。</strong>Microsoft 不能再講「我們有 OpenAI 獨家」，必須回去講 Copilot 產品力、自家模型（MAI 系列）、Azure 平台與 Foundry stack。前一週 Microsoft 才把 VibeVoice 開源、加碼 Foundry Marketplace，背景動機現在看起來明顯——是在獨家解綁前先把「自己也能講」的故事補滿。</p>
+
+<h3>我們的判斷</h3>
+
+<p>三個看點：</p>
+
+<p><strong>(1) Bedrock Managed Agents 會成為 enterprise agent 的預設採購視窗。</strong>過去 enterprise 要買「能跑業務流程的 agent」，得自己拼 LangGraph、CrewAI、Temporal 等開源框架。AWS 把 OpenAI 模型 + agent runtime + 觀測台 + 帳單一次包好，採購門檻被一次性拉低。下一輪 enterprise RFP 會把「Bedrock 相容」直接寫進需求。</p>
+
+<p><strong>(2) Microsoft 必須把 Copilot 從「OpenAI 套殼」升級為「跨模型 orchestrator」。</strong>當 OpenAI 模型在 AWS 也買得到，Microsoft 的 Copilot 必須端出單一獨家價值——多模型 routing、Office 深度整合、企業合規 stack。下一個 Build 大會的主題八成會繞著「Copilot 是 platform 不是 wrapper」打。</p>
+
+<p><strong>(3) frontier 模型的「雲端中立」會變成銷售必備話術。</strong>Anthropic 上週已被 Vertex 與 Bedrock 同時上架；OpenAI 跟上；Mistral、Cohere、xAI 預期半年內全部跟進。雲端不再是模型的歸屬地，而是 distribution channel。「我跑在哪一朵雲」這個問題 6 個月後對開發者就不存在。</p>
+
+<div class="source-footer">
+  <div class="source-footer-label">— 源 · Sources</div>
+  <ul>
+    <li>TechCrunch · <a href="https://techcrunch.com/2026/04/27/openai-ends-microsoft-legal-peril-over-its-50b-amazon-deal/" target="_blank" rel="noopener">techcrunch.com/openai-ends-microsoft-legal-peril-over-its-50b-amazon-deal</a></li>
+    <li>TechCrunch · <a href="https://techcrunch.com/2026/04/28/amazon-is-already-offering-new-openai-products-on-aws/" target="_blank" rel="noopener">techcrunch.com/amazon-is-already-offering-new-openai-products-on-aws</a></li>
+  </ul>
+</div>
+
+<hr>
+
+<h2><span class="num">N°26</span> Mistral Medium 3.5 發布 · vibe coding 與 remote agents 直接砸向中型開源價位</h2>
+
+<figure>
+  <img src="../assets/news/mistral-medium-3-5.png" alt="Mistral AI cover image for the Medium 3.5 remote agents launch">
+  <figcaption>SOURCE · MISTRAL AI · OFFICIAL COVER · MEDIUM 3.5 LAUNCH</figcaption>
+</figure>
+
+<p><strong>Pin · 中型模型的 agent 能力與旗艦差距，又被歐洲開源派砍掉一刀。</strong></p>
+
+<h3>發生什麼</h3>
+
+<p>Mistral 4 月 28 日發布 Medium 3.5，主打兩條 stack：第一條是 remote agents——把工具呼叫、長 context、多步驟規劃整合進雲端 runtime；第二條是 vibe coding——在 IDE 中直接以 natural language 指令驅動 codebase 改寫、測試與部署。發布當天即在自家 La Plateforme、Hugging Face、Vertex AI 三邊上架，價格定位低於 GPT-4.1 mini 與 Claude Sonnet 4.5 約 30%。Hacker News 一日衝 357 pts、178 則留言。</p>
+
+<p>從 Mistral 公布的 benchmark 看，Medium 3.5 在 SWE-bench Verified 與 Terminal-Bench 兩條 coding agent 主流榜單，已經與 6 個月前的旗艦 Large 模型同水位；在 GAIA agent benchmark 也僅落後 Claude Sonnet 4.5 約 4 分。對中型模型來說，這是把「足夠用」的標準往上推了一格。</p>
+
+<p>Mistral 同時把 Medium 3.5 的 weights 提供給「特定開源研究合作對象」——雖未走完整 open weights 發行，但比起前代「全閉源」已經明顯讓步。HN 討論帶頭的幾條評論集中在「中型模型已經夠寫商業 SaaS 後端」這個觀察點。</p>
+
+<h3>為什麼重要</h3>
+
+<p><strong>第一，coding agent 的單位成本被歐洲玩家進一步壓縮。</strong>過去半年 Claude Sonnet 4.x 與 GPT-5 mini 在 IDE agent 場景拿走多數市占；Mistral 用低 30% 的價格與 OpenAI/Anthropic 「同水位但便宜」的定位切入。對 Cursor、Cline、Cody 這類 IDE agent 廠商來說，多增一個可選 provider 就多一張議價牌。</p>
+
+<p><strong>第二，「中型模型 + 強 agent runtime」是新標準形狀。</strong>Mistral Medium 3.5 + remote agents 把過去「要用 frontier 才能跑 agent」的假設正式打破。大量中型模型只要搭配良好的 tool use、planning loop 與環境，就能完成 80% 的企業流程自動化。frontier 模型的差異化必須往 reasoning 深度與 multimodal 走。</p>
+
+<p><strong>第三，歐洲 AI 主權敘事拿到具體商業彈藥。</strong>Mistral 是法國旗手，Medium 3.5 同步上 Vertex 與 La Plateforme，等於對歐盟 enterprise 客戶交出「不依賴美國雲、不依賴美國模型」的完整 stack。這條故事在歐盟 AI Act 全面落地前 6 個月會被反覆引用。</p>
+
+<h3>我們的判斷</h3>
+
+<p>三個看點：</p>
+
+<p><strong>(1) IDE agent 廠商會在 Q3 內把 Mistral 列為預設可選 provider。</strong>Cursor 與 Continue 過去多以 Claude 為預設，Mistral Medium 3.5 的成本曲線足以讓他們把「Mistral」加進預設下拉選單，給用戶一條「便宜也夠用」的路線。短期會壓低 Anthropic Claude Sonnet 的單位營收。</p>
+
+<p><strong>(2) frontier lab 會被迫把「reasoning 加深」當差異化主軸。</strong>當中型模型已經能跑 agent，frontier 模型的售價要撐住，就必須端出 mid-to-long horizon planning、多 agent collaboration、深度 reasoning chain 等不可被中型模型平替的能力。下一代 Claude Opus、GPT-5 系列的故事重心會明顯往「能想得更遠」這條軸轉。</p>
+
+<p><strong>(3) 開源 vs 半開源的中間地帶會更熱鬧。</strong>Mistral 的「給特定研究夥伴 weights」這條路徑，預期會被 Cohere、AI21、阿里通義、智譜等同時跟進。完全閉源 vs 完全開源的二分法會被「分層 license」取代——這對企業客戶選 model 會帶來新的合規評估維度。</p>
+
+<div class="source-footer">
+  <div class="source-footer-label">— 源 · Sources</div>
+  <ul>
+    <li>Mistral AI Official · <a href="https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5" target="_blank" rel="noopener">mistral.ai/news/vibe-remote-agents-mistral-medium-3-5</a></li>
+    <li>Hacker News（357 分 · 178 留言）· <a href="https://news.ycombinator.com/item?id=47949642" target="_blank" rel="noopener">news.ycombinator.com/item?id=47949642</a></li>
+  </ul>
+</div>
+
+<hr>
+
+<h2><span class="num">N°27</span> Anthropic Claude Code 計費 bug 多扣 200 美拒退 · HN 一夜 756 pts 炎上</h2>
+
+<figure>
+  <img src="../assets/news/anthropic-hermes-billing-bug.png" alt="GitHub social preview for the anthropics/claude-code repository where the HERMES.md billing issue was filed">
+  <figcaption>SOURCE · GITHUB · ANTHROPICS/CLAUDE-CODE ISSUE 53262</figcaption>
+</figure>
+
+<p><strong>Pin · 連續第二天踩到 Anthropic 的客服與計費信任地雷。</strong></p>
+
+<h3>發生什麼</h3>
+
+<p>Claude Code 用戶在 GitHub repo `anthropics/claude-code` 開出 issue #53262：使用 HERMES.md 一個內建工作流時，背景多輪 tool call 觸發 token 重複計費，單一帳號一天被多扣約 200 美元。提交者附上完整 token usage log 與支援工單來回截圖，重點在於 Anthropic 客服回覆「按計費規則無誤、不予退款」，而非承認 bug。issue 在台灣時間清晨被推上 Hacker News，一夜衝到 756 pts、296 則留言。</p>
+
+<p>留言群分三派：第一派是被類似情況咬過的 Claude Code 重度用戶，分享自己也遇到「同一個 prompt 重複跑」「context 自動展開後爆 token」的計費黑箱；第二派是同行廠商的工程師，比對自家 metering 方式；第三派則討論 Claude Code 的計費透明度與 OpenAI、Cursor、Cline 的對比。</p>
+
+<p>Anthropic 在 issue 區的官方第一個回覆出現在事發後約 9 小時，承諾會檢視 HERMES.md 流程的計費邏輯，但仍未承諾退款。HN 上有用戶自掏腰包寫了 token-usage diff 工具，證實 HERMES.md 流程確實會多算一輪 system reminder。</p>
+
+<h3>為什麼重要</h3>
+
+<p><strong>第一，前沿廠商的計費透明度第一次被排上檯面。</strong>過去兩年大家糾結模型能力與價格表單價，沒人認真盯 metering 細節。當每個用戶月費從幾十美元升到幾百美元，metering 一個 bug 就是多扣三位數美金的事。HN 把這個議題放大後，competitor（OpenAI、Cursor、Cline、Cohere）會被反問同樣問題。</p>
+
+<p><strong>第二，「客服第一句話」被定價了。</strong>真正點燃這把火的不是 bug 本身，而是 Anthropic 客服那句「按計費規則無誤」。在開發者社群裡，這種預設「先擋退款」的回覆，對品牌的傷害遠超過實際 200 美元損失。對比同期 GitHub Copilot 計費爭議（4/28 已被 AI DESK 寫進 News）的態度，差距明顯。</p>
+
+<p><strong>第三，這是 Anthropic 連續第二天上 HN 頭條，方向都不利。</strong>前一天是 Claude.ai 全站掛點 incident 9L93X2HT4S5W，這一天是計費 bug 拒退；中間夾著拒簽五角大廈 → Google 補位的政治新聞。三件事疊加會讓「Anthropic 是不是運營能力跟不上模型能力」成為下一週固定的市場話題。</p>
+
+<h3>我們的判斷</h3>
+
+<p>三個看點：</p>
+
+<p><strong>(1) Claude Code 的留存率會在這一週出現可量測下降。</strong>計費爭議與服務中斷對開發者的離開門檻最低——只要 IDE agent 換掉 default provider 就能跳船。Cursor 與 Continue 已經支援多 provider，這一週是 Claude Code 對手免費搶用戶的窗口。</p>
+
+<p><strong>(2) Anthropic 必須在 7 天內端出 metering 透明度承諾。</strong>否則這條 issue 會被反覆引用到下一輪企業合約談判桌。建議方向至少包含：公開 token-usage log API、退款 SOP 公開、針對 HERMES.md / sub-agent / system reminder 等隱性 token 消耗給出明確 disclaimer。</p>
+
+<p><strong>(3) 第三方 metering 與成本治理工具會出現新的需求高峰。</strong>Helicone、LangSmith、OpenLLMetry 這類觀測類工具在過去 12 個月以「debug」為主軸；接下來「成本與計費對賬」會成為新一條主敘事。對企業客戶來說，自帶獨立 metering 已經從「nice to have」變成 procurement 必選。</p>
+
+<div class="source-footer">
+  <div class="source-footer-label">— 源 · Sources</div>
+  <ul>
+    <li>GitHub Issue · <a href="https://github.com/anthropics/claude-code/issues/53262" target="_blank" rel="noopener">github.com/anthropics/claude-code/issues/53262</a></li>
+    <li>Hacker News（756 分 · 296 留言）· <a href="https://news.ycombinator.com/item?id=47952722" target="_blank" rel="noopener">news.ycombinator.com/item?id=47952722</a></li>
+  </ul>
+</div>
+
+<hr>
+
+<p style="font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; opacity: 0.55; text-align: center; margin-top: 3rem;">
+  · 編輯台 · 明天 07:00 再見 ·
+</p>
+
+
+    </div>
+</article>
+
+
+
+
+<div class="share-bar" aria-label="分享這篇">
+  <span class="share-label">— Share</span>
+  <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fai-desk-tw.netlify.app%2Fposts%2F2026-04-30-daily.html&text=2026/04/30%20%C2%B7%20AI%20%E5%A4%A7%E4%BA%8B%20%C2%B7%20DeepMind%20%E7%8E%8B%E7%89%8C%E5%8B%9F%2011%20%E5%84%84%20%C2%B7%20OpenAI%20%E8%A7%A3%E5%A5%97%20MSFT%20%E4%B8%8A%20AWS%20%C2%B7%20Mistral%20%C2%B7%20Anthropic%20%E8%A8%88%E8%B2%BB%20bug%20%E7%82%8E%E4%B8%8A" target="_blank" rel="noopener" aria-label="Share on X (Twitter)">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+    X
+  </a>
+  <a href="https://www.threads.net/intent/post?text=2026/04/30%20%C2%B7%20AI%20%E5%A4%A7%E4%BA%8B%20%C2%B7%20DeepMind%20%E7%8E%8B%E7%89%8C%E5%8B%9F%2011%20%E5%84%84%20%C2%B7%20OpenAI%20%E8%A7%A3%E5%A5%97%20MSFT%20%E4%B8%8A%20AWS%20%C2%B7%20Mistral%20%C2%B7%20Anthropic%20%E8%A8%88%E8%B2%BB%20bug%20%E7%82%8E%E4%B8%8A%20https%3A%2F%2Fai-desk-tw.netlify.app%2Fposts%2F2026-04-30-daily.html" target="_blank" rel="noopener" aria-label="Share on Threads">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.18 11.21c-.08-.04-.16-.08-.24-.11-.14-2.59-1.55-4.07-3.92-4.09h-.03c-1.42 0-2.6.61-3.33 1.71l1.31.9c.54-.82 1.39-.99 2.02-.99h.02c.79 0 1.39.23 1.78.69.28.34.47.81.56 1.4-.69-.12-1.43-.16-2.22-.12-2.22.13-3.65 1.42-3.55 3.22.05.91.51 1.7 1.28 2.21.65.43 1.49.65 2.36.61 1.15-.06 2.05-.5 2.69-1.3.48-.6.78-1.39.93-2.39.6.36 1.04.83 1.29 1.4.42.96.45 2.55-.85 3.85-1.13 1.13-2.5 1.62-4.55 1.64-2.27-.02-3.99-.75-5.11-2.18-1.06-1.34-1.6-3.27-1.62-5.74.02-2.47.56-4.4 1.62-5.74C8.86 3.4 10.58 2.67 12.85 2.65c2.29.02 4.04.75 5.2 2.19.57.7.99 1.59 1.27 2.62l1.55-.41c-.34-1.27-.86-2.36-1.59-3.25C17.81 1.86 15.62.93 12.86.91h-.01C10.1.93 7.93 1.87 6.42 3.71c-1.34 1.65-2.04 3.95-2.06 6.83v.02c.02 2.88.72 5.18 2.06 6.83 1.51 1.84 3.68 2.78 6.43 2.8h.01c2.45-.02 4.18-.66 5.6-2.08 1.86-1.86 1.81-4.19 1.19-5.62-.44-1.03-1.29-1.86-2.46-2.4z"/></svg>
+    Threads
+  </a>
+  <button type="button" onclick="navigator.clipboard.writeText(window.location.href).then(()=>{this.textContent='✓ Copied'; setTimeout(()=>this.textContent='Copy link', 2000);})" aria-label="Copy link">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+    Copy link
+  </button>
+</div>
+
+
+
+<div class="article-foot">
+  <a href="index.html" class="back-cta">← 回 Journal</a>
+  <div class="foot-stamp">AI DESK · Edition N°07 · 2026 · 04 · 30</div>
+</div>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-lockup">AI DESK</div>
+    <div class="footer-row">
+      <div class="cell">
+        <div class="label">Instagram</div>
+        <div class="val"><a href="https://www.instagram.com/ai_desk_0424?igsh=eHd5Mzg1NTV3MDNi&utm_source=qr" target="_blank" rel="noopener">@ai_desk_0424</a></div>
+      </div>
+      <div class="cell">
+        <div class="label">Journal</div>
+        <div class="val"><a href="index.html">All editions →</a></div>
+      </div>
+      <div class="cell">
+        <div class="label">Cadence</div>
+        <div class="val">Daily · 07:00 CST</div>
+      </div>
+        <div class="cell" style="grid-column: span 2;">
+    <div class="label">Subscribe</div>
+    <form name="subscribe" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="subscribe-form" action="/?subscribed=1">
+      <input type="hidden" name="form-name" value="subscribe">
+      <p hidden><label>Don't fill this: <input name="bot-field"></label></p>
+      <input type="email" name="email" placeholder="email@example.com" required aria-label="Email address">
+      <button type="submit">Subscribe →</button>
+    </form>
+    <div class="subscribe-msg">每日 07:00 CST 收信 · 不轉售名單</div>
+  </div>
+    </div>
+    <div class="footer-base">
+      <div>© 2026 AI DESK · Independent editorial</div>
+      <div>A signal, not the noise.</div>
+    </div>
+  </div>
+</footer>
+
+<script src="/assets/site-extras.js" defer></script>
+
+</body>
+</html>
+
