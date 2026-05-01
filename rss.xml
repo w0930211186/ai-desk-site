@@ -5,8 +5,29 @@
     <link>https://ai-desk-tw.netlify.app/</link>
     <description>獨立 AI 編輯台 · 每天 07:00 CST · 1 分鐘看完全球 AI 大事 · 每條附源</description>
     <language>zh-Hant</language>
-    <lastBuildDate>Tue, 28 Apr 2026 23:07:49 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 01 May 2026 23:09:53 +0000</lastBuildDate>
     <atom:link href="https://ai-desk-tw.netlify.app/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2026-05-02-daily</title>
+      <link>https://ai-desk-tw.netlify.app/posts/2026-05-02-daily.html</link>
+      <guid isPermaLink="true">https://ai-desk-tw.netlify.app/posts/2026-05-02-daily.html</guid>
+      <pubDate>Sat, 02 May 2026 07:00:00 +0800</pubDate>
+      <description></description>
+    </item>
+    <item>
+      <title>2026/05/01 · AI 大事 · Stripe Link 接通 agent 金流 · Anthropic 9000 億估值 · OpenAI 鎖 Cyber API · Claude Code 擋 OpenClaw · Mozilla 反 Chrome Prompt API</title>
+      <link>https://ai-desk-tw.netlify.app/posts/2026-05-01-daily.html</link>
+      <guid isPermaLink="true">https://ai-desk-tw.netlify.app/posts/2026-05-01-daily.html</guid>
+      <pubDate>Fri, 01 May 2026 07:00:00 +0800</pubDate>
+      <description>Stripe Link 數位錢包接通 AI agent 授權消費，agentic commerce 金流底座到位。Anthropic 收到多筆 preemptive offer 估值區間 850B–900B 美金，新一輪規模上看 500 億。OpenAI 收緊 GPT-5.5 Cyber API 改白名單制，被打臉自家過去抨擊 Anthropic Mythos 的言論。Claude Code 被抓到偵測 commit 含 OpenClaw 字眼直接拒絕，HN 776 分炸鍋。Mozilla 公開反對 Chrome Prompt API，Web 標準 vs 廠商鎖定戰開打。5 條附圖附源附判斷，3 實圖 2 editorial card。</description>
+    </item>
+    <item>
+      <title>04/30 AI 大事 · DeepMind 王牌募 11 億 · OpenAI 解套 MSFT 上 AWS · Mistral Medium 3.5 · Anthropic 計費 bug 炎上 | AI DESK</title>
+      <link>https://ai-desk-tw.netlify.app/posts/2026-04-30-daily.html</link>
+      <guid isPermaLink="true">https://ai-desk-tw.netlify.app/posts/2026-04-30-daily.html</guid>
+      <pubDate>Thu, 30 Apr 2026 07:00:00 +0800</pubDate>
+      <description>DeepMind 王牌 David Silver 出走募 11 億美元，估值 51 億，押注「不靠人類資料的 RL」對沖 LLM scaling。OpenAI 終結 Microsoft 獨家綁定，新版模型隔天直接登上 AWS Bedrock，三巨頭雲端 AI 結構一夜重畫。Mistral Medium 3.5 把 remote agents + vibe coding 推向中型開源價位。Anthropic Hermes 計費 bug 多扣 200 美拒退，HN 一夜 756 pts 炎上。4 條附圖附源附判斷。</description>
+    </item>
     <item>
       <title>2026/04/29 · AI 大事 · Claude.ai 全站掛點、Anthropic 拒接五角大廈、微軟 VibeVoice 開源、OpenAI 上 AWS Bedrock</title>
       <link>https://ai-desk-tw.netlify.app/posts/2026-04-29-daily.html</link>
