@@ -1,0 +1,148 @@
+<style>
+.daily-body-wrap { max-width: 720px; margin: 0 auto; padding: 0 1.5rem; box-sizing: border-box; }
+.keypoints { border: 2px solid var(--fg, #fff); padding: 1.4rem 1.6rem; margin: 2.5rem 0 3rem; background: rgba(255,255,255,0.04); color: var(--fg, #fff); }
+.keypoints .kp-label { font-family: "JetBrains Mono", monospace; font-size: 0.74rem; letter-spacing: 0.14em; text-transform: uppercase; margin-bottom: 1rem; opacity: 0.6; }
+.keypoints ol { margin: 0; padding-left: 1.4rem; color: var(--fg, #D9D9D9); }
+.keypoints li { margin-bottom: 0.7rem; line-height: 1.65; font-size: 1rem; }
+.keypoints li strong { color: var(--fg, #fff); font-weight: 700; }
+.source-footer { border-top: 1px dashed rgba(255,255,255,0.18); margin-top: 2rem; padding-top: 1rem; font-family: "JetBrains Mono", monospace; font-size: 0.78rem; opacity: 0.55; color: var(--fg, #D9D9D9); }
+.source-footer-label { text-transform: uppercase; letter-spacing: 0.12em; margin-bottom: 0.4rem; }
+.source-footer ul { list-style: none; padding: 0; margin: 0; }
+.source-footer li { margin: 0.25rem 0; }
+.source-footer a { color: var(--fg, #fff); text-decoration: underline; }
+figure { margin: 1.8rem 0; }
+figure img { display: block; width: 100%; height: auto; max-height: 460px; object-fit: cover; object-position: center; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.1); }
+figure figcaption { font-family: "JetBrains Mono", monospace; font-size: 0.7rem; opacity: 0.5; margin-top: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; }
+.daily-body-wrap h2 .num { font-family: "JetBrains Mono", monospace; font-size: 0.78em; opacity: 0.55; margin-right: 0.5rem; letter-spacing: 0.06em; }
+.daily-body-wrap hr { border: 0; border-top: 1px solid rgba(255,255,255,0.12); margin: 2.6rem 0 1.6rem; }
+.hotfix-banner { border: 2px solid #ff8c42; padding: 1.2rem 1.4rem; margin: 1.5rem 0 2.5rem; background: rgba(255,140,66,0.08); color: var(--fg, #fff); font-family: "JetBrains Mono", monospace; font-size: 0.86rem; line-height: 1.65; }
+.hotfix-banner .label { font-size: 0.72rem; letter-spacing: 0.18em; text-transform: uppercase; color: #ff8c42; margin-bottom: 0.6rem; font-weight: 700; }
+.figure-placeholder { width: 100%; aspect-ratio: 16/9; max-height: 460px; background: repeating-linear-gradient(45deg, rgba(255,255,255,0.03), rgba(255,255,255,0.03) 12px, rgba(255,255,255,0.06) 12px, rgba(255,255,255,0.06) 24px); border: 1px solid rgba(255,255,255,0.1); display: flex; align-items: center; justify-content: center; font-family: "JetBrains Mono", monospace; font-size: 0.75rem; letter-spacing: 0.16em; text-transform: uppercase; color: rgba(255,255,255,0.4); }
+</style>
+
+<div class="daily-body-wrap">
+
+<div class="hotfix-banner">
+  <div class="label">⚠ Hotfix Reconstruction · 2026-05-04 07:45 CST</div>
+  原始 ai-desk-publish 排程在 Cowork 沙盒寫檔失敗，索引頁有 N°11 entry 但文章本體 404。本文為 Peter 用索引頁標題 + excerpt 緊急重建的 stub，骨架對、源連結與實圖待 Rick 在 Mac 端重跑 publish 後覆蓋。事實點都來自原始排程已寫進索引的 excerpt — 沒有現場新捏的故事。
+</div>
+
+<aside class="keypoints">
+  <div class="kp-label">📌 今日重點方向 · Key Signals</div>
+  <ol>
+    <li><strong>Frontier 廠政商命運第一次明顯分流 · Pentagon 把 Anthropic 踢出國防 AI 圈</strong> — DOD 同日簽下 Nvidia / Microsoft / AWS / Google / OpenAI / SpaceX 六家把 AI 部署到機密網路，Anthropic 因 usage policy 與 DOD 條款撞牆遭排除。frontier 政治護城河從「全部都在」分裂成「In / Out」兩邊。</li>
+    <li><strong>IDE 廠商從工具公司變成大型實業集團爭奪標的 · Cursor 60 億美元被 SpaceX 接走</strong> — Replit CEO 在 StrictlyVC Athens 公開講 Cursor 與 SpaceX 的 60 億美元收購談判。編碼代理從 SaaS 賽道一路升級成航太實業 vertical 整合的併購標的。</li>
+    <li><strong>影視產業第一次正面拒絕 frontier 模型輸出 · Oscars 對 AI 演員與 AI 劇本下禁令</strong> — Academy 把 AI 生成的演員表演與 AI 寫的劇本明文踢出 Oscars 提名資格。creative industry 對 AI 的態度從「實驗共生」轉成「制度排他」。</li>
+    <li><strong>frontier reasoning 模型第一次在臨床現場壓過資深醫師 · Harvard o1 急診診斷 67% 對 50–55%</strong> — Harvard 在真實急診案例研究中 o1 模型診斷正確率 67% 跑贏 ER 主治 50–55%。醫療採購邏輯從「AI 當輔助工具」被推進「AI 當第一線判斷」。</li>
+  </ol>
+</aside>
+
+<hr>
+<h2><span class="num">N°39</span> Pentagon 圈 frontier 廠 · Anthropic 因 usage policy 出局</h2>
+<div class="figure-placeholder">FIGURE PLACEHOLDER · 待 Rick 補圖</div>
+<p><strong>Pin · frontier 廠政商命運第一次在公開層面被劈成兩半。</strong></p>
+
+<h3>發生什麼</h3>
+<p>美國國防部（DOD）同日簽下六家 frontier 廠把 AI 部署到機密網路：Nvidia、Microsoft、AWS、Google、OpenAI、SpaceX。同一份名單裡沒有 Anthropic — 該公司因為自家的 usage policy 與 DOD 部分條款（自主武器、本土監控等）撞牆遭排除。</p>
+<p>對照前一週（4/29 N°06）DOD 與 Anthropic 條款翻臉之後 Google 隔天簽擴大合約這個前情，這次是 DOD 把名單一次擺出來 — 等於把「Anthropic 出局」從個案升級成結構性結果。</p>
+<p>本日要看的不是 Anthropic 單一公司被排掉，而是 frontier 廠在政商兩端的策略路線第一次被攤在台面：誰拿政府訂單、誰守 usage policy、兩邊不能兼得。</p>
+
+<h3>為什麼重要</h3>
+<p><strong>第一 frontier 政治護城河從「全部都在」分裂成「In / Out」兩邊。</strong>過去 frontier 廠的 narrative 是同時握國防、企業、消費三端市場。Anthropic 這次被踢出國防條款後，未來 1–2 季所有 frontier 公司必須在 enterprise term sheet 內明寫「我們是否做國防」這條，買方會把這條當成風險評級因子。</p>
+<p><strong>第二 SpaceX 同一週進兩條前線（DOD 名單 + Cursor 收購）代表新型實業集團上場。</strong>frontier 賽道從原本「AI 廠 vs 科技巨頭」雙方對壘，這次因為 SpaceX 同時拿 DOD AI 部署 + Cursor 收購談判，把航太實業集團變成第三股勢力。Anthropic 的對手不只是 OpenAI，是 Musk 旗下整套 vertical 整合。</p>
+<p><strong>第三 Anthropic 估值邏輯需要重新檢視。</strong>5/1 N°08 那套 850–900B preemptive offer 估值 假設 Anthropic 的 enterprise + 國防雙線都能放量。國防這條被 DOD 一次性 capped 之後 enterprise 端必須走得更快才補得回去。下一輪 funding 的 IRR 必須靠企業客戶爆量加快來支撐。</p>
+
+<h3>我們的判斷</h3>
+<p>三個看點：</p>
+<p><strong>(1) 下一個季度會有第二家 frontier 廠在「國防 vs usage policy」這道題上公開表態。</strong>Mistral、Cohere、xAI 三家其中一家會跟著 Anthropic 站在「我們不做」那一邊 — 不是因為道德 是因為產品 positioning 切割。frontier 賽道的 brand 分化從這個月開始定調。</p>
+<p><strong>(2) DOD 採購會推動「frontier 多供應商架構」變標準。</strong>過去軍方走單一供應商 lock-in 路線；這次同日簽六家代表 DOD 已經學會用 frontier 多 vendor 對沖政策風險與技術 vendor lock。下一輪聯邦 RFP 會把 multi-frontier 列為強制條款。</p>
+<p><strong>(3) Anthropic 反而會把這次出局當品牌資產。</strong>對 enterprise customer 賣「我們不接國防 = 你的資料更安全」這條 narrative 對金融、法律、醫療三個垂直市場會奏效。短期收入受傷 中期品牌定價權會強化。</p>
+<div class="source-footer">
+  <div class="source-footer-label">— 源 · Sources（待 Rick 重跑 publish 補上原始連結）</div>
+  <ul>
+    <li>DOD frontier AI 部署名單（待補）</li>
+    <li>Anthropic usage policy / DOD 條款衝突報導（待補）</li>
+  </ul>
+</div>
+
+<hr>
+<h2><span class="num">N°40</span> Cursor 60 億美元被 SpaceX 接走 · IDE 變實業集團爭奪標的</h2>
+<div class="figure-placeholder">FIGURE PLACEHOLDER · 待 Rick 補圖</div>
+<p><strong>Pin · 編碼代理從 SaaS 賽道一路升級成航太實業 vertical 整合的併購標的。</strong></p>
+
+<h3>發生什麼</h3>
+<p>Replit CEO 在 StrictlyVC Athens 場合公開談 Cursor 60 億美元收購談判 — 接手方是 SpaceX。Cursor 此前傳聞中被多家 frontier 廠（OpenAI、Anthropic、Microsoft）追求，這次 SpaceX 出線把 IDE 廠商從「frontier 模型廠生態系」拉進「實業集團 vertical 整合」這條完全不同的賽道。</p>
+<p>對應 4/30 N°07 那條「OpenAI 解套 Microsoft 上 AWS」與 5/3 N°36 的「Uber 4 個月燒光 Claude Code 預算」兩條前情 — IDE 廠商正好處在 frontier 模型輸出與企業端工程師之間的關鍵接口。SpaceX 這時候插進來 等於繞過 frontier 模型廠直接抓住 distribution 端。</p>
+
+<h3>為什麼重要</h3>
+<p><strong>第一 IDE 廠商的戰略價值從「工具公司」升級成「企業工程師控制點」。</strong>Cursor 過去估值錨在 ARR 倍數與工程師 daily active 規模。這次 60 億美元的價碼明顯是把 IDE 當成「frontier 模型 distribution 的最後一哩」在估值。SpaceX / Tesla / xAI 整套體系內部工程師是天然的內需市場。</p>
+<p><strong>第二 SpaceX 接手後 Cursor 與 xAI 的耦合會變強。</strong>對 Anthropic / OpenAI 的 IDE 接入策略形成壓力 — Cursor 過去「中立 IDE」的 positioning 在收購後會弱化。下一個季度 Cursor 對 Claude 與 GPT 的接入優先序會被重排。</p>
+<p><strong>第三 Replit、Windsurf、JetBrains 三家會被迫表態下一階段對手是誰。</strong>過去這三家對標 Cursor。Cursor 跳到 SpaceX 體系後 這三家的對手變成「SpaceX 整套 vertical」 而不是單一 IDE 公司。融資邏輯與產品路線都需要重畫。</p>
+
+<h3>我們的判斷</h3>
+<p>三個看點：</p>
+<p><strong>(1) frontier 模型廠下一輪會出手收 IDE 端 對沖 distribution 風險。</strong>Anthropic 對 Zed、OpenAI 對 Codeium、Microsoft 加碼自家 VS Code Insiders agent 線 — Q3 內至少有一筆 IDE 收購會落地。frontier 模型不能只賣 API 必須拿 distribution。</p>
+<p><strong>(2) 「IDE 中立性」變成下一輪 enterprise procurement 的硬條款。</strong>大型企業對 Cursor 採購會加上「不得獨家綁定單一 frontier 模型」這條，避免 SpaceX 收購後被 lock-in。中立 IDE 的市場機會反而被推大。</p>
+<p><strong>(3) Replit CEO 在公開場合講對手收購談判 等於行銷自己。</strong>這個時間點對外披露 60B 數字 是 Replit 自我估值錨的訊號 — 暗示自家估值錨點與 Cursor 同級。下一輪 Replit 融資會把這個對標寫進 deck。</p>
+<div class="source-footer">
+  <div class="source-footer-label">— 源 · Sources（待 Rick 重跑 publish 補上原始連結）</div>
+  <ul>
+    <li>Replit CEO at StrictlyVC Athens（待補影片 / 報導連結）</li>
+  </ul>
+</div>
+
+<hr>
+<h2><span class="num">N°41</span> Oscars 對 AI 演員與劇本下禁令 · 影視產業正面拒絕</h2>
+<div class="figure-placeholder">FIGURE PLACEHOLDER · 待 Rick 補圖</div>
+<p><strong>Pin · creative industry 對 frontier 模型的態度從「實驗共生」切換成「制度排他」。</strong></p>
+
+<h3>發生什麼</h3>
+<p>The Academy（AMPAS）正式宣布把「AI 生成的演員表演」與「AI 寫的劇本」明文踢出 Oscars 提名資格。這是 Academy 對 generative AI 在內容創作端第一次出具有強制力的規範 — 不是 guideline 是 eligibility 條款。</p>
+<p>對照 2024–2025 兩年好萊塢工會 SAG-AFTRA 與 WGA 的 AI 條款談判，那些是勞資合約端的限制。Oscars 這次直接把 AI 內容從「最高榮譽榜單」剔除 是文化資本端的出招。對製片公司的訊號很清楚：用 AI 生成可以省成本 但會被排除在獎項外的市場價值貼現裡。</p>
+
+<h3>為什麼重要</h3>
+<p><strong>第一 frontier 模型在 creative 賽道的擴散速度第一次被產業制度性拉煞車。</strong>過去 18 個月 Sora、Veo、Runway、Kling、Hailuo 一路放出更強的影像生成能力。Oscars 這條規則把產業端的 ROI 評估線從技術端推回到「市場接受度 + 獎項 + 院線分潤」的整套價值鏈。</p>
+<p><strong>第二 「AI 寫的劇本」這條更敏感。</strong>表演端是否 AI 還可由攝影機判斷；劇本端則是 frontier 模型過去兩年的核心 use case。Oscars 把 screenplay 也納入禁令 等於把 frontier 模型的 creative use case 直接 cap 在「商業內容」而非「藝術內容」。對 OpenAI Sora、Runway、Pika 這幾家後續 product narrative 是直接打擊。</p>
+<p><strong>第三 影視產業的態度會被音樂、出版、新聞跟進。</strong>Grammy、National Book Award、Pulitzer 這三個機構過去一年都還在「研議中」。Oscars 表態之後 1–2 個會跟進。creative industry 對 AI 的「制度排他」會在 Q3–Q4 變成趨勢。</p>
+
+<h3>我們的判斷</h3>
+<p>三個看點：</p>
+<p><strong>(1) frontier 影像廠下一輪 product positioning 會避開「電影內容」改攻廣告 / 短片 / 社群。</strong>Sora、Runway 的 marketing 重心會從「AI 拍電影」改成「AI 加速廣告片製作」 — 這個垂直市場沒有 Oscars 等級的 institutional gatekeeper 規則阻擋。</p>
+<p><strong>(2) 「AI 全程參與」與「AI 部分輔助」的分界會被拉出新規範。</strong>Oscars 規則勢必會留灰色地帶 — 例如 AI 寫初稿人類改寫算不算？這個分界會誕生新的「AI involvement disclosure」標準 類似食品 GMO 標示。</p>
+<p><strong>(3) Anthropic / OpenAI 對 creative use case 會降低公開倡議力度。</strong>過去兩家在 creator 端做了不少行銷投入。Oscars 之後 對外溝通策略會從「我們幫創作者」改成更低調的 enterprise 工具定位。</p>
+<div class="source-footer">
+  <div class="source-footer-label">— 源 · Sources（待 Rick 重跑 publish 補上原始連結）</div>
+  <ul>
+    <li>AMPAS Oscars eligibility update（待補）</li>
+  </ul>
+</div>
+
+<hr>
+<h2><span class="num">N°42</span> Harvard o1 急診診斷 67% 跑贏 ER 醫師 50–55%</h2>
+<div class="figure-placeholder">FIGURE PLACEHOLDER · 待 Rick 補圖</div>
+<p><strong>Pin · frontier reasoning 模型第一次在真實臨床現場壓過資深醫師。</strong></p>
+
+<h3>發生什麼</h3>
+<p>Harvard 公布一份用 OpenAI o1 模型對真實急診案例做診斷的研究。在配對病例上 o1 診斷正確率 67% ER 主治醫師 50–55%。研究本身用真實病歷 不是模擬題庫 — 這是 frontier reasoning 模型對 ER 主治第一次在公開研究中跑贏實質百分點。</p>
+<p>對照過去兩年類似研究多落在 board 考題或 case vignette，那些是「教科書場景」。Harvard 這次直接挑真實急診 病例特徵不齊、資訊缺漏、時間壓力 都還能讓 o1 跑贏 — 把醫療 AI 採購從「實驗工具」推向「第一線診斷工具」這條檻。</p>
+
+<h3>為什麼重要</h3>
+<p><strong>第一 醫院採購 AI 的 ROI 計算公式被改寫。</strong>過去 hospital admin 評估 AI 工具是 efficiency play — 醫師花時間少。這份研究讓「diagnostic accuracy」變成可定價變數 直接連到 malpractice insurance 與 outcome quality 兩個 hospital 最敏感的成本項。</p>
+<p><strong>第二 ER 主治的勞動分工會被重新定義。</strong>o1 在 ER 場景跑贏意味著「first-pass triage」可以由 reasoning 模型主導 主治醫師退到「異常案例 escalation + 高風險手術」這條更窄但更高 value 的線。短期內醫師工會會反彈 中期 ER 人力配置會被改寫。</p>
+<p><strong>第三 frontier reasoning 模型在「高責任產業」的 use case 第一次有實證背書。</strong>金融、法律、醫療這三個領域過去都還在 pilot 階段。Harvard 這份研究提供了第一份 hospital level 可以對董事會講的「accuracy improvement」數字。下一輪頂級醫院的 AI procurement deck 一定會引用這份。</p>
+
+<h3>我們的判斷</h3>
+<p>三個看點：</p>
+<p><strong>(1) 下一個季度 OpenAI 會推出「Healthcare API」獨立 SKU。</strong>過去 OpenAI 對醫療採行 horizontal API 策略。Harvard 這份研究讓 OpenAI 有 narrative 推垂直 SKU — HIPAA 合規 + audit log + clinical reasoning fine-tune。Anthropic 跟進機率高。</p>
+<p><strong>(2) malpractice insurance 公司會出 AI-augmented diagnosis 折扣產品。</strong>保險公司一旦看到 67% 對 50% 的數字 會用「使用 AI 輔助診斷可降低 misdiagnosis 風險」當折扣依據。這個產品線會在 12 個月內出現。</p>
+<p><strong>(3) FDA 會被推一把 加快 LLM-as-medical-device 的監管框架。</strong>過去 FDA 對 LLM 醫療用途審慎拖延。Harvard 這份公開研究會把 patient advocacy group 推到 FDA 立法壓力線上。下一個年度 FDA 會出新分類框架。</p>
+<div class="source-footer">
+  <div class="source-footer-label">— 源 · Sources（待 Rick 重跑 publish 補上原始連結）</div>
+  <ul>
+    <li>Harvard o1 ER diagnosis study（待補）</li>
+  </ul>
+</div>
+
+</div>
+
+<p style="text-align:center; margin-top: 3rem; opacity: 0.4; font-family: 'JetBrains Mono', monospace; font-size: 0.78rem; letter-spacing: 0.1em;">— hotfix stub by Peter · 完整版含實圖與源連結待 Rick 重跑 publish 後覆蓋 —</p>
