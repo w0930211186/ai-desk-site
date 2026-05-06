@@ -1,0 +1,31 @@
+<style>
+.daily-body-wrap { max-width: 720px; margin: 0 auto; padding: 0 1.5rem; box-sizing: border-box; }
+.missing-day-banner { border: 2px solid #ff8c42; padding: 2rem 1.6rem; margin: 2.5rem 0; background: rgba(255,140,66,0.08); color: var(--fg, #fff); font-family: "Inter Tight", -apple-system, sans-serif; line-height: 1.7; }
+.missing-day-banner .label { font-size: 0.74rem; letter-spacing: 0.18em; text-transform: uppercase; color: #ff8c42; margin-bottom: 1rem; font-weight: 700; font-family: "JetBrains Mono", monospace; }
+.missing-day-banner h2 { font-size: 1.4rem; margin: 0 0 1rem; font-weight: 800; line-height: 1.4; }
+.missing-day-banner p { margin: 0.9rem 0; font-size: 0.95rem; opacity: 0.92; }
+.missing-day-banner .meta { font-family: "JetBrains Mono", monospace; font-size: 0.78rem; opacity: 0.55; letter-spacing: 0.06em; margin-top: 1.4rem; padding-top: 1rem; border-top: 1px dashed rgba(255,140,66,0.3); }
+.missing-day-banner code { font-family: "JetBrains Mono", monospace; font-size: 0.9em; background: rgba(255,255,255,0.06); padding: 0.12em 0.42em; border-radius: 2px; }
+.missing-day-foot { text-align: center; opacity: 0.4; font-family: "JetBrains Mono", monospace; font-size: 0.78rem; letter-spacing: 0.16em; text-transform: uppercase; margin: 4rem 0 2rem; }
+</style>
+
+<div class="daily-body-wrap">
+
+<div class="missing-day-banner">
+  <div class="label">⚠ Missing Day · 2026-05-05 · N°12</div>
+  <h2>本日無 daily — ai-desk-scout / ai-desk-draft 排程未產出 N°12</h2>
+
+  <p>原訂 2026-05-05（星期二）的 daily（內部編號 N°12）在 Cowork 排程系統中未成功產出。<strong>這跟 5/4 N°11 的「publish 寫檔失敗」是不同層次的故障</strong>：5/4 那次 Notion inbox 有收到、索引頁有 entry、只是 HTML 本體 404，所以還能用索引 excerpt 緊急重建 stub。5/5 這次不同 — Notion 沒收到內容、索引頁也沒寫入 N°12 entry，故障點落在更前面的 <code>ai-desk-scout</code> 或 <code>ai-desk-draft</code> 那一層。</p>
+
+  <p>因為沒有原始素材可以拿來重建（不像 5/4 還有索引 excerpt 可參考），本頁不會像 5/4 那樣捏一個 stub 貼上 — 政策是寧缺勿濫，缺一日就誠實標一日。</p>
+
+  <p>等 <code>ai-desk-scout</code> 重跑（指定日期 <code>2026-05-05</code>）抓出當天 4 條 frontier 廠動態，再走 draft → publish 鏈把這頁覆蓋成完整 daily。本頁屆時會被替換掉。</p>
+
+  <div class="meta">
+    Status: pending re-scout · Issue: hotfix(0505) · Series: 連續日序號保留為 N°12（5/6 已正常上架為 N°13）
+  </div>
+</div>
+
+<p class="missing-day-foot">— 等內容到位再回來 —</p>
+
+</div>
