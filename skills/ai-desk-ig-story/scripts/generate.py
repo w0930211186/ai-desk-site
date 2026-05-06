@@ -100,9 +100,25 @@ def parse_article(html: str) -> dict:
         return m.group(1).strip() if m else default
 
     # title (純文字)
+    # 1. 先試完整 page wrapper 的 <h1 class="post-title">
     title_html = find(r'<h1 class="post-title">(.*?)</h1>')
     title = re.sub(r'<[^>]+>', '', title_html)
     title = re.sub(r'\s+', ' ', title).strip()
+
+    # 2. fallback：daily fragment 沒 h1 → 抓第一個 <h2><span class="num">N°XX</span> XXX</h2>
+    if not title:
+        h2_match = re.search(
+            r'<h2>\s*<span class="num">(N°\d+)</span>\s*([^<]+)</h2>',
+            html
+        )
+        if h2_match:
+            title = f"{h2_match.group(1)} {h2_match.group(2).strip()}"
+
+    # 3. final fallback：用第一條 keypoint head（避免完全空白）
+    if not title:
+        kp_match = re.search(r'<aside class="keypoints">[\s\S]*?<li>\s*<strong>(.*?)</strong>', html)
+        if kp_match:
+            title = re.sub(r'<[^>]+>', '', kp_match.group(1)).strip()
 
     # short title (breadcrumb)
     title_short = find(r'<nav class="crumbs">[\s\S]*?</a><span[^>]*>/</span>\s*([^<\n]+)', title)
@@ -113,7 +129,15 @@ def parse_article(html: str) -> dict:
     summary = re.sub(r'<[^>]+>', '', summary).strip()
 
     # edition number (N°XX)
-    edition = find(r'Edition N°(\d+)', '01')
+    # 1. 先試 wrapper 的 "Edition N°XX"
+    edition = find(r'Edition N°(\d+)', '')
+    # 2. fallback：從第一個 <h2><span class="num">N°XX</span> 抓
+    if not edition:
+        m = re.search(r'<span class="num">N°(\d+)</span>', html)
+        if m:
+            edition = m.group(1)
+    if not edition:
+        edition = '01'
 
     # date
     date_iso = find(r'<meta property="article:published_time" content="([^"]+)"', '')
@@ -318,9 +342,15 @@ def generate_caption(article: dict) -> str:
 
     all_tags = list(dict.fromkeys(base_tags + content_tags))  # de-dup
 
+    try:
+        dt = datetime.fromisoformat(article['date_iso'])
+        date_str = dt.strftime('%Y/%m/%d')
+    except (ValueError, TypeError):
+        date_str = datetime.now().strftime('%Y/%m/%d')
+
     caption = f"""{title}
 
-— N°{edition} · {datetime.now().strftime('%Y/%m/%d')} —
+— N°{edition} · {date_str} —
 
 {summary}
 
@@ -362,6 +392,14 @@ def main():
 
     html = article_path.read_text(encoding='utf-8')
     article = parse_article(html)
+
+    # fragment HTML 沒 meta → 用檔名日期當 fallback
+    if not article.get('date_iso'):
+        try:
+            slug_date = '-'.join(article_path.stem.split('-')[:3])
+            article['date_iso'] = f"{slug_date}T00:00:00"
+        except Exception:
+            pass
 
     print(f"\n=== parsed article ===")
     print(f"  title: {article['title'][:80]}")
