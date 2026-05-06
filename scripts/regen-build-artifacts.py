@@ -47,6 +47,23 @@ def parse_post(p: Path) -> dict | None:
     title = _first(re.search(r"<title>([^<]+)</title>", text))
     desc = _first(re.search(r'<meta\s+name=["\']description["\']\s+content=["\']([^"\']+)["\']', text))
     og_title = _first(re.search(r'<meta\s+property=["\']og:title["\']\s+content=["\']([^"\']+)["\']', text))
+
+    # Fragment fallback: 沒 <title> tag 時 (5/2 起的 fragment 結構)，從第一個 <h2><span class="num">N°XX</span> XXX</h2> 組 title
+    if not title:
+        h2_m = re.search(r'<h2>\s*<span class="num">N°(\d+)</span>\s*([^<]+)</h2>', text)
+        if h2_m:
+            topic = h2_m.group(2).strip()
+            title = f"{yyyy}/{mm}/{dd} · AI 大事 · {topic} | AI DESK"
+
+    # Fragment fallback: 沒 description meta 時，從 keypoints 前 3 條 head 拼
+    if not desc:
+        kp_heads = re.findall(r'<aside class="keypoints">[\s\S]*?(?=</aside>)', text)
+        if kp_heads:
+            strongs = re.findall(r'<li>\s*<strong>(.*?)</strong>', kp_heads[0])
+            if strongs:
+                cleaned = [re.sub(r'<[^>]+>', '', s).strip() for s in strongs[:3]]
+                desc = "。".join(cleaned) + "。"
+
     edition_m = re.search(r"Edition\s*N°(\d+)", text) or re.search(r"N°(\d+)", text)
     edition = int(edition_m.group(1)) if edition_m else 0
 
