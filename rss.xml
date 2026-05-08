@@ -5,8 +5,22 @@
     <link>https://ai-desk-tw.netlify.app/</link>
     <description>獨立 AI 編輯台 · 每天 07:00 CST · 1 分鐘看完全球 AI 大事 · 每條附源</description>
     <language>zh-Hant</language>
-    <lastBuildDate>Wed, 06 May 2026 23:23:59 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 08 May 2026 23:08:35 +0000</lastBuildDate>
     <atom:link href="https://ai-desk-tw.netlify.app/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2026/05/09 · AI 大事 · Platformer 點名 xAI 已退場 · 三強格局成形 Musk 押 Anthropic 是訊號不是策略 | AI DESK</title>
+      <link>https://ai-desk-tw.netlify.app/posts/2026-05-09-daily.html</link>
+      <guid isPermaLink="true">https://ai-desk-tw.netlify.app/posts/2026-05-09-daily.html</guid>
+      <pubDate>Sat, 09 May 2026 07:00:00 +0800</pubDate>
+      <description>Platformer Casey Newton 點名 xAI 已退出前線競爭。OpenAI Realtime API 升一階 · 把語音智慧整套下放給開發者。Jack Clark 在 Import AI 455 警告 · AI 自動化 AI 研究的指數轉折點正在發生。</description>
+    </item>
+    <item>
+      <title>2026/05/08 · AI 大事 · Anthropic Mythos 在 Firefox 找出大量高嚴重度漏洞 · AI 資安 agent 從 PoC 走進主流瀏覽器 | AI DESK</title>
+      <link>https://ai-desk-tw.netlify.app/posts/2026-05-08-daily.html</link>
+      <guid isPermaLink="true">https://ai-desk-tw.netlify.app/posts/2026-05-08-daily.html</guid>
+      <pubDate>Fri, 08 May 2026 07:00:00 +0800</pubDate>
+      <description>Anthropic Mythos 在 Firefox 找到大量高嚴重度漏洞 · AI agent 從 PoC 走進 mission-critical 系統。DeepMind AlphaEvolve 跨領域落地 · Gemini 驅動的 coding agent 在數學、晶片、資料中心都跑出可驗證最佳化。中國開源 AI 估值繼續暴衝 vs. ASML 警告矽基供應鏈瓶頸真實存在。</description>
+    </item>
     <item>
       <title>2026/05/07 · AI 大事 · Anthropic 把 SpaceX Colossus 1 整廠買下 · Claude rate limit 上調 · 同步加碼 22 萬張 GPU | AI DESK</title>
       <link>https://ai-desk-tw.netlify.app/posts/2026-05-07-daily.html</link>
