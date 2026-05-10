@@ -1,0 +1,81 @@
+name: Generate IG Story PNG
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'assets/ig-stories/*/caption.txt'
+  workflow_dispatch:
+    inputs:
+      date:
+        description: 'YYYY-MM-DD (leave blank for today CST)'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Determine date and HTML
+        id: vars
+        run: |
+          if [ -n "${{ github.event.inputs.date }}" ]; then
+            DATE="${{ github.event.inputs.date }}"
+          else
+            CHANGED=$(git diff --name-only HEAD~1 HEAD 2>/dev/null || echo "")
+            DATE=$(echo "$CHANGED" | grep -oP 'assets/ig-stories/\K\d{4}-\d{2}-\d{2}' | head -1)
+            [ -z "$DATE" ] && DATE=$(TZ=Asia/Taipei date +%Y-%m-%d)
+          fi
+          echo "date=$DATE" >> $GITHUB_OUTPUT
+          HTML="posts/${DATE}-daily.html"
+          [ ! -f "$HTML" ] && HTML=$(ls posts/*-daily.html 2>/dev/null | sort | tail -1 || echo "")
+          echo "html=$HTML" >> $GITHUB_OUTPUT
+          echo "png=assets/ig-stories/${DATE}/story.png" >> $GITHUB_OUTPUT
+
+      - name: Check if PNG is already valid binary
+        id: check
+        run: |
+          PNG="${{ steps.vars.outputs.png }}"
+          if [ -f "$PNG" ] && file "$PNG" | grep -q "PNG image"; then
+            echo "skip=true" >> $GITHUB_OUTPUT
+            echo "PNG already valid binary — skipping regeneration."
+          else
+            echo "skip=false" >> $GITHUB_OUTPUT
+            echo "PNG missing or invalid — will regenerate."
+          fi
+
+      - name: Install Pillow
+        if: steps.check.outputs.skip != 'true'
+        run: pip install --quiet Pillow
+
+      - name: Generate story PNG
+        if: steps.check.outputs.skip != 'true'
+        run: |
+          DATE="${{ steps.vars.outputs.date }}"
+          HTML="${{ steps.vars.outputs.html }}"
+          if [ -z "$HTML" ] || [ ! -f "$HTML" ]; then
+            echo "ERROR: no HTML found for $DATE"; exit 1
+          fi
+          OUT="/tmp/ig-out/$DATE"
+          python3 skills/ai-desk-ig-story/scripts/generate.py "$HTML" "$OUT"
+          mkdir -p "assets/ig-stories/$DATE"
+          cp "$OUT/story.png" "assets/ig-stories/$DATE/story.png"
+
+      - name: Commit and push
+        if: steps.check.outputs.skip != 'true'
+        run: |
+          DATE="${{ steps.vars.outputs.date }}"
+          git config user.name "ai-desk-ig-story"
+          git config user.email "ai-desk@noreply.com"
+          git add "assets/ig-stories/$DATE/story.png"
+          if git diff --staged --quiet; then
+            echo "Nothing to commit."
+          else
+            git commit -m "ai-desk-ig-story $DATE: PNG binary (CI)"
+            git push
+          fi
