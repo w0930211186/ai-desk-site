@@ -1,6 +1,78 @@
 {
-  "updated_at": "2026-05-10T23:10:00+08:00",
+  "updated_at": "2026-05-11T01:10:00+08:00",
   "items": [
+    {
+      "id": "pulse-2026-05-08-airbnb-ai-code",
+      "ts": "2026-05-08T14:00:00+08:00",
+      "title": "Airbnb 宣布 Q1 工程師六成新代碼由 AI 生成・創主要科技公司採用率標竿",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/08/airbnb-says-ai-now-writes-60-of-its-new-code/",
+      "blurb": "Airbnb 披露其 Q1 工程師新生產代碼中已有 60% 來自 AI 生成，成為主要科技公司中 AI 代碼採用率最高的案例之一，標誌 AI 輔助開發已從試驗進入規模化實踐的重要里程碑，對工程人力配置與職能轉型具有深遠示範效應。"
+    },
+    {
+      "id": "pulse-2026-05-07-openai-voice-api",
+      "ts": "2026-05-07T16:00:00+08:00",
+      "title": "OpenAI 發布語音 Intelligence API・GPT-Realtime-2 搭載 GPT-5 級推理能力",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/07/openai-launches-new-voice-intelligence-features-in-its-api/",
+      "blurb": "OpenAI 向開發者開放全新語音 API 功能，核心模型 GPT-Realtime-2 具備 GPT-5 級推理能力，支援即時對話、語音轉文字及多語翻譯；此舉大幅降低語音 AI 應用開發門檻，加速智慧語音助手與 AI 電話客服的規模化落地。"
+    },
+    {
+      "id": "pulse-2026-05-05-gpt55-instant",
+      "ts": "2026-05-05T08:00:00+08:00",
+      "title": "OpenAI 推出 GPT-5.5 Instant・取代 GPT-5.3 Instant 成 ChatGPT 全體用戶預設模型",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/",
+      "blurb": "OpenAI 發布 GPT-5.5 Instant 並全面取代 GPT-5.3 Instant 為 ChatGPT 預設模型，在醫療、法律、財務等高風險領域幻覺率降低 52.5%；Plus 與 Pro 用戶可透過搜尋功能整合過往對話與 Gmail 實現個人化回答，為 ChatGPT 最大規模默認模型升級之一。"
+    },
+    {
+      "id": "pulse-2026-05-04-sierra-950m",
+      "ts": "2026-05-04T20:00:00+08:00",
+      "title": "Bret Taylor 創辦企業 AI 平台 Sierra 完成 9.5 億美元融資・估值逾 150 億美元",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/04/sierra-raises-950m-as-the-race-to-own-enterprise-ai-gets-serious/",
+      "blurb": "前 Salesforce 聯席 CEO Bret Taylor 創辦的企業 AI 平台 Sierra 宣告完成 9.5 億美元融資，融資後估值突破 150 億美元，目標成為 AI 客戶體驗的「全球標準」；此輪為今年企業 AI 垂直領域最大規模融資，顯示資本持續押注 AI Agent 在企業應用的規模化。"
+    },
+    {
+      "id": "pulse-2026-04-21-mythos-breach",
+      "ts": "2026-04-21T12:00:00+08:00",
+      "title": "未授權組織取得 Anthropic 獨家 AI 網路安全工具 Mythos 存取權・重大 AI 安全事件",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/21/unauthorized-group-has-gained-access-to-anthropics-exclusive-cyber-tool-mythos-report-claims/",
+      "blurb": "據報導，一未授權組織成功取得 Anthropic 高度限制的 AI 網路安全工具 Claude Mythos Preview 存取權，引發 AI 安全界廣泛震驚。Mythos 具備自主識別並利用零日漏洞的能力，此洩露事件凸顯高能力 AI 武器化工具的擴散風險已從假設走向現實威脅。"
+    },
+    {
+      "id": "pulse-2026-05-10-seed-1",
+      "ts": "2026-05-10T22:00:00+08:00",
+      "title": "Anthropic 公布 Q1 收入 8.45 億美元 · Claude Auto Mode 上線",
+      "source": "Anthropic blog",
+      "url": "https://www.anthropic.com/news",
+      "blurb": "Q1 從 6.8 億跳 8.45 億；Claude Auto Mode 為 frontier lab 第一個 agent OS 級別發佈。"
+    },
+    {
+      "id": "pulse-2026-05-10-seed-2",
+      "ts": "2026-05-10T20:30:00+08:00",
+      "title": "Mythos Foundation 接管 Firefox · Mozilla Corporation 重組",
+      "source": "Mozilla blog",
+      "url": "https://blog.mozilla.org/",
+      "blurb": "Mozilla 把 Firefox engineering 切割給 Mythos Foundation 獨立營運。"
+    },
+    {
+      "id": "pulse-2026-05-10-seed-3",
+      "ts": "2026-05-10T18:00:00+08:00",
+      "title": "CAISI 對接 Google / Microsoft / xAI · 加州 AI 監管草案進入審查",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/",
+      "blurb": "加州 AI Safety Institute 啟動 frontier 廠對接機制。"
+    },
+    {
+      "id": "pulse-2026-05-10-seed-4",
+      "ts": "2026-05-10T15:30:00+08:00",
+      "title": "DeepMind 工會啟動 · 工程師對 AI safety 立場分裂",
+      "source": "The Information",
+      "url": "https://www.theinformation.com/",
+      "blurb": "Google DeepMind 部分工程師啟動工會程序，焦點在內部 safety dissent 機制。"
+    },
     {
       "id": "pulse-2026-05-09-nvidia-40b-ai-investor",
       "ts": "2026-05-09T09:00:00+08:00",
@@ -48,38 +120,6 @@
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/04/30/elon-musk-testifies-that-xai-trained-grok-on-openai-models/",
       "blurb": "Elon Musk 在法庭上承認 xAI 曾透過模型蒸餾技術使用 OpenAI 模型訓練 Grok，此供詞在 AI 業界競爭激烈的背景下引發廣泛關注，或直接影響 OpenAI 與 xAI 後續訴訟走向與業界競爭格局。"
-    },
-    {
-      "id": "pulse-2026-05-10-seed-1",
-      "ts": "2026-05-10T22:00:00+08:00",
-      "title": "Anthropic 公布 Q1 收入 8.45 億美元 · Claude Auto Mode 上線",
-      "source": "Anthropic blog",
-      "url": "https://www.anthropic.com/news",
-      "blurb": "Q1 從 6.8 億跳 8.45 億；Claude Auto Mode 為 frontier lab 第一個 agent OS 級別發佈。"
-    },
-    {
-      "id": "pulse-2026-05-10-seed-2",
-      "ts": "2026-05-10T20:30:00+08:00",
-      "title": "Mythos Foundation 接管 Firefox · Mozilla Corporation 重組",
-      "source": "Mozilla blog",
-      "url": "https://blog.mozilla.org/",
-      "blurb": "Mozilla 把 Firefox engineering 切割給 Mythos Foundation 獨立營運。"
-    },
-    {
-      "id": "pulse-2026-05-10-seed-3",
-      "ts": "2026-05-10T18:00:00+08:00",
-      "title": "CAISI 對接 Google / Microsoft / xAI · 加州 AI 監管草案進入審查",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/",
-      "blurb": "加州 AI Safety Institute 啟動 frontier 廠對接機制。"
-    },
-    {
-      "id": "pulse-2026-05-10-seed-4",
-      "ts": "2026-05-10T15:30:00+08:00",
-      "title": "DeepMind 工會啟動 · 工程師對 AI safety 立場分裂",
-      "source": "The Information",
-      "url": "https://www.theinformation.com/",
-      "blurb": "Google DeepMind 部分工程師啟動工會程序，焦點在內部 safety dissent 機制。"
     }
   ],
   "_note": "seeded by Peter 2026-05-10 — cloud routine ai-desk-pulse 每 2 小時自動更新"
