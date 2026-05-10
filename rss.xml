@@ -5,8 +5,15 @@
     <link>https://ai-desk-tw.netlify.app/</link>
     <description>獨立 AI 編輯台 · 每天 07:00 CST · 1 分鐘看完全球 AI 大事 · 每條附源</description>
     <language>zh-Hant</language>
-    <lastBuildDate>Fri, 08 May 2026 23:08:35 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 10 May 2026 14:00:16 +0000</lastBuildDate>
     <atom:link href="https://ai-desk-tw.netlify.app/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2026/05/10 · AI 大事 · Anthropic 最狂一週：年化 $44B · 年增 80 倍 · Claude Code Auto Mode · Jamie Dimon 簽 10 個金融 agent | AI DESK</title>
+      <link>https://ai-desk-tw.netlify.app/posts/2026-05-10-daily.html</link>
+      <guid isPermaLink="true">https://ai-desk-tw.netlify.app/posts/2026-05-10-daily.html</guid>
+      <pubDate>Sun, 10 May 2026 07:00:00 +0800</pubDate>
+      <description>Anthropic Q1 年化 $44B · 年增 80 倍 · 一週完成 AI 企業平台化。Claude Mythos Preview 全自主攻破 FreeBSD 17 年零日漏洞 · frontier 攻擊能力里程碑。CAISI 把 Google/Microsoft/xAI 全拉進前置審核 · 美國監管視窗收口超預期。</description>
+    </item>
     <item>
       <title>2026/05/09 · AI 大事 · Platformer 點名 xAI 已退場 · 三強格局成形 Musk 押 Anthropic 是訊號不是策略 | AI DESK</title>
       <link>https://ai-desk-tw.netlify.app/posts/2026-05-09-daily.html</link>

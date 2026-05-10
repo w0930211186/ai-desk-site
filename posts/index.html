@@ -226,13 +226,8 @@ footer.site-footer {
 
 /* ============================================================
    ACCESSIBILITY · v2 (audit 2026-04-25)
-   - P0-A: focus-visible 鍵盤導航指示
-   - P0-B: prefers-reduced-motion 動畫退場
-   - P1-C: 手機觸控目標 ≥ 44px
-   - bonus: skip-to-content link
    ============================================================ */
 
-/* P0-A · 鍵盤 focus 指示（mono brutalist 風格） */
 *:focus-visible {
   outline: 2px solid var(--fg);
   outline-offset: 3px;
@@ -249,7 +244,6 @@ footer.site-footer {
   outline-offset: -2px;
 }
 
-/* bonus · skip-to-content link（a11y best practice） */
 .skip-link {
   position: absolute;
   top: -100px;
@@ -270,7 +264,6 @@ footer.site-footer {
   top: 1rem;
 }
 
-/* P0-B · prefers-reduced-motion */
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
     animation-duration: 0.01ms !important;
@@ -285,7 +278,6 @@ footer.site-footer {
   }
 }
 
-/* P1-C · 手機觸控目標 ≥ 44px */
 @media (max-width: 700px) {
   .nav-links a {
     min-height: 44px;
@@ -308,13 +300,8 @@ footer.site-footer {
 
 /* ============================================================
    FUNCTIONAL ADDITIONS · v3 (2026-04-25)
-   - Email subscribe form
-   - Share buttons
-   - Pagefind search UI
-   - Reading time pill
    ============================================================ */
 
-/* 訂閱表單 */
 .subscribe-form {
   display: flex; gap: 0.6rem; flex-wrap: wrap; align-items: stretch;
   margin-top: 0.5rem;
@@ -341,7 +328,6 @@ footer.site-footer {
 .subscribe-form button:hover { opacity: 0.85; }
 .subscribe-msg { font-family: var(--f-sans); font-size: 0.72rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--mute-2); margin-top: 0.5rem; min-height: 1em; }
 
-/* 分享按鈕 */
 .share-bar {
   margin: 4rem 0 0; padding-top: 2rem;
   border-top: 1px solid var(--line);
@@ -366,11 +352,9 @@ footer.site-footer {
 }
 .share-bar svg { width: 14px; height: 14px; }
 
-/* Reading time pill (post-meta-top 內) */
 .read-time { color: var(--mute); }
 .read-time::before { content: "·"; margin-right: 0.5rem; color: var(--mute-2); }
 
-/* Prev/Next 導覽 */
 .prev-next {
   margin: 5rem 0 0; padding: 2rem 0; border-top: 1px solid var(--line);
   display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;
@@ -397,7 +381,6 @@ footer.site-footer {
   .prev-next a.next { text-align: left; }
 }
 
-/* Pagefind 搜尋 UI override（mono brutalist 化） */
 #search {
   margin: 0 auto 2rem; max-width: 760px;
 }
@@ -461,6 +444,15 @@ footer.site-footer {
 
 <section class="posts">
   <!-- POSTS-INJECTION-START -->
+    <a href="2026-05-10-daily.html" class="post-row" data-tags="daily">
+      <div class="date">05 · 10 · SUN<br>N°17</div>
+      <div class="info">
+        <h3>Anthropic 最狂一週年化 $44B · Claude Mythos 攻破 FreeBSD 零日 · CAISI 監管補齊</h3>
+        <p class="excerpt">Anthropic Q1 年化營收突破 $44B（年增 80 倍），同週完成 Google Cloud $200B 合約、Claude Code Auto Mode 上線、聯手 Jamie Dimon 推出 10 個金融 agent，Anthropic 從 AI lab 到企業平台的轉型在 2026 Q2 收口。Claude Mythos Preview 全自主攻破 FreeBSD 17 年零日漏洞（CVE-2026-4747）取得 root 控制，僅開放 Project Glasswing 白名單約 50 家企業，正是此前嚇到白宮的那個模型。CAISI 把 Google、Microsoft、xAI 全納入前置審核，美國五大 frontier lab 監管框架首次補齊。Google DeepMind 英國員工以 98% 高票決議加入 CWU 工會，反對 Pentagon 軍事 AI 合約，frontier lab 勞資對抗元年正式開啟。</p>
+        <div class="inline-tags"><span>Daily · AI 大事</span><span>Anthropic</span><span>Google</span><span>policy</span><span>tools</span></div>
+      </div>
+      <div class="arrow">→</div>
+    </a>
     <a href="2026-05-09-daily.html" class="post-row" data-tags="daily">
       <div class="date">05 · 09 · SAT<br>N°16</div>
       <div class="info">
