@@ -1,6 +1,30 @@
 {
-  "updated_at": "2026-05-10T07:10:00+08:00",
+  "updated_at": "2026-05-10T09:10:00+08:00",
   "items": [
+    {
+      "id": "pulse-2026-05-05-sap-prior-labs",
+      "ts": "2026-05-05T18:00:00+08:00",
+      "title": "SAP 斥 11.6 億美元收購德國 AI 實驗室 Prior Labs・承諾 4 年投入逾 10 億歐元建歐洲前沿 AI 中心",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/05/sap-bets-1-16b-on-18-month-old-german-ai-lab-and-says-yes-to-nemoclaw/",
+      "blurb": "SAP 宣告收購成立僅 18 個月的德國 AI 實驗室 Prior Labs，後者以「表格基礎模型」TabPFN 開創結構化資料 AI 新路徑，SAP 承諾未來 4 年投入逾 10 億歐元；此次 M&A 彰顯傳統企業軟體巨頭以資本全面押注 frontier AI，並為歐洲注入可抗衡矽谷的前沿研究能量。"
+    },
+    {
+      "id": "pulse-2026-04-22-google-deep-research-max",
+      "ts": "2026-04-22T16:00:00+08:00",
+      "title": "Google 發布 Deep Research Max・Gemini 3.1 Pro 驅動自主研究代理 DeepSearchQA 達 93.3%",
+      "source": "Google blog",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/next-generation-gemini-deep-research/",
+      "blurb": "Google 推出 Deep Research 與 Deep Research Max 兩款自主研究代理，以 Gemini 3.1 Pro 為核心加入 MCP 支援與原生圖表生成；Max 版本在 DeepSearchQA 達 93.3%（半年前僅 66.1%），可用於企業過夜生成盡職調查報告等長程非同步工作流程，標誌 AI 研究代理正式進入企業規模化落地新階段。"
+    },
+    {
+      "id": "pulse-2026-04-13-openai-hiro-finance",
+      "ts": "2026-04-13T22:00:00+08:00",
+      "title": "OpenAI 收購 AI 個人理財新創 Hiro Finance・2026 年第七項併購加速垂直消費應用佈局",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/13/openai-has-bought-ai-personal-finance-startup-hiro/",
+      "blurb": "OpenAI 宣告收購「AI 個人 CFO」新創 Hiro Finance，為公司 2026 年已知第七項併購；Hiro 由 Ribbit Capital 支持，協助管理逾 10 億美元用戶資產，此交易顯示 OpenAI 正透過系統性收購快速切入垂直消費市場，策略上從通用 AI 平台向個人理財等專業應用服務轉型。"
+    },
     {
       "id": "pulse-2026-05-05-caisi-ai-oversight",
       "ts": "2026-05-05T22:00:00+08:00",
