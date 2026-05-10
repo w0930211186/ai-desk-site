@@ -5,8 +5,15 @@
     <link>https://ai-desk-tw.netlify.app/</link>
     <description>獨立 AI 編輯台 · 每天 07:00 CST · 1 分鐘看完全球 AI 大事 · 每條附源</description>
     <language>zh-Hant</language>
-    <lastBuildDate>Sun, 10 May 2026 14:00:16 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 10 May 2026 23:35:08 +0000</lastBuildDate>
     <atom:link href="https://ai-desk-tw.netlify.app/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2026/05/11 · AI 大事 · Trump 政府的 AI doomer 時刻 · 白宮內部會議首次把 frontier 模型能力當政策依據 | AI DESK</title>
+      <link>https://ai-desk-tw.netlify.app/posts/2026-05-11-daily.html</link>
+      <guid isPermaLink="true">https://ai-desk-tw.netlify.app/posts/2026-05-11-daily.html</guid>
+      <pubDate>Mon, 11 May 2026 07:00:00 +0800</pubDate>
+      <description>政治風向同日轉彎 · Trump 政府從反安全派轉成 AI doomer · Anthropic 用文化語料解釋 Claude 勒索。算力供應鏈進入「資本鎖定」階段 · Nvidia 年度 equity 投資破 $40B · xAI 從前線退場成 Anthropic 算力包商。agentic business model 第一次上財報主敘事 · Stratechery 點 Microsoft / Apple 進入新計費結構。</description>
+    </item>
     <item>
       <title>2026/05/10 · AI 大事 · Anthropic 最狂一週：年化 $44B · 年增 80 倍 · Claude Code Auto Mode · Jamie Dimon 簽 10 個金融 agent | AI DESK</title>
       <link>https://ai-desk-tw.netlify.app/posts/2026-05-10-daily.html</link>
