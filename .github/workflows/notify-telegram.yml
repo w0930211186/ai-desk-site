@@ -1,0 +1,75 @@
+name: Notify Telegram on AI DESK Push
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'posts/**-daily.html'
+      - 'assets/ig-stories/**'
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Detect what changed
+        id: detect
+        run: |
+          TODAY=$(TZ=Asia/Taipei date +%Y-%m-%d)
+          DAILY_FILE="posts/${TODAY}-daily.html"
+          IG_PNG="assets/ig-stories/${TODAY}/story.png"
+          IG_CAPTION="assets/ig-stories/${TODAY}/caption.txt"
+          CHANGED=$(git diff --name-only HEAD^ HEAD || git ls-tree --name-only -r HEAD)
+          echo "Changed files: $CHANGED"
+          if echo "$CHANGED" | grep -qx "$DAILY_FILE"; then
+            echo "has_daily=true" >> $GITHUB_OUTPUT
+          fi
+          if echo "$CHANGED" | grep -q "^assets/ig-stories/${TODAY}/"; then
+            echo "has_ig=true" >> $GITHUB_OUTPUT
+          fi
+          echo "today=$TODAY" >> $GITHUB_OUTPUT
+          echo "daily_file=$DAILY_FILE" >> $GITHUB_OUTPUT
+          echo "ig_png=$IG_PNG" >> $GITHUB_OUTPUT
+          echo "ig_caption=$IG_CAPTION" >> $GITHUB_OUTPUT
+
+      - name: Notify daily published
+        if: steps.detect.outputs.has_daily == 'true'
+        env:
+          TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TG_CHAT: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TODAY: ${{ steps.detect.outputs.today }}
+          DAILY_FILE: ${{ steps.detect.outputs.daily_file }}
+        run: |
+          TITLE=$(grep -m1 -oE '<h2>[^<]*' "$DAILY_FILE" | sed 's/<h2>//' | head -c 100)
+          curl -sf -X POST "https://api.telegram.org/bot${TG_TOKEN}/sendMessage" \
+            --data-urlencode "chat_id=${TG_CHAT}" \
+            --data-urlencode "text=📰 AI DESK ${TODAY} daily 已上線
+${TITLE}
+
+https://ai-desk-tw.netlify.app/posts/${TODAY}-daily.html"
+
+      - name: Notify IG Story
+        if: steps.detect.outputs.has_ig == 'true'
+        env:
+          TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TG_CHAT: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TODAY: ${{ steps.detect.outputs.today }}
+          IG_PNG: ${{ steps.detect.outputs.ig_png }}
+          IG_CAPTION: ${{ steps.detect.outputs.ig_caption }}
+        run: |
+          CAPTION=""
+          if [ -f "$IG_CAPTION" ]; then
+            CAPTION=$(cat "$IG_CAPTION")
+          fi
+          if [ -f "$IG_PNG" ]; then
+            curl -sf -X POST "https://api.telegram.org/bot${TG_TOKEN}/sendDocument" \
+              -F "chat_id=${TG_CHAT}" \
+              -F "document=@${IG_PNG}" \
+              --form-string "caption=${CAPTION}"
+            curl -sf -X POST "https://api.telegram.org/bot${TG_TOKEN}/sendMessage" \
+              --data-urlencode "chat_id=${TG_CHAT}" \
+              --data-urlencode "text=📸 IG Story ${TODAY} 素材已傳到上面 ☝️ — 從手機下載再上 IG 限動"
+          fi
