@@ -1,6 +1,46 @@
 {
-  "updated_at": "2026-05-11T01:10:00+08:00",
+  "updated_at": "2026-05-10T05:10:00+08:00",
   "items": [
+    {
+      "id": "pulse-2026-05-10-xai-neocloud",
+      "ts": "2026-05-10T09:00:00+08:00",
+      "title": "TechCrunch 分析：xAI 算力租賃轉型恐示 Grok 前線 AI 競爭已實質退場",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/10/were-feeling-cynical-about-xais-big-deal-with-anthropic/",
+      "blurb": "TechCrunch 發表分析指出，xAI 將 Colossus 全部算力租給 Anthropic 的決定暗示公司實質轉型為 neocloud 算力租賃商，而非前線 AI 模型研發競爭者；此舉雖改善財務，卻引發外界質疑 Grok 能否持續追趕 GPT-5.5 與 Claude，動搖 xAI 「前瞻 AI 創新者」的核心定位。"
+    },
+    {
+      "id": "pulse-2026-05-08-gpt55-cyber",
+      "ts": "2026-05-08T02:00:00+08:00",
+      "title": "OpenAI 向白名單網路防禦組織推出 GPT-5.5-Cyber・已用於重要基礎設施紅隊測試",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/07/openai-rolls-out-new-gpt-5point5-cyber-to-vetted-cybersecurity-teams.html",
+      "blurb": "OpenAI 向經審查的網路安全組織限量開放 GPT-5.5-Cyber，該模型可自動化縮放紅隊測試並驗證高嚴重性漏洞；與 Anthropic Mythos 同採受限存取策略，凸顯 frontier AI 在攻擊性網路工具上的雙重用途風險管理已成 frontier lab 行業共識，6 月起強制要求防釣魚身份驗證。"
+    },
+    {
+      "id": "pulse-2026-05-08-chatgpt-ads",
+      "ts": "2026-05-07T22:00:00+08:00",
+      "title": "OpenAI 正式在 ChatGPT 引入廣告・CPC 競價模式按對話主題定向投放",
+      "source": "OpenAI blog",
+      "url": "https://openai.com/index/testing-ads-in-chatgpt/",
+      "blurb": "OpenAI 宣告 ChatGPT 正式推出廣告，廣告商可透過自助 Ads Manager 以 CPC 競價模式投放，廣告依對話主題與歷史紀錄定向且明確標示；OpenAI 承諾廣告不影響 ChatGPT 回答品質，此舉標誌公司從純訂閱模式向廣告收益多元化的重大商業轉型。"
+    },
+    {
+      "id": "pulse-2026-05-06-spacex-terafab",
+      "ts": "2026-05-06T22:00:00+08:00",
+      "title": "SpaceX 擬在德州建 Terafab 晶片廠・規模高達 1,190 億美元供 AI 與機器人自用",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/06/spacex-may-spend-up-to-119-billion-on-terafab-chip-factory-in-texas/",
+      "blurb": "SpaceX 在德克薩斯州 Grimes County 提出高達 1,190 億美元半導體工廠稅務優惠申請，初期投資 550 億美元；Terafab 將生產 Tesla Optimus 機器人與 xAI 衛星專用晶片，Intel 已加入合作，此計畫直指半導體供應鏈自主化，以擺脫對 Nvidia 的依賴並支撐 AI 算力需求。"
+    },
+    {
+      "id": "pulse-2026-05-05-openai-50b-compute",
+      "ts": "2026-05-05T22:00:00+08:00",
+      "title": "OpenAI 2026 年算力支出規劃達 500 億美元・Brockman 宣示加速 AGI 基礎設施投資",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-05/openai-to-spend-50-billion-on-computing-in-2026-brockman-says",
+      "blurb": "OpenAI 聯合創辦人 Greg Brockman 宣告公司 2026 年預計在算力上投入 500 億美元，為 AI 業界迄今最大單年計算基礎設施承諾；此規模顯示 frontier lab 的 AGI 競賽已從「創業燒錢」進入「工業化規模」新階段，將對全球 GPU 供需、電力網格及資本市場產生深遠結構性影響。"
+    },
     {
       "id": "pulse-2026-05-08-airbnb-ai-code",
       "ts": "2026-05-08T14:00:00+08:00",
