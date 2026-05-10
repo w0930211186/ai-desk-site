@@ -1,6 +1,54 @@
 {
-  "updated_at": "2026-05-10T22:55:00+08:00",
+  "updated_at": "2026-05-10T23:10:00+08:00",
   "items": [
+    {
+      "id": "pulse-2026-05-09-nvidia-40b-ai-investor",
+      "ts": "2026-05-09T09:00:00+08:00",
+      "title": "Nvidia AI 股權投資承諾突破 400 億美元・IREN 與 Corning 同日簽約",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/09/nvidia-embraces-ai-investor-topping-40-billion-in-equity-bets-2026.html",
+      "blurb": "Nvidia 本週與 IREN、Corning 分別達成高達 21 億及 32 億美元的股權投資協議，累計 AI 股權投注突破 400 億美元，展示晶片龍頭加速垂直整合算力基礎設施的強硬戰略意圖。"
+    },
+    {
+      "id": "pulse-2026-05-07-anthropic-consumer-push",
+      "ts": "2026-05-07T08:00:00+08:00",
+      "title": "Bloomberg：Anthropic 調整策略・積極推動 Claude 消費者市場佈局",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-07/anthropic-is-making-claude-chatbot-more-appealing-to-consumers",
+      "blurb": "Bloomberg 報導 Anthropic 正強化 Claude 消費者吸引力，配合使用量上限提升與 SpaceX 算力協議同步推進，標誌公司從純企業端 B2B 策略向大眾消費市場全面擴張的結構性轉型。"
+    },
+    {
+      "id": "pulse-2026-05-06-anthropic-spacex-compute",
+      "ts": "2026-05-06T10:00:00+08:00",
+      "title": "Anthropic 與 SpaceX 簽算力大單・取得 Colossus 1 逾 22 萬片 GPU",
+      "source": "Anthropic blog",
+      "url": "https://www.anthropic.com/news/higher-limits-spacex",
+      "blurb": "Anthropic 簽約取得 SpaceX Colossus 1 數據中心全部計算容量，超過 30 萬瓩、逾 22 萬片 NVIDIA GPU 月內可用；Claude Pro 與 Max 用量上限同步大幅提升，為 frontier lab 近期最大單筆算力擴充協議。"
+    },
+    {
+      "id": "pulse-2026-05-04-anthropic-enterprise-jv",
+      "ts": "2026-05-04T10:00:00+08:00",
+      "title": "Anthropic 聯手 Blackstone、Goldman Sachs 成立企業 AI 服務新公司",
+      "source": "Anthropic blog",
+      "url": "https://www.anthropic.com/news/enterprise-ai-services-company",
+      "blurb": "Anthropic 夥同 Blackstone、Hellman & Friedman 及 Goldman Sachs 宣告組建企業 AI 服務新公司，專攻中型企業 Claude 導入整合，是 frontier lab 罕見直接切入 AI 系統整合市場的重大商業動作。"
+    },
+    {
+      "id": "pulse-2026-05-04-claude-opus-47",
+      "ts": "2026-05-04T08:00:00+08:00",
+      "title": "Anthropic 發布 Claude Opus 4.7・軟體工程與視覺能力全面升級",
+      "source": "Anthropic blog",
+      "url": "https://www.anthropic.com/news/claude-opus-4-7",
+      "blurb": "Claude Opus 4.7 正式上線，軟體工程能力顯著超越 4.6，高難度任務可放手交付；影像解析度大幅提升；定價維持每百萬輸入 5 美元、輸出 25 美元，同步支援 Amazon Bedrock、Google Vertex AI 及 Microsoft Foundry。"
+    },
+    {
+      "id": "pulse-2026-04-30-musk-xai-openai-grok",
+      "ts": "2026-04-30T08:00:00+08:00",
+      "title": "Musk 法庭作證：xAI 曾以蒸餾技術借用 OpenAI 模型訓練 Grok",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/30/elon-musk-testifies-that-xai-trained-grok-on-openai-models/",
+      "blurb": "Elon Musk 在法庭上承認 xAI 曾透過模型蒸餾技術使用 OpenAI 模型訓練 Grok，此供詞在 AI 業界競爭激烈的背景下引發廣泛關注，或直接影響 OpenAI 與 xAI 後續訴訟走向與業界競爭格局。"
+    },
     {
       "id": "pulse-2026-05-10-seed-1",
       "ts": "2026-05-10T22:00:00+08:00",
