@@ -797,6 +797,62 @@ footer.site-footer {
 </section>
 
 <div class="section-label">
+  <span class="num">00</span>
+  <span>Pulse — live AI signals</span>
+  <span class="bar"></span>
+  <span id="pulse-meta">— · live</span>
+</div>
+
+<section class="pulse" aria-label="Latest AI pulse">
+  <div class="pulse-head">
+    <h2>🔴 LATEST<br>PULSE</h2>
+    <p class="sub">每 2 小時掃一次<br>重大 AI 動態 · 即時推播<br>frontier lab · M&amp;A · 監管 · 安全</p>
+  </div>
+  <ol id="pulse-list" class="pulse-list" aria-live="polite">
+    <li class="pulse-loading">Loading…</li>
+  </ol>
+</section>
+
+<script>
+(function(){
+  fetch('/data/pulse.json?_=' + Date.now())
+    .then(function(r){ return r.json(); })
+    .then(function(data){
+      var list = document.getElementById('pulse-list');
+      var meta = document.getElementById('pulse-meta');
+      var items = (data.items || []).slice(0, 8);
+      if (!items.length) { list.innerHTML = '<li class="pulse-empty">沒有最新 pulse — 下次更新 ~2 小時後</li>'; return; }
+      list.innerHTML = items.map(function(it){
+        var t = new Date(it.ts);
+        var hh = String(t.getHours()).padStart(2,'0');
+        var mm = String(t.getMinutes()).padStart(2,'0');
+        var date = (t.getMonth()+1) + '/' + t.getDate() + ' ' + hh + ':' + mm;
+        var src = (it.source || '').toUpperCase();
+        return '<li class="pulse-item"><span class="pulse-time">' + date + '</span><span class="pulse-src">' + src + '</span><a class="pulse-title" href="' + it.url + '" target="_blank" rel="noopener">' + it.title + '</a>' + (it.blurb ? '<p class="pulse-blurb">' + it.blurb + '</p>' : '') + '</li>';
+      }).join('');
+      if (data.updated_at) { meta.textContent = '更新於 ' + data.updated_at.replace('T',' ').replace(/[+Z].*/, '') + ' · live'; }
+    })
+    .catch(function(){ document.getElementById('pulse-list').innerHTML = '<li class="pulse-empty">pulse data 載入失敗</li>'; });
+})();
+</script>
+
+<style>
+.pulse { background: #0a0a0a; padding: 3rem 2rem; max-width: 1200px; margin: 2rem auto; }
+.pulse-head { margin-bottom: 2rem; }
+.pulse-head h2 { font-size: 4rem; line-height: 0.9; margin: 0; color: #fff; letter-spacing: -0.04em; }
+.pulse-head .sub { font-family: "JetBrains Mono", monospace; font-size: 0.85rem; color: #888; margin-top: 1rem; line-height: 1.6; }
+.pulse-list { list-style: none; padding: 0; margin: 0; border-top: 1px solid #333; }
+.pulse-item { display: grid; grid-template-columns: 100px 100px 1fr; gap: 1rem; padding: 1rem 0; border-bottom: 1px solid #222; align-items: start; }
+.pulse-time { font-family: "JetBrains Mono", monospace; font-size: 0.78rem; color: #ff4444; letter-spacing: 0.05em; }
+.pulse-src { font-family: "JetBrains Mono", monospace; font-size: 0.7rem; color: #888; letter-spacing: 0.1em; text-transform: uppercase; }
+.pulse-title { color: #fff; text-decoration: none; font-size: 0.95rem; line-height: 1.5; display: block; }
+.pulse-title:hover { color: #ff4444; }
+.pulse-blurb { grid-column: 3; color: #aaa; font-size: 0.8rem; margin-top: 0.5rem; line-height: 1.5; }
+.pulse-loading, .pulse-empty { padding: 1rem 0; color: #888; font-family: "JetBrains Mono", monospace; }
+@media (max-width: 700px) { .pulse-item { grid-template-columns: 1fr; gap: 0.3rem; } .pulse-blurb { grid-column: 1; } }
+</style>
+
+<div class="section-label">
   <span class="num">01</span>
   <span>Journal — latest editions</span>
   <span class="bar"></span>

@@ -1,0 +1,38 @@
+{
+  "updated_at": "2026-05-10T22:55:00+08:00",
+  "items": [
+    {
+      "id": "pulse-2026-05-10-seed-1",
+      "ts": "2026-05-10T22:00:00+08:00",
+      "title": "Anthropic 公布 Q1 收入 8.45 億美元 · Claude Auto Mode 上線",
+      "source": "Anthropic blog",
+      "url": "https://www.anthropic.com/news",
+      "blurb": "Q1 從 6.8 億跳 8.45 億；Claude Auto Mode 為 frontier lab 第一個 agent OS 級別發佈。"
+    },
+    {
+      "id": "pulse-2026-05-10-seed-2",
+      "ts": "2026-05-10T20:30:00+08:00",
+      "title": "Mythos Foundation 接管 Firefox · Mozilla Corporation 重組",
+      "source": "Mozilla blog",
+      "url": "https://blog.mozilla.org/",
+      "blurb": "Mozilla 把 Firefox engineering 切割給 Mythos Foundation 獨立營運。"
+    },
+    {
+      "id": "pulse-2026-05-10-seed-3",
+      "ts": "2026-05-10T18:00:00+08:00",
+      "title": "CAISI 對接 Google / Microsoft / xAI · 加州 AI 監管草案進入審查",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/",
+      "blurb": "加州 AI Safety Institute 啟動 frontier 廠對接機制。"
+    },
+    {
+      "id": "pulse-2026-05-10-seed-4",
+      "ts": "2026-05-10T15:30:00+08:00",
+      "title": "DeepMind 工會啟動 · 工程師對 AI safety 立場分裂",
+      "source": "The Information",
+      "url": "https://www.theinformation.com/",
+      "blurb": "Google DeepMind 部分工程師啟動工會程序，焦點在內部 safety dissent 機制。"
+    }
+  ],
+  "_note": "seeded by Peter 2026-05-10 — cloud routine ai-desk-pulse 每 2 小時自動更新"
+}
