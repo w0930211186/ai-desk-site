@@ -1,6 +1,62 @@
 {
-  "updated_at": "2026-05-10T05:10:00+08:00",
+  "updated_at": "2026-05-10T07:10:00+08:00",
   "items": [
+    {
+      "id": "pulse-2026-05-05-caisi-ai-oversight",
+      "ts": "2026-05-05T22:00:00+08:00",
+      "title": "Trump 政府要求 Google DeepMind、Microsoft、xAI 提前送審 AI 模型・CAISI 擴大監管",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/05/ai-oversight-trump-google-microsoft-xai.html",
+      "blurb": "美國商務部 CAISI 宣告與 Google DeepMind、Microsoft 及 xAI 簽署協議，要求在公開發布前提交 AI 模型進行能力評估，延伸既有的 OpenAI 與 Anthropic 協議；此舉是 Trump 政府強化 AI 監管的重要里程碑，標誌前沿模型預部署審查已成聯邦政策常態。"
+    },
+    {
+      "id": "pulse-2026-04-27-openai-microsoft-restructure",
+      "ts": "2026-04-27T22:00:00+08:00",
+      "title": "OpenAI 與 Microsoft 重磅重組協議・終結獨家授權、至 2032 改採非獨家 IP",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/27/openai-ends-microsoft-legal-peril-over-its-50b-amazon-deal/",
+      "blurb": "Microsoft 與 OpenAI 正式重組夥伴關係：Microsoft 至 2032 年改以非獨家方式授權 OpenAI IP、停止收取 OpenAI 收入分潤，OpenAI 則可全面向 Amazon、Google 等其他雲端廠商提供產品；協議翌日 OpenAI 模型即登陸 AWS Bedrock，標誌科技史上最重要 AI 合作關係的根本性轉變。"
+    },
+    {
+      "id": "pulse-2026-04-27-ineffable-intelligence-11b",
+      "ts": "2026-04-27T18:00:00+08:00",
+      "title": "DeepMind 元老 David Silver 創業・Ineffable Intelligence 完成 11 億美元種子輪融資",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/27/deepminds-david-silver-just-raised-1-1b-to-build-an-ai-that-learns-without-human-data/",
+      "blurb": "AlphaGo 之父、DeepMind 創辦研究員 David Silver 離職後創辦 Ineffable Intelligence，以打造不依賴人類示範資料自主學習的 AI 為目標，完成創紀錄的 11 億美元種子輪融資，投資方含 Nvidia 與 Google；此輪為 AI 新創業界迄今金額最高的種子輪，顯示資本對無人類標注路徑的超高風險賭注。"
+    },
+    {
+      "id": "pulse-2026-04-24-google-40b-anthropic",
+      "ts": "2026-04-24T22:00:00+08:00",
+      "title": "Google 宣告最高 400 億美元投資 Anthropic・初期 100 億即時到位估值 3,500 億",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/24/google-to-invest-up-to-40b-in-anthropic-in-cash-and-compute/",
+      "blurb": "Alphabet 宣告以現金與算力形式向 Anthropic 投入最高 400 億美元，其中 100 億立即到位且 Anthropic 估值達 3,500 億美元；剩餘 300 億須視 Anthropic 達成特定績效里程碑，此輪為科技業有史以來最大 AI 單輪投資之一，進一步鞏固 Anthropic 在 frontier AI 競賽中的算力優勢。"
+    },
+    {
+      "id": "pulse-2026-04-24-deepseek-v4",
+      "ts": "2026-04-24T10:00:00+08:00",
+      "title": "DeepSeek 發布 V4 Flash 與 V4 Pro・程式碼推理能力宣稱達頂級水準",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-24/deepseek-unveils-newest-flagship-a-year-after-ai-breakthrough",
+      "blurb": "中國 DeepSeek 在震驚矽谷一年後推出最新旗艦系列 V4 Flash 與 V4 Pro，宣稱在程式碼及推理基準達到頂級表現、大幅改善 agentic 任務能力；DeepSeek 再次以低成本高效能模式挑戰 OpenAI 與 Anthropic，引發外界對中美 AI 競賽差距的新一輪評估。"
+    },
+    {
+      "id": "pulse-2026-04-20-amazon-25b-anthropic",
+      "ts": "2026-04-20T22:00:00+08:00",
+      "title": "Amazon 追加最高 250 億美元投資 Anthropic・含 5GW 算力基礎設施承諾",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/20/amazon-invest-up-to-25-billion-in-anthropic-part-of-ai-infrastructure.html",
+      "blurb": "Amazon 宣告在原有 40 億美元之外再追加最高 250 億美元投資 Anthropic，包含預計採購多達 5 吉瓦算力的龐大基礎設施協議；此交易使 Amazon 對 Anthropic 的累計承諾達數百億美元，鞏固 AWS 作為 Claude 主要雲端夥伴地位，並強化雙方在企業 AI 服務的深度整合。"
+    },
+    {
+      "id": "pulse-2026-04-08-meta-muse-spark",
+      "ts": "2026-04-08T22:00:00+08:00",
+      "title": "Meta 推出 Muse Spark・Superintelligence Labs 首款模型全面追趕 GPT-5 與 Claude",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/08/meta-debuts-the-muse-spark-model-in-a-ground-up-overhaul-of-its-ai/",
+      "blurb": "Meta 發布 Muse 系列首款模型 Muse Spark，由招募 Alexandr Wang 後成立的 Meta Superintelligence Labs 主導研發，標誌 Meta 全面重組 AI 策略以縮小與 OpenAI、Anthropic 的差距；Muse Spark 已在網頁端及 Meta AI 應用上線，並預計數週內整合至 Facebook、Instagram、WhatsApp 及 Ray-Ban 智慧眼鏡。"
+    },
     {
       "id": "pulse-2026-05-10-xai-neocloud",
       "ts": "2026-05-10T09:00:00+08:00",
