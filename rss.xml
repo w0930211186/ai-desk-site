@@ -5,8 +5,15 @@
     <link>https://ai-desk-tw.netlify.app/</link>
     <description>獨立 AI 編輯台 · 每天 07:00 CST · 1 分鐘看完全球 AI 大事 · 每條附源</description>
     <language>zh-Hant</language>
-    <lastBuildDate>Sun, 10 May 2026 23:35:08 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 11 May 2026 23:12:05 +0000</lastBuildDate>
     <atom:link href="https://ai-desk-tw.netlify.app/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2026/05/12 · AI 大事 · Stratechery · Ben Thompson 把 AI 經濟學的主軸從訓練改寫成 inference | AI DESK</title>
+      <link>https://ai-desk-tw.netlify.app/posts/2026-05-12-daily.html</link>
+      <guid isPermaLink="true">https://ai-desk-tw.netlify.app/posts/2026-05-12-daily.html</guid>
+      <pubDate>Tue, 12 May 2026 07:00:00 +0800</pubDate>
+      <description>AI 戰場從訓練轉到 inference · Ben Thompson 把每 token 成本拉成新主敘事。Google I/O 2026 倒數 7 天 · Gemini 4 + Agentic 框架 + Android 17 三箭齊發 · 加碼 Aluminum OS 統一 Chrome 體驗。CAISI 把監管網張到 Microsoft、Google DeepMind、xAI · Anthropic 出局是政治訊號不是技術訊號。</description>
+    </item>
     <item>
       <title>2026/05/11 · AI 大事 · Trump 政府的 AI doomer 時刻 · 白宮內部會議首次把 frontier 模型能力當政策依據 | AI DESK</title>
       <link>https://ai-desk-tw.netlify.app/posts/2026-05-11-daily.html</link>
@@ -33,21 +40,21 @@
       <link>https://ai-desk-tw.netlify.app/posts/2026-05-08-daily.html</link>
       <guid isPermaLink="true">https://ai-desk-tw.netlify.app/posts/2026-05-08-daily.html</guid>
       <pubDate>Fri, 08 May 2026 07:00:00 +0800</pubDate>
-      <description>Anthropic Mythos 在 Firefox 找到大量高嚴重度漏洞 · AI agent 從 PoC 走進 mission-critical 系統。DeepMind AlphaEvolve 跨領域落地 · Gemini 驅動的 coding agent 在數學、晶片、資料中心都跑出可驗證最佳化。中國開源 AI 估值繼續暴衝 vs. ASML 警告矽基供應鏈瓶頸真實存在。</description>
+      <description>Anthropic Mythos 在 Firefox 找到大量高嚴重度漏洞 · AI agent 從 PoC 走進 mission-critical 系統。DeepMind AlphaEvolve 跨領域落地 · Gemini 驅動的 coding agent 在數學、晶片、資料中心都跑出可驗證最佳化。中國開源 AI 估值繼續暴衝 vs. ASML 警告矽基供應鏈璶頸真實存在。</description>
     </item>
     <item>
       <title>2026/05/07 · AI 大事 · Anthropic 把 SpaceX Colossus 1 整廠買下 · Claude rate limit 上調 · 同步加碼 22 萬張 GPU | AI DESK</title>
       <link>https://ai-desk-tw.netlify.app/posts/2026-05-07-daily.html</link>
       <guid isPermaLink="true">https://ai-desk-tw.netlify.app/posts/2026-05-07-daily.html</guid>
       <pubDate>Thu, 07 May 2026 07:00:00 +0800</pubDate>
-      <description>Anthropic 整廠買下 SpaceX Colossus 1 · xAI 變算力供應商。Trump 政府 AI safety 立場大轉彎 · 重啟 Biden 留下的上線前審查框架。Simon Willison 警告：vibe coding 與 agentic engineering 邊界塌陷。</description>
+      <description>Anthropic 整廠買下 SpaceX Colossus 1 · xAI 變算力供應商。Trump 政府 AI safety 立場大轉彎 · 重啟 Biden 留下的上線前審查框架。Simon Willison 警告：vibe coding 與 agentic engineering 邊界塊降。</description>
     </item>
     <item>
       <title>2026/05/06 · AI 大事 · Anthropic 推 finance agents · 金融保險垂直化第一槍 | AI DESK</title>
       <link>https://ai-desk-tw.netlify.app/posts/2026-05-06-daily.html</link>
       <guid isPermaLink="true">https://ai-desk-tw.netlify.app/posts/2026-05-06-daily.html</guid>
       <pubDate>Wed, 06 May 2026 07:00:00 +0800</pubDate>
-      <description>金融垂直 AI 進入「資本 + 模型 + 產品」三線同進場 · Anthropic finance agents 落地。推論加速戰場開打 · Gemma 4 把 multi-token prediction drafter 寫進開源主流。語音 AI 介面層被資本與好萊塢同時認證 · ElevenLabs ARR 破 5 億美元。</description>
+      <description>金融垂直 AI 進入「資本 + 模型 + 產品」三線同進場 · Anthropic finance agents 落地。推論加速戰場開打 · Gemma 4 把 multi-token prediction drafter 寫進開源主流。語音 AI 介面層被資本與好莘塢同時認證 · ElevenLabs ARR 破 5 億美元。</description>
     </item>
     <item>
       <title>2026-05-05-daily</title>
@@ -61,10 +68,10 @@
       <link>https://ai-desk-tw.netlify.app/posts/2026-05-04-daily.html</link>
       <guid isPermaLink="true">https://ai-desk-tw.netlify.app/posts/2026-05-04-daily.html</guid>
       <pubDate>Mon, 04 May 2026 07:00:00 +0800</pubDate>
-      <description>Frontier 廠政商命運第一次明顯分流 · Pentagon 把 Anthropic 踢出國防 AI 圈。IDE 廠商從工具公司變成大型實業集團爭奪標的 · Cursor 60 億美元被 SpaceX 接走。影視產業第一次正面拒絕 frontier 模型輸出 · Oscars 對 AI 演員與 AI 劇本下禁令。</description>
+      <description>Frontier 廠政商命運第一次明顕分流 · Pentagon 把 Anthropic 踢出國防 AI 圈。IDE 廠商從工具公司變成大型實業集團爭夺標的 · Cursor 60 億美元被 SpaceX 接走。影視產業第一次正面拒絕 frontier 模型輸出 · Oscars 對 AI 演員與 AI 劇本下禁令。</description>
     </item>
     <item>
-      <title>2026/05/03 · AI 大事 · Uber 4 個月燒光全年 AI 預算 · Claude Code 太好用反而擋路 | AI DESK</title>
+      <title>2026/05/03 · AI 大事 · Uber 4 個月燒光全年 AI 預算 · Claude Code 太好用反而斓路 | AI DESK</title>
       <link>https://ai-desk-tw.netlify.app/posts/2026-05-03-daily.html</link>
       <guid isPermaLink="true">https://ai-desk-tw.netlify.app/posts/2026-05-03-daily.html</guid>
       <pubDate>Sun, 03 May 2026 07:00:00 +0800</pubDate>
@@ -78,60 +85,60 @@
       <description>frontier 廠的政府訂單話語權正在被分散稀釋 · Frontier political moat erodes。distillation 紅線從 ToS 細則被一句證詞拉到產業議題 · Distillation moat goes public。算力商品化第二條曲線正式成形 · A second compute-supply curve emerges。</description>
     </item>
     <item>
-      <title>2026/05/01 · AI 大事 · Stripe Link 接通 agent 金流 · Anthropic 9000 億估值 · OpenAI 鎖 Cyber API · Claude Code 擋 OpenClaw · Mozilla 反 Chrome Prompt API</title>
+      <title>2026/05/01 · AI 大事 · Stripe Link 接通 agent 金流 · Anthropic 9000 億估值 · OpenAI 鎖 Cyber API · Claude Code 斓 OpenClaw · Mozilla 反 Chrome Prompt API</title>
       <link>https://ai-desk-tw.netlify.app/posts/2026-05-01-daily.html</link>
       <guid isPermaLink="true">https://ai-desk-tw.netlify.app/posts/2026-05-01-daily.html</guid>
       <pubDate>Fri, 01 May 2026 07:00:00 +0800</pubDate>
-      <description>Stripe Link 數位錢包接通 AI agent 授權消費，agentic commerce 金流底座到位。Anthropic 收到多筆 preemptive offer 估值區間 850B–900B 美金，新一輪規模上看 500 億。OpenAI 收緊 GPT-5.5 Cyber API 改白名單制，被打臉自家過去抨擊 Anthropic Mythos 的言論。Claude Code 被抓到偵測 commit 含 OpenClaw 字眼直接拒絕，HN 776 分炸鍋。Mozilla 公開反對 Chrome Prompt API，Web 標準 vs 廠商鎖定戰開打。5 條附圖附源附判斷，3 實圖 2 editorial card。</description>
+      <description>Stripe Link 數位錢包接通 AI agent 授權消費，agentic commerce 金流底座到位。Anthropic 收到多筆 preemptive offer 估值區間 850B–900B 美金，新一輪規模上看 500 億。OpenAI 收緊 GPT-5.5 Cyber API 改白名單制，被打臉自家過去抄擊 Anthropic Mythos 的言論。Claude Code 被抓到偵測 commit 含 OpenClaw 字眼直接拒絕，HN 776 分炸鍍。Mozilla 公開反對 Chrome Prompt API，Web 標準 vs 廠商鎖定戰開打。5 條附圖附源附判斷，3 實圖 2 editorial card。</description>
     </item>
     <item>
-      <title>04/30 AI 大事 · DeepMind 王牌募 11 億 · OpenAI 解套 MSFT 上 AWS · Mistral Medium 3.5 · Anthropic 計費 bug 炎上 | AI DESK</title>
+      <title>04/30 AI 大事 · DeepMind 王牌录 11 億 · OpenAI 解套 MSFT 上 AWS · Mistral Medium 3.5 · Anthropic 計費 bug 炎上 | AI DESK</title>
       <link>https://ai-desk-tw.netlify.app/posts/2026-04-30-daily.html</link>
       <guid isPermaLink="true">https://ai-desk-tw.netlify.app/posts/2026-04-30-daily.html</guid>
       <pubDate>Thu, 30 Apr 2026 07:00:00 +0800</pubDate>
-      <description>DeepMind 王牌 David Silver 出走募 11 億美元，估值 51 億，押注「不靠人類資料的 RL」對沖 LLM scaling。OpenAI 終結 Microsoft 獨家綁定，新版模型隔天直接登上 AWS Bedrock，三巨頭雲端 AI 結構一夜重畫。Mistral Medium 3.5 把 remote agents + vibe coding 推向中型開源價位。Anthropic Hermes 計費 bug 多扣 200 美拒退，HN 一夜 756 pts 炎上。4 條附圖附源附判斷。</description>
+      <description>DeepMind 王牌 David Silver 出走录 11 億美元，估值 51 億，押注「不靠人類資料的 RL」對沖 LLM scaling。OpenAI 終結 Microsoft 獨家綁定，新版模型隔天直接登上 AWS Bedrock，三巨頭雲端 AI 結構一夜重畫。Mistral Medium 3.5 把 remote agents + vibe coding 推向中型開源價位。Anthropic Hermes 計費 bug 多扣 200 美拒退，HN 一夜 756 pts 炎上。4 條附圖附源附判斷。</description>
     </item>
     <item>
       <title>2026/04/29 · AI 大事 · Claude.ai 全站掛點、Anthropic 拒接五角大廈、微軟 VibeVoice 開源、OpenAI 上 AWS Bedrock</title>
       <link>https://ai-desk-tw.netlify.app/posts/2026-04-29-daily.html</link>
       <guid isPermaLink="true">https://ai-desk-tw.netlify.app/posts/2026-04-29-daily.html</guid>
       <pubDate>Wed, 29 Apr 2026 07:00:00 +0800</pubDate>
-      <description>Claude.ai 與 Anthropic API 同時掛點，HN 衝 231 分，agentic 工作流瞬間斷氣。Anthropic 拒接五角大廈本土監控與自主武器訂單後，Google 隔天簽下擴大合約。微軟把前沿級語音模型 VibeVoice 直接開源放上 GitHub。OpenAI 模型上線 AWS Bedrock Managed Agents，雲端三巨頭結構洗牌再加碼。4 條附圖附源附判斷。</description>
+      <description>Claude.ai 與 Anthropic API 同時掛點，HN 衝 231 分，agentic 工作流瞬間斷氣。Anthropic 拒接五角大廈本土監控與自主武器訂單後，Google 隔天簽下擴大合約。微軟把前沿級語音模型 VibeVoice 直接開源放上 GitHub。OpenAI 模型上線 AWS Bedrock Managed Agents，雲端三工頭結構洗牌再加碼。4 條附圖附源附判斷。</description>
     </item>
     <item>
       <title>2026/04/28 · AI 大事 · 中國否決 Meta-Manus 案、OpenAI 解綁微軟簽 AWS 50B、David Silver 起 Ineffable Intelligence</title>
       <link>https://ai-desk-tw.netlify.app/posts/2026-04-28-daily.html</link>
       <guid isPermaLink="true">https://ai-desk-tw.netlify.app/posts/2026-04-28-daily.html</guid>
       <pubDate>Tue, 28 Apr 2026 07:00:00 +0800</pubDate>
-      <description>中國反壟斷封殺 Meta 對中國 AI Agent 新創 Manus 的 $2B 收購，中美 AI 跨境併購窗口關上。OpenAI 與微軟終止獨家分潤協議、與 Amazon 簽下 $50B 算力大單，雲端三巨頭結構洗牌。AlphaGo 之父 David Silver 出走 DeepMind 創 Ineffable Intelligence，$5.1B 估值募 $1.1B 押純強化學習路線。3 條附圖附源附判斷。</description>
+      <description>中國反壟斷封殺 Meta 對中國 AI Agent 新創 Manus 的 $2B 收購，中美 AI 跨境併購窗口關上。OpenAI 與微軟終止獨家分潤協議、與 Amazon 簽下 $50B 算力大單，雲端三工頭結構洗牌。AlphaGo 之父 David Silver 出走 DeepMind 創 Ineffable Intelligence，$5.1B 估值录 $1.1B 押純強化學路線。3 條附圖附源附判斷。</description>
     </item>
     <item>
-      <title>2026/04/28 · News 深度 · GitHub Copilot 從吃到飽改 token 計價：編碼代理商業模式全面重設</title>
+      <title>2026/04/28 · News 深度 · GitHub Copilot 從吃到饱改 token 計價：編碼代理商業模式全面重設</title>
       <link>https://ai-desk-tw.netlify.app/posts/2026-04-28-news-github-copilot-billing.html</link>
       <guid isPermaLink="true">https://ai-desk-tw.netlify.app/posts/2026-04-28-news-github-copilot-billing.html</guid>
       <pubDate>Tue, 28 Apr 2026 07:00:00 +0800</pubDate>
-      <description>GitHub 宣布 Copilot 從固定月費 $10 / $19 改成 token-based 用量計價。HN 衝到 439 分熱議。背後反映 AI 編碼代理在 agent loop 推論成本暴漲下舊定價模式撐不住，是 IDE Coding Agent 商業模式的全面重設。AI DESK 解構：成本結構、競爭動態、Cursor / Windsurf / JetBrains 的對應、企業採購衝擊，以及這條路為何不一定是好事——含反方觀點。</description>
+      <description>GitHub 宣布 Copilot 從固定月費 $10 / $19 改成 token-based 用量計價。HN 衝到 439 分熱議。背後反映 AI 編碼代理在 agent loop 推論成本暴漲下舊定價模式撔不住，是 IDE Coding Agent 商業模式的全面重設。AI DESK 解構：成本結構、競爭動態、Cursor / Windsurf / JetBrains 的對應、企業採購衝擊，以及這條路為何不一定是好事——含反方觀點。</description>
     </item>
     <item>
-      <title>2026/04/27 · AI 大事 · Meta 押 AWS CPU、Anthropic 開 agent 市集、AI agent 抹 prod、SWE-bench 退役</title>
+      <title>2026/04/27 · AI 大事 · Meta 押 AWS CPU、Anthropic 開 agent 市集、AI agent 抄 prod、SWE-bench 退役</title>
       <link>https://ai-desk-tw.netlify.app/posts/2026-04-27-daily.html</link>
       <guid isPermaLink="true">https://ai-desk-tw.netlify.app/posts/2026-04-27-daily.html</guid>
       <pubDate>Mon, 27 Apr 2026 07:00:00 +0800</pubDate>
-      <description>Meta 跟 Amazon 簽下百萬顆級 AI CPU 訂單。Anthropic 開出第一個 agent-to-agent 市集，AI 用真錢買真貨。工程師公開 AI agent 抹掉生產 DB 全紀錄。OpenAI 宣布退役 SWE-bench。Google 對 Anthropic 加碼到 $40B 並釋出 Mythos 資安模型。5 條附圖附源附判斷。</description>
+      <description>Meta 跟 Amazon 簽下百萬顔級 AI CPU 訂單。Anthropic 開出第一個 agent-to-agent 市集，AI 用真錢買真貨。工程師公開 AI agent 抄掉生產 DB 全紀錄。OpenAI 宣布退役 SWE-bench。Google 對 Anthropic 加碼到 $40B 並釋出 Mythos 資安模型。5 條附圖附源附判斷。</description>
     </item>
     <item>
-      <title>2026/04/26 · AI 大事 · Google 砸 $40B 進 Anthropic、GPT-5.5 super app、DeepSeek 逼近前沿</title>
+      <title>2026/04/26 · AI 大事 · Google 砂 $40B 進 Anthropic、GPT-5.5 super app、DeepSeek 遡近前沿</title>
       <link>https://ai-desk-tw.netlify.app/posts/2026-04-26-daily.html</link>
       <guid isPermaLink="true">https://ai-desk-tw.netlify.app/posts/2026-04-26-daily.html</guid>
       <pubDate>Sun, 26 Apr 2026 07:00:00 +0800</pubDate>
-      <description>Google 規劃對 Anthropic 投入 $40B 現金加 TPU 算力。OpenAI GPT-5.5 把 ChatGPT 推向 super app。DeepSeek 開源逼近前沿。Cohere 併 Aleph Alpha 撐起歐洲主權 AI。Sam Altman 對 Tumbler Ridge 公開道歉。5 條附圖附源附判斷。</description>
+      <description>Google 規劃對 Anthropic 投入 $40B 現金加 TPU 算力。OpenAI GPT-5.5 把 ChatGPT 推向 super app。DeepSeek 開源遡近前沿。Cohere 併 Aleph Alpha 撐起歐洲主權 AI。Sam Altman 對 Tumbler Ridge 公開道歉。5 條附圖附源附判斷。</description>
     </item>
     <item>
       <title>2026/04/24 · AI 大事 · GPT-5.5、Claude Code postmortem、AI code 裂開源</title>
       <link>https://ai-desk-tw.netlify.app/posts/2026-04-24-ai-daily.html</link>
       <guid isPermaLink="true">https://ai-desk-tw.netlify.app/posts/2026-04-24-ai-daily.html</guid>
       <pubDate>Fri, 24 Apr 2026 07:00:00 +0800</pubDate>
-      <description>OpenAI 不到 6 個月再出 GPT-5.5。Anthropic 少見公開 Claude Code postmortem。一個開源團隊因為 AI 生 code 正式裂開。Karpathy 風的互動式 LLM 教學一夜爆火。韓國首例 AI 假圖造成公共恐慌被拘捕。5 條附圖附源附判斷。</description>
+      <description>OpenAI 不到 6 個月再出 GPT-5.5。Anthropic 少見公開 Claude Code postmortem。一個開源團隊因為 AI 生 code 正式裂開。Karpathy 風的互動式 LLM 教學一夜爆火。韓國首例 AI 假圖造成公共恐慕被拘捉。5 條附圖附源附判斷。</description>
     </item>
   </channel>
 </rss>
