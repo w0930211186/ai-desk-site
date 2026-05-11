@@ -1,6 +1,38 @@
 {
-  "updated_at": "2026-05-12T00:15:00+08:00",
+  "updated_at": "2026-05-12T02:15:00+08:00",
   "items": [
+    {
+      "id": "pulse-2026-05-11-nadella-sutskever-trial",
+      "ts": "2026-05-11T23:00:00+08:00",
+      "title": "Musk v. Altman 第三週：Nadella 稱馬斯克從未提異議・Sutskever 爆 Google 年薪 $600 萬留人失敗",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/11/microsoft-ceo-satya-nadella-musk-altman-trial.html",
+      "blurb": "Microsoft CEO Satya Nadella 出庭作證，表明 Elon Musk 從未就微軟投資 OpenAI 一事向他提出任何法律異議；隨後 Ilya Sutskever 出庭揭示 Google 曾開出年薪 600 萬美元試圖留人，並說明當年因「深切在乎 OpenAI 不被毀掉」而向董事會通報 Altman 問題，兩人關鍵證詞將左右 5/21 責任裁決及 OpenAI 非營利轉型合法性認定。"
+    },
+    {
+      "id": "pulse-2026-05-11-trump-ceos-beijing-summit",
+      "ts": "2026-05-11T21:00:00+08:00",
+      "title": "川普邀馬斯克、庫克、芬克同赴北京峰會・AI 技術竊取與晶片管制成核心科技議程",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/11/trump-ceos-elon-musk-tim-cook-larry-fink-xi-china-summit.html",
+      "blurb": "川普宣布邀請 Tesla CEO 馬斯克、Apple CEO Tim Cook、BlackRock CEO Larry Fink 及 Boeing CEO Ortberg 等科技與金融領袖隨行 5/14-15 北京習近平峰會；AI 議程包括商議建立美中 AI 安全溝通熱線、討論中方「工業級」竊取美國前沿 AI 知識產權問題，並就晶片出口管制鬆緊及稀土協議展開直接談判，馬斯克代表 xAI 同行備受矚目。"
+    },
+    {
+      "id": "pulse-2026-05-11-intel-agencies-ai-battle",
+      "ts": "2026-05-11T19:00:00+08:00",
+      "title": "白宮內部搶奪 AI 監管主導權：情報機構要求超越商務部・NSA、CIA 指前沿模型構成即時國安威脅",
+      "source": "Washington Post",
+      "url": "https://www.washingtonpost.com/politics/2026/05/11/trump-ai-regulation-commerce-intelligence/",
+      "blurb": "《華盛頓郵報》揭露川普政府內部激烈角力：NSA、CIA 等情報機構要求奪取 AI 監管主導權，主張應由情報體系而非商務部領導前沿模型上市審查，強調 Anthropic Mythos 等模型已構成即時國家安全威脅；此番爭奪將直接決定即將出台的 AI 行政命令措辭及美國 AI 監管框架的權力架構走向。"
+    },
+    {
+      "id": "pulse-2026-05-06-anthropic-spacex-compute",
+      "ts": "2026-05-06T22:00:00+08:00",
+      "title": "Anthropic 與 SpaceX 簽署超算容量協議・取得 Colossus 1 全部 300 MW・22 萬 GPU・Claude 限額同步翻升",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/06/anthropic-spacex-data-center-capacity.html",
+      "blurb": "Anthropic 宣布與 SpaceX 的 Colossus 1 資料中心簽署全容量使用協議，取得逾 300 兆瓦（22 萬張以上 NVIDIA GPU）的新算力，協議含太空基礎設施開發元素；同步宣布 Claude Pro、Max、Team 及企業版 API 用量限額大幅提升、取消尖峰限速，為在 Claude Code 爆量下已算力告急的 Anthropic 提供關鍵喘息空間，算力短缺問題有望短期舒緩。"
+    },
     {
       "id": "pulse-2026-05-11-openai-eu-cyber",
       "ts": "2026-05-11T18:00:00+08:00",
@@ -208,38 +240,6 @@
       "source": "Fortune",
       "url": "https://fortune.com/2026/05/08/anthropic-80fold-growth-quarter-renting-elon-musk-data-center/",
       "blurb": "Fortune 報導，Anthropic 因 Claude Code 爆量需求算力嚴重告急，緊急租用競爭對手 xAI 位於孟菲斯的 Colossus 超算中心應急；Q1 年化收入成長高達 80 倍，凸顯 frontier AI 企業高速擴張期面臨的基礎設施挑戰，亦顯示 xAI 超算中心已成業界共用算力資源，AI 競爭與合作邊界日趨模糊。"
-    },
-    {
-      "id": "pulse-2026-05-08-cloudflare-ai-layoffs",
-      "ts": "2026-05-08T06:00:00+08:00",
-      "title": "Cloudflare 首次大規模裁員 1,100 人並明指 AI 替代・Q1 業績創高同期股價重挫 24%",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/05/08/cloudflare-says-ai-made-1100-jobs-obsolete-even-as-revenue-hit-a-record-high/",
-      "blurb": "Cloudflare 裁減約 20% 員工（1,100 人），創公司 16 年來首次大規模裁員，明確點名 AI 令這些職位過時；同期 Q1 營收卻創歷史新高達 6.4 億美元、內部 AI 使用量三個月激增 600%，成為科技業以 AI 驅動人力結構重組的最具代表性案例，股價應聲重挫 24%。"
-    },
-    {
-      "id": "pulse-2026-05-08-gpt55-cyber",
-      "ts": "2026-05-08T02:00:00+08:00",
-      "title": "OpenAI 向白名單網路防禦組織推出 GPT-5.5-Cyber・已用於重要基礎設施紅隊測試",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/05/07/openai-rolls-out-new-gpt-5point5-cyber-to-vetted-cybersecurity-teams.html",
-      "blurb": "OpenAI 向經審查的網路安全組織限量開放 GPT-5.5-Cyber，該模型可自動化縮放紅隊測試並驗證高嚴重性漏洞；與 Anthropic Mythos 同採受限存取策略，凸顯 frontier AI 在攻擊性網路工具上的雙重用途風險管理已成 frontier lab 行業共識，6 月起強制要求防釣魚身份驗證。"
-    },
-    {
-      "id": "pulse-2026-05-08-chatgpt-ads",
-      "ts": "2026-05-07T22:00:00+08:00",
-      "title": "OpenAI 正式在 ChatGPT 引入廣告・CPC 競價模式按對話主題定向投放",
-      "source": "OpenAI blog",
-      "url": "https://openai.com/index/testing-ads-in-chatgpt/",
-      "blurb": "OpenAI 宣告 ChatGPT 正式推出廣告，廣告商可透過自助 Ads Manager 以 CPC 競價模式投放，廣告依對話主題與歷史紀錄定向且明確標示；OpenAI 承諾廣告不影響 ChatGPT 回答品質，此舉標誌公司從純訂閱模式向廣告收益多元化的重大商業轉型。"
-    },
-    {
-      "id": "pulse-2026-05-07-eu-ai-omnibus",
-      "ts": "2026-05-07T22:00:00+08:00",
-      "title": "歐盟 AI Omnibus 達成協議・高風險 AI 合規期限延後至 2027 年 8 月・新增禁止 CSAM 生成條文",
-      "source": "EU Council",
-      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/",
-      "blurb": "歐洲議會與理事會就 AI Act 精簡方案（Omnibus VII）達成臨時協議：高風險 AI 系統合規截止日延後至 2027 年 8 月、透明度義務寬限期縮為 3 個月至 2026 年 12 月 2 日；新增明文禁止生成非合意性內容及 CSAM 條款，同時擴大中型企業豁免範圍，歐盟 AI 監管框架正式進入精簡化新階段。"
     }
   ],
   "_note": "seeded by Peter 2026-05-10 — cloud routine ai-desk-pulse 每 2 小時自動更新"
