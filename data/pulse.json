@@ -1,45 +1,37 @@
 {
-  "updated_at": "2026-05-11T12:21:00+08:00",
+  "updated_at": "2026-05-11T14:21:00+08:00",
   "items": [
     {
-      "id": "pulse-2026-05-07-eu-ai-omnibus",
-      "ts": "2026-05-07T22:00:00+08:00",
-      "title": "歐盟 AI Omnibus 達成協議・高風險 AI 合規期限延後至 2027 年 8 月・新增禁止 CSAM 生成條文",
-      "source": "EU Council",
-      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/",
-      "blurb": "歐洲議會與理事會就 AI Act 精簡方案（Omnibus VII）達成臨時協議：高風險 AI 系統合規截止日延後至 2027 年 8 月、透明度義務寬限期縮為 3 個月至 2026 年 12 月 2 日；新增明文禁止生成非合意性內容及 CSAM 條款，同時擴大中型企業豁免範圍，歐盟 AI 監管框架正式進入精簡化新階段。"
-    },
-    {
-      "id": "pulse-2026-05-06-scale-ai-pentagon-500m",
-      "ts": "2026-05-06T22:00:00+08:00",
-      "title": "Meta 支持的 Scale AI 獲五角大廈 5 億美元合約・協助軍方 AI 資料處理與決策系統",
+      "id": "pulse-2026-05-11-alphabet-yen-bond",
+      "ts": "2026-05-11T10:00:00+08:00",
+      "title": "Alphabet 首發日圓債券為 AI 競賽融資・全年資本支出上修至 1,900 億美元",
       "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-06/meta-backed-scale-ai-wins-500-million-defense-department-deal",
-      "blurb": "Meta 支持的 AI 資料標注巨頭 Scale AI 獲美國國防部 5 億美元合約，協助軍方篩選海量資料並輔助決策系統；此合約鞏固 Scale AI 在國防 AI 市場的核心地位，亦顯示 Meta 透過 Scale AI 間接滲入 AI 防務產業鏈，凸顯商業 AI 公司全面進軍國防領域的加速趨勢。"
+      "url": "https://www.bloomberg.com/news/articles/2026-05-11/alphabet-plans-debut-yen-bond-sale-as-ai-race-accelerates",
+      "blurb": "Alphabet 宣告首次在日本發行日圓計價債券，為 AI 競賽持續融資；同步上修 2026 年全年資本支出至 1,900 億美元（前估 1,850 億），在 Google Cloud 與 Anthropic 深度整合後再度以鉅額資本表態；Alphabet 市值已超越 Nvidia 成全球最高，持續以「擁有最多 AI 堆疊」的優勢獲市場青睞。"
     },
     {
-      "id": "pulse-2026-05-05-anthropic-200b-google-cloud",
-      "ts": "2026-05-05T22:00:00+08:00",
-      "title": "The Information：Anthropic 五年承諾向 Google Cloud 採購 2,000 億美元算力・佔 Alphabet 雲端積壓訂單逾四成",
-      "source": "The Information",
-      "url": "https://www.theinformation.com/articles/anthropic-commits-spending-200-billion-googles-cloud-chips",
-      "blurb": "The Information 報導，Anthropic 承諾在五年內向 Google Cloud 及 Broadcom 採購約 2,000 億美元算力，涵蓋 5 吉瓦算力容量；此金額相當於 Alphabet 雲端積壓訂單逾四成，推動 Alphabet 市值短暫超越 Nvidia，但分析師對 Anthropic 持續燒錢情況下能否履行此類承諾提出質疑。"
-    },
-    {
-      "id": "pulse-2026-05-04-anthropic-openai-enterprise-jv",
-      "ts": "2026-05-04T22:00:00+08:00",
-      "title": "Anthropic 聯手 Goldman、Blackstone 成立 15 億企業 AI 服務公司・OpenAI 同日宣布 40 億 Development Company",
+      "id": "pulse-2026-05-10-xai-neocloud",
+      "ts": "2026-05-10T09:00:00+08:00",
+      "title": "TechCrunch 分析：xAI 算力租賃轉型恐示 Grok 前線 AI 競爭已實質退場",
       "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/05/04/anthropic-and-openai-are-both-launching-joint-ventures-for-enterprise-ai-services/",
-      "blurb": "Anthropic 與 Goldman Sachs、Blackstone、Hellman & Friedman 共同成立 15 億美元企業 AI 服務公司，透過嵌入工程師重塑流程加速落地；OpenAI 同日搶先宣布籌資 40 億美元的 The Development Company，象徵兩大 frontier lab 同步從模型提供商轉型為企業深度服務夥伴，爭搶最高利潤的 AI 實施市場。"
+      "url": "https://techcrunch.com/2026/05/10/were-feeling-cynical-about-xais-big-deal-with-anthropic/",
+      "blurb": "TechCrunch 發表分析指出，xAI 將 Colossus 全部算力租給 Anthropic 的決定暗示公司實質轉型為 neocloud 算力租賃商，而非前線 AI 模型研發競爭者；此舉雖改善財務，卻引發外界質疑 Grok 能否持續追趕 GPT-5.5 與 Claude，動搖 xAI 「前瞻 AI 創新者」的核心定位。"
     },
     {
-      "id": "pulse-2026-05-01-pentagon-classified-ai",
-      "ts": "2026-05-01T22:00:00+08:00",
-      "title": "美國國防部與 Nvidia、Microsoft、AWS 簽署機密 AI 部署協議・130 萬美軍人員已使用 GenAI.mil",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/",
-      "blurb": "美國國防部正式與 Nvidia、Microsoft 及 AWS 簽署協議，將 AI 部署至機密網路；超過 130 萬國防部人員已透過 GenAI.mil 平台使用生成式 AI；在 Anthropic 拒絕五角大廈部分使用條款後，國防部加速多元化 AI 供應商佈局，凸顯美軍 AI 化進程加速與地緣政治下供應鏈多元化戰略。"
+      "id": "pulse-2026-05-09-nvidia-40b-equity",
+      "ts": "2026-05-09T10:00:00+08:00",
+      "title": "Nvidia 2026 年 AI 股權投資突破 400 億美元・IREN 21 億、Corning 32 億光纖廠協議同步揭示",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/09/nvidia-embraces-ai-investor-topping-40-billion-in-equity-bets-2026.html",
+      "blurb": "Nvidia 2026 年對外 AI 股權投資承諾已突破 400 億美元，本週新增：與雲端算力業者 IREN 簽署最高 21 億美元協議，並與 Corning 達成 32 億美元光纖工廠合作（北卡州、德州各一），新廠預計增加美國光纖產能 10 倍，創造逾 3,000 個就業機會；Nvidia 正從晶片供應商轉型為 AI 基礎設施生態系核心投資方。"
+    },
+    {
+      "id": "pulse-2026-05-08-musk-altman-trial-week2",
+      "ts": "2026-05-08T22:00:00+08:00",
+      "title": "Musk v. Altman 第二週：Shivon Zilis 揭馬斯克曾以 Tesla 董席招募 Altman，下週 Sutskever 與 Nadella 出庭",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/2026/05/08/1137008/musk-v-altman-week-2-openai-fires-back-and-shivon-zilis-reveals-that-musk-tried-to-poach-sam-altman/",
+      "blurb": "Musk v. Altman 聯邦審判第二週震撼：OpenAI 元老暨馬斯克四子之母 Shivon Zilis 出庭指馬斯克曾以 Tesla 董事會席位招募 Altman；Greg Brockman 反駁指馬斯克親自要求設立營利部門並爭奪「絕對控制權」；本週 Ilya Sutskever 與 Microsoft CEO Satya Nadella 將出庭，陪審諮詢裁決緊隨其後，判決將對 AI 非營利轉型制度產生深遠影響。"
     },
     {
       "id": "pulse-2026-05-08-anthropic-80x-colossus",
@@ -50,172 +42,12 @@
       "blurb": "Fortune 報導，Anthropic 因 Claude Code 爆量需求算力嚴重告急，緊急租用競爭對手 xAI 位於孟菲斯的 Colossus 超算中心應急；Q1 年化收入成長高達 80 倍，凸顯 frontier AI 企業高速擴張期面臨的基礎設施挑戰，亦顯示 xAI 超算中心已成業界共用算力資源，AI 競爭與合作邊界日趨模糊。"
     },
     {
-      "id": "pulse-2026-05-02-musk-altman-trial-week1",
-      "ts": "2026-05-02T20:00:00+08:00",
-      "title": "Musk v. Altman 審判第一週：馬斯克宣稱「不能偷竊慈善機構」，庭審揭露 OpenAI 早年協議",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/05/02/musk-testimony-dominated-first-week-musk-v-altman-trial-in-oakland.html",
-      "blurb": "Musk v. Altman 聯邦審判第一週在加州奧克蘭落幕，馬斯克主導作證宣稱「你不能偷竊一個慈善機構」，抨擊 OpenAI 背離非營利使命；庭審揭露 2015 年早年協議細節及 AI 安全承諾與商業化矛盾，Altman 與 Brockman 預計後續出庭，判決將對 AI 公司治理與非營利轉型制度產生深遠影響。"
-    },
-    {
-      "id": "pulse-2026-04-30-musk-xai-grok-distillation",
-      "ts": "2026-04-30T16:00:00+08:00",
-      "title": "庭審震撼：馬斯克承認 xAI 曾蒸餾 OpenAI 模型訓練 Grok，AI 知識產權爭議升溫",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/04/30/elon-musk-testifies-that-xai-trained-grok-on-openai-models/",
-      "blurb": "在 Musk v. Altman 加州聯邦法院審判中，馬斯克作證承認 xAI 部分使用 OpenAI 模型蒸餾技術訓練 Grok，稱此為業界標準做法；蒸餾技術可讓後進者以極低成本建構高能力模型，動搖大型 AI 廠商憑鉅額算力投資建立的護城河，引發業界廣泛討論蒸餾合法性邊界與 AI 知識產權保護問題。"
-    },
-    {
-      "id": "pulse-2026-04-29-anthropic-900b-raise",
-      "ts": "2026-04-29T22:00:00+08:00",
-      "title": "Anthropic 洽談 500 億美元融資，估值逾 9,000 億美元將超越 OpenAI 成全球最高 AI 獨角獸",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/04/29/sources-anthropic-could-raise-a-new-50b-round-at-a-valuation-of-900b/",
-      "blurb": "知情人士透露，Anthropic 正洽談規模約 500 億美元的新一輪融資，估值預計在 8,500 億至 9,000 億美元之間，將超越 OpenAI 成全球 AI 新創最高估值公司；協議有望兩週內達成，反映市場對 Anthropic 年化收入突破 300 億、Claude Code 強勁成長的高度信心，AI 資本競賽繼續升溫。"
-    },
-    {
-      "id": "pulse-2026-04-24-cohere-aleph-alpha",
-      "ts": "2026-04-24T20:00:00+08:00",
-      "title": "Cohere 收購德國 Aleph Alpha，獲 Schwarz 集團 6 億美元投資，打造跨大西洋主權 AI 強企",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/04/24/cohere-acquires-merges-with-german-based-startup-to-create-a-transatlantic-ai-powerhouse/",
-      "blurb": "加拿大 AI 公司 Cohere 宣布收購德國 Aleph Alpha，同步獲零售巨頭 Schwarz 集團 6 億美元戰略投資；合並後新實體主打歐洲企業主權 AI，對抗美國大廠主導格局，此舉獲兩國政府支持，標誌 AI 市場出現重大地緣政治整合，Aleph Alpha 小語言模型與歐洲語言專長與 Cohere 大模型形成互補優勢。"
-    },
-    {
-      "id": "pulse-2026-04-07-anthropic-30b-revenue",
-      "ts": "2026-04-07T20:00:00+08:00",
-      "title": "Anthropic 年化收入突破 300 億美元首超 OpenAI；Claude Code 六個月年化達 10 億，Q1 成長 80 倍",
-      "source": "VentureBeat",
-      "url": "https://venturebeat.com/technology/anthropic-says-it-hit-a-30-billion-revenue-run-rate-after-crazy-80x-growth",
-      "blurb": "Anthropic CEO Dario Amodei 宣布年化收入突破 300 億美元，史上首次超越 OpenAI（約 250 億），Q1 一季暴增 80 倍；主要驅動力為 Claude Code，六個月內即達年化 10 億美元規模；1,000 家以上企業客戶年消費逾 100 萬美元，較 2 月份翻倍，顯示 AI 原生工作流正從概念走向規模化商業落地。"
-    },
-    {
       "id": "pulse-2026-05-08-cloudflare-ai-layoffs",
       "ts": "2026-05-08T06:00:00+08:00",
       "title": "Cloudflare 首次大規模裁員 1,100 人並明指 AI 替代・Q1 業績創高同期股價重挫 24%",
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/05/08/cloudflare-says-ai-made-1100-jobs-obsolete-even-as-revenue-hit-a-record-high/",
       "blurb": "Cloudflare 裁減約 20% 員工（1,100 人），創公司 16 年來首次大規模裁員，明確點名 AI 令這些職位過時；同期 Q1 營收卻創歷史新高達 6.4 億美元、內部 AI 使用量三個月激增 600%，成為科技業以 AI 驅動人力結構重組的最具代表性案例，股價應聲重挫 24%。"
-    },
-    {
-      "id": "pulse-2026-05-06-anthropic-dreaming-agents",
-      "ts": "2026-05-06T16:00:00+08:00",
-      "title": "Anthropic 推出「Dreaming」功能・讓 Claude Agent 透過回顧歷史任務自主累積記憶並自我改進",
-      "source": "VentureBeat",
-      "url": "https://venturebeat.com/technology/anthropic-introduces-dreaming-a-system-that-lets-ai-agents-learn-from-their-own-mistakes",
-      "blurb": "Anthropic Managed Agents 新增「Dreaming」排程記憶功能：Claude Agent 定期回顧歷史任務、萃取模式並寫入結構化筆記，讓代理逐漸自我提升而無需重訓模型；Outcomes 評估與多代理協作框架同步進入公開測試，標誌 AI Agent 平台向「持續學習型夥伴」演進的關鍵里程碑。"
-    },
-    {
-      "id": "pulse-2026-05-05-anthropic-finance-agents",
-      "ts": "2026-05-05T20:00:00+08:00",
-      "title": "Anthropic 推出 10 款金融服務 AI Agent 模板・全面整合 Microsoft 365 並與 Moody's 結盟",
-      "source": "Anthropic blog",
-      "url": "https://www.anthropic.com/news/finance-agents",
-      "blurb": "Anthropic 向金融業發布 10 個即用型 Claude Agent 模板，涵蓋盡職調查文件、KYC 篩查及月結帳務等最耗時流程，原生整合 Microsoft Word/Excel/PowerPoint/Outlook，並與 Moody's 建立資料夥伴關係；此為 Anthropic 深入華爾街的最具體商業行動，加速企業應用呩 AI Agent 規模化落地。"
-    },
-    {
-      "id": "pulse-2026-04-30-claude-security-beta",
-      "ts": "2026-04-30T22:00:00+08:00",
-      "title": "Anthropic 推出 Claude Security 伂業公測・以 Opus 4.7 自動掃描代碼庫並修補漏洞",
-      "source": "Anthropic blog",
-      "url": "https://www.anthropic.com/news/claude-code-security",
-      "blurb": "Anthropic 將 Claude Security 開放 Enterprise 客戶公測，以 Opus 4.7 為核心引擎自動掃描代碼庫、識別高嚴重性漏洞並提出修補建議；系統以安全研究員，Accenture、BCG、德勤等頂級合作夥伴同步部署，標誌 AI 網路安全工具進入企業規模化落地新階段。"
-    },
-    {
-      "id": "pulse-2026-04-14-novo-nordisk-openai",
-      "ts": "2026-04-14T22:00:00+08:00",
-      "title": "Novo Nordisk 與 OpenAI 簽全公司戰略合作・AI 貫穿藥物研發、製造到商業全鏈路",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/04/14/novo-nordisk-openai-ai-drug-discovery-healthcare-nvo.html",
-      "blurb": "丹麥製藥巨頭 Novo Nordisk 宣告與 OpenAI 建立全公司範圍 AI 戰略合作，涵蓋藥物發現、臨床試驗、製造供應鏈及商業營運，目標年底前完成全面整合；此合作在 Novo 與 Eli Lilly 的 GLP-1 減重市場競爭白熱化之際，具有重大商業與戰略意義。"
-    },
-    {
-      "id": "pulse-2026-05-05-sap-prior-labs",
-      "ts": "2026-05-05T18:00:00+08:00",
-      "title": "SAP 斥 11.6 億美元收購德國 AI 實驗室 Prior Labs・承諾 4 年投入逾 10 億歐元建歐洲前沿 AI 中心",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/05/05/sap-bets-1-16b-on-18-month-old-german-ai-lab-and-says-yes-to-nemoclaw/",
-      "blurb": "SAP 宣告收購成立僅 18 個月的德國 AI 實驗室 Prior Labs，後者以「表格基礎模型」TabPFN 開創結構化資料 AI 新路徑，SAP 承諾未來 4 年投入逾 10 億歐元；此次 M&A 彰顯傳統企業軟體巨頭以資本全面押注 frontier AI，並為歐洲注入可抗衡矽谷的前沿研究能量。"
-    },
-    {
-      "id": "pulse-2026-04-22-google-deep-research-max",
-      "ts": "2026-04-22T16:00:00+08:00",
-      "title": "Google 發布 Deep Research Max・Gemini 3.1 Pro 驅動自主研究代理 DeepSearchQA 達 93.3%",
-      "source": "Google blog",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/next-generation-gemini-deep-research/",
-      "blurb": "Google 推出 Deep Research 與 Deep Research Max 兩款自主研究代理，以 Gemini 3.1 Pro 為核心加入 MCP 支援與原生圖表生成；Max 版本在 DeepSearchQA 達 93.3%（半年前僅 66.1%），可用於企業過夜生成盡職調查報告等長程非同步工作流程，標誌 AI 研究代理正式進入企業規模化落地新階段。"
-    },
-    {
-      "id": "pulse-2026-04-13-openai-hiro-finance",
-      "ts": "2026-04-13T22:00:00+08:00",
-      "title": "OpenAI 收購 AI 個人理財新創 Hiro Finance・2026 年第七項併購加速垂直消費應用佈局",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/04/13/openai-has-bought-ai-personal-finance-startup-hiro/",
-      "blurb": "OpenAI 宣告收購「AI 個人 CFO」新創 Hiro Finance，為公司 2026 年已知第七項併購；Hiro 由 Ribbit Capital 支持，協助管理逾 10 億美元用戶資產，此交易顯示 OpenAI 正透過系統性收購快速切入垂直消費市場，策略上從通用 AI 平台向個人理財等專業應用服務轉型。"
-    },
-    {
-      "id": "pulse-2026-05-05-caisi-ai-oversight",
-      "ts": "2026-05-05T22:00:00+08:00",
-      "title": "Trump 政府要求 Google DeepMind、Microsoft、xAI 提前送審 AI 模型・CAISI 擴大監管",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/05/05/ai-oversight-trump-google-microsoft-xai.html",
-      "blurb": "美國商務部 CAISI 宣告與 Google DeepMind、Microsoft 及 xAI 簽署協議，要求在公開發布前提交 AI 模型進行能力評估，延伸既有的 OpenAI 與 Anthropic 協議；此為 Trump 政府強化 AI 監管的重要里程碑，標誌前沿模型預部署審查已成聯邦政策常態。"
-    },
-    {
-      "id": "pulse-2026-04-27-openai-microsoft-restructure",
-      "ts": "2026-04-27T22:00:00+08:00",
-      "title": "OpenAI 與 Microsoft 重磅重組協議・終結獨家授權、至 2032 改採非獨家 IP",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/04/27/openai-ends-microsoft-legal-peril-over-its-50b-amazon-deal/",
-      "blurb": "Microsoft 與 OpenAI 正式重組夥伴關係：Microsoft 至 2032 年改以非獨家方式授權 OpenAI IP、停止收取 OpenAI 收入分潤，OpenAI 則可全面向 Amazon、Google 等其他雲端廠商提供產品；協議翌日 OpenAI 模型即登陸 AWS Bedrock，標誌科技史上最重要 AI 合作關係的根本性轉變。"
-    },
-    {
-      "id": "pulse-2026-04-27-ineffable-intelligence-11b",
-      "ts": "2026-04-27T18:00:00+08:00",
-      "title": "DeepMind 元老 David Silver 創業・Ineffable Intelligence 完成 11 億美元種子輪融資",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/04/27/deepminds-david-silver-just-raised-1-1b-to-build-an-ai-that-learns-without-human-data/",
-      "blurb": "AlphaGo 之父、DeepMind 創辦研究員 David Silver 離職後創辦 Ineffable Intelligence，以打造不依賴人類示範資料自主學習的 AI 為目標，完成創紀錄的 11 億美元種子輪融資，投資方含 Nvidia 與 Google；此輪為 AI 新創業界迄今金額最高的種子輪，顯示資本對無人類標注路徑的超高風險賭注。"
-    },
-    {
-      "id": "pulse-2026-04-24-google-40b-anthropic",
-      "ts": "2026-04-24T22:00:00+08:00",
-      "title": "Google 宣告最高 400 億美元投資 Anthropic・初期 100 億即時到位估值 3,500 億",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/04/24/google-to-invest-up-to-40b-in-anthropic-in-cash-and-compute/",
-      "blurb": "Alphabet 宣告以現金與算力形式向 Anthropic 投入最高 400 億美元，其中 100 億立即到位且 Anthropic 估值達 3,500 億美元；剩餘 300 億須視 Anthropic 達成特定績效里程碑，此輪為科技業有史以來最大 AI 單輪投資之一，進一步鞏固 Anthropic 在 frontier AI 競賽中的算力優勢。"
-    },
-    {
-      "id": "pulse-2026-04-24-deepseek-v4",
-      "ts": "2026-04-24T10:00:00+08:00",
-      "title": "DeepSeek 發布 V4 Flash 與 V4 Pro・程式碼推理能力宣稱達頂級水準",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-04-24/deepseek-unveils-newest-flagship-a-year-after-ai-breakthrough",
-      "blurb": "中國 DeepSeek 在震驚矽谷一年後推出最新旗艦系列 V4 Flash 與 V4 Pro，宣稱在程式碼及推理基準達到頂級表現、大幅改善 agentic 任務能力；DeepSeek 再次以低成本高效能模式挑戰 OpenAI 與 Anthropic，引發外界對中美 AI 競賽差距的新一輪評估。"
-    },
-    {
-      "id": "pulse-2026-04-20-amazon-25b-anthropic",
-      "ts": "2026-04-20T22:00:00+08:00",
-      "title": "Amazon 追加最高 250 億美元投資 Anthropic・含 5GW 算力基礎設施承諾",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/04/20/amazon-invest-up-to-25-billion-in-anthropic-part-of-ai-infrastructure.html",
-      "blurb": "Amazon 宣告在原有 40 億美元之外再追加最高 250 億美元投資 Anthropic，包含預計採購多達 5 吉瓦算力的龐大基礎設施協議；此交易使 Amazon 對 Anthropic 的累計承諾達數百億美元，鞏固 AWS 作為 Claude 主要雲端夥伴地位，並強化雙方在企業 AI 服務的深度整合。"
-    },
-    {
-      "id": "pulse-2026-04-08-meta-muse-spark",
-      "ts": "2026-04-08T22:00:00+08:00",
-      "title": "Meta 推出 Muse Spark・Superintelligence Labs 首款模型全面追趕 GPT-5 與 Claude",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/04/08/meta-debuts-the-muse-spark-model-in-a-ground-up-overhaul-of-its-ai/",
-      "blurb": "Meta 發布 Muse 系列首款模型 Muse Spark，由招募 Alexandr Wang 後成立的 Meta Superintelligence Labs 主導研發，標誌 Meta 全面重組 AI 策略以縮小與 OpenAI、Anthropic 的差距；Muse Spark 已在網頁端及 Meta AI 應用上線，並預計數週內整合至 Facebook、Instagram、WhatsApp 及 Ray-Ban 智慧眼鏡。"
-    },
-    {
-      "id": "pulse-2026-05-10-xai-neocloud",
-      "ts": "2026-05-10T09:00:00+08:00",
-      "title": "TechCrunch 分析：xAI 算力租賃轉型恐示 Grok 前線 AI 競爭已實質退場",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/05/10/were-feeling-cynical-about-xais-big-deal-with-anthropic/",
-      "blurb": "TechCrunch 發表分析指出，xAI 將 Colossus 全部算力租給 Anthropic 的決定暗示公司實質轉型為 neocloud 算力租賃商，而非前線 AI 模型研發競爭者；此舉雖改善財務，卻引發外界質疑 Grok 能否持續追趕 GPT-5.5 與 Claude，動搖 xAI 「前瞻 AI 創新者」的核心定位。"
     },
     {
       "id": "pulse-2026-05-08-gpt55-cyber",
@@ -234,12 +66,180 @@
       "blurb": "OpenAI 宣告 ChatGPT 正式推出廣告，廣告商可透過自助 Ads Manager 以 CPC 競價模式投放，廣告依對話主題與歷史紀錄定向且明確標示；OpenAI 承諾廣告不影響 ChatGPT 回答品質，此舉標誌公司從純訂閱模式向廣告收益多元化的重大商業轉型。"
     },
     {
+      "id": "pulse-2026-05-07-eu-ai-omnibus",
+      "ts": "2026-05-07T22:00:00+08:00",
+      "title": "歐盟 AI Omnibus 達成協議・高風險 AI 合規期限延後至 2027 年 8 月・新增禁止 CSAM 生成條文",
+      "source": "EU Council",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/",
+      "blurb": "歐洲議會與理事會就 AI Act 精簡方案（Omnibus VII）達成臨時協議：高風險 AI 系統合規截止日延後至 2027 年 8 月、透明度義務寬限期縮為 3 個月至 2026 年 12 月 2 日；新增明文禁止生成非合意性內容及 CSAM 條款，同時擴大中型企業豁免範圍，歐盟 AI 監管框架正式進入精簡化新階段。"
+    },
+    {
+      "id": "pulse-2026-05-06-scale-ai-pentagon-500m",
+      "ts": "2026-05-06T22:00:00+08:00",
+      "title": "Meta 支持的 Scale AI 獲五角大廈 5 億美元合約・協助軍方 AI 資料處理與決策系統",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-06/meta-backed-scale-ai-wins-500-million-defense-department-deal",
+      "blurb": "Meta 支持的 AI 資料標注巨頭 Scale AI 獲美國國防部 5 億美元合約，協助軍方篩選海量資料並輔助決策系統；此合約鞏固 Scale AI 在國防 AI 市場的核心地位，亦顯示 Meta 透過 Scale AI 間接滲入 AI 防務產業鏈，凸顯商業 AI 公司全面進軍國防領域的加速趨勢。"
+    },
+    {
       "id": "pulse-2026-05-06-spacex-terafab",
       "ts": "2026-05-06T22:00:00+08:00",
       "title": "SpaceX 擬在德州建 Terafab 晶片廠・規模高達 1,190 億美元供 AI 與機器人自用",
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/05/06/spacex-may-spend-up-to-119-billion-on-terafab-chip-factory-in-texas/",
       "blurb": "SpaceX 在德克薩斯州 Grimes County 提出高達 1,190 億美元半導體工廠稅務優惠申請，初期投資 550 億美元；Terafab 將生產 Tesla Optimus 機器人與 xAI 衛星專用晶片，Intel 已加入合作，此計畫直指半導體供應鏈自主化，以擺脫對 Nvidia 的依賴並支撐 AI 算力需求。"
+    },
+    {
+      "id": "pulse-2026-05-06-anthropic-dreaming-agents",
+      "ts": "2026-05-06T16:00:00+08:00",
+      "title": "Anthropic 推出「Dreaming」功能・讓 Claude Agent 透過回顧歷史任務自主累積記憶並自我改進",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/technology/anthropic-introduces-dreaming-a-system-that-lets-ai-agents-learn-from-their-own-mistakes",
+      "blurb": "Anthropic Managed Agents 新增「Dreaming」排程記憶功能：Claude Agent 定期回顧歷史任務、萃取模式並寫入結構化筆記，讓代理逐漸自我提升而無需重訓模型；Outcomes 評估與多代理協作框架同步進入公開測試，標誌 AI Agent 平台向「持續學習型夥伴」演進的關鍵里程碑。"
+    },
+    {
+      "id": "pulse-2026-05-06-anthropic-higher-limits-spacex",
+      "ts": "2026-05-06T20:00:00+08:00",
+      "title": "Anthropic 官宣 Claude Code 速率上限加倍・SpaceX Colossus 算力協議移除尖峰限制、API 輸入激增 1,500%",
+      "source": "Anthropic blog",
+      "url": "https://www.anthropic.com/news/higher-limits-spacex",
+      "blurb": "Anthropic 宣告與 SpaceX 達成算力協議，取得 Colossus 超算中心逾 30 萬張 GPU 產能；Claude Code Pro/Max 五小時速率上限即時加倍，並完全移除尖峰時段節流；API Tier 1 輸入 Token 上限暴增 1,500%、Opus 輸出 Token 上限增加 900%，直接回應 Claude Code 自 2026 Q1 以來的爆炸性需求壓力。"
+    },
+    {
+      "id": "pulse-2026-05-05-anthropic-200b-google-cloud",
+      "ts": "2026-05-05T22:00:00+08:00",
+      "title": "The Information：Anthropic 五年承諾向 Google Cloud 採購 2,000 億美元算力・佔 Alphabet 雲端積壓訂單逾四成",
+      "source": "The Information",
+      "url": "https://www.theinformation.com/articles/anthropic-commits-spending-200-billion-googles-cloud-chips",
+      "blurb": "The Information 報導，Anthropic 承諾在五年內向 Google Cloud 及 Broadcom 採購約 2,000 億美元算力，涵蓋 5 吉瓦算力容量；此金額相當於 Alphabet 雲端積壓訂單逾四成，推動 Alphabet 市值短暫超越 Nvidia，但分析師對 Anthropic 持續燒錢情況下能否履行此類承諾提出質疑。"
+    },
+    {
+      "id": "pulse-2026-05-05-caisi-ai-oversight",
+      "ts": "2026-05-05T22:00:00+08:00",
+      "title": "Trump 政府要求 Google DeepMind、Microsoft、xAI 提前送審 AI 模型・CAISI 擴大監管",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/05/ai-oversight-trump-google-microsoft-xai.html",
+      "blurb": "美國商務部 CAISI 宣告與 Google DeepMind、Microsoft 及 xAI 簽署協議，要求在公開發布前提交 AI 模型進行能力評估，延伸既有的 OpenAI 與 Anthropic 協議；此為 Trump 政府強化 AI 監管的重要里程碑，標誌前沿模型預部署審查已成聯邦政策常態。"
+    },
+    {
+      "id": "pulse-2026-05-05-anthropic-finance-agents",
+      "ts": "2026-05-05T20:00:00+08:00",
+      "title": "Anthropic 推出 10 款金融服務 AI Agent 模板・全面整合 Microsoft 365 並與 Moody's 結盟",
+      "source": "Anthropic blog",
+      "url": "https://www.anthropic.com/news/finance-agents",
+      "blurb": "Anthropic 向金融業發布 10 個即用型 Claude Agent 模板，涵蓋盡職調查文件、KYC 篩查及月結帳務等最耗時流程，原生整合 Microsoft Word/Excel/PowerPoint/Outlook，並與 Moody's 建立資料夥伴關係；此為 Anthropic 深入華爾街的最具體商業行動，加速企業應用呩 AI Agent 規模化落地。"
+    },
+    {
+      "id": "pulse-2026-05-05-sap-prior-labs",
+      "ts": "2026-05-05T18:00:00+08:00",
+      "title": "SAP 斥 11.6 億美元收購德國 AI 實驗室 Prior Labs・承諾 4 年投入逾 10 億歐元建歐洲前沿 AI 中心",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/05/sap-bets-1-16b-on-18-month-old-german-ai-lab-and-says-yes-to-nemoclaw/",
+      "blurb": "SAP 宣告收購成立僅 18 個月的德國 AI 實驗室 Prior Labs，後者以「表格基礎模型」TabPFN 開創結構化資料 AI 新路徑，SAP 承諾未來 4 年投入逾 10 億歐元；此次 M&A 彰顯傳統企業軟體巨頭以資本全面押注 frontier AI，並為歐洲注入可抗衡矽谷的前沿研究能量。"
+    },
+    {
+      "id": "pulse-2026-05-04-anthropic-openai-enterprise-jv",
+      "ts": "2026-05-04T22:00:00+08:00",
+      "title": "Anthropic 聯手 Goldman、Blackstone 成立 15 億企業 AI 服務公司・OpenAI 同日宣布 40 億 Development Company",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/04/anthropic-and-openai-are-both-launching-joint-ventures-for-enterprise-ai-services/",
+      "blurb": "Anthropic 與 Goldman Sachs、Blackstone、Hellman & Friedman 共同成立 15 億美元企業 AI 服務公司，透過嵌入工程師重塑流程加速落地；OpenAI 同日搶先宣布籌資 40 億美元的 The Development Company，象徵兩大 frontier lab 同步從模型提供商轉型為企業深度服務夥伴，爭搶最高利潤的 AI 實施市場。"
+    },
+    {
+      "id": "pulse-2026-05-04-sierra-950m",
+      "ts": "2026-05-04T22:00:00+08:00",
+      "title": "Bret Taylor 的 Sierra 完成 9.5 億美元融資・估值逾 150 億主攻企業對話式 AI Agent",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/04/sierra-raises-950m-as-the-race-to-own-enterprise-ai-gets-serious/",
+      "blurb": "前 Salesforce 共同 CEO Bret Taylor 創辦的企業 AI Agent 公司 Sierra 宣告完成 9.5 億美元 C 輪融資，估值超過 150 億美元，由 Tiger Global 與 GV 領投；客戶涵蓋三分之一全球最大銀行及 Prudential、Cigna、Rocket Mortgage，顯示企業對話式 AI Agent 正進入規模化競爭的白熱化階段。"
+    },
+    {
+      "id": "pulse-2026-05-02-musk-altman-trial-week1",
+      "ts": "2026-05-02T20:00:00+08:00",
+      "title": "Musk v. Altman 審判第一週：馬斯克宣稱「不能偷竊慈善機構」，庭審揭露 OpenAI 早年協議",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/02/musk-testimony-dominated-first-week-musk-v-altman-trial-in-oakland.html",
+      "blurb": "Musk v. Altman 聯邦審判第一週在加州奧克蘭落幕，馬斯克主導作證宣稱「你不能偷竊一個慈善機構」，抨擊 OpenAI 背離非營利使命；庭審揭露 2015 年早年協議細節及 AI 安全承諾與商業化矛盾，Altman 與 Brockman 預計後續出庭，判決將對 AI 公司治理與非營利轉型制度產生深遠影響。"
+    },
+    {
+      "id": "pulse-2026-05-01-pentagon-classified-ai",
+      "ts": "2026-05-01T22:00:00+08:00",
+      "title": "美國國防部與 Nvidia、Microsoft、AWS 簽署機密 AI 部署協議・130 萬美軍人員已使用 GenAI.mil",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/",
+      "blurb": "美國國防部正式與 Nvidia、Microsoft 及 AWS 簽署協議，將 AI 部署至機密網路；超過 130 萬國防部人員已透過 GenAI.mil 平台使用生成式 AI；在 Anthropic 拒絕五角大廈部分使用條款後，國防部加速多元化 AI 供應商佈局，凸顯美軍 AI 化進程加速與地緣政治下供應鏈多元化戰略。"
+    },
+    {
+      "id": "pulse-2026-04-30-claude-security-beta",
+      "ts": "2026-04-30T22:00:00+08:00",
+      "title": "Anthropic 推出 Claude Security 伂業公測・以 Opus 4.7 自動掃描代碼庫並修補漏洞",
+      "source": "Anthropic blog",
+      "url": "https://www.anthropic.com/news/claude-code-security",
+      "blurb": "Anthropic 將 Claude Security 開放 Enterprise 客戶公測，以 Opus 4.7 為核心引擎自動掃描代碼庫、識別高嚴重性漏洞並提出修補建議；系統以安全研究員，Accenture、BCG、德勤等頂級合作夥伴同步部署，標誌 AI 網路安全工具進入企業規模化落地新階段。"
+    },
+    {
+      "id": "pulse-2026-04-30-musk-xai-grok-distillation",
+      "ts": "2026-04-30T16:00:00+08:00",
+      "title": "庭審震撼：馬斯克承認 xAI 曾蒸餾 OpenAI 模型訓練 Grok，AI 知識產權爭議升溫",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/30/elon-musk-testifies-that-xai-trained-grok-on-openai-models/",
+      "blurb": "在 Musk v. Altman 加州聯邦法院審判中，馬斯克作證承認 xAI 部分使用 OpenAI 模型蒸餾技術訓練 Grok，稱此為業界標準做法；蒸餾技術可讓後進者以極低成本建構高能力模型，動搖大型 AI 廠商憑鉅額算力投資建立的護城河，引發業界廣泛討論蒸餾合法性邊界與 AI 知識產權保護問題。"
+    },
+    {
+      "id": "pulse-2026-04-29-anthropic-900b-raise",
+      "ts": "2026-04-29T22:00:00+08:00",
+      "title": "Anthropic 洽談 500 億美元融資，估值逾 9,000 億美元將超越 OpenAI 成全球最高 AI 獨角獸",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/29/sources-anthropic-could-raise-a-new-50b-round-at-a-valuation-of-900b/",
+      "blurb": "知情人士透露，Anthropic 正洽談規模約 500 億美元的新一輪融資，估值預計在 8,500 億至 9,000 億美元之間，將超越 OpenAI 成全球 AI 新創最高估值公司；協議有望兩週內達成，反映市場對 Anthropic 年化收入突破 300 億、Claude Code 強勁成長的高度信心，AI 資本競賽繼續升溫。"
+    },
+    {
+      "id": "pulse-2026-04-27-openai-microsoft-restructure",
+      "ts": "2026-04-27T22:00:00+08:00",
+      "title": "OpenAI 與 Microsoft 重磅重組協議・終結獨家授權、至 2032 改採非獨家 IP",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/27/openai-ends-microsoft-legal-peril-over-its-50b-amazon-deal/",
+      "blurb": "Microsoft 與 OpenAI 正式重組夥伴關係：Microsoft 至 2032 年改以非獨家方式授權 OpenAI IP、停止收取 OpenAI 收入分潤，OpenAI 則可全面向 Amazon、Google 等其他雲端廠商提供產品；協議翌日 OpenAI 模型即登陸 AWS Bedrock，標誌科技史上最重要 AI 合作關係的根本性轉變。"
+    },
+    {
+      "id": "pulse-2026-04-27-ineffable-intelligence-11b",
+      "ts": "2026-04-27T18:00:00+08:00",
+      "title": "DeepMind 元老 David Silver 創業・Ineffable Intelligence 完成 11 億美元種子輪融資",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/27/deepminds-david-silver-just-raised-1-1b-to-build-an-ai-that-learns-without-human-data/",
+      "blurb": "AlphaGo 之父、DeepMind 創辦研究員 David Silver 離職後創辦 Ineffable Intelligence，以打造不依賴人類示範資料自主學習的 AI 為目標，完成創紀錄的 11 億美元種子輪融資，投資方含 Nvidia 與 Google；此輪為 AI 新創業界迄今金額最高的種子輪，顯示資本對無人類標注路徑的超高風險賭注。"
+    },
+    {
+      "id": "pulse-2026-04-24-cohere-aleph-alpha",
+      "ts": "2026-04-24T20:00:00+08:00",
+      "title": "Cohere 收購德國 Aleph Alpha，獲 Schwarz 集團 6 億美元投資，打造跨大西洋主權 AI 強企",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/24/cohere-acquires-merges-with-german-based-startup-to-create-a-transatlantic-ai-powerhouse/",
+      "blurb": "加拿大 AI 公司 Cohere 宣布收購德國 Aleph Alpha，同步獲零售巨頭 Schwarz 集團 6 億美元戰略投資；合並後新實體主打歐洲企業主權 AI，對抗美國大廠主導格局，此舉獲兩國政府支持，標誌 AI 市場出現重大地緣政治整合，Aleph Alpha 小語言模型與歐洲語言專長與 Cohere 大模型形成互補優勢。"
+    },
+    {
+      "id": "pulse-2026-04-24-google-40b-anthropic",
+      "ts": "2026-04-24T22:00:00+08:00",
+      "title": "Google 宣告最高 400 億美元投資 Anthropic・初期 100 億即時到位估值 3,500 億",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/24/google-to-invest-up-to-40b-in-anthropic-in-cash-and-compute/",
+      "blurb": "Alphabet 宣告以現金與算力形式向 Anthropic 投入最高 400 億美元，其中 100 億立即到位且 Anthropic 估值達 3,500 億美元；剩餘 300 億須視 Anthropic 達成特定績效里程碑，此輪為科技業有史以來最大 AI 單輪投資之一，進一步鞏固 Anthropic 在 frontier AI 競賽中的算力優勢。"
+    },
+    {
+      "id": "pulse-2026-04-24-deepseek-v4",
+      "ts": "2026-04-24T10:00:00+08:00",
+      "title": "DeepSeek 發布 V4 Flash 與 V4 Pro・程式碼推理能力宣稱達頂級水準",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-24/deepseek-unveils-newest-flagship-a-year-after-ai-breakthrough",
+      "blurb": "中國 DeepSeek 在震驚矽谷一年後推出最新旗艦系列 V4 Flash 與 V4 Pro，宣稱在程式碼及推理基準達到頂級表現、大幅改善 agentic 任務能力；DeepSeek 再次以低成本高效能模式挑戰 OpenAI 與 Anthropic，引發外界對中美 AI 競賽差距的新一輪評估。"
+    },
+    {
+      "id": "pulse-2026-04-22-google-deep-research-max",
+      "ts": "2026-04-22T16:00:00+08:00",
+      "title": "Google 發布 Deep Research Max・Gemini 3.1 Pro 驅動自主研究代理 DeepSearchQA 達 93.3%",
+      "source": "Google blog",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/next-generation-gemini-deep-research/",
+      "blurb": "Google 推出 Deep Research 與 Deep Research Max 兩款自主研究代理，以 Gemini 3.1 Pro 為核心加入 MCP 支援與原生圖表生成；Max 版本在 DeepSearchQA 達 93.3%（半年前僅 66.1%），可用於企業過夜生成盡職調查報告等長程非同步工作流程，標誌 AI 研究代理正式進入企業規模化落地新階段。"
     }
   ],
   "_note": "seeded by Peter 2026-05-10 — cloud routine ai-desk-pulse 每 2 小時自動更新"
