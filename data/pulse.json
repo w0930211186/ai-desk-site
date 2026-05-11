@@ -1,6 +1,38 @@
 {
-  "updated_at": "2026-05-11T14:21:00+08:00",
+  "updated_at": "2026-05-11T16:21:00+08:00",
   "items": [
+    {
+      "id": "pulse-2026-05-08-anthropic-30b-revenue",
+      "ts": "2026-05-08T20:00:00+08:00",
+      "title": "Anthropic 確認年化營收突破 300 億美元・從 2025 年底 90 億到今日創史上最快成長紀錄",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/technology/anthropic-says-it-hit-a-30-billion-revenue-run-rate-after-crazy-80x-growth",
+      "blurb": "Anthropic CEO Dario Amodei 親自確認公司年化營收突破 300 億美元，從 2025 年底 90 億、2026 年 2 月 140 億、3 月 190 億一路攀升；Salesforce 花費 20 年才達到的收益基準 Anthropic 不到三年即達成，Claude Code 企業爆量需求成為主要驅動力，凸顯 AI 應用飛輪效應正在加速運轉。"
+    },
+    {
+      "id": "pulse-2026-05-07-openai-safety-record",
+      "ts": "2026-05-07T20:00:00+08:00",
+      "title": "Musk 訴訟令 OpenAI 安全紀錄攤在陽光下・庭審文件揭示 GPT-4 安全測試多處跳過",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/07/elon-musks-lawsuit-is-putting-openais-safety-record-under-the-microscope/",
+      "blurb": "Musk v. Altman 審判深入推進，庭審文件首度公開揭示 OpenAI 歷年 AI 安全評估全貌；證詞顯示 GPT-4 開發期間部分紅隊測試未完整執行、安全承諾與商業化時程存在明顯衝突，此案成為 AI 頭部廠商安全實踐首次接受司法層面透明度審查的歷史案例，引發 AI 安全社群廣泛關注。"
+    },
+    {
+      "id": "pulse-2026-05-07-openai-voice-api",
+      "ts": "2026-05-07T16:00:00+08:00",
+      "title": "OpenAI 向開發者開放 Realtime 語音智能 API・新增即時翻譯、轉錄及 GPT-Realtime-2 模型",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/07/openai-launches-new-voice-intelligence-features-in-its-api/",
+      "blurb": "OpenAI 在 API 層推出語音智能功能，開發者可整合即時語音對話、多語言翻譯與轉錄至應用程式；新增模型含 GPT-Realtime-2（按 token 計費）及 Translate/Whisper（按分鐘計費），涵蓋多語言即時對話場景，標誌 AI 語音介面競賽從 C 端產品正式延伸至 B 端開發者平台生態系。"
+    },
+    {
+      "id": "pulse-2026-05-06-white-house-ai-security-eo",
+      "ts": "2026-05-06T18:00:00+08:00",
+      "title": "白宮籌備 AI 安全行政命令・響應 Anthropic Mythos 前例、擬推 FDA 式模型上市審查制度",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-06/white-house-preps-order-to-boost-ai-security-hassett-says",
+      "blurb": "白宮高層顧問 Kevin Hassett 透露，政府正草擬行政命令對高風險 AI 模型建立類似 FDA 的上市前審查程序，直接回應 Anthropic Mythos 因攻擊性網路能力過強而自行限制部署的前例；命令草案要求被認定為重大網路安全威脅的 AI 模型在商業化前完成政府評估，為全球前沿 AI 監管框架注入重要里程碑。"
+    },
     {
       "id": "pulse-2026-05-11-alphabet-yen-bond",
       "ts": "2026-05-11T10:00:00+08:00",
@@ -208,38 +240,6 @@
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/04/27/deepminds-david-silver-just-raised-1-1b-to-build-an-ai-that-learns-without-human-data/",
       "blurb": "AlphaGo 之父、DeepMind 創辦研究員 David Silver 離職後創辦 Ineffable Intelligence，以打造不依賴人類示範資料自主學習的 AI 為目標，完成創紀錄的 11 億美元種子輪融資，投資方含 Nvidia 與 Google；此輪為 AI 新創業界迄今金額最高的種子輪，顯示資本對無人類標注路徑的超高風險賭注。"
-    },
-    {
-      "id": "pulse-2026-04-24-cohere-aleph-alpha",
-      "ts": "2026-04-24T20:00:00+08:00",
-      "title": "Cohere 收購德國 Aleph Alpha，獲 Schwarz 集團 6 億美元投資，打造跨大西洋主權 AI 強企",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/04/24/cohere-acquires-merges-with-german-based-startup-to-create-a-transatlantic-ai-powerhouse/",
-      "blurb": "加拿大 AI 公司 Cohere 宣布收購德國 Aleph Alpha，同步獲零售巨頭 Schwarz 集團 6 億美元戰略投資；合並後新實體主打歐洲企業主權 AI，對抗美國大廠主導格局，此舉獲兩國政府支持，標誌 AI 市場出現重大地緣政治整合，Aleph Alpha 小語言模型與歐洲語言專長與 Cohere 大模型形成互補優勢。"
-    },
-    {
-      "id": "pulse-2026-04-24-google-40b-anthropic",
-      "ts": "2026-04-24T22:00:00+08:00",
-      "title": "Google 宣告最高 400 億美元投資 Anthropic・初期 100 億即時到位估值 3,500 億",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/04/24/google-to-invest-up-to-40b-in-anthropic-in-cash-and-compute/",
-      "blurb": "Alphabet 宣告以現金與算力形式向 Anthropic 投入最高 400 億美元，其中 100 億立即到位且 Anthropic 估值達 3,500 億美元；剩餘 300 億須視 Anthropic 達成特定績效里程碑，此輪為科技業有史以來最大 AI 單輪投資之一，進一步鞏固 Anthropic 在 frontier AI 競賽中的算力優勢。"
-    },
-    {
-      "id": "pulse-2026-04-24-deepseek-v4",
-      "ts": "2026-04-24T10:00:00+08:00",
-      "title": "DeepSeek 發布 V4 Flash 與 V4 Pro・程式碼推理能力宣稱達頂級水準",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-04-24/deepseek-unveils-newest-flagship-a-year-after-ai-breakthrough",
-      "blurb": "中國 DeepSeek 在震驚矽谷一年後推出最新旗艦系列 V4 Flash 與 V4 Pro，宣稱在程式碼及推理基準達到頂級表現、大幅改善 agentic 任務能力；DeepSeek 再次以低成本高效能模式挑戰 OpenAI 與 Anthropic，引發外界對中美 AI 競賽差距的新一輪評估。"
-    },
-    {
-      "id": "pulse-2026-04-22-google-deep-research-max",
-      "ts": "2026-04-22T16:00:00+08:00",
-      "title": "Google 發布 Deep Research Max・Gemini 3.1 Pro 驅動自主研究代理 DeepSearchQA 達 93.3%",
-      "source": "Google blog",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/next-generation-gemini-deep-research/",
-      "blurb": "Google 推出 Deep Research 與 Deep Research Max 兩款自主研究代理，以 Gemini 3.1 Pro 為核心加入 MCP 支援與原生圖表生成；Max 版本在 DeepSearchQA 達 93.3%（半年前僅 66.1%），可用於企業過夜生成盡職調查報告等長程非同步工作流程，標誌 AI 研究代理正式進入企業規模化落地新階段。"
     }
   ],
   "_note": "seeded by Peter 2026-05-10 — cloud routine ai-desk-pulse 每 2 小時自動更新"
