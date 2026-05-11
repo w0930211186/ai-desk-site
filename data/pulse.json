@@ -1,1 +1,246 @@
-ewogICJ1cGRhdGVkX2F0IjogIjIwMjYtMDUtMTFUMDg6MjE6MDcrMDg6MDAiLAogICJpdGVtcyI6IFsKICAgIHsKICAgICAgImlkIjogInB1bHNlLTIwMjYtMDUtMDgtY2xvdWRmbGFyZS1haS1sYXlvZmZzIiwKICAgICAgInRzIjogIjIwMjYtMDUtMDhUMDY6MDA6MDArMDg6MDAiLAogICAgICAidGl0bGUiOiAiQ2xvdWRmbGFyZSDpppbmrKHlpKfopo/mqKHoo4Hlk6EgMSwxMDAg5Lq65Lim5piO5oyHIEFJIOabv+S7o+ODu1ExIOalree4vuWJtemrmOWQjOacn+iCoeWDuemHjeaMqyAyNCUiLAogICAgICAic291cmNlIjogIlRlY2hDcnVuY2giLAogICAgICAidXJsIjogImh0dHBzOi8vdGVjaGNydW5jaC5jb20vMjAyNi8wNS8wOC9jbG91ZGZsYXJlLXNheXMtYWktbWFkZS0xMTAwLWpvYnMtb2Jzb2xldGUtZXZlbi1hcy1yZXZlbnVlLWhpdC1hLXJlY29yZC1oaWdoLyIsCiAgICAgICJibHVyYiI6ICJDbG91ZGZsYXJlIOijgea4m+e0hCAyMCUg5ZOh5bel77yIMSwxMDAg5Lq677yJ77yM5Ym15YWs5Y+4IDE2IOW5tOS+hummluasoeWkp+imj+aooeijgeWToe+8jOaYjueiuum7nuWQjSBBSSDku6TpgJnkupvogbfkvY3pgY7mmYLvvJvlkIzmnJ8gUTEg54ef5pS25Y275Ym15q235Y+y5paw6auY6YGUIDYuNCDlhITnvo7lhYPjgIHlhafpg6ggQUkg5L2/55So6YeP5LiJ5YCL5pyI5r+A5aKeIDYwMCXvvIzmiJDngrrnp5HmioDmpa3ku6UgQUkg6amF5YuV5Lq65Yqb57WQ5qeL6YeN57WE55qE5pyA5YW35Luj6KGo5oCn5qGI5L6L77yM6IKh5YO55oeJ6IGy6YeN5oyrIDI0JeOAgiIKICAgIH0sCiAgICB7CiAgICAgICJpZCI6ICJwdWxzZS0yMDI2LTA1LTA2LWFudGhyb3BpYy1kcmVhbWluZy1hZ2VudHMiLAogICAgICAidHMiOiAiMjAyNi0wNS0wNlQxNjowMDowMCswODowMCIsCiAgICAgICJ0aXRsZSI6ICJBbnRocm9waWMg5o6o5Ye644CMRHJlYW1pbmfjgI3lip/og73jg7vorpMgQ2xhdWRlIEFnZW50IOmAj+mBjuWbnumhp+att+WPsuS7u+WLmeiHquS4u+e0r+epjeiomOaGtuS4puiHquaIkeaUuemAsiIsCiAgICAgICJzb3VyY2UiOiAiVmVudHVyZUJlYXQiLAogICAgICAidXJsIjogImh0dHBzOi8vdmVudHVyZWJlYXQuY29tL3RlY2hub2xvZ3kvYW50aHJvcGljLWludHJvZHVjZXMtZHJlYW1pbmctYS1zeXN0ZW0tdGhhdC1sZXRzLWFpLWFnZW50cy1sZWFybi1mcm9tLXRoZWlyLW93bi1taXN0YWtlcyIsCiAgICAgICJibHVyYiI6ICJBbnRocm9waWMgTWFuYWdlZCBBZ2VudHMg5paw5aKe44CMRHJlYW1pbmfjgI3mjpLnqIvoqJjmhrblip/og73vvJpDbGF1ZGUgQWdlbnQg5a6a5pyf5Zue6aGn5q235Y+y5Lu75YuZ44CB6JCD5Y+W5qih5byP5Lim5a+r5YWl57WQ5qeL5YyW562G6KiY77yM6K6T5Luj55CG6YCQ5ry46Ieq5oiR5o+Q5Y2H6ICM54Sh6ZyA6YeN6KiT5qih5Z6L77ybT3V0Y29tZXMg6KmV5Lyw6IiH5aSa5Luj55CG5Y2U5L2c5qGG5p625ZCM5q2l6YCy5YWl5YWs6ZaL5ris6Kmm77yM5qiZ6KqMIEFJIEFnZW50IOW5s+WPsOWQkeOAjOaMgee6jOWtuOe/kuWei+WkpeS8tOOAjea8lOmAsueahOmXnOmNtemHjOeoi+eikeOAgiIKICAgIH0sCiAgICB7CiAgICAgICJpZCI6ICJwdWxzZS0yMDI2LTA1LTA1LWFudGhyb3BpYy1maW5hbmNlLWFnZW50cyIsCiAgICAgICJ0cyI6ICIyMDI2LTA1LTA1VDIwOjAwOjAwKzA4OjAwIiwKICAgICAgInRpdGxlIjogIkFudGhyb3BpYyDmjqjlh7ogMTAg5qy+6YeR6J6N5pyN5YuZIEFJIEFnZW50IOaooeadv+ODu+WFqOmdouaVtOWQiCBNaWNyb3NvZnQgMzY1IOS4puiIhyBNb29keSdzIOe1kOebnyIsCiAgICAgICJzb3VyY2UiOiAiQW50aHJvcGljIGJsb2ciLAogICAgICAidXJsIjogImh0dHBzOi8vd3d3LmFudGhyb3BpYy5jb20vbmV3cy9maW5hbmNlLWFnZW50cyIsCiAgICAgICJibHVyYiI6ICJBbnRocm9waWMg5ZCR6YeR6J6N5qWt55m85biDIDEwIOWAi+WNs+eUqOWeiyBDbGF1ZGUgQWdlbnQg5qih5p2/77yM5ra16JOL55uh6IG36Kq/5p+l5paH5Lu244CBS1lDIOevqeafpeWPiuaciOe1kOW4s+WLmeetieacgOiAl+aZgua1geeoi++8jOWOn+eUn+aVtOWQiCBNaWNyb3NvZnQgV29yZC9FeGNlbC9Qb3dlclBvaW50L091dGxvb2vvvIzkuKboiIcgTW9vZHkncyDlu7rnq4vos4fmlpnlpKXkvLTpl5zkv4LvvJvmraTngrogQW50aHJvcGljIOa3seWFpeiPr+eIvuihl+eahOacgOWFt+mrlOWVhualreihjOWLle+8jOWKoOmAn+S8gealreaHieeUqOWRqSBBSSBBZ2VudCDopo/mqKHljJbokL3lnLDjgIIiCiAgICB9LAogICAgewogICAgICAiaWQiOiAicHVsc2UtMjAyNi0wNC0zMC1jbGF1ZGUtc2VjdXJpdHktYmV0YSIsCiAgICAgICJ0cyI6ICIyMDI2LTA0LTMwVDIyOjAwOjAwKzA4OjAwIiwKICAgICAgInRpdGxlIjogIkFudGhyb3BpYyDmjqjlh7ogQ2xhdWRlIFNlY3VyaXR5IOS8gualreWFrOa4rOODu+S7pSBPcHVzIDQuNyDoh6rli5XmjoPmj4/ku6PnorzluqvkuKbkv67oo5zmvI/mtJ4iLAogICAgICAic291cmNlIjogIkFudGhyb3BpYyBibG9nIiwKICAgICAgInVybCI6ICJodHRwczovL3d3dy5hbnRocm9waWMuY29tL25ld3MvY2xhdWRlLWNvZGUtc2VjdXJpdHkiLAogICAgICAiYmx1cmIiOiAiQW50aHJvcGljIOWwhyBDbGF1ZGUgU2VjdXJpdHkg6ZaL5pS+IEVudGVycHJpc2Ug5a6i5oi25YWs5ris77yM5LulIE9wdXMgNC43IOeCuuaguOW/g+W8leaTjuiHquWLleaOg+aPj+S7o+eivOW6q+OAgeitmOWIpemrmOWatOmHjeaAp+a8j+a0nuS4puaPkOWHuuS/ruijnOW7uuitsO+8m+ezu+e1seS7peWuieWFqOeglOeptuWToe+8jEFjY2VudHVyZeOAgUJDR+OAgeW+t+WLpOetiemggue0muWQiOS9nOWkpeS8tOWQjOatpemDqOe9su+8jOaomeiqjCBBSSDntrLot6/lronlhajlt6XlhbfpgLLlhaXkvIHmpa3opo/mqKHljJbokL3lnLDmlrDpmo7mrrXjgIIiCiAgICB9LAogICAgewogICAgICAiaWQiOiAicHVsc2UtMjAyNi0wNC0xNC1ub3ZvLW5vcmRpc2stb3BlbmFpIiwKICAgICAgInRzIjogIjIwMjYtMDQtMTRUMjI6MDA6MDArMDg6MDAiLAogICAgICAidGl0bGUiOiAiTm92byBOb3JkaXNrIOiIhyBPcGVuQUkg57C95YWo5YWs5Y+45oiw55Wl5ZCI5L2c44O7QUkg6LKr56m/6Jel54mp56CU55m844CB6KO96YCg5Yiw5ZWG5qWt5YWo6Y+I6LevIiwKICAgICAgInNvdXJjZSI6ICJDTkJDIiwKICAgICAgInVybCI6ICJodHRwczovL3d3dy5jbmJjLmNvbS8yMDI2LzA0LzE0L25vdm8tbm9yZGlzay1vcGVuYWktYWktZHJ1Zy1kaXNjb3ZlcnktaGVhbHRoY2FyZS1udm8uaHRtbCIsCiAgICAgICJibHVyYiI6ICLkuLnpuqXoo73ol6Xlt6jpoK0gTm92byBOb3JkaXNrIOWuo+WRiuiIhyBPcGVuQUkg5bu656uL5YWo5YWs5Y+456+E5ZyNIEFJIOaIsOeVpeWQiOS9nO+8jOa2teiTi+iXpeeJqeeZvOePvuOAgeiHqOW6iuippumpl+OAgeijvemAoOS+m+aHiemPiOWPiuWVhualreeHn+mBi++8jOebruaomeW5tOW6leWJjeWujOaIkOWFqOmdouaVtOWQiO+8m+atpOWQiOS9nOWcqCBOb3ZvIOiIhyBFbGkgTGlsbHkg55qEIEdMUC0xIOa4m+mHjeW4guWgtOertueIreeZveeGseWMluS5i+mam++8jOWFt+aciemHjeWkp+WVhualreiIh+aIsOeVpeaEj+e+qeOAgiIKICAgIH0sCiAgICB7CiAgICAgICJpZCI6ICJwdWxzZS0yMDI2LTA1LTA1LXNhcC1wcmlvci1sYWJzIiwKICAgICAgInRzIjogIjIwMjYtMDUtMDVUMTg6MDA6MDArMDg6MDAiLAogICAgICAidGl0bGUiOiAiU0FQIOaWpSAxMS42IOWEhOe+juWFg+aUtuizvOW+t+WciyBBSSDlr6bpqZflrqQgUHJpb3IgTGFic+ODu+aJv+irviA0IOW5tOaKleWFpemAviAxMCDlhITmrZDlhYPlu7rmrZDmtLLliY3msr8gQUkg5Lit5b+DIiwKICAgICAgInNvdXJjZSI6ICJUZWNoQ3J1bmNoIiwKICAgICAgInVybCI6ICJodHRwczovL3RlY2hjcnVuY2guY29tLzIwMjYvMDUvMDUvc2FwLWJldHMtMS0xNmItb24tMTgtbW9udGgtb2xkLWdlcm1hbi1haS1sYWItYW5kLXNheXMteWVzLXRvLW5lbW9jbGF3LyIsCiAgICAgICJibHVyYiI6ICJTQVAg5a6j5ZGK5pS26LO85oiQ56uL5YOFIDE4IOWAi+aciOeahOW+t+WciyBBSSDlr6bpqZflrqQgUHJpb3IgTGFic++8jOW+jOiAheS7peOAjOihqOagvOWfuuekjuaooeWei+OAjVRhYlBGTiDplovlibXntZDmp4vljJbos4fmlpkgQUkg5paw6Lev5b6R77yMU0FQIOaJv+irvuacquS+hiA0IOW5tOaKleWFpemAviAxMCDlhITmrZDlhYPvvJvmraTmrKEgTSZBIOW9sOmhr+WCs+e1seS8gealrei7n+mrlOW3qOmgreS7peizh+acrOWFqOmdouaKvOazqCBmcm9udGllciBBSe+8jOS4pueCuuatkOa0suazqOWFpeWPr+aKl+ihoeefveiwt+eahOWJjeayv+eglOeptuiDvemHj+OAgiIKICAgIH0sCiAgICB7CiAgICAgICJpZCI6ICJwdWxzZS0yMDI2LTA0LTIyLWdvb2dsZS1kZWVwLXJlc2VhcmNoLW1heCIsCiAgICAgICJ0cyI6ICIyMDI2LTA0LTIyVDE2OjAwOjAwKzA4OjAwIiwKICAgICAgInRpdGxlIjogIkdvb2dsZSDnmbzluIMgRGVlcCBSZXNlYXJjaCBNYXjjg7tHZW1pbmkgMy4xIFBybyDpqYXli5Xoh6rkuLvnoJTnqbbku6PnkIYgRGVlcFNlYXJjaFFBIOmBlCA5My4zJSIsCiAgICAgICJzb3VyY2UiOiAiR29vZ2xlIGJsb2ciLAogICAgICAidXJsIjogImh0dHBzOi8vYmxvZy5nb29nbGUvaW5ub3ZhdGlvbi1hbmQtYWkvbW9kZWxzLWFuZC1yZXNlYXJjaC9nZW1pbmktbW9kZWxzL25leHQtZ2VuZXJhdGlvbi1nZW1pbmktZGVlcC1yZXNlYXJjaC8iLAogICAgICAiYmx1cmIiOiAiR29vZ2xlIOaOqOWHuiBEZWVwIFJlc2VhcmNoIOiIhyBEZWVwIFJlc2VhcmNoIE1heCDlhanmrL7oh6rkuLvnoJTnqbbku6PnkIbvvIzku6UgR2VtaW5pIDMuMSBQcm8g54K65qC45b+D5Yqg5YWlIE1DUCDmlK/mj7ToiIfljp/nlJ/lnJbooajnlJ/miJDvvJtNYXgg54mI5pys5ZyoIERlZXBTZWFyY2hRQSDpgZQgOTMuMyXvvIjljYrlubTliY3lg4UgNjYuMSXvvInvvIzlj6/nlKjmlrzkvIHmpa3pgY7lpJznlJ/miJDnm6Hogbfoqr/mn6XloLHlkYrnrYnplbfnqIvpnZ7lkIzmraXlt6XkvZzmtYHnqIvvvIzmqJnoqowgQUkg56CU56m25Luj55CG5q2j5byP6YCy5YWl5LyB5qWt6KaP5qih5YyW6JC95Zyw5paw6ZqO5q6144CCIgogICAgfSwKICAgIHsKICAgICAgImlkIjogInB1bHNlLTIwMjYtMDQtMTMtb3BlbmFpLWhpcm8tZmluYW5jZSIsCiAgICAgICJ0cyI6ICIyMDI2LTA0LTEzVDIyOjAwOjAwKzA4OjAwIiwKICAgICAgInRpdGxlIjogIk9wZW5BSSDmlLbos7wgQUkg5YCL5Lq655CG6LKh5paw5Ym1IEhpcm8gRmluYW5jZeODuzIwMjYg5bm056ys5LiD6aCF5L216LO85Yqg6YCf5Z6C55u05raI6LK75oeJ55So5L2I5bGAIiwKICAgICAgInNvdXJjZSI6ICJUZWNoQ3J1bmNoIiwKICAgICAgInVybCI6ICJodHRwczovL3RlY2hjcnVuY2guY29tLzIwMjYvMDQvMTMvb3BlbmFpLWhhcy1ib3VnaHQtYWktcGVyc29uYWwtZmluYW5jZS1zdGFydHVwLWhpcm8vIiwKICAgICAgImJsdXJiIjogIk9wZW5BSSDlrqPlkYrmlLbos7zjgIxBSSDlgIvkurogQ0ZP44CN5paw5Ym1IEhpcm8gRmluYW5jZe+8jOeCuuWFrOWPuCAyMDI2IOW5tOW3suefpeesrOS4g+mgheS9teizvO+8m0hpcm8g55SxIFJpYmJpdCBDYXBpdGFsIOaUr+aMge+8jOWNlOWKqeeuoeeQhumAviAxMCDlhITnvo7lhYPnlKjmiLbos4fnlKLvvIzmraTkuqTmmJPpoa/npLogT3BlbkFJIOato+mAj+mBjuezu+e1seaAp+aUtuizvOW/q+mAn+WIh+WFpeWeguebtOa2iOiyu+W4guWgtO+8jOetlueVpeS4iuW+numAmueUqCBBSSDlubPlj7DlkJHlgIvkurrnkIbosqHnrYnlsIjmpa3mh4nnlKjmnI3li5novYnlnovjgIIiCiAgICB9LAogICAgewogICAgICAiaWQiOiAicHVsc2UtMjAyNi0wNS0wNS1jYWlzaS1haS1vdmVyc2lnaHQiLAogICAgICAidHMiOiAiMjAyNi0wNS0wNVQyMjowMDowMCswODowMCIsCiAgICAgICJ0aXRsZSI6ICJUcnVtcCDmlL/lupzopoHmsYIgR29vZ2xlIERlZXBNaW5k44CBTWljcm9zb2Z044CBeEFJIOaPkOWJjemAgeWvqSBBSSDmqKHlnovjg7tDQUlTSSDmk7TlpKfnm6PnrqEiLAogICAgICAic291cmNlIjogIkNOQkMiLAogICAgICAidXJsIjogImh0dHBzOi8vd3d3LmNuYmMuY29tLzIwMjYvMDUvMDUvYWktb3ZlcnNpZ2h0LXRydW1wLWdvb2dsZS1taWNyb3NvZnQteGFpLmh0bWwiLAogICAgICAiYmx1cmIiOiAi576O5ZyL5ZWG5YuZ6YOoIENBSVNJIOWuo+WRiuiIhyBHb29nbGUgRGVlcE1pbmTjgIFNaWNyb3NvZnQg5Y+KIHhBSSDnsL3nvbLljZTorbDvvIzopoHmsYLlnKjlhazplovnmbzluIPliY3mj5DkuqQgQUkg5qih5Z6L6YCy6KGM6IO95Yqb6KmV5Lyw77yM5bu25Ly45pei5pyJ55qEIE9wZW5BSSDoiIcgQW50aHJvcGljIOWNlOitsO+8m+atpOiIiOaYryBUcnVtcCDmlL/lupzlvLfljJYgQUkg55uj566h55qE6YeN6KaB6YeM56iL56KR77yM5qiZ6KqM5YmN5rK/5qih5Z6L6aCQ6YOo572y5a+p5p+l5bey5oiQ6IGv6YKm5pS/562W5bi45oWL44CCIgogICAgfSwKICAgIHsKICAgICAgImlkIjogInB1bHNlLTIwMjYtMDQtMjctb3BlbmFpLW1pY3Jvc29mdC1yZXN0cnVjdHVyZSIsCiAgICAgICJ0cyI6ICIyMDI2LTA0LTI3VDIyOjAwOjAwKzA4OjAwIiwKICAgICAgInRpdGxlIjogIk9wZW5BSSDoiIcgTWljcm9zb2Z0IOmHjeejhemHjee1hOWNlOitsOODu+e1gue1kOeNqOWutuaOiOasiuOAgeiHsyAyMDMyIOaUueaOoemdnueNqOWutiBJUCIsCiAgICAgICJzb3VyY2UiOiAiVGVjaENydW5jaCIsCiAgICAgICJ1cmwiOiAiaHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzA0LzI3L29wZW5haS1lbmRzLW1pY3Jvc29mdC1sZWdhbC1wZXJpbC1vdmVyLWl0cy01MGItYW1hem9uLWRlYWwvIiwKICAgICAgImJsdXJiIjogIk1pY3Jvc29mdCDoiIcgT3BlbkFJIOato+W8j+mHjee1hOWkpeS8tOmXnOS/gu+8mk1pY3Jvc29mdCDoh7MgMjAzMiDlubTmlLnku6XpnZ7njajlrrbmlrnlvI/mjojmrIogT3BlbkFJIElQ44CB5YGc5q2i5pS25Y+WIE9wZW5BSSDmlLblhaXliIbmvaTvvIxPcGVuQUkg5YmH5Y+v5YWo6Z2i5ZCRIEFtYXpvbuOAgUdvb2dsZSDnrYnlhbbku5bpm7Lnq6/lu6DllYbmj5DkvpvnlKLlk4HvvJvljZTorbDnv4zml6UgT3BlbkFJIOaooeWei+WNs+eZu+mZuCBBV1MgQmVkcm9ja++8jOaomeiqjOenkeaKgOWPsuS4iuacgOmHjeimgSBBSSDlkIjkvZzpl5zkv4LnmoTmoLnmnKzmgKfovYnoornjgIIiCiAgICB9LAogICAgewogICAgICAiaWQiOiAicHVsc2UtMjAyNi0wNC0yNy1pbmVmZmFibGUtaW50ZWxsaWdlbmNlLTExYiIsCiAgICAgICJ0cyI6ICIyMDI2LTA0LTI3VDE4OjAwOjAwKzA4OjAwIiwKICAgICAgInRpdGxlIjogIkRlZXBNaW5kIOWFg+iAgSBEYXZpZCBTaWx2ZXIg5Ym15qWt44O7SW5lZmZhYmxlIEludGVsbGlnZW5jZSDlrozmiJAgMTEg5YSE576O5YWD56iu5a2Q6Lyq6J6N6LOHIiwKICAgICAgInNvdXJjZSI6ICJUZWNoQ3J1bmNoIiwKICAgICAgInVybCI6ICJodHRwczovL3RlY2hjcnVuY2guY29tLzIwMjYvMDQvMjcvZGVlcG1pbmRzLWRhdmlkLXNpbHZlci1qdXN0LXJhaXNlZC0xLTFiLXRvLWJ1aWxkLWFuLWFpLXRoYXQtbGVhcm5zLXdpdGhvdXQtaHVtYW4tZGF0YS8iLAogICAgICAiYmx1cmIiOiAiQWxwaGFHbyDkuYvniLbjgIFEZWVwTWluZCDlibXovqbnoJTnqbblk6EgRGF2aWQgU2lsdmVyIOmbouiBt+W+jOWJtei+piBJbmVmZmFibGUgSW50ZWxsaWdlbmNl77yM5Lul5omT6YCg5LiN5L6d6LO05Lq66aGe56S656+E6LOH5paZ6Ieq5Li75a2457+S55qEIEFJIOeCuuebruaome+8jOWujOaIkOWJtee0gOmMhOeahCAxMSDlhITnvo7lhYPnqK7lrZDovKrono3os4fvvIzmipXos4fmlrnlkKsgTnZpZGlhIOiIhyBHb29nbGXvvJvmraTovKrngrogQUkg5paw5Ym15qWt55WM6L+E5LuK6YeR6aGN5pyA6auY55qE56iu5a2Q6Lyq77yM6aGv56S66LOH5pys5bCN54Sh5Lq66aGe5qiZ5rOo6Lev5b6R55qE6LaF6auY6aKo6Zqq6LOt5rOo44CCIgogICAgfSwKICAgIHsKICAgICAgImlkIjogInB1bHNlLTIwMjYtMDQtMjQtZ29vZ2xlLTQwYi1hbnRocm9waWMiLAogICAgICAidHMiOiAiMjAyNi0wNC0yNFQyMjowMDowMCswODowMCIsCiAgICAgICJ0aXRsZSI6ICJHb29nbGUg5a6j5ZGK5pyA6auYIDQwMCDlhITnvo7lhYPmipXos4cgQW50aHJvcGlj44O75Yid5pyfIDEwMCDlhITljbPmmYLliLDkvY3kvLDlgLwgMyw1MDAg5YSEIiwKICAgICAgInNvdXJjZSI6ICJUZWNoQ3J1bmNoIiwKICAgICAgInVybCI6ICJodHRwczovL3RlY2hjcnVuY2guY29tLzIwMjYvMDQvMjQvZ29vZ2xlLXRvLWludmVzdC11cC10by00MGItaW4tYW50aHJvcGljLWluLWNhc2gtYW5kLWNvbXB1dGUvIiwKICAgICAgImJsdXJiIjogIkFscGhhYmV0IOWuo+WRiuS7peePvumHkeiIh+eul+WKm+W9ouW8j+WQkSBBbnRocm9waWMg5oqV5YWl5pyA6auYIDQwMCDlhITnvo7lhYPvvIzlhbbkuK0gMTAwIOWEhOeri+WNs+WIsOS9jeS4lCBBbnRocm9waWMg5Lyw5YC86YGUIDMsNTAwIOWEhOe+juWFg++8m+WJqemkmCAzMDAg5YSE6aCI6KaWIEFudGhyb3BpYyDpgZTmiJDnibnlrprnuL7mlYjph4znqIvnopHvvIzmraTovKrngrrnp5HmioDmpa3mnInlj7Lku6XkvobmnIDlpKcgQUkg5Zau6Lyq5oqV6LOH5LmL5LiA77yM6YCy5LiA5q2l6Z6P5Zu6IEFudGhyb3BpYyDlnKggZnJvbnRpZXIgQUkg56u26LO95Lit55qE566X5Yqb5YSq5Yui44CCIgogICAgfSwKICAgIHsKICAgICAgImlkIjogInB1bHNlLTIwMjYtMDQtMjQtZGVlcHNlZWstdjQiLAogICAgICAidHMiOiAiMjAyNi0wNC0yNFQxMDowMDowMCswODowMCIsCiAgICAgICJ0aXRsZSI6ICJEZWVwU2VlayDnmbzluIMgVjQgRmxhc2gg6IiHIFY0IFByb+ODu+eoi+W8j+eivOaOqOeQhuiDveWKm+Wuo+eosemBlOmggue0muawtOa6liIsCiAgICAgICJzb3VyY2UiOiAiQmxvb21iZXJnIiwKICAgICAgInVybCI6ICJodHRwczovL3d3dy5ibG9vbWJlcmcuY29tL25ld3MvYXJ0aWNsZXMvMjAyNi0wNC0yNC9kZWVwc2Vlay11bnZlaWxzLW5ld2VzdC1mbGFnc2hpcC1hLXllYXItYWZ0ZXItYWktYnJlYWt0aHJvdWdoIiwKICAgICAgImJsdXJiIjogIuS4reWciyBEZWVwU2VlayDlnKjpnIfpqZrnn73osLfkuIDlubTlvozmjqjlh7rmnIDmlrDml5foiabns7vliJcgVjQgRmxhc2gg6IiHIFY0IFByb++8jOWuo+eoseWcqOeoi+W8j+eivOWPiuaOqOeQhuWfuua6lumBlOWIsOmggue0muihqOePvuOAgeWkp+W5heaUueWWhCBhZ2VudGljIOS7u+WLmeiDveWKm++8m0RlZXBTZWVrIOWGjeasoeS7peS9juaIkOacrOmrmOaViOiDveaooeW8j+aMkeaIsCBPcGVuQUkg6IiHIEFudGhyb3BpY++8jOW8leeZvOWklueVjOWwjeS4ree+jiBBSSDnq7bos73lt67ot53nmoTmlrDkuIDovKroqZXkvLDjgIIiCiAgICB9LAogICAgewogICAgICAiaWQiOiAicHVsc2UtMjAyNi0wNC0yMC1hbWF6b24tMjViLWFudGhyb3BpYyIsCiAgICAgICJ0cyI6ICIyMDI2LTA0LTIwVDIyOjAwOjAwKzA4OjAwIiwKICAgICAgInRpdGxlIjogIkFtYXpvbiDov73liqDmnIDpq5ggMjUwIOWEhOe+juWFg+aKleizhyBBbnRocm9waWPjg7tlkKsgNUdXIOeul+WKm+WfuuekjuioreaWveaJv+irviIsCiAgICAgICJzb3VyY2UiOiAiQ05CQyIsCiAgICAgICJ1cmwiOiAiaHR0cHM6Ly93d3cuY25iYy5jb20vMjAyNi8wNC8yMC9hbWF6b24taW52ZXN0LXVwLXRvLTI1LWJpbGxpb24taW4tYW50aHJvcGljLXBhcnQtb2YtYWktaW5mcmFzdHJ1Y3R1cmUuaHRtbCIsCiAgICAgICJibHVyYiI6ICJBbWF6b24g5a6j5ZGK5Zyo5Y6f5pyJIDQwIOWEhOe+juWFg+S5i+WkluWGjei/veWKoOacgOmrmCAyNTAg5YSE576O5YWD5oqV6LOHIEFudGhyb3BpY++8jOWMheWQq+mgkOioiOaOoeizvOWkmumBlCA1IOWQieeTpueul+WKm+eahOm+kOWkp+WfuuekjuioreaWveWNlOitsO+8m+atpOS6pOaYk+S9vyBBbWF6b24g5bCNIEFudGhyb3BpYyDnmoTntK/oqIjmib/oq77pgZTmlbjnmb7lhITnvo7lhYPvvIzpno/lm7ogQVdTIOS9nOeCuiBDbGF1ZGUg5Li76KaB6Zuy56uv5aSl5Ly05Zyw5L2N77yM5Lim5by35YyW6ZuZ5pa55Zyo5LyB5qWtIEFJIOacjeWLmeeahOa3seW6puaVtOWQiOOAgiIKICAgIH0sCiAgICB7CiAgICAgICJpZCI6ICJwdWxzZS0yMDI2LTA0LTA4LW1ldGEtbXVzZS1zcGFyayIsCiAgICAgICJ0cyI6ICIyMDI2LTA0LTA4VDIyOjAwOjAwKzA4OjAwIiwKICAgICAgInRpdGxlIjogIk1ldGEg5o6o5Ye6IE11c2UgU3Bhcmvjg7tTdXBlcmludGVsbGlnZW5jZSBMYWJzIOmmluasvuaooeWei+WFqOmdoui/vei2lSBHUFQtNSDoiIcgQ2xhdWRlIiwKICAgICAgInNvdXJjZSI6ICJUZWNoQ3J1bmNoIiwKICAgICAgInVybCI6ICJodHRwczovL3RlY2hjcnVuY2guY29tLzIwMjYvMDQvMDgvbWV0YS1kZWJ1dHMtdGhlLW11c2Utc3BhcmstbW9kZWwtaW4tYS1ncm91bmQtdXAtb3ZlcmhhdWwtb2YtaXRzLWFpLyIsCiAgICAgICJibHVyYiI6ICJNZXRhIOeZvOW4gyBNdXNlIOezu+WIl+mmluasvuaooeWeiyBNdXNlIFNwYXJr77yM55Sx5oub5YufIEFsZXhhbmRyIFdhbmcg5b6M5oiQ56uL55qEIE1ldGEgU3VwZXJpbnRlbGxpZ2VuY2UgTGFicyDkuLvlsI7noJTnmbzvvIzmqJnoqowgTWV0YSDlhajpnaLph43ntYQgQUkg562W55Wl5Lul57iu5bCP6IiHIE9wZW5BSeOAgUFudGhyb3BpYyDnmoTlt67ot53vvJtNdXNlIFNwYXJrIOW3suWcqOe2sumggeerr+WPiiBNZXRhIEFJIOaHieeUqOS4iue3mu+8jOS4pumgkOioiOaVuOmAseWFp+aVtOWQiOiHsyBGYWNlYm9va+OAgUluc3RhZ3JhbeOAgVdoYXRzQXBwIOWPiiBSYXktQmFuIOaZuuaFp+ecvOmPoeOAgiIKICAgIH0sCiAgICB7CiAgICAgICJpZCI6ICJwdWxzZS0yMDI2LTA1LTEwLXhhaS1uZW9jbG91ZCIsCiAgICAgICJ0cyI6ICIyMDI2LTA1LTEwVDA5OjAwOjAwKzA4OjAwIiwKICAgICAgInRpdGxlIjogIlRlY2hDcnVuY2gg5YiG5p6Q77yaeEFJIOeul+WKm+enn+izg+i9ieWei+aBkOekuiBHcm9rIOWJjee3miBBSSDnq7bniK3lt7Llr6bos6rpgIDloLQiLAogICAgICAic291cmNlIjogIlRlY2hDcnVuY2giLAogICAgICAidXJsIjogImh0dHBzOi8vdGVjaGNydW5jaC5jb20vMjAyNi8wNS8xMC93ZXJlLWZlZWxpbmctY3luaWNhbC1hYm91dC14YWlzLWJpZy1kZWFsLXdpdGgtYW50aHJvcGljLyIsCiAgICAgICJibHVyYiI6ICJUZWNoQ3J1bmNoIOeZvOihqOWIhuaekOaMh+WHuu+8jHhBSSDlsIcgQ29sb3NzdXMg5YWo6YOo566X5Yqb56ef57WmIEFudGhyb3BpYyDnmoTmsbrlrprmmpfnpLrlhazlj7jlr6bos6rovYnlnovngrogbmVvY2xvdWQg566X5Yqb56ef6LOD5ZWG77yM6ICM6Z2e5YmN57eaIEFJIOaooeWei+eglOeZvOertueIreiAhe+8m+atpOiIiembluaUueWWhOiyoeWLme+8jOWNu+W8leeZvOWklueVjOizqueWkSBHcm9rIOiDveWQpuaMgee6jOi/vei2lSBHUFQtNS41IOiIhyBDbGF1ZGXvvIzli5XmkJYgeEFJIOOAjOWJjeeeuyBBSSDlibXmlrDogIXjgI3nmoTmoLjlv4PlrprkvY3jgIIiCiAgICB9LAogICAgewogICAgICAiaWQiOiAicHVsc2UtMjAyNi0wNS0wOC1ncHQ1NS1jeWJlciIsCiAgICAgICJ0cyI6ICIyMDI2LTA1LTA4VDAyOjAwOjAwKzA4OjAwIiwKICAgICAgInRpdGxlIjogIk9wZW5BSSDlkJHnmb3lkI3llq7ntrLot6/pmLLnpqbntYTnuZTmjqjlh7ogR1BULTUuNS1DeWJlcuODu+W3sueUqOaWvOmHjeimgeWfuuekjuioreaWvee0hemaiua4rOippiIsCiAgICAgICJzb3VyY2UiOiAiQ05CQyIsCiAgICAgICJ1cmwiOiAiaHR0cHM6Ly93d3cuY25iYy5jb20vMjAyNi8wNS8wNy9vcGVuYWktcm9sbHMtb3V0LW5ldy1ncHQtNXBvaW50NS1jeWJlci10by12ZXR0ZWQtY3liZXJzZWN1cml0eS10ZWFtcy5odG1sIiwKICAgICAgImJsdXJiIjogIk9wZW5BSSDlkJHntpPlr6nmn6XnmoTntrLot6/lronlhajntYTnuZTpmZDph4/plovmlL4gR1BULTUuNS1DeWJlcu+8jOipsuaooeWei+WPr+iHquWLleWMlue4ruaUvue0hemaiua4rOippuS4pumpl+itiemrmOWatOmHjeaAp+a8j+a0nu+8m+iIhyBBbnRocm9waWMgTXl0aG9zIOWQjOaOoeWPl+mZkOWtmOWPluetlueVpe+8jOWHuOmhryBmcm9udGllciBBSSDlnKjmlLvmk4rmgKfntrLot6/lt6XlhbfkuIrnmoTpm5nph43nlKjpgJTpoqjpmqrnrqHnkIblt7LmiJAgZnJvbnRpZXIgbGFiIOihjOalreWFseitmO+8jDYg5pyI6LW35by35Yi26KaB5rGC6Ziy6Yej6a2a6Lqr5Lu96amX6K2J44CCIgogICAgfSwKICAgIHsKICAgICAgImlkIjogInB1bHNlLTIwMjYtMDUtMDgtY2hhdGdwdC1hZHMiLAogICAgICAidHMiOiAiMjAyNi0wNS0wN1QyMjowMDowMCswODowMCIsCiAgICAgICJ0aXRsZSI6ICJPcGVuQUkg5q2j5byP5ZyoIENoYXRHUFQg5byV5YWl5buj5ZGK44O7Q1BDIOertuWDueaooeW8j+aMieWwjeipseS4u+mhjOWumuWQkeaKleaUviIsCiAgICAgICJzb3VyY2UiOiAiT3BlbkFJIGJsb2ciLAogICAgICAidXJsIjogImh0dHBzOi8vb3BlbmFpLmNvbS9pbmRleC90ZXN0aW5nLWFkcy1pbi1jaGF0Z3B0LyIsCiAgICAgICJibHVyYiI6ICJPcGVuQUkg5a6j5ZGKIENoYXRHUFQg5q2j5byP5o6o5Ye65buj5ZGK77yM5buj5ZGK5ZWG5Y+v6YCP6YGO6Ieq5YqpIEFkcyBNYW5hZ2VyIOS7pSBDUEMg56u25YO55qih5byP5oqV5pS+77yM5buj5ZGK5L6d5bCN6Kmx5Li76aGM6IiH5q235Y+y57SA6YyE5a6a5ZCR5LiU5piO56K65qiZ56S677ybT3BlbkFJIOaJv+irvuW7o+WRiuS4jeW9semfvyBDaGF0R1BUIOWbnuetlOWTgeizqu+8jOatpOiIiOaomeiqjOWFrOWPuOW+nue0lOiogumWseaooeW8j+WQkeW7o+WRiuaUtuebiuWkmuWFg+WMlueahOmHjeWkp+WVhualrei9ieWei+OAgiIKICAgIH0sCiAgICB7CiAgICAgICJpZCI6ICJwdWxzZS0yMDI2LTA1LTA2LXNwYWNleC10ZXJhZmFiIiwKICAgICAgInRzIjogIjIwMjYtMDUtMDZUMjI6MDA6MDArMDg6MDAiLAogICAgICAidGl0bGUiOiAiU3BhY2VYIOaTrOWcqOW+t+W3nuW7uiBUZXJhZmFiIOaZtueJh+W7oOODu+imj+aooemrmOmBlCAxLDE5MCDlhITnvo7lhYPkvpsgQUkg6IiH5qmf5Zmo5Lq66Ieq55SoIiwKICAgICAgInNvdXJjZSI6ICJUZWNoQ3J1bmNoIiwKICAgICAgInVybCI6ICJodHRwczovL3RlY2hjcnVuY2guY29tLzIwMjYvMDUvMDYvc3BhY2V4LW1heS1zcGVuZC11cC10by0xMTktYmlsbGlvbi1vbi10ZXJhZmFiLWNoaXAtZmFjdG9yeS1pbi10ZXhhcy8iLAogICAgICAiYmx1cmIiOiAiU3BhY2VYIOWcqOW+t+WFi+iWqeaWr+W3niBHcmltZXMgQ291bnR5IOaPkOWHuumrmOmBlCAxLDE5MCDlhITnvo7lhYPljYrlsI7pq5Tlt6Xlu6DnqIXli5nlhKrmg6DnlLPoq4vvvIzliJ3mnJ/mipXos4cgNTUwIOWEhOe+juWFg++8m1RlcmFmYWIg5bCH55Sf55SiIFRlc2xhIE9wdGltdXMg5qmf5Zmo5Lq66IiHIHhBSSDooZvmmJ/lsIjnlKjmmbbniYfvvIxJbnRlbCDlt7LliqDlhaXlkIjkvZzvvIzmraToqIjnlavnm7TmjIfljYrlsI7pq5Tkvpvmh4npj4joh6rkuLvljJbvvIzku6Xmk7rohKvlsI0gTnZpZGlhIOeahOS+neiztOS4puaUr+aSkCBBSSDnrpflipvpnIDmsYLjgIIiCiAgICB9LAogICAgewogICAgICAiaWQiOiAicHVsc2UtMjAyNi0wNS0wNS1vcGVuYWktNTBiLWNvbXB1dGUiLAogICAgICAidHMiOiAiMjAyNi0wNS0wNVQyMjowMDowMCswODowMCIsCiAgICAgICJ0aXRsZSI6ICJPcGVuQUkgMjAyNiDlubTnrpflipvmlK/lh7ropo/lioPpgZQgNTAwIOWEhOe+juWFg+ODu0Jyb2NrbWFuIOWuo+ekuuWKoOmAnyBBR0kg5Z+656SO6Kit5pa95oqV6LOHIiwKICAgICAgInNvdXJjZSI6ICJCbG9vbWJlcmciLAogICAgICAidXJsIjogImh0dHBzOi8vd3d3LmJsb29tYmVyZy5jb20vbmV3cy9hcnRpY2xlcy8yMDI2LTA1LTA1L29wZW5haS10by1zcGVuZC01MC1iaWxsaW9uLW9uLWNvbXB1dGluZy1pbi0yMDI2LWJyb2NrbWFuLXNheXMiLAogICAgICAiYmx1cmIiOiAiT3BlbkFJIOiBr+WQiOWJtei+puS6uiBHcmVnIEJyb2NrbWFuIOWuo+WRiuWFrOWPuCAyMDI2IOW5tOmgkOioiOWcqOeul+WKm+S4iuaKleWFpSA1MDAg5YSE576O5YWD77yM54K6IEFJIOalreeVjOi/hOS7iuacgOWkp+WWruW5tOioiOeul+WfuuekjuioreaWveaJv+irvu+8m+atpOimj+aooemhr+ekuiBmcm9udGllciBsYWIg55qEIEFHSSDnq7bos73lt7Llvp7jgIzlibXmpa3nh5LpjKLjgI3pgLLlhaXjgIzlt6Xmpa3ljJbopo/mqKHjgI3mlrDpmo7mrrXvvIzlsIflsI3lhajnkIMgR1BVIOS+m+mcgOOAgembu+WKm+e2suagvOWPiuizh+acrOW4guWgtOeUoueUn+a3semBoOe1kOani+aAp+W9semfv+OAgiIKICAgIH0sCiAgICB7CiAgICAgICJpZCI6ICJwdWxzZS0yMDI2LTA1LTA4LWFpcmJuYi1haS1jb2RlIiwKICAgICAgInRzIjogIjIwMjYtMDUtMDhUMTQ6MDA6MDArMDg6MDAiLAogICAgICAidGl0bGUiOiAiQWlyYm5iIOWuo+W4gyBRMSDlt6XnqIvluKvlha3miJDmlrDku6PnorznlLEgQUkg55Sf5oiQ44O75Ym15Li76KaB56eR5oqA5YWs5Y+45o6h55So546H5qiZ56u/IiwKICAgICAgInNvdXJjZSI6ICJUZWNoQ3J1bmNoIiwKICAgICAgInVybCI6ICJodHRwczovL3RlY2hjcnVuY2guY29tLzIwMjYvMDUvMDgvYWlyYm5iLXNheXMtYWktbm93LXdyaXRlcy02MC1vZi1pdHMtbmV3LWNvZGUvIiwKICAgICAgImJsdXJiIjogIkFpcmJuYiDmiqvpnLLlhbYgUTEg5bel56iL5bir5paw55Sf55Si5Luj56K85Lit5bey5pyJIDYwJSDkvoboh6ogQUkg55Sf5oiQ77yM5oiQ54K65Li76KaB56eR5oqA5YWs5Y+45LitIEFJIOS7o+eivOaOoeeUqOeOh+acgOmrmOeahOahiOS+i+S5i+S4gO+8jOaomeiqjCBBSSDovJTliqnplovnmbzlt7Llvp7oqabpqZfpgLLlhaXopo/mqKHljJblr6bouJDnmoTph43opoHph4znqIvnopHvvIzlsI7lt6XnqIvkurrlipvphY3nva7oiIfogbfog73ovYnlnovlhbfmnInmt7HpgaDnpLrnr4TmlYjmh4njgIIiCiAgICB9LAogICAgewogICAgICAiaWQiOiAicHVsc2UtMjAyNi0wNS0wNy1vcGVuYWktdm9pY2UtYXBpIiwKICAgICAgInRzIjogIjIwMjYtMDUtMDdUMTY6MDA6MDArMDg6MDAiLAogICAgICAidGl0bGUiOiAiT3BlbkFJIOeZvOW4g+iqnumfsyBJbnRlbGxpZ2VuY2UgQVBJ44O7R1BULVJlYWx0aW1lLTIg5pCt6LyJIEdQVC01IOe0muaOqOeQhuiDveWKmyIsCiAgICAgICJzb3VyY2UiOiAiVGVjaENydW5jaCIsCiAgICAgICJ1cmwiOiAiaHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzA1LzA3L29wZW5haS1sYXVuY2hlcy1uZXctdm9pY2UtaW50ZWxsaWdlbmNlLWZlYXR1cmVzLWluLWl0cy1hcGkvIiwKICAgICAgImJsdXJiIjogIk9wZW5BSSDlkJHplovnmbzogIXplovmlL7lhajmlrDoqp7pn7MgQVBJIOWKn+iDve+8jOaguOW/g+aooeWeiyBHUFQtUmVhbHRpbWUtMiDlhbflgpkgR1BULTUg57Sa5o6o55CG6IO95Yqb77yM5pSv5o+05Y2z5pmC5bCN6Kmx44CB6Kqe6Z+z6L2J5paH5a2X5Y+K5aSa6Kqe57+76K2v77yb5q2k6IiJ5aSn5bmF6ZmN5L2O6Kqe6Z+zIEFJIOaHieeUqOmWi+eZvOmWgOaqu++8jOWKoOmAn+aZuuaFp+iqnumfs+WKqeaJi+iIhyBBSSDpm7voqbHlrqLmnI3nmoTopo/mqKHljJbokL3lnLDjgIIiCiAgICB9LAogICAgewogICAgICAiaWQiOiAicHVsc2UtMjAyNi0wNS0wNS1ncHQ1NS1pbnN0YW50IiwKICAgICAgInRzIjogIjIwMjYtMDUtMDVUMDg6MDA6MDArMDg6MDAiLAogICAgICAidGl0bGUiOiAiT3BlbkFJIOaOqOWHuiBHUFQtNS41IEluc3RhbnTjg7vlj5bku6MgR1BULTUuMyBJbnN0YW50IOaIkCBDaGF0R1BUIOWFqOmrlOeUqOaItumgkOioreaooeWeiyIsCiAgICAgICJzb3VyY2UiOiAiVGVjaENydW5jaCIsCiAgICAgICJ1cmwiOiAiaHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzA1LzA1L29wZW5haS1yZWxlYXNlcy1ncHQtNS01LWluc3RhbnQtYS1uZXctZGVmYXVsdC1tb2RlbC1mb3ItY2hhdGdwdC8iLAogICAgICAiYmx1cmIiOiAiT3BlbkFJIOeZvOW4gyBHUFQtNS41IEluc3RhbnQg5Lim5YWo6Z2i5Y+W5LujIEdQVC01LjMgSW5zdGFudCDngrogQ2hhdEdQVCDpoJDoqK3mqKHlnovvvIzlnKjphqvnmYLjgIHms5XlvovjgIHosqHli5nnrYnpq5jpoqjpmqrpoJjln5/lubvoprrnjofpmY3kvY4gNTIuNSXvvJtQbHVzIOiIhyBQcm8g55So5oi25Y+v6YCP6YGO5pCc5bCL5Yqf6IO95pW05ZCI6YGO5b6A5bCN6Kmx6IiHIEdtYWlsIOWvpuePvuWAi+S6uuWMluWbnuetlO+8jOeCuiBDaGF0R1BUIOacgOWkp+imj+aooem7mOiqjeaooeWei+WNh+e0muS5i+S4gOOAgiIKICAgIH0sCiAgICB7CiAgICAgICJpZCI6ICJwdWxzZS0yMDI2LTA1LTA0LXNpZXJyYS05NTBtIiwKICAgICAgInRzIjogIjIwMjYtMDUtMDRUMjA6MDA6MDArMDg6MDAiLAogICAgICAidGl0bGUiOiAiQnJldCBUYXlsb3Ig5Ym16L6m5LyB5qWtIEFJIOW5s+WPsCBTaWVycmEg5a6M5oiQIDkuNSDlhITnvo7lhYPono3os4fjg7vkvLDlgLzpgL4gMTUwIOWEhOe+juWFgyIsCiAgICAgICJzb3VyY2UiOiAiVGVjaENydW5jaCIsCiAgICAgICJ1cmwiOiAiaHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDI2LzA1LzA0L3NpZXJyYS1yYWlzZXMtOTUwbS1hcy10aGUtcmFjZS10by1vd24tZW50ZXJwcmlzZS1haS1nZXRzLXNlcmlvdXMvIiwKICAgICAgImJsdXJiIjogIuWJjSBTYWxlc2ZvcmNlIOiBr+W4rSBDRU8gQnJldCBUYXlsb3Ig5Ym16L6m55qE5LyB5qWtIEFJIOW5s+WPsCBTaWVycmEg5a6j5ZGK5a6M5oiQIDkuNSDlhITnvo7lhYPono3os4fvvIzono3os4flvozkvLDlgLznqoHnoLQgMTUwIOWEhOe+juWFg++8jOebruaomeaIkOeCuiBBSSDlrqLmiLbpq5TpqZfnmoTjgIzlhajnkIPmqJnmupbjgI3vvJvmraTovKrngrrku4rlubTkvIHmpa0gQUkg5Z6C55u06aCY5Z+f5pyA5aSn6KaP5qih6J6N6LOH77yM6aGv56S66LOH5pys5oyB57qM5oq85rOoIEFJIEFnZW50IOWcqOS8gealreaHieeUqOeahOimj+aooeWMluOAgiIKICAgIH0sCiAgICB7CiAgICAgICJpZCI6ICJwdWxzZS0yMDI2LTA0LTIxLW15dGhvcy1icmVhY2giLAogICAgICAidHMiOiAiMjAyNi0wNC0yMVQxMjowMDowMCswODowMCIsCiAgICAgICJ0aXRsZSI6ICLmnKrmjojmrIrntYTnuZTlj5blvpcgQW50aHJvcGljIOeNqOWutiBBSSDntrLot6/lronlhajlt6XlhbcgTXl0aG9zIOWtmOWPluasiuODu+mHjeWkpyBBSSDlronlhajkuovku7YiLAogICAgICAic291cmNlIjogIlRlY2hDcnVuY2giLAogICAgICAidXJsIjogImh0dHBzOi8vdGVjaGNydW5jaC5jb20vMjAyNi8wNC8yMS91bmF1dGhvcml6ZWQtZ3JvdXAtaGFzLWdhaW5lZC1hY2Nlc3MtdG8tYW50aHJvcGljcy1leGNsdXNpdmUtY3liZXItdG9vbC1teXRob3MtcmVwb3J0LWNsYWltcy8iLAogICAgICAiYmx1cmIiOiAi5pOa5aCx5bCO77yM5LiA5pyq5o6I5qyK57WE57mU5oiQ5Yqf5Y+W5b6XIEFudGhyb3BpYyDpq5jluqbpmZDliLbnmoQgQUkg57ay6Lev5a6J5YWo5bel5YW3IENsYXVkZSBNeXRob3MgUHJldmlldyDlrZjlj5bmrIrvvIzlvJXnmbwgQUkg5a6J5YWo55WM5buj5rOb6ZyH6ama44CCTXl0aG9zIOWFt+WCmeiHquS4u+itmOWIpeS4puWIqeeUqOmbtuaXpea8j+a0nueahOiDveWKm++8jOatpOa0qemcsuS6i+S7tuWHuOmhr+mrmOiDveWKmyBBSSDmrablmajljJblt6XlhbfnmoTmk7TmlaPpoqjpmqrlt7Llvp7lgYfoqK3otbDlkJHnj77lr6blqIHohIXjgIIiCiAgICB9LAogICAgewogICAgICAiaWQiOiAicHVsc2UtMjAyNi0wNS0xMC1zZWVkLTEiLAogICAgICAidHMiOiAiMjAyNi0wNS0xMFQyMjowMDowMCswODowMCIsCiAgICAgICJ0aXRsZSI6ICJBbnRocm9waWMg5YWs5biDIFExIOaUtuWFpSA4LjQ1IOWEhOe+juWFgyDCtyBDbGF1ZGUgQXV0byBNb2RlIOS4iue3miIsCiAgICAgICJzb3VyY2UiOiAiQW50aHJvcGljIGJsb2ciLAogICAgICAidXJsIjogImh0dHBzOi8vd3d3LmFudGhyb3BpYy5jb20vbmV3cyIsCiAgICAgICJibHVyYiI6ICJRMSDlvp4gNi44IOWEhOi3syA4LjQ1IOWEhO+8m0NsYXVkZSBBdXRvIE1vZGUg54K6IGZyb250aWVyIGxhYiDnrKzkuIDlgIsgYWdlbnQgT1Mg57Sa5Yil55m85L2I44CCIgogICAgfSwKICAgIHsKICAgICAgImlkIjogInB1bHNlLTIwMjYtMDUtMTAtc2VlZC0yIiwKICAgICAgInRzIjogIjIwMjYtMDUtMTBUMjA6MzA6MDArMDg6MDAiLAogICAgICAidGl0bGUiOiAiTXl0aG9zIEZvdW5kYXRpb24g5o6l566hIEZpcmVmb3ggwrcgTW96aWxsYSBDb3Jwb3JhdGlvbiDph43ntYQiLAogICAgICAic291cmNlIjogIk1vemlsbGEgYmxvZyIsCiAgICAgICJ1cmwiOiAiaHR0cHM6Ly9ibG9nLm1vemlsbGEub3JnLyIsCiAgICAgICJibHVyYiI6ICJNb3ppbGxhIOaKiiBGaXJlZm94IGVuZ2luZWVyaW5nIOWIh+WJsue1piBNeXRob3MgRm91bmRhdGlvbiDnjajnq4vnh5/pgYvjgIIiCiAgICB9LAogICAgewogICAgICAiaWQiOiAicHVsc2UtMjAyNi0wNS0xMC1zZWVkLTMiLAogICAgICAidHMiOiAiMjAyNi0wNS0xMFQxODowMDowMCswODowMCIsCiAgICAgICJ0aXRsZSI6ICJDQUlTSSDlsI3mjqUgR29vZ2xlIC8gTWljcm9zb2Z0IC8geEFJIMK3IOWKoOW3niBBSSDnm6PnrqHojYnmoYjpgLLlhaXlr6nmn6UiLAogICAgICAic291cmNlIjogIkNOQkMiLAogICAgICAidXJsIjogImh0dHBzOi8vd3d3LmNuYmMuY29tLyIsCiAgICAgICJibHVyYiI6ICLliqDlt54gQUkgU2FmZXR5IEluc3RpdHV0ZSDllZ/li5UgZnJvbnRpZXIg5bug5bCN5o6l5qmf5Yi244CCIgogICAgfSwKICAgIHsKICAgICAgImlkIjogInB1bHNlLTIwMjYtMDUtMTAtc2VlZC00IiwKICAgICAgInRzIjogIjIwMjYtMDUtMTBUMTU6MzA6MDArMDg6MDAiLAogICAgICAidGl0bGUiOiAiRGVlcE1pbmQg5bel5pyD5ZWf5YuVIMK3IOW3peeoi+W4q+WwjSBBSSBzYWZldHkg56uL5aC05YiG6KOCIiwKICAgICAgInNvdXJjZSI6ICJUaGUgSW5mb3JtYXRpb24iLAogICAgICAidXJsIjogImh0dHBzOi8vd3d3LnRoZWluZm9ybWF0aW9uLmNvbS8iLAogICAgICAiYmx1cmIiOiAiR29vZ2xlIERlZXBNaW5kIOmDqOWIhuW3peeoi+W4q+WVn+WLleW3peacg+eoi+W6j++8jOeEpum7nuWcqOWFp+mDqCBzYWZldHkgZGlzc2VudCDmqZ/liLbjgIIiCiAgICB9LAogICAgewogICAgICAiaWQiOiAicHVsc2UtMjAyNi0wNS0wOS1udmlkaWEtNDBiLWFpLWludmVzdG9yIiwKICAgICAgInRzIjogIjIwMjYtMDUtMDlUMDk6MDA6MDArMDg6MDAiLAogICAgICAidGl0bGUiOiAiTnZpZGlhIEFJIOiCoeasiuaKleizh+aJv+irvueqgeegtCA0MDAg5YSE576O5YWD44O7SVJFTiDoiIcgQ29ybmluZyDlkIzml6XnsL3ntIQiLAogICAgICAic291cmNlIjogIkNOQkMiLAogICAgICAidXJsIjogImh0dHBzOi8vd3d3LmNuYmMuY29tLzIwMjYvMDUvMDkvbnZpZGlhLWVtYnJhY2VzLWFpLWludmVzdG9yLXRvcHBpbmctNDAtYmlsbGlvbi1pbi1lcXVpdHktYmV0cy0yMDI2Lmh0bWwiLAogICAgICAiYmx1cmIiOiAiTnZpZGlhIOacrOmAseiIhyBJUkVO44CBQ29ybmluZyDliIbliKXpgZTmiJDpq5jpgZQgMjEg5YSE5Y+KIDMyIOWEhOe+juWFg+eahOiCoeasiuaKleizh+WNlOitsO+8jue0r+ioiCBBSSDogqHmrIrmipXms6jnqoHnoLQgNDAwIOWEhOe+juWFg++8jOWxleekuuaZtueJh+m+jemgreWKoOmAn+WeguebtOaVtOWQiOeul+WKm+WfuuekjuioreaWveeahOW8t+ehrOaIsOeVpeaEj+WcluOAgiIKICAgIH0KICBdLAogICJfbm90ZSI6ICJzZWVkZWQgYnkgUGV0ZXIgMjAyNi0wNS0xMCDigJQgY2xvdWQgcm91dGluZSBhaS1kZXNrLXB1bHNlIOavjyAyIOWwj+aZguiHquWLleabtOaWsCIKfQo=
+{
+  "updated_at": "2026-05-11T10:21:00+08:00",
+  "items": [
+    {
+      "id": "pulse-2026-05-08-anthropic-80x-colossus",
+      "ts": "2026-05-08T12:00:00+08:00",
+      "title": "Fortune：Anthropic Q1 成長 80 倍，算力告急緊急租用馬斯克 Colossus 超算中心",
+      "source": "Fortune",
+      "url": "https://fortune.com/2026/05/08/anthropic-80fold-growth-quarter-renting-elon-musk-data-center/",
+      "blurb": "Fortune 報導，Anthropic 因 Claude Code 爆量需求算力嚴重告急，緊急租用競爭對手 xAI 位於孟菲斯的 Colossus 超算中心應急；Q1 年化收入成長高達 80 倍，凸顯 frontier AI 企業高速擴張期面臨的基礎設施挑戰，亦顯示 xAI 超算中心已成業界共用算力資源，AI 競爭與合作邊界日趨模糊。"
+    },
+    {
+      "id": "pulse-2026-05-02-musk-altman-trial-week1",
+      "ts": "2026-05-02T20:00:00+08:00",
+      "title": "Musk v. Altman 審判第一週：馬斯克宣稱「不能偷竊慈善機構」，庭審揭露 OpenAI 早年協議",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/02/musk-testimony-dominated-first-week-musk-v-altman-trial-in-oakland.html",
+      "blurb": "Musk v. Altman 聯邦審判第一週在加州奧克蘭落幕，馬斯克主導作證宣稱「你不能偷竊一個慈善機構」，抨擊 OpenAI 背離非營利使命；庭審揭露 2015 年早年協議細節及 AI 安全承諾與商業化矛盾，Altman 與 Brockman 預計後續出庭，判決將對 AI 公司治理與非營利轉型制度產生深遠影響。"
+    },
+    {
+      "id": "pulse-2026-04-30-musk-xai-grok-distillation",
+      "ts": "2026-04-30T16:00:00+08:00",
+      "title": "庭審震撼：馬斯克承認 xAI 曾蒸餾 OpenAI 模型訓練 Grok，AI 知識產權爭議升溫",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/30/elon-musk-testifies-that-xai-trained-grok-on-openai-models/",
+      "blurb": "在 Musk v. Altman 加州聯邦法院審判中，馬斯克作證承認 xAI 部分使用 OpenAI 模型蒸餾技術訓練 Grok，稱此為業界標準做法；蒸餾技術可讓後進者以極低成本建構高能力模型，動搖大型 AI 廠商憑鉅額算力投資建立的護城河，引發業界廣泛討論蒸餾合法性邊界與 AI 知識產權保護問題。"
+    },
+    {
+      "id": "pulse-2026-04-29-anthropic-900b-raise",
+      "ts": "2026-04-29T22:00:00+08:00",
+      "title": "Anthropic 洽談 500 億美元融資，估值逾 9,000 億美元將超越 OpenAI 成全球最高 AI 獨角獸",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/29/sources-anthropic-could-raise-a-new-50b-round-at-a-valuation-of-900b/",
+      "blurb": "知情人士透露，Anthropic 正洽談規模約 500 億美元的新一輪融資，估值預計在 8,500 億至 9,000 億美元之間，將超越 OpenAI 成全球 AI 新創最高估值公司；協議有望兩週內達成，反映市場對 Anthropic 年化收入突破 300 億、Claude Code 強勁成長的高度信心，AI 資本競賽繼續升溫。"
+    },
+    {
+      "id": "pulse-2026-04-24-cohere-aleph-alpha",
+      "ts": "2026-04-24T20:00:00+08:00",
+      "title": "Cohere 收購德國 Aleph Alpha，獲 Schwarz 集團 6 億美元投資，打造跨大西洋主權 AI 強企",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/24/cohere-acquires-merges-with-german-based-startup-to-create-a-transatlantic-ai-powerhouse/",
+      "blurb": "加拿大 AI 公司 Cohere 宣布收購德國 Aleph Alpha，同步獲零售巨頭 Schwarz 集團 6 億美元戰略投資；合並後新實體主打歐洲企業主權 AI，對抗美國大廠主導格局，此舉獲兩國政府支持，標誌 AI 市場出現重大地緣政治整合，Aleph Alpha 小語言模型與歐洲語言專長與 Cohere 大模型形成互補優勢。"
+    },
+    {
+      "id": "pulse-2026-04-07-anthropic-30b-revenue",
+      "ts": "2026-04-07T20:00:00+08:00",
+      "title": "Anthropic 年化收入突破 300 億美元首超 OpenAI；Claude Code 六個月年化達 10 億，Q1 成長 80 倍",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/technology/anthropic-says-it-hit-a-30-billion-revenue-run-rate-after-crazy-80x-growth",
+      "blurb": "Anthropic CEO Dario Amodei 宣布年化收入突破 300 億美元，史上首次超越 OpenAI（約 250 億），Q1 一季暴增 80 倍；主要驅動力為 Claude Code，六個月內即達年化 10 億美元規模；1,000 家以上企業客戶年消費逾 100 萬美元，較 2 月份翻倍，顯示 AI 原生工作流正從概念走向規模化商業落地。"
+    },
+    {
+      "id": "pulse-2026-05-08-cloudflare-ai-layoffs",
+      "ts": "2026-05-08T06:00:00+08:00",
+      "title": "Cloudflare 首次大規模裁員 1,100 人並明指 AI 替代・Q1 業績創高同期股價重挫 24%",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/08/cloudflare-says-ai-made-1100-jobs-obsolete-even-as-revenue-hit-a-record-high/",
+      "blurb": "Cloudflare 裁減約 20% 員工（1,100 人），創公司 16 年來首次大規模裁員，明確點名 AI 令這些職位過時；同期 Q1 營收卻創歷史新高達 6.4 億美元、內部 AI 使用量三個月激增 600%，成為科技業以 AI 驅動人力結構重組的最具代表性案例，股價應聲重挫 24%。"
+    },
+    {
+      "id": "pulse-2026-05-06-anthropic-dreaming-agents",
+      "ts": "2026-05-06T16:00:00+08:00",
+      "title": "Anthropic 推出「Dreaming」功能・讓 Claude Agent 透過回顧歷史任務自主累積記憶並自我改進",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/technology/anthropic-introduces-dreaming-a-system-that-lets-ai-agents-learn-from-their-own-mistakes",
+      "blurb": "Anthropic Managed Agents 新增「Dreaming」排程記憶功能：Claude Agent 定期回顧歷史任務、萃取模式並寫入結構化筆記，讓代理逐漸自我提升而無需重訓模型；Outcomes 評估與多代理協作框架同步進入公開測試，標誌 AI Agent 平台向「持續學習型夥伴」演進的關鍵里程碑。"
+    },
+    {
+      "id": "pulse-2026-05-05-anthropic-finance-agents",
+      "ts": "2026-05-05T20:00:00+08:00",
+      "title": "Anthropic 推出 10 款金融服務 AI Agent 模板・全面整合 Microsoft 365 並與 Moody's 結盟",
+      "source": "Anthropic blog",
+      "url": "https://www.anthropic.com/news/finance-agents",
+      "blurb": "Anthropic 向金融業發布 10 個即用型 Claude Agent 模板，涵蓋盡職調查文件、KYC 篩查及月結帳務等最耗時流程，原生整合 Microsoft Word/Excel/PowerPoint/Outlook，並與 Moody's 建立資料夥伴關係；此為 Anthropic 深入華爾街的最具體商業行動，加速企業應用呩 AI Agent 規模化落地。"
+    },
+    {
+      "id": "pulse-2026-04-30-claude-security-beta",
+      "ts": "2026-04-30T22:00:00+08:00",
+      "title": "Anthropic 推出 Claude Security 伂業公測・以 Opus 4.7 自動掃描代碼庫並修補漏洞",
+      "source": "Anthropic blog",
+      "url": "https://www.anthropic.com/news/claude-code-security",
+      "blurb": "Anthropic 將 Claude Security 開放 Enterprise 客戶公測，以 Opus 4.7 為核心引擎自動掃描代碼庫、識別高嚴重性漏洞並提出修補建議；系統以安全研究員，Accenture、BCG、德勤等頂級合作夥伴同步部署，標誌 AI 網路安全工具進入企業規模化落地新階段。"
+    },
+    {
+      "id": "pulse-2026-04-14-novo-nordisk-openai",
+      "ts": "2026-04-14T22:00:00+08:00",
+      "title": "Novo Nordisk 與 OpenAI 簽全公司戰略合作・AI 貫穿藥物研發、製造到商業全鏈路",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/14/novo-nordisk-openai-ai-drug-discovery-healthcare-nvo.html",
+      "blurb": "丹麥製藥巨頭 Novo Nordisk 宣告與 OpenAI 建立全公司範圍 AI 戰略合作，涵蓋藥物發現、臨床試驗、製造供應鏈及商業營運，目標年底前完成全面整合；此合作在 Novo 與 Eli Lilly 的 GLP-1 減重市場競爭白熱化之際，具有重大商業與戰略意義。"
+    },
+    {
+      "id": "pulse-2026-05-05-sap-prior-labs",
+      "ts": "2026-05-05T18:00:00+08:00",
+      "title": "SAP 斥 11.6 億美元收購德國 AI 實驗室 Prior Labs・承諾 4 年投入逾 10 億歐元建歐洲前沿 AI 中心",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/05/sap-bets-1-16b-on-18-month-old-german-ai-lab-and-says-yes-to-nemoclaw/",
+      "blurb": "SAP 宣告收購成立僅 18 個月的德國 AI 實驗室 Prior Labs，後者以「表格基礎模型」TabPFN 開創結構化資料 AI 新路徑，SAP 承諾未來 4 年投入逾 10 億歐元；此次 M&A 彰顯傳統企業軟體巨頭以資本全面押注 frontier AI，並為歐洲注入可抗衡矽谷的前沿研究能量。"
+    },
+    {
+      "id": "pulse-2026-04-22-google-deep-research-max",
+      "ts": "2026-04-22T16:00:00+08:00",
+      "title": "Google 發布 Deep Research Max・Gemini 3.1 Pro 驅動自主研究代理 DeepSearchQA 達 93.3%",
+      "source": "Google blog",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/next-generation-gemini-deep-research/",
+      "blurb": "Google 推出 Deep Research 與 Deep Research Max 兩款自主研究代理，以 Gemini 3.1 Pro 為核心加入 MCP 支援與原生圖表生成；Max 版本在 DeepSearchQA 達 93.3%（半年前僅 66.1%），可用於企業過夜生成盡職調查報告等長程非同步工作流程，標誌 AI 研究代理正式進入企業規模化落地新階段。"
+    },
+    {
+      "id": "pulse-2026-04-13-openai-hiro-finance",
+      "ts": "2026-04-13T22:00:00+08:00",
+      "title": "OpenAI 收購 AI 個人理財新創 Hiro Finance・2026 年第七項併購加速垂直消費應用佈局",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/13/openai-has-bought-ai-personal-finance-startup-hiro/",
+      "blurb": "OpenAI 宣告收購「AI 個人 CFO」新創 Hiro Finance，為公司 2026 年已知第七項併購；Hiro 由 Ribbit Capital 支持，協助管理逾 10 億美元用戶資產，此交易顯示 OpenAI 正透過系統性收購快速切入垂直消費市場，策略上從通用 AI 平台向個人理財等專業應用服務轉型。"
+    },
+    {
+      "id": "pulse-2026-05-05-caisi-ai-oversight",
+      "ts": "2026-05-05T22:00:00+08:00",
+      "title": "Trump 政府要求 Google DeepMind、Microsoft、xAI 提前送審 AI 模型・CAISI 擴大監管",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/05/ai-oversight-trump-google-microsoft-xai.html",
+      "blurb": "美國商務部 CAISI 宣告與 Google DeepMind、Microsoft 及 xAI 簽署協議，要求在公開發布前提交 AI 模型進行能力評估，延伸既有的 OpenAI 與 Anthropic 協議；此為 Trump 政府強化 AI 監管的重要里程碑，標誌前沿模型預部署審查已成聯邦政策常態。"
+    },
+    {
+      "id": "pulse-2026-04-27-openai-microsoft-restructure",
+      "ts": "2026-04-27T22:00:00+08:00",
+      "title": "OpenAI 與 Microsoft 重磅重組協議・終結獨家授權、至 2032 改採非獨家 IP",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/27/openai-ends-microsoft-legal-peril-over-its-50b-amazon-deal/",
+      "blurb": "Microsoft 與 OpenAI 正式重組夥伴關係：Microsoft 至 2032 年改以非獨家方式授權 OpenAI IP、停止收取 OpenAI 收入分潤，OpenAI 則可全面向 Amazon、Google 等其他雲端廠商提供產品；協議翌日 OpenAI 模型即登陸 AWS Bedrock，標誌科技史上最重要 AI 合作關係的根本性轉變。"
+    },
+    {
+      "id": "pulse-2026-04-27-ineffable-intelligence-11b",
+      "ts": "2026-04-27T18:00:00+08:00",
+      "title": "DeepMind 元老 David Silver 創業・Ineffable Intelligence 完成 11 億美元種子輪融資",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/27/deepminds-david-silver-just-raised-1-1b-to-build-an-ai-that-learns-without-human-data/",
+      "blurb": "AlphaGo 之父、DeepMind 創辦研究員 David Silver 離職後創辦 Ineffable Intelligence，以打造不依賴人類示範資料自主學習的 AI 為目標，完成創紀錄的 11 億美元種子輪融資，投資方含 Nvidia 與 Google；此輪為 AI 新創業界迄今金額最高的種子輪，顯示資本對無人類標注路徑的超高風險賭注。"
+    },
+    {
+      "id": "pulse-2026-04-24-google-40b-anthropic",
+      "ts": "2026-04-24T22:00:00+08:00",
+      "title": "Google 宣告最高 400 億美元投資 Anthropic・初期 100 億即時到位估值 3,500 億",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/24/google-to-invest-up-to-40b-in-anthropic-in-cash-and-compute/",
+      "blurb": "Alphabet 宣告以現金與算力形式向 Anthropic 投入最高 400 億美元，其中 100 億立即到位且 Anthropic 估值達 3,500 億美元；剩餘 300 億須視 Anthropic 達成特定績效里程碑，此輪為科技業有史以來最大 AI 單輪投資之一，進一步鞏固 Anthropic 在 frontier AI 競賽中的算力優勢。"
+    },
+    {
+      "id": "pulse-2026-04-24-deepseek-v4",
+      "ts": "2026-04-24T10:00:00+08:00",
+      "title": "DeepSeek 發布 V4 Flash 與 V4 Pro・程式碼推理能力宣稱達頂級水準",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-24/deepseek-unveils-newest-flagship-a-year-after-ai-breakthrough",
+      "blurb": "中國 DeepSeek 在震驚矽谷一年後推出最新旗艦系列 V4 Flash 與 V4 Pro，宣稱在程式碼及推理基準達到頂級表現、大幅改善 agentic 任務能力；DeepSeek 再次以低成本高效能模式挑戰 OpenAI 與 Anthropic，引發外界對中美 AI 競賽差距的新一輪評估。"
+    },
+    {
+      "id": "pulse-2026-04-20-amazon-25b-anthropic",
+      "ts": "2026-04-20T22:00:00+08:00",
+      "title": "Amazon 追加最高 250 億美元投資 Anthropic・含 5GW 算力基礎設施承諾",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/20/amazon-invest-up-to-25-billion-in-anthropic-part-of-ai-infrastructure.html",
+      "blurb": "Amazon 宣告在原有 40 億美元之外再追加最高 250 億美元投資 Anthropic，包含預計採購多達 5 吉瓦算力的龐大基礎設施協議；此交易使 Amazon 對 Anthropic 的累計承諾達數百億美元，鞏固 AWS 作為 Claude 主要雲端夥伴地位，並強化雙方在企業 AI 服務的深度整合。"
+    },
+    {
+      "id": "pulse-2026-04-08-meta-muse-spark",
+      "ts": "2026-04-08T22:00:00+08:00",
+      "title": "Meta 推出 Muse Spark・Superintelligence Labs 首款模型全面追趕 GPT-5 與 Claude",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/08/meta-debuts-the-muse-spark-model-in-a-ground-up-overhaul-of-its-ai/",
+      "blurb": "Meta 發布 Muse 系列首款模型 Muse Spark，由招募 Alexandr Wang 後成立的 Meta Superintelligence Labs 主導研發，標誌 Meta 全面重組 AI 策略以縮小與 OpenAI、Anthropic 的差距；Muse Spark 已在網頁端及 Meta AI 應用上線，並預計數週內整合至 Facebook、Instagram、WhatsApp 及 Ray-Ban 智慧眼鏡。"
+    },
+    {
+      "id": "pulse-2026-05-10-xai-neocloud",
+      "ts": "2026-05-10T09:00:00+08:00",
+      "title": "TechCrunch 分析：xAI 算力租賃轉型恐示 Grok 前線 AI 競爭已實質退場",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/10/were-feeling-cynical-about-xais-big-deal-with-anthropic/",
+      "blurb": "TechCrunch 發表分析指出，xAI 將 Colossus 全部算力租給 Anthropic 的決定暗示公司實質轉型為 neocloud 算力租賃商，而非前線 AI 模型研發競爭者；此舉雖改善財務，卻引發外界質疑 Grok 能否持續追趕 GPT-5.5 與 Claude，動搖 xAI 「前瞻 AI 創新者」的核心定位。"
+    },
+    {
+      "id": "pulse-2026-05-08-gpt55-cyber",
+      "ts": "2026-05-08T02:00:00+08:00",
+      "title": "OpenAI 向白名單網路防禦組織推出 GPT-5.5-Cyber・已用於重要基礎設施紅隊測試",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/07/openai-rolls-out-new-gpt-5point5-cyber-to-vetted-cybersecurity-teams.html",
+      "blurb": "OpenAI 向經審查的網路安全組織限量開放 GPT-5.5-Cyber，該模型可自動化縮放紅隊測試並驗證高嚴重性漏洞；與 Anthropic Mythos 同採受限存取策略，凸顯 frontier AI 在攻擊性網路工具上的雙重用途風險管理已成 frontier lab 行業共識，6 月起強制要求防釣魚身份驗證。"
+    },
+    {
+      "id": "pulse-2026-05-08-chatgpt-ads",
+      "ts": "2026-05-07T22:00:00+08:00",
+      "title": "OpenAI 正式在 ChatGPT 引入廣告・CPC 競價模式按對話主題定向投放",
+      "source": "OpenAI blog",
+      "url": "https://openai.com/index/testing-ads-in-chatgpt/",
+      "blurb": "OpenAI 宣告 ChatGPT 正式推出廣告，廣告商可透過自助 Ads Manager 以 CPC 競價模式投放，廣告依對話主題與歷史紀錄定向且明確標示；OpenAI 承諾廣告不影響 ChatGPT 回答品質，此舉標誌公司從純訂閱模式向廣告收益多元化的重大商業轉型。"
+    },
+    {
+      "id": "pulse-2026-05-06-spacex-terafab",
+      "ts": "2026-05-06T22:00:00+08:00",
+      "title": "SpaceX 擬在德州建 Terafab 晶片廠・規模高達 1,190 億美元供 AI 與機器人自用",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/06/spacex-may-spend-up-to-119-billion-on-terafab-chip-factory-in-texas/",
+      "blurb": "SpaceX 在德克薩斯州 Grimes County 提出高達 1,190 億美元半導體工廠稅務優惠申請，初期投資 550 億美元；Terafab 將生產 Tesla Optimus 機器人與 xAI 衛星專用晶片，Intel 已加入合作，此計畫直指半導體供應鏈自主化，以擺脫對 Nvidia 的依賴並支撐 AI 算力需求。"
+    },
+    {
+      "id": "pulse-2026-05-05-openai-50b-compute",
+      "ts": "2026-05-05T22:00:00+08:00",
+      "title": "OpenAI 2026 年算力支出規劃達 500 億美元・Brockman 宣示加速 AGI 基礎設施投資",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-05/openai-to-spend-50-billion-on-computing-in-2026-brockman-says",
+      "blurb": "OpenAI 聯合創辦人 Greg Brockman 宣告公司 2026 年預計在算力上投入 500 億美元，為 AI 業界迄今最大單年計算基礎設施承諾；此規模顯示 frontier lab 的 AGI 競賽已從「創業燒錢」進入「工業化規模」新階段，將對全球 GPU 供需、電力網格及資本市場產生深遠結構性影響。"
+    },
+    {
+      "id": "pulse-2026-05-08-airbnb-ai-code",
+      "ts": "2026-05-08T14:00:00+08:00",
+      "title": "Airbnb 宣布 Q1 工程師六成新代碼由 AI 生成・創主要科技公司採用率標竿",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/08/airbnb-says-ai-now-writes-60-of-its-new-code/",
+      "blurb": "Airbnb 披露其 Q1 工程師新生產代碼中已有 60% 來自 AI 生成，成為主要科技公司中 AI 代碼採用率最高的案例之一，標誌 AI 輔助開發已從試驗進入規模化實踐的重要里程碑，對工程人力配置與職能轉型具有深遠示範效應。"
+    },
+    {
+      "id": "pulse-2026-05-07-openai-voice-api",
+      "ts": "2026-05-07T16:00:00+08:00",
+      "title": "OpenAI 發布語音 Intelligence API・GPT-Realtime-2 搭載 GPT-5 級推理能力",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/07/openai-launches-new-voice-intelligence-features-in-its-api/",
+      "blurb": "OpenAI 向開發者開放全新語音 API 功能，核心模型 GPT-Realtime-2 具備 GPT-5 級推理能力，支援即時對話、語音轉文字及多語翻譯；此舉大幅降低語音 AI 應用開發門檻，加速智慧語音助手與 AI 電話客服的規模化落地。"
+    },
+    {
+      "id": "pulse-2026-05-05-gpt55-instant",
+      "ts": "2026-05-05T08:00:00+08:00",
+      "title": "OpenAI 推出 GPT-5.5 Instant・取代 GPT-5.3 Instant 成 ChatGPT 全體用戶預設模型",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/",
+      "blurb": "OpenAI 發布 GPT-5.5 Instant 並全面取代 GPT-5.3 Instant 為 ChatGPT 預設模型，在醫療、法律、財務等高風險領域幻覺率降低 52.5%；Plus 與 Pro 用戶可透過搜尋功能整合過往對話與 Gmail 實現個人化回答，為 ChatGPT 最大規模默認模型升級之一。"
+    },
+    {
+      "id": "pulse-2026-05-04-sierra-950m",
+      "ts": "2026-05-04T20:00:00+08:00",
+      "title": "Bret Taylor 創辦企業 AI 平台 Sierra 完成 9.5 億美元融資・估值逾 150 億美元",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/04/sierra-raises-950m-as-the-race-to-own-enterprise-ai-gets-serious/",
+      "blurb": "前 Salesforce 聯席 CEO Bret Taylor 創辦的企業 AI 平台 Sierra 宣告完成 9.5 億美元融資，融資後估值突破 150 億美元，目標成為 AI 客戶體驗的「全球標準」；此輪為今年企業 AI 垂直領域最大規模融資，顯示資本持續押注 AI Agent 在企業應用的規模化。"
+    }
+  ],
+  "_note": "seeded by Peter 2026-05-10 — cloud routine ai-desk-pulse 每 2 小時自動更新"
+}
