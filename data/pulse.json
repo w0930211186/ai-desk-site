@@ -1,6 +1,46 @@
 {
-  "updated_at": "2026-05-11T20:15:00+08:00",
+  "updated_at": "2026-05-11T22:15:00+08:00",
   "items": [
+    {
+      "id": "pulse-2026-05-11-trump-xi-ai-summit",
+      "ts": "2026-05-11T22:00:00+08:00",
+      "title": "中美峰會 5/14-15 確認在北京舉行・AI 技術竊取與晶片禁令成核心議程",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-11/china-confirms-x-trump-summit-that-was-delayed-by-iran-war",
+      "blurb": "中國確認川普-習近平峰會將於 5 月 14-15 日在北京舉行，為川普近十年來首次訪中；峰會議程橫跨貿易關稅、稀土、台灣、伊朗戰爭及 AI 技術竊取五大主軸，美國國務院已發布全球警告指中國廠商「工業級」竊取 OpenAI、Anthropic 等美國 AI 研究室知識產權，晶片出口管制鬆緊將決定全球 AI 算力格局走向。"
+    },
+    {
+      "id": "pulse-2026-04-28-openai-missed-targets",
+      "ts": "2026-04-28T16:00:00+08:00",
+      "title": "WSJ 揭露 OpenAI 未達自訂收入目標・Oracle 及晶片股重挫最多逾 4%",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/28/openais-revenue-growth-estimates-fall-short-report.html",
+      "blurb": "《華爾街日報》報導 OpenAI 2026 年多項月度銷售目標未達標，主因 Anthropic 在程式碼與企業市場持續搶食份額；CFO Sarah Friar 內部警告若收入未能加速恐難支撐鉅額算力承諾，Oracle 應聲跌逾 4%、Broadcom 與 AMD 各跌 3-4%；Altman 與 Friar 聯合聲明痛批報導「荒謬」，但市場信心已受衝擊，前沿 AI 商業化前景的不確定性浮上檯面。"
+    },
+    {
+      "id": "pulse-2026-04-27-openai-microsoft-amazon",
+      "ts": "2026-04-27T22:00:00+08:00",
+      "title": "OpenAI 終止微軟六年獨家協議・正式轉進 Amazon AWS・Microsoft 停止收益分成",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-27/microsoft-to-stop-sharing-revenue-with-main-ai-partner-openai",
+      "blurb": "OpenAI 與 Microsoft 宣告全面重組長達六年的獨家夥伴關係，取消 API 獨家授權並設立 2032 年退場期限，Microsoft 同步停止向 OpenAI 收取收益分成（OpenAI 仍付至 2030 年並設上限）；OpenAI 隨即宣布與 Amazon AWS 達成 500 億美元雲端整合協議，Oracle 及晶片股應聲下跌，標誌 AI 基礎設施合作版圖的歷史性重組，以及 Microsoft-OpenAI 商業同盟的實質終結。"
+    },
+    {
+      "id": "pulse-2026-04-08-meta-muse-spark",
+      "ts": "2026-04-08T20:00:00+08:00",
+      "title": "Meta 超智能實驗室首款模型 Muse Spark 問世・放棄 Llama 開源傳統轉向專有路線",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/08/meta-debuts-the-muse-spark-model-in-a-ground-up-overhaul-of-its-ai/",
+      "blurb": "Meta 旗下由 Alexandr Wang 領軍的 Superintelligence Labs（Meta 斥資 143 億美元取得 Scale AI 49% 股份）發布首款模型 Muse Spark，以專有閉源形式推出，打破 Meta 長達三年的 Llama 開源傳統；Muse Spark 上線後 Meta AI App 衝上 App Store 第 5 名；公司保留未來版本開源可能，標誌 Zuckerberg AI 策略從開放生態向前沿競賽的重大轉型。"
+    },
+    {
+      "id": "pulse-2026-04-27-ineffable-intelligence",
+      "ts": "2026-04-27T18:00:00+08:00",
+      "title": "AlphaGo 之父 David Silver 創辦 Ineffable Intelligence・完成歐洲紀錄種子輪 11 億美元估值 51 億",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/27/deepminds-david-silver-just-raised-1-1b-to-build-an-ai-that-learns-without-human-data/",
+      "blurb": "前 DeepMind 強化學習研究負責人、AlphaGo 首席研究員 David Silver 創辦的 Ineffable Intelligence 完成 11 億美元種子輪融資，創歐洲 AI 新創種子輪紀錄，估值達 51 億美元；Sequoia、Lightspeed 共同領投，Nvidia、Google、DST Global 及英國主權 AI 基金跟投；公司聚焦純強化學習路線，以「不依賴人類資料的超級學習者」為目標追求超級智慧，成為歐洲對抗矽谷的重量級 AGI 旗手。"
+    },
     {
       "id": "pulse-2026-05-11-musk-altman-week3",
       "ts": "2026-05-11T18:00:00+08:00",
@@ -200,46 +240,6 @@
       "source": "The Information",
       "url": "https://www.theinformation.com/articles/anthropic-commits-spending-200-billion-googles-cloud-chips",
       "blurb": "The Information 報導，Anthropic 承諾在五年內向 Google Cloud 及 Broadcom 採購約 2,000 億美元算力，涵蓋 5 吉瓦算力容量；此金額相當於 Alphabet 雲端積壓訂單逾四成，推動 Alphabet 市值短暫超越 Nvidia，但分析師對 Anthropic 持續燒錢情況下能否履行此類承諾提出質疑。"
-    },
-    {
-      "id": "pulse-2026-05-05-caisi-ai-oversight",
-      "ts": "2026-05-05T22:00:00+08:00",
-      "title": "Trump 政府要求 Google DeepMind、Microsoft、xAI 提前送審 AI 模型・CAISI 擴大監管",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/05/05/ai-oversight-trump-google-microsoft-xai.html",
-      "blurb": "美國商務部 CAISI 宣告與 Google DeepMind、Microsoft 及 xAI 簽署協議，要求在公開發布前提交 AI 模型進行能力評估，延伸既有的 OpenAI 與 Anthropic 協議；此為 Trump 政府強化 AI 監管的重要里程碑，標誌前沿模型預部署審查已成聯邦政策常態。"
-    },
-    {
-      "id": "pulse-2026-05-05-anthropic-finance-agents",
-      "ts": "2026-05-05T20:00:00+08:00",
-      "title": "Anthropic 推出 10 款金融服務 AI Agent 模板・全面整合 Microsoft 365 並與 Moody's 結盟",
-      "source": "Anthropic blog",
-      "url": "https://www.anthropic.com/news/finance-agents",
-      "blurb": "Anthropic 向金融業發布 10 個即用型 Claude Agent 模板，涵蓋盡職調查文件、KYC 篩查及月結帳務等最耗時流程，原生整合 Microsoft Word/Excel/PowerPoint/Outlook，並與 Moody's 建立資料夥伴關係；此為 Anthropic 深入華爾街的最具體商業行動，加速企業應用呩 AI Agent 規模化落地。"
-    },
-    {
-      "id": "pulse-2026-05-05-sap-prior-labs",
-      "ts": "2026-05-05T18:00:00+08:00",
-      "title": "SAP 斥 11.6 億美元收購德國 AI 實驗室 Prior Labs・承諾 4 年投入逾 10 億歐元建歐洲前沿 AI 中心",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/05/05/sap-bets-1-16b-on-18-month-old-german-ai-lab-and-says-yes-to-nemoclaw/",
-      "blurb": "SAP 宣告收購成立僅 18 個月的德國 AI 實驗室 Prior Labs，後者以「表格基礎模型」TabPFN 開創結構化資料 AI 新路徑，SAP 承諾未來 4 年投入逾 10 億歐元；此次 M&A 彰顯傳統企業軟體巨頭以資本全面押注 frontier AI，並為歐洲注入可抗衡矽谷的前沿研究能量。"
-    },
-    {
-      "id": "pulse-2026-05-04-anthropic-openai-enterprise-jv",
-      "ts": "2026-05-04T22:00:00+08:00",
-      "title": "Anthropic 聯手 Goldman、Blackstone 成立 15 億企業 AI 服務公司・OpenAI 同日宣布 40 億 Development Company",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/05/04/anthropic-and-openai-are-both-launching-joint-ventures-for-enterprise-ai-services/",
-      "blurb": "Anthropic 與 Goldman Sachs、Blackstone、Hellman & Friedman 共同成立 15 億美元企業 AI 服務公司，透過嵌入工程師重塑流程加速落地；OpenAI 同日搶先宣布籌資 40 億美元的 The Development Company，象徵兩大 frontier lab 同步從模型提供商轉型為企業深度服務夥伴，爭搶最高利潤的 AI 實施市場。"
-    },
-    {
-      "id": "pulse-2026-05-04-sierra-950m",
-      "ts": "2026-05-04T22:00:00+08:00",
-      "title": "Bret Taylor 的 Sierra 完成 9.5 億美元融資・估值逾 150 億主攻企業對話式 AI Agent",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/05/04/sierra-raises-950m-as-the-race-to-own-enterprise-ai-gets-serious/",
-      "blurb": "前 Salesforce 共同 CEO Bret Taylor 創辦的企業 AI Agent 公司 Sierra 宣告完成 9.5 億美元 C 輪融資，估值超過 150 億美元，由 Tiger Global 與 GV 領投；客戶涵蓋三分之一全球最大銀行及 Prudential、Cigna、Rocket Mortgage，顯示企業對話式 AI Agent 正進入規模化競爭的白熱化階段。"
     }
   ],
   "_note": "seeded by Peter 2026-05-10 — cloud routine ai-desk-pulse 每 2 小時自動更新"
