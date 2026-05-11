@@ -1,6 +1,46 @@
 {
-  "updated_at": "2026-05-11T22:15:00+08:00",
+  "updated_at": "2026-05-12T00:15:00+08:00",
   "items": [
+    {
+      "id": "pulse-2026-05-11-openai-eu-cyber",
+      "ts": "2026-05-11T18:00:00+08:00",
+      "title": "OpenAI 向歐盟開放 GPT-5.5-Cyber・Anthropic 拒歐盟接入 Mythos 引發不對等爭議",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/11/openai-eu-cyber-model-anthropic-mythos-gpt.html",
+      "blurb": "OpenAI 透過「EU Cyber Action Plan」向歐洲政策機構與企業開放 GPT-5.5-Cyber 預覽，承諾協助歐洲強化防禦安全；歐盟委員會透露與 Anthropic 的 Mythos 接入談判「尚在不同階段」，引發外界關注兩大前沿 AI 廠商對歐盟監管合規的策略落差，Anthropic 不願開放 Mythos 恐影響其在歐洲 AI 監管生態的長期布局。"
+    },
+    {
+      "id": "pulse-2026-05-04-anthropic-goldman-blackstone",
+      "ts": "2026-05-04T22:00:00+08:00",
+      "title": "Anthropic 聯手 Goldman Sachs、Blackstone 創立 15 億美元企業 AI 採用合資公司",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/04/anthropic-goldman-blackstone-ai-venture.html",
+      "blurb": "Anthropic 攜手 Goldman Sachs、Blackstone、Hellman & Friedman、Apollo 及 General Atlantic 等私募巨頭成立 15 億美元合資企業，目標在 PE 持股企業直接部署 Claude AI；與 OpenAI 同日宣佈旗下「The Development Company」，標誌前沿 AI 廠商同步借助頂尖私募資本網絡，解決企業 AI 落地人才瓶頸並大規模滲透傳統產業轉型商機。"
+    },
+    {
+      "id": "pulse-2026-05-04-openai-development-company",
+      "ts": "2026-05-04T20:00:00+08:00",
+      "title": "OpenAI「The Development Company」完成 40 億美元首輪融資・TPG、Brookfield、Bain 等 19 家 PE 聯投",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-04/openai-finalizes-10-billion-joint-venture-with-pe-firms-to-deploy-ai",
+      "blurb": "OpenAI 新設企業 AI 部署載體「The Development Company」完成 40 億美元融資，投資方含 TPG、Brookfield 資產管理、Advent、Bain Capital 等 19 家私募機構，整體估值達 100 億美元；策略邏輯與 Anthropic-Goldman JV 相同，藉私募資本的企業投資組合打通 B 端 AI 導入通路，解決具備業務知識的 AI 實施人才嚴重短缺瓶頸。"
+    },
+    {
+      "id": "pulse-2026-04-30-anthropic-900b-round",
+      "ts": "2026-04-30T08:00:00+08:00",
+      "title": "Anthropic 籌備 500 億美元融資輪・估值逾 9,000 億超越 OpenAI 成全球最高值 AI 新創",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/30/anthropic-potential-900b-valuation-round-could-happen-within-two-weeks/",
+      "blurb": "TechCrunch 消息指 Anthropic 正洽談 500 億美元新融資輪，估值超過 9,000 億美元，超越 OpenAI 成為全球最高估值 AI 新創，董事會預計兩週內確認；從 2025 年 3 月 615 億、2025 年 9 月 F 輪 1,830 億、2026 年 2 月 3,800 億一路飆升至 9,000 億，14 個月估值成長 15 倍，預計為上市前最後私募輪，折射 Claude Code 商業飛輪的驚人加速。"
+    },
+    {
+      "id": "pulse-2026-04-22-google-ai-agents",
+      "ts": "2026-04-22T22:00:00+08:00",
+      "title": "Google 推出 Gemini 驅動企業 AI Agent 套件・正面挑戰 OpenAI Operator 與 Anthropic Managed Agents",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-22/google-releases-new-ai-agents-to-challenge-openai-and-anthropic",
+      "blurb": "Google 推出以 Gemini 為核心的企業 AI Agent 套件，直接挑戰 OpenAI Operator 與 Anthropic Managed Agents；覆蓋 DevOps 自動化、法律研究、金融分析等高價值場景，搭配 Google Cloud 廣泛基礎設施，以「同時押注自研模型與 Anthropic」雙路布局策略，在 AI Agent 市場全面正面競爭，預示企業 AI Agent 平台標準之爭即將白熱化。"
+    },
     {
       "id": "pulse-2026-05-11-trump-xi-ai-summit",
       "ts": "2026-05-11T22:00:00+08:00",
@@ -200,46 +240,6 @@
       "source": "EU Council",
       "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/",
       "blurb": "歐洲議會與理事會就 AI Act 精簡方案（Omnibus VII）達成臨時協議：高風險 AI 系統合規截止日延後至 2027 年 8 月、透明度義務寬限期縮為 3 個月至 2026 年 12 月 2 日；新增明文禁止生成非合意性內容及 CSAM 條款，同時擴大中型企業豁免範圍，歐盟 AI 監管框架正式進入精簡化新階段。"
-    },
-    {
-      "id": "pulse-2026-05-06-scale-ai-pentagon-500m",
-      "ts": "2026-05-06T22:00:00+08:00",
-      "title": "Meta 支持的 Scale AI 獲五角大廈 5 億美元合約・協助軍方 AI 資料處理與決策系統",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-06/meta-backed-scale-ai-wins-500-million-defense-department-deal",
-      "blurb": "Meta 支持的 AI 資料標注巨頭 Scale AI 獲美國國防部 5 億美元合約，協助軍方篩選海量資料並輔助決策系統；此合約鞏固 Scale AI 在國防 AI 市場的核心地位，亦顯示 Meta 透過 Scale AI 間接滲入 AI 防務產業鏈，凸顯商業 AI 公司全面進軍國防領域的加速趨勢。"
-    },
-    {
-      "id": "pulse-2026-05-06-spacex-terafab",
-      "ts": "2026-05-06T22:00:00+08:00",
-      "title": "SpaceX 擬在德州建 Terafab 晶片廠・規模高達 1,190 億美元供 AI 與機器人自用",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/05/06/spacex-may-spend-up-to-119-billion-on-terafab-chip-factory-in-texas/",
-      "blurb": "SpaceX 在德克薩斯州 Grimes County 提出高達 1,190 億美元半導體工廠稅務優惠申請，初期投資 550 億美元；Terafab 將生產 Tesla Optimus 機器人與 xAI 衛星專用晶片，Intel 已加入合作，此計畫直指半導體供應鏈自主化，以擺脫對 Nvidia 的依賴並支撐 AI 算力需求。"
-    },
-    {
-      "id": "pulse-2026-05-06-anthropic-dreaming-agents",
-      "ts": "2026-05-06T16:00:00+08:00",
-      "title": "Anthropic 推出「Dreaming」功能・讓 Claude Agent 透過回顧歷史任務自主累積記憶並自我改進",
-      "source": "VentureBeat",
-      "url": "https://venturebeat.com/technology/anthropic-introduces-dreaming-a-system-that-lets-ai-agents-learn-from-their-own-mistakes",
-      "blurb": "Anthropic Managed Agents 新增「Dreaming」排程記憶功能：Claude Agent 定期回顧歷史任務、萃取模式並寫入結構化筆記，讓代理逐漸自我提升而無需重訓模型；Outcomes 評估與多代理協作框架同步進入公開測試，標誌 AI Agent 平台向「持續學習型夥伴」演進的關鍵里程碑。"
-    },
-    {
-      "id": "pulse-2026-05-06-anthropic-higher-limits-spacex",
-      "ts": "2026-05-06T20:00:00+08:00",
-      "title": "Anthropic 官宣 Claude Code 速率上限加倍・SpaceX Colossus 算力協議移除尖峰限制、API 輸入激增 1,500%",
-      "source": "Anthropic blog",
-      "url": "https://www.anthropic.com/news/higher-limits-spacex",
-      "blurb": "Anthropic 宣告與 SpaceX 達成算力協議，取得 Colossus 超算中心逾 30 萬張 GPU 產能；Claude Code Pro/Max 五小時速率上限即時加倍，並完全移除尖峰時段節流；API Tier 1 輸入 Token 上限暴增 1,500%、Opus 輸出 Token 上限增加 900%，直接回應 Claude Code 自 2026 Q1 以來的爆炸性需求壓力。"
-    },
-    {
-      "id": "pulse-2026-05-05-anthropic-200b-google-cloud",
-      "ts": "2026-05-05T22:00:00+08:00",
-      "title": "The Information：Anthropic 五年承諾向 Google Cloud 採購 2,000 億美元算力・佔 Alphabet 雲端積壓訂單逾四成",
-      "source": "The Information",
-      "url": "https://www.theinformation.com/articles/anthropic-commits-spending-200-billion-googles-cloud-chips",
-      "blurb": "The Information 報導，Anthropic 承諾在五年內向 Google Cloud 及 Broadcom 採購約 2,000 億美元算力，涵蓋 5 吉瓦算力容量；此金額相當於 Alphabet 雲端積壓訂單逾四成，推動 Alphabet 市值短暫超越 Nvidia，但分析師對 Anthropic 持續燒錢情況下能否履行此類承諾提出質疑。"
     }
   ],
   "_note": "seeded by Peter 2026-05-10 — cloud routine ai-desk-pulse 每 2 小時自動更新"
