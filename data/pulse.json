@@ -1,6 +1,46 @@
 {
-  "updated_at": "2026-05-11T10:21:00+08:00",
+  "updated_at": "2026-05-11T12:21:00+08:00",
   "items": [
+    {
+      "id": "pulse-2026-05-07-eu-ai-omnibus",
+      "ts": "2026-05-07T22:00:00+08:00",
+      "title": "歐盟 AI Omnibus 達成協議・高風險 AI 合規期限延後至 2027 年 8 月・新增禁止 CSAM 生成條文",
+      "source": "EU Council",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/",
+      "blurb": "歐洲議會與理事會就 AI Act 精簡方案（Omnibus VII）達成臨時協議：高風險 AI 系統合規截止日延後至 2027 年 8 月、透明度義務寬限期縮為 3 個月至 2026 年 12 月 2 日；新增明文禁止生成非合意性內容及 CSAM 條款，同時擴大中型企業豁免範圍，歐盟 AI 監管框架正式進入精簡化新階段。"
+    },
+    {
+      "id": "pulse-2026-05-06-scale-ai-pentagon-500m",
+      "ts": "2026-05-06T22:00:00+08:00",
+      "title": "Meta 支持的 Scale AI 獲五角大廈 5 億美元合約・協助軍方 AI 資料處理與決策系統",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-06/meta-backed-scale-ai-wins-500-million-defense-department-deal",
+      "blurb": "Meta 支持的 AI 資料標注巨頭 Scale AI 獲美國國防部 5 億美元合約，協助軍方篩選海量資料並輔助決策系統；此合約鞏固 Scale AI 在國防 AI 市場的核心地位，亦顯示 Meta 透過 Scale AI 間接滲入 AI 防務產業鏈，凸顯商業 AI 公司全面進軍國防領域的加速趨勢。"
+    },
+    {
+      "id": "pulse-2026-05-05-anthropic-200b-google-cloud",
+      "ts": "2026-05-05T22:00:00+08:00",
+      "title": "The Information：Anthropic 五年承諾向 Google Cloud 採購 2,000 億美元算力・佔 Alphabet 雲端積壓訂單逾四成",
+      "source": "The Information",
+      "url": "https://www.theinformation.com/articles/anthropic-commits-spending-200-billion-googles-cloud-chips",
+      "blurb": "The Information 報導，Anthropic 承諾在五年內向 Google Cloud 及 Broadcom 採購約 2,000 億美元算力，涵蓋 5 吉瓦算力容量；此金額相當於 Alphabet 雲端積壓訂單逾四成，推動 Alphabet 市值短暫超越 Nvidia，但分析師對 Anthropic 持續燒錢情況下能否履行此類承諾提出質疑。"
+    },
+    {
+      "id": "pulse-2026-05-04-anthropic-openai-enterprise-jv",
+      "ts": "2026-05-04T22:00:00+08:00",
+      "title": "Anthropic 聯手 Goldman、Blackstone 成立 15 億企業 AI 服務公司・OpenAI 同日宣布 40 億 Development Company",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/04/anthropic-and-openai-are-both-launching-joint-ventures-for-enterprise-ai-services/",
+      "blurb": "Anthropic 與 Goldman Sachs、Blackstone、Hellman & Friedman 共同成立 15 億美元企業 AI 服務公司，透過嵌入工程師重塑流程加速落地；OpenAI 同日搶先宣布籌資 40 億美元的 The Development Company，象徵兩大 frontier lab 同步從模型提供商轉型為企業深度服務夥伴，爭搶最高利潤的 AI 實施市場。"
+    },
+    {
+      "id": "pulse-2026-05-01-pentagon-classified-ai",
+      "ts": "2026-05-01T22:00:00+08:00",
+      "title": "美國國防部與 Nvidia、Microsoft、AWS 簽署機密 AI 部署協議・130 萬美軍人員已使用 GenAI.mil",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/",
+      "blurb": "美國國防部正式與 Nvidia、Microsoft 及 AWS 簽署協議，將 AI 部署至機密網路；超過 130 萬國防部人員已透過 GenAI.mil 平台使用生成式 AI；在 Anthropic 拒絕五角大廈部分使用條款後，國防部加速多元化 AI 供應商佈局，凸顯美軍 AI 化進程加速與地緣政治下供應鏈多元化戰略。"
+    },
     {
       "id": "pulse-2026-05-08-anthropic-80x-colossus",
       "ts": "2026-05-08T12:00:00+08:00",
@@ -200,46 +240,6 @@
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/05/06/spacex-may-spend-up-to-119-billion-on-terafab-chip-factory-in-texas/",
       "blurb": "SpaceX 在德克薩斯州 Grimes County 提出高達 1,190 億美元半導體工廠稅務優惠申請，初期投資 550 億美元；Terafab 將生產 Tesla Optimus 機器人與 xAI 衛星專用晶片，Intel 已加入合作，此計畫直指半導體供應鏈自主化，以擺脫對 Nvidia 的依賴並支撐 AI 算力需求。"
-    },
-    {
-      "id": "pulse-2026-05-05-openai-50b-compute",
-      "ts": "2026-05-05T22:00:00+08:00",
-      "title": "OpenAI 2026 年算力支出規劃達 500 億美元・Brockman 宣示加速 AGI 基礎設施投資",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-05/openai-to-spend-50-billion-on-computing-in-2026-brockman-says",
-      "blurb": "OpenAI 聯合創辦人 Greg Brockman 宣告公司 2026 年預計在算力上投入 500 億美元，為 AI 業界迄今最大單年計算基礎設施承諾；此規模顯示 frontier lab 的 AGI 競賽已從「創業燒錢」進入「工業化規模」新階段，將對全球 GPU 供需、電力網格及資本市場產生深遠結構性影響。"
-    },
-    {
-      "id": "pulse-2026-05-08-airbnb-ai-code",
-      "ts": "2026-05-08T14:00:00+08:00",
-      "title": "Airbnb 宣布 Q1 工程師六成新代碼由 AI 生成・創主要科技公司採用率標竿",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/05/08/airbnb-says-ai-now-writes-60-of-its-new-code/",
-      "blurb": "Airbnb 披露其 Q1 工程師新生產代碼中已有 60% 來自 AI 生成，成為主要科技公司中 AI 代碼採用率最高的案例之一，標誌 AI 輔助開發已從試驗進入規模化實踐的重要里程碑，對工程人力配置與職能轉型具有深遠示範效應。"
-    },
-    {
-      "id": "pulse-2026-05-07-openai-voice-api",
-      "ts": "2026-05-07T16:00:00+08:00",
-      "title": "OpenAI 發布語音 Intelligence API・GPT-Realtime-2 搭載 GPT-5 級推理能力",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/05/07/openai-launches-new-voice-intelligence-features-in-its-api/",
-      "blurb": "OpenAI 向開發者開放全新語音 API 功能，核心模型 GPT-Realtime-2 具備 GPT-5 級推理能力，支援即時對話、語音轉文字及多語翻譯；此舉大幅降低語音 AI 應用開發門檻，加速智慧語音助手與 AI 電話客服的規模化落地。"
-    },
-    {
-      "id": "pulse-2026-05-05-gpt55-instant",
-      "ts": "2026-05-05T08:00:00+08:00",
-      "title": "OpenAI 推出 GPT-5.5 Instant・取代 GPT-5.3 Instant 成 ChatGPT 全體用戶預設模型",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/",
-      "blurb": "OpenAI 發布 GPT-5.5 Instant 並全面取代 GPT-5.3 Instant 為 ChatGPT 預設模型，在醫療、法律、財務等高風險領域幻覺率降低 52.5%；Plus 與 Pro 用戶可透過搜尋功能整合過往對話與 Gmail 實現個人化回答，為 ChatGPT 最大規模默認模型升級之一。"
-    },
-    {
-      "id": "pulse-2026-05-04-sierra-950m",
-      "ts": "2026-05-04T20:00:00+08:00",
-      "title": "Bret Taylor 創辦企業 AI 平台 Sierra 完成 9.5 億美元融資・估值逾 150 億美元",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/05/04/sierra-raises-950m-as-the-race-to-own-enterprise-ai-gets-serious/",
-      "blurb": "前 Salesforce 聯席 CEO Bret Taylor 創辦的企業 AI 平台 Sierra 宣告完成 9.5 億美元融資，融資後估值突破 150 億美元，目標成為 AI 客戶體驗的「全球標準」；此輪為今年企業 AI 垂直領域最大規模融資，顯示資本持續押注 AI Agent 在企業應用的規模化。"
     }
   ],
   "_note": "seeded by Peter 2026-05-10 — cloud routine ai-desk-pulse 每 2 小時自動更新"
