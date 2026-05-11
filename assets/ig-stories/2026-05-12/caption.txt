@@ -1,0 +1,16 @@
+N°70 Stratechery · Ben Thompson 把 AI 經濟學的主軸從訓練改寫成 inference
+
+— N°70 · 2026/05/12 —
+
+
+
+◆ AI 戰場從訓練轉到 inference · Ben Thompson 把每 token 成本拉成新主敘事
+◆ Google I/O 2026 倒數 7 天 · Gemini 4 + Agentic 框架 + Android 17 三箭齊發 · 加碼 Aluminum OS 統一 Chrome 體驗
+◆ CAISI 把監管網張到 Microsoft、Google DeepMind、xAI · Anthropic 出局是政治訊號不是技術訊號
+
+····
+
+全文 · 附源 · 附判斷
+ai-desk-tw.netlify.app
+
+#AIDESK #AI大事 #AINews #獨立編輯台 #AIDailyBrief #AI #editorial #monobrutalist
