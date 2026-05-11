@@ -1,6 +1,30 @@
 {
-  "updated_at": "2026-05-11T16:21:00+08:00",
+  "updated_at": "2026-05-11T18:15:00+08:00",
   "items": [
+    {
+      "id": "pulse-2026-05-07-moonshot-ai-2b",
+      "ts": "2026-05-07T18:00:00+08:00",
+      "title": "中國 Moonshot AI（Kimi）獲美團領投完成 20 億美元融資・估值衝上 200 億美元",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/07/chinas-moonshot-ai-raises-2b-at-20b-valuation-as-demand-for-open-source-ai-skyrockets/",
+      "blurb": "北京 AI 新創 Moonshot AI（Kimi 開源模型開發商）由美團旗下 Long-Z Investments 領投完成 20 億美元新一輪融資，估值衝上 200 億美元；清華資本、中國移動、CPE 源峰跟投，4 月 ARR 突破 2 億美元，半年融資累計近 39 億美元。此輪融資反映中國開源 AI 投資熱潮全面升溫，Kimi 以長文脈技術與快速商業化能力成為全球開源 AI 生態的重量級競爭者。"
+    },
+    {
+      "id": "pulse-2026-05-05-openai-trial-brockman-tesla",
+      "ts": "2026-05-05T22:00:00+08:00",
+      "title": "Musk v. Altman 庭審：Brockman 揭馬斯克暗中要求 OpenAI 工程師為 Tesla 工作",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/05/open-ai-altman-musk-trial-brockman-testimony.html",
+      "blurb": "OpenAI 共同創辦人 Greg Brockman 出庭反駁馬斯克的陳述，揭示馬斯克曾要求 OpenAI 內部工程師秘密協助 Tesla 解決技術問題，並指馬斯克爭取董事會絕對控制權不成後態度激化；Brockman 公開日記片段成為法庭證據，顯示 Musk 與 OpenAI 決裂的深層動機，為第三週 Sutskever 與 Nadella 出庭奠定關鍵背景。"
+    },
+    {
+      "id": "pulse-2026-05-05-anthropic-rsp-moonshot-delay",
+      "ts": "2026-05-05T16:00:00+08:00",
+      "title": "Anthropic Frontier Safety Roadmap 更新：Moonshot R&D 安全里程碑延後至 9 月底",
+      "source": "Anthropic",
+      "url": "https://www.anthropic.com/responsible-scaling-policy/updates",
+      "blurb": "Anthropic 更新 Frontier Safety Roadmap，將 RSP 路線圖「Moonshot R&D」里程碑目標從 2026 年 5 月 15 日延後至 9 月 30 日，理由是集中資源加速「全面提升」目標；此調整恰逢 Claude Code 爆量需求導致工程資源極度緊繃之際，提供了前沿 AI 快速商業化與安全研究投入之間優先序張力的一個公開信號。"
+    },
     {
       "id": "pulse-2026-05-08-anthropic-30b-revenue",
       "ts": "2026-05-08T20:00:00+08:00",
@@ -216,30 +240,6 @@
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/04/30/elon-musk-testifies-that-xai-trained-grok-on-openai-models/",
       "blurb": "在 Musk v. Altman 加州聯邦法院審判中，馬斯克作證承認 xAI 部分使用 OpenAI 模型蒸餾技術訓練 Grok，稱此為業界標準做法；蒸餾技術可讓後進者以極低成本建構高能力模型，動搖大型 AI 廠商憑鉅額算力投資建立的護城河，引發業界廣泛討論蒸餾合法性邊界與 AI 知識產權保護問題。"
-    },
-    {
-      "id": "pulse-2026-04-29-anthropic-900b-raise",
-      "ts": "2026-04-29T22:00:00+08:00",
-      "title": "Anthropic 洽談 500 億美元融資，估值逾 9,000 億美元將超越 OpenAI 成全球最高 AI 獨角獸",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/04/29/sources-anthropic-could-raise-a-new-50b-round-at-a-valuation-of-900b/",
-      "blurb": "知情人士透露，Anthropic 正洽談規模約 500 億美元的新一輪融資，估值預計在 8,500 億至 9,000 億美元之間，將超越 OpenAI 成全球 AI 新創最高估值公司；協議有望兩週內達成，反映市場對 Anthropic 年化收入突破 300 億、Claude Code 強勁成長的高度信心，AI 資本競賽繼續升溫。"
-    },
-    {
-      "id": "pulse-2026-04-27-openai-microsoft-restructure",
-      "ts": "2026-04-27T22:00:00+08:00",
-      "title": "OpenAI 與 Microsoft 重磅重組協議・終結獨家授權、至 2032 改採非獨家 IP",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/04/27/openai-ends-microsoft-legal-peril-over-its-50b-amazon-deal/",
-      "blurb": "Microsoft 與 OpenAI 正式重組夥伴關係：Microsoft 至 2032 年改以非獨家方式授權 OpenAI IP、停止收取 OpenAI 收入分潤，OpenAI 則可全面向 Amazon、Google 等其他雲端廠商提供產品；協議翌日 OpenAI 模型即登陸 AWS Bedrock，標誌科技史上最重要 AI 合作關係的根本性轉變。"
-    },
-    {
-      "id": "pulse-2026-04-27-ineffable-intelligence-11b",
-      "ts": "2026-04-27T18:00:00+08:00",
-      "title": "DeepMind 元老 David Silver 創業・Ineffable Intelligence 完成 11 億美元種子輪融資",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/04/27/deepminds-david-silver-just-raised-1-1b-to-build-an-ai-that-learns-without-human-data/",
-      "blurb": "AlphaGo 之父、DeepMind 創辦研究員 David Silver 離職後創辦 Ineffable Intelligence，以打造不依賴人類示範資料自主學習的 AI 為目標，完成創紀錄的 11 億美元種子輪融資，投資方含 Nvidia 與 Google；此輪為 AI 新創業界迄今金額最高的種子輪，顯示資本對無人類標注路徑的超高風險賭注。"
     }
   ],
   "_note": "seeded by Peter 2026-05-10 — cloud routine ai-desk-pulse 每 2 小時自動更新"
