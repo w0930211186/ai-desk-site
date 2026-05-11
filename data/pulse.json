@@ -1,6 +1,38 @@
 {
-  "updated_at": "2026-05-11T18:15:00+08:00",
+  "updated_at": "2026-05-11T20:15:00+08:00",
   "items": [
+    {
+      "id": "pulse-2026-05-11-musk-altman-week3",
+      "ts": "2026-05-11T18:00:00+08:00",
+      "title": "Musk v. Altman 進入第三週・Altman 與 Nadella 本週出庭・法院聚焦兩人管理風格爭議",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-08/musk-altman-management-styles-come-under-fire-at-openai-trial",
+      "blurb": "Musk v. Altman 聯邦審判踏入第三週（5/11–5/15），本週陪審員將聽取 Sam Altman 與 Microsoft CEO Satya Nadella 出庭證詞，為 5/21 責任裁決收尾；前兩週庭審確立馬斯克技術能力不足及 Altman 高壓管理等核心爭點，本週關鍵證詞將直接影響 OpenAI 非營利轉型合法性認定，5/18 補救措施聽證緊隨其後。"
+    },
+    {
+      "id": "pulse-2026-05-09-google-gemma4-apache",
+      "ts": "2026-05-09T10:00:00+08:00",
+      "title": "Google 發布 Gemma 4・首採 Apache 2.0 授權破除商業壁壘・31B 旗艦模型 AIME 2026 達 89.2%",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/technology/google-releases-gemma-4-under-apache-2-0-and-that-license-change-may-matter",
+      "blurb": "Google DeepMind 推出 Gemma 4 系列，首度採用標準 Apache 2.0 授權，取消前代自定義條款所附帶的商業部署限制，與 Qwen、Mistral 開源生態一致；四款模型含 31B 稠密、26B MoE（256K context）及面向手機嵌入設備的 E2B/E4B 邊緣型，31B 模型在 AIME 2026 達 89.2%、LiveCodeBench v6 達 80.0%，授權開放程度大幅提升，將加速企業及研究機構規模化部署。"
+    },
+    {
+      "id": "pulse-2026-05-07-alphaevolve-impact",
+      "ts": "2026-05-07T14:00:00+08:00",
+      "title": "DeepMind 揭示 AlphaEvolve 科學版圖：DNA 定序錯誤降 30%・電網可行解率從 14% 升至 88%",
+      "source": "Google DeepMind",
+      "url": "https://deepmind.google/blog/alphaevolve-impact/",
+      "blurb": "Google DeepMind 公開 AlphaEvolve（Gemini 驅動演算法設計代理）跨域科學成果：基因組學中使 DeepConsensus 變異偵測錯誤降低 30%；電力優化將 AC 最佳潮流可行解率從 14% 提升至 88%；量子物理中為 Willow 量子處理器設計電路，錯誤率比傳統優化基準低 10 倍；彰顯 AI 代理在真實科學基礎設施中產生系統性複利效應，加速多領域 AI 科學化進程。"
+    },
+    {
+      "id": "pulse-2026-05-05-gpt55-instant",
+      "ts": "2026-05-05T20:00:00+08:00",
+      "title": "OpenAI 推出 GPT-5.5 Instant 取代 GPT-5.3 Instant 成 ChatGPT 預設模型・醫療法律幻覺率降 52.5%",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/",
+      "blurb": "OpenAI 將 GPT-5.5 Instant 設為全體 ChatGPT 用戶預設模型，取代 GPT-5.3 Instant；新模型在法律、醫療、金融等高風險領域幻覺率降低 52.5%，AIME 數學測試得分從 65.4 躍升至 81.2，並新增基於 Gmail 與歷史對話的個人化記憶功能（Plus/Pro 優先上線）；API 以 chat-latest 名稱提供，舊版三個月後停用，為 ChatGPT 億萬用戶基礎模型智慧再度大步升級。"
+    },
     {
       "id": "pulse-2026-05-07-moonshot-ai-2b",
       "ts": "2026-05-07T18:00:00+08:00",
@@ -208,38 +240,6 @@
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/05/04/sierra-raises-950m-as-the-race-to-own-enterprise-ai-gets-serious/",
       "blurb": "前 Salesforce 共同 CEO Bret Taylor 創辦的企業 AI Agent 公司 Sierra 宣告完成 9.5 億美元 C 輪融資，估值超過 150 億美元，由 Tiger Global 與 GV 領投；客戶涵蓋三分之一全球最大銀行及 Prudential、Cigna、Rocket Mortgage，顯示企業對話式 AI Agent 正進入規模化競爭的白熱化階段。"
-    },
-    {
-      "id": "pulse-2026-05-02-musk-altman-trial-week1",
-      "ts": "2026-05-02T20:00:00+08:00",
-      "title": "Musk v. Altman 審判第一週：馬斯克宣稱「不能偷竊慈善機構」，庭審揭露 OpenAI 早年協議",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/05/02/musk-testimony-dominated-first-week-musk-v-altman-trial-in-oakland.html",
-      "blurb": "Musk v. Altman 聯邦審判第一週在加州奧克蘭落幕，馬斯克主導作證宣稱「你不能偷竊一個慈善機構」，抨擊 OpenAI 背離非營利使命；庭審揭露 2015 年早年協議細節及 AI 安全承諾與商業化矛盾，Altman 與 Brockman 預計後續出庭，判決將對 AI 公司治理與非營利轉型制度產生深遠影響。"
-    },
-    {
-      "id": "pulse-2026-05-01-pentagon-classified-ai",
-      "ts": "2026-05-01T22:00:00+08:00",
-      "title": "美國國防部與 Nvidia、Microsoft、AWS 簽署機密 AI 部署協議・130 萬美軍人員已使用 GenAI.mil",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/",
-      "blurb": "美國國防部正式與 Nvidia、Microsoft 及 AWS 簽署協議，將 AI 部署至機密網路；超過 130 萬國防部人員已透過 GenAI.mil 平台使用生成式 AI；在 Anthropic 拒絕五角大廈部分使用條款後，國防部加速多元化 AI 供應商佈局，凸顯美軍 AI 化進程加速與地緣政治下供應鏈多元化戰略。"
-    },
-    {
-      "id": "pulse-2026-04-30-claude-security-beta",
-      "ts": "2026-04-30T22:00:00+08:00",
-      "title": "Anthropic 推出 Claude Security 伂業公測・以 Opus 4.7 自動掃描代碼庫並修補漏洞",
-      "source": "Anthropic blog",
-      "url": "https://www.anthropic.com/news/claude-code-security",
-      "blurb": "Anthropic 將 Claude Security 開放 Enterprise 客戶公測，以 Opus 4.7 為核心引擎自動掃描代碼庫、識別高嚴重性漏洞並提出修補建議；系統以安全研究員，Accenture、BCG、德勤等頂級合作夥伴同步部署，標誌 AI 網路安全工具進入企業規模化落地新階段。"
-    },
-    {
-      "id": "pulse-2026-04-30-musk-xai-grok-distillation",
-      "ts": "2026-04-30T16:00:00+08:00",
-      "title": "庭審震撼：馬斯克承認 xAI 曾蒸餾 OpenAI 模型訓練 Grok，AI 知識產權爭議升溫",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/04/30/elon-musk-testifies-that-xai-trained-grok-on-openai-models/",
-      "blurb": "在 Musk v. Altman 加州聯邦法院審判中，馬斯克作證承認 xAI 部分使用 OpenAI 模型蒸餾技術訓練 Grok，稱此為業界標準做法；蒸餾技術可讓後進者以極低成本建構高能力模型，動搖大型 AI 廠商憑鉅額算力投資建立的護城河，引發業界廣泛討論蒸餾合法性邊界與 AI 知識產權保護問題。"
     }
   ],
   "_note": "seeded by Peter 2026-05-10 — cloud routine ai-desk-pulse 每 2 小時自動更新"
