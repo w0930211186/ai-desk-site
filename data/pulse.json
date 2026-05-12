@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-05-12T11:20:00+08:00",
+  "updated_at": "2026-05-12T11:40:00+08:00",
   "items": [
+    {
+      "id": "pulse-2026-05-12-11-altman-testimony-trial-close",
+      "ts": "2026-05-12T11:35:00+08:00",
+      "title": "Altman 今日出庭作證・Musk v. Altman 進入審判終章・5/18 陪審裁決定奪 OpenAI 非營利轉型命運",
+      "source": "ABC7 News",
+      "url": "https://abc7news.com/live-updates/elon-musk-sam-altman-live-updates-microsoft-ceo-satya-nadella-testify-week-3-trial-begins/19080697/",
+      "blurb": "Sam Altman 今日出庭作證，Musk v. Altman 審判進入終章；5/18 陪審裁決雖屬建議性質，將直接左右 OpenAI 非營利轉型合法性，影響其 8,520 億美元估值架構",
+      "editorial": "<p><strong>第一</strong>，2026 年 5 月 12 日，OpenAI 執行長 Sam Altman 正式出庭作證，Musk v. Altman 聯邦審判進入終章。本案由 Elon Musk 於 2024 年提起，指控 Altman 與 Greg Brockman 違反設立時的慈善信託精神、未授權完成非營利轉制，並連帶起訴已累計投資逾 130 億美元的 Microsoft。審判時程確認：5 月 13 日收尾所有證詞，5 月 14 日閉庭辯護，5 月 18 日陪審團開始裁決諮詢，裁決結果屬建議性質，由法官最終裁量。</p><p><strong>第二</strong>，Altman 出庭是 AI 治理史上首次由 frontier lab 執行長在公開司法程序中接受交叉盤問，其關鍵決策將被逐字記入法庭紀錄。前兩週庭審已揭示：Mira Murati 指控 Altman「製造毒性謊言文化」；Ilya Sutskever 坦承持有 SSI 近 70 億美元股份並表示「深切在乎 OpenAI 不被毀掉」；Satya Nadella 表明 Microsoft 從未收到任何法律異議。若陪審團認定慈善信託遭違反，OpenAI 的 8,520 億美元估值架構面臨重組壓力。</p><p><strong>第三</strong>，本案影響遠超 OpenAI 本身：裁決將為 AI 非營利轉型設立法律先例，直接影響 Anthropic、xAI 等同後接受商業資本卻維持使命宣言的 lab 治理架構。對監管機構，庭審文件首度揭示 GPT-4 部分安全評估未完整執行，成為司法渠道強制披露 AI 安全實踐的歷史首例；5/18 裁決日前，AI 治理討論的主戰場將在法庭而非國會。</p>"
+    },
+    {
+      "id": "pulse-2026-05-12-11-metr-mythos-16h-benchmark",
+      "ts": "2026-05-12T11:33:00+08:00",
+      "title": "METR 確認 Claude Mythos 突破 16 小時任務視野・現有評估框架觸頂・AI 能力成長速度已超越衡量工具",
+      "source": "METR",
+      "url": "https://metr.org/time-horizons/",
+      "blurb": "METR 確認 Claude Mythos 50% 任務視野達至少 16 小時，評估套件宣告觸頂失效；AI 代理能力每 105 天翻倍，現有衡量工具已無法追蹤模型真實上限，部署安全護欄設計失去可量化基礎",
+      "editorial": "<p><strong>第一</strong>，AI 自主能力評估機構 METR 於 2026 年 5 月 9 日更新旗下任務時間視野（Task-Completion Time Horizons）基準報告，確認 Claude Mythos Preview 的 50% 任務完成時間視野達至少 16 小時，95% 信賴區間橫跨 8.5 至 55 小時。METR 坦承現有評估套件僅有五個超 16 小時任務，無法擬合可靠曲線，等同宣告其設計於 2024 年的基準已無法衡量 Claude Mythos 的能力上限；80% 時間視野則為 3 小時 6 分鐘。</p><p><strong>第二</strong>，此更新揭示 AI 能力成長已正式超越評估框架邊界。METR 數據顯示 frontier 模型任務時間視野每 105 天翻倍（2023 年前為每 7 個月），過去三個季度 AI 代理可自主完成的最長任務時長增加逾 700%。Claude Mythos 在軟體工程、機器學習與網路安全三類任務上的表現，已讓業界用於設計安全護欄與人工監督門檻的核心評估指標失去可量化錨點——若無法可靠測量能力上限，部署安全護欄就缺乏基礎。</p><p><strong>第三</strong>，對企業部署方，「16 小時任務視野」意味著 Claude Mythos 可自主完成從代碼審查到漏洞修補的完整工程鏈條，agentic AI 的人工監督頻率設計需全面重估。METR 的誠實披露本身是重要訊號：頂尖 AI 安全評估機構首次正式承認「工具已不夠用」，呼籲政府監管機構緊急投資設計能追蹤 16–55 小時能力區間的下一代評估套件，而非仰賴現有基準繼續評估已遠超其設計範圍的模型。</p>"
+    },
+    {
+      "id": "pulse-2026-05-12-11-five-eyes-agentic-ai-guidance",
+      "ts": "2026-05-12T11:31:00+08:00",
+      "title": "五眼聯盟首份 AI 代理安全指引發布：假設代理將異常運作・30 頁框架識別提示注入與 MCP 供應鏈風險",
+      "source": "CISA / The Register",
+      "url": "https://www.theregister.com/2026/05/04/five_eyes_agentic_ai_recommendations/",
+      "blurb": "CISA 聯合五眼六機構發布首份 30 頁 AI 代理安全指引，以「假設代理將出現非預期行為」為基調，識別提示注入、MCP 供應鏈等五類風險，為多邊政府 agentic AI 部署設立最低安全標準",
+      "editorial": "<p><strong>第一</strong>，2026 年 4 月 30 日，美國 CISA 與 NSA 聯合澳洲 ASD、加拿大 CCCS、紐西蘭 NCSC 及英國 NCSC，共六大五眼聯盟機構聯合發布史上首份 AI 代理安全指引《謹慎採用 AI 代理服務》（Careful Adoption of Agentic AI Services），全文 30 頁。文件核心基調：「在安全實踐、評估方法與標準成熟之前，組織應假設 AI 代理系統可能出現非預期行為。」這是 AI 安全領域首次多邊政府機構協調行動的成果。</p><p><strong>第二</strong>，指引識別五類主要風險：特權提升、設計配置、行為偏差、架構與供應鏈，尤其強調提示注入（Prompt injection）與 MCP 協議供應鏈為即時高威脅向量。文件要求組織在大規模生產部署前完成完整威脅模型建立，強制採用最小特權原則與零信任架構，並在關鍵操作設置人工監督閘門。五眼聯盟的聯署提升了此框架的國際合法性，預計成為多國政府採購 AI 代理系統的基準要求。</p><p><strong>第三</strong>，指引發布的地緣戰略時機值得關注：美中峰會 5/14-15 北京登場前，英語圈盟國選擇以多邊格式率先建立 AI 代理安全基準，為談判先行設立技術基線。對企業採購方，此文件是迄今規格最完整的 agentic AI 部署核查清單，可直接引用於 vendor 盡職調查與 RFP 條款設計。對開發者，CISA 框架意味著 agentic AI 系統必須設計為可審計、可中斷、最小授權，而非現行「廣泛工具授權加事後日誌」的普遍模式。</p>"
+    },
     {
       "id": "pulse-2026-05-05-anthropic-google-200b-tpu",
       "ts": "2026-05-05T14:00:00+08:00",
