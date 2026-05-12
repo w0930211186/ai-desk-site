@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-12T11:45:00+08:00",
+  "updated_at": "2026-05-12T04:30:00+08:00",
   "_note": "creator toolkit · Peter 手動 curation V1 · 含官方 URL + 學習資源連結",
   "categories": [
     "writing",
@@ -2162,6 +2162,124 @@
       "topic": "AI 配音",
       "type": "free-youtube",
       "highlight": "AI 配音中文教學 · Podcaster / YouTuber 必看"
+    },
+    {
+      "title": "泛科學院 · Claude + ChatGPT AI 工具深度教學",
+      "provider": "YouTube · 泛科學院",
+      "url": "https://www.youtube.com/@panscischool",
+      "cost": "免費",
+      "topic": "Claude · ChatGPT · AI 工具中文",
+      "type": "free-youtube",
+      "highlight": "台灣 PanSci 旗下知識型頻道 · Claude 免費版功能 / MCP 整合 / ChatGPT vs Claude 深度比較 · 上班族 AI 工作流首選",
+      "thumbnail_accent": "#0066cc",
+      "thumbnail_initial": "泛"
+    },
+    {
+      "title": "Claude 基本功 EP01 · 一次搞懂 Claude 全生態",
+      "provider": "YouTube",
+      "url": "https://www.youtube.com/watch?v=luRFvHW0SF8",
+      "cost": "免費",
+      "topic": "Claude 全生態 · chat / cowork / code",
+      "type": "free-youtube",
+      "highlight": "2026/3 出品 · 一支影片搞懂 Claude 四種模式（chat / cowork / code 桌面 / code CLI）· 從聊天到全自動化寫程式",
+      "thumbnail_url": "https://i.ytimg.com/vi/luRFvHW0SF8/hqdefault.jpg",
+      "thumbnail_accent": "#7c3aed",
+      "thumbnail_initial": "C"
+    },
+    {
+      "title": "Claude 2026 完整教程 · 15 個超棒使用方法",
+      "provider": "YouTube",
+      "url": "https://www.youtube.com/watch?v=zm3K831v470",
+      "cost": "免費",
+      "topic": "Claude 入門 + 自動化系統",
+      "type": "free-youtube",
+      "highlight": "2026 最新 · 零基礎 15 個 Claude 實用法 · ChatGPT 用戶轉移必看 · 含 Claude 自動化系統建置",
+      "thumbnail_url": "https://i.ytimg.com/vi/zm3K831v470/hqdefault.jpg",
+      "thumbnail_accent": "#7c3aed",
+      "thumbnail_initial": "C"
+    },
+    {
+      "title": "Claude Code 保姆級教學 · Vibe Coding 入門到 MCP",
+      "provider": "YouTube",
+      "url": "https://www.youtube.com/watch?v=2pM-7fBXc_M",
+      "cost": "免費",
+      "topic": "Claude Code · Vibe Coding",
+      "type": "free-youtube",
+      "highlight": "2026/3 最新 · 從安裝、CLAUDE.md 設定、Skills、Hooks、Subagents 到 MCP · 非工程師也能用 Claude Code 做產品",
+      "thumbnail_url": "https://i.ytimg.com/vi/2pM-7fBXc_M/hqdefault.jpg",
+      "thumbnail_accent": "#7c3aed",
+      "thumbnail_initial": "CC"
+    },
+    {
+      "title": "Kelly Tsai · 零基礎學會用 n8n 打造 AI 自動化工作流",
+      "provider": "YouTube · Kelly Tsai",
+      "url": "https://www.youtube.com/watch?v=-vKewrChihk",
+      "cost": "免費",
+      "topic": "n8n AI 自動化工作流",
+      "type": "free-youtube",
+      "highlight": "UC Berkeley 畢業矽谷工程師 Kelly Tsai · 2026/3 最新 · 從資料抓取到 AI 決策全流程 · 繁中最新 n8n 入門教學",
+      "thumbnail_accent": "#10b981",
+      "thumbnail_initial": "KT"
+    },
+    {
+      "title": "2026 最強 n8n 教學 · 從零打造 AI 自動化工作流",
+      "provider": "YouTube",
+      "url": "https://www.youtube.com/watch?v=6s_Z9Tl0sHU",
+      "cost": "免費",
+      "topic": "n8n 2026 入門實戰",
+      "type": "free-youtube",
+      "highlight": "2026 最新 n8n 教學 · 從零開始打造完整 AI 自動化工作流 · 適合非工程師 · 實戰案例豐富",
+      "thumbnail_url": "https://i.ytimg.com/vi/6s_Z9Tl0sHU/hqdefault.jpg",
+      "thumbnail_accent": "#f59e0b",
+      "thumbnail_initial": "n8"
+    },
+    {
+      "title": "n8n 手把手完整教學 · 老劉 (AI workflow + Agent + LLM)",
+      "provider": "YouTube · 老劉",
+      "url": "https://www.youtube.com/watch?v=sYWCxgEF_yY",
+      "cost": "免費",
+      "topic": "n8n 完整 AI workflow",
+      "type": "free-youtube",
+      "highlight": "中文圈最完整的 n8n 系統課 · 含 AI workflow / AI Agent / LLM 整合 / MCP 應用 · 從基礎到進階一次搞定",
+      "thumbnail_url": "https://i.ytimg.com/vi/sYWCxgEF_yY/hqdefault.jpg",
+      "thumbnail_accent": "#f59e0b",
+      "thumbnail_initial": "n8"
+    },
+    {
+      "title": "Cursor 教學 · 入門到實戰，AI Agent 自動化你的工作流",
+      "provider": "YouTube",
+      "url": "https://www.youtube.com/watch?v=kVniOF36GEk",
+      "cost": "免費",
+      "topic": "Cursor IDE · AI Agent 自動化",
+      "type": "free-youtube",
+      "highlight": "Cursor 中文完整教學 · 從基礎到 AI Agent 自動化工作流 · Vibe Coding 上手必看 · 附實戰專案示範",
+      "thumbnail_url": "https://i.ytimg.com/vi/kVniOF36GEk/hqdefault.jpg",
+      "thumbnail_accent": "#000",
+      "thumbnail_initial": "Cu"
+    },
+    {
+      "title": "Microsoft AI Agents for Beginners · 10-Lesson Official Course",
+      "provider": "YouTube · Microsoft",
+      "url": "https://www.youtube.com/watch?v=OhI005_aJkA",
+      "cost": "免費",
+      "topic": "AI Agents 從零入門",
+      "type": "free-youtube",
+      "highlight": "Microsoft 官方 10 堂課 · 從 agent 概念到 design patterns / multi-agent / MCP · 配合 GitHub repo 完整材料 · 工程師入門最穩",
+      "thumbnail_url": "https://i.ytimg.com/vi/OhI005_aJkA/hqdefault.jpg",
+      "thumbnail_accent": "#0078d4",
+      "thumbnail_initial": "MS"
+    },
+    {
+      "title": "Build AI Agents from Scratch 2026 · LangGraph + CrewAI Production Stack",
+      "provider": "YouTube",
+      "url": "https://www.youtube.com/watch?v=cS-CXkA8XYw",
+      "cost": "免費",
+      "topic": "AI Agent Production Stack",
+      "type": "free-youtube",
+      "highlight": "2026/3 最新 · Zero to production agent stack · LangGraph / HuggingFace / CrewAI 組合 · 處理 hallucination / memory drift · 進階工程師必看",
+      "thumbnail_url": "https://i.ytimg.com/vi/cS-CXkA8XYw/hqdefault.jpg",
+      "thumbnail_accent": "#3b82f6",
+      "thumbnail_initial": "AI"
     }
   ]
 }
