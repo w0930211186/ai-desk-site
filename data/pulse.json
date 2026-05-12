@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-05-13T01:06:00+08:00",
+  "updated_at": "2026-05-13T02:07:00+08:00",
   "items": [
+    {
+      "id": "pulse-2026-05-13-02-openai-eu-gpt55-cyber-anthropic-mythos-holdout",
+      "ts": "2026-05-13T02:00:00+08:00",
+      "title": "OpenAI 向歐盟開放 GPT-5.5-Cyber · Anthropic 拒授 Mythos 同等存取引爆跨大西洋監管博弈",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/11/openai-eu-cyber-model-anthropic-mythos-gpt.html",
+      "blurb": "OpenAI 以有條件授權向歐盟開放 GPT-5.5-Cyber，Anthropic 拒絕 Mythos 同等安排——兩家 frontier lab 在 AI Act 執法前夕對歐盟監管採取截然相反策略，歐盟 AI 辦公室市場准入槓桿正式浮出水面。",
+      "editorial": "<p><strong>第一</strong>，五月十一日，OpenAI 宣布向歐盟機構、各成員國政府、資安主管機關及 EU AI 辦公室開放 GPT-5.5-Cyber 的限制性預覽存取；歐盟委員會發言人 Thomas Regnier 確認此安排允許歐盟「密切追蹤模型部署並處理安全疑慮」。同日，歐盟委員會披露已就取得 Anthropic Mythos 同等存取權進行「四至五次」會談，形容談判進度處於「與 OpenAI 方案截然不同的階段」，雙方至今未達成協議。Mythos 自四月七日 Project Glasswing 發布以來，存取範圍持續限於 Anthropic 主動遴選的約 40 個機構聯盟成員，EU AI 辦公室目前不在其中。兩款模型均已通過在受控環境執行 32 步端對端網路攻擊測試的驗證。</p><p><strong>第二</strong>，兩家公司在歐盟存取問題上的分歧，折射出更深層的監管哲學對立。OpenAI 選擇「有條件准入換監管善意」，讓歐盟委員會在限定框架內接近高危模型，換取 EU AI 辦公室在正式審查程序前不構成發布障礙；此路線與其接受美國 CAISI 預部署評測的邏輯一致，屬於「以透明度換監管空間」的系統性策略。Anthropic 則延續 Glasswing 的封閉邏輯，認為向監管機構開放存取本身就存在擴散風險，拒絕在既有聯盟框架外設立例外。兩種路線的根本分歧在於：誰有資格擔任 frontier AI 高危能力的受信任評估方——OpenAI 的答案包含政府監管機構，Anthropic 的答案目前明確不包含。</p><p><strong>第三</strong>，後續三個觀察點。其一，EU AI 辦公室若持續無法取得 Mythos 存取，在 AI Act 2026 年 12 月 GPAI 透明度義務截止前，Anthropic 的歐盟市場合規立場可能面臨更高審查壓力，甚至成為 EU AI 辦公室首批正式查核目標。其二，OpenAI 率先建立「AI 資安模型雙邊存取協議」的先例，若 EU AI 辦公室正式將此框架文件化並普遍化，等於在現有 AI Act 框架外創設高危 AI 模型事實准入義務，影響所有欲在歐盟市場部署 frontier 模型的廠商。其三，對企業 CIO，在歐盟或受 GDPR 管轄場景採購 AI 資安工具時，廠商的跨大西洋監管合規立場將成為採購決策的新增評估維度，Anthropic 客戶需留意潛在的歐盟監管摩擦風險。</p>"
+    },
+    {
+      "id": "pulse-2026-05-13-02-anthropic-google-broadcom-200b-tpu",
+      "ts": "2026-05-13T02:00:00+08:00",
+      "title": "Anthropic 鎖定 Google 五年 2000 億美元 TPU 算力合約 · ARR 九個月三倍躍升至 300 億",
+      "source": "Anthropic / The Information",
+      "url": "https://www.anthropic.com/news/google-broadcom-partnership-compute",
+      "blurb": "Anthropic 與 Google、Broadcom 簽署 3.5 GW 次世代 TPU 協議，五年算力承諾達 2000 億美元，佔 Google Cloud 積壓收入逾四成；ARR 已從 2025 年底的約 90 億三倍躍升至 300 億美元。",
+      "editorial": "<p><strong>第一</strong>，四月七日，Anthropic 官方公告確認與 Google Cloud 及晶片設計商 Broadcom 簽署算力擴張協議，取得多 GW 等級下一代 TPU 容量；Broadcom 向 SEC 的申報揭示協議規模為 3.5 GW，預計自 2027 年起陸續上線。五月五日，《The Information》進一步披露 Anthropic 五年算力總支出承諾達 2000 億美元，相當於 Alphabet 最新財報所披露 Google Cloud 尚未確認積壓收入的逾四成。CEO Dario Amodei 在五月八日舊金山開發者大會披露：Anthropic 2026 年首季年化營收已突破 300 億美元，較 2025 年底約 90 億美元三倍成長，首季實際用量增幅達 80 倍。Google 同期確認已向 Anthropic 完成最低 100 億美元現金投資，並保留業績條件觸發後增加至最高 400 億美元的選擇權。</p><p><strong>第二</strong>，Anthropic 的算力戰略至此全貌清晰：AWS Trainium 覆蓋基礎訓練工作，Google TPU 3.5 GW 主攻大規模生產推論，Akamai 七年 18 億美元合約延伸至邊緣推論，SpaceX Colossus 1 逾 22 萬張 NVIDIA GPU 處理短期峰值，四條腿結構降低對單一超大規模供應商的依賴。然而此多雲架構的資本成本極為沉重：2000 億美元五年攤算每年約 400 億，已超過現有 ARR，Anthropic 實質是以「未來營收折現」換取算力議價權，押注成長曲線能在 2027 年 TPU 上線時支撐此一支出結構。對 Google 而言，Anthropic 的 2000 億美元承諾確立其為 Google Cloud 有史以來最大單一客戶，深度捆綁反過來也強化了 Alphabet 在 Anthropic 估值博弈中的談判籌碼。</p><p><strong>第三</strong>，後續三個觀察點。其一，3.5 GW TPU 的 2027 年上線節點對應 Claude 下一代旗艦訓練週期，Google TPU 能否在大規模訓練效率上持續競爭 NVIDIA H200 系列，是 Anthropic 硬件多元化策略的關鍵驗證節點。其二，ARR 從 90 億到 300 億的成長速度若持續至年底，估值結構將大幅前移 IPO 窗口；Dario Amodei 公開場合的措辭是否出現 IPO 信號值得追蹤。其三，2000 億美元算力承諾的規模化公開，對 OpenAI 與 Google DeepMind 自身算力採購框架構成基準壓力——frontier lab 的「算力承諾規模公開競賽」正在形成新的市場地位信號機制，對 BEXS 投資人而言亦是評估算力基礎設施股的重要觀察維度。</p>"
+    },
     {
       "id": "pulse-2026-05-13-01-openai-daybreak-codex-security",
       "ts": "2026-05-13T01:06:00+08:00",
@@ -300,37 +318,6 @@
         "NVIDIA",
         "supply-chain",
         "TSMC"
-      ]
-    },
-    {
-      "id": "pulse-2026-05-12-12-china-ai-regulation-update",
-      "ts": "2026-05-12T12:00:00+08:00",
-      "title": "中國更新生成式 AI 管理辦法：新增「AI 生成內容標記」強制要求，平台須於 72 小時內下架違規內容",
-      "source": "Cyberspace Administration of China",
-      "url": "https://www.cac.gov.cn/generative-ai-regulation-2026",
-      "blurb": "中國網信辦發布生成式 AI 管理辦法修訂版，新增三項強制要求：所有 AI 生成圖文影音須嵌入隱水印標記、平台需於 72 小時內下架違規 AI 內容、境外 AI 服務須通過安全評估方可向中國用戶提供。修訂版將於 2026 年 7 月 1 日正式施行。",
-      "editorial": "<p><strong>觀察</strong>。中國的 AI 內容管理框架正在快速完善，這次修訂有幾個值得關注的技術細節：隱水印強制要求意味著所有主流生成式 AI 平台都需要在輸出層面整合 C2PA 或類似標準，這是「AI 生成內容溯源」的基礎建設。72 小時下架要求對平台的內容審核系統是相當高的壓力測試。境外服務的安全評估門檻，實際上構成了新的市場進入壁壘。從全球 AI 治理的角度來看，中國、歐盟、美國正在形成三套不同但相互影響的監管框架。</p>",
-      "tags": [
-        "regulation",
-        "China",
-        "content-policy",
-        "watermarking"
-      ]
-    },
-    {
-      "id": "pulse-2026-05-12-11-openai-o4-reasoning",
-      "ts": "2026-05-12T11:00:00+08:00",
-      "title": "OpenAI o4 推理模型更新：數學競賽題準確率突破 90%，複雜程式碼除錯能力顯著提升",
-      "source": "OpenAI",
-      "url": "https://openai.com/research/o4-technical-report",
-      "blurb": "OpenAI 發布 o4 推理模型技術報告，在 AIME 2026 數學競賽題測試中準確率達 91.3%，超越人類頂尖選手平均水準。在 HumanEval+ 程式碼測試中得分 94.1%，特別在多檔案依賴的複雜除錯任務上有顯著提升。模型推理鏈平均長度較 o3 增加 35%，成本同步提高。",
-      "editorial": "<p><strong>觀察</strong>。91.3% 的 AIME 準確率意味著 o4 在數學推理上已超過絕大多數人類專家——這不只是基準測試的數字，而是代表 AI 在「需要多步驟嚴格推理」的任務上正式進入可信賴的工作工具範疇。程式碼除錯能力的提升更直接影響開發者工作流程：多檔案依賴的複雜 bug 一直是 AI 輔助編程的瓶頸，o4 的改善意味著這個瓶頸正在鬆動。代價是成本提高——推理鏈越長，token 消耗越多，企業在選擇模型時需要在能力與成本之間做更精細的評估。</p>",
-      "tags": [
-        "OpenAI",
-        "reasoning",
-        "o4",
-        "mathematics",
-        "coding"
       ]
     }
   ]
