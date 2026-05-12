@@ -1,6 +1,14 @@
 {
-  "updated_at": "2026-05-12T09:31:36+08:00",
+  "updated_at": "2026-05-12T09:32:36+08:00",
   "items": [
+    {
+      "id": "pulse-test-1778549556",
+      "ts": "2026-05-12T09:32:36+08:00",
+      "title": "🟢 整套修復驗證 · 你正在看新 rich message 格式",
+      "source": "AI DESK · System",
+      "url": "https://ai-desk-tw.netlify.app/#latest-pulse",
+      "blurb": "這是 Peter 推的驗證訊息 — 看到「標題 + 摘要 + 原文連結 + 主頁連結」+ 下方自動 og:image preview = workflow v4 真的修好了。下次 cloud routine 自動跑時你會看到同樣格式但內容是真實 AI 新聞。"
+    },
     {
       "id": "pulse-2026-05-12-anthropic-spacex-compute",
       "ts": "2026-05-12T09:31:36+08:00",
@@ -232,14 +240,6 @@
       "source": "Bloomberg",
       "url": "https://www.bloomberg.com/news/articles/2026-05-06/white-house-preps-order-to-boost-ai-security-hassett-says",
       "blurb": "白宮高層顧問 Kevin Hassett 透露，政府正草擬行政命令對高風險 AI 模型建立類似 FDA 的上市前審查程序，直接回應 Anthropic Mythos 因攻擊性網路能力過強而自行限制部署的前例；命令草案要求被認定為重大網路安全威脅的 AI 模型在商業化前完成政府評估，為全球前沿 AI 監管框架注入重要里程碑。"
-    },
-    {
-      "id": "pulse-2026-05-05-openai-trial-brockman-tesla",
-      "ts": "2026-05-05T22:00:00+08:00",
-      "title": "Musk v. Altman 庭審：Brockman 揭馬斯克暗中要求 OpenAI 工程師為 Tesla 工作",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/05/05/open-ai-altman-musk-trial-brockman-testimony.html",
-      "blurb": "OpenAI 共同創辦人 Greg Brockman 出庭反駁馬斯克的陳述，揭示馬斯克曾要求 OpenAI 內部工程師秘密協助 Tesla 解決技術問題，並指馬斯克爭取董事會絕對控制權不成後態度激化；Brockman 公開日記片段成為法庭證據，顯示 Musk 與 OpenAI 決裂的深層動機，為第三週 Sutskever 與 Nadella 出庭奠定關鍵背景。"
     }
   ],
   "_note": "seeded by Peter 2026-05-10 — cloud routine ai-desk-pulse 每 2 小時自動更新"
