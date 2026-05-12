@@ -1,0 +1,16 @@
+N°74 Google Android Show · Googlebooks、vibe-coded widgets、Gemini in Chrome 一次端齊 I/O 暖身
+
+— N°74 · 2026/05/13 —
+
+
+
+◆ Google I/O 倒數 6 天 · Android Show 先把 Gemini 推進 Chrome、Pixel、widget 三層基建
+◆ 社群平台 AI 客服化進入兩強標配 · Threads 直接複製 Grok 形態 · Anthropic 與 xAI 結盟換企業通道
+◆ Agent 維運可靠度與端側化雙線推進 · Nautilus Compass 解 persona drift · Needle 把 tool calling 壓進 26M 模型
+
+····
+
+全文 · 附源 · 附判斷
+ai-desk-tw.netlify.app
+
+#AIDESK #AI大事 #AINews #獨立編輯台 #AIDailyBrief #AI #editorial #monobrutalist
