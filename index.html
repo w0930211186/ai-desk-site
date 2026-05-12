@@ -828,7 +828,8 @@ footer.site-footer {
         var mm = String(t.getMinutes()).padStart(2,'0');
         var date = (t.getMonth()+1) + '/' + t.getDate() + ' ' + hh + ':' + mm;
         var src = (it.source || '').toUpperCase();
-        return '<li class="pulse-item"><span class="pulse-time">' + date + '</span><span class="pulse-src">' + src + '</span><a class="pulse-title" href="' + it.url + '" target="_blank" rel="noopener">' + it.title + '</a>' + (it.blurb ? '<p class="pulse-blurb">' + it.blurb + '</p>' : '') + '</li>';
+        var editorial = it.editorial ? '<details class="pulse-editorial"><summary>📖 看短篇專欄</summary><div class="pulse-edit-body">' + it.editorial + '<p class="pulse-source-link"><a href="' + it.url + '" target="_blank" rel="noopener">原文 ↗ ' + (it.source || '') + '</a></p></div></details>' : '';
+        return '<li class="pulse-item" id="pulse-' + (it.id || '') + '"><span class="pulse-time">' + date + '</span><span class="pulse-src">' + src + '</span><a class="pulse-title" href="' + it.url + '" target="_blank" rel="noopener">' + it.title + '</a>' + (it.blurb ? '<p class="pulse-blurb">' + it.blurb + '</p>' : '') + editorial + '</li>';
       }).join('');
       if (data.updated_at) { meta.textContent = '更新於 ' + data.updated_at.replace('T',' ').replace(/[+Z].*/, '') + ' · live'; }
     })
@@ -849,6 +850,15 @@ footer.site-footer {
 .pulse-title:hover { color: #ff4444; }
 .pulse-blurb { grid-column: 3; color: #aaa; font-size: 0.8rem; margin-top: 0.5rem; line-height: 1.5; }
 .pulse-loading, .pulse-empty { padding: 1rem 0; color: #888; font-family: "JetBrains Mono", monospace; }
+.pulse-editorial { grid-column: 3; margin-top: 0.8rem; }
+.pulse-editorial summary { cursor: pointer; font-family: "JetBrains Mono", monospace; font-size: 0.75rem; color: #ff4444; letter-spacing: 0.06em; padding: 0.4rem 0; user-select: none; }
+.pulse-editorial summary:hover { color: #fff; }
+.pulse-edit-body { padding: 1rem 0 0.5rem; border-top: 1px dashed #333; margin-top: 0.5rem; }
+.pulse-edit-body p { color: #ccc; font-size: 0.9rem; line-height: 1.7; margin: 0 0 0.8rem; }
+.pulse-edit-body p strong { color: #fff; }
+.pulse-source-link { font-family: "JetBrains Mono", monospace; font-size: 0.72rem !important; opacity: 0.6; margin-top: 1rem !important; }
+.pulse-source-link a { color: #ff4444; text-decoration: none; letter-spacing: 0.05em; }
+@media (max-width: 700px) { .pulse-editorial { grid-column: 1; } }
 @media (max-width: 700px) { .pulse-item { grid-template-columns: 1fr; gap: 0.3rem; } .pulse-blurb { grid-column: 1; } }
 </style>
 
