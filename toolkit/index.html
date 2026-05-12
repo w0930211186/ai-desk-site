@@ -4,80 +4,181 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Creator Toolkit · AI DESK</title>
-<meta name="description" content="AI 創作者工具 + 學習資源完整目錄。AI 生圖 / 影片 / 編程 / 做網站 / 做手機介面 / 音樂 / 設計 / Agent。含官方 / Pricing / Docs / 免費課程 / YouTube 教學連結。新手 + 進階都有。">
+<meta name="description" content="AI 創作者工具 + 學習資源完整目錄。免費資源優先 · 含 YouTube 教學連結。AI 生圖 / 影片 / 編程 / 做網站 / 手機介面 / 音樂 / 設計 / Agent。">
 <meta property="og:title" content="Creator Toolkit · AI DESK">
-<meta property="og:description" content="AI 創作者工具 + 學習資源完整目錄">
+<meta property="og:description" content="AI 創作者工具 + 學習資源完整目錄 · 免費資源優先">
 <meta property="og:image" content="https://ai-desk-tw.netlify.app/assets/og-cover.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+TC:wght@400;500;700;900&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
 <style>
+:root {
+  --bg: #fafafa;
+  --bg-card: #ffffff;
+  --bg-soft: #f5f5f7;
+  --text: #1c1c1e;
+  --text-soft: #6c6c70;
+  --text-mute: #a0a0a5;
+  --border: #e5e5ea;
+  --accent: #a855f7;
+  --accent-hover: #9333ea;
+  --free: #10b981;
+  --paid: #f59e0b;
+  --premium: #ef4444;
+  --youtube: #ff0000;
+  --shadow-sm: 0 1px 2px rgba(0,0,0,0.04);
+  --shadow: 0 4px 16px rgba(0,0,0,0.08);
+  --shadow-lg: 0 12px 32px rgba(0,0,0,0.12);
+  --radius: 14px;
+  --radius-sm: 8px;
+}
 * { box-sizing: border-box; }
-body { background: #0a0a0a; color: #e0e0e0; margin: 0; padding: 0; font-family: "Noto Sans TC", -apple-system, "Inter Tight", sans-serif; line-height: 1.6; }
-.tk-wrap { max-width: 1280px; margin: 0 auto; padding: 2rem 1.5rem; }
-.tk-nav { display: flex; justify-content: space-between; align-items: center; padding: 1rem 0; border-bottom: 1px solid #333; margin-bottom: 2rem; }
-.tk-nav a { color: #a855f7; text-decoration: none; font-family: "JetBrains Mono", monospace; font-size: 0.85rem; }
-.tk-nav a:hover { color: #fff; }
-h1 { font-size: 3rem; margin: 0 0 0.5rem; letter-spacing: -0.04em; color: #fff; }
-.intro { color: #888; margin-bottom: 2rem; font-size: 0.95rem; line-height: 1.7; max-width: 700px; }
-.cat-tabs { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 2rem; }
-.cat-tab { padding: 0.5rem 1rem; background: transparent; border: 1px solid #333; color: #ccc; cursor: pointer; font-family: "JetBrains Mono", monospace; font-size: 0.78rem; transition: all 0.15s; }
-.cat-tab:hover { background: rgba(168,85,247,0.1); border-color: #a855f7; color: #fff; }
-.cat-tab.active { background: #a855f7; color: #fff; border-color: #a855f7; }
-.tools { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 1.2rem; }
-.t-card { background: rgba(255,255,255,0.04); border: 1px solid #222; padding: 1.2rem; border-left: 3px solid #a855f7; }
-.t-card.free { border-left-color: #4ade80; }
-.t-card.freemium { border-left-color: #fbbf24; }
-.t-card.paid { border-left-color: #f97316; }
-.t-card h3 { color: #fff; font-size: 1.1rem; margin: 0 0 0.3rem; }
-.t-card .t-head { display: flex; justify-content: space-between; margin-bottom: 0.3rem; font-family: "JetBrains Mono", monospace; font-size: 0.7rem; }
-.t-vendor { color: #888; text-transform: uppercase; letter-spacing: 0.1em; }
-.t-tier { color: #a855f7; font-weight: 700; text-transform: uppercase; }
-.t-price { font-family: "JetBrains Mono", monospace; font-size: 0.78rem; color: #4ade80; margin: 0.4rem 0; padding: 0.3rem 0.5rem; background: rgba(74,222,128,0.05); border-left: 2px solid #4ade80; }
-.t-highlight { color: #ccc; font-size: 0.85rem; margin: 0.6rem 0; padding: 0.6rem; background: rgba(168,85,247,0.05); border-left: 2px solid #a855f7; }
-.t-strengths { display: flex; flex-wrap: wrap; gap: 0.3rem; margin: 0.5rem 0; }
-.t-strengths span { background: rgba(168,85,247,0.15); color: #c084fc; font-family: "JetBrains Mono", monospace; font-size: 0.65rem; padding: 0.15rem 0.4rem; }
-.t-links { display: flex; gap: 0.8rem; font-family: "JetBrains Mono", monospace; font-size: 0.78rem; margin: 0.8rem 0 0.5rem; flex-wrap: wrap; }
-.t-links a { color: #a855f7; text-decoration: none; }
-.t-links a:hover { color: #fff; }
-.t-learn { margin-top: 0.5rem; padding-top: 0.5rem; border-top: 1px dashed #2a2a2a; }
-.t-learn-title { color: #4ade80; font-family: "JetBrains Mono", monospace; font-size: 0.72rem; margin-bottom: 0.3rem; letter-spacing: 0.05em; }
-.t-learn a { display: block; color: #4ade80; text-decoration: none; font-family: "JetBrains Mono", monospace; font-size: 0.78rem; padding: 0.15rem 0; }
-.t-learn a:hover { color: #fff; }
-.courses-section { margin-top: 4rem; padding-top: 2rem; border-top: 1px solid #333; }
-.courses-section h2 { color: #fff; font-size: 2rem; margin-bottom: 1rem; }
-.courses { list-style: none; padding: 0; margin: 0; }
-.courses li { padding: 1.2rem 0; border-bottom: 1px dashed #2a2a2a; }
-.courses li a { text-decoration: none; }
-.courses li a strong { color: #a855f7; font-size: 1.05rem; }
-.courses li a:hover strong { color: #fff; }
-.courses li .meta { font-family: "JetBrains Mono", monospace; font-size: 0.72rem; color: #888; margin-left: 0.5rem; }
-.courses li p { margin: 0.4rem 0 0; color: #ccc; font-size: 0.88rem; }
-.empty { padding: 3rem; text-align: center; color: #666; font-family: "JetBrains Mono", monospace; }
-@media (max-width: 700px) { .tools { grid-template-columns: 1fr; } }
+body { background: var(--bg); color: var(--text); margin: 0; padding: 0; font-family: "Inter", "Noto Sans TC", -apple-system, BlinkMacSystemFont, sans-serif; line-height: 1.6; -webkit-font-smoothing: antialiased; }
+a { color: var(--accent); text-decoration: none; transition: color 0.15s; }
+a:hover { color: var(--accent-hover); }
+
+.wrap { max-width: 1280px; margin: 0 auto; padding: 0 1.5rem; }
+
+.nav { background: rgba(255,255,255,0.85); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 50; padding: 1rem 0; }
+.nav-inner { display: flex; justify-content: space-between; align-items: center; max-width: 1280px; margin: 0 auto; padding: 0 1.5rem; }
+.nav a { font-family: "JetBrains Mono", monospace; font-size: 0.82rem; color: var(--text-soft); }
+.nav a:hover { color: var(--accent); }
+.nav .logo { font-weight: 700; color: var(--text); }
+
+.hero { padding: 3rem 0 2rem; }
+.hero h1 { font-size: clamp(2rem, 5vw, 3.4rem); margin: 0 0 0.8rem; letter-spacing: -0.02em; color: var(--text); font-weight: 800; }
+.hero .lead { color: var(--text-soft); font-size: 1.05rem; line-height: 1.7; max-width: 720px; }
+
+.cat-tabs { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 2rem 0; padding: 0.4rem; background: var(--bg-soft); border-radius: 100px; max-width: max-content; }
+.cat-tab { padding: 0.55rem 1.1rem; background: transparent; border: none; color: var(--text-soft); cursor: pointer; font-family: inherit; font-size: 0.88rem; font-weight: 500; border-radius: 100px; transition: all 0.18s; text-decoration: none; display: inline-flex; align-items: center; gap: 0.3rem; }
+.cat-tab:hover { background: rgba(168,85,247,0.08); color: var(--accent); }
+.cat-tab.active { background: var(--bg-card); color: var(--text); box-shadow: var(--shadow-sm); }
+
+.section-h { display: flex; align-items: center; gap: 0.7rem; margin: 3rem 0 1.2rem; }
+.section-h h2 { font-size: 1.6rem; margin: 0; color: var(--text); font-weight: 700; }
+.section-h .badge { font-family: "JetBrains Mono", monospace; font-size: 0.72rem; color: var(--text-mute); }
+
+.tier-banner { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 1.5rem; }
+.tier-pill { padding: 0.35rem 0.8rem; border-radius: 100px; font-family: "JetBrains Mono", monospace; font-size: 0.72rem; font-weight: 600; }
+.tier-pill.free { background: rgba(16,185,129,0.1); color: var(--free); }
+.tier-pill.freemium { background: rgba(245,158,11,0.1); color: var(--paid); }
+.tier-pill.paid { background: rgba(239,68,68,0.1); color: var(--premium); }
+
+.cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(310px, 1fr)); gap: 1.2rem; }
+.card { background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.4rem; transition: all 0.2s; position: relative; overflow: hidden; }
+.card:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); border-color: var(--accent); }
+.card .ribbon { position: absolute; top: 1rem; right: 1rem; padding: 0.2rem 0.6rem; border-radius: 100px; font-family: "JetBrains Mono", monospace; font-size: 0.65rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; }
+.card .ribbon.free { background: var(--free); color: white; }
+.card .ribbon.freemium { background: var(--paid); color: white; }
+.card .ribbon.paid { background: var(--premium); color: white; }
+.card .vendor { font-family: "JetBrains Mono", monospace; font-size: 0.7rem; color: var(--text-mute); text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 0.3rem; }
+.card h3 { font-size: 1.2rem; margin: 0 0 0.5rem; color: var(--text); font-weight: 700; }
+.card .price { font-family: "JetBrains Mono", monospace; font-size: 0.88rem; color: var(--free); font-weight: 600; margin-bottom: 0.7rem; }
+.card .price.paid { color: var(--paid); }
+.card .price.premium { color: var(--premium); }
+.card .highlight { color: var(--text-soft); font-size: 0.92rem; line-height: 1.6; margin: 0.7rem 0; padding-left: 0.7rem; border-left: 3px solid var(--accent); }
+.card .strengths { display: flex; flex-wrap: wrap; gap: 0.3rem; margin: 0.7rem 0; }
+.card .strengths span { background: var(--bg-soft); color: var(--text-soft); font-size: 0.72rem; padding: 0.2rem 0.6rem; border-radius: 100px; }
+.card .links { display: flex; gap: 0.6rem; flex-wrap: wrap; margin-top: 1rem; padding-top: 1rem; border-top: 1px solid var(--border); }
+.card .links a { font-size: 0.85rem; font-weight: 500; padding: 0.35rem 0.8rem; border-radius: var(--radius-sm); background: var(--bg-soft); }
+.card .links a:hover { background: var(--accent); color: white; }
+.card .learn { margin-top: 0.8rem; padding-top: 0.8rem; border-top: 1px dashed var(--border); display: flex; flex-direction: column; gap: 0.3rem; }
+.card .learn-label { font-family: "JetBrains Mono", monospace; font-size: 0.7rem; color: var(--free); font-weight: 600; margin-bottom: 0.2rem; }
+.card .learn a { font-size: 0.82rem; color: var(--free); }
+.card .learn a:hover { color: #047857; }
+
+.empty { padding: 4rem 2rem; text-align: center; color: var(--text-mute); background: var(--bg-soft); border-radius: var(--radius); }
+
+/* Course Section */
+.courses-wrap { margin-top: 4rem; padding-top: 3rem; border-top: 2px solid var(--border); }
+.course-tabs { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 1.5rem; }
+.ctab { padding: 0.5rem 1rem; border-radius: 100px; background: var(--bg-soft); color: var(--text-soft); font-size: 0.82rem; font-weight: 500; cursor: pointer; border: none; transition: all 0.18s; font-family: inherit; }
+.ctab.active { color: white; }
+.ctab.active.free { background: var(--free); }
+.ctab.active.youtube { background: var(--youtube); }
+.ctab.active.paid { background: var(--paid); }
+.ctab.active.all { background: var(--text); }
+.ctab:hover { color: var(--text); }
+
+.course-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 1.2rem; }
+.ccard { background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.4rem; transition: all 0.2s; cursor: pointer; }
+.ccard:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); }
+.ccard.youtube { border-left: 4px solid var(--youtube); }
+.ccard.free { border-left: 4px solid var(--free); }
+.ccard.paid { border-left: 4px solid var(--paid); }
+.ccard .ctype { display: inline-block; padding: 0.2rem 0.6rem; border-radius: 100px; font-family: "JetBrains Mono", monospace; font-size: 0.66rem; font-weight: 700; margin-bottom: 0.5rem; text-transform: uppercase; }
+.ccard .ctype.youtube { background: rgba(255,0,0,0.1); color: var(--youtube); }
+.ccard .ctype.free { background: rgba(16,185,129,0.1); color: var(--free); }
+.ccard .ctype.paid { background: rgba(245,158,11,0.1); color: var(--paid); }
+.ccard h3 { font-size: 1.05rem; margin: 0 0 0.4rem; color: var(--text); font-weight: 700; }
+.ccard .meta { font-family: "JetBrains Mono", monospace; font-size: 0.72rem; color: var(--text-mute); margin-bottom: 0.7rem; }
+.ccard p { color: var(--text-soft); font-size: 0.88rem; margin: 0 0 0.8rem; line-height: 1.6; }
+.ccard .go { color: var(--accent); font-weight: 600; font-size: 0.88rem; }
+
+@media (max-width: 700px) {
+  .cards { grid-template-columns: 1fr; }
+  .course-grid { grid-template-columns: 1fr; }
+  .hero { padding: 2rem 0 1rem; }
+  .cat-tabs { padding: 0.3rem; }
+}
 </style>
 </head>
 <body>
-<div class="tk-wrap">
-  <nav class="tk-nav">
-    <a href="/">← AI DESK 主頁</a>
-    <span style="color: #666; font-family: 'JetBrains Mono', monospace; font-size: 0.78rem;">CREATOR TOOLKIT</span>
-    <a href="/latest">最新 daily →</a>
-  </nav>
-  <h1 id="cat-title">🎨 Creator Toolkit</h1>
-  <p class="intro" id="cat-intro">市面主流 AI 創作工具完整目錄 · 含官方 / Pricing / Docs / 免費課程 / YouTube 教學連結。勾選分類進入細項，每個工具都有實際可點的連結資源。</p>
 
-  <div class="cat-tabs" id="cat-tabs"></div>
-  <div id="tools-area" class="tools"></div>
-  <div class="courses-section" id="courses-section">
-    <h2>📚 免費 / 付費課程資源</h2>
-    <ol class="courses" id="courses"></ol>
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="/" class="logo">← AI DESK</a>
+    <span style="color: var(--text-mute); font-family: 'JetBrains Mono', monospace; font-size: 0.78rem;">CREATOR TOOLKIT</span>
+    <a href="/latest">最新 daily →</a>
   </div>
+</nav>
+
+<div class="wrap">
+
+<section class="hero">
+  <h1 id="cat-title">🎨 Creator Toolkit</h1>
+  <p class="lead">AI 創作者工具完整目錄 · <strong style="color: var(--free)">免費資源優先</strong> · YouTube 教學單獨分類 · 含官方 / Pricing / Docs / 學習資源連結。新手 + 進階都涵蓋。</p>
+</section>
+
+<div class="cat-tabs" id="cat-tabs"></div>
+
+<!-- 免費 Section -->
+<div id="free-section">
+  <div class="section-h"><h2>🆓 免費 / 開源工具</h2><span class="badge" id="free-count"></span></div>
+  <div class="cards" id="free-cards"></div>
+</div>
+
+<!-- Freemium Section -->
+<div id="freemium-section">
+  <div class="section-h"><h2>💎 免費試用 (Freemium)</h2><span class="badge" id="freemium-count"></span></div>
+  <div class="cards" id="freemium-cards"></div>
+</div>
+
+<!-- Paid Section -->
+<div id="paid-section">
+  <div class="section-h"><h2>💰 付費工具</h2><span class="badge" id="paid-count"></span></div>
+  <div class="cards" id="paid-cards"></div>
+</div>
+
+<!-- Courses Section -->
+<section class="courses-wrap">
+  <div class="section-h"><h2>📚 學習資源 · 課程連結</h2><span class="badge" id="course-count"></span></div>
+  <div class="course-tabs" id="course-tabs">
+    <button class="ctab active all" data-type="all">全部</button>
+    <button class="ctab youtube" data-type="youtube">📺 YouTube 免費</button>
+    <button class="ctab free" data-type="free">🆓 免費資源</button>
+    <button class="ctab paid" data-type="paid">💎 付費 cohort</button>
+  </div>
+  <div class="course-grid" id="course-grid"></div>
+</section>
+
 </div>
 
 <script>
 var CAT_LABELS = {
-  all: '🎨 全部', writing: '✍️ 寫作', image: '🎨 AI 生圖', video: '🎬 AI 影片',
+  all: '全部', writing: '✍️ 寫作', image: '🎨 AI 生圖', video: '🎬 AI 影片',
   audio: '🎙️ 音樂/配音', coding: '💻 編程', web: '🌐 做網站', mobile: '📱 手機介面',
-  design: '🖌️ 設計', agent: '🤖 Agent', research: '🔍 研究', productivity: '⚡ 生產力',
-  courses: '📚 純課程'
+  design: '🖌️ 設計', agent: '🤖 Agent', research: '🔍 研究', productivity: '⚡ 生產力'
 };
 function getCat() {
   var u = new URL(location.href);
@@ -89,44 +190,77 @@ function renderTabs(activeCat) {
     return '<a class="cat-tab' + (k === activeCat ? ' active' : '') + '" href="/toolkit/' + (k === 'all' ? '' : '?cat=' + k) + '">' + CAT_LABELS[k] + '</a>';
   }).join('');
 }
+function makeCard(t) {
+  var strengths = (t.strengths || []).map(function(s){return '<span>'+s+'</span>';}).join('');
+  var learn = (t.learn || []).map(function(l){return '<a href="' + l.url + '" target="_blank" rel="noopener">📖 ' + l.title + ' ↗</a>';}).join('');
+  var priceClass = t.tier === 'free' ? '' : (t.tier === 'paid' ? 'paid' : 'paid');
+  var tierLabel = {free:'FREE', freemium:'FREEMIUM', paid:'PAID'}[t.tier] || t.tier.toUpperCase();
+  return '<div class="card">' +
+    '<span class="ribbon ' + t.tier + '">' + tierLabel + '</span>' +
+    '<div class="vendor">' + t.vendor + '</div>' +
+    '<h3>' + t.name + '</h3>' +
+    '<div class="price ' + (t.tier === 'free' ? '' : (t.tier === 'paid' ? 'premium' : 'paid')) + '">' + (t.price || '?') + '</div>' +
+    '<div class="strengths">' + strengths + '</div>' +
+    (t.highlight ? '<p class="highlight">' + t.highlight + '</p>' : '') +
+    '<div class="links">' +
+      '<a href="' + t.official_url + '" target="_blank" rel="noopener">官網 ↗</a>' +
+      (t.pricing_url ? '<a href="' + t.pricing_url + '" target="_blank" rel="noopener">Pricing ↗</a>' : '') +
+      (t.docs_url ? '<a href="' + t.docs_url + '" target="_blank" rel="noopener">Docs ↗</a>' : '') +
+    '</div>' +
+    (learn ? '<div class="learn"><div class="learn-label">📖 學習資源</div>' + learn + '</div>' : '') +
+  '</div>';
+}
 function renderTools(TK, cat) {
-  var area = document.getElementById('tools-area');
-  if (cat === 'courses') {
-    area.innerHTML = '';
-    return;
-  }
   var filtered = TK.tools.filter(function(t){
     if (cat === 'all') return true;
     return t.category === cat || (t.subcat || []).indexOf(cat) > -1;
   });
-  if (!filtered.length) {
-    area.innerHTML = '<div class="empty">這個分類還在 curating · 看其他分類 ↑</div>';
-    return;
-  }
-  area.innerHTML = filtered.map(function(t){
-    var strengths = (t.strengths || []).map(function(s){return '<span>'+s+'</span>';}).join('');
-    var learn = (t.learn || []).map(function(l){return '<a href="' + l.url + '" target="_blank" rel="noopener">📖 ' + l.title + ' ↗</a>';}).join('');
-    return '<div class="t-card ' + t.tier + '">' +
-      '<div class="t-head"><span class="t-vendor">' + t.vendor + '</span><span class="t-tier">' + t.tier + '</span></div>' +
-      '<h3>' + t.name + '</h3>' +
-      '<div class="t-price">' + (t.price || '?') + '</div>' +
-      '<div class="t-strengths">' + strengths + '</div>' +
-      (t.highlight ? '<p class="t-highlight">💡 ' + t.highlight + '</p>' : '') +
-      '<div class="t-links">' +
-        '<a href="' + t.official_url + '" target="_blank" rel="noopener">官網 ↗</a>' +
-        (t.pricing_url ? '<a href="' + t.pricing_url + '" target="_blank" rel="noopener">Pricing ↗</a>' : '') +
-        (t.docs_url ? '<a href="' + t.docs_url + '" target="_blank" rel="noopener">Docs ↗</a>' : '') +
-      '</div>' +
-      (learn ? '<div class="t-learn"><div class="t-learn-title">📖 學習資源</div>' + learn + '</div>' : '') +
-    '</div>';
-  }).join('');
+  var free = filtered.filter(function(t){return t.tier === 'free';});
+  var freemium = filtered.filter(function(t){return t.tier === 'freemium';});
+  var paid = filtered.filter(function(t){return t.tier === 'paid';});
+
+  document.getElementById('free-cards').innerHTML = free.length ? free.map(makeCard).join('') : '<div class="empty">這個分類目前沒有完全免費的工具</div>';
+  document.getElementById('freemium-cards').innerHTML = freemium.length ? freemium.map(makeCard).join('') : '<div class="empty">這個分類目前沒有免費試用工具</div>';
+  document.getElementById('paid-cards').innerHTML = paid.length ? paid.map(makeCard).join('') : '<div class="empty">這個分類目前沒有付費工具</div>';
+
+  document.getElementById('free-count').textContent = free.length + ' 個';
+  document.getElementById('freemium-count').textContent = freemium.length + ' 個';
+  document.getElementById('paid-count').textContent = paid.length + ' 個';
+
+  document.getElementById('free-section').style.display = (cat === 'all' || free.length) ? '' : 'none';
+  document.getElementById('freemium-section').style.display = (cat === 'all' || freemium.length) ? '' : 'none';
+  document.getElementById('paid-section').style.display = (cat === 'all' || paid.length) ? '' : 'none';
 }
-function renderCourses(TK) {
-  document.getElementById('courses').innerHTML = (TK.courses || []).map(function(c){
-    return '<li><a href="' + c.url + '" target="_blank" rel="noopener"><strong>' + c.title + '</strong></a>' +
-      ' <span class="meta">' + c.provider + ' · ' + c.cost + ' · ' + c.topic + '</span>' +
-      '<p>' + c.highlight + '</p></li>';
-  }).join('');
+function makeCourseCard(c) {
+  var t = c.type || 'free-platform';
+  var typeClass = t.indexOf('youtube') > -1 ? 'youtube' : (t.indexOf('paid') > -1 ? 'paid' : 'free');
+  var typeLabel = {
+    'free-youtube': '📺 YouTube 免費',
+    'free-platform': '🆓 平台免費',
+    'free-github': '🆓 GitHub 免費',
+    'free-docs': '🆓 官方文件',
+    'paid-cohort': '💎 付費 cohort',
+    'paid-subscription': '💎 付費訂閱'
+  }[t] || '🆓 免費';
+  return '<a href="' + c.url + '" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="ccard ' + typeClass + '"><span class="ctype ' + typeClass + '">' + typeLabel + '</span>' +
+    '<h3>' + c.title + '</h3>' +
+    '<div class="meta">' + c.provider + ' · ' + c.topic + (c.cost && c.cost !== 'free' ? ' · ' + c.cost : '') + '</div>' +
+    '<p>' + c.highlight + '</p>' +
+    '<span class="go">前往 →</span></div></a>';
+}
+function renderCourses(TK, filterType) {
+  var courses = TK.courses || [];
+  if (filterType !== 'all') {
+    courses = courses.filter(function(c){
+      var t = c.type || '';
+      if (filterType === 'youtube') return t.indexOf('youtube') > -1;
+      if (filterType === 'free') return t.indexOf('free') > -1 && t.indexOf('youtube') < 0;
+      if (filterType === 'paid') return t.indexOf('paid') > -1;
+      return true;
+    });
+  }
+  document.getElementById('course-grid').innerHTML = courses.map(makeCourseCard).join('');
+  document.getElementById('course-count').textContent = courses.length + ' 個資源';
 }
 
 var cat = getCat();
@@ -136,11 +270,19 @@ fetch('/data/creators-toolkit.json?_=' + Date.now())
   .then(function(r){return r.json();})
   .then(function(TK){
     renderTools(TK, cat);
-    renderCourses(TK);
+    renderCourses(TK, 'all');
+    document.querySelectorAll('.ctab').forEach(function(b){
+      b.addEventListener('click', function(){
+        document.querySelectorAll('.ctab').forEach(function(x){x.classList.remove('active');});
+        b.classList.add('active');
+        renderCourses(TK, b.dataset.type);
+      });
+    });
   })
-  .catch(function(){
-    document.getElementById('tools-area').innerHTML = '<div class="empty">載入失敗</div>';
+  .catch(function(e){
+    document.querySelector('.wrap').innerHTML += '<div class="empty">載入失敗 - ' + e + '</div>';
   });
 </script>
+
 </body>
 </html>

@@ -1228,8 +1228,8 @@ footer.site-footer {
 .toolkit-hub h2 { font-size: 4rem; line-height: 0.9; margin: 0; color: #fff; letter-spacing: -0.04em; }
 .toolkit-hub .sub { font-family: "JetBrains Mono", monospace; font-size: 0.85rem; color: #888; margin-top: 1rem; line-height: 1.6; }
 .tile-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 1rem; margin-bottom: 2rem; }
-.tile { background: rgba(255,255,255,0.04); border: 1px solid #222; padding: 1.2rem; text-decoration: none; display: block; transition: all 0.2s; border-left: 3px solid #a855f7; }
-.tile:hover { background: rgba(168,85,247,0.1); border-color: #a855f7; transform: translateY(-2px); }
+.tile { background: linear-gradient(180deg, rgba(255,255,255,0.06), rgba(255,255,255,0.02)); border: 1px solid rgba(255,255,255,0.1); padding: 1.4rem 1.2rem; text-decoration: none; display: block; transition: all 0.25s cubic-bezier(.4,0,.2,1); border-left: 3px solid #a855f7; border-radius: 12px; position: relative; overflow: hidden; }
+.tile:hover { background: linear-gradient(180deg, rgba(168,85,247,0.15), rgba(168,85,247,0.05)); border-color: #c084fc; transform: translateY(-4px); box-shadow: 0 12px 32px rgba(168,85,247,0.2); }
 .tile-icon { font-size: 2rem; display: block; margin-bottom: 0.5rem; }
 .tile h3 { color: #fff; font-size: 1.05rem; margin: 0 0 0.4rem; font-weight: 700; }
 .tile p { color: #888; font-family: "JetBrains Mono", monospace; font-size: 0.72rem; margin: 0 0 0.8rem; line-height: 1.5; }

@@ -1218,7 +1218,8 @@
       "url": "https://www.deeplearning.ai/short-courses",
       "cost": "free",
       "topic": "LLM / RAG / Agents",
-      "highlight": "Andrew Ng + 各大廠合開 · 1-2 小時短課 · 寫 prompt / 跑 agent 入門"
+      "highlight": "Andrew Ng + 各大廠合開 · 1-2 小時短課 · 寫 prompt / 跑 agent 入門",
+      "type": "free-platform"
     },
     {
       "title": "Anthropic 課程 (Claude API)",
@@ -1226,7 +1227,8 @@
       "url": "https://github.com/anthropics/courses",
       "cost": "free",
       "topic": "Claude API / Prompt Eng",
-      "highlight": "官方 5 門課 · API basics / Prompt engineering / Real-world prompts"
+      "highlight": "官方 5 門課 · API basics / Prompt engineering / Real-world prompts",
+      "type": "free-github"
     },
     {
       "title": "OpenAI Academy",
@@ -1234,7 +1236,8 @@
       "url": "https://academy.openai.com",
       "cost": "free",
       "topic": "GPT / DALL-E / Sora",
-      "highlight": "5/2026 新上線 · 跟 IBM / Common Sense 合作 · 含基礎到 advance"
+      "highlight": "5/2026 新上線 · 跟 IBM / Common Sense 合作 · 含基礎到 advance",
+      "type": "free-platform"
     },
     {
       "title": "Hugging Face NLP Course",
@@ -1242,7 +1245,8 @@
       "url": "https://huggingface.co/learn/nlp-course",
       "cost": "free",
       "topic": "Transformers / fine-tuning",
-      "highlight": "開源模型 fine-tuning 學這個 · Llama / Qwen / DeepSeek 訓練必看"
+      "highlight": "開源模型 fine-tuning 學這個 · Llama / Qwen / DeepSeek 訓練必看",
+      "type": "free-platform"
     },
     {
       "title": "Maven cohort courses (Eugene Yan, Jason Liu, Hamel Husain)",
@@ -1250,7 +1254,8 @@
       "url": "https://maven.com",
       "cost": "$500-2000/cohort",
       "topic": "LLM applied / Evals / RAG",
-      "highlight": "業界實務 cohort 制 · production-ready agent + RAG · 不便宜但回報高"
+      "highlight": "業界實務 cohort 制 · production-ready agent + RAG · 不便宜但回報高",
+      "type": "paid-cohort"
     },
     {
       "title": "Coursera Generative AI Specialization",
@@ -1258,7 +1263,8 @@
       "url": "https://www.coursera.org/specializations/generative-ai-for-everyone",
       "cost": "$49/mo subscription",
       "topic": "Gen AI Foundations",
-      "highlight": "非工程師入門 · Andrew Ng 教學 · 含中文字幕"
+      "highlight": "非工程師入門 · Andrew Ng 教學 · 含中文字幕",
+      "type": "paid-subscription"
     },
     {
       "title": "fast.ai Practical Deep Learning",
@@ -1266,7 +1272,8 @@
       "url": "https://course.fast.ai",
       "cost": "free",
       "topic": "Deep Learning / PyTorch",
-      "highlight": "從 code 學 ML · 不需數學背景 · 自學者社群最大"
+      "highlight": "從 code 學 ML · 不需數學背景 · 自學者社群最大",
+      "type": "free-platform"
     },
     {
       "title": "Stanford CS25 Transformers United",
@@ -1274,7 +1281,8 @@
       "url": "https://web.stanford.edu/class/cs25",
       "cost": "free (YouTube)",
       "topic": "Transformer 架構深度",
-      "highlight": "想理解 LLM 怎麼運作 · Stanford 公開課"
+      "highlight": "想理解 LLM 怎麼運作 · Stanford 公開課",
+      "type": "free-youtube"
     },
     {
       "title": "Andrej Karpathy: Neural Networks Zero to Hero",
@@ -1282,7 +1290,8 @@
       "url": "https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ",
       "cost": "free",
       "topic": "LLM 從零實作",
-      "highlight": "OpenAI 共同創辦人親自教 · 從 nano-GPT 到 nano-llama · 想懂 LLM 怎麼運作必看"
+      "highlight": "OpenAI 共同創辦人親自教 · 從 nano-GPT 到 nano-llama · 想懂 LLM 怎麼運作必看",
+      "type": "free-youtube"
     },
     {
       "title": "3Blue1Brown · Neural Networks",
@@ -1290,7 +1299,8 @@
       "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi",
       "cost": "free",
       "topic": "視覺化 ML 數學",
-      "highlight": "動畫解釋 backprop / attention · 數學白癡也能看懂"
+      "highlight": "動畫解釋 backprop / attention · 數學白癡也能看懂",
+      "type": "free-youtube"
     },
     {
       "title": "Building LLM Applications · Lessons (Anthropic)",
@@ -1298,7 +1308,8 @@
       "url": "https://anthropic.skilljar.com/claude-with-the-anthropic-api",
       "cost": "free",
       "topic": "Claude API 實戰",
-      "highlight": "Anthropic 官方 · 從 prompt 到 production agent 5 個課"
+      "highlight": "Anthropic 官方 · 從 prompt 到 production agent 5 個課",
+      "type": "free-platform"
     },
     {
       "title": "Microsoft Generative AI for Beginners",
@@ -1306,7 +1317,8 @@
       "url": "https://github.com/microsoft/generative-ai-for-beginners",
       "cost": "free",
       "topic": "Gen AI 入門 21 lessons",
-      "highlight": "21 堂課從零入門 · Microsoft 官方 · 含中文版"
+      "highlight": "21 堂課從零入門 · Microsoft 官方 · 含中文版",
+      "type": "free-github"
     },
     {
       "title": "Anthropic Prompt Engineering Tutorial",
@@ -1314,7 +1326,8 @@
       "url": "https://github.com/anthropics/prompt-eng-interactive-tutorial",
       "cost": "free",
       "topic": "Prompt Engineering",
-      "highlight": "互動式 Jupyter notebook · 從基礎到進階 · 含挑戰題"
+      "highlight": "互動式 Jupyter notebook · 從基礎到進階 · 含挑戰題",
+      "type": "free-github"
     },
     {
       "title": "Cursor Skill 系列影片",
@@ -1322,7 +1335,8 @@
       "url": "https://www.youtube.com/@cursor_ai",
       "cost": "free",
       "topic": "Cursor IDE 教學",
-      "highlight": "官方 + 社群影片 · Composer / Agent mode / .cursorrules 寫法"
+      "highlight": "官方 + 社群影片 · Composer / Agent mode / .cursorrules 寫法",
+      "type": "free-youtube"
     },
     {
       "title": "Lovable / v0 / Bolt 對比影片",
@@ -1330,7 +1344,8 @@
       "url": "https://www.youtube.com/results?search_query=v0+vs+bolt+vs+lovable",
       "cost": "free",
       "topic": "AI 建站工具比較",
-      "highlight": "YouTube 搜尋 'v0 vs bolt vs lovable' 有 30+ 比較影片"
+      "highlight": "YouTube 搜尋 'v0 vs bolt vs lovable' 有 30+ 比較影片",
+      "type": "free-youtube"
     },
     {
       "title": "Hugging Face Diffusion Models Course",
@@ -1338,7 +1353,8 @@
       "url": "https://huggingface.co/learn/diffusion-course",
       "cost": "free",
       "topic": "圖像生成模型",
-      "highlight": "想自己 train Stable Diffusion / fine-tune 看這個"
+      "highlight": "想自己 train Stable Diffusion / fine-tune 看這個",
+      "type": "free-platform"
     },
     {
       "title": "Runway Academy",
@@ -1346,7 +1362,8 @@
       "url": "https://academy.runwayml.com",
       "cost": "free",
       "topic": "AI 影片創作",
-      "highlight": "Runway 官方教學 · Gen-3 影片控制 · Motion brush / Image-to-Video"
+      "highlight": "Runway 官方教學 · Gen-3 影片控制 · Motion brush / Image-to-Video",
+      "type": "free-platform"
     },
     {
       "title": "Midjourney Docs + Showcase",
@@ -1354,7 +1371,8 @@
       "url": "https://docs.midjourney.com",
       "cost": "free",
       "topic": "MJ prompt 寫法",
-      "highlight": "官方 docs + showcase library · 學 prompt 結構 + 參考優秀作品"
+      "highlight": "官方 docs + showcase library · 學 prompt 結構 + 參考優秀作品",
+      "type": "free-docs"
     },
     {
       "title": "中文 AI 學習頻道 · 林俊瑋 (Jason Lin)",
@@ -1362,7 +1380,8 @@
       "url": "https://www.youtube.com/@JasonLinAI",
       "cost": "free",
       "topic": "中文 AI 工具實戰",
-      "highlight": "中文 creator · ChatGPT / Claude / Sora 實戰教學 · 適合中文觀眾"
+      "highlight": "中文 creator · ChatGPT / Claude / Sora 實戰教學 · 適合中文觀眾",
+      "type": "free-youtube"
     },
     {
       "title": "Maven · Hamel Husain · LLM Evals",
@@ -1370,7 +1389,8 @@
       "url": "https://maven.com/parlance-labs/evals",
       "cost": "$1500-2500/cohort",
       "topic": "LLM Evaluation",
-      "highlight": "production-ready LLM 必修 · 評估 metric / dataset 設計 · 非工程師不適合"
+      "highlight": "production-ready LLM 必修 · 評估 metric / dataset 設計 · 非工程師不適合",
+      "type": "paid-cohort"
     },
     {
       "title": "OpenAI Cookbook",
@@ -1378,7 +1398,8 @@
       "url": "https://github.com/openai/openai-cookbook",
       "cost": "free",
       "topic": "GPT API 範例",
-      "highlight": "100+ 真實使用範例 · RAG / Function calling / Embedding 全部有"
+      "highlight": "100+ 真實使用範例 · RAG / Function calling / Embedding 全部有",
+      "type": "free-github"
     }
   ]
 }
