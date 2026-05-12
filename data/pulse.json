@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-05-13T07:02:44+08:00",
+  "updated_at": "2026-05-13T08:00:00+08:00",
   "items": [
+    {
+      "id": "pulse-2026-05-13-08-gtig-first-ai-zero-day",
+      "ts": "2026-05-13T08:00:00+08:00",
+      "title": "史上首次 AI 合成零日遭犯罪集團武器化 · Google 威脅情報阻截大規模攻擊",
+      "source": "Google Cloud Blog",
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/ai-vulnerability-exploitation-initial-access",
+      "blurb": "Google 威脅情報小組五月十一日確認史上首例：犯罪集團以 AI 模型發現並武器化開源管理工具的 2FA 繞過零日漏洞，計劃大規模利用，Google 提前揭露責任披露阻截行動，並確認 AI 生成程式碼的技術指紋。",
+      "editorial": "<p><strong>第一</strong>五月十一日，Google 威脅情報小組（GTIG）發布年度 AI 威脅報告，確認史上首例犯罪集團以 AI 模型開發並武器化零日漏洞的案例。目標漏洞為一套廣泛部署的開源網頁型系統管理工具的雙重驗證（2FA）繞過，屬於高層語義邏輯缺陷：開發者在 2FA 執行邏輯中設置了 hardcoded 信任例外，在功能上看似正常，但存在安全邏輯矛盾，傳統模糊測試與靜態分析工具均無法偵測。GTIG 以「高信心」判定 AI 參與漏洞開發，技術指紋包含：大量教學型文件字串（docstrings）、幻覺化的 CVSS 評分（非真實格式）、高度結構化的教科書式 Python 程式碼及詳細的說明選單——均為 LLM 訓練資料的典型輸出特徵。攻擊者計劃聯合其他犯罪集團進行大規模漏洞利用行動；GTIG 事先發現後，透過對廠商的負責任揭露（responsible disclosure）阻截了攻擊計劃的執行。</p><p><strong>第二</strong>此報告的戰略意義不在於具體漏洞本身，而在於它確立了 AI 輔助漏洞開發從「概念驗證」進入「真實刑事行動」的分水嶺。GTIG 特別指出，frontier LLM 在識別語義邏輯型缺陷方面具有結構性優勢：「frontier LLM 擅長讀取開發者意圖，識別 2FA 執行邏輯與 hardcoded 例外之間的矛盾。」這一能力代表威脅面向已擴大——此前難以被量產的邏輯型漏洞，正在以 AI 加速的方式進入犯罪集團的武器庫。此確認也回應了各 frontier lab 在高能力模型管控上的政策選擇：Anthropic Mythos 的受管控紅隊存取限制，及 OpenAI GPT-5.5-Cyber 的政府受審查存取設計，均指向同一風險模型的現實化。GTIG 同步指出防禦面的鏡像效應——Google 亦以 AI（Big Sleep 代理及 CodeMender）進行主動漏洞偵測和自動修復，AI 在攻防兩端的對稱性加速正在改寫網路安全產業的時間競爭結構。</p><p><strong>第三</strong>對企業 CIO 而言，此案例代表威脅模型需要即時更新：高層語義邏輯缺陷在 AI 輔助下的可發現速度已超越人工紅隊週期，單純依賴 CVE 補丁週期的被動防禦面臨結構性時間落差，導入 AI 輔助主動漏洞偵測層成為緊迫需求。對開源軟體社群而言，廣泛部署的管理工具成為 AI 輔助攻擊的優先目標，關鍵開源項目的 AI 輔助漏洞審計需求正在上升，此領域的防禦資金投入有必要加速。對 AI 安全監管而言，GTIG 的確認為 CAISI 預部署審查機制的設計提供了最直接的事實依據——高能力模型的網路攻擊能力限制已從假設性政策討論轉為有據可查的現實威脅，各國立法者在設計 AI 法案時現有具體案例可引用。</p>"
+    },
+    {
+      "id": "pulse-2026-05-13-08-isomorphic-labs-21b-drug-ai",
+      "ts": "2026-05-13T08:00:00+08:00",
+      "title": "Isomorphic Labs 完成二十一億美元 B 輪 · DeepMind 系 AI 藥物發現史上最大融資",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-12/deepmind-spinout-isomorphic-labs-raises-2-1-billion-to-design-drugs-with-ai",
+      "blurb": "Isomorphic Labs 五月十二日宣布完成二十一億美元 B 輪，Thrive Capital 領投，Alphabet、MGX、Temasek、英國主權 AI 基金跟投，資金擴展 AI 藥物設計引擎 IsoDDE，創 AI 藥物發現領域史上最大融資紀錄。",
+      "editorial": "<p><strong>第一</strong>五月十二日，Google DeepMind 分拆公司 Isomorphic Labs 宣布完成二十一億美元 B 輪融資，由 Thrive Capital 領投，既有投資人 Alphabet 及 GV 跟投，新投資人包含 MGX（阿聯酋主權 AI 基金）、Temasek、CapitalG 及英國主權 AI 基金。公司由 Google DeepMind CEO Sir Demis Hassabis 主導，總裁為 Max Jaderberg。資金主要用於擴展 AI 藥物設計引擎 IsoDDE（Isomorphic Drug Design Engine）及加速旗下治療項目推向臨床階段。Isomorphic Labs 2021 年自 DeepMind 分拆成立，承接 AlphaFold 蛋白質折疊研究脈絡，現有策略合作夥伴包含 Novartis、Lilly 及 Johnson &amp; Johnson，目標是以 AI「解決所有疾病」（solve all disease）。二十一億美元是 AI 藥物發現領域史上最大單輪融資。</p><p><strong>第二</strong>此融資規模代表資本市場對「AI 驅動新藥設計」的商業可行性信心已從試驗階段進入平台規模投注。IsoDDE 的設計目標是在傳統新藥發現需要 10 至 15 年的流程中，以 AI 在分子設計和靶點識別階段大幅壓縮時間週期。Thrive Capital 領投是此融資的關鍵信號——Thrive 是 OpenAI、Stripe 等科技平台的早期重要投資人，其移動至 AI × 生命科學交叉賽道，代表科技資本正在系統性佈局 AI 能力在生命科學場景的商業化。英國主權 AI 基金的參與顯示英國政府正將 Demis Hassabis 的本土科技根源納入國家 AI 戰略，是英美 AI 基礎設施協作的另一個數據點。與 Anthropic 九千億融資代表的純 AI 平台定價不同，Isomorphic 代表的是 AI 能力商業化的「應用賽道」——藥物研發是 AI 創造可驗證 ROI 最具說服力的垂直之一，此輪估值確立了該賽道的新定價基準。</p><p><strong>第三</strong>對 BEXS 學員而言，Isomorphic Labs 的 B 輪代表 AI × 生命科學交叉賽道的頂端資本倉位正在快速建立；Novartis、Lilly 等夥伴的 AI 新藥管線能否在 2026 至 2027 年產出可驗證的臨床數據，是決定此賽道下一輪估值的核心觀察指標，也是評估 Alphabet 分部門 AI 業務估值時的重要組成。對 CIO 而言，AI 藥物設計平台的商業化路徑仍在驗證期，製藥、材料科學等研究密集型行業在評估採用 AI 設計工具時，可解釋性與監管合規性仍是採購清單上的關鍵門檻。對 Alphabet 投資人而言，Isomorphic Labs 是 Alphabet 在 AI 生命科學賽道「保留但分拆」的最重要押注，B 輪完成後其持股稀釋程度，以及 Demis Hassabis 同時主導 DeepMind 和 Isomorphic Labs 的算力分配優先序，是值得追蹤的潛在組織摩擦點。</p>"
+    },
     {
       "id": "pulse-2026-05-13-07-anthropic-900b-funding-round",
       "ts": "2026-05-13T07:02:44+08:00",
