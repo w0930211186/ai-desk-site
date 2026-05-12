@@ -242,5 +242,6 @@
       "blurb": "《華爾街日報》報導 OpenAI 2026 年多項月度銷售目標未達標，主因 Anthropic 在程式碼與企業市場持續搶食份額；CFO Sarah Friar 內部警告若收入未能加速恐難支撐鉅額算力承諾，Oracle 應聲跌逾 4%、Broadcom 與 AMD 各跌 3-4%；Altman 與 Friar 聯合聲明痛批報導「荒謬」，但市場信心已受衝擊，前沿 AI 商業化前景的不確定性浮上檯面。"
     }
   ],
-  "_note": "seeded by Peter 2026-05-10 — cloud routine ai-desk-pulse 每 2 小時自動更新"
+  "_note": "seeded by Peter 2026-05-10 — cloud routine ai-desk-pulse 每 2 小時自動更新",
+  "_workflow_test": "v3 yaml verify @ 2026-05-12T09:13:53+08:00"
 }
