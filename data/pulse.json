@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-05-12T10:11:27+08:00",
+  "updated_at": "2026-05-12T11:14:07+08:00",
   "items": [
+    {
+      "id": "pulse-2026-05-12-v7-site-first",
+      "ts": "2026-05-12T11:14:07+08:00",
+      "title": "Stratechery 把 AI 經濟學主軸從訓練改寫成 inference · 每 token 成本變新敘事",
+      "source": "Stratechery",
+      "url": "https://stratechery.com/2026/inference-shift/",
+      "blurb": "Ben Thompson 在 5/12 專欄重寫 AI 經濟學主軸 · 把焦點從訓練成本轉到 inference 單位經濟 · frontier lab 競爭格局重新校準",
+      "editorial": "<p><strong>第一</strong>，Ben Thompson 在 Stratechery 5/12 篇主文重寫 AI 經濟學的主敘事——從「誰能 train 出最大模型」轉到「誰能 serve 最低 inference 成本」。Stratechery 是 frontier lab 領導層必讀，這次主軸切換等於把 OpenAI 從訓練軍備競賽中暫時解套，但同時把壓力丟給 Anthropic 跟 Google DeepMind 證明他們的 serving 經濟學。</p><p><strong>第二</strong>，這條變動的時機跟 5/7 N°50 Anthropic 收 Colossus 1 + 5/12 SpaceX 算力協議疊在一起——frontier lab 同時搶訓練算力 + 推 inference 經濟 = stack 兩端都要拿下。Cerebras 與 Groq 這類 inference-first 廠商的估值會被重新拉高，預期 2026 下半年看到至少一條 frontier lab × inference 硬體廠的策略合作。</p><p><strong>第三</strong>，企業端 CIO 最大變化是 budget 規劃從「per-seat license」轉「per-1M-tokens」會加速。對 GitHub Advanced Security、Snyk、Semgrep 等已經跟 token usage 對應的工具是直接利好。對裸跑 Claude Code 的小團隊 inference cost transparency 會變成新合規關卡。</p>"
+    },
     {
       "id": "pulse-2026-05-12-10-anthropic-akamai-compute",
       "ts": "2026-05-12T10:11:00+08:00",
@@ -236,14 +245,6 @@
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/05/07/elon-musks-lawsuit-is-putting-openais-safety-record-under-the-microscope/",
       "blurb": "Musk v. Altman 審判深入推進，庭審文件首度公開揭示 OpenAI 歷年 AI 安全評估全貌；證詞顯示 GPT-4 開發期間部分紅隊測試未完整執行、安全承諾與商業化時程存在明顯衝突，此案成為 AI 頭部廠商安全實踐首次接受司法層面透明度審查的歷史案例，引發 AI 安全社群廣泛關注。"
-    },
-    {
-      "id": "pulse-2026-05-07-moonshot-ai-2b",
-      "ts": "2026-05-07T18:00:00+08:00",
-      "title": "中國 Moonshot AI（Kimi）獲美團領投完成 20 億美元融資・估值衝上 200 億美元",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/05/07/chinas-moonshot-ai-raises-2b-at-20b-valuation-as-demand-for-open-source-ai-skyrockets/",
-      "blurb": "北京 AI 新創 Moonshot AI（Kimi 開源模型開發商）由美團旗下 Long-Z Investments 領投完成 20 億美元新一輪融資，估值衝上 200 億美元；清華資本、中國移動、CPE 源峰跟投，4 月 ARR 突破 2 億美元，半年融資累計近 39 億美元。此輪融資反映中國開源 AI 投資熱潮全面升溫，Kimi 以長文脈技術與快速商業化能力成為全球開源 AI 生態的重量級競爭者。"
     }
   ],
   "_note": "seeded by Peter 2026-05-10 — cloud routine ai-desk-pulse 每 2 小時自動更新"
