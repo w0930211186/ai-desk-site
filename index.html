@@ -1081,7 +1081,7 @@ footer.site-footer {
       var ucBadges = (m.use_cases || []).map(function(u){return '<span class="badge">'+u+'</span>';}).join('');
       var latest = m.is_latest ? '<span class="latest-tag">最新</span>' : '';
       var upcoming = m.is_upcoming ? '<span class="upcoming-tag">即將</span>' : '';
-      return '<a href="' + (m.official_url || '#') + '" target="_blank" rel="noopener" class="model-card-link"><div class="model-card ' + m.tier + '">' +
+      return '<div class="model-card ' + m.tier + '">' +
         '<div class="mc-head"><strong class="mc-vendor">' + m.vendor + '</strong>' + latest + upcoming + '</div>' +
         '<h3 class="mc-name">' + m.name + '</h3>' +
         '<div class="mc-version">' + (m.version || '') + ' · ' + (m.release_date || '') + '</div>' +
@@ -1093,8 +1093,8 @@ footer.site-footer {
         '</div>' +
         '<div class="mc-uses">' + ucBadges + '</div>' +
         (m.highlight ? '<p class="mc-highlight">💡 ' + m.highlight + '</p>' : '') +
-        '<div class="mc-links"><span class="mc-link-pill">官方頁面 ↗</span> · <a href="' + m.pricing_url + '" target="_blank" rel="noopener" onclick="event.stopPropagation();">Pricing ↗</a></div>' +
-      '</div></a>';
+        '<div class="mc-links"><a href="' + m.official_url + '" target="_blank" rel="noopener">官方頁面 ↗</a> · <a href="' + m.pricing_url + '" target="_blank" rel="noopener">Pricing ↗</a></div>' +
+      '</div>';
     }).join('');
   }
 
@@ -1135,8 +1135,8 @@ footer.site-footer {
 
 .dir-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem; align-items: stretch; }
 .model-card { background: linear-gradient(180deg, rgba(255,255,255,0.06), rgba(255,255,255,0.02)); border: 1px solid rgba(255,255,255,0.1); padding: 1.3rem; transition: all 0.2s cubic-bezier(.4,0,.2,1); border-radius: 12px; height: 100%; display: flex; flex-direction: column; }
-.model-card-link { text-decoration: none; color: inherit; display: block; }
-.model-card:hover { border-color: #fbbf24; transform: translateY(-2px); transition: all 0.2s; }
+
+.model-card:hover { border-color: #fbbf24; }
 .mc-link-pill { color: #fbbf24; font-family: "JetBrains Mono", monospace; }
 .model-card.open-source { border-left: 3px solid #4ade80; }
 .model-card.frontier { border-left: 3px solid #fbbf24; }
