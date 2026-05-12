@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-05-12T14:00:00+08:00",
+  "updated_at": "2026-05-12T15:00:00+08:00",
   "items": [
+    {
+      "id": "pulse-2026-05-12-15-openai-gpt55-free-default",
+      "ts": "2026-05-12T15:00:00+08:00",
+      "title": "OpenAI 以 GPT-5.5 Instant 取代 ChatGPT 全球預設模型・幻覺率較前代下降 52.5%・前沿 AI 能力首次普及六億免費用戶",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/",
+      "blurb": "OpenAI 於 5 月 5 日將 GPT-5.5 Instant 設為所有 ChatGPT 用戶（含免費層）預設模型，取代 GPT-5.3 Instant；高風險問答幻覺率下降 52.5%，AIME 2025 數學基準從 65.4 升至 81.2，個人化 Gmail 記憶率先向 Plus 及 Pro 用戶開放，ChatGPT 月活六億人的平台引力從此以前沿 AI 品質為錨。",
+      "editorial": "<p><strong>第一</strong>，OpenAI 於 4 月 23 日發布 GPT-5.5 旗艦模型，5 月 5 日以其輕量化版 GPT-5.5 Instant 全面取代 GPT-5.3 Instant，成為所有 ChatGPT 用戶（含免費層）的預設模型，並同步向 API 開放。根據 OpenAI 內部評估，GPT-5.5 Instant 在高風險醫療、法律與金融問題的幻覺聲明較前代下降 52.5%；AIME 2025 數學基準從 65.4 提升至 81.2；MMMU-Pro 多模態推理從 69.2 升至 76；Terminal-Bench 2.0 得分 82.7%，超越 Claude Opus 4.7 與 Gemini 3.1 Pro 的同期得分。連結 Gmail 的跨 session 個人記憶優先向 Plus 與 Pro 用戶推出，免費用戶預計數週內跟進。</p><p><strong>第二</strong>，GPT-5.5 Instant 成為免費預設，是 OpenAI 有意識的平台鎖定策略。ChatGPT 月活超過六億，免費用戶佔絕大多數。當六億人每日高頻接觸前沿 AI 品質，習慣一旦形成，遷移至 Claude.ai 或 Gemini 的轉換成本將大幅提高。對比 Anthropic，Claude.ai 免費層預設較 Mythos 或 Opus 4.7 更輕量的模型版本；Google Gemini 免費層亦以 Flash 變體承接大多數流量。OpenAI 以最快的前沿模型承接免費用戶，賭的是「智能品質作為免費 moat」的長期回報——以用戶規模碾壓競爭對手的商業轉化效率。</p><p><strong>第三</strong>，第二序效應聚焦三點。其一，品質基準的下錨效應：六億人日常接觸的 AI 品質，將成為開發者與企業評估「夠好」的隱性標準，Anthropic 與 Google 在 API 定價的溢價說服力受到更嚴格審視。其二，免費用戶資料飛輪：GPT-5.5 Instant 大規模真實部署產生海量對話資料，其中高質量 RLHF 信號的密度將加速下一代模型訓練，競爭對手需維持相當規模的真實用戶部署才能抗衡。其三，跨 session Gmail 個人記憶向免費層開放，代表 OpenAI 開始構建個人數據護城河——此差異化能力目前 Anthropic 與 Google 尚未在免費層提供，一旦普及，將深度鎖定消費用戶的日常 AI 依賴。</p>"
+    },
+    {
+      "id": "pulse-2026-05-12-15-google-project-mariner-shutdown",
+      "ts": "2026-05-12T15:00:00+08:00",
+      "title": "Google 悄然關停 Project Mariner・17 個月視覺瀏覽代理實驗終止・截圖驅動路線敗給 API 層代理架構",
+      "source": "Android Authority",
+      "url": "https://www.androidauthority.com/google-project-mariner-shutdown-3664323/",
+      "blurb": "Google DeepMind 於 5 月 4 日無公告關停 Project Mariner——17 個月的自主網路瀏覽代理實驗，以持續截圖與視覺推理操作 Chrome；功能轉整合進 Gemini Agent 與 Chrome 自動瀏覽。關停確認視覺截圖路線在速度與成本上敗給以 API 與文件層為基礎的代理架構，是行業最具說服力的大廠戰略判決。",
+      "editorial": "<p><strong>第一</strong>，Google DeepMind 於 5 月 4 日靜默關停 Project Mariner，終結一個自 Google I/O 2025 起、歷時 17 個月的自主網路瀏覽代理實驗。Mariner 的設計核心是讓 Gemini 以類人方式操作 Chrome：持續截圖、辨識頁面元素、點擊按鈕、填寫表單，並可在 Expedia 等網站完成旅遊預訂，是 frontier lab 中技術規格最完整的視覺代理嘗試。2026 年 3 月 Wired 率先報導 Google 已重新調配 Mariner 部分人員，為關停提前埋下信號。現有技術成果分散整合進 Gemini Agent 與 Chrome 的「自動瀏覽」功能，不以獨立產品形式存續。</p><p><strong>第二</strong>，Mariner 的終止是對「視覺截圖驅動代理」路線的明確否決。截圖推理的根本問題在於速度與成本：每次操作皆需截圖加視覺模型推理，延遲積累至秒級，且運算成本顯著高於直接操作 DOM 或結構化 API；視覺定位亦因前端版本更新而頻繁失效，可靠性低於 API 層操作。相對地，以文件與代碼層運作的代理（如 Claude Code 子代理）透過結構化 API 調用，速度更快、成本更低、對環境變化容忍度更高。Mariner 的關停等同 Google 以自身代價為整個行業完成視覺代理路線的壓力測試，並投出反對票。</p><p><strong>第三</strong>，對企業軟體生態，此決定短期形成緩衝：視覺代理若成熟，可繞過 SAP、Salesforce、Workday 等的 API 限制直接操作介面，對供應商生態構成繞道威脅。Mariner 的告終暫解此壓力，但 Gemini Agent 以 API 優先路線重新進攻，意味威脅的形式改變而非消失。對 Anthropic 的 Claude Computer Use——同樣基於視覺截圖的電腦使用能力——Google 的判決是清晰的戰略警示：在商業規模部署中，視覺代理的可靠性、速度與成本遠未達到生產閾值。對 RPA 廠商（UiPath、Automation Anywhere），視覺路線的暫時失利是短期利好，核心客戶遷移 AI 代理的時間線推後；但 API 代理對 RPA 的長期替代趨勢未變，只是到達路徑與時間表發生轉移。</p>"
+    },
+    {
+      "id": "pulse-2026-05-12-15-anthropic-claude-code-autonomous",
+      "ts": "2026-05-12T15:00:00+08:00",
+      "title": "Anthropic 發布 Claude Code 全自主工程代理套件・Auto Mode 雙階段分類器取代逐步授權・Mercado Libre 23,000 名工程師目標 Q3 達九成自主",
+      "source": "Anthropic",
+      "url": "https://www.anthropic.com/news/enabling-claude-code-to-work-more-autonomously",
+      "blurb": "Anthropic 於 Code with Claude 2026 大會（5/6–7）發布 Claude Code 全自主化套件：Auto Mode 以雙階段分類器決定每步授權需求、子代理支援並行開發、Hooks 自動觸發 CI/CD 動作、背景任務維持長執行程序；全套由 Sonnet 4.5 驅動，API 及企業限額同步翻倍，Mercado Libre 23,000 名工程師宣告 Q3 達成九成自主代碼，標誌 AI 編程工具正式升格為工程代理基礎設施。",
+      "editorial": "<p><strong>第一</strong>，Anthropic 於 5 月 6 至 7 日的 Code with Claude 2026 開發者大會發布 Claude Code 全自主化套件，四項核心功能同步上線：Auto Mode（雙階段分類器評估每個工具調用是否需人工批准，取代傳統逐步授權彈窗）、子代理（主代理並行派發子代理，如一個負責後端 API 建構、另一個同步開發前端）、Hooks（在代碼變更後自動觸發測試套件、提交前執行 Lint 等 CI/CD 鉤子）、背景任務（維持開發伺服器等長執行程序不中斷）。全套功能由 Sonnet 4.5 驅動，Pro/Max/Team/企業版使用限額同步翻倍。Mercado Libre 產品總監 Cat Wu 在大會宣告，其 23,000 名工程師組織目標於 Q3 2026 實現九成自主代碼。</p><p><strong>第二</strong>，此次發布標誌 AI 代碼工具從「輔助開發」到「工程代理基礎設施」的正式升格。Auto Mode 的雙階段分類架構是關鍵工程創新：第一層快速分類器以低算力處理大多數工具調用，僅將風險模糊的操作升級至深度評估，使代理在多數情境下可連續數小時無中斷運行。Hooks 直接嵌入 GitHub Actions、Jenkins 等現有 CI/CD 管線，工程師無需修改既有工作流即可啟用 AI 代理，大幅降低採用摩擦力。Mercado Libre 的九成目標若如期實現，將成為首個有完整工程人員規模的真實案例，證明 AI 代理可系統性替代人類工程師在代碼決策層的絕大多數判斷——此案例的說服力將比任何 benchmark 更直接影響企業 CIO 的下一輪 AI 採購決策。</p><p><strong>第三</strong>，第二序效應有三個維度。其一，對軟體工程職業：若 Q3 實現九成自主，每名工程師的實際產出等同五至十名傳統工程師在特定任務類別的成果，AI 工程師（能有效管理代理並定義目標框架的人）與傳統代碼工人的薪酬分化將在 18 個月內顯現。其二，對開發工具市場：Claude Code 的 Hooks 與子代理架構，將測試平台、代碼審查工具、任務追蹤系統的功能納入代理協調範疇，逐步侵蝕 GitHub Copilot、Cursor 等單功能工具的必要性。其三，對 OpenAI 競爭格局：Codex-compatible API 雖具規模，但在多代理協調、持久記憶（Dreaming）與自主分類器三層能力的整合度上，目前尚無完整對標，Anthropic 正在代碼代理這一商業高地建立可量化的先發差距。</p>"
+    },
     {
       "id": "pulse-2026-05-12-14-deepseek-45b-china-big-fund",
       "ts": "2026-05-12T14:00:00+08:00",
@@ -230,54 +257,6 @@
       "source": "Bloomberg",
       "url": "https://www.bloomberg.com/news/articles/2026-05-11/alphabet-plans-debut-yen-bond-sale-as-ai-race-accelerates",
       "blurb": "Alphabet 宣告首次在日本發行日圓計價債券，為 AI 競賽持續融資；同步上修 2026 年全年資本支出至 1,900 億美元（前估 1,850 億），在 Google Cloud 與 Anthropic 深度整合後再度以鉅額資本表態；Alphabet 市值已超越 Nvidia 成全球最高，持續以「擁有最多 AI 堆疊」的優勢獲市場青睞。"
-    },
-    {
-      "id": "pulse-2026-05-10-xai-neocloud",
-      "ts": "2026-05-10T09:00:00+08:00",
-      "title": "TechCrunch 分析：xAI 算力租賃轉型恐示 Grok 前線 AI 競爭已實質退場",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/05/10/were-feeling-cynical-about-xais-big-deal-with-anthropic/",
-      "blurb": "TechCrunch 發表分析指出，xAI 將 Colossus 全部算力租給 Anthropic 的決定暗示公司實質轉型為 neocloud 算力租賃商，而非前線 AI 模型研發競爭者；此舉雖改善財務，卻引發外界質疑 Grok 能否持續追趕 GPT-5.5 與 Claude，動搖 xAI 「前瞻 AI 創新者」的核心定位。"
-    },
-    {
-      "id": "pulse-2026-05-09-google-gemma4-apache",
-      "ts": "2026-05-09T10:00:00+08:00",
-      "title": "Google 發布 Gemma 4・首採 Apache 2.0 授權破除商業壁壘・31B 旗艦模型 AIME 2026 達 89.2%",
-      "source": "VentureBeat",
-      "url": "https://venturebeat.com/technology/google-releases-gemma-4-under-apache-2-0-and-that-license-change-may-matter",
-      "blurb": "Google DeepMind 推出 Gemma 4 系列，首度採用標準 Apache 2.0 授權，取消前代自定義條款所附帶的商業部署限制，與 Qwen、Mistral 開源生態一致；四款模型含 31B 稠密、26B MoE（256K context）及面向手機嵌入設備的 E2B/E4B 邊緣型，31B 模型在 AIME 2026 達 89.2%、LiveCodeBench v6 達 80.0%，授權開放程度大幅提升，將加速企業及研究機構規模化部署。"
-    },
-    {
-      "id": "pulse-2026-05-09-nvidia-40b-equity",
-      "ts": "2026-05-09T10:00:00+08:00",
-      "title": "Nvidia 2026 年 AI 股權投資突破 400 億美元・IREN 21 億、Corning 32 億光纖廠協議同步揭示",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/05/09/nvidia-embraces-ai-investor-topping-40-billion-in-equity-bets-2026.html",
-      "blurb": "Nvidia 2026 年對外 AI 股權投資承諾已突破 400 億美元，本週新增：與雲端算力業者 IREN 簽署最高 21 億美元協議，並與 Corning 達成 32 億美元光纖工廠合作（北卡州、德州各一），新廠預計增加美國光纖產能 10 倍，創造逾 3,000 個就業機會；Nvidia 正從晶片供應商轉型為 AI 基礎設施生態系核心投資方。"
-    },
-    {
-      "id": "pulse-2026-05-08-musk-altman-trial-week2",
-      "ts": "2026-05-08T22:00:00+08:00",
-      "title": "Musk v. Altman 第二週：Shivon Zilis 揭馬斯克曾以 Tesla 董席招募 Altman，下週 Sutskever 與 Nadella 出庭",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com/2026/05/08/1137008/musk-v-altman-week-2-openai-fires-back-and-shivon-zilis-reveals-that-musk-tried-to-poach-sam-altman/",
-      "blurb": "Musk v. Altman 聯邦審判第二週震撼：OpenAI 元老暨馬斯克四子之母 Shivon Zilis 出庭指馬斯克曾以 Tesla 董事會席位招募 Altman；Greg Brockman 反駁指馬斯克親自要求設立營利部門並爭奪「絕對控制權」；本週 Ilya Sutskever 與 Microsoft CEO Satya Nadella 將出庭，陪審諮詢裁決緊隨其後，判決將對 AI 非營利轉型制度產生深遠影響。"
-    },
-    {
-      "id": "pulse-2026-05-08-anthropic-30b-revenue",
-      "ts": "2026-05-08T20:00:00+08:00",
-      "title": "Anthropic 確認年化營收突破 300 億美元・從 2025 年底 90 億到今日創史上最快成長紀錄",
-      "source": "VentureBeat",
-      "url": "https://venturebeat.com/technology/anthropic-says-it-hit-a-30-billion-revenue-run-rate-after-crazy-80x-growth",
-      "blurb": "Anthropic CEO Dario Amodei 親自確認公司年化營收突破 300 億美元，從 2025 年底 90 億、2026 年 2 月 140 億、3 月 190 億一路攀升；Salesforce 花費 20 年才達到的收益基準 Anthropic 不到三年即達成，Claude Code 企業爆量需求成為主要驅動力，凸顯 AI 應用飛輪效應正在加速運轉。"
-    },
-    {
-      "id": "pulse-2026-05-08-anthropic-80x-colossus",
-      "ts": "2026-05-08T12:00:00+08:00",
-      "title": "Fortune：Anthropic Q1 成長 80 倍，算力告急緊急租用馬斯克 Colossus 超算中心",
-      "source": "Fortune",
-      "url": "https://fortune.com/2026/05/08/anthropic-80fold-growth-quarter-renting-elon-musk-data-center/",
-      "blurb": "Fortune 報導，Anthropic 因 Claude Code 爆量需求算力嚴重告急，緊急租用競爭對手 xAI 位於孟菲斯的 Colossus 超算中心應急；Q1 年化收入成長高達 80 倍，凸顯 frontier AI 企業高速擴張期面臨的基礎設施挑戰，亦顯示 xAI 超算中心已成業界共用算力資源，AI 競爭與合作邊界日趨模糊。"
     }
   ],
   "_note": "seeded by Peter 2026-05-10 — cloud routine ai-desk-pulse 每 2 小時自動更新"
