@@ -4,188 +4,138 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Creator Toolkit · AI DESK</title>
-<meta name="description" content="AI 創作者工具 + 學習資源完整目錄。免費資源優先 · 含 YouTube 教學連結。AI 生圖 / 影片 / 編程 / 做網站 / 手機介面 / 音樂 / 設計 / Agent。">
-<meta property="og:title" content="Creator Toolkit · AI DESK">
-<meta property="og:description" content="AI 創作者工具 + 學習資源完整目錄 · 免費資源優先">
+<meta name="description" content="AI 創作者工具 + 學習資源完整目錄。YouTube 課程優先 · 中文為主 · 含官方 / Pricing / Docs。">
 <meta property="og:image" content="https://ai-desk-tw.netlify.app/assets/og-cover.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+TC:wght@400;500;700;900&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
 <style>
 :root {
-  --bg: #fafafa;
-  --bg-card: #ffffff;
-  --bg-soft: #f5f5f7;
-  --text: #1c1c1e;
-  --text-soft: #6c6c70;
-  --text-mute: #a0a0a5;
-  --border: #e5e5ea;
-  --accent: #a855f7;
-  --accent-hover: #9333ea;
-  --free: #10b981;
-  --paid: #f59e0b;
-  --premium: #ef4444;
-  --youtube: #ff0000;
+  --bg: #fafafa; --bg-card: #fff; --bg-soft: #f5f5f7;
+  --text: #1c1c1e; --text-soft: #6c6c70; --text-mute: #a0a0a5;
+  --border: #e5e5ea; --accent: #a855f7; --accent-hover: #9333ea;
+  --free: #10b981; --paid: #f59e0b; --premium: #ef4444; --youtube: #ff0000;
   --shadow-sm: 0 1px 2px rgba(0,0,0,0.04);
   --shadow: 0 4px 16px rgba(0,0,0,0.08);
   --shadow-lg: 0 12px 32px rgba(0,0,0,0.12);
   --radius: 14px;
-  --radius-sm: 8px;
 }
 * { box-sizing: border-box; }
-body { background: var(--bg); color: var(--text); margin: 0; padding: 0; font-family: "Inter", "Noto Sans TC", -apple-system, BlinkMacSystemFont, sans-serif; line-height: 1.6; -webkit-font-smoothing: antialiased; }
-a { color: var(--accent); text-decoration: none; transition: color 0.15s; }
+body { background: var(--bg); color: var(--text); margin: 0; font-family: "Inter","Noto Sans TC",-apple-system,sans-serif; line-height: 1.6; -webkit-font-smoothing: antialiased; }
+a { color: var(--accent); text-decoration: none; }
 a:hover { color: var(--accent-hover); }
-
 .wrap { max-width: 1280px; margin: 0 auto; padding: 0 1.5rem; }
 
-.nav { background: rgba(255,255,255,0.85); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 50; padding: 1rem 0; }
+.nav { background: rgba(255,255,255,0.85); backdrop-filter: blur(20px); border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 50; padding: 1rem 0; }
 .nav-inner { display: flex; justify-content: space-between; align-items: center; max-width: 1280px; margin: 0 auto; padding: 0 1.5rem; }
-.nav a { font-family: "JetBrains Mono", monospace; font-size: 0.82rem; color: var(--text-soft); }
+.nav a { font-family: "JetBrains Mono",monospace; font-size: 0.82rem; color: var(--text-soft); }
 .nav a:hover { color: var(--accent); }
-.nav .logo { font-weight: 700; color: var(--text); }
 
-.hero { padding: 3rem 0 2rem; }
-.hero h1 { font-size: clamp(2rem, 5vw, 3.4rem); margin: 0 0 0.8rem; letter-spacing: -0.02em; color: var(--text); font-weight: 800; }
-.hero .lead { color: var(--text-soft); font-size: 1.05rem; line-height: 1.7; max-width: 720px; }
+.hero { padding: 2.5rem 0 1rem; }
+.hero h1 { font-size: clamp(2rem,5vw,3.2rem); margin: 0 0 0.5rem; letter-spacing: -0.02em; font-weight: 800; }
+.hero .lead { color: var(--text-soft); font-size: 1rem; line-height: 1.6; max-width: 720px; }
 
-.cat-tabs { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 2rem 0; padding: 0.4rem; background: var(--bg-soft); border-radius: 100px; max-width: max-content; }
-.cat-tab { padding: 0.55rem 1.1rem; background: transparent; border: none; color: var(--text-soft); cursor: pointer; font-family: inherit; font-size: 0.88rem; font-weight: 500; border-radius: 100px; transition: all 0.18s; text-decoration: none; display: inline-flex; align-items: center; gap: 0.3rem; }
+.cat-tabs { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 1.5rem 0 2rem; padding: 0.5rem; background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius); box-shadow: var(--shadow-sm); position: sticky; top: 4rem; z-index: 40; }
+.cat-tab { padding: 0.6rem 1.1rem; color: var(--text-soft); cursor: pointer; font-size: 0.92rem; font-weight: 600; border-radius: 8px; transition: all 0.18s; text-decoration: none; white-space: nowrap; }
 .cat-tab:hover { background: rgba(168,85,247,0.08); color: var(--accent); }
-.cat-tab.active { background: var(--bg-card); color: var(--text); box-shadow: var(--shadow-sm); }
+.cat-tab.active { background: var(--accent); color: white; }
 
-.section-h { display: flex; align-items: center; gap: 0.7rem; margin: 3rem 0 1.2rem; }
-.section-h h2 { font-size: 1.6rem; margin: 0; color: var(--text); font-weight: 700; }
-.section-h .badge { font-family: "JetBrains Mono", monospace; font-size: 0.72rem; color: var(--text-mute); }
+.section-h { display: flex; align-items: baseline; gap: 0.8rem; margin: 2.5rem 0 1rem; }
+.section-h h2 { font-size: 1.5rem; margin: 0; font-weight: 700; }
+.section-h .badge { font-family: "JetBrains Mono",monospace; font-size: 0.72rem; color: var(--text-mute); }
 
-.tier-banner { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 1.5rem; }
-.tier-pill { padding: 0.35rem 0.8rem; border-radius: 100px; font-family: "JetBrains Mono", monospace; font-size: 0.72rem; font-weight: 600; }
-.tier-pill.free { background: rgba(16,185,129,0.1); color: var(--free); }
-.tier-pill.freemium { background: rgba(245,158,11,0.1); color: var(--paid); }
-.tier-pill.paid { background: rgba(239,68,68,0.1); color: var(--premium); }
+/* YouTube 區 - 大卡片含縮圖 */
+.yt-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(310px, 1fr)); gap: 1.5rem; margin-bottom: 3rem; }
+.yt-card { background: var(--bg-card); border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow-sm); transition: all 0.2s; border: 1px solid var(--border); }
+.yt-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-lg); }
+.yt-card a { color: inherit; text-decoration: none; display: block; }
+.yt-thumb { background: linear-gradient(135deg, #ff0000 0%, #cc0000 100%); height: 160px; position: relative; display: flex; align-items: center; justify-content: center; }
+.yt-thumb::before { content: '▶'; color: white; font-size: 3.5rem; opacity: 0.9; }
+.yt-thumb .yt-label { position: absolute; top: 0.8rem; right: 0.8rem; background: rgba(0,0,0,0.7); color: white; padding: 0.2rem 0.5rem; border-radius: 4px; font-family: "JetBrains Mono",monospace; font-size: 0.65rem; font-weight: 700; }
+.yt-body { padding: 1.2rem; }
+.yt-body h3 { margin: 0 0 0.4rem; font-size: 1.05rem; line-height: 1.4; color: var(--text); }
+.yt-meta { font-family: "JetBrains Mono",monospace; font-size: 0.72rem; color: var(--text-mute); margin-bottom: 0.5rem; }
+.yt-desc { color: var(--text-soft); font-size: 0.88rem; line-height: 1.55; margin: 0; }
+.yt-go { color: var(--accent); font-weight: 600; font-size: 0.85rem; margin-top: 0.7rem; display: inline-block; }
 
-.cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(310px, 1fr)); gap: 1.2rem; }
-.card { background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.4rem; transition: all 0.2s; position: relative; overflow: hidden; }
+/* 一般課程卡 - 小一點 */
+.cc-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1rem; }
+.cc-card { background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.2rem; transition: all 0.2s; }
+.cc-card:hover { transform: translateY(-2px); box-shadow: var(--shadow); }
+.cc-card a { color: inherit; text-decoration: none; display: block; }
+.cc-card.free { border-left: 3px solid var(--free); }
+.cc-card.paid { border-left: 3px solid var(--paid); }
+.cc-card h3 { margin: 0 0 0.3rem; font-size: 1rem; color: var(--text); }
+.cc-card .cc-type { display: inline-block; padding: 0.15rem 0.5rem; border-radius: 100px; font-family: "JetBrains Mono",monospace; font-size: 0.65rem; font-weight: 700; margin-bottom: 0.5rem; text-transform: uppercase; }
+.cc-card .cc-type.free { background: rgba(16,185,129,0.1); color: var(--free); }
+.cc-card .cc-type.paid { background: rgba(245,158,11,0.1); color: var(--paid); }
+.cc-card .cc-meta { font-family: "JetBrains Mono",monospace; font-size: 0.72rem; color: var(--text-mute); margin-bottom: 0.5rem; }
+.cc-card p { color: var(--text-soft); font-size: 0.85rem; margin: 0.5rem 0 0.6rem; line-height: 1.55; }
+.cc-card .cc-go { color: var(--accent); font-weight: 600; font-size: 0.85rem; }
+
+/* Tools 區 */
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); gap: 1.2rem; }
+.card { background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.3rem; transition: all 0.2s; position: relative; }
 .card:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); border-color: var(--accent); }
-.card .ribbon { position: absolute; top: 1rem; right: 1rem; padding: 0.2rem 0.6rem; border-radius: 100px; font-family: "JetBrains Mono", monospace; font-size: 0.65rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; }
+.card .ribbon { position: absolute; top: 1rem; right: 1rem; padding: 0.2rem 0.6rem; border-radius: 100px; font-family: "JetBrains Mono",monospace; font-size: 0.65rem; font-weight: 700; }
 .card .ribbon.free { background: var(--free); color: white; }
 .card .ribbon.freemium { background: var(--paid); color: white; }
 .card .ribbon.paid { background: var(--premium); color: white; }
-.card .vendor { font-family: "JetBrains Mono", monospace; font-size: 0.7rem; color: var(--text-mute); text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 0.3rem; }
-.card h3 { font-size: 1.2rem; margin: 0 0 0.5rem; color: var(--text); font-weight: 700; }
-.card .price { font-family: "JetBrains Mono", monospace; font-size: 0.88rem; color: var(--free); font-weight: 600; margin-bottom: 0.7rem; }
-.card .price.paid { color: var(--paid); }
-.card .price.premium { color: var(--premium); }
-.card .highlight { color: var(--text-soft); font-size: 0.92rem; line-height: 1.6; margin: 0.7rem 0; padding-left: 0.7rem; border-left: 3px solid var(--accent); }
+.card .vendor { font-family: "JetBrains Mono",monospace; font-size: 0.7rem; color: var(--text-mute); text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 0.3rem; }
+.card h3 { font-size: 1.15rem; margin: 0 0 0.4rem; font-weight: 700; }
+.card .price { font-family: "JetBrains Mono",monospace; font-size: 0.85rem; color: var(--free); font-weight: 600; margin-bottom: 0.7rem; padding: 0.3rem 0.5rem; background: rgba(16,185,129,0.05); border-left: 2px solid var(--free); }
+.card .price.paid { color: var(--paid); background: rgba(245,158,11,0.05); border-color: var(--paid); }
+.card .price.premium { color: var(--premium); background: rgba(239,68,68,0.05); border-color: var(--premium); }
+.card .highlight { color: var(--text-soft); font-size: 0.9rem; line-height: 1.55; margin: 0.7rem 0; padding-left: 0.6rem; border-left: 3px solid var(--accent); }
 .card .strengths { display: flex; flex-wrap: wrap; gap: 0.3rem; margin: 0.7rem 0; }
-.card .strengths span { background: var(--bg-soft); color: var(--text-soft); font-size: 0.72rem; padding: 0.2rem 0.6rem; border-radius: 100px; }
-.card .links { display: flex; gap: 0.6rem; flex-wrap: wrap; margin-top: 1rem; padding-top: 1rem; border-top: 1px solid var(--border); }
-.card .links a { font-size: 0.85rem; font-weight: 500; padding: 0.35rem 0.8rem; border-radius: var(--radius-sm); background: var(--bg-soft); }
+.card .strengths span { background: var(--bg-soft); color: var(--text-soft); font-size: 0.7rem; padding: 0.2rem 0.6rem; border-radius: 100px; }
+.card .links { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 1rem; padding-top: 1rem; border-top: 1px solid var(--border); }
+.card .links a { font-size: 0.82rem; font-weight: 500; padding: 0.3rem 0.7rem; border-radius: 6px; background: var(--bg-soft); color: var(--accent); }
 .card .links a:hover { background: var(--accent); color: white; }
-.card .learn { margin-top: 0.8rem; padding-top: 0.8rem; border-top: 1px dashed var(--border); display: flex; flex-direction: column; gap: 0.3rem; }
-.card .learn-label { font-family: "JetBrains Mono", monospace; font-size: 0.7rem; color: var(--free); font-weight: 600; margin-bottom: 0.2rem; }
-.card .learn a { font-size: 0.82rem; color: var(--free); }
-.card .learn a:hover { color: #047857; }
+.empty { padding: 3rem; text-align: center; color: var(--text-mute); background: var(--bg-soft); border-radius: var(--radius); }
 
-.empty { padding: 4rem 2rem; text-align: center; color: var(--text-mute); background: var(--bg-soft); border-radius: var(--radius); }
-
-.hot-section { margin: 2rem 0 3rem; padding: 2rem; background: linear-gradient(135deg, rgba(168,85,247,0.05), rgba(16,185,129,0.05)); border-radius: var(--radius); border: 1px solid var(--border); }
-.hot-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1rem; }
-.hot-card-link { text-decoration: none; color: inherit; display: block; }
-.hot-card { background: var(--bg-card); border-radius: var(--radius); padding: 1.2rem; position: relative; transition: all 0.2s; display: flex; gap: 1rem; align-items: flex-start; border: 1px solid var(--border); }
-.hot-card:hover { transform: translateY(-2px); box-shadow: var(--shadow); border-color: var(--accent); }
-.hot-rank { font-family: "JetBrains Mono", monospace; font-size: 1.6rem; font-weight: 800; color: var(--accent); min-width: 50px; }
-.hot-body h3 { margin: 0 0 0.3rem; font-size: 1rem; color: var(--text); }
-.hot-body .hot-vendor { font-family: "JetBrains Mono", monospace; font-size: 0.7rem; color: var(--text-mute); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 0.2rem; }
-.hot-body p { color: var(--text-soft); font-size: 0.82rem; margin: 0; line-height: 1.5; }
-
-/* Course Section */
-.courses-wrap { margin-top: 4rem; padding-top: 3rem; border-top: 2px solid var(--border); }
-.course-tabs { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 1.5rem; }
-.ctab { padding: 0.5rem 1rem; border-radius: 100px; background: var(--bg-soft); color: var(--text-soft); font-size: 0.82rem; font-weight: 500; cursor: pointer; border: none; transition: all 0.18s; font-family: inherit; }
-.ctab.active { color: white; }
-.ctab.active.free { background: var(--free); }
-.ctab.active.youtube { background: var(--youtube); }
-.ctab.active.paid { background: var(--paid); }
-.ctab.active.all { background: var(--text); }
-.ctab:hover { color: var(--text); }
-
-.course-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 1.2rem; }
-.ccard { background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.4rem; transition: all 0.2s; cursor: pointer; }
-.ccard:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); }
-.ccard.youtube { border-left: 4px solid var(--youtube); }
-.ccard.free { border-left: 4px solid var(--free); }
-.ccard.paid { border-left: 4px solid var(--paid); }
-.ccard .ctype { display: inline-block; padding: 0.2rem 0.6rem; border-radius: 100px; font-family: "JetBrains Mono", monospace; font-size: 0.66rem; font-weight: 700; margin-bottom: 0.5rem; text-transform: uppercase; }
-.ccard .ctype.youtube { background: rgba(255,0,0,0.1); color: var(--youtube); }
-.ccard .ctype.free { background: rgba(16,185,129,0.1); color: var(--free); }
-.ccard .ctype.paid { background: rgba(245,158,11,0.1); color: var(--paid); }
-.ccard h3 { font-size: 1.05rem; margin: 0 0 0.4rem; color: var(--text); font-weight: 700; }
-.ccard .meta { font-family: "JetBrains Mono", monospace; font-size: 0.72rem; color: var(--text-mute); margin-bottom: 0.7rem; }
-.ccard p { color: var(--text-soft); font-size: 0.88rem; margin: 0 0 0.8rem; line-height: 1.6; }
-.ccard .go { color: var(--accent); font-weight: 600; font-size: 0.88rem; }
-
-@media (max-width: 700px) {
-  .cards { grid-template-columns: 1fr; }
-  .course-grid { grid-template-columns: 1fr; }
-  .hero { padding: 2rem 0 1rem; }
-  .cat-tabs { padding: 0.3rem; }
-}
+@media (max-width: 700px) { .yt-grid, .cc-grid, .cards { grid-template-columns: 1fr; } .cat-tabs { top: 3.5rem; } }
 </style>
 </head>
 <body>
 
 <nav class="nav">
   <div class="nav-inner">
-    <a href="/" class="logo">← AI DESK</a>
-    <span style="color: var(--text-mute); font-family: 'JetBrains Mono', monospace; font-size: 0.78rem;">CREATOR TOOLKIT</span>
+    <a href="/">← AI DESK</a>
+    <span style="color: var(--text-mute); font-family: 'JetBrains Mono',monospace; font-size: 0.78rem;">CREATOR TOOLKIT</span>
     <a href="/latest">最新 daily →</a>
   </div>
 </nav>
 
 <div class="wrap">
-
 <section class="hero">
   <h1 id="cat-title">Creator Toolkit</h1>
-  <p class="lead">AI 創作者工具完整目錄 · <strong style="color: var(--free)">免費資源優先</strong> · 中文 YouTube 教學單獨分類 · 含官方 / Pricing / Docs / 學習資源連結。新手 + 進階都涵蓋。</p>
+  <p class="lead">AI 創作者工具完整目錄 · <strong style="color: var(--youtube)">YouTube 影片優先</strong> · 中文為主 / 英文為輔 · 含官方 / Pricing / Docs 連結</p>
 </section>
-
-<div class="hot-section">
-  <div class="section-h"><h2>熱門排行 · 全分類 Top 10</h2><span class="badge">最常被推薦的 AI 工具</span></div>
-  <div class="hot-grid" id="hot-grid"></div>
-</div>
 
 <div class="cat-tabs" id="cat-tabs"></div>
 
-<!-- 免費 Section -->
-<div id="free-section">
-  <div class="section-h"><h2>🆓 免費 / 開源工具</h2><span class="badge" id="free-count"></span></div>
-  <div class="cards" id="free-cards"></div>
+<!-- YouTube 區 - 最前面 -->
+<div id="youtube-section">
+  <div class="section-h"><h2>YouTube 影片教學</h2><span class="badge" id="yt-count"></span></div>
+  <div class="yt-grid" id="yt-grid"></div>
 </div>
 
-<!-- Freemium Section -->
-<div id="freemium-section">
-  <div class="section-h"><h2>💎 免費試用 (Freemium)</h2><span class="badge" id="freemium-count"></span></div>
-  <div class="cards" id="freemium-cards"></div>
+<!-- Tools 區 -->
+<div id="tools-section" style="display:none;">
+  <div class="section-h"><h2>工具列表（免費優先）</h2><span class="badge" id="tools-count"></span></div>
+  <div class="cards" id="tools-grid"></div>
 </div>
 
-<!-- Paid Section -->
+<!-- 文章 / 課程平台 / GitHub repo -->
+<div id="docs-section">
+  <div class="section-h"><h2>文章 · 平台課程 · GitHub repo</h2><span class="badge" id="docs-count"></span></div>
+  <div class="cc-grid" id="docs-grid"></div>
+</div>
+
+<!-- 付費課程 -->
 <div id="paid-section">
-  <div class="section-h"><h2>💰 付費工具</h2><span class="badge" id="paid-count"></span></div>
-  <div class="cards" id="paid-cards"></div>
+  <div class="section-h"><h2>付費深度課程</h2><span class="badge" id="paid-count"></span></div>
+  <div class="cc-grid" id="paid-grid"></div>
 </div>
-
-<!-- Courses Section -->
-<section class="courses-wrap">
-  <div class="section-h"><h2>📚 學習資源 · 課程連結</h2><span class="badge" id="course-count"></span></div>
-  <div class="course-tabs" id="course-tabs">
-    <button class="ctab active all" data-type="all">全部</button>
-    <button class="ctab youtube" data-type="youtube">📺 YouTube 免費</button>
-    <button class="ctab free" data-type="free">🆓 免費資源</button>
-    <button class="ctab paid" data-type="paid">💎 付費 cohort</button>
-  </div>
-  <div class="course-grid" id="course-grid"></div>
-</section>
 
 </div>
 
@@ -196,25 +146,54 @@ var CAT_LABELS = {
   design: 'AI 設計', agent: 'AI Agent / 自動化', research: '研究 / 搜尋', productivity: '生產力'
 };
 function getCat() {
+  var path = location.pathname.replace(/\/$/, '');
+  var m = path.match(/^\/toolkit\/([a-z]+)$/);
+  if (m && m[1] !== 'index') return m[1];
   var u = new URL(location.href);
   return u.searchParams.get('cat') || 'all';
 }
 function renderTabs(activeCat) {
-  var tabs = document.getElementById('cat-tabs');
-  tabs.innerHTML = Object.keys(CAT_LABELS).map(function(k){
-    return '<a class="cat-tab' + (k === activeCat ? ' active' : '') + '" href="/toolkit/' + (k === 'all' ? '' : '?cat=' + k) + '">' + CAT_LABELS[k] + '</a>';
+  document.getElementById('cat-tabs').innerHTML = Object.keys(CAT_LABELS).map(function(k){
+    return '<a class="cat-tab' + (k === activeCat ? ' active' : '') + '" href="/toolkit/' + (k === 'all' ? '' : k) + '">' + CAT_LABELS[k] + '</a>';
   }).join('');
 }
-function makeCard(t) {
+
+function makeYtCard(c) {
+  return '<div class="yt-card"><a href="' + c.url + '" target="_blank" rel="noopener">' +
+    '<div class="yt-thumb"><span class="yt-label">YOUTUBE</span></div>' +
+    '<div class="yt-body">' +
+      '<div class="yt-meta">' + c.provider + ' · ' + (c.topic || '') + '</div>' +
+      '<h3>' + c.title + '</h3>' +
+      '<p class="yt-desc">' + (c.highlight || '') + '</p>' +
+      '<span class="yt-go">前往觀看 →</span>' +
+    '</div></a></div>';
+}
+function makeCcCard(c) {
+  var isPaid = (c.type || '').indexOf('paid') > -1;
+  var typeLabel = {
+    'free-platform': '平台免費',
+    'free-github': 'GitHub 免費',
+    'free-docs': '官方文件',
+    'paid-cohort': '付費 cohort',
+    'paid-subscription': '付費訂閱'
+  }[c.type] || '免費';
+  return '<div class="cc-card ' + (isPaid ? 'paid' : 'free') + '"><a href="' + c.url + '" target="_blank" rel="noopener">' +
+    '<span class="cc-type ' + (isPaid ? 'paid' : 'free') + '">' + typeLabel + '</span>' +
+    '<h3>' + c.title + '</h3>' +
+    '<div class="cc-meta">' + c.provider + ' · ' + (c.topic || '') + (c.cost && c.cost !== 'free' && c.cost !== '免費' ? ' · ' + c.cost : '') + '</div>' +
+    '<p>' + (c.highlight || '') + '</p>' +
+    '<span class="cc-go">前往 →</span>' +
+  '</a></div>';
+}
+function makeToolCard(t) {
   var strengths = (t.strengths || []).map(function(s){return '<span>'+s+'</span>';}).join('');
-  var learn = (t.learn || []).map(function(l){return '<a href="' + l.url + '" target="_blank" rel="noopener">📖 ' + l.title + ' ↗</a>';}).join('');
-  var priceClass = t.tier === 'free' ? '' : (t.tier === 'paid' ? 'paid' : 'paid');
-  var tierLabel = {free:'FREE', freemium:'FREEMIUM', paid:'PAID'}[t.tier] || t.tier.toUpperCase();
+  var priceClass = t.tier === 'free' ? '' : (t.tier === 'paid' ? 'premium' : 'paid');
+  var tierLabel = {free:'FREE',freemium:'FREEMIUM',paid:'PAID'}[t.tier] || t.tier.toUpperCase();
   return '<div class="card">' +
     '<span class="ribbon ' + t.tier + '">' + tierLabel + '</span>' +
     '<div class="vendor">' + t.vendor + '</div>' +
     '<h3>' + t.name + '</h3>' +
-    '<div class="price ' + (t.tier === 'free' ? '' : (t.tier === 'paid' ? 'premium' : 'paid')) + '">' + (t.price || '?') + '</div>' +
+    '<div class="price ' + priceClass + '">' + (t.price || '?') + '</div>' +
     '<div class="strengths">' + strengths + '</div>' +
     (t.highlight ? '<p class="highlight">' + t.highlight + '</p>' : '') +
     '<div class="links">' +
@@ -222,102 +201,48 @@ function makeCard(t) {
       (t.pricing_url ? '<a href="' + t.pricing_url + '" target="_blank" rel="noopener">Pricing ↗</a>' : '') +
       (t.docs_url ? '<a href="' + t.docs_url + '" target="_blank" rel="noopener">Docs ↗</a>' : '') +
     '</div>' +
-    (learn ? '<div class="learn"><div class="learn-label">📖 學習資源</div>' + learn + '</div>' : '') +
   '</div>';
 }
-function renderTools(TK, cat) {
-  var filtered = TK.tools.filter(function(t){
-    if (cat === 'all') return true;
-    return t.category === cat || (t.subcat || []).indexOf(cat) > -1;
+
+function render(TK, cat) {
+  // YouTube 課程（全部都顯示，不依 cat filter）
+  var yts = (TK.courses || []).filter(function(c){return (c.type||'').indexOf('youtube') > -1;});
+  document.getElementById('yt-grid').innerHTML = yts.length ? yts.map(makeYtCard).join('') : '<div class="empty">沒有 YouTube 影片</div>';
+  document.getElementById('yt-count').textContent = yts.length + ' 個影片';
+
+  // 文章 / GitHub / 平台 課程
+  var docs = (TK.courses || []).filter(function(c){
+    var t = c.type || '';
+    return t.indexOf('youtube') < 0 && t.indexOf('paid') < 0;
   });
-  var free = filtered.filter(function(t){return t.tier === 'free';});
-  var freemium = filtered.filter(function(t){return t.tier === 'freemium';});
-  var paid = filtered.filter(function(t){return t.tier === 'paid';});
+  document.getElementById('docs-grid').innerHTML = docs.length ? docs.map(makeCcCard).join('') : '<div class="empty">沒有文章課程</div>';
+  document.getElementById('docs-count').textContent = docs.length + ' 個資源';
 
-  document.getElementById('free-cards').innerHTML = free.length ? free.map(makeCard).join('') : '<div class="empty">這個分類目前沒有完全免費的工具</div>';
-  document.getElementById('freemium-cards').innerHTML = freemium.length ? freemium.map(makeCard).join('') : '<div class="empty">這個分類目前沒有免費試用工具</div>';
-  document.getElementById('paid-cards').innerHTML = paid.length ? paid.map(makeCard).join('') : '<div class="empty">這個分類目前沒有付費工具</div>';
+  // 付費
+  var paids = (TK.courses || []).filter(function(c){return (c.type||'').indexOf('paid') > -1;});
+  document.getElementById('paid-grid').innerHTML = paids.length ? paids.map(makeCcCard).join('') : '<div class="empty">沒有付費課程</div>';
+  document.getElementById('paid-count').textContent = paids.length + ' 個課程';
 
-  document.getElementById('free-count').textContent = free.length + ' 個';
-  document.getElementById('freemium-count').textContent = freemium.length + ' 個';
-  document.getElementById('paid-count').textContent = paid.length + ' 個';
-
-  document.getElementById('free-section').style.display = (cat === 'all' || free.length) ? '' : 'none';
-  document.getElementById('freemium-section').style.display = (cat === 'all' || freemium.length) ? '' : 'none';
-  document.getElementById('paid-section').style.display = (cat === 'all' || paid.length) ? '' : 'none';
-}
-function makeCourseCard(c) {
-  var t = c.type || 'free-platform';
-  var typeClass = t.indexOf('youtube') > -1 ? 'youtube' : (t.indexOf('paid') > -1 ? 'paid' : 'free');
-  var typeLabel = {
-    'free-youtube': '📺 YouTube 免費',
-    'free-platform': '🆓 平台免費',
-    'free-github': '🆓 GitHub 免費',
-    'free-docs': '🆓 官方文件',
-    'paid-cohort': '💎 付費 cohort',
-    'paid-subscription': '💎 付費訂閱'
-  }[t] || '🆓 免費';
-  return '<a href="' + c.url + '" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;"><div class="ccard ' + typeClass + '"><span class="ctype ' + typeClass + '">' + typeLabel + '</span>' +
-    '<h3>' + c.title + '</h3>' +
-    '<div class="meta">' + c.provider + ' · ' + c.topic + (c.cost && c.cost !== 'free' ? ' · ' + c.cost : '') + '</div>' +
-    '<p>' + c.highlight + '</p>' +
-    '<span class="go">前往 →</span></div></a>';
-}
-function renderCourses(TK, filterType) {
-  var courses = TK.courses || [];
-  if (filterType !== 'all') {
-    courses = courses.filter(function(c){
-      var t = c.type || '';
-      if (filterType === 'youtube') return t.indexOf('youtube') > -1;
-      if (filterType === 'free') return t.indexOf('free') > -1 && t.indexOf('youtube') < 0;
-      if (filterType === 'paid') return t.indexOf('paid') > -1;
-      return true;
+  // Tools (filtered by cat)
+  if (cat !== 'all') {
+    var tools = TK.tools.filter(function(t){
+      return t.category === cat || (t.subcat || []).indexOf(cat) > -1;
     });
+    if (tools.length) {
+      document.getElementById('tools-section').style.display = '';
+      document.getElementById('tools-grid').innerHTML = tools.map(makeToolCard).join('');
+      document.getElementById('tools-count').textContent = tools.length + ' 個工具';
+    }
   }
-  document.getElementById('course-grid').innerHTML = courses.map(makeCourseCard).join('');
-  document.getElementById('course-count').textContent = courses.length + ' 個資源';
 }
 
-function renderHot(TK) {
-  // 熱門順序: Claude, ChatGPT, Cursor, Midjourney, v0, Runway, ElevenLabs, NotebookLM, Notion AI, Gemini
-  var hot_ids = ['claude','chatgpt','cursor','midjourney','v0','runway','elevenlabs','notebooklm','notion-ai','gemini'];
-  var hot = hot_ids.map(function(id, i){
-    var t = TK.tools.find(function(x){return x.id === id;});
-    if (!t) return null;
-    return {tool: t, rank: i + 1};
-  }).filter(Boolean);
-  document.getElementById('hot-grid').innerHTML = hot.map(function(h){
-    var t = h.tool;
-    return '<a href="' + t.official_url + '" target="_blank" rel="noopener" class="hot-card-link"><div class="hot-card">' +
-      '<span class="hot-rank">#' + h.rank + '</span>' +
-      '<div class="hot-body">' +
-        '<div class="hot-vendor">' + t.vendor + '</div>' +
-        '<h3>' + t.name + '</h3>' +
-        '<p>' + (t.highlight || '') + '</p>' +
-      '</div></div></a>';
-  }).join('');
-}
 var cat = getCat();
 document.getElementById('cat-title').textContent = (CAT_LABELS[cat] || 'Toolkit');
 renderTabs(cat);
 fetch('/data/creators-toolkit.json?_=' + Date.now())
   .then(function(r){return r.json();})
-  .then(function(TK){
-    renderTools(TK, cat);
-    renderCourses(TK, 'all');
-    renderHot(TK);
-    document.querySelectorAll('.ctab').forEach(function(b){
-      b.addEventListener('click', function(){
-        document.querySelectorAll('.ctab').forEach(function(x){x.classList.remove('active');});
-        b.classList.add('active');
-        renderCourses(TK, b.dataset.type);
-      });
-    });
-  })
-  .catch(function(e){
-    document.querySelector('.wrap').innerHTML += '<div class="empty">載入失敗 - ' + e + '</div>';
-  });
+  .then(function(TK){ render(TK, cat); })
+  .catch(function(e){ document.querySelector('.wrap').innerHTML += '<div class="empty">載入失敗 ' + e + '</div>'; });
 </script>
-
 </body>
 </html>

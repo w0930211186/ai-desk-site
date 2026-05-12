@@ -1462,7 +1462,8 @@
       "cost": "free",
       "topic": "LLM / RAG / Agents",
       "highlight": "Andrew Ng + 各大廠合開 · 1-2 小時短課 · 寫 prompt / 跑 agent 入門",
-      "type": "free-platform"
+      "type": "free-platform",
+      "thumbnail": "https://www.deeplearning.ai/favicon.ico"
     },
     {
       "title": "Anthropic 課程 (Claude API)",
@@ -1471,7 +1472,8 @@
       "cost": "free",
       "topic": "Claude API / Prompt Eng",
       "highlight": "官方 5 門課 · API basics / Prompt engineering / Real-world prompts",
-      "type": "free-github"
+      "type": "free-github",
+      "thumbnail": "https://github.githubassets.com/favicons/favicon-dark.png"
     },
     {
       "title": "OpenAI Academy",
@@ -1480,7 +1482,8 @@
       "cost": "free",
       "topic": "GPT / DALL-E / Sora",
       "highlight": "5/2026 新上線 · 跟 IBM / Common Sense 合作 · 含基礎到 advance",
-      "type": "free-platform"
+      "type": "free-platform",
+      "thumbnail": "https://openai.com/favicon.ico"
     },
     {
       "title": "Hugging Face NLP Course",
@@ -1489,7 +1492,8 @@
       "cost": "free",
       "topic": "Transformers / fine-tuning",
       "highlight": "開源模型 fine-tuning 學這個 · Llama / Qwen / DeepSeek 訓練必看",
-      "type": "free-platform"
+      "type": "free-platform",
+      "thumbnail": "https://huggingface.co/favicon.ico"
     },
     {
       "title": "Maven cohort courses (Eugene Yan, Jason Liu, Hamel Husain)",
@@ -1498,7 +1502,8 @@
       "cost": "$500-2000/cohort",
       "topic": "LLM applied / Evals / RAG",
       "highlight": "業界實務 cohort 制 · production-ready agent + RAG · 不便宜但回報高",
-      "type": "paid-cohort"
+      "type": "paid-cohort",
+      "thumbnail": "https://www.maven.com/favicon.ico"
     },
     {
       "title": "Coursera Generative AI Specialization",
@@ -1507,7 +1512,8 @@
       "cost": "$49/mo subscription",
       "topic": "Gen AI Foundations",
       "highlight": "非工程師入門 · Andrew Ng 教學 · 含中文字幕",
-      "type": "paid-subscription"
+      "type": "paid-subscription",
+      "thumbnail": "https://www.coursera.org/favicon.ico"
     },
     {
       "title": "fast.ai Practical Deep Learning",
@@ -1516,7 +1522,8 @@
       "cost": "free",
       "topic": "Deep Learning / PyTorch",
       "highlight": "從 code 學 ML · 不需數學背景 · 自學者社群最大",
-      "type": "free-platform"
+      "type": "free-platform",
+      "thumbnail": "https://www.fast.ai/favicon.ico"
     },
     {
       "title": "Stanford CS25 Transformers United",
@@ -1525,7 +1532,8 @@
       "cost": "free (YouTube)",
       "topic": "Transformer 架構深度",
       "highlight": "想理解 LLM 怎麼運作 · Stanford 公開課",
-      "type": "free-youtube"
+      "type": "free-youtube",
+      "thumbnail": "https://web.stanford.edu/favicon.ico"
     },
     {
       "title": "Andrej Karpathy: Neural Networks Zero to Hero",
@@ -1534,7 +1542,8 @@
       "cost": "free",
       "topic": "LLM 從零實作",
       "highlight": "OpenAI 共同創辦人親自教 · 從 nano-GPT 到 nano-llama · 想懂 LLM 怎麼運作必看",
-      "type": "free-youtube"
+      "type": "free-youtube",
+      "thumbnail": "https://www.youtube.com/s/desktop/4965577f/img/logos/favicon_144x144.png"
     },
     {
       "title": "3Blue1Brown · Neural Networks",
@@ -1543,7 +1552,8 @@
       "cost": "free",
       "topic": "視覺化 ML 數學",
       "highlight": "動畫解釋 backprop / attention · 數學白癡也能看懂",
-      "type": "free-youtube"
+      "type": "free-youtube",
+      "thumbnail": "https://www.youtube.com/s/desktop/4965577f/img/logos/favicon_144x144.png"
     },
     {
       "title": "Building LLM Applications · Lessons (Anthropic)",
@@ -1552,7 +1562,8 @@
       "cost": "free",
       "topic": "Claude API 實戰",
       "highlight": "Anthropic 官方 · 從 prompt 到 production agent 5 個課",
-      "type": "free-platform"
+      "type": "free-platform",
+      "thumbnail": ""
     },
     {
       "title": "Microsoft Generative AI for Beginners",
@@ -1561,7 +1572,8 @@
       "cost": "free",
       "topic": "Gen AI 入門 21 lessons",
       "highlight": "21 堂課從零入門 · Microsoft 官方 · 含中文版",
-      "type": "free-github"
+      "type": "free-github",
+      "thumbnail": "https://github.githubassets.com/favicons/favicon-dark.png"
     },
     {
       "title": "Anthropic Prompt Engineering Tutorial",
@@ -1570,7 +1582,8 @@
       "cost": "free",
       "topic": "Prompt Engineering",
       "highlight": "互動式 Jupyter notebook · 從基礎到進階 · 含挑戰題",
-      "type": "free-github"
+      "type": "free-github",
+      "thumbnail": "https://github.githubassets.com/favicons/favicon-dark.png"
     },
     {
       "title": "Cursor Skill 系列影片",
@@ -1579,7 +1592,8 @@
       "cost": "free",
       "topic": "Cursor IDE 教學",
       "highlight": "官方 + 社群影片 · Composer / Agent mode / .cursorrules 寫法",
-      "type": "free-youtube"
+      "type": "free-youtube",
+      "thumbnail": "https://www.youtube.com/s/desktop/4965577f/img/logos/favicon_144x144.png"
     },
     {
       "title": "Lovable / v0 / Bolt 對比影片",
@@ -1588,7 +1602,8 @@
       "cost": "free",
       "topic": "AI 建站工具比較",
       "highlight": "YouTube 搜尋 'v0 vs bolt vs lovable' 有 30+ 比較影片",
-      "type": "free-youtube"
+      "type": "free-youtube",
+      "thumbnail": "https://www.youtube.com/s/desktop/4965577f/img/logos/favicon_144x144.png"
     },
     {
       "title": "Hugging Face Diffusion Models Course",
@@ -1597,7 +1612,8 @@
       "cost": "free",
       "topic": "圖像生成模型",
       "highlight": "想自己 train Stable Diffusion / fine-tune 看這個",
-      "type": "free-platform"
+      "type": "free-platform",
+      "thumbnail": "https://huggingface.co/favicon.ico"
     },
     {
       "title": "Runway Academy",
@@ -1606,7 +1622,8 @@
       "cost": "free",
       "topic": "AI 影片創作",
       "highlight": "Runway 官方教學 · Gen-3 影片控制 · Motion brush / Image-to-Video",
-      "type": "free-platform"
+      "type": "free-platform",
+      "thumbnail": ""
     },
     {
       "title": "Midjourney Docs + Showcase",
@@ -1615,7 +1632,8 @@
       "cost": "free",
       "topic": "MJ prompt 寫法",
       "highlight": "官方 docs + showcase library · 學 prompt 結構 + 參考優秀作品",
-      "type": "free-docs"
+      "type": "free-docs",
+      "thumbnail": ""
     },
     {
       "title": "中文 AI 學習頻道 · 林俊瑋 (Jason Lin)",
@@ -1624,7 +1642,8 @@
       "cost": "free",
       "topic": "中文 AI 工具實戰",
       "highlight": "中文 creator · ChatGPT / Claude / Sora 實戰教學 · 適合中文觀眾",
-      "type": "free-youtube"
+      "type": "free-youtube",
+      "thumbnail": "https://www.youtube.com/s/desktop/4965577f/img/logos/favicon_144x144.png"
     },
     {
       "title": "Maven · Hamel Husain · LLM Evals",
@@ -1633,7 +1652,8 @@
       "cost": "$1500-2500/cohort",
       "topic": "LLM Evaluation",
       "highlight": "production-ready LLM 必修 · 評估 metric / dataset 設計 · 非工程師不適合",
-      "type": "paid-cohort"
+      "type": "paid-cohort",
+      "thumbnail": "https://www.maven.com/favicon.ico"
     },
     {
       "title": "OpenAI Cookbook",
@@ -1642,7 +1662,8 @@
       "cost": "free",
       "topic": "GPT API 範例",
       "highlight": "100+ 真實使用範例 · RAG / Function calling / Embedding 全部有",
-      "type": "free-github"
+      "type": "free-github",
+      "thumbnail": "https://github.githubassets.com/favicons/favicon-dark.png"
     },
     {
       "title": "papaya 電腦教室 · AI 教學系列",
@@ -1651,7 +1672,8 @@
       "cost": "免費",
       "topic": "AI 工具教學 · 中文",
       "type": "free-youtube",
-      "highlight": "台灣最大中文電腦教學頻道 · ChatGPT / Midjourney / Notion 完整入門系列"
+      "highlight": "台灣最大中文電腦教學頻道 · ChatGPT / Midjourney / Notion 完整入門系列",
+      "thumbnail": "https://www.youtube.com/s/desktop/4965577f/img/logos/favicon_144x144.png"
     },
     {
       "title": "林俊瑋 Jason Lin · AI 工具實戰",
@@ -1660,7 +1682,8 @@
       "cost": "免費",
       "topic": "中文 AI 工具實戰",
       "type": "free-youtube",
-      "highlight": "中文 AI creator 老司機 · Claude / Sora / Cursor 實戰教學"
+      "highlight": "中文 AI creator 老司機 · Claude / Sora / Cursor 實戰教學",
+      "thumbnail": "https://www.youtube.com/s/desktop/4965577f/img/logos/favicon_144x144.png"
     },
     {
       "title": "AI 工具人 · AI 工具評測",
@@ -1669,7 +1692,8 @@
       "cost": "免費",
       "topic": "AI 工具評測",
       "type": "free-youtube",
-      "highlight": "中文圈最齊全的 AI 工具評測 · 每週新工具 + 比較"
+      "highlight": "中文圈最齊全的 AI 工具評測 · 每週新工具 + 比較",
+      "thumbnail": "https://www.youtube.com/s/desktop/4965577f/img/logos/favicon_144x144.png"
     },
     {
       "title": "AI 思維 · 創作者 AI 教學",
@@ -1678,7 +1702,8 @@
       "cost": "免費",
       "topic": "中文 AI 創作",
       "type": "free-youtube",
-      "highlight": "創作者導向 · AI 圖文 + 影片 + Podcast 應用"
+      "highlight": "創作者導向 · AI 圖文 + 影片 + Podcast 應用",
+      "thumbnail": "https://www.youtube.com/s/desktop/4965577f/img/logos/favicon_144x144.png"
     },
     {
       "title": "智子情報 · AI 新聞解讀",
@@ -1687,7 +1712,8 @@
       "cost": "免費",
       "topic": "AI 產業新聞中文解讀",
       "type": "free-youtube",
-      "highlight": "frontier lab 新聞 + 模型發布 中文深度分析"
+      "highlight": "frontier lab 新聞 + 模型發布 中文深度分析",
+      "thumbnail": "https://www.youtube.com/s/desktop/4965577f/img/logos/favicon_144x144.png"
     },
     {
       "title": "曼報 ManReport · AI 新聞",
@@ -1696,7 +1722,8 @@
       "cost": "免費",
       "topic": "AI 新聞中文",
       "type": "free-youtube",
-      "highlight": "中文圈 AI 新聞每週整理 · 適合非技術背景"
+      "highlight": "中文圈 AI 新聞每週整理 · 適合非技術背景",
+      "thumbnail": "https://www.youtube.com/s/desktop/4965577f/img/logos/favicon_144x144.png"
     },
     {
       "title": "科技玩具庫 · AI 工具實測",
@@ -1705,7 +1732,8 @@
       "cost": "免費",
       "topic": "AI 工具實測",
       "type": "free-youtube",
-      "highlight": "工具實測導向 · 不講術語只看效果"
+      "highlight": "工具實測導向 · 不講術語只看效果",
+      "thumbnail": "https://www.youtube.com/s/desktop/4965577f/img/logos/favicon_144x144.png"
     },
     {
       "title": "電腦王阿達 · AI 工具導覽",
@@ -1714,7 +1742,8 @@
       "cost": "免費",
       "topic": "AI 工具中文導覽",
       "type": "free-youtube",
-      "highlight": "台灣老牌科技頻道 · AI 工具中文入門"
+      "highlight": "台灣老牌科技頻道 · AI 工具中文入門",
+      "thumbnail": "https://www.youtube.com/s/desktop/4965577f/img/logos/favicon_144x144.png"
     },
     {
       "title": "What's AI Bot · 國際 AI 新聞中文",
@@ -1723,7 +1752,8 @@
       "cost": "免費",
       "topic": "AI 新聞中文翻譯",
       "type": "free-youtube",
-      "highlight": "國外 AI 新聞中文翻譯解讀 · 每日更新"
+      "highlight": "國外 AI 新聞中文翻譯解讀 · 每日更新",
+      "thumbnail": "https://www.youtube.com/s/desktop/4965577f/img/logos/favicon_144x144.png"
     },
     {
       "title": "哥布林學院 · 程式教學",
@@ -1732,7 +1762,8 @@
       "cost": "免費",
       "topic": "AI + 程式入門",
       "type": "free-youtube",
-      "highlight": "中文 vibe coding + Cursor 入門必看"
+      "highlight": "中文 vibe coding + Cursor 入門必看",
+      "thumbnail": "https://www.youtube.com/s/desktop/4965577f/img/logos/favicon_144x144.png"
     },
     {
       "title": "Claude · 完整 API + Agent 5 課",
@@ -1741,7 +1772,8 @@
       "cost": "免費",
       "topic": "Claude · API 課綱",
       "type": "free-github",
-      "highlight": "Anthropic 官方 5 門課 GitHub repo · API basics / Prompt eng / Real-world / Agent / Evaluation"
+      "highlight": "Anthropic 官方 5 門課 GitHub repo · API basics / Prompt eng / Real-world / Agent / Evaluation",
+      "thumbnail": "https://github.githubassets.com/favicons/favicon-dark.png"
     },
     {
       "title": "ChatGPT / GPT API · 官方 Academy",
@@ -1750,7 +1782,8 @@
       "cost": "免費",
       "topic": "GPT 課綱",
       "type": "free-platform",
-      "highlight": "OpenAI 官方教學平台 · 含 Sora / DALL-E / o-series 全系列"
+      "highlight": "OpenAI 官方教學平台 · 含 Sora / DALL-E / o-series 全系列",
+      "thumbnail": "https://openai.com/favicon.ico"
     },
     {
       "title": "Gemini · Google AI for Developers",
@@ -1759,7 +1792,8 @@
       "cost": "免費",
       "topic": "Gemini 課綱",
       "type": "free-platform",
-      "highlight": "Google AI 開發者中心 · Gemini API / Vertex / Colab 整套"
+      "highlight": "Google AI 開發者中心 · Gemini API / Vertex / Colab 整套",
+      "thumbnail": ""
     },
     {
       "title": "Llama · Meta 官方學習中心",
@@ -1768,7 +1802,8 @@
       "cost": "免費",
       "topic": "Llama 開源課綱",
       "type": "free-docs",
-      "highlight": "Meta Llama 4 文件 · fine-tuning / deploy / RAG 範例"
+      "highlight": "Meta Llama 4 文件 · fine-tuning / deploy / RAG 範例",
+      "thumbnail": ""
     },
     {
       "title": "DeepSeek · 官方 docs + 範例",
@@ -1777,7 +1812,8 @@
       "cost": "免費",
       "topic": "DeepSeek 課綱",
       "type": "free-docs",
-      "highlight": "DeepSeek V3 / R1 官方 docs · 含中文版"
+      "highlight": "DeepSeek V3 / R1 官方 docs · 含中文版",
+      "thumbnail": ""
     },
     {
       "title": "Mistral · La Plateforme docs",
@@ -1786,7 +1822,8 @@
       "cost": "免費",
       "topic": "Mistral 課綱",
       "type": "free-docs",
-      "highlight": "Mistral Large / Pixtral docs · API + agents 教學"
+      "highlight": "Mistral Large / Pixtral docs · API + agents 教學",
+      "thumbnail": ""
     },
     {
       "title": "Hugging Face Cohort · LLM 課程",
@@ -1795,7 +1832,8 @@
       "cost": "免費",
       "topic": "全 model 訓練",
       "type": "free-platform",
-      "highlight": "NLP / Diffusion / Audio / RL 4 個免費 cohort · 從 0 到 fine-tune"
+      "highlight": "NLP / Diffusion / Audio / RL 4 個免費 cohort · 從 0 到 fine-tune",
+      "thumbnail": "https://huggingface.co/favicon.ico"
     }
   ]
 }

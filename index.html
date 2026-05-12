@@ -1115,7 +1115,7 @@ footer.site-footer {
 .dir-rec-list li .match { font-family: "JetBrains Mono", monospace; font-size: 0.72rem; color: #888; margin-left: 0.5rem; }
 .dir-rec-list li p { margin: 0.3rem 0 0 30px; color: #999; font-size: 0.82rem; line-height: 1.5; }
 
-.dir-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 1.5rem; }
+.dir-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); gap: 1.2rem; }
 .model-card { background: rgba(255,255,255,0.04); border: 1px solid #222; padding: 1.2rem; transition: border-color 0.2s; }
 .model-card-link { text-decoration: none; color: inherit; display: block; }
 .model-card:hover { border-color: #fbbf24; transform: translateY(-2px); transition: all 0.2s; }
@@ -1156,62 +1156,52 @@ footer.site-footer {
   </div>
 
   <div class="tile-grid">
-    <a class="tile" href="/toolkit/?cat=writing">
-      <span class="tile-icon">✍️</span>
+    <a class="tile" href="/toolkit/writing">
       <h3>寫作 / 編輯</h3>
       <p>Claude · ChatGPT · Notion AI · Perplexity</p>
       <span class="tile-cta">進入 →</span>
     </a>
-    <a class="tile" href="/toolkit/?cat=image">
-      <span class="tile-icon">🎨</span>
+    <a class="tile" href="/toolkit/image">
       <h3>AI 生圖</h3>
       <p>Midjourney · DALL-E · Flux · Ideogram · Recraft · Krea</p>
       <span class="tile-cta">進入 →</span>
     </a>
-    <a class="tile" href="/toolkit/?cat=video">
-      <span class="tile-icon">🎬</span>
+    <a class="tile" href="/toolkit/video">
       <h3>AI 影片</h3>
       <p>Runway · Sora · Veo · Kling · Luma · HeyGen</p>
       <span class="tile-cta">進入 →</span>
     </a>
-    <a class="tile" href="/toolkit/?cat=audio">
-      <span class="tile-icon">🎙️</span>
+    <a class="tile" href="/toolkit/audio">
       <h3>AI 音樂 / 配音</h3>
       <p>ElevenLabs · Suno · Udio · Descript</p>
       <span class="tile-cta">進入 →</span>
     </a>
-    <a class="tile" href="/toolkit/?cat=coding">
-      <span class="tile-icon">💻</span>
+    <a class="tile" href="/toolkit/coding">
       <h3>AI 編程</h3>
       <p>Cursor · Windsurf · Copilot · Cline · Aider</p>
       <span class="tile-cta">進入 →</span>
     </a>
-    <a class="tile" href="/toolkit/?cat=web">
-      <span class="tile-icon">🌐</span>
+    <a class="tile" href="/toolkit/web">
       <h3>AI 做網站</h3>
       <p>v0 · Bolt · Lovable · Replit Agent · Framer AI</p>
       <span class="tile-cta">進入 →</span>
     </a>
-    <a class="tile" href="/toolkit/?cat=mobile">
-      <span class="tile-icon">📱</span>
+    <a class="tile" href="/toolkit/mobile">
       <h3>AI 做手機介面</h3>
       <p>Galileo · Uizard · v0 App · React Native AI</p>
       <span class="tile-cta">進入 →</span>
     </a>
-    <a class="tile" href="/toolkit/?cat=design">
-      <span class="tile-icon">🖌️</span>
+    <a class="tile" href="/toolkit/design">
       <h3>AI 設計</h3>
       <p>Canva AI · Figma AI · Gamma · Recraft</p>
       <span class="tile-cta">進入 →</span>
     </a>
-    <a class="tile" href="/toolkit/?cat=agent">
-      <span class="tile-icon">🤖</span>
+    <a class="tile" href="/toolkit/agent">
       <h3>AI Agent / 自動化</h3>
       <p>LangChain · CrewAI · LangGraph · n8n · Make</p>
       <span class="tile-cta">進入 →</span>
     </a>
-    <a class="tile" href="/toolkit/?cat=research">
-      <span class="tile-icon">🔍</span>
+    <a class="tile" href="/toolkit/research">
       <h3>AI 研究 / 搜尋</h3>
       <p>Perplexity · NotebookLM · Elicit · Consensus</p>
       <span class="tile-cta">進入 →</span>
@@ -1220,7 +1210,7 @@ footer.site-footer {
 
   <div class="toolkit-footer">
     <a href="/toolkit/" class="all-link">→ 看全部 30+ tools + 20+ 免費課程</a>
-    <a href="/toolkit/?cat=courses" class="all-link">📚 純看課程清單</a>
+    <a href="/toolkit/courses" class="all-link">📚 純看課程清單</a>
   </div>
 </section>
 
@@ -1232,10 +1222,10 @@ footer.site-footer {
 .tile-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 1rem; margin-bottom: 2rem; }
 .tile { background: linear-gradient(180deg, rgba(255,255,255,0.06), rgba(255,255,255,0.02)); border: 1px solid rgba(255,255,255,0.1); padding: 1.4rem 1.2rem; text-decoration: none; display: block; transition: all 0.25s cubic-bezier(.4,0,.2,1); border-left: 3px solid #a855f7; border-radius: 12px; position: relative; overflow: hidden; }
 .tile:hover { background: linear-gradient(180deg, rgba(168,85,247,0.15), rgba(168,85,247,0.05)); border-color: #c084fc; transform: translateY(-4px); box-shadow: 0 12px 32px rgba(168,85,247,0.2); }
-.tile-icon { font-size: 2rem; display: block; margin-bottom: 0.5rem; }
+.tile-icon { display: none; }
 .tile h3 { color: #fff; font-size: 1.05rem; margin: 0 0 0.4rem; font-weight: 700; }
 .tile p { color: #888; font-family: "JetBrains Mono", monospace; font-size: 0.72rem; margin: 0 0 0.8rem; line-height: 1.5; }
-.tile-cta { color: #a855f7; font-family: "JetBrains Mono", monospace; font-size: 0.78rem; font-weight: 700; }
+.tile-cta { color: #a855f7; font-family: "JetBrains Mono", monospace; font-size: 0.85rem; font-weight: 700; display: inline-block; margin-top: 0.6rem; padding: 0.4rem 0.9rem; background: rgba(168,85,247,0.12); border-radius: 100px; }
 .toolkit-footer { display: flex; gap: 1rem; flex-wrap: wrap; padding-top: 1.5rem; border-top: 1px solid #333; }
 .toolkit-footer .all-link { color: #a855f7; text-decoration: none; font-family: "JetBrains Mono", monospace; font-size: 0.85rem; padding: 0.5rem 1rem; border: 1px solid #a855f7; transition: all 0.15s; }
 .toolkit-footer .all-link:hover { background: #a855f7; color: #fff; }

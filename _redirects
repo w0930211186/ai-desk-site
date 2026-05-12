@@ -1,0 +1,13 @@
+# Creator Toolkit category sub-paths (rewrite to single template)
+/toolkit/writing      /toolkit/index.html?cat=writing      200
+/toolkit/image        /toolkit/index.html?cat=image        200
+/toolkit/video        /toolkit/index.html?cat=video        200
+/toolkit/audio        /toolkit/index.html?cat=audio        200
+/toolkit/coding       /toolkit/index.html?cat=coding       200
+/toolkit/web          /toolkit/index.html?cat=web          200
+/toolkit/mobile       /toolkit/index.html?cat=mobile       200
+/toolkit/design       /toolkit/index.html?cat=design       200
+/toolkit/agent        /toolkit/index.html?cat=agent        200
+/toolkit/research     /toolkit/index.html?cat=research     200
+/toolkit/productivity /toolkit/index.html?cat=productivity 200
+/toolkit/courses      /toolkit/index.html?cat=courses      200
