@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-05-12T09:52:23+08:00",
+  "updated_at": "2026-05-12T10:11:27+08:00",
   "items": [
+    {
+      "id": "pulse-2026-05-12-10-anthropic-akamai-compute",
+      "ts": "2026-05-12T10:11:00+08:00",
+      "title": "Anthropic 簽署 18 億美元七年 Akamai 算力協議・CDN 邊緣節點進入 frontier AI 推論供應鏈",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-08/anthropic-inks-1-8-billion-computing-deal-with-akamai",
+      "blurb": "Anthropic 七年合約承諾 18 億美元算力於 Akamai・Akamai 股價單日漲 27% 創 22 年最大漲幅，CDN 邊緣基礎設施正式進入 frontier AI 推論供應鏈",
+      "editorial": "<p><strong>第一</strong>，Anthropic 於 5 月 8 日與 CDN 服務商 Akamai Technologies 簽署七年、18 億美元算力供應協議，Akamai 在季報中以「一家美國領先前沿模型供應商」披露，Bloomberg 隨即確認客戶身份為 Anthropic。協議創下 Akamai 史上最大單筆客戶訂單，消息公開後 Akamai 股價單日大漲 27%，創 22 年最大單日漲幅。財務條款顯示合約自 Q4 2026 起認列收入，首季預估貢獻 2,000 至 2,500 萬美元。</p><p><strong>第二</strong>，此協議的核心戰略意義在於 Anthropic 算力版圖首次延伸至 CDN 邊緣基礎設施層。Anthropic 現已在超大型雲端（AWS、Google Cloud）與 neocloud（xAI Colossus、SpaceX）之外，新增覆蓋全球 4,000 多個接入點的 Akamai 邊緣網絡作為第三層算力供應，可將推論延遲壓縮至地理近端，對即時 agent 與低延遲企業應用尤為關鍵。這是繼 Colossus 租用、SpaceX 協議公告後，Anthropic 在同一週內宣布的第三條算力供應線，三層異質供應商架構雛形已現。</p><p><strong>第三</strong>，Akamai 單日漲幅 27% 是一個明確的產業訊號——CDN 行業下一波增長來自 AI 推論而非傳統內容分發，Cloudflare、Fastly 等競爭對手將加速類似合作佈局。對企業開發者，Akamai 邊緣節點進入 Anthropic 供應鏈意味著未來 Claude API 在歐洲、亞太、中東的延遲表現與資料主權合規選項將顯著改善。觀察點是 Akamai Q4 實際認列數字——若超出 2,500 萬美元上限，則意味 Anthropic 需求擴張速度已超出協議預估，屆時將是下一輪算力瓶頸的前導指標。</p>"
+    },
+    {
+      "id": "pulse-2026-05-12-10-caisi-frontier-ai-testing",
+      "ts": "2026-05-12T10:09:00+08:00",
+      "title": "美商務部 CAISI 與 Google DeepMind、Microsoft、xAI 簽署前沿 AI 測試協議・五大 lab 全數納入政府預部署安全評估",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/05/ai-oversight-trump-google-microsoft-xai.html",
+      "blurb": "NIST 旗下 CAISI 宣布三份新測試協議，涵蓋 Google DeepMind、Microsoft、xAI，在機密環境評估移除護欄的模型版本，美國五大前沿 lab 已全數納入政府預部署安全評估框架",
+      "editorial": "<p><strong>第一</strong>，美國商務部旗下 NIST「人工智慧標準與創新中心」（CAISI）於 5 月 5 日宣布與 Google DeepMind、Microsoft 及 xAI 分別簽署前沿 AI 測試協議。協議授權政府在機密環境中執行部署前安全評估，明確允許廠商提交移除部分安全護欄的研究版模型供深度評測，以評估國家安全相關能力上限。CAISI 此前於 2024 年已與 Anthropic 及 OpenAI 建立同類協議，本輪擴展後美國五大主要前沿 AI 研究室已全數納入評測體系。</p><p><strong>第二</strong>，此舉標誌美國聯邦 AI 監管框架從廢除拜登行政命令後的政策真空期進入制度性重建階段。「移除護欄後接受測試」條款尤為關鍵——政府取得合法渠道評估模型在無限制狀態下的真實能力上限，情報機構（NSA、CIA）與商務部爭奪 AI 監管主導權的角力，在此框架下可能進一步激化。CAISI 模式與白宮 AI 政策框架同步推進，顯示川普政府已接受政府介入預部署評估的監管邏輯，而非純粹市場自律路線。</p><p><strong>第三</strong>，對 frontier lab 而言，此類協議是雙刃劍：配合政府安全評估有助於積累負責任 AI 的信譽並規避更嚴格立法，但機密環境下的深度測試同樣帶來模型架構與訓練細節外洩的隱憂。對企業採購方，政府預部署安全評估正逐漸演變為模型可信度的隱性背書，未來政府採購標準可能率先要求「CAISI 評估通過」，進而影響私有部門採購決策。歐盟 AI 辦公室與美國 CAISI 形成兩套並行監管標準，跨市場部署的企業需同步追蹤兩個評估框架的合規要求。</p>"
+    },
     {
       "id": "pulse-2026-05-12-v6-utf8-fix",
       "ts": "2026-05-12T09:52:23+08:00",
@@ -226,22 +244,6 @@
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/05/07/chinas-moonshot-ai-raises-2b-at-20b-valuation-as-demand-for-open-source-ai-skyrockets/",
       "blurb": "北京 AI 新創 Moonshot AI（Kimi 開源模型開發商）由美團旗下 Long-Z Investments 領投完成 20 億美元新一輪融資，估值衝上 200 億美元；清華資本、中國移動、CPE 源峰跟投，4 月 ARR 突破 2 億美元，半年融資累計近 39 億美元。此輪融資反映中國開源 AI 投資熱潮全面升溫，Kimi 以長文脈技術與快速商業化能力成為全球開源 AI 生態的重量級競爭者。"
-    },
-    {
-      "id": "pulse-2026-05-07-openai-voice-api",
-      "ts": "2026-05-07T16:00:00+08:00",
-      "title": "OpenAI 向開發者開放 Realtime 語音智能 API・新增即時翻譯、轉錄及 GPT-Realtime-2 模型",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/05/07/openai-launches-new-voice-intelligence-features-in-its-api/",
-      "blurb": "OpenAI 在 API 層推出語音智能功能，開發者可整合即時語音對話、多語言翻譯與轉錄至應用程式；新增模型含 GPT-Realtime-2（按 token 計費）及 Translate/Whisper（按分鐘計費），涵蓋多語言即時對話場景，標誌 AI 語音介面競賽從 C 端產品正式延伸至 B 端開發者平台生態系。"
-    },
-    {
-      "id": "pulse-2026-05-07-alphaevolve-impact",
-      "ts": "2026-05-07T14:00:00+08:00",
-      "title": "DeepMind 揭示 AlphaEvolve 科學版圖：DNA 定序錯誤降 30%・電網可行解率從 14% 升至 88%",
-      "source": "Google DeepMind",
-      "url": "https://deepmind.google/blog/alphaevolve-impact/",
-      "blurb": "Google DeepMind 公開 AlphaEvolve（Gemini 驅動演算法設計代理）跨域科學成果：基因組學中使 DeepConsensus 變異偵測錯誤降低 30%；電力優化將 AC 最佳潮流可行解率從 14% 提升至 88%；量子物理中為 Willow 量子處理器設計電路，錯誤率比傳統優化基準低 10 倍；彰顯 AI 代理在真實科學基礎設施中產生系統性複利效應，加速多領域 AI 科學化進程。"
     }
   ],
   "_note": "seeded by Peter 2026-05-10 — cloud routine ai-desk-pulse 每 2 小時自動更新"
