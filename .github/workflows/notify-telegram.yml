@@ -76,9 +76,9 @@ jobs:
                 SRC=$(jq -r --arg id "$ID" '.items[] | select(.id == $id) | .source' "$PULSE_FILE")
                 URL=$(jq -r --arg id "$ID" '.items[] | select(.id == $id) | .url' "$PULSE_FILE")
                 TS=$(jq -r --arg id "$ID" '.items[] | select(.id == $id) | .ts' "$PULSE_FILE" | cut -d'T' -f2 | cut -c1-5)
-                EDITORIAL=$(jq -r --arg id "$ID" '.items[] | select(.id == $id) | .editorial // ""' "$PULSE_FILE" | sed 's/<[^>]*>//g' | tr -s ' ' | head -c 220)
+                EDITORIAL=$(jq -r --arg id "$ID" '.items[] | select(.id == $id) | .editorial // ""' "$PULSE_FILE" | sed 's/<[^>]*>/ /g' | tr -s '[:space:]' ' ' | sed 's/^ //;s/ $//')
                 HAS_EDIT=""
-                [ -n "$EDITORIAL" ] && HAS_EDIT="$(printf '\n\n📖 短篇專欄：\n%s...' "$EDITORIAL")"
+                [ -n "$EDITORIAL" ] && HAS_EDIT="$(printf '\n\n📖 短篇專欄\n\n%s' "$EDITORIAL")"
                 MSG=$(printf "🔴 PULSE · %s · %s\n\n%s\n\n%s%s\n\n🔗 原文：%s\n🌐 主頁專欄：%s/#pulse-%s" "$TS" "$SRC" "$TITLE" "$BLURB" "$HAS_EDIT" "$URL" "$SITE" "$ID")
                 curl -sf -X POST "${API}/sendMessage" --data-urlencode "chat_id=${TG_CHAT}" --data-urlencode "text=${MSG}" && echo "✓ sent $ID" || echo "✗ fail $ID"
               done <<< "$NEW_IDS"
