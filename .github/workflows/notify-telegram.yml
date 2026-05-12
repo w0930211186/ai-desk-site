@@ -35,27 +35,17 @@ jobs:
           SITE="https://ai-desk-tw.netlify.app"
 
           CHANGED=$(git diff --name-only HEAD~1 HEAD 2>/dev/null || true)
-          echo "Changed files:"
-          echo "$CHANGED"
+          echo "Changed: $CHANGED"
 
           # ---- Daily ----
           if echo "$CHANGED" | grep -qx "$DAILY_FILE"; then
             TITLE=$(grep -m1 -oE '<h2>[^<]*' "$DAILY_FILE" 2>/dev/null | sed 's/<h2>//' | head -c 120 || echo "")
-            SUMMARY=$(grep -m1 -oE 'name="description" content="[^"]*"' "$DAILY_FILE" 2>/dev/null | sed 's/.*content="//;s/"$//' | head -c 280 || echo "")
             URL="${SITE}/posts/${TODAY}-daily.html"
-            MSG="📰 AI DESK ${TODAY} · daily 已上線
-
-${TITLE}
-
-${SUMMARY}
-
-🔗 全文：${URL}
-🌐 主頁：${SITE}/latest"
+            MSG=$(printf "📰 AI DESK %s · daily 已上線\n\n%s\n\n🔗 全文：%s\n🌐 主頁：%s/latest" "$TODAY" "$TITLE" "$URL" "$SITE")
             curl -sf -X POST "${API}/sendMessage" \
               --data-urlencode "chat_id=${TG_CHAT}" \
-              --data-urlencode "text=${MSG}" \
-              --data-urlencode "disable_web_page_preview=false" || echo "daily notify failed"
-            echo "✓ daily notified"
+              --data-urlencode "text=${MSG}" || echo "daily fail"
+            echo "✓ daily"
           fi
 
           # ---- IG Story ----
@@ -68,63 +58,38 @@ ${SUMMARY}
               curl -sf -X POST "${API}/sendDocument" \
                 -F "chat_id=${TG_CHAT}" \
                 -F "document=@${PNG}" \
-                --form-string "caption=${CAPTION}" || echo "ig sendDocument failed"
+                --form-string "caption=${CAPTION}" || echo "ig fail"
+              MSG=$(printf "📸 IG Story %s 素材已備好\n從上面 PNG 下載 → IG App 限動上傳\n\n🌐 %s" "$TODAY" "$SITE")
               curl -sf -X POST "${API}/sendMessage" \
                 --data-urlencode "chat_id=${TG_CHAT}" \
-                --data-urlencode "text=📸 IG Story ${TODAY} 素材已備好
-從上面 PNG 下載 → IG App → 限動上傳
-
-🌐 ${SITE}" || true
-              echo "✓ ig notified"
+                --data-urlencode "text=${MSG}" || true
+              echo "✓ ig"
             fi
           fi
 
-          # ---- Pulse · 每條 item 一條 rich message ----
+          # ---- Pulse · 每條 rich message ----
           if echo "$CHANGED" | grep -qx "$PULSE_FILE"; then
             if [ -f "$PULSE_FILE" ]; then
-              # 抓 diff 裡新加的 pulse id
               NEW_IDS=$(git diff HEAD~1 HEAD -- "$PULSE_FILE" 2>/dev/null | grep -oE '^\+\s*"id":\s*"pulse-[^"]+"' | sed 's/.*"id":\s*"//;s/"$//' || true)
               if [ -z "$NEW_IDS" ]; then
-                echo "no new pulse items"
+                echo "no new pulse"
                 exit 0
               fi
-              echo "NEW pulse ids:"
-              echo "$NEW_IDS"
-              # 對每條 NEW id 推一條 rich message
+              echo "NEW: $NEW_IDS"
               while IFS= read -r ID; do
                 [ -z "$ID" ] && continue
-                python3 -c "
-import json, urllib.parse, urllib.request, os
-d = json.load(open('${PULSE_FILE}'))
-item = next((i for i in d.get('items',[]) if i.get('id')=='${ID}'), None)
-if not item: exit(0)
-ts = item.get('ts','')[11:16]
-title = item.get('title','')
-blurb = item.get('blurb','')
-src = item.get('source','')
-url = item.get('url','')
-msg = f'''🔴 PULSE · {ts} · {src}
-
-{title}
-
-{blurb}
-
-🔗 原文：{url}
-🌐 主頁：${SITE}/#latest-pulse'''
-data = urllib.parse.urlencode({
-    'chat_id': '${TG_CHAT}',
-    'text': msg,
-    'disable_web_page_preview': 'false'
-}).encode()
-req = urllib.request.Request('${API}/sendMessage', data=data, method='POST')
-try:
-    with urllib.request.urlopen(req, timeout=15) as r:
-        print(f'sent: {item[\"id\"]}')
-except Exception as e:
-    print(f'fail: {e}')
-"
+                TITLE=$(jq -r --arg id "$ID" '.items[] | select(.id == $id) | .title' "$PULSE_FILE")
+                BLURB=$(jq -r --arg id "$ID" '.items[] | select(.id == $id) | .blurb' "$PULSE_FILE")
+                SRC=$(jq -r --arg id "$ID" '.items[] | select(.id == $id) | .source' "$PULSE_FILE")
+                URL=$(jq -r --arg id "$ID" '.items[] | select(.id == $id) | .url' "$PULSE_FILE")
+                TS=$(jq -r --arg id "$ID" '.items[] | select(.id == $id) | .ts' "$PULSE_FILE" | cut -d'T' -f2 | cut -c1-5)
+                MSG=$(printf "🔴 PULSE · %s · %s\n\n%s\n\n%s\n\n🔗 原文：%s\n🌐 主頁：%s/#latest-pulse" "$TS" "$SRC" "$TITLE" "$BLURB" "$URL" "$SITE")
+                curl -sf -X POST "${API}/sendMessage" \
+                  --data-urlencode "chat_id=${TG_CHAT}" \
+                  --data-urlencode "text=${MSG}" \
+                  --data-urlencode "disable_web_page_preview=false" \
+                  && echo "✓ sent $ID" || echo "✗ fail $ID"
               done <<< "$NEW_IDS"
-              echo "✓ pulse items notified"
             fi
           fi
 
