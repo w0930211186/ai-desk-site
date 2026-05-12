@@ -981,6 +981,166 @@ footer.site-footer {
 </style>
 
 <div class="section-label">
+  <span class="num">00c</span>
+  <span>Model Directory — 完整 frontier model 對照</span>
+  <span class="bar"></span>
+  <span id="dir-meta">— · live</span>
+</div>
+
+<section class="directory" aria-label="AI Model Directory">
+  <div class="directory-head">
+    <h2>🎯 MODEL<br>DIRECTORY</h2>
+    <p class="sub">勾選用途自動推薦 frontier model<br>含 vendor / 版本 / pricing / context / 升級狀態<br>Peter 自己也在 list 裡</p>
+  </div>
+
+  <div class="dir-filter">
+    <div class="dir-filter-row">
+      <strong>用途：</strong>
+      <label><input type="checkbox" name="use" value="coding"> 編程</label>
+      <label><input type="checkbox" name="use" value="writing"> 寫作</label>
+      <label><input type="checkbox" name="use" value="research"> 研究</label>
+      <label><input type="checkbox" name="use" value="vision"> 視覺</label>
+      <label><input type="checkbox" name="use" value="agent"> Agent</label>
+      <label><input type="checkbox" name="use" value="long-context"> 長 context</label>
+      <label><input type="checkbox" name="use" value="math"> 數學推理</label>
+      <label><input type="checkbox" name="use" value="Chinese"> 中文</label>
+      <label><input type="checkbox" name="use" value="cost-sensitive"> 預算敏感</label>
+      <label><input type="checkbox" name="use" value="self-host"> 私有化部署</label>
+    </div>
+    <div class="dir-filter-row">
+      <strong>層級：</strong>
+      <label><input type="checkbox" name="tier" value="frontier" checked> Frontier</label>
+      <label><input type="checkbox" name="tier" value="open-source" checked> Open-source</label>
+    </div>
+    <div class="dir-recommend" id="dir-recommend"></div>
+  </div>
+
+  <div id="dir-grid" class="dir-grid">
+    <div class="dir-loading">Loading directory…</div>
+  </div>
+</section>
+
+<script>
+(function(){
+  var DIR = null;
+  function render() {
+    if (!DIR) return;
+    var grid = document.getElementById('dir-grid');
+    var recommend = document.getElementById('dir-recommend');
+    var selectedUses = Array.from(document.querySelectorAll('input[name=use]:checked')).map(function(c){return c.value;});
+    var selectedTiers = Array.from(document.querySelectorAll('input[name=tier]:checked')).map(function(c){return c.value;});
+
+    var ranked = DIR.models.map(function(m){
+      var tierOk = selectedTiers.length === 0 || selectedTiers.indexOf(m.tier) > -1;
+      var matched = (m.use_cases || []).filter(function(u){return selectedUses.indexOf(u) > -1;}).length;
+      var score = matched + (m.is_latest ? 0.5 : 0);
+      return {m: m, score: score, matched: matched, tierOk: tierOk};
+    }).filter(function(r){return r.tierOk;});
+
+    ranked.sort(function(a,b){return b.score - a.score;});
+
+    // 推薦頂端 3
+    if (selectedUses.length > 0) {
+      var top = ranked.slice(0, 3);
+      recommend.innerHTML = '<div class="dir-rec-title">⭐ 推薦給你（' + selectedUses.map(function(u){
+        var map = {coding:'編程', writing:'寫作', research:'研究', vision:'視覺', agent:'Agent', 'long-context':'長 context', math:'數學', Chinese:'中文', 'cost-sensitive':'預算敏感', 'self-host':'私有化'};
+        return map[u] || u;
+      }).join('、') + '）</div>' +
+      '<ol class="dir-rec-list">' + top.map(function(r,i){
+        return '<li><span class="rank">' + (i+1) + '</span><strong>' + r.m.vendor + ' ' + r.m.name + '</strong>' +
+          ' <span class="match">match ' + r.matched + '/' + selectedUses.length + '</span>' +
+          '<p>' + (r.m.highlight || '') + '</p></li>';
+      }).join('') + '</ol>';
+    } else {
+      recommend.innerHTML = '<div class="dir-rec-hint">↑ 勾選用途看推薦組合</div>';
+    }
+
+    grid.innerHTML = ranked.map(function(r){
+      var m = r.m;
+      var p = m.pricing || {};
+      var bmStr = Object.keys(m.benchmarks || {}).map(function(k){return k+': '+m.benchmarks[k];}).join(' · ');
+      var avail = (m.available_on || []).join(' · ');
+      var ucBadges = (m.use_cases || []).map(function(u){return '<span class="badge">'+u+'</span>';}).join('');
+      var latest = m.is_latest ? '<span class="latest-tag">最新</span>' : '';
+      var upcoming = m.is_upcoming ? '<span class="upcoming-tag">即將</span>' : '';
+      return '<div class="model-card ' + m.tier + '">' +
+        '<div class="mc-head"><strong class="mc-vendor">' + m.vendor + '</strong>' + latest + upcoming + '</div>' +
+        '<h3 class="mc-name">' + m.name + '</h3>' +
+        '<div class="mc-version">' + (m.version || '') + ' · ' + (m.release_date || '') + '</div>' +
+        '<div class="mc-spec">' +
+          '<div><span>Context</span><span>' + (m.context_window || '?') + '</span></div>' +
+          '<div><span>Input</span><span>' + (p.input_per_1m_usd !== undefined ? '$' + p.input_per_1m_usd : '?') + '/M</span></div>' +
+          '<div><span>Output</span><span>' + (p.output_per_1m_usd !== undefined ? '$' + p.output_per_1m_usd : '?') + '/M</span></div>' +
+          '<div><span>Modality</span><span>' + ((m.modality || []).join('/')) + '</span></div>' +
+        '</div>' +
+        '<div class="mc-uses">' + ucBadges + '</div>' +
+        (m.highlight ? '<p class="mc-highlight">💡 ' + m.highlight + '</p>' : '') +
+        '<div class="mc-links"><a href="' + m.official_url + '" target="_blank" rel="noopener">官方 ↗</a> · <a href="' + m.pricing_url + '" target="_blank" rel="noopener">Pricing ↗</a></div>' +
+      '</div>';
+    }).join('');
+  }
+
+  fetch('/data/models-directory.json?_=' + Date.now())
+    .then(function(r){return r.json();})
+    .then(function(d){
+      DIR = d;
+      document.getElementById('dir-meta').textContent = '更新於 ' + (d.updated_at || '').replace('T',' ').replace(/[+Z].*/, '') + ' · ' + d.models.length + ' 條 model';
+      document.querySelectorAll('.dir-filter input').forEach(function(c){c.addEventListener('change', render);});
+      render();
+    })
+    .catch(function(){ document.getElementById('dir-grid').innerHTML = '<div class="dir-loading">directory 載入失敗</div>'; });
+})();
+</script>
+
+<style>
+.directory { background: #050505; padding: 3rem 2rem; max-width: 1280px; margin: 2rem auto; }
+.directory-head { margin-bottom: 2rem; }
+.directory-head h2 { font-size: 4rem; line-height: 0.9; margin: 0; color: #fff; letter-spacing: -0.04em; }
+.directory-head .sub { font-family: "JetBrains Mono", monospace; font-size: 0.85rem; color: #888; margin-top: 1rem; line-height: 1.6; }
+
+.dir-filter { background: rgba(255,255,255,0.03); border: 1px solid #222; padding: 1.5rem; margin-bottom: 2rem; }
+.dir-filter-row { display: flex; flex-wrap: wrap; align-items: center; gap: 0.8rem; margin-bottom: 0.8rem; }
+.dir-filter-row strong { font-family: "JetBrains Mono", monospace; font-size: 0.78rem; color: #fbbf24; letter-spacing: 0.1em; text-transform: uppercase; min-width: 60px; }
+.dir-filter-row label { font-family: "JetBrains Mono", monospace; font-size: 0.82rem; color: #ccc; cursor: pointer; padding: 0.3rem 0.6rem; border: 1px solid #333; transition: all 0.15s; }
+.dir-filter-row label:hover { background: rgba(251,191,36,0.1); border-color: #fbbf24; color: #fff; }
+.dir-filter-row label:has(input:checked) { background: #fbbf24; color: #000; border-color: #fbbf24; }
+.dir-filter-row label input { display: none; }
+
+.dir-recommend { padding-top: 1rem; border-top: 1px dashed #333; margin-top: 0.5rem; }
+.dir-rec-title { font-family: "JetBrains Mono", monospace; font-size: 0.85rem; color: #fbbf24; margin-bottom: 0.8rem; letter-spacing: 0.05em; }
+.dir-rec-hint { font-family: "JetBrains Mono", monospace; font-size: 0.78rem; color: #666; }
+.dir-rec-list { list-style: none; padding: 0; margin: 0; }
+.dir-rec-list li { padding: 0.6rem 0; border-bottom: 1px dashed #2a2a2a; color: #ccc; font-size: 0.9rem; }
+.dir-rec-list li .rank { display: inline-block; width: 22px; height: 22px; line-height: 22px; text-align: center; background: #fbbf24; color: #000; font-weight: 700; border-radius: 50%; margin-right: 0.5rem; font-size: 0.75rem; }
+.dir-rec-list li .match { font-family: "JetBrains Mono", monospace; font-size: 0.72rem; color: #888; margin-left: 0.5rem; }
+.dir-rec-list li p { margin: 0.3rem 0 0 30px; color: #999; font-size: 0.82rem; line-height: 1.5; }
+
+.dir-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 1.5rem; }
+.model-card { background: rgba(255,255,255,0.04); border: 1px solid #222; padding: 1.2rem; transition: border-color 0.2s; }
+.model-card:hover { border-color: #fbbf24; }
+.model-card.open-source { border-left: 3px solid #4ade80; }
+.model-card.frontier { border-left: 3px solid #fbbf24; }
+.mc-head { display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem; }
+.mc-vendor { font-family: "JetBrains Mono", monospace; font-size: 0.7rem; color: #888; letter-spacing: 0.1em; text-transform: uppercase; }
+.latest-tag { background: #fbbf24; color: #000; font-size: 0.62rem; padding: 0.1rem 0.4rem; border-radius: 2px; font-weight: 700; letter-spacing: 0.05em; }
+.upcoming-tag { background: #4ade80; color: #000; font-size: 0.62rem; padding: 0.1rem 0.4rem; border-radius: 2px; font-weight: 700; }
+.mc-name { color: #fff; font-size: 1.05rem; margin: 0 0 0.3rem; font-weight: 700; }
+.mc-version { font-family: "JetBrains Mono", monospace; font-size: 0.7rem; color: #666; margin-bottom: 0.8rem; }
+.mc-spec { display: grid; grid-template-columns: 1fr 1fr; gap: 0.3rem 0.8rem; margin: 0.8rem 0; padding: 0.6rem; background: rgba(0,0,0,0.3); font-family: "JetBrains Mono", monospace; font-size: 0.72rem; }
+.mc-spec > div { display: flex; justify-content: space-between; gap: 0.5rem; }
+.mc-spec > div > span:first-child { color: #666; }
+.mc-spec > div > span:last-child { color: #fff; }
+.mc-uses { margin: 0.6rem 0; }
+.mc-uses .badge { display: inline-block; background: rgba(251,191,36,0.15); color: #fbbf24; font-family: "JetBrains Mono", monospace; font-size: 0.65rem; padding: 0.15rem 0.4rem; margin: 0.15rem 0.2rem 0.15rem 0; border-radius: 2px; }
+.mc-highlight { color: #ccc; font-size: 0.82rem; line-height: 1.5; margin: 0.6rem 0 0.8rem; padding: 0.6rem; background: rgba(251,191,36,0.05); border-left: 2px solid #fbbf24; }
+.mc-links { display: flex; gap: 0.5rem; font-family: "JetBrains Mono", monospace; font-size: 0.72rem; }
+.mc-links a { color: #fbbf24; text-decoration: none; }
+.mc-links a:hover { color: #fff; }
+.dir-loading { padding: 2rem; color: #888; font-family: "JetBrains Mono", monospace; }
+@media (max-width: 700px) { .dir-grid { grid-template-columns: 1fr; } .mc-spec { grid-template-columns: 1fr; } }
+</style>
+
+<div class="section-label">
   <span class="num">01</span>
   <span>Journal — latest editions</span>
   <span class="bar"></span>
