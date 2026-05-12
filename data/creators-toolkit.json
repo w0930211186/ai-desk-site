@@ -1523,7 +1523,9 @@
       "topic": "Deep Learning / PyTorch",
       "highlight": "從 code 學 ML · 不需數學背景 · 自學者社群最大",
       "type": "free-platform",
-      "thumbnail": "https://www.fast.ai/favicon.ico"
+      "thumbnail": "https://www.fast.ai/favicon.ico",
+      "thumbnail_url": "https://i.ytimg.com/vi/8SF_h3xF3cE/hqdefault.jpg",
+      "thumbnail_video_id": "8SF_h3xF3cE"
     },
     {
       "title": "Stanford CS25 Transformers United",
@@ -1533,7 +1535,9 @@
       "topic": "Transformer 架構深度",
       "highlight": "想理解 LLM 怎麼運作 · Stanford 公開課",
       "type": "free-youtube",
-      "thumbnail": "https://web.stanford.edu/favicon.ico"
+      "thumbnail": "https://web.stanford.edu/favicon.ico",
+      "thumbnail_url": "https://i.ytimg.com/vi/P127jhj-8-Y/hqdefault.jpg",
+      "thumbnail_video_id": "P127jhj-8-Y"
     },
     {
       "title": "Andrej Karpathy: Neural Networks Zero to Hero",
@@ -1543,7 +1547,9 @@
       "topic": "LLM 從零實作",
       "highlight": "OpenAI 共同創辦人親自教 · 從 nano-GPT 到 nano-llama · 想懂 LLM 怎麼運作必看",
       "type": "free-youtube",
-      "thumbnail": "https://www.youtube.com/s/desktop/4965577f/img/logos/favicon_144x144.png"
+      "thumbnail": "https://www.youtube.com/s/desktop/4965577f/img/logos/favicon_144x144.png",
+      "thumbnail_url": "https://i.ytimg.com/vi/VMj-3S1tku0/hqdefault.jpg",
+      "thumbnail_video_id": "VMj-3S1tku0"
     },
     {
       "title": "3Blue1Brown · Neural Networks",
@@ -1553,7 +1559,9 @@
       "topic": "視覺化 ML 數學",
       "highlight": "動畫解釋 backprop / attention · 數學白癡也能看懂",
       "type": "free-youtube",
-      "thumbnail": "https://www.youtube.com/s/desktop/4965577f/img/logos/favicon_144x144.png"
+      "thumbnail": "https://www.youtube.com/s/desktop/4965577f/img/logos/favicon_144x144.png",
+      "thumbnail_url": "https://i.ytimg.com/vi/aircAruvnKk/hqdefault.jpg",
+      "thumbnail_video_id": "aircAruvnKk"
     },
     {
       "title": "Building LLM Applications · Lessons (Anthropic)",
@@ -1593,7 +1601,9 @@
       "topic": "Cursor IDE 教學",
       "highlight": "官方 + 社群影片 · Composer / Agent mode / .cursorrules 寫法",
       "type": "free-youtube",
-      "thumbnail": "https://www.youtube.com/s/desktop/4965577f/img/logos/favicon_144x144.png"
+      "thumbnail": "https://www.youtube.com/s/desktop/4965577f/img/logos/favicon_144x144.png",
+      "thumbnail_accent": "#000",
+      "thumbnail_initial": "C"
     },
     {
       "title": "Lovable / v0 / Bolt 對比影片",
@@ -1603,7 +1613,9 @@
       "topic": "AI 建站工具比較",
       "highlight": "YouTube 搜尋 'v0 vs bolt vs lovable' 有 30+ 比較影片",
       "type": "free-youtube",
-      "thumbnail": "https://www.youtube.com/s/desktop/4965577f/img/logos/favicon_144x144.png"
+      "thumbnail": "https://www.youtube.com/s/desktop/4965577f/img/logos/favicon_144x144.png",
+      "thumbnail_accent": "#a855f7",
+      "thumbnail_initial": "v0"
     },
     {
       "title": "Hugging Face Diffusion Models Course",
@@ -1673,7 +1685,9 @@
       "topic": "AI 工具教學 · 中文",
       "type": "free-youtube",
       "highlight": "台灣最大中文電腦教學頻道 · ChatGPT / Midjourney / Notion 完整入門系列",
-      "thumbnail": "https://www.youtube.com/s/desktop/4965577f/img/logos/favicon_144x144.png"
+      "thumbnail": "https://www.youtube.com/s/desktop/4965577f/img/logos/favicon_144x144.png",
+      "thumbnail_accent": "#ff6b35",
+      "thumbnail_initial": "P"
     },
     {
       "title": "林俊瑋 Jason Lin · AI 工具實戰",
@@ -1683,7 +1697,9 @@
       "topic": "中文 AI 工具實戰",
       "type": "free-youtube",
       "highlight": "中文 AI creator 老司機 · Claude / Sora / Cursor 實戰教學",
-      "thumbnail": "https://www.youtube.com/s/desktop/4965577f/img/logos/favicon_144x144.png"
+      "thumbnail": "https://www.youtube.com/s/desktop/4965577f/img/logos/favicon_144x144.png",
+      "thumbnail_accent": "#0066cc",
+      "thumbnail_initial": "林"
     },
     {
       "title": "AI 工具人 · AI 工具評測",
@@ -1693,7 +1709,9 @@
       "topic": "AI 工具評測",
       "type": "free-youtube",
       "highlight": "中文圈最齊全的 AI 工具評測 · 每週新工具 + 比較",
-      "thumbnail": "https://www.youtube.com/s/desktop/4965577f/img/logos/favicon_144x144.png"
+      "thumbnail": "https://www.youtube.com/s/desktop/4965577f/img/logos/favicon_144x144.png",
+      "thumbnail_accent": "#10b981",
+      "thumbnail_initial": "AI"
     },
     {
       "title": "AI 思維 · 創作者 AI 教學",
@@ -1703,7 +1721,9 @@
       "topic": "中文 AI 創作",
       "type": "free-youtube",
       "highlight": "創作者導向 · AI 圖文 + 影片 + Podcast 應用",
-      "thumbnail": "https://www.youtube.com/s/desktop/4965577f/img/logos/favicon_144x144.png"
+      "thumbnail": "https://www.youtube.com/s/desktop/4965577f/img/logos/favicon_144x144.png",
+      "thumbnail_accent": "#a855f7",
+      "thumbnail_initial": "AI"
     },
     {
       "title": "智子情報 · AI 新聞解讀",
@@ -1713,7 +1733,9 @@
       "topic": "AI 產業新聞中文解讀",
       "type": "free-youtube",
       "highlight": "frontier lab 新聞 + 模型發布 中文深度分析",
-      "thumbnail": "https://www.youtube.com/s/desktop/4965577f/img/logos/favicon_144x144.png"
+      "thumbnail": "https://www.youtube.com/s/desktop/4965577f/img/logos/favicon_144x144.png",
+      "thumbnail_accent": "#3b82f6",
+      "thumbnail_initial": "智"
     },
     {
       "title": "曼報 ManReport · AI 新聞",
@@ -1723,7 +1745,9 @@
       "topic": "AI 新聞中文",
       "type": "free-youtube",
       "highlight": "中文圈 AI 新聞每週整理 · 適合非技術背景",
-      "thumbnail": "https://www.youtube.com/s/desktop/4965577f/img/logos/favicon_144x144.png"
+      "thumbnail": "https://www.youtube.com/s/desktop/4965577f/img/logos/favicon_144x144.png",
+      "thumbnail_accent": "#f59e0b",
+      "thumbnail_initial": "曼"
     },
     {
       "title": "科技玩具庫 · AI 工具實測",
@@ -1733,7 +1757,9 @@
       "topic": "AI 工具實測",
       "type": "free-youtube",
       "highlight": "工具實測導向 · 不講術語只看效果",
-      "thumbnail": "https://www.youtube.com/s/desktop/4965577f/img/logos/favicon_144x144.png"
+      "thumbnail": "https://www.youtube.com/s/desktop/4965577f/img/logos/favicon_144x144.png",
+      "thumbnail_accent": "#06b6d4",
+      "thumbnail_initial": "科"
     },
     {
       "title": "電腦王阿達 · AI 工具導覽",
@@ -1743,7 +1769,9 @@
       "topic": "AI 工具中文導覽",
       "type": "free-youtube",
       "highlight": "台灣老牌科技頻道 · AI 工具中文入門",
-      "thumbnail": "https://www.youtube.com/s/desktop/4965577f/img/logos/favicon_144x144.png"
+      "thumbnail": "https://www.youtube.com/s/desktop/4965577f/img/logos/favicon_144x144.png",
+      "thumbnail_accent": "#84cc16",
+      "thumbnail_initial": "阿"
     },
     {
       "title": "What's AI Bot · 國際 AI 新聞中文",
@@ -1753,7 +1781,9 @@
       "topic": "AI 新聞中文翻譯",
       "type": "free-youtube",
       "highlight": "國外 AI 新聞中文翻譯解讀 · 每日更新",
-      "thumbnail": "https://www.youtube.com/s/desktop/4965577f/img/logos/favicon_144x144.png"
+      "thumbnail": "https://www.youtube.com/s/desktop/4965577f/img/logos/favicon_144x144.png",
+      "thumbnail_accent": "#ec4899",
+      "thumbnail_initial": "W"
     },
     {
       "title": "哥布林學院 · 程式教學",
@@ -1763,7 +1793,9 @@
       "topic": "AI + 程式入門",
       "type": "free-youtube",
       "highlight": "中文 vibe coding + Cursor 入門必看",
-      "thumbnail": "https://www.youtube.com/s/desktop/4965577f/img/logos/favicon_144x144.png"
+      "thumbnail": "https://www.youtube.com/s/desktop/4965577f/img/logos/favicon_144x144.png",
+      "thumbnail_accent": "#22c55e",
+      "thumbnail_initial": "哥"
     },
     {
       "title": "Claude · 完整 API + Agent 5 課",
