@@ -8,6 +8,7 @@ on:
       - 'posts/*-daily.html'
       - 'assets/ig-stories/**'
       - 'data/pulse.json'
+      - 'data/models-feed.json'
 
 permissions:
   contents: read
@@ -31,6 +32,7 @@ jobs:
           DAILY_FILE="posts/${TODAY}-daily.html"
           IG_DIR="assets/ig-stories/${TODAY}"
           PULSE_FILE="data/pulse.json"
+          MODELS_FILE="data/models-feed.json"
           API="https://api.telegram.org/bot${TG_TOKEN}"
           SITE="https://ai-desk-tw.netlify.app"
 
@@ -82,6 +84,40 @@ jobs:
                 MSG=$(printf "🔴 PULSE · %s · %s\n\n%s\n\n🌐 看完整專欄 → %s/#pulse-%s\n\n%s%s\n\n— 原文 (%s) %s" "$TS" "$SRC" "$TITLE" "$SITE" "$ID" "$BLURB" "$HAS_EDIT" "$SRC" "$URL")
                 curl -sf -X POST "${API}/sendMessage" --data-urlencode "chat_id=${TG_CHAT}" --data-urlencode "text=${MSG}" && echo "✓ sent $ID" || echo "✗ fail $ID"
               done <<< "$NEW_IDS"
+            fi
+          fi
+
+          # Models · 每條 model_card + editorial rich
+          if echo "$CHANGED" | grep -qx "$MODELS_FILE"; then
+            if [ -f "$MODELS_FILE" ]; then
+              M_NEW_IDS=$(git diff HEAD~1 HEAD -- "$MODELS_FILE" 2>/dev/null | grep -oE '^\+\s*"id":\s*"models-[^"]+"' | sed 's/.*"id":\s*"//;s/"$//' || true)
+              if [ -z "$M_NEW_IDS" ]; then
+                echo "no new models"
+              else
+                echo "NEW models: $M_NEW_IDS"
+                while IFS= read -r MID; do
+                  [ -z "$MID" ] && continue
+                  TITLE=$(jq -r --arg id "$MID" '.items[] | select(.id == $id) | .title' "$MODELS_FILE")
+                  BLURB=$(jq -r --arg id "$MID" '.items[] | select(.id == $id) | .blurb' "$MODELS_FILE")
+                  SRC=$(jq -r --arg id "$MID" '.items[] | select(.id == $id) | .source' "$MODELS_FILE")
+                  URL=$(jq -r --arg id "$MID" '.items[] | select(.id == $id) | .url' "$MODELS_FILE")
+                  VENDOR=$(jq -r --arg id "$MID" '.items[] | select(.id == $id) | .model_card.vendor // ""' "$MODELS_FILE")
+                  NAME=$(jq -r --arg id "$MID" '.items[] | select(.id == $id) | .model_card.name // ""' "$MODELS_FILE")
+                  CTX=$(jq -r --arg id "$MID" '.items[] | select(.id == $id) | .model_card.context_window // ""' "$MODELS_FILE")
+                  PIN=$(jq -r --arg id "$MID" '.items[] | select(.id == $id) | .model_card.pricing_input // ""' "$MODELS_FILE")
+                  POUT=$(jq -r --arg id "$MID" '.items[] | select(.id == $id) | .model_card.pricing_output // ""' "$MODELS_FILE")
+                  EDITORIAL=$(jq -r --arg id "$MID" '.items[] | select(.id == $id) | .editorial // ""' "$MODELS_FILE" | sed 's/<[^>]*>/ /g' | tr -s '[:space:]' ' ' | sed 's/^ //;s/ $//')
+                  SPECS=""
+                  [ -n "$VENDOR" ] && SPECS="$SPECS\n📦 ${VENDOR} · ${NAME}"
+                  [ -n "$CTX" ] && SPECS="$SPECS\n   Context: ${CTX}"
+                  [ -n "$PIN" ] && SPECS="$SPECS\n   Input: ${PIN} / 1M tokens"
+                  [ -n "$POUT" ] && SPECS="$SPECS\n   Output: ${POUT} / 1M tokens"
+                  HAS_EDIT=""
+                  [ -n "$EDITORIAL" ] && HAS_EDIT="$(printf '\n\n📖 短篇專欄\n\n%s' "$EDITORIAL")"
+                  MSG=$(printf "🤖 MODELS · %s · %s\n\n%s\n\n🌐 看完整 spec + 專欄 → %s/#%s\n\n%s%s%s\n\n— 原文 (%s) %s" "$TODAY" "$SRC" "$TITLE" "$SITE" "$MID" "$BLURB" "$SPECS" "$HAS_EDIT" "$SRC" "$URL")
+                  curl -sf -X POST "${API}/sendMessage" --data-urlencode "chat_id=${TG_CHAT}" --data-urlencode "text=${MSG}" && echo "✓ sent $MID" || echo "✗ fail $MID"
+                done <<< "$M_NEW_IDS"
+              fi
             fi
           fi
 

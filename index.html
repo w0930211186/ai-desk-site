@@ -879,6 +879,108 @@ footer.site-footer {
 </style>
 
 <div class="section-label">
+  <span class="num">00b</span>
+  <span>Models — frontier model spec + editorial</span>
+  <span class="bar"></span>
+  <span id="models-meta">— · live</span>
+</div>
+
+<section class="models" aria-label="Latest AI models">
+  <div class="models-head">
+    <h2>🤖 LATEST<br>MODELS</h2>
+    <p class="sub">每小時掃一次<br>frontier lab 新模型<br>完整 spec · pricing · benchmark · editorial</p>
+  </div>
+  <ol id="models-list" class="models-list" aria-live="polite">
+    <li class="models-loading">Loading…</li>
+  </ol>
+</section>
+
+<script>
+(function(){
+  fetch('/data/models-feed.json?_=' + Date.now())
+    .then(function(r){ return r.json(); })
+    .then(function(data){
+      var list = document.getElementById('models-list');
+      var meta = document.getElementById('models-meta');
+      var items = (data.items || []).slice(0, 6);
+      if (!items.length) {
+        list.innerHTML = '<li class="models-empty">下一輪掃描在 :30 自動更新 — 沒新模型就不寫，寧缺勿濫</li>';
+        return;
+      }
+      list.innerHTML = items.map(function(it){
+        var t = new Date(it.ts);
+        var date = (t.getMonth()+1) + '/' + t.getDate() + ' ' + String(t.getHours()).padStart(2,'0') + ':' + String(t.getMinutes()).padStart(2,'0');
+        var mc = it.model_card || {};
+        var bench = '';
+        if (mc.benchmarks) {
+          bench = Object.keys(mc.benchmarks).map(function(k){
+            return '<tr><td>'+k+'</td><td>'+mc.benchmarks[k]+'</td></tr>';
+          }).join('');
+        }
+        var card = '<div class="model-card-table"><h4>' + (mc.vendor || '') + ' · ' + (mc.name || '') + '</h4><table>' +
+          (mc.context_window ? '<tr><td>Context</td><td>' + mc.context_window + '</td></tr>' : '') +
+          (mc.pricing_input ? '<tr><td>Input</td><td>' + mc.pricing_input + ' / 1M tokens</td></tr>' : '') +
+          (mc.pricing_output ? '<tr><td>Output</td><td>' + mc.pricing_output + ' / 1M tokens</td></tr>' : '') +
+          (mc.modality ? '<tr><td>Modality</td><td>' + mc.modality + '</td></tr>' : '') +
+          (mc.release_date ? '<tr><td>Release</td><td>' + mc.release_date + '</td></tr>' : '') +
+          (mc.availability ? '<tr><td>Availability</td><td>' + mc.availability + '</td></tr>' : '') +
+          bench +
+          '</table></div>';
+        var editorial = it.editorial ? '<details class="models-editorial"><summary>📖 看短篇專欄</summary><div class="models-edit-body">' + it.editorial + '<p class="models-source-link"><a href="' + it.url + '" target="_blank" rel="noopener">原文 ↗ ' + (it.source || '') + '</a></p></div></details>' : '';
+        return '<li class="models-item" id="' + (it.id || '') + '"><div class="models-head-row"><span class="models-time">' + date + '</span><span class="models-vendor">' + (mc.vendor || it.source || '').toUpperCase() + '</span><a class="models-title" href="' + (it.url || '#') + '" target="_blank" rel="noopener">' + (it.title || '') + '</a></div>' + (it.blurb ? '<p class="models-blurb">' + it.blurb + '</p>' : '') + card + editorial + '</li>';
+      }).join('');
+      if (data.updated_at) {
+        meta.textContent = '更新於 ' + data.updated_at.replace('T',' ').replace(/[+Z].*/, '') + ' · live';
+      }
+    })
+    .then(function(){
+      if (location.hash && location.hash.indexOf('#models-') === 0) {
+        setTimeout(function(){
+          var el = document.getElementById(location.hash.slice(1));
+          if (el) {
+            var det = el.querySelector('.models-editorial');
+            if (det) det.open = true;
+            el.scrollIntoView({behavior: 'smooth', block: 'center'});
+            el.classList.add('pulse-flash');
+          }
+        }, 300);
+      }
+    })
+    .catch(function(){ document.getElementById('models-list').innerHTML = '<li class="models-empty">models data 載入失敗</li>'; });
+})();
+</script>
+
+<style>
+.models { background: #0a0a0a; padding: 3rem 2rem; max-width: 1200px; margin: 2rem auto; }
+.models-head { margin-bottom: 2rem; }
+.models-head h2 { font-size: 4rem; line-height: 0.9; margin: 0; color: #fff; letter-spacing: -0.04em; }
+.models-head .sub { font-family: "JetBrains Mono", monospace; font-size: 0.85rem; color: #888; margin-top: 1rem; line-height: 1.6; }
+.models-list { list-style: none; padding: 0; margin: 0; border-top: 1px solid #333; }
+.models-item { padding: 1.4rem 0; border-bottom: 1px solid #222; }
+.models-head-row { display: grid; grid-template-columns: 100px 110px 1fr; gap: 1rem; align-items: baseline; margin-bottom: 0.6rem; }
+.models-time { font-family: "JetBrains Mono", monospace; font-size: 0.78rem; color: #4ade80; letter-spacing: 0.05em; }
+.models-vendor { font-family: "JetBrains Mono", monospace; font-size: 0.7rem; color: #888; letter-spacing: 0.1em; text-transform: uppercase; }
+.models-title { color: #fff; text-decoration: none; font-size: 1rem; line-height: 1.5; font-weight: 600; }
+.models-title:hover { color: #4ade80; }
+.models-blurb { color: #aaa; font-size: 0.85rem; margin: 0.5rem 0 1rem 0; line-height: 1.6; padding-left: 220px; }
+.model-card-table { margin: 0.8rem 0 0.5rem 220px; padding: 1rem; background: rgba(255,255,255,0.03); border: 1px solid #222; }
+.model-card-table h4 { color: #4ade80; margin: 0 0 0.6rem; font-size: 0.85rem; font-family: "JetBrains Mono", monospace; letter-spacing: 0.05em; }
+.model-card-table table { width: 100%; border-collapse: collapse; font-size: 0.82rem; }
+.model-card-table table td { padding: 0.3rem 0.5rem; border-bottom: 1px dotted #2a2a2a; color: #ccc; font-family: "JetBrains Mono", monospace; }
+.model-card-table table td:first-child { color: #888; width: 40%; font-size: 0.75rem; }
+.models-editorial { margin: 0.8rem 0 0 220px; }
+.models-editorial summary { cursor: pointer; font-family: "JetBrains Mono", monospace; font-size: 0.75rem; color: #4ade80; letter-spacing: 0.06em; padding: 0.4rem 0; user-select: none; }
+.models-editorial summary:hover { color: #fff; }
+.models-edit-body { padding: 1rem 0 0.5rem; border-top: 1px dashed #333; margin-top: 0.5rem; }
+.models-edit-body p { color: #ccc; font-size: 0.9rem; line-height: 1.7; margin: 0 0 0.8rem; }
+.models-edit-body p strong { color: #fff; }
+.models-source-link { font-family: "JetBrains Mono", monospace; font-size: 0.72rem !important; opacity: 0.6; margin-top: 1rem !important; }
+.models-source-link a { color: #4ade80; text-decoration: none; letter-spacing: 0.05em; }
+.models-loading, .models-empty { padding: 1rem 0; color: #888; font-family: "JetBrains Mono", monospace; }
+@media (max-width: 700px) { .models-head-row { grid-template-columns: 1fr; gap: 0.3rem; } .models-blurb, .model-card-table, .models-editorial { padding-left: 0; margin-left: 0; } }
+</style>
+
+<div class="section-label">
   <span class="num">01</span>
   <span>Journal — latest editions</span>
   <span class="bar"></span>
