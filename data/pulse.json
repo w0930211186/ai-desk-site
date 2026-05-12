@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-05-12T12:40:00+08:00",
+  "updated_at": "2026-05-12T14:00:00+08:00",
   "items": [
+    {
+      "id": "pulse-2026-05-12-14-deepseek-45b-china-big-fund",
+      "ts": "2026-05-12T14:00:00+08:00",
+      "title": "中國「大基金」領投 DeepSeek 首輪外部融資・估值數週內從 100 億躍至 450 億美元・騰訊、阿里同步入局",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/06/deepseek-could-hit-45b-valuation-from-its-first-investment-round/",
+      "blurb": "中國半導體國家基金正談判主導 DeepSeek 史上首輪對外融資，估值在數週內從 100 億暴漲至 450 億美元，騰訊與阿里亦據報商討參與；此舉標誌 DeepSeek 從個人控股的對沖基金實驗室正式升格為國家戰略 AI 資產，算力冷戰進入新章。",
+      "editorial": "<p><strong>第一</strong>，中國集成電路產業投資基金（「大基金」）正談判主導 DeepSeek 首次對外融資，根據《金融時報》及 Bloomberg 5 月 6 至 7 日報導，目標估值約 450 億美元，對應首輪開盤估值 100 億美元已在數週內升逾四倍。騰訊與阿里巴巴亦據報正商討跟投。DeepSeek 由對沖基金創辦人梁文鋒以私人資本創建，此前從未引入外部投資者，開放融資的直接動機是留才——競爭對手挖角壓力下，梁文鋒決定以股權誘因綁定核心研究人員。</p><p><strong>第二</strong>，大基金過去聚焦晶圓廠與封裝測試等製造環節，首度直接進入語言模型研究室，標誌北京的 AI 政策從「補貼硬體」全面升級為「直接孵育模型層」。450 億美元估值使 DeepSeek 與 Anthropic、Mistral 同一量級，且 DeepSeek 迄今幾乎零外部收入——此估值本質上是地緣政治溢價的具象化，北京以資本明確宣示 DeepSeek 為國家戰略資產。DeepSeek V4 Pro 已在 agentic 代碼基準追平西方 frontier 模型，推論成本僅三分之一，國家資本背書進一步強化其在全球企業市場的競爭籌碼。</p><p><strong>第三</strong>，對企業採購方：DeepSeek 獲主權基金背書後，數據駐留與供應鏈主權風險評估須重新完整走一遍，採購合規複雜度實質提升。對 Anthropic、OpenAI：國家資本支持的開源模型以三分之一推論成本持續攻佔開發者市場，API 定價體系面臨的結構性壓力將隨 DeepSeek 資本充裕程度的上升而加劇。對美國政策制定者：大基金估值事件是最新的明確信號——晶片出口管制已無法阻止中國訓練 frontier 模型，政策工具箱需從硬體管制升級至算法知識管制與多邊協調框架。</p>"
+    },
+    {
+      "id": "pulse-2026-05-12-14-deepmind-uk-union-pentagon",
+      "ts": "2026-05-12T14:00:00+08:00",
+      "title": "DeepMind 英國員工 98% 通過組建工會・Pentagon 機密 AI 合約打破八年倫理承諾・前沿實驗室史上首次集體勞工抵抗",
+      "source": "Fortune",
+      "url": "https://fortune.com/2026/05/05/google-deepmind-unionize-vote-military-ai-contracts-internal-backlash-pentagon-deal-israeli-defense-forces/",
+      "blurb": "Google DeepMind 倫敦逾千名員工以 98% 高票決議組建工會，直接導火索是 Google 與五角大廈簽署的機密 AI 合約——授權 Gemini 在軍事網路「用於任何合法目的」，打破 DeepMind 維持八年的反武器化倫理承諾；這是全球 frontier AI 實驗室首次出現正式集體勞工行動。",
+      "editorial": "<p><strong>第一</strong>，Google DeepMind 倫敦辦公室逾千名員工於 5 月初完成工會化投票，支持率達 98%。員工已正式致函管理層，要求英國通訊工人工會（CWU）與 Unite the Union 獲得代表資格。直接導火索是 Google 與美國國防部簽署的機密合約，授權 Gemini 模型在軍事機密網路中「用於任何合法目的」，另據報延伸至以色列國防軍相關應用，員工明確要求終止所有軍事 AI 合約。</p><p><strong>第二</strong>，DeepMind 自 2014 年被 Google 收購時，曾明確承諾「絕不用於武器或大規模監控」——此承諾是 DeepMind 創辦人同意收購的核心交換條件，也是 Google 吸引頂尖研究者長達八年的隱性招聘承諾。五角大廈合約被視為對此承諾的單方面撕毀，98% 投票率有其必然性。對 Google 而言，若工會獲法律認可，Gemini 軍事應用的擴展與模型用途邊界均可能成為勞資集體談判議題，從內部制約公司的 AI 國防佈局。對整個 frontier AI 業：這是第一起，DeepMind 的 98% 投票率為 Anthropic、OpenAI、Meta AI 等同業的 AI 倫理承諾設定了全新的內部問責先例。</p><p><strong>第三</strong>，Google 面臨三條路徑：主動承認工會（展現 ESG 立場但喪失軍事 AI 自由度）、拒絕後面臨英國勞動關係局仲裁，或談判讓渡部分倫理監督機制換取工會不爭取集體談判權。任一路徑均將影響 Google DeepMind 的研究人才流失率，而人才密度是 Gemini 模型競爭力的核心資產。對 CIO：選擇 Google AI 服務的企業需評估，供應商內部勞工不穩定性是否構成長期服務連續性風險，以及軍事用途爭議是否會波及供應商的公眾信任度與政府採購資格。</p>"
+    },
+    {
+      "id": "pulse-2026-05-12-14-anthropic-dreaming-agents",
+      "ts": "2026-05-12T14:00:00+08:00",
+      "title": "Anthropic 推出 Dreaming・讓 Claude Agent 任務間自主整合記憶・Harvey 導入後完成率提升六倍",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/technology/anthropic-introduces-dreaming-a-system-that-lets-ai-agents-learn-from-their-own-mistakes",
+      "blurb": "Anthropic 為 Managed Agents API 新增「Dreaming」排程功能，讓 agent 在任務空檔自動萃取跨 session 模式、修剪高訊噪記憶庫，法律 AI 公司 Harvey 導入後任務完成率提升約六倍，標誌長效自我改進型 agent 進入商業部署。",
+      "editorial": "<p><strong>第一</strong>，Anthropic 於 5 月 7 日宣布 Managed Agents API 三項新功能，核心為「Dreaming」——一個在 agent 任務間排程執行的後台程序：自動審閱歷史 session 記錄與記憶庫，提取跨 agent 的行為模式、常見錯誤與收斂工作流，以純文字筆記與結構化「playbook」形式寫回持久記憶，供後續 session 引用，全程設計為可人工審計。法律 AI 公司 Harvey 在內部試用後回報任務完成率提升約六倍；功能目前以研究預覽形式開放申請。</p><p><strong>第二</strong>，AI agent 最核心的限制之一是跨 session 記憶不連貫——每次任務重啟等同從零開始，累積經驗無法沉澱。Dreaming 引入類人類「睡眠記憶鞏固」機制，理論上讓 agent 隨使用時間持續改進，推論成本逐步下降、任務達成率逐步提升。此功能直接對標 OpenAI Memory，但 Anthropic 側重多 agent 協作環境下的橫向知識共享，而非單一用戶偏好記憶。Harvey 六倍完成率若可在其他行業複製，agentic AI 的 ROI 計算將發生結構性改變，企業簽訂長期 Managed Agents 訂閱的商業邏輯大幅強化。</p><p><strong>第三</strong>，對開發者：Dreaming 的 plain-text notes 與 playbooks 架構允許外部可見性，正式文件的完整 schema、自訂 dreaming 頻率與記憶範圍設定是近期最值得追蹤的 API 更新細節。對企業 CIO：長效自我改進 agent 引入新的可解釋性挑戰——playbook 內容是否符合合規要求、誰有權審計或覆蓋 agent 習得的工作流，是導入 Dreaming 前需預先回答的治理問題。對競爭格局：下一輪 agentic AI 的差異化戰場將從「單次任務完成率」轉向「跨 session 改善曲線速度」，Google Agent Space 與 OpenAI Projects 的記憶架構設計是直接的對標基準。</p>"
+    },
     {
       "id": "pulse-2026-05-12-12-moonshot-ai-20b-funding",
       "ts": "2026-05-12T12:25:00+08:00",
@@ -44,7 +71,7 @@
       "source": "METR",
       "url": "https://metr.org/time-horizons/",
       "blurb": "METR 確認 Claude Mythos 50% 任務視野達至少 16 小時，評估套件宣告觸頂失效；AI 代理能力每 105 天翻倍，現有衡量工具已無法追蹤模型真實上限，部署安全護欄設計失去可量化基礎",
-      "editorial": "<p><strong>第一</strong>，AI 自主能力評估機構 METR 於 2026 年 5 月 9 日更新旗下任務時間視野（Task-Completion Time Horizons）基準報告，確認 Claude Mythos Preview 的 50% 任務完成時間視野達至少 16 小時，95% 信賴區間橫跨 8.5 至 55 小時。METR 坦承現有評估套件僅有五個超 16 小時任務，無法擬合可靠曲線，等同宣告其設計於 2024 年的基準已無法衡量 Claude Mythos 的能力上限；80% 時間視野則為 3 小時 6 分鐘。</p><p><strong>第二</strong>，此更新揭示 AI 能力成長已正式超越評估框架邊界。METR 數據顯示 frontier 模型任務時間視野每 105 天翻倍（2023 年前為每 7 個月），過去三個季度 AI 代理可自主完成的最長任務時長增加逾 700%。Claude Mythos 在軟體工程、機器學習與網路安全三類任務上的表現，已讓業界用於設計安全護欄與人工監督門檻的核心評估指標失去可量化錨點——若無法可靠測量能力上限，部署安全護欄就缺乏基礎。</p><p><strong>第三</strong>，對企業部署方，「16 小時任務視野」意味著 Claude Mythos 可自主完成從代碼審查到漏洞修補的完整工程鏈條，agentic AI 的人工監督頻率設計需全面重估。METR 的誠實披露本身是重要訊號：頂尖 AI 安全評估機構首次正式承認「工具已不夠用」，呼籲政府監管機構緊急投資設計能追蹤 16–55 小時能力區間的下一代評估套件，而非仰賴現有基準繼續評估已遠超其設計範圍的模型。</p>"
+      "editorial": "<p><strong>第一</strong>，AI 自主能力評估機構 METR 於 2026 年 5 月 9 日更新旗下任務時間視野（Task-Completion Time Horizons）基準報告，確認 Claude Mythos Preview 的 50% 任務完成時間視野達至少 16 小時，95% 信賴區間橫跨 8.5 至 55 小時。METR 坦承現有評估套件僅有五個超 16 小時任務，無法擬合可靠曲線，等同宣告其設計於 2024 年的基準已無法衡量 Claude Mythos 的能力上限；80% 時間視野則為 3 小時 6 分鐘。</p><p><strong>第二</strong>，此更新揭示 AI 能力成長已正式超越評估框架邊界。METR 數據顯示 frontier 模型任務時間視野每 105 天翻倍（2023 年前為每 7 個月），過去三個季度 AI 代理可自主完成的最長任務時長增加逾 700%。Claude Mythos 在軟體工程、機器學習與網路安全三類任務上的表現，已讓業界用於設計安全護欄與人工監督門檻的核心評估指標失去可量化錨點——若無法可靠測量能力上限，部署安全護欄就缺乏基礎。</p><p><strong>第三</strong>，對企業部署方，「16 小時任務視野」意味著 Claude Mythos 可自主完成從代碼審查到漏洞修補的完整工程鏈條，agentic AI 的人工監督頻率設計需全面重估。METR 的誠實披露本身是重要訊號：頂尖 AI 安全評估機構首次正式承認「工具已不夠用」，呼籲政府監管機構緊急投資設計能追蹤 16 至 55 小時能力區間的下一代評估套件，而非仰賴現有基準繼續評估已遠超其設計範圍的模型。</p>"
     },
     {
       "id": "pulse-2026-05-12-11-five-eyes-agentic-ai-guidance",
@@ -71,7 +98,7 @@
       "source": "Anthropic",
       "url": "https://www.anthropic.com/news/enterprise-ai-services-company",
       "blurb": "Anthropic 與 Blackstone、Hellman & Friedman、Goldman Sachs 聯合成立 15 億美元企業 AI 服務公司，首攻 PE 持有中型企業；同日 OpenAI 宣布 100 億美元估值 The Deployment Company，兩大 frontier lab 同步宣告進軍管理顧問市場",
-      "editorial": "<p><strong>第一</strong>，Anthropic 於 5 月 4 日宣布與 Blackstone、Hellman & Friedman、Goldman Sachs 聯合成立全新企業 AI 服務公司，初始承諾資本約 15 億美元；General Atlantic、Apollo Global Management、GIC、Sequoia Capital 同步跟投。新公司以 Anthropic 工程師直接嵌入客戶組織為核心交付模式，首攻私募股權（PE）持有的中型企業，優先進入醫療、製造、金融服務、零售與房地產五大垂直領域。同日，OpenAI 亦宣布成立 The Deployment Company，由 TPG、Bain Capital、Brookfield 領投，估值 100 億美元、首輪募資 40 億美元，收購顧問公司 Tomoro 補充約 150 名工程師；兩家 frontier lab 在同一天宣告進軍企業 AI 服務，標誌整個行業商業模式的集體轉折。</p><p><strong>第二</strong>，此舉從根本上改變 Anthropic 的市場定位：從 API 授權商轉型為直接與 McKinsey、Bain、Accenture 等頂級顧問公司搶奪企業 AI 轉型預算的服務商。Goldman Sachs 與 Blackstone 合計管理逾 2 兆美元資產，旗下 PE 投資組合企業成為現成的初始客戶試驗場，亦是最具說服力的銷售案例工廠。「前線部署工程師」（forward-deployed engineer）模式由 Palantir 率先規模化，如今被 Anthropic 與 OpenAI 同步採納，說明 AI 轉型的實施落差已成為比模型能力更大的商業機會。</p><p><strong>第三</strong>，連鎖效應有三個維度值得追蹤。其一，傳統顧問業的定價壓力將在 12-24 個月內顯現，AI 原生服務商同時握有模型、工程師與金融資本，可以更低邊際成本承接大型轉型專案。其二，PE 持有的中型企業（全球估計超過 10 萬家）正式成為 frontier AI 落地的主戰場，AI 採購決策將從自願性轉為 PE 操作手冊的標準條款。其三，Anthropic 直接嵌入客戶核心業務，引發 AI 決策失誤的法律責任灰區——模型廠商在服務合約中承擔多大程度的業務結果責任，將推動企業 AI 法律框架的立法加速形成。</p>"
+      "editorial": "<p><strong>第一</strong>，Anthropic 於 5 月 4 日宣布與 Blackstone、Hellman & Friedman、Goldman Sachs 聯合成立全新企業 AI 服務公司，初始承諾資本約 15 億美元；General Atlantic、Apollo Global Management、GIC、Sequoia Capital 同步跟投。新公司以 Anthropic 工程師直接嵌入客戶組織為核心交付模式，首攻私募股權（PE）持有的中型企業，優先進入醫療、製造、金融服務、零售與房地產五大垂直領域。同日，OpenAI 亦宣布成立 The Deployment Company，由 TPG、Bain Capital、Brookfield 領投，估值 100 億美元、首輪募資 40 億美元，收購顧問公司 Tomoro 補充約 150 名工程師；兩家 frontier lab 在同一天宣告進軍企業 AI 服務，標誌整個行業商業模式的集體轉折。</p><p><strong>第二</strong>，此舉從根本上改變 Anthropic 的市場定位：從 API 授權商轉型為直接與 McKinsey、Bain、Accenture 等頂級顧問公司搶奪企業 AI 轉型預算的服務商。Goldman Sachs 與 Blackstone 合計管理逾 2 兆美元資產，旗下 PE 投資組合企業成為現成的初始客戶試驗場，亦是最具說服力的銷售案例工廠。「前線部署工程師」（forward-deployed engineer）模式由 Palantir 率先規模化，如今被 Anthropic 與 OpenAI 同步採納，說明 AI 轉型的實施落差已成為比模型能力更大的商業機會。</p><p><strong>第三</strong>，連鎖效應有三個維度值得追蹤。其一，傳統顧問業的定價壓力將在 12 至 24 個月內顯現，AI 原生服務商同時握有模型、工程師與金融資本，可以更低邊際成本承接大型轉型專案。其二，PE 持有的中型企業（全球估計超過 10 萬家）正式成為 frontier AI 落地的主戰場，AI 採購決策將從自願性轉為 PE 操作手冊的標準條款。其三，Anthropic 直接嵌入客戶核心業務，引發 AI 決策失誤的法律責任灰區——模型廠商在服務合約中承擔多大程度的業務結果責任，將推動企業 AI 法律框架的立法加速形成。</p>"
     },
     {
       "id": "pulse-2026-05-04-sap-prior-labs-tfm",
@@ -80,7 +107,7 @@
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/05/05/sap-bets-1-16b-on-18-month-old-german-ai-lab-and-says-yes-to-nemoclaw/",
       "blurb": "SAP 宣布收購德國 AI 新創 Prior Labs，承諾四年逾 10 億歐元，以表格基礎模型（TabPFN，已在 Nature 發表）為核心打造歐洲首座企業結構化數據前沿 AI 研究室，直接解決 LLM 在 ERP 數字與資料表推理的固有弱點",
-      "editorial": "<p><strong>第一</strong>，SAP SE 於 5 月 4 日宣布收購德國 AI 新創 Prior Labs，承諾未來四年投入逾 10 億歐元，TechCrunch 估計收購代價約 11.6 億美元。Prior Labs 創立僅 18 個月，由弗萊堡大學教授 Frank Hutter、Noah Hollmann 與 Sauraj Gambhir 聯合創立，核心技術為「表格基礎模型」（Tabular Foundation Model，TFM）——TabPFN 系列已在 Nature 期刊發表，專為企業結構化數據（ERP 資料表、財務數字、業務統計）設計，解決大型語言模型在數字推理與表格解析上的系統性弱點。新實驗室總部保留弗萊堡，並於柏林、紐約設辦事處，交易待 2026 年第二或第三季監管核准後生效。</p><p><strong>第二</strong>，此收購在戰略上標誌歐洲首次以重量級資本宣示進入 frontier AI 研究軌道，且路徑不是複製通用大語言模型，而是押注企業數據 AI 的利基制高點。SAP 擁有全球逾 40 萬企業客戶，ERP 系統中積累的結構化業務數據天然是訓練 TFM 的最大語料庫，競爭者難以複製。Prior Labs 繞過消費者市場直接嵌入企業軟體生態，算力需求遠低於通用模型，德國研發基地加上 SAP 的歐盟資料主權框架，使 TFM 在 GDPR 合規部署上具備 Anthropic、OpenAI 難以匹敵的先天優勢。</p><p><strong>第三</strong>，後續觀察應聚焦三個面向。首先，SAP 能否在四年承諾期內完成 TFM 工程化與產品化，使其達到可與 Anthropic 金融 agents 正面競爭的採購說服力。其次，此案例是否引發 Workday、Oracle、Salesforce 等企業軟體商跟進類似收購，形成企業 AI 研發的歐洲第二梯隊。第三，對企業 CIO，TFM 與 ERP 原生整合若能落地，有望大幅壓縮 AI 導入項目中 60-80% 消耗在數據清洗與格式化的工程成本，成為企業 AI ROI 方程式的關鍵改良項，值得密切追蹤。</p>"
+      "editorial": "<p><strong>第一</strong>，SAP SE 於 5 月 4 日宣布收購德國 AI 新創 Prior Labs，承諾未來四年投入逾 10 億歐元，TechCrunch 估計收購代價約 11.6 億美元。Prior Labs 創立僅 18 個月，由弗萊堡大學教授 Frank Hutter、Noah Hollmann 與 Sauraj Gambhir 聯合創立，核心技術為「表格基礎模型」（Tabular Foundation Model，TFM）——TabPFN 系列已在 Nature 期刊發表，專為企業結構化數據（ERP 資料表、財務數字、業務統計）設計，解決大型語言模型在數字推理與表格解析上的系統性弱點。新實驗室總部保留弗萊堡，並於柏林、紐約設辦事處，交易待 2026 年第二或第三季監管核准後生效。</p><p><strong>第二</strong>，此收購在戰略上標誌歐洲首次以重量級資本宣示進入 frontier AI 研究軌道，且路徑不是複製通用大語言模型，而是押注企業數據 AI 的利基制高點。SAP 擁有全球逾 40 萬企業客戶，ERP 系統中積累的結構化業務數據天然是訓練 TFM 的最大語料庫，競爭者難以複製。Prior Labs 繞過消費者市場直接嵌入企業軟體生態，算力需求遠低於通用模型，德國研發基地加上 SAP 的歐盟資料主權框架，使 TFM 在 GDPR 合規部署上具備 Anthropic、OpenAI 難以匹敵的先天優勢。</p><p><strong>第三</strong>，後續觀察應聚焦三個面向。首先，SAP 能否在四年承諾期內完成 TFM 工程化與產品化，使其達到可與 Anthropic 金融 agents 正面競爭的採購說服力。其次，此案例是否引發 Workday、Oracle、Salesforce 等企業軟體商跟進類似收購，形成企業 AI 研發的歐洲第二梯隊。第三，對企業 CIO，TFM 與 ERP 原生整合若能落地，有望大幅壓縮 AI 導入項目中 60 至 80% 消耗在數據清洗與格式化的工程成本，成為企業 AI ROI 方程式的關鍵改良項，值得密切追蹤。</p>"
     },
     {
       "id": "pulse-2026-05-12-10-anthropic-akamai-compute",
