@@ -79,7 +79,7 @@ jobs:
                 EDITORIAL=$(jq -r --arg id "$ID" '.items[] | select(.id == $id) | .editorial // ""' "$PULSE_FILE" | sed 's/<[^>]*>/ /g' | tr -s '[:space:]' ' ' | sed 's/^ //;s/ $//')
                 HAS_EDIT=""
                 [ -n "$EDITORIAL" ] && HAS_EDIT="$(printf '\n\n📖 短篇專欄\n\n%s' "$EDITORIAL")"
-                MSG=$(printf "🔴 PULSE · %s · %s\n\n%s\n\n%s%s\n\n🔗 原文：%s\n🌐 主頁專欄：%s/#pulse-%s" "$TS" "$SRC" "$TITLE" "$BLURB" "$HAS_EDIT" "$URL" "$SITE" "$ID")
+                MSG=$(printf "🔴 PULSE · %s · %s\n\n%s\n\n🌐 看完整專欄 → %s/#pulse-%s\n\n%s%s\n\n— 原文 (%s) %s" "$TS" "$SRC" "$TITLE" "$SITE" "$ID" "$BLURB" "$HAS_EDIT" "$SRC" "$URL")
                 curl -sf -X POST "${API}/sendMessage" --data-urlencode "chat_id=${TG_CHAT}" --data-urlencode "text=${MSG}" && echo "✓ sent $ID" || echo "✗ fail $ID"
               done <<< "$NEW_IDS"
             fi
