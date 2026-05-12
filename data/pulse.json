@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-05-12T09:32:36+08:00",
+  "updated_at": "2026-05-12T09:50:34+08:00",
   "items": [
+    {
+      "id": "pulse-2026-05-12-demo-editorial",
+      "ts": "2026-05-12T09:50:34+08:00",
+      "title": "Anthropic 拉高 Claude rate limit · SpaceX 算力協議定義 frontier 軌道資源新一輪整合",
+      "source": "Anthropic blog",
+      "url": "https://www.anthropic.com/news/higher-limits-spacex?demo=1",
+      "blurb": "Anthropic 同日宣布 Claude Pro/Max 額度上調 + SpaceX 算力合作 · 兩件事併推 frontier lab 算力鏈軌道化敘事",
+      "editorial": "<p><strong>第一</strong>，Anthropic 一日完成兩條重大公告——Claude Pro/Max 用量上限調升、SpaceX 算力供應協議——對應 5/7 N°50 Colossus 1 整廠收購敘事，這是 7 天內第二度把「算力供應」搬上頭條。Q1 ARR $44B 加上端點 rate limit 上調，需求側壓力被官方承認，供應側用 Musk 軌道資源補位。</p><p><strong>第二</strong>，frontier lab 的算力 stack 從 hyperscaler（AWS / Azure / Google）擴張到 neocloud（Fluidstack）再擴張到 Musk 軌道資源，現在是三層異質供應商一次到位。Anthropic 把「不被單一政府或單一硬體商卡住」這個故事說得最完整。OpenAI 跟 Google DeepMind 接下來必然回敬類似敘事，預期 2-4 週內看到 OpenAI 與 CoreWeave 或 Stargate 擴約的新公告。</p><p><strong>第三</strong>，企業端最大解讀是「Claude 端點限制鬆動」的訊號——過去 5 小時 cap、Opus rate limit 在尖峰時段不夠這兩條痛點同時放寬，搭配 5/6 N°46 finance agents 落地，等於把「Claude 跑得起企業級流量嗎」這個質疑點同步解掉。對裸跑 Claude Code 的小團隊與 IDE 整合方（Cursor / Windsurf）是直接利好。</p>"
+    },
     {
       "id": "pulse-test-1778549556",
       "ts": "2026-05-12T09:32:36+08:00",
@@ -232,14 +241,6 @@
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/05/06/anthropic-spacex-data-center-capacity.html",
       "blurb": "Anthropic 宣布與 SpaceX 的 Colossus 1 資料中心簽署全容量使用協議，取得逾 300 兆瓦（22 萬張以上 NVIDIA GPU）的新算力，協議含太空基礎設施開發元素；同步宣布 Claude Pro、Max、Team 及企業版 API 用量限額大幅提升、取消尖峰限速，為在 Claude Code 爆量下已算力告急的 Anthropic 提供關鍵喘息空間，算力短缺問題有望短期舒緩。"
-    },
-    {
-      "id": "pulse-2026-05-06-white-house-ai-security-eo",
-      "ts": "2026-05-06T18:00:00+08:00",
-      "title": "白宮籌備 AI 安全行政命令・響應 Anthropic Mythos 前例、擬推 FDA 式模型上市審查制度",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-06/white-house-preps-order-to-boost-ai-security-hassett-says",
-      "blurb": "白宮高層顧問 Kevin Hassett 透露，政府正草擬行政命令對高風險 AI 模型建立類似 FDA 的上市前審查程序，直接回應 Anthropic Mythos 因攻擊性網路能力過強而自行限制部署的前例；命令草案要求被認定為重大網路安全威脅的 AI 模型在商業化前完成政府評估，為全球前沿 AI 監管框架注入重要里程碑。"
     }
   ],
   "_note": "seeded by Peter 2026-05-10 — cloud routine ai-desk-pulse 每 2 小時自動更新"
