@@ -878,14 +878,14 @@ footer.site-footer {
 @media (max-width: 700px) { .pulse-item { grid-template-columns: 1fr; gap: 0.3rem; } .pulse-blurb { grid-column: 1; } }
 </style>
 
-<div class="section-label">
+<div class="section-label" id="models-section-label">
   <span class="num">00b</span>
   <span>Models — frontier model spec + editorial</span>
   <span class="bar"></span>
   <span id="models-meta">— · live</span>
 </div>
 
-<section class="models" aria-label="Latest AI models">
+<section class="models" id="models-section" aria-label="Latest AI models">
   <div class="models-head">
     <h2>🤖 LATEST<br>MODELS</h2>
     <p class="sub">每小時掃一次<br>frontier lab 新模型<br>完整 spec · pricing · benchmark · editorial</p>
@@ -904,7 +904,10 @@ footer.site-footer {
       var meta = document.getElementById('models-meta');
       var items = (data.items || []).slice(0, 6);
       if (!items.length) {
-        list.innerHTML = '<li class="models-empty">下一輪掃描在 :30 自動更新 — 沒新模型就不寫，寧缺勿濫</li>';
+        // 完全 hide 整個 section + 上面的 section-label
+        document.getElementById('models-section').style.display = 'none';
+        var lbl = document.getElementById('models-section-label');
+        if (lbl) lbl.style.display = 'none';
         return;
       }
       list.innerHTML = items.map(function(it){
@@ -946,7 +949,11 @@ footer.site-footer {
         }, 300);
       }
     })
-    .catch(function(){ document.getElementById('models-list').innerHTML = '<li class="models-empty">每小時 :30 自動更新 · 沒新模型發布就不寫（寧缺勿濫）</li>'; });
+    .catch(function(){
+      document.getElementById('models-section').style.display = 'none';
+      var lbl = document.getElementById('models-section-label');
+      if (lbl) lbl.style.display = 'none';
+    });
 })();
 </script>
 
