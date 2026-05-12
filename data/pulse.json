@@ -2,15 +2,6 @@
   "updated_at": "2026-05-12T11:14:07+08:00",
   "items": [
     {
-      "id": "pulse-2026-05-12-v7-site-first",
-      "ts": "2026-05-12T11:14:07+08:00",
-      "title": "Stratechery 把 AI 經濟學主軸從訓練改寫成 inference · 每 token 成本變新敘事",
-      "source": "Stratechery",
-      "url": "https://stratechery.com/2026/inference-shift/",
-      "blurb": "Ben Thompson 在 5/12 專欄重寫 AI 經濟學主軸 · 把焦點從訓練成本轉到 inference 單位經濟 · frontier lab 競爭格局重新校準",
-      "editorial": "<p><strong>第一</strong>，Ben Thompson 在 Stratechery 5/12 篇主文重寫 AI 經濟學的主敘事——從「誰能 train 出最大模型」轉到「誰能 serve 最低 inference 成本」。Stratechery 是 frontier lab 領導層必讀，這次主軸切換等於把 OpenAI 從訓練軍備競賽中暫時解套，但同時把壓力丟給 Anthropic 跟 Google DeepMind 證明他們的 serving 經濟學。</p><p><strong>第二</strong>，這條變動的時機跟 5/7 N°50 Anthropic 收 Colossus 1 + 5/12 SpaceX 算力協議疊在一起——frontier lab 同時搶訓練算力 + 推 inference 經濟 = stack 兩端都要拿下。Cerebras 與 Groq 這類 inference-first 廠商的估值會被重新拉高，預期 2026 下半年看到至少一條 frontier lab × inference 硬體廠的策略合作。</p><p><strong>第三</strong>，企業端 CIO 最大變化是 budget 規劃從「per-seat license」轉「per-1M-tokens」會加速。對 GitHub Advanced Security、Snyk、Semgrep 等已經跟 token usage 對應的工具是直接利好。對裸跑 Claude Code 的小團隊 inference cost transparency 會變成新合規關卡。</p>"
-    },
-    {
       "id": "pulse-2026-05-12-10-anthropic-akamai-compute",
       "ts": "2026-05-12T10:11:00+08:00",
       "title": "Anthropic 簽署 18 億美元七年 Akamai 算力協議・CDN 邊緣節點進入 frontier AI 推論供應鏈",
@@ -27,64 +18,6 @@
       "url": "https://www.cnbc.com/2026/05/05/ai-oversight-trump-google-microsoft-xai.html",
       "blurb": "NIST 旗下 CAISI 宣布三份新測試協議，涵蓋 Google DeepMind、Microsoft、xAI，在機密環境評估移除護欄的模型版本，美國五大前沿 lab 已全數納入政府預部署安全評估框架",
       "editorial": "<p><strong>第一</strong>，美國商務部旗下 NIST「人工智慧標準與創新中心」（CAISI）於 5 月 5 日宣布與 Google DeepMind、Microsoft 及 xAI 分別簽署前沿 AI 測試協議。協議授權政府在機密環境中執行部署前安全評估，明確允許廠商提交移除部分安全護欄的研究版模型供深度評測，以評估國家安全相關能力上限。CAISI 此前於 2024 年已與 Anthropic 及 OpenAI 建立同類協議，本輪擴展後美國五大主要前沿 AI 研究室已全數納入評測體系。</p><p><strong>第二</strong>，此舉標誌美國聯邦 AI 監管框架從廢除拜登行政命令後的政策真空期進入制度性重建階段。「移除護欄後接受測試」條款尤為關鍵——政府取得合法渠道評估模型在無限制狀態下的真實能力上限，情報機構（NSA、CIA）與商務部爭奪 AI 監管主導權的角力，在此框架下可能進一步激化。CAISI 模式與白宮 AI 政策框架同步推進，顯示川普政府已接受政府介入預部署評估的監管邏輯，而非純粹市場自律路線。</p><p><strong>第三</strong>，對 frontier lab 而言，此類協議是雙刃劍：配合政府安全評估有助於積累負責任 AI 的信譽並規避更嚴格立法，但機密環境下的深度測試同樣帶來模型架構與訓練細節外洩的隱憂。對企業採購方，政府預部署安全評估正逐漸演變為模型可信度的隱性背書，未來政府採購標準可能率先要求「CAISI 評估通過」，進而影響私有部門採購決策。歐盟 AI 辦公室與美國 CAISI 形成兩套並行監管標準，跨市場部署的企業需同步追蹤兩個評估框架的合規要求。</p>"
-    },
-    {
-      "id": "pulse-2026-05-12-v6-utf8-fix",
-      "ts": "2026-05-12T09:52:23+08:00",
-      "title": "Anthropic 一日宣布兩條重大公告 · Claude 用量上限 + SpaceX 算力協議 · frontier 算力鏈軌道化",
-      "source": "Anthropic blog",
-      "url": "https://www.anthropic.com/news/higher-limits-spacex",
-      "blurb": "Anthropic Claude Pro/Max 上限調升同日宣布 SpaceX 算力合作 · 兩條同推 frontier 算力鏈軌道化敘事",
-      "editorial": "<p><strong>第一</strong>，Anthropic 一日完成兩條重大公告——Claude Pro/Max 用量上限調升、SpaceX 算力供應協議——對應 5/7 N°50 Colossus 1 整廠收購敘事，這是 7 天內第二度把「算力供應」搬上頭條。Q1 ARR $44B 加上端點 rate limit 上調，需求側壓力被官方承認，供應側用 Musk 軌道資源補位。</p><p><strong>第二</strong>，frontier lab 的算力 stack 從 hyperscaler 擴張到 neocloud 再擴張到 Musk 軌道資源，三層異質供應商一次到位。Anthropic 把「不被單一政府或單一硬體商卡住」這個故事說得最完整。OpenAI 跟 Google DeepMind 接下來必然回敬類似敘事，預期 2-4 週內看到 OpenAI 與 CoreWeave 或 Stargate 擴約的新公告。</p><p><strong>第三</strong>，企業端最大解讀是 Claude 端點限制鬆動的訊號——過去 5 小時 cap、Opus rate limit 在尖峰時段不夠這兩條痛點同時放寬，搭配 5/6 N°46 finance agents 落地，等於把 Claude 跑得起企業級流量嗎這個質疑點同步解掉。對裸跑 Claude Code 的小團隊與 IDE 整合方是直接利好。</p>"
-    },
-    {
-      "id": "pulse-2026-05-12-demo-editorial",
-      "ts": "2026-05-12T09:50:34+08:00",
-      "title": "Anthropic 拉高 Claude rate limit · SpaceX 算力協議定義 frontier 軌道資源新一輪整合",
-      "source": "Anthropic blog",
-      "url": "https://www.anthropic.com/news/higher-limits-spacex?demo=1",
-      "blurb": "Anthropic 同日宣布 Claude Pro/Max 額度上調 + SpaceX 算力合作 · 兩件事併推 frontier lab 算力鏈軌道化敘事",
-      "editorial": "<p><strong>第一</strong>，Anthropic 一日完成兩條重大公告——Claude Pro/Max 用量上限調升、SpaceX 算力供應協議——對應 5/7 N°50 Colossus 1 整廠收購敘事，這是 7 天內第二度把「算力供應」搬上頭條。Q1 ARR $44B 加上端點 rate limit 上調，需求側壓力被官方承認，供應側用 Musk 軌道資源補位。</p><p><strong>第二</strong>，frontier lab 的算力 stack 從 hyperscaler（AWS / Azure / Google）擴張到 neocloud（Fluidstack）再擴張到 Musk 軌道資源，現在是三層異質供應商一次到位。Anthropic 把「不被單一政府或單一硬體商卡住」這個故事說得最完整。OpenAI 跟 Google DeepMind 接下來必然回敬類似敘事，預期 2-4 週內看到 OpenAI 與 CoreWeave 或 Stargate 擴約的新公告。</p><p><strong>第三</strong>，企業端最大解讀是「Claude 端點限制鬆動」的訊號——過去 5 小時 cap、Opus rate limit 在尖峰時段不夠這兩條痛點同時放寬，搭配 5/6 N°46 finance agents 落地，等於把「Claude 跑得起企業級流量嗎」這個質疑點同步解掉。對裸跑 Claude Code 的小團隊與 IDE 整合方（Cursor / Windsurf）是直接利好。</p>"
-    },
-    {
-      "id": "pulse-test-1778549556",
-      "ts": "2026-05-12T09:32:36+08:00",
-      "title": "🟢 整套修復驗證 · 你正在看新 rich message 格式",
-      "source": "AI DESK · System",
-      "url": "https://ai-desk-tw.netlify.app/#latest-pulse",
-      "blurb": "這是 Peter 推的驗證訊息 — 看到「標題 + 摘要 + 原文連結 + 主頁連結」+ 下方自動 og:image preview = workflow v4 真的修好了。下次 cloud routine 自動跑時你會看到同樣格式但內容是真實 AI 新聞。"
-    },
-    {
-      "id": "pulse-2026-05-12-anthropic-spacex-compute",
-      "ts": "2026-05-12T09:31:36+08:00",
-      "title": "Anthropic 拉高 Claude 使用上限 · 同步宣布 SpaceX 算力合作",
-      "source": "Anthropic blog",
-      "url": "https://www.anthropic.com/news/higher-limits-spacex",
-      "blurb": "Anthropic 官方公告 Claude Pro/Max 用量上限調升 加 Musk 算力供應 — frontier 算力鏈深化軌道資源整合 · 對 5/7 N°50 Colossus 1 收購敘事繼續加碼。"
-    },
-    {
-      "id": "pulse-2026-05-12-anthropic-finance-agents",
-      "ts": "2026-05-12T09:26:36+08:00",
-      "title": "Anthropic 推 Finance Agents · AI 進入金融垂直業務鏈",
-      "source": "Anthropic blog",
-      "url": "https://www.anthropic.com/news/finance-agents",
-      "blurb": "Anthropic 推出金融服務專用 agent 套件 · 跟 BlackRock / Goldman / Jamie Dimon 三家試點 · frontier lab 開始攻產業垂直 ARR 結構。"
-    },
-    {
-      "id": "pulse-2026-05-12-nyt-notetakers",
-      "ts": "2026-05-12T09:23:56+08:00",
-      "title": "AI 會議記錄工具衝擊法律業·律師-客戶特權邊界成最大灰區",
-      "source": "NYT DealBook",
-      "url": "https://www.nytimes.com/2026/05/09/business/dealbook/ai-notetakers-legal-risk.html",
-      "blurb": "AI notetaker 走進法律事務所 客戶端機密與特權邊界引爭議 · DealBook 報導律師同業緊張感升溫。"
-    },
-    {
-      "id": "pulse-2026-05-12-ucf-boo",
-      "ts": "2026-05-12T09:18:56+08:00",
-      "title": "UCF 畢業致詞稱 AI 是新工業革命·學生集體噓爆",
-      "source": "404 Media",
-      "url": "https://www.404media.co/ucf-ai-commencement-speaker-booed/",
-      "blurb": "中佛羅里達大學畢業典禮講者把 AI 比作工業革命 學生席間集體噓聲 · 反映 Gen Z 對 AI 替代勞動力的反彈情緒。"
     },
     {
       "id": "pulse-2026-05-11-openai-enterprise-tomoro",
