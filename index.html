@@ -833,6 +833,20 @@ footer.site-footer {
       }).join('');
       if (data.updated_at) { meta.textContent = '更新於 ' + data.updated_at.replace('T',' ').replace(/[+Z].*/, '') + ' · live'; }
     })
+    .then(function(){
+      // 處理 #pulse-{id} fragment auto-expand editorial
+      if (location.hash && location.hash.indexOf('#pulse-') === 0) {
+        setTimeout(function(){
+          var el = document.getElementById(location.hash.slice(1));
+          if (el) {
+            var det = el.querySelector('.pulse-editorial');
+            if (det) det.open = true;
+            el.scrollIntoView({behavior: 'smooth', block: 'center'});
+            el.classList.add('pulse-flash');
+          }
+        }, 300);
+      }
+    })
     .catch(function(){ document.getElementById('pulse-list').innerHTML = '<li class="pulse-empty">pulse data 載入失敗</li>'; });
 })();
 </script>
@@ -858,6 +872,8 @@ footer.site-footer {
 .pulse-edit-body p strong { color: #fff; }
 .pulse-source-link { font-family: "JetBrains Mono", monospace; font-size: 0.72rem !important; opacity: 0.6; margin-top: 1rem !important; }
 .pulse-source-link a { color: #ff4444; text-decoration: none; letter-spacing: 0.05em; }
+.pulse-flash { animation: pulseFlash 2s ease-out; }
+@keyframes pulseFlash { 0% { background: rgba(255,68,68,0.2); } 100% { background: transparent; } }
 @media (max-width: 700px) { .pulse-editorial { grid-column: 1; } }
 @media (max-width: 700px) { .pulse-item { grid-template-columns: 1fr; gap: 0.3rem; } .pulse-blurb { grid-column: 1; } }
 </style>

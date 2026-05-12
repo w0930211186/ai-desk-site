@@ -37,37 +37,30 @@ jobs:
           CHANGED=$(git diff --name-only HEAD~1 HEAD 2>/dev/null || true)
           echo "Changed: $CHANGED"
 
-          # ---- Daily ----
+          # Daily
           if echo "$CHANGED" | grep -qx "$DAILY_FILE"; then
             TITLE=$(grep -m1 -oE '<h2>[^<]*' "$DAILY_FILE" 2>/dev/null | sed 's/<h2>//' | head -c 120 || echo "")
             URL="${SITE}/posts/${TODAY}-daily.html"
             MSG=$(printf "📰 AI DESK %s · daily 已上線\n\n%s\n\n🔗 全文：%s\n🌐 主頁：%s/latest" "$TODAY" "$TITLE" "$URL" "$SITE")
-            curl -sf -X POST "${API}/sendMessage" \
-              --data-urlencode "chat_id=${TG_CHAT}" \
-              --data-urlencode "text=${MSG}" || echo "daily fail"
+            curl -sf -X POST "${API}/sendMessage" --data-urlencode "chat_id=${TG_CHAT}" --data-urlencode "text=${MSG}" || echo "daily fail"
             echo "✓ daily"
           fi
 
-          # ---- IG Story ----
+          # IG
           if echo "$CHANGED" | grep -q "^${IG_DIR}/"; then
             PNG="${IG_DIR}/story.png"
             CAP="${IG_DIR}/caption.txt"
             if [ -f "$PNG" ]; then
               CAPTION=""
               [ -f "$CAP" ] && CAPTION=$(cat "$CAP")
-              curl -sf -X POST "${API}/sendDocument" \
-                -F "chat_id=${TG_CHAT}" \
-                -F "document=@${PNG}" \
-                --form-string "caption=${CAPTION}" || echo "ig fail"
-              MSG=$(printf "📸 IG Story %s 素材已備好\n從上面 PNG 下載 → IG App 限動上傳\n\n🌐 %s" "$TODAY" "$SITE")
-              curl -sf -X POST "${API}/sendMessage" \
-                --data-urlencode "chat_id=${TG_CHAT}" \
-                --data-urlencode "text=${MSG}" || true
+              curl -sf -X POST "${API}/sendDocument" -F "chat_id=${TG_CHAT}" -F "document=@${PNG}" --form-string "caption=${CAPTION}" || echo "ig fail"
+              MSG=$(printf "📸 IG Story %s 素材已備好\n從上面 PNG 下載 → IG 限動上傳\n\n🌐 %s" "$TODAY" "$SITE")
+              curl -sf -X POST "${API}/sendMessage" --data-urlencode "chat_id=${TG_CHAT}" --data-urlencode "text=${MSG}" || true
               echo "✓ ig"
             fi
           fi
 
-          # ---- Pulse · 每條 rich message ----
+          # Pulse · 每條短篇專欄 rich
           if echo "$CHANGED" | grep -qx "$PULSE_FILE"; then
             if [ -f "$PULSE_FILE" ]; then
               NEW_IDS=$(git diff HEAD~1 HEAD -- "$PULSE_FILE" 2>/dev/null | grep -oE '^\+\s*"id":\s*"pulse-[^"]+"' | sed 's/.*"id":\s*"//;s/"$//' || true)
@@ -83,12 +76,11 @@ jobs:
                 SRC=$(jq -r --arg id "$ID" '.items[] | select(.id == $id) | .source' "$PULSE_FILE")
                 URL=$(jq -r --arg id "$ID" '.items[] | select(.id == $id) | .url' "$PULSE_FILE")
                 TS=$(jq -r --arg id "$ID" '.items[] | select(.id == $id) | .ts' "$PULSE_FILE" | cut -d'T' -f2 | cut -c1-5)
-                MSG=$(printf "🔴 PULSE · %s · %s\n\n%s\n\n%s\n\n🔗 原文：%s\n🌐 主頁：%s/#latest-pulse" "$TS" "$SRC" "$TITLE" "$BLURB" "$URL" "$SITE")
-                curl -sf -X POST "${API}/sendMessage" \
-                  --data-urlencode "chat_id=${TG_CHAT}" \
-                  --data-urlencode "text=${MSG}" \
-                  --data-urlencode "disable_web_page_preview=false" \
-                  && echo "✓ sent $ID" || echo "✗ fail $ID"
+                EDITORIAL=$(jq -r --arg id "$ID" '.items[] | select(.id == $id) | .editorial // ""' "$PULSE_FILE" | sed 's/<[^>]*>//g' | tr -s ' ' | head -c 220)
+                HAS_EDIT=""
+                [ -n "$EDITORIAL" ] && HAS_EDIT="$(printf '\n\n📖 短篇專欄：\n%s...' "$EDITORIAL")"
+                MSG=$(printf "🔴 PULSE · %s · %s\n\n%s\n\n%s%s\n\n🔗 原文：%s\n🌐 主頁專欄：%s/#pulse-%s" "$TS" "$SRC" "$TITLE" "$BLURB" "$HAS_EDIT" "$URL" "$SITE" "$ID")
+                curl -sf -X POST "${API}/sendMessage" --data-urlencode "chat_id=${TG_CHAT}" --data-urlencode "text=${MSG}" && echo "✓ sent $ID" || echo "✗ fail $ID"
               done <<< "$NEW_IDS"
             fi
           fi
