@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-05-12T14:19:35+08:00",
+  "updated_at": "2026-05-12T18:00:00+08:00",
   "items": [
+    {
+      "id": "pulse-2026-05-12-18-stanford-hai-ai-index-2026",
+      "ts": "2026-05-12T18:00:00+08:00",
+      "title": "Stanford HAI 2026 AI 指數：美中模型差距縮至 2.7%・中國以 1/23 投資達近似能力・峰會前最關鍵技術基線",
+      "source": "Stanford HAI",
+      "url": "https://hai.stanford.edu/ai-index/2026-ai-index-report",
+      "blurb": "Stanford HAI 2026 AI 指數確認：美中頂尖模型差距已縮至 2.7%，三年前逾 17%；中國以美國二十三分之一投資達成此成果，53% 人口三年內採用生成式 AI，是川習峰會（5/14）前最關鍵的 AI 競爭事實底稿。",
+      "editorial": "<p><strong>第一</strong>　史丹福 HAI 於 2026 年 4 月發布年度 AI 指數報告。核心發現：截至 2026 年 3 月，Anthropic Claude Opus 4.6 以 Arena 競技場評分 1,503 領銜全球模型榜，ByteDance Dola-Seed-2.0-Preview 緊隨其後，得分 1,464，差距僅剩 2.7%；而 2023 年 5 月，美中差距達 17.5 至 31.6 個百分點。中國以美國二十三分之一的 AI 研發投入達成此成果，是報告中最具衝擊力的效率數據。消費側，生成式 AI 三年內達到 53% 全球人口採用率，超越個人電腦與網際網路的歷史普及速度；美國使用者對生成式 AI 工具的年化消費估值達 1,720 億美元，人均實感價值在 2025 至 2026 年間三倍增長。能力層面，代碼工程基準 SWE-bench 得分在一年內從 60% 升至接近 100%，Frontier 模型首次整體超越人類在博士級科學問答與數學競賽的基準線。</p><p><strong>第二</strong>　2.7% 的差距，在月更迭迭代周期下已等同於統計不確定性的邊界——意味著美中模型能力實質上互有優劣，不存在穩定的單邊領先。更關鍵的是中美效率比：在 GPU 出口管制限制高端算力取得的背景下，中國以 23 倍更低的資本投入接近美國能力水準，從根本上打破了「算力制裁等於能力上限」的政策邏輯。報告在川習峰會（5/14-15）前兩日公開，為雙方在 AI 監管、技術轉讓、出口管制議題的談判提供了全球最具說服力的技術基線——不論哪一方引用，數據都指向既有制裁工具的邊際效益已大幅遞減。</p><p><strong>第三</strong>　對政策制定者，報告數據實質削弱出口管制方的論述正當性：若中國已以 23 倍效率差距接近美國能力，硬體制裁的邊際威懾效益顯著遞減，政策工具箱需升級至算法知識管制與多邊標準框架的組合。對企業 AI 決策者，53% 採用率背後的全球分布高度不均，與人均 GDP 高度正相關，新興市場 AI 部署仍有巨大差異化空間。對投資人，中國模型以 23 倍效率差距快速追趕的現實，意味著任何「美國模型技術護城河」論題都需要更嚴格的時間窗口假設，能力窗口正以季計的速度收窄，峰會後的管制政策走向是上述所有投資論題最關鍵的外生變量。</p>"
+    },
+    {
+      "id": "pulse-2026-05-12-18-openai-gpt55-cyber-eu-access",
+      "ts": "2026-05-12T18:00:00+08:00",
+      "title": "OpenAI 開放歐盟網安機構取得 GPT-5.5-Cyber・Anthropic 拒守 Mythos・前沿網安 AI 跨大西洋存取分歧正式浮現",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/11/openai-eu-cyber-model-anthropic-mythos-gpt.html",
+      "blurb": "OpenAI 5 月 11 日宣布歐盟驗證網安機構可通過 TAC 計畫取得 GPT-5.5-Cyber 存取，Anthropic 拒絕對等開放 Mythos；歐盟財政官員警告歐洲企業將落後，前沿攻防 AI 能力首次成為西方盟友間的外交資產談判籌碼。",
+      "editorial": "<p><strong>第一</strong>　OpenAI 於 5 月 11 日宣布，歐盟各國驗證網絡安全研究人員可通過「信任存取網安計畫」（Trusted Access for Cyber，TAC）申請取得 GPT-5.5-Cyber 早期存取資格。GPT-5.5-Cyber 是 GPT-5.5 旗艦模型的網絡安全專用版本，功能涵蓋漏洞識別與分類、修補程式驗證及惡意軟體分析，部分安全護欄解除以提升滲透測試場景中的作業效能。同日，歐盟財政部門官員表示，已就 Anthropic Mythos Preview 的類似存取計畫與 Anthropic 協商，但 Anthropic 明確拒絕，現行 Project Glasswing 框架下約 40 家合作機構全數位於美國境內。根據英國 AISI 同期評估，GPT-5.5-Cyber 能力與 Mythos 接近：各在 32 步端對端企業網絡攻擊模擬中分別完成 2 次與 3 次，差距屬統計誤差範圍。</p><p><strong>第二</strong>　OpenAI 率先向歐盟開放，是前沿 AI 進攻型能力首次被當作外交資產主動輸出的具體案例。TAC 計畫的設計意味著歐盟機構取得 GPT-5.5-Cyber 的前提是提供使用記錄回饋給 OpenAI，歐盟實質上以機構數據換取工具賦能，OpenAI 以先行者身份在歐盟監管機構中建立制度性合作關係，為未來 EU AI Act 執法詮釋取得話語先機。相對而言，Anthropic 的保守策略有其安全邏輯——Mythos 在攻擊模擬中略佔優勢（3/10 vs 2/10），放開地理範圍的風險邊際更高——但代價是在歐洲機構市場落後 OpenAI，並面臨歐盟「差別待遇」的政治壓力。</p><p><strong>第三</strong>　三個後續指標值得追蹤。其一，歐盟 ENISA（歐盟網絡安全局）與 OpenAI 的正式合作協議若成立，是前沿 AI 網安能力整合進歐洲關鍵基礎設施防禦鏈的制度里程碑，將影響 EU AI Act 對高風險 AI 系統的執法優先排序。其二，Anthropic 的讓步視窗：川習峰會（5/14-15）後若美歐就 AI 安全合作達成任何框架協議，繼續拒絕 EU 存取的政治代價將顯著上升，Project Glasswing 的地理範圍可能被迫擴展。其三，對企業 CIO，GPT-5.5-Cyber TAC 計畫是目前最具結構性的 AI 網安工具採購渠道，申請資格的技術與合規要求值得在本週評估，同時追蹤 Anthropic 是否在峰會後一週內改變 Glasswing 的地理限制。</p>"
+    },
     {
       "id": "pulse-2026-05-12-14-voltagrid-1b-ai-power-infra",
       "ts": "2026-05-12T14:19:35+08:00",
@@ -252,22 +270,6 @@
       "url": "https://www.cnbc.com/2026/05/05/ai-oversight-trump-google-microsoft-xai.html",
       "blurb": "NIST 旗下 CAISI 宣布三份新測試協議，涵蓋 Google DeepMind、Microsoft、xAI，在機密環境評估移除護欄的模型版本，美國五大前沿 lab 已全數納入政府預部署安全評估框架",
       "editorial": "<p><strong>第一</strong>，美國商務部旗下 NIST「人工智慧標準與創新中心」（CAISI）於 5 月 5 日宣布與 Google DeepMind、Microsoft 及 xAI 分別簽署前沿 AI 測試協議。協議授權政府在機密環境中執行部署前安全評估，明確允許廠商提交移除部分安全護欄的研究版模型供深度評測，以評估國家安全相關能力上限。CAISI 此前於 2024 年已與 Anthropic 及 OpenAI 建立同類協議，本輪擴展後美國五大主要前沿 AI 研究室已全數納入評測體系。</p><p><strong>第二</strong>，此舉標誌美國聯邦 AI 監管框架從廢除拜登行政命令後的政策真空期進入制度性重建階段。「移除護欄後接受測試」條款尤為關鍵——政府取得合法渠道評估模型在無限制狀態下的真實能力上限，情報機構（NSA、CIA）與商務部爭奪 AI 監管主導權的角力，在此框架下可能進一步激化。CAISI 模式與白宮 AI 政策框架同步推進，顯示川普政府已接受政府介入預部署評估的監管邏輯，而非純粹市場自律路線。</p><p><strong>第三</strong>，對 frontier lab 而言，此類協議是雙刃劍：配合政府安全評估有助於積累負責任 AI 的信譽並規避更嚴格立法，但機密環境下的深度測試同樣帶來模型架構與訓練細節外洩的隱憂。對企業採購方，政府預部署安全評估正逐漸演變為模型可信度的隱性背書，未來政府採購標準可能率先要求「CAISI 評估通過」，進而影響私有部門採購決策。歐盟 AI 辦公室與美國 CAISI 形成兩套並行監管標準，跨市場部署的企業需同步追蹤兩個評估框架的合規要求。</p>"
-    },
-    {
-      "id": "pulse-2026-05-11-openai-enterprise-tomoro",
-      "ts": "2026-05-11T20:00:00+08:00",
-      "title": "OpenAI CRO 宣告企業 AI 採用達「臨界點」・收購 Tomoro 諮詢公司補強部署能量",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/05/11/open-ai-dresser-enterprise-business.html",
-      "blurb": "OpenAI 首席營收官 Denise Dresser 宣布企業 AI 採用已達「臨界點」，並確認收購約 150 名前沿 AI 部署工程師的顧問公司 Tomoro，整合入「The Development Company」旗下強化落地能力；企業現佔 OpenAI 逾 40% 營收，預計年底達消費端同等規模，此舉亦折射 AI 實施人才嚴重短缺為整個產業的共同瓶頸，搶人才已成前沿 AI 廠商企業市場決勝關鍵。"
-    },
-    {
-      "id": "pulse-2026-05-07-mythos-firefox-security",
-      "ts": "2026-05-07T22:00:00+08:00",
-      "title": "Mythos 衝擊 Firefox 資安框架：從 20 漏洞到近 300・Mozilla 全面重組漏洞應對體制",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/05/07/how-anthropics-mythos-has-rewritten-firefoxs-approach-to-cybersecurity/",
-      "blurb": "TechCrunch 調查揭示，Anthropic Mythos 對 Mozilla Firefox 的資安衝擊已達結構性層級：前代 AI 模型在 Firefox 找出約 20 個漏洞，Mythos 預覽版同一代碼庫發現近 300 個，驅使 Mozilla 完全重寫漏洞分類、修補優先序與供應鏈協調流程；此案例成為 AI 輔助網路安全從「提升效率」到「重塑治理結構」的具體里程碑，顯示前沿模型已成實際改寫業界資安運作模式的關鍵外力。"
     }
   ],
   "_note": "seeded by Peter 2026-05-10 — cloud routine ai-desk-pulse 每 2 小時自動更新"
