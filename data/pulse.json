@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-05-13T04:07:00+08:00",
+  "updated_at": "2026-05-13T07:02:44+08:00",
   "items": [
+    {
+      "id": "pulse-2026-05-13-07-anthropic-900b-funding-round",
+      "ts": "2026-05-13T07:02:44+08:00",
+      "title": "Anthropic 洽談史上最大 AI 私募 · 九千億估值超越 OpenAI 瞄準上市前夕",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-12/anthropic-in-talks-to-raise-30-billion-at-900-billion-valuation",
+      "blurb": "Bloomberg 五月十二日報道，Anthropic 正洽談至少三百億美元新融資，投資前估值逾九千億美元超越 OpenAI，年化收入自去年底九十億急升至三百億，此輪極可能為上市前最後一輪私募。",
+      "editorial": "<p><strong>第一</strong>Bloomberg 五月十二日確認，Anthropic 正與投資人就新一輪融資進行早期洽談，目標金額至少三百億美元，對應投資前估值逾九千億美元，預計最快本月底完成。估值軌跡揭示極速躍升：從 2025 年 3 月六百一十五億、同年 9 月 Series F 一千八百三十億、2026 年 2 月三千八百億，到此輪超越九千億，九個月漲幅逾十四倍。Anthropic 年化收入已突破三百億美元，較 2025 年底約九十億成長逾兩倍，公司自稱錄得「八十倍」同比擴張。</p><p><strong>第二</strong>九千億美元估值一旦確立，Anthropic 將超越 OpenAI 成為史上最高估值 AI 私企，代表資本市場開始以「收入規模 × 算力主權」雙軸定價，而非單一的技術聲望。Anthropic 明確定位此輪為上市前最後一輪私募，IPO 視窗大概率落在 2026 年底至 2027 年初。融資用途以大規模算力擴充為主——結合此前已確認的 SpaceX Colossus 300 MW、Amazon 5 GW、Google/Broadcom 5 GW 及 Akamai 十八億美元等多軌協議，Anthropic 正系統性建立難以複製的算力護城河。</p><p><strong>第三</strong>對企業 CIO 而言，Anthropic 愈來愈接近「準上市公司」狀態，採購決策前景更清晰，但早期優惠定價的視窗正在收窄。對投資人，Anthropic 同日已警告防範未獲授權的次級交易平台，次級市場溢價空間大幅壓縮。對開發者，三百億融資驅動的算力擴充料將改善 Claude API 的限速與延遲，agentic 工作流穩定性有望受惠。</p>"
+    },
+    {
+      "id": "pulse-2026-05-13-07-gemini-3-deep-think-science",
+      "ts": "2026-05-13T07:02:44+08:00",
+      "title": "Gemini 3 Deep Think 物理化學奧林匹克達金牌水準 · 科學推理能力進入新量級",
+      "source": "Google Blog",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-deep-think/",
+      "blurb": "Google DeepMind 更新 Gemini 3 Deep Think，ARC-AGI-2 達 45.1%、GPQA Diamond 達 93.8%，在 2025 年國際物理與化學奧林匹克筆試達金牌水準，AI 輔助科研能力跨越新門檻。",
+      "editorial": "<p><strong>第一</strong>Google DeepMind 推出 Gemini 3 Deep Think 科學研究專項更新，定位科學計算、數學推導與工程驗證場景。核心基準：ARC-AGI-2（含程式執行，ARC Prize 官方驗證）達 45.1%；GPQA Diamond 達 93.8%；Humanity's Last Exam（不使用工具）達 41.0%；先進理論物理基準 CMT-Benchmark 達 50.5%。現實評測中，Deep Think 在 2025 年國際物理奧林匹克及化學奧林匹克筆試部分達金牌水準，並協助 Rutgers 大學數學家 Lisa Carbone 識別一篇通過人類同行評審的技術論文中的邏輯漏洞。模型目前向 Google AI Ultra 訂閱用戶開放，並透過 Gemini API 向特定研究機構與企業限量釋出。</p><p><strong>第二</strong>45.1% 的 ARC-AGI-2 得分具有戰略意義：此基準人類得分約 60–80%，突破 40% 代表模型通用推理能力進入新量級。Deep Think 明確迴避通用聊天場景，轉向科學計算與工程驗證，與 OpenAI Daybreak（企業資安）、Anthropic Glasswing（滲透測試）形成三路垂直分化——frontier lab 開始在「垂直智能」賽道各自圈地，而非繼續以通用評測分數互相競爭。此分化信號值得重視：未來 frontier lab 的差異化將愈來愈體現在垂直場景的推理密度，而非單一通用基準得分。</p><p><strong>第三</strong>對企業而言，Gemini API 向特定研究機構限量開放，製藥、材料科學、量子計算等研究密集型行業的 R&amp;D 加速曲線將受直接影響，早期合作名額具備戰略卡位意義。對開發者而言，Google AI Ultra 訂閱層與 API 限量開放的雙軌策略意味著 Deep Think 推理能力的規模化釋放仍受算力配置管控，速度取決於 Google TPU 產能擴張節奏。對 BEXS 學員而言，科學推理的商業化——尤其在藥物研發與材料模擬場景——是 2026–2027 年最值得追蹤的 AI 產業化落地軸線之一，Alphabet AI 服務業務的 B2B 收入結構有望因此發生結構性改變。</p>"
+    },
     {
       "id": "pulse-2026-05-13-04-google-googlebooks-gemini-laptops",
       "ts": "2026-05-13T04:07:00+08:00",
