@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-05-12T15:00:00+08:00",
+  "updated_at": "2026-05-12T16:00:00+08:00",
   "items": [
+    {
+      "id": "pulse-2026-05-12-16-cerebras-ipo-48b",
+      "ts": "2026-05-12T16:00:00+08:00",
+      "title": "Cerebras IPO 定價 480 億美元・超額認購 20 倍・AI 晶片 IPO 打破 2026 年全球融資紀錄",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/11/cerebras-raises-ipo-range.html",
+      "blurb": "AI 晶片商 Cerebras 將 IPO 定價上限推至每股 160 美元，以完全稀釋後估值 480 億美元融資 48 億美元；認購超額 20 倍，為 2026 年全球最大 IPO，5/13 定價後 5/14 以 CBRS 上市 Nasdaq；WSE-3 晶圓尺度處理器在高吞吐推論場景顯著優於 GPU，OpenAI 承諾逾 200 億美元採購確立商業基本盤。",
+      "editorial": "<p><strong>第一</strong>，Cerebras Systems 於 5 月 11 日宣布將 IPO 定價區間從每股 115 至 125 美元大幅上調至 150 至 160 美元，以頂端計算，上市融資規模達 48 億美元，完全稀釋後估值 480 億美元——較 2 月完成融資時的 230 億美元估值近乎翻倍。定價將於 5 月 13 日收盤後公布，股票 5 月 14 日以代號 CBRS 登陸 Nasdaq。根據 Dealogic，本次 IPO 為 2026 年迄今全球規模最大，投資人訂單超額 20 倍以上。公司核心產品 WSE-3 是晶圓尺度處理器，單芯片面積為 Nvidia Blackwell B200 GPU 數十倍，在高吞吐批量推論、長上下文與低延遲語音等工作負載下提供顯著更高的單位效率；2025 年收入 5.1 億美元（年增 76%），淨利率 47%；OpenAI 承諾逾 200 億美元算力採購，為公司最大單一客戶。</p><p><strong>第二</strong>，Cerebras 上市的戰略意涵在於：GPU 以外的異構 AI 算力架構，首次獲得公開資本市場以 frontier lab 量級的估值背書。480 億美元估值使其逼近 Anthropic 當前估值，卻已具備真實盈利能力，意味市場正以全新邏輯衡量「垂直整合型 AI 算力廠商」——同時控制晶片架構、資料中心佈署協議、指定客戶算力採購承諾的商業組合。OpenAI 逾 200 億美元採購承諾揭示超大型 frontier lab 主動構建算力多元化策略，以降低對 Nvidia GPU 的單一供應鏈風險，Cerebras 在此框架中扮演系統性備選角色，並非邊緣補充。</p><p><strong>第三</strong>，後續連鎖效應有三個觀察維度。其一，Cerebras IPO 的成功為 Groq、SambaNova 等其他非 GPU AI 晶片廠商打開公開市場融資窗口，AI 算力板塊的估值錨點從 Nvidia 一家擴展至異構架構體系，有助重新定義整個算力板塊的定價框架。其二，OpenAI 算力分散化策略若成行業共識，Nvidia 的市場議價能力將在兩至三年內受到結構性衝擊，這與黃仁勳在美中峰會期間爭取恢復 H200 中國出口的動作同處一個戰略焦慮框架。其三，47% 淨利率提供 AI 算力板塊稀缺的真實盈利樣本，將重新校準 Nvidia、AMD 等已上市晶片股的 P/E 參照系，並引發對下一批 AI 晶片 IPO 候選人的提前市場定價。</p>"
+    },
+    {
+      "id": "pulse-2026-05-12-16-apple-ios27-ai-marketplace",
+      "ts": "2026-05-12T16:00:00+08:00",
+      "title": "Apple iOS 27 打破 ChatGPT 獨家・Extensions 開放 Claude、Gemini 進駐 13 億 iPhone",
+      "source": "9to5Mac",
+      "url": "https://9to5mac.com/2026/05/05/ios-27-will-let-you-choose-between-gemini-claude-and-more-for-ai-features-report/",
+      "blurb": "9to5Mac 5 月 5 日報導，Apple iOS 27 將透過全新「Extensions」系統允許用戶以 Claude、Gemini、Grok 取代 ChatGPT 作為 Apple Intelligence 的 AI 引擎，Writing Tools、Image Playground 與 Siri 查詢均納入切換範圍；ChatGPT 獨家地位終結，全球逾 13 億 iPhone 用戶正式進入 AI 多選市場格局，預計 6/8 WWDC 正式發布。",
+      "editorial": "<p><strong>第一</strong>，9to5Mac 於 5 月 5 日報導，Apple 計劃在 iOS 27、iPadOS 27 與 macOS 27 中引入全新「Extensions」系統，允許用戶在系統設定中選擇 AI 提供商，以 Anthropic Claude、Google Gemini 或 xAI Grok 取代 ChatGPT，作為 Apple Intelligence 各項功能的底層推論引擎；Writing Tools、Image Playground 與 Siri 語音查詢均納入切換範圍，用戶甚至可為原生模型與第三方模型設置不同語音風格。MacRumors 等多家媒體隨即確認相關細節，Apple 預計於 6 月 8 日 WWDC 開幕主題演講正式宣布。同時，Apple 已與 Google 簽署據報每年約 10 億美元的協議，採購客製 Gemini 模型為重建後的 Siri 提供算力支援，ChatGPT 在 iOS 生態系的獨家地位正式宣告終結。</p><p><strong>第二</strong>，iOS 27 Extensions 的戰略意義在於 Apple 正式將自身生態系從「AI 封閉花園」轉型為「AI 分發平台」。ChatGPT 在 iOS 18 獲得的獨家整合原本是 OpenAI 最具殺傷力的消費者分發護城河，直接觸及超過 13 億活躍 iPhone 用戶；Extensions 宣告此護城河不再排他。對 Anthropic，Claude iOS 原生整合意味著觸及此前難以直接觸達的消費者長尾，與企業 API 市場形成互補的分發向量；對 Google，Gemini 的 Extensions 整合疊加 Siri 底層算力採購協議，構成 Google 在非 Android 平台滲透 AI 服務的雙重支柱，而 ChatGPT 則需與 Anthropic、Google、xAI 在同一選單內競爭用戶心智首位。</p><p><strong>第三</strong>，後續影響涵蓋三個維度。其一，對 OpenAI：ChatGPT 仍是 iOS 27 支援選項之一，但喪失獨家優先地位後其消費端「預設黏性」受到系統性削弱，Claude.ai、Gemini iOS 月活數字成為追蹤指標。其二，對平台競爭格局：Apple 主動放棄以生態系強制鎖定的 AI 商業模式，此決策邏輯若延伸至 App Store 手續費改革，將具有更廣泛的反壟斷法律含義。其三，Extensions 採用 App Store 應用觸發機制，意味 Anthropic、Google 需在 iOS 維持高品質原生應用以啟用 Extensions 能力，Apple 對 AI 廠商的分發控制力雖有所轉移，但未完全消失，生態系規則的修訂權仍在 Apple 手中。</p>"
+    },
+    {
+      "id": "pulse-2026-05-12-16-nvidia-corning-optical-fiber",
+      "ts": "2026-05-12T16:00:00+08:00",
+      "title": "NVIDIA 以 32 億美元入股 Corning・10 倍擴產光纖替換銅線・AI 機架互聯基礎架構重寫",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/06/nvidia-corning-optical-factories-nc-texas-ai.html",
+      "blurb": "NVIDIA 5 月 6 日宣布斥資最高 32 億美元入股光纖商 Corning，取得最多 1,800 萬股認購期權；Corning 將在北卡羅來納州與德州新建三座工廠、美國光纖連接製造產能擴十倍、光纖生產容量增逾五成、新增逾 3,000 個製造業崗位；NVIDIA 推進以光纖取代銅線布局 AI 機架，Corning 股漲 12%、NVIDIA 漲 6%。",
+      "editorial": "<p><strong>第一</strong>，NVIDIA 於 5 月 6 日宣布與玻璃暨光纖製造商 Corning 締結長期戰略合作，取得以最高 32 億美元購買 Corning 股份的認股期權，其中 5 億美元已預付以取得 1,500 萬股認購權（行使價 180 美元）及 300 萬股預付期權。Corning 承諾在北卡羅來納州與德州新建三座先進製造工廠，將美國光纖連接製造產能擴大十倍、光纖生產容量增加逾 50%，並新增逾 3,000 個製造業崗位；合作目標是為 NVIDIA 的 AI 機架系統提供規模化光學連接元件，以高速光纖替換機架內現行以銅線為主的互聯架構。公告發布後，Corning 股價單日上漲約 12%，NVIDIA 股價亦上漲約 6%。</p><p><strong>第二</strong>，此合作的戰略邏輯是 NVIDIA 向 AI 基礎設施全棧延伸。本次入股 Corning 之前，NVIDIA 已以 2.1 億美元取得 neocloud 運營商 IREN 的認股期權，加上此次 32 億美元 Corning 投資，黃仁勳正系統性補齊 AI 工廠從晶片到機架互聯的完整算力堆疊。光纖替換銅線是 AI 算力叢集擴展的技術必然：隨著 AI 叢集規模從萬張 GPU 向百萬量級遞進，機架內高頻數據傳輸的能耗與延遲問題使銅線互聯趨近物理極限，共封裝光學（Co-packaged Optics）技術的規模商業化是每個超大型 AI 工廠的必選路徑，NVIDIA 以資本綁定 Corning 美國產能，等同為微軟、Meta、Google、Amazon 等主要客戶預訂光纖互聯組件的優先交付權。</p><p><strong>第三</strong>，連鎖效應有三個觀察維度。其一，Corning 單日漲 12% 確認「光纖製造商成為 AI 算力供應鏈必要環節」的估值邏輯，Fujikura、Prysmian、Furukawa 等同業將因此受到提前市場定價。其二，NVIDIA 的「投資換產能優先權」模式（IREN、Corning）正成為 AI 基礎設施行業的新合作範本，AMD、英特爾若不跟進類似垂直整合策略，將在算力供應鏈全棧控制力上持續落後。其三，Corning 三座美國新工廠直接呼應川普政府製造業回岸政策，NVIDIA 在美中峰會期間持續加碼美國本土製造投資，具有明顯的監管風險對沖意圖，亦為 AI 算力行業建立了與政府談判的新籌碼模式。</p>"
+    },
     {
       "id": "pulse-2026-05-12-15-openai-gpt55-free-default",
       "ts": "2026-05-12T15:00:00+08:00",
@@ -233,30 +260,6 @@
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/05/11/openai-eu-cyber-model-anthropic-mythos-gpt.html",
       "blurb": "OpenAI 透過「EU Cyber Action Plan」向歐洲政策機構與企業開放 GPT-5.5-Cyber 預覽，承諾協助歐洲強化防禦安全；歐盟委員會透露與 Anthropic 的 Mythos 接入談判「尚在不同階段」，引發外界關注兩大前沿 AI 廠商對歐盟監管合規的策略落差，Anthropic 不願開放 Mythos 恐影響其在歐洲 AI 監管生態的長期布局。"
-    },
-    {
-      "id": "pulse-2026-05-11-musk-altman-week3",
-      "ts": "2026-05-11T18:00:00+08:00",
-      "title": "Musk v. Altman 進入第三週・Altman 與 Nadella 本週出庭・法院聚焦兩人管理風格爭議",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-08/musk-altman-management-styles-come-under-fire-at-openai-trial",
-      "blurb": "Musk v. Altman 聯邦審判踏入第三週（5/11–5/15），本週陪審員將聽取 Sam Altman 與 Microsoft CEO Satya Nadella 出庭證詞，為 5/21 責任裁決收尾；前兩週庭審確立馬斯克技術能力不足及 Altman 高壓管理等核心爭點，本週關鍵證詞將直接影響 OpenAI 非營利轉型合法性認定，5/18 補救措施聽證緊隨其後。"
-    },
-    {
-      "id": "pulse-2026-05-11-us-china-ai-hotline-summit",
-      "ts": "2026-05-11T16:00:00+08:00",
-      "title": "美中峰會 AI 議程聚焦熱線機制・雙方商議建立冷戰式「AI 危機熱線」防數位軍備競賽失控",
-      "source": "Bangor Daily News",
-      "url": "https://www.bangordailynews.com/2026/05/11/politics/washington/trump-xi-summit-nuclear-ai-trade/",
-      "blurb": "美中雙方在北京峰會（5/14-15）前公開商議建立「AI 危機熱線」——類比冷戰核武直線電話——用於 AI 系統異常、自主武器誤判與開源惡意使用等場景的緊急即時通訊；史丹佛 AI 年度報告指出「美中 AI 模型差距已實質縮小」，加劇雙方對 AI 驅動衝突升級的共同憂慮，惟分析師對北京遵守協議的意願持保留態度。"
-    },
-    {
-      "id": "pulse-2026-05-11-alphabet-yen-bond",
-      "ts": "2026-05-11T10:00:00+08:00",
-      "title": "Alphabet 首發日圓債券為 AI 競賽融資・全年資本支出上修至 1,900 億美元",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-11/alphabet-plans-debut-yen-bond-sale-as-ai-race-accelerates",
-      "blurb": "Alphabet 宣告首次在日本發行日圓計價債券，為 AI 競賽持續融資；同步上修 2026 年全年資本支出至 1,900 億美元（前估 1,850 億），在 Google Cloud 與 Anthropic 深度整合後再度以鉅額資本表態；Alphabet 市值已超越 Nvidia 成全球最高，持續以「擁有最多 AI 堆疊」的優勢獲市場青睞。"
     }
   ],
   "_note": "seeded by Peter 2026-05-10 — cloud routine ai-desk-pulse 每 2 小時自動更新"
