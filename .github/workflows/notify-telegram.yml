@@ -16,99 +16,62 @@ jobs:
         with:
           fetch-depth: 2
 
-      - name: Detect what changed
-        id: detect
+      - name: Detect changes and notify
         shell: bash
+        env:
+          TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TG_CHAT: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
+          set -u
           TODAY=$(TZ=Asia/Taipei date +%Y-%m-%d)
           DAILY_FILE="posts/${TODAY}-daily.html"
           IG_DIR="assets/ig-stories/${TODAY}"
           PULSE_FILE="data/pulse.json"
-          CHANGED=$(git diff --name-only HEAD~1 HEAD || true)
-          echo "Changed: $CHANGED"
-          HAS_DAILY="false"
-          HAS_IG="false"
-          HAS_PULSE="false"
-          if echo "$CHANGED" | grep -qx "$DAILY_FILE"; then HAS_DAILY="true"; fi
-          if echo "$CHANGED" | grep -q "^${IG_DIR}/"; then HAS_IG="true"; fi
-          if echo "$CHANGED" | grep -qx "$PULSE_FILE"; then HAS_PULSE="true"; fi
-          echo "has_daily=$HAS_DAILY" >> $GITHUB_OUTPUT
-          echo "has_ig=$HAS_IG" >> $GITHUB_OUTPUT
-          echo "has_pulse=$HAS_PULSE" >> $GITHUB_OUTPUT
-          echo "today=$TODAY" >> $GITHUB_OUTPUT
-          echo "daily_file=$DAILY_FILE" >> $GITHUB_OUTPUT
-          echo "ig_png=${IG_DIR}/story.png" >> $GITHUB_OUTPUT
-          echo "ig_caption=${IG_DIR}/caption.txt" >> $GITHUB_OUTPUT
-          echo "pulse_file=$PULSE_FILE" >> $GITHUB_OUTPUT
+          API="https://api.telegram.org/bot${TG_TOKEN}"
 
-      - name: Notify daily published
-        if: steps.detect.outputs.has_daily == 'true'
-        shell: bash
-        env:
-          TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TG_CHAT: ${{ secrets.TELEGRAM_CHAT_ID }}
-          TODAY: ${{ steps.detect.outputs.today }}
-          DAILY_FILE: ${{ steps.detect.outputs.daily_file }}
-        run: |
-          TITLE=$(grep -m1 -oE '<h2>[^<]*' "$DAILY_FILE" | sed 's/<h2>//' | head -c 100)
-          MSG="AI DESK ${TODAY} daily uploaded\n${TITLE}\n\nhttps://ai-desk-tw.netlify.app/posts/${TODAY}-daily.html"
-          curl -sf -X POST "https://api.telegram.org/bot${TG_TOKEN}/sendMessage" \
-            --data-urlencode "chat_id=${TG_CHAT}" \
-            --data-urlencode "text=${MSG}"
+          CHANGED=$(git diff --name-only HEAD~1 HEAD 2>/dev/null || true)
+          echo "Changed files:"
+          echo "$CHANGED"
 
-      - name: Notify IG Story
-        if: steps.detect.outputs.has_ig == 'true'
-        shell: bash
-        env:
-          TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TG_CHAT: ${{ secrets.TELEGRAM_CHAT_ID }}
-          TODAY: ${{ steps.detect.outputs.today }}
-          IG_PNG: ${{ steps.detect.outputs.ig_png }}
-          IG_CAPTION: ${{ steps.detect.outputs.ig_caption }}
-        run: |
-          if [ ! -f "$IG_PNG" ]; then
-            echo "PNG not found"
-            exit 0
+          # ---- Daily ----
+          if echo "$CHANGED" | grep -qx "$DAILY_FILE"; then
+            TITLE=$(grep -m1 -oE '<h2>[^<]*' "$DAILY_FILE" 2>/dev/null | sed 's/<h2>//' | head -c 100 || echo "")
+            MSG="AI DESK ${TODAY} daily uploaded\n${TITLE}\n\nhttps://ai-desk-tw.netlify.app/posts/${TODAY}-daily.html"
+            curl -sf -X POST "${API}/sendMessage" \
+              --data-urlencode "chat_id=${TG_CHAT}" \
+              --data-urlencode "text=${MSG}" || echo "daily notify failed"
+            echo "✓ daily notified"
           fi
-          CAPTION=""
-          if [ -f "$IG_CAPTION" ]; then
-            CAPTION=$(cat "$IG_CAPTION")
-          fi
-          curl -sf -X POST "https://api.telegram.org/bot${TG_TOKEN}/sendDocument" \
-            -F "chat_id=${TG_CHAT}" \
-            -F "document=@${IG_PNG}" \
-            --form-string "caption=${CAPTION}"
-          curl -sf -X POST "https://api.telegram.org/bot${TG_TOKEN}/sendMessage" \
-            --data-urlencode "chat_id=${TG_CHAT}" \
-            --data-urlencode "text=IG Story ${TODAY} uploaded - download from above and post to IG Story"
 
-      - name: Notify pulse update
-        if: steps.detect.outputs.has_pulse == 'true'
-        shell: bash
-        env:
-          TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TG_CHAT: ${{ secrets.TELEGRAM_CHAT_ID }}
-          PULSE_FILE: ${{ steps.detect.outputs.pulse_file }}
-        run: |
-          if [ ! -f "$PULSE_FILE" ]; then
-            echo "pulse.json not found"
-            exit 0
+          # ---- IG Story ----
+          if echo "$CHANGED" | grep -q "^${IG_DIR}/"; then
+            PNG="${IG_DIR}/story.png"
+            CAP="${IG_DIR}/caption.txt"
+            if [ -f "$PNG" ]; then
+              CAPTION=""
+              [ -f "$CAP" ] && CAPTION=$(cat "$CAP")
+              curl -sf -X POST "${API}/sendDocument" \
+                -F "chat_id=${TG_CHAT}" \
+                -F "document=@${PNG}" \
+                --form-string "caption=${CAPTION}" || echo "ig sendDocument failed"
+              curl -sf -X POST "${API}/sendMessage" \
+                --data-urlencode "chat_id=${TG_CHAT}" \
+                --data-urlencode "text=IG Story ${TODAY} uploaded - download and post to IG Story" || true
+              echo "✓ ig notified"
+            fi
           fi
-          # Detect new items count via diff
-          NEW_COUNT=$(git diff HEAD~1 HEAD -- "$PULSE_FILE" | grep -cE '^\+\s*"id":\s*"pulse-' || true)
-          if [ "$NEW_COUNT" = "0" ]; then
-            echo "no new pulse items"
-            exit 0
+
+          # ---- Pulse ----
+          if echo "$CHANGED" | grep -qx "$PULSE_FILE"; then
+            if [ -f "$PULSE_FILE" ]; then
+              NEW=$(git diff HEAD~1 HEAD -- "$PULSE_FILE" | grep -cE '^\+\s*"id":\s*"pulse-' || echo "0")
+              TITLES=$(python3 -c "import json; d=json.load(open('$PULSE_FILE')); print('\n'.join(['- '+(i.get('title') or '')[:60] for i in d.get('items',[])[:3]]))" 2>/dev/null || echo "")
+              MSG="PULSE +${NEW} items\n${TITLES}\n\nhttps://ai-desk-tw.netlify.app/#latest-pulse"
+              curl -sf -X POST "${API}/sendMessage" \
+                --data-urlencode "chat_id=${TG_CHAT}" \
+                --data-urlencode "text=${MSG}" || echo "pulse notify failed"
+              echo "✓ pulse notified"
+            fi
           fi
-          # Extract latest 3 titles
-          TITLES=$(python3 -c "
-import json
-d = json.load(open('${PULSE_FILE}'))
-items = d.get('items', [])[:3]
-for it in items:
-    print('- ' + it.get('title', '')[:70])
-")
-          MSG="🔴 PULSE +${NEW_COUNT} items\n${TITLES}\n\nhttps://ai-desk-tw.netlify.app/#latest-pulse"
-          curl -sf -X POST "https://api.telegram.org/bot${TG_TOKEN}/sendMessage" \
-            --data-urlencode "chat_id=${TG_CHAT}" \
-            --data-urlencode "text=${MSG}"
+
+          echo "done"
