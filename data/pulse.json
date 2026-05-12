@@ -1,6 +1,46 @@
 {
-  "updated_at": "2026-05-12T04:15:00+08:00",
+  "updated_at": "2026-05-12T10:15:00+08:00",
   "items": [
+    {
+      "id": "pulse-2026-05-11-openai-enterprise-tomoro",
+      "ts": "2026-05-11T20:00:00+08:00",
+      "title": "OpenAI CRO 宣告企業 AI 採用達「臨界點」・收購 Tomoro 諮詢公司補強部署能量",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/11/open-ai-dresser-enterprise-business.html",
+      "blurb": "OpenAI 首席營收官 Denise Dresser 宣布企業 AI 採用已達「臨界點」，並確認收購約 150 名前沿 AI 部署工程師的顧問公司 Tomoro，整合入「The Development Company」旗下強化落地能力；企業現佔 OpenAI 逾 40% 營收，預計年底達消費端同等規模，此舉亦折射 AI 實施人才嚴重短缺為整個產業的共同瓶頸，搶人才已成前沿 AI 廠商企業市場決勝關鍵。"
+    },
+    {
+      "id": "pulse-2026-05-07-mythos-firefox-security",
+      "ts": "2026-05-07T22:00:00+08:00",
+      "title": "Mythos 衝擊 Firefox 資安框架：從 20 漏洞到近 300・Mozilla 全面重組漏洞應對體制",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/07/how-anthropics-mythos-has-rewritten-firefoxs-approach-to-cybersecurity/",
+      "blurb": "TechCrunch 調查揭示，Anthropic Mythos 對 Mozilla Firefox 的資安衝擊已達結構性層級：前代 AI 模型在 Firefox 找出約 20 個漏洞，Mythos 預覽版同一代碼庫發現近 300 個，驅使 Mozilla 完全重寫漏洞分類、修補優先序與供應鏈協調流程；此案例成為 AI 輔助網路安全從「提升效率」到「重塑治理結構」的具體里程碑，顯示前沿模型已成實際改寫業界資安運作模式的關鍵外力。"
+    },
+    {
+      "id": "pulse-2026-05-07-anthropic-consumer-pivot",
+      "ts": "2026-05-07T12:00:00+08:00",
+      "title": "Anthropic 悄然轉攻消費者市場・Labs 團隊任務轉向日常健康旅遊食譜等生活查詢",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-07/anthropic-is-making-claude-chatbot-more-appealing-to-consumers",
+      "blurb": "Bloomberg 揭露 Anthropic 已在去年底悄然調整產品策略，指示 Labs 實驗性 AI 產品團隊著重改善 Claude 在健康、旅遊、食譜等日常個人查詢的表現，正式將消費端滲透列為核心目標；這與 Anthropic 過去強調企業與 API 的定位形成明顯轉向，反映在 Claude Code 企業爆量同時，公司亦積極搶攻 ChatGPT 已主導的消費者市場份額，Mike Krieger 為 Labs 共同帶領人。"
+    },
+    {
+      "id": "pulse-2026-05-05-amodei-cyber-danger",
+      "ts": "2026-05-05T14:00:00+08:00",
+      "title": "Amodei 警告 AI 掀「危險時刻」：Mythos 揭數萬漏洞・中國模型僅落後 6-12 個月",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/05/anthropic-ceo-cyber-moment-of-danger-mythos-vulnerabilities.html",
+      "blurb": "Anthropic CEO Dario Amodei 公開警告，AI 已在全球關鍵軟體中揭露「數以萬計」歷史積累漏洞——Mythos 單在 Firefox 就發現近 300 個（前代模型僅 20 個）；他指中國前沿 AI 模型落後美國「僅 6-12 個月」，意味各國政府、企業與銀行僅有一個窄窗口修補漏洞，否則面臨 AI 驅動勒索軟體與網路攻擊的系統性浪潮，稱此為必須集體正確回應的「危險時刻」。"
+    },
+    {
+      "id": "pulse-2026-05-05-anthropic-financial-agents",
+      "ts": "2026-05-05T12:00:00+08:00",
+      "title": "Anthropic 推 10 款金融 AI 智能體・FactSet 暴跌 8%・Morningstar、標普全球同步重挫",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-05/anthropic-unveils-ai-agents-to-field-financial-services-tasks",
+      "blurb": "Anthropic 推出 10 款針對金融服務行業的 Claude AI 智能體，涵蓋自動草擬客戶報告、審查財報及合規升級複核等功能，覆蓋銀行、保險、資產管理與金融科技四大領域；消息一出，金融數據商 FactSet 盤中重挫逾 8%、Morningstar 跌逾 3%、標普全球與穆迪亦大幅承壓，為 AI 大模型廠商直接衝擊金融資訊產業傳統護城河的標誌性市場事件。"
+    },
     {
       "id": "pulse-2026-05-11-nadella-sutskever-trial",
       "ts": "2026-05-11T23:00:00+08:00",
@@ -200,48 +240,7 @@
       "source": "Anthropic",
       "url": "https://www.anthropic.com/responsible-scaling-policy/updates",
       "blurb": "Anthropic 更新 Frontier Safety Roadmap，將 RSP 路線圖「Moonshot R&D」里程碑目標從 2026 年 5 月 15 日延後至 9 月 30 日，理由是集中資源加速「全面提升」目標；此調整恰逢 Claude Code 爆量需求導致工程資源極度緊繃之際，提供了前沿 AI 快速商業化與安全研究投入之間優先序張力的一個公開信號。"
-    },
-    {
-      "id": "pulse-2026-05-04-anthropic-goldman-blackstone",
-      "ts": "2026-05-04T22:00:00+08:00",
-      "title": "Anthropic 聯手 Goldman Sachs、Blackstone 創立 15 億美元企業 AI 採用合資公司",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/05/04/anthropic-goldman-blackstone-ai-venture.html",
-      "blurb": "Anthropic 攜手 Goldman Sachs、Blackstone、Hellman & Friedman、Apollo 及 General Atlantic 等私募巨頭成立 15 億美元合資企業，目標在 PE 持股企業直接部署 Claude AI；與 OpenAI 同日宣佈旗下「The Development Company」，標誌前沿 AI 廠商同步借助頂尖私募資本網絡，解決企業 AI 落地人才瓶頸並大規模滲透傳統產業轉型商機。"
-    },
-    {
-      "id": "pulse-2026-05-04-openai-development-company",
-      "ts": "2026-05-04T20:00:00+08:00",
-      "title": "OpenAI「The Development Company」完成 40 億美元首輪融資・TPG、Brookfield、Bain 等 19 家 PE 聯投",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-04/openai-finalizes-10-billion-joint-venture-with-pe-firms-to-deploy-ai",
-      "blurb": "OpenAI 新設企業 AI 部署載體「The Development Company」完成 40 億美元融資，投資方含 TPG、Brookfield 資產管理、Advent、Bain Capital 等 19 家私募機構，整體估值達 100 億美元；策略邏輯與 Anthropic-Goldman JV 相同，藉私募資本的企業投資組合打通 B 端 AI 導入通路，解決具備業務知識的 AI 實施人才嚴重短缺瓶頸。"
-    },
-    {
-      "id": "pulse-2026-05-01-pentagon-ai-deals-anthropic-ban",
-      "ts": "2026-05-01T20:00:00+08:00",
-      "title": "五角大廈與 OpenAI、Google 等 8 家 AI 公司簽機密協議・因自主武器爭議正式切斷 Anthropic 合作",
-      "source": "CNN",
-      "url": "https://www.cnn.com/2026/05/01/tech/pentagon-ai-anthropic",
-      "blurb": "美國國防部與 OpenAI、Google、Microsoft、Amazon、Oracle、Nvidia、SpaceX 及 Reflection AI 八家公司完成機密 AI 協議，允許其模型進入機密網路執行情報分析與後勤作業；Anthropic 因拒絕允許軍方將 Claude 用於自主武器及大規模監控遭排除，國防部長 Hegseth 公開斥責 Amodei 為「意識形態狂熱者」，Anthropic 目前在法院申訴供應鏈風險指定的合法性。"
-    },
-    {
-      "id": "pulse-2026-04-30-anthropic-900b-round",
-      "ts": "2026-04-30T08:00:00+08:00",
-      "title": "Anthropic 籌備 500 億美元融資輪・估值逾 9,000 億超越 OpenAI 成全球最高值 AI 新創",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/04/30/anthropic-potential-900b-valuation-round-could-happen-within-two-weeks/",
-      "blurb": "TechCrunch 消息指 Anthropic 正洽談 500 億美元新融資輪，估值超過 9,000 億美元，超越 OpenAI 成為全球最高估值 AI 新創，董事會預計兩週內確認；從 2025 年 3 月 615 億、2025 年 9 月 F 輪 1,830 億、2026 年 2 月 3,800 億一路飆升至 9,000 億，14 個月估值成長 15 倍，預計為上市前最後私募輪，折射 Claude Code 商業飛輪的驚人加速。"
-    },
-    {
-      "id": "pulse-2026-04-28-openai-missed-targets",
-      "ts": "2026-04-28T16:00:00+08:00",
-      "title": "WSJ 揭露 OpenAI 未達自訂收入目標・Oracle 及晶片股重挫最多逾 4%",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/04/28/openais-revenue-growth-estimates-fall-short-report.html",
-      "blurb": "《華爾街日報》報導 OpenAI 2026 年多項月度銷售目標未達標，主因 Anthropic 在程式碼與企業市場持續搶食份額；CFO Sarah Friar 內部警告若收入未能加速恐難支撐鉅額算力承諾，Oracle 應聲跌逾 4%、Broadcom 與 AMD 各跌 3-4%；Altman 與 Friar 聯合聲明痛批報導「荒謬」，但市場信心已受衝擊，前沿 AI 商業化前景的不確定性浮上檯面。"
     }
   ],
-  "_note": "seeded by Peter 2026-05-10 — cloud routine ai-desk-pulse 每 2 小時自動更新",
-  "_workflow_test": "v3 yaml verify @ 2026-05-12T09:13:53+08:00"
+  "_note": "seeded by Peter 2026-05-10 — cloud routine ai-desk-pulse 每 2 小時自動更新"
 }
