@@ -1144,140 +1144,100 @@ footer.site-footer {
   <span class="num">00d</span>
   <span>Creator Toolkit — 創作者工具 + 學習資源</span>
   <span class="bar"></span>
-  <span id="toolkit-meta">— · live</span>
+  <span id="toolkit-meta">— · 30+ tools · 20+ courses</span>
 </div>
 
-<section class="toolkit" aria-label="Creator Toolkit">
+<section class="toolkit-hub" aria-label="Creator Toolkit Hub">
   <div class="toolkit-head">
     <h2>🎨 CREATOR<br>TOOLKIT</h2>
-    <p class="sub">市面主流 AI 創作工具 + 課程連結<br>勾選類別自動篩 · 含官方 / Pricing / Docs / 學習資源<br>Peter 自己用的工具也在裡面</p>
+    <p class="sub">分類進入 · 各類別獨立子頁<br>含官方 / Pricing / Docs / 免費課程 / YouTube 教學<br>新手 + 進階 都有，AI 生圖 · 做網站 · 做手機 · 編程 · 影片 · 音樂 · 設計 · agent</p>
   </div>
 
-  <div class="tk-filter">
-    <div class="tk-filter-row">
-      <strong>類別：</strong>
-      <label><input type="checkbox" name="tkcat" value="writing"> 寫作</label>
-      <label><input type="checkbox" name="tkcat" value="image"> 圖像</label>
-      <label><input type="checkbox" name="tkcat" value="video"> 影片</label>
-      <label><input type="checkbox" name="tkcat" value="coding"> 編程</label>
-      <label><input type="checkbox" name="tkcat" value="audio"> 音頻</label>
-      <label><input type="checkbox" name="tkcat" value="design"> 設計</label>
-      <label><input type="checkbox" name="tkcat" value="productivity"> 生產力</label>
-      <label><input type="checkbox" name="tkcat" value="agent"> Agent</label>
-      <label><input type="checkbox" name="tkcat" value="research"> 研究</label>
-    </div>
-    <div class="tk-filter-row">
-      <strong>價格：</strong>
-      <label><input type="checkbox" name="tktier" value="free"> 免費 / 開源</label>
-      <label><input type="checkbox" name="tktier" value="freemium"> 免費試用 / Freemium</label>
-      <label><input type="checkbox" name="tktier" value="paid"> 付費</label>
-    </div>
+  <div class="tile-grid">
+    <a class="tile" href="/toolkit/?cat=writing">
+      <span class="tile-icon">✍️</span>
+      <h3>寫作 / 編輯</h3>
+      <p>Claude · ChatGPT · Notion AI · Perplexity</p>
+      <span class="tile-cta">進入 →</span>
+    </a>
+    <a class="tile" href="/toolkit/?cat=image">
+      <span class="tile-icon">🎨</span>
+      <h3>AI 生圖</h3>
+      <p>Midjourney · DALL-E · Flux · Ideogram · Recraft · Krea</p>
+      <span class="tile-cta">進入 →</span>
+    </a>
+    <a class="tile" href="/toolkit/?cat=video">
+      <span class="tile-icon">🎬</span>
+      <h3>AI 影片</h3>
+      <p>Runway · Sora · Veo · Kling · Luma · HeyGen</p>
+      <span class="tile-cta">進入 →</span>
+    </a>
+    <a class="tile" href="/toolkit/?cat=audio">
+      <span class="tile-icon">🎙️</span>
+      <h3>AI 音樂 / 配音</h3>
+      <p>ElevenLabs · Suno · Udio · Descript</p>
+      <span class="tile-cta">進入 →</span>
+    </a>
+    <a class="tile" href="/toolkit/?cat=coding">
+      <span class="tile-icon">💻</span>
+      <h3>AI 編程</h3>
+      <p>Cursor · Windsurf · Copilot · Cline · Aider</p>
+      <span class="tile-cta">進入 →</span>
+    </a>
+    <a class="tile" href="/toolkit/?cat=web">
+      <span class="tile-icon">🌐</span>
+      <h3>AI 做網站</h3>
+      <p>v0 · Bolt · Lovable · Replit Agent · Framer AI</p>
+      <span class="tile-cta">進入 →</span>
+    </a>
+    <a class="tile" href="/toolkit/?cat=mobile">
+      <span class="tile-icon">📱</span>
+      <h3>AI 做手機介面</h3>
+      <p>Galileo · Uizard · v0 App · React Native AI</p>
+      <span class="tile-cta">進入 →</span>
+    </a>
+    <a class="tile" href="/toolkit/?cat=design">
+      <span class="tile-icon">🖌️</span>
+      <h3>AI 設計</h3>
+      <p>Canva AI · Figma AI · Gamma · Recraft</p>
+      <span class="tile-cta">進入 →</span>
+    </a>
+    <a class="tile" href="/toolkit/?cat=agent">
+      <span class="tile-icon">🤖</span>
+      <h3>AI Agent / 自動化</h3>
+      <p>LangChain · CrewAI · LangGraph · n8n · Make</p>
+      <span class="tile-cta">進入 →</span>
+    </a>
+    <a class="tile" href="/toolkit/?cat=research">
+      <span class="tile-icon">🔍</span>
+      <h3>AI 研究 / 搜尋</h3>
+      <p>Perplexity · NotebookLM · Elicit · Consensus</p>
+      <span class="tile-cta">進入 →</span>
+    </a>
   </div>
 
-  <div id="tk-grid" class="tk-grid">
-    <div class="tk-loading">Loading toolkit…</div>
-  </div>
-
-  <div class="tk-courses-section">
-    <h3>📚 學習資源 / 課程連結</h3>
-    <ol id="tk-courses" class="tk-courses"><li class="tk-loading">Loading…</li></ol>
+  <div class="toolkit-footer">
+    <a href="/toolkit/" class="all-link">→ 看全部 30+ tools + 20+ 免費課程</a>
+    <a href="/toolkit/?cat=courses" class="all-link">📚 純看課程清單</a>
   </div>
 </section>
 
-<script>
-(function(){
-  var TK = null;
-  function render(){
-    if (!TK) return;
-    var grid = document.getElementById('tk-grid');
-    var selCat = Array.from(document.querySelectorAll('input[name=tkcat]:checked')).map(function(c){return c.value;});
-    var selTier = Array.from(document.querySelectorAll('input[name=tktier]:checked')).map(function(c){return c.value;});
-    var filtered = TK.tools.filter(function(t){
-      var catOk = selCat.length === 0 || selCat.indexOf(t.category) > -1 || (t.subcat || []).some(function(s){return selCat.indexOf(s) > -1;});
-      var tierOk = selTier.length === 0 || selTier.indexOf(t.tier) > -1;
-      return catOk && tierOk;
-    });
-    grid.innerHTML = filtered.map(function(t){
-      var learn = (t.learn || []).map(function(l){return '<a href="' + l.url + '" target="_blank" rel="noopener">📖 ' + l.title + ' ↗</a>';}).join('');
-      var subcat = (t.subcat || []).map(function(s){return '<span class="tk-badge">'+s+'</span>';}).join('');
-      return '<div class="tk-card ' + t.tier + '">' +
-        '<div class="tk-head"><span class="tk-vendor">' + t.vendor + '</span><span class="tk-tier">' + t.tier + '</span></div>' +
-        '<h3 class="tk-name">' + t.name + '</h3>' +
-        '<div class="tk-cat">' + t.category + (subcat ? ' · ' + subcat : '') + '</div>' +
-        '<div class="tk-price">' + (t.price || '?') + '</div>' +
-        (t.highlight ? '<p class="tk-highlight">💡 ' + t.highlight + '</p>' : '') +
-        '<div class="tk-links">' +
-          '<a href="' + t.official_url + '" target="_blank" rel="noopener">官網 ↗</a>' +
-          (t.pricing_url ? ' · <a href="' + t.pricing_url + '" target="_blank" rel="noopener">Pricing ↗</a>' : '') +
-          (t.docs_url ? ' · <a href="' + t.docs_url + '" target="_blank" rel="noopener">Docs ↗</a>' : '') +
-        '</div>' +
-        (learn ? '<div class="tk-learn">' + learn + '</div>' : '') +
-      '</div>';
-    }).join('');
-    document.getElementById('toolkit-meta').textContent = '更新於 ' + (TK.updated_at || '').replace('T',' ').replace(/[+Z].*/, '') + ' · ' + TK.tools.length + ' tools · ' + (TK.courses || []).length + ' courses';
-  }
-  function renderCourses(){
-    var ol = document.getElementById('tk-courses');
-    ol.innerHTML = (TK.courses || []).map(function(c){
-      return '<li><a href="' + c.url + '" target="_blank" rel="noopener"><strong>' + c.title + '</strong></a>' +
-        ' <span class="tk-course-meta">' + c.provider + ' · ' + (c.cost || '?') + ' · ' + (c.topic || '') + '</span>' +
-        '<p>' + (c.highlight || '') + '</p></li>';
-    }).join('');
-  }
-  fetch('/data/creators-toolkit.json?_=' + Date.now())
-    .then(function(r){return r.json();})
-    .then(function(d){
-      TK = d;
-      document.querySelectorAll('.tk-filter input').forEach(function(c){c.addEventListener('change', render);});
-      render();
-      renderCourses();
-    })
-    .catch(function(){ document.getElementById('tk-grid').innerHTML = '<div class="tk-loading">toolkit 載入失敗</div>'; });
-})();
-</script>
-
 <style>
-.toolkit { background: #050505; padding: 3rem 2rem; max-width: 1280px; margin: 2rem auto; }
-.toolkit-head { margin-bottom: 2rem; }
-.toolkit-head h2 { font-size: 4rem; line-height: 0.9; margin: 0; color: #fff; letter-spacing: -0.04em; }
-.toolkit-head .sub { font-family: "JetBrains Mono", monospace; font-size: 0.85rem; color: #888; margin-top: 1rem; line-height: 1.6; }
-.tk-filter { background: rgba(255,255,255,0.03); border: 1px solid #222; padding: 1.5rem; margin-bottom: 2rem; }
-.tk-filter-row { display: flex; flex-wrap: wrap; align-items: center; gap: 0.8rem; margin-bottom: 0.8rem; }
-.tk-filter-row strong { font-family: "JetBrains Mono", monospace; font-size: 0.78rem; color: #a855f7; letter-spacing: 0.1em; text-transform: uppercase; min-width: 60px; }
-.tk-filter-row label { font-family: "JetBrains Mono", monospace; font-size: 0.82rem; color: #ccc; cursor: pointer; padding: 0.3rem 0.6rem; border: 1px solid #333; }
-.tk-filter-row label:hover { background: rgba(168,85,247,0.1); border-color: #a855f7; color: #fff; }
-.tk-filter-row label:has(input:checked) { background: #a855f7; color: #fff; border-color: #a855f7; }
-.tk-filter-row label input { display: none; }
-.tk-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.2rem; }
-.tk-card { background: rgba(255,255,255,0.04); border: 1px solid #222; padding: 1.1rem; border-left: 3px solid #a855f7; }
-.tk-card.free { border-left-color: #4ade80; }
-.tk-card.freemium { border-left-color: #fbbf24; }
-.tk-card.paid { border-left-color: #f97316; }
-.tk-card:hover { border-color: #a855f7; }
-.tk-head { display: flex; justify-content: space-between; margin-bottom: 0.4rem; font-family: "JetBrains Mono", monospace; font-size: 0.7rem; }
-.tk-vendor { color: #888; letter-spacing: 0.1em; text-transform: uppercase; }
-.tk-tier { color: #a855f7; letter-spacing: 0.05em; text-transform: uppercase; font-weight: 700; }
-.tk-name { color: #fff; font-size: 1.05rem; margin: 0 0 0.3rem; font-weight: 700; }
-.tk-cat { font-family: "JetBrains Mono", monospace; font-size: 0.7rem; color: #666; margin-bottom: 0.6rem; }
-.tk-cat .tk-badge { background: rgba(168,85,247,0.15); color: #c084fc; padding: 0.1rem 0.3rem; margin-right: 0.2rem; border-radius: 2px; font-size: 0.62rem; }
-.tk-price { font-family: "JetBrains Mono", monospace; font-size: 0.78rem; color: #4ade80; margin-bottom: 0.6rem; padding: 0.3rem 0.5rem; background: rgba(74,222,128,0.05); border-left: 2px solid #4ade80; }
-.tk-highlight { color: #ccc; font-size: 0.82rem; line-height: 1.5; margin: 0.5rem 0; padding: 0.5rem; background: rgba(168,85,247,0.05); border-left: 2px solid #a855f7; }
-.tk-links { font-family: "JetBrains Mono", monospace; font-size: 0.72rem; margin: 0.5rem 0; }
-.tk-links a { color: #a855f7; text-decoration: none; }
-.tk-links a:hover { color: #fff; }
-.tk-learn { display: flex; flex-direction: column; gap: 0.25rem; margin-top: 0.5rem; padding-top: 0.5rem; border-top: 1px dashed #2a2a2a; }
-.tk-learn a { font-family: "JetBrains Mono", monospace; font-size: 0.72rem; color: #4ade80; text-decoration: none; }
-.tk-learn a:hover { color: #fff; }
-.tk-courses-section { margin-top: 3rem; padding-top: 2rem; border-top: 1px solid #333; }
-.tk-courses-section h3 { color: #fff; font-size: 1.4rem; margin-bottom: 1rem; }
-.tk-courses { list-style: none; padding: 0; margin: 0; }
-.tk-courses li { padding: 1rem 0; border-bottom: 1px dashed #2a2a2a; }
-.tk-courses li a strong { color: #a855f7; font-size: 1rem; }
-.tk-courses li a:hover strong { color: #fff; }
-.tk-courses li .tk-course-meta { font-family: "JetBrains Mono", monospace; font-size: 0.72rem; color: #666; margin-left: 0.5rem; }
-.tk-courses li p { margin: 0.4rem 0 0; color: #ccc; font-size: 0.85rem; line-height: 1.6; }
-.tk-loading { padding: 2rem; color: #888; font-family: "JetBrains Mono", monospace; }
-@media (max-width: 700px) { .tk-grid { grid-template-columns: 1fr; } }
+.toolkit-hub { background: #050505; padding: 3rem 2rem; max-width: 1280px; margin: 2rem auto; }
+.toolkit-hub .toolkit-head { margin-bottom: 2rem; }
+.toolkit-hub h2 { font-size: 4rem; line-height: 0.9; margin: 0; color: #fff; letter-spacing: -0.04em; }
+.toolkit-hub .sub { font-family: "JetBrains Mono", monospace; font-size: 0.85rem; color: #888; margin-top: 1rem; line-height: 1.6; }
+.tile-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 1rem; margin-bottom: 2rem; }
+.tile { background: rgba(255,255,255,0.04); border: 1px solid #222; padding: 1.2rem; text-decoration: none; display: block; transition: all 0.2s; border-left: 3px solid #a855f7; }
+.tile:hover { background: rgba(168,85,247,0.1); border-color: #a855f7; transform: translateY(-2px); }
+.tile-icon { font-size: 2rem; display: block; margin-bottom: 0.5rem; }
+.tile h3 { color: #fff; font-size: 1.05rem; margin: 0 0 0.4rem; font-weight: 700; }
+.tile p { color: #888; font-family: "JetBrains Mono", monospace; font-size: 0.72rem; margin: 0 0 0.8rem; line-height: 1.5; }
+.tile-cta { color: #a855f7; font-family: "JetBrains Mono", monospace; font-size: 0.78rem; font-weight: 700; }
+.toolkit-footer { display: flex; gap: 1rem; flex-wrap: wrap; padding-top: 1.5rem; border-top: 1px solid #333; }
+.toolkit-footer .all-link { color: #a855f7; text-decoration: none; font-family: "JetBrains Mono", monospace; font-size: 0.85rem; padding: 0.5rem 1rem; border: 1px solid #a855f7; transition: all 0.15s; }
+.toolkit-footer .all-link:hover { background: #a855f7; color: #fff; }
+@media (max-width: 700px) { .tile-grid { grid-template-columns: 1fr 1fr; } }
 </style>
 
 <div class="section-label">

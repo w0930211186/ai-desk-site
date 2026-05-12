@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Creator Toolkit · AI DESK</title>
+<meta name="description" content="AI 創作者工具 + 學習資源完整目錄。AI 生圖 / 影片 / 編程 / 做網站 / 做手機介面 / 音樂 / 設計 / Agent。含官方 / Pricing / Docs / 免費課程 / YouTube 教學連結。新手 + 進階都有。">
+<meta property="og:title" content="Creator Toolkit · AI DESK">
+<meta property="og:description" content="AI 創作者工具 + 學習資源完整目錄">
+<meta property="og:image" content="https://ai-desk-tw.netlify.app/assets/og-cover.png">
+<style>
+* { box-sizing: border-box; }
+body { background: #0a0a0a; color: #e0e0e0; margin: 0; padding: 0; font-family: "Noto Sans TC", -apple-system, "Inter Tight", sans-serif; line-height: 1.6; }
+.tk-wrap { max-width: 1280px; margin: 0 auto; padding: 2rem 1.5rem; }
+.tk-nav { display: flex; justify-content: space-between; align-items: center; padding: 1rem 0; border-bottom: 1px solid #333; margin-bottom: 2rem; }
+.tk-nav a { color: #a855f7; text-decoration: none; font-family: "JetBrains Mono", monospace; font-size: 0.85rem; }
+.tk-nav a:hover { color: #fff; }
+h1 { font-size: 3rem; margin: 0 0 0.5rem; letter-spacing: -0.04em; color: #fff; }
+.intro { color: #888; margin-bottom: 2rem; font-size: 0.95rem; line-height: 1.7; max-width: 700px; }
+.cat-tabs { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 2rem; }
+.cat-tab { padding: 0.5rem 1rem; background: transparent; border: 1px solid #333; color: #ccc; cursor: pointer; font-family: "JetBrains Mono", monospace; font-size: 0.78rem; transition: all 0.15s; }
+.cat-tab:hover { background: rgba(168,85,247,0.1); border-color: #a855f7; color: #fff; }
+.cat-tab.active { background: #a855f7; color: #fff; border-color: #a855f7; }
+.tools { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 1.2rem; }
+.t-card { background: rgba(255,255,255,0.04); border: 1px solid #222; padding: 1.2rem; border-left: 3px solid #a855f7; }
+.t-card.free { border-left-color: #4ade80; }
+.t-card.freemium { border-left-color: #fbbf24; }
+.t-card.paid { border-left-color: #f97316; }
+.t-card h3 { color: #fff; font-size: 1.1rem; margin: 0 0 0.3rem; }
+.t-card .t-head { display: flex; justify-content: space-between; margin-bottom: 0.3rem; font-family: "JetBrains Mono", monospace; font-size: 0.7rem; }
+.t-vendor { color: #888; text-transform: uppercase; letter-spacing: 0.1em; }
+.t-tier { color: #a855f7; font-weight: 700; text-transform: uppercase; }
+.t-price { font-family: "JetBrains Mono", monospace; font-size: 0.78rem; color: #4ade80; margin: 0.4rem 0; padding: 0.3rem 0.5rem; background: rgba(74,222,128,0.05); border-left: 2px solid #4ade80; }
+.t-highlight { color: #ccc; font-size: 0.85rem; margin: 0.6rem 0; padding: 0.6rem; background: rgba(168,85,247,0.05); border-left: 2px solid #a855f7; }
+.t-strengths { display: flex; flex-wrap: wrap; gap: 0.3rem; margin: 0.5rem 0; }
+.t-strengths span { background: rgba(168,85,247,0.15); color: #c084fc; font-family: "JetBrains Mono", monospace; font-size: 0.65rem; padding: 0.15rem 0.4rem; }
+.t-links { display: flex; gap: 0.8rem; font-family: "JetBrains Mono", monospace; font-size: 0.78rem; margin: 0.8rem 0 0.5rem; flex-wrap: wrap; }
+.t-links a { color: #a855f7; text-decoration: none; }
+.t-links a:hover { color: #fff; }
+.t-learn { margin-top: 0.5rem; padding-top: 0.5rem; border-top: 1px dashed #2a2a2a; }
+.t-learn-title { color: #4ade80; font-family: "JetBrains Mono", monospace; font-size: 0.72rem; margin-bottom: 0.3rem; letter-spacing: 0.05em; }
+.t-learn a { display: block; color: #4ade80; text-decoration: none; font-family: "JetBrains Mono", monospace; font-size: 0.78rem; padding: 0.15rem 0; }
+.t-learn a:hover { color: #fff; }
+.courses-section { margin-top: 4rem; padding-top: 2rem; border-top: 1px solid #333; }
+.courses-section h2 { color: #fff; font-size: 2rem; margin-bottom: 1rem; }
+.courses { list-style: none; padding: 0; margin: 0; }
+.courses li { padding: 1.2rem 0; border-bottom: 1px dashed #2a2a2a; }
+.courses li a { text-decoration: none; }
+.courses li a strong { color: #a855f7; font-size: 1.05rem; }
+.courses li a:hover strong { color: #fff; }
+.courses li .meta { font-family: "JetBrains Mono", monospace; font-size: 0.72rem; color: #888; margin-left: 0.5rem; }
+.courses li p { margin: 0.4rem 0 0; color: #ccc; font-size: 0.88rem; }
+.empty { padding: 3rem; text-align: center; color: #666; font-family: "JetBrains Mono", monospace; }
+@media (max-width: 700px) { .tools { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<div class="tk-wrap">
+  <nav class="tk-nav">
+    <a href="/">← AI DESK 主頁</a>
+    <span style="color: #666; font-family: 'JetBrains Mono', monospace; font-size: 0.78rem;">CREATOR TOOLKIT</span>
+    <a href="/latest">最新 daily →</a>
+  </nav>
+  <h1 id="cat-title">🎨 Creator Toolkit</h1>
+  <p class="intro" id="cat-intro">市面主流 AI 創作工具完整目錄 · 含官方 / Pricing / Docs / 免費課程 / YouTube 教學連結。勾選分類進入細項，每個工具都有實際可點的連結資源。</p>
+
+  <div class="cat-tabs" id="cat-tabs"></div>
+  <div id="tools-area" class="tools"></div>
+  <div class="courses-section" id="courses-section">
+    <h2>📚 免費 / 付費課程資源</h2>
+    <ol class="courses" id="courses"></ol>
+  </div>
+</div>
+
+<script>
+var CAT_LABELS = {
+  all: '🎨 全部', writing: '✍️ 寫作', image: '🎨 AI 生圖', video: '🎬 AI 影片',
+  audio: '🎙️ 音樂/配音', coding: '💻 編程', web: '🌐 做網站', mobile: '📱 手機介面',
+  design: '🖌️ 設計', agent: '🤖 Agent', research: '🔍 研究', productivity: '⚡ 生產力',
+  courses: '📚 純課程'
+};
+function getCat() {
+  var u = new URL(location.href);
+  return u.searchParams.get('cat') || 'all';
+}
+function renderTabs(activeCat) {
+  var tabs = document.getElementById('cat-tabs');
+  tabs.innerHTML = Object.keys(CAT_LABELS).map(function(k){
+    return '<a class="cat-tab' + (k === activeCat ? ' active' : '') + '" href="/toolkit/' + (k === 'all' ? '' : '?cat=' + k) + '">' + CAT_LABELS[k] + '</a>';
+  }).join('');
+}
+function renderTools(TK, cat) {
+  var area = document.getElementById('tools-area');
+  if (cat === 'courses') {
+    area.innerHTML = '';
+    return;
+  }
+  var filtered = TK.tools.filter(function(t){
+    if (cat === 'all') return true;
+    return t.category === cat || (t.subcat || []).indexOf(cat) > -1;
+  });
+  if (!filtered.length) {
+    area.innerHTML = '<div class="empty">這個分類還在 curating · 看其他分類 ↑</div>';
+    return;
+  }
+  area.innerHTML = filtered.map(function(t){
+    var strengths = (t.strengths || []).map(function(s){return '<span>'+s+'</span>';}).join('');
+    var learn = (t.learn || []).map(function(l){return '<a href="' + l.url + '" target="_blank" rel="noopener">📖 ' + l.title + ' ↗</a>';}).join('');
+    return '<div class="t-card ' + t.tier + '">' +
+      '<div class="t-head"><span class="t-vendor">' + t.vendor + '</span><span class="t-tier">' + t.tier + '</span></div>' +
+      '<h3>' + t.name + '</h3>' +
+      '<div class="t-price">' + (t.price || '?') + '</div>' +
+      '<div class="t-strengths">' + strengths + '</div>' +
+      (t.highlight ? '<p class="t-highlight">💡 ' + t.highlight + '</p>' : '') +
+      '<div class="t-links">' +
+        '<a href="' + t.official_url + '" target="_blank" rel="noopener">官網 ↗</a>' +
+        (t.pricing_url ? '<a href="' + t.pricing_url + '" target="_blank" rel="noopener">Pricing ↗</a>' : '') +
+        (t.docs_url ? '<a href="' + t.docs_url + '" target="_blank" rel="noopener">Docs ↗</a>' : '') +
+      '</div>' +
+      (learn ? '<div class="t-learn"><div class="t-learn-title">📖 學習資源</div>' + learn + '</div>' : '') +
+    '</div>';
+  }).join('');
+}
+function renderCourses(TK) {
+  document.getElementById('courses').innerHTML = (TK.courses || []).map(function(c){
+    return '<li><a href="' + c.url + '" target="_blank" rel="noopener"><strong>' + c.title + '</strong></a>' +
+      ' <span class="meta">' + c.provider + ' · ' + c.cost + ' · ' + c.topic + '</span>' +
+      '<p>' + c.highlight + '</p></li>';
+  }).join('');
+}
+
+var cat = getCat();
+document.getElementById('cat-title').textContent = (CAT_LABELS[cat] || '🎨 Toolkit');
+renderTabs(cat);
+fetch('/data/creators-toolkit.json?_=' + Date.now())
+  .then(function(r){return r.json();})
+  .then(function(TK){
+    renderTools(TK, cat);
+    renderCourses(TK);
+  })
+  .catch(function(){
+    document.getElementById('tools-area').innerHTML = '<div class="empty">載入失敗</div>';
+  });
+</script>
+</body>
+</html>
