@@ -1209,6 +1209,249 @@
       "docs_url": "https://v0.dev/docs",
       "learn": [],
       "highlight": "v0 也可生 React Native + Expo · 手機 app prototype"
+    },
+    {
+      "id": "comfyui",
+      "vendor": "Comfy",
+      "name": "ComfyUI",
+      "category": "image",
+      "subcat": [
+        "video"
+      ],
+      "tier": "free",
+      "price": "開源免費",
+      "strengths": [
+        "node-based",
+        "Stable-Diffusion",
+        "customizable"
+      ],
+      "official_url": "https://www.comfy.org",
+      "pricing_url": "https://www.comfy.org",
+      "docs_url": "https://docs.comfy.org",
+      "learn": [
+        {
+          "title": "ComfyUI Docs",
+          "url": "https://docs.comfy.org"
+        },
+        {
+          "title": "中文教學",
+          "url": "https://www.youtube.com/results?search_query=ComfyUI+中文教學"
+        }
+      ],
+      "highlight": "開源圖像生成 node UI · 完全免費 · Stable Diffusion / Flux 完整 workflow"
+    },
+    {
+      "id": "automatic1111",
+      "vendor": "AUTOMATIC1111",
+      "name": "Stable Diffusion WebUI",
+      "category": "image",
+      "subcat": [],
+      "tier": "free",
+      "price": "開源免費",
+      "strengths": [
+        "self-host",
+        "extensions",
+        "LoRA"
+      ],
+      "official_url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+      "pricing_url": "",
+      "docs_url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki",
+      "learn": [
+        {
+          "title": "中文教學",
+          "url": "https://www.youtube.com/results?search_query=AUTOMATIC1111+中文教學"
+        }
+      ],
+      "highlight": "老牌 SD WebUI · 自架 GPU 用 · LoRA / ControlNet 整合最全"
+    },
+    {
+      "id": "audacity",
+      "vendor": "Audacity",
+      "name": "Audacity",
+      "category": "audio",
+      "subcat": [],
+      "tier": "free",
+      "price": "開源免費",
+      "strengths": [
+        "DAW",
+        "audio-editing",
+        "multi-track"
+      ],
+      "official_url": "https://www.audacityteam.org",
+      "pricing_url": "",
+      "docs_url": "https://manual.audacityteam.org",
+      "learn": [
+        {
+          "title": "中文教學",
+          "url": "https://www.youtube.com/results?search_query=Audacity+中文+podcast"
+        }
+      ],
+      "highlight": "老牌開源音頻編輯 · Podcaster 必備 · Mac/Win/Linux"
+    },
+    {
+      "id": "davinci",
+      "vendor": "Blackmagic",
+      "name": "DaVinci Resolve",
+      "category": "video",
+      "subcat": [],
+      "tier": "freemium",
+      "price": "免費 / $295 Studio",
+      "strengths": [
+        "color-grade",
+        "editing",
+        "Hollywood-grade"
+      ],
+      "official_url": "https://www.blackmagicdesign.com/products/davinciresolve",
+      "pricing_url": "https://www.blackmagicdesign.com/products/davinciresolve",
+      "docs_url": "https://www.blackmagicdesign.com/products/davinciresolve/training",
+      "learn": [
+        {
+          "title": "DaVinci 中文教學",
+          "url": "https://www.youtube.com/results?search_query=DaVinci+Resolve+中文教學"
+        }
+      ],
+      "highlight": "電影級調色軟體 · 免費版功能也夠用 · Premiere 主要對手"
+    },
+    {
+      "id": "capcut",
+      "vendor": "ByteDance",
+      "name": "CapCut",
+      "category": "video",
+      "subcat": [],
+      "tier": "freemium",
+      "price": "免費 / $9.99 Pro",
+      "strengths": [
+        "mobile-first",
+        "AI-effects",
+        "short-video"
+      ],
+      "official_url": "https://www.capcut.com",
+      "pricing_url": "https://www.capcut.com/pricing",
+      "docs_url": "https://www.capcut.com/tools/online-video-editor",
+      "learn": [
+        {
+          "title": "CapCut 中文教學",
+          "url": "https://www.youtube.com/results?search_query=CapCut+中文教學"
+        }
+      ],
+      "highlight": "TikTok / 抖音剪輯首選 · 短影片創作者必備 · 手機 + 桌面"
+    },
+    {
+      "id": "obs",
+      "vendor": "OBS Project",
+      "name": "OBS Studio",
+      "category": "video",
+      "subcat": [
+        "productivity"
+      ],
+      "tier": "free",
+      "price": "開源免費",
+      "strengths": [
+        "streaming",
+        "screen-record",
+        "plugins"
+      ],
+      "official_url": "https://obsproject.com",
+      "pricing_url": "",
+      "docs_url": "https://obsproject.com/help",
+      "learn": [
+        {
+          "title": "OBS 中文教學",
+          "url": "https://www.youtube.com/results?search_query=OBS+中文教學"
+        }
+      ],
+      "highlight": "直播 / 螢幕錄影開源王 · YouTuber / Streamer 必裝"
+    },
+    {
+      "id": "notebooklm",
+      "vendor": "Google",
+      "name": "NotebookLM",
+      "category": "research",
+      "subcat": [
+        "writing",
+        "audio"
+      ],
+      "tier": "freemium",
+      "price": "免費 / $20 Plus",
+      "strengths": [
+        "audio-overview",
+        "source-grounded",
+        "podcast"
+      ],
+      "official_url": "https://notebooklm.google.com",
+      "pricing_url": "https://notebooklm.google.com/pricing",
+      "docs_url": "https://support.google.com/notebooklm",
+      "learn": [
+        {
+          "title": "NotebookLM 中文教學",
+          "url": "https://www.youtube.com/results?search_query=NotebookLM+中文教學"
+        }
+      ],
+      "highlight": "上傳 PDF/影片 → 自動產 Podcast + Q&A · BEXS 學員學習神器"
+    },
+    {
+      "id": "elicit",
+      "vendor": "Elicit",
+      "name": "Elicit",
+      "category": "research",
+      "subcat": [],
+      "tier": "freemium",
+      "price": "$10-90/mo",
+      "strengths": [
+        "academic",
+        "systematic-review",
+        "citation"
+      ],
+      "official_url": "https://elicit.com",
+      "pricing_url": "https://elicit.com/pricing",
+      "docs_url": "https://support.elicit.com",
+      "learn": [
+        {
+          "title": "Elicit Tutorials",
+          "url": "https://elicit.com/learn"
+        }
+      ],
+      "highlight": "AI 論文搜尋 · 系統性文獻 review 神器 · 學術用戶 / 研究員"
+    },
+    {
+      "id": "consensus",
+      "vendor": "Consensus",
+      "name": "Consensus",
+      "category": "research",
+      "subcat": [],
+      "tier": "freemium",
+      "price": "$8-49/mo",
+      "strengths": [
+        "scientific-search",
+        "study-snapshot",
+        "yes-no"
+      ],
+      "official_url": "https://consensus.app",
+      "pricing_url": "https://consensus.app/pricing",
+      "docs_url": "https://consensus.app/home/about",
+      "learn": [],
+      "highlight": "研究 yes/no question 直接給答案 + 引用 · 醫療 / 科學決策"
+    },
+    {
+      "id": "granola",
+      "vendor": "Granola",
+      "name": "Granola",
+      "category": "productivity",
+      "subcat": [
+        "writing"
+      ],
+      "tier": "freemium",
+      "price": "$18/mo",
+      "strengths": [
+        "meeting-notes",
+        "Zoom-integration",
+        "AI-summary"
+      ],
+      "official_url": "https://www.granola.ai",
+      "pricing_url": "https://www.granola.ai/pricing",
+      "docs_url": "https://www.granola.ai/help",
+      "learn": [],
+      "highlight": "AI 會議筆記 · 自動轉錄 + 重點摘要 · 適合 BEXS 直播課程紀錄"
     }
   ],
   "courses": [
@@ -1400,6 +1643,159 @@
       "topic": "GPT API 範例",
       "highlight": "100+ 真實使用範例 · RAG / Function calling / Embedding 全部有",
       "type": "free-github"
+    },
+    {
+      "title": "papaya 電腦教室 · AI 教學系列",
+      "provider": "YouTube · papaya 電腦教室",
+      "url": "https://www.youtube.com/@papayaclass",
+      "cost": "免費",
+      "topic": "AI 工具教學 · 中文",
+      "type": "free-youtube",
+      "highlight": "台灣最大中文電腦教學頻道 · ChatGPT / Midjourney / Notion 完整入門系列"
+    },
+    {
+      "title": "林俊瑋 Jason Lin · AI 工具實戰",
+      "provider": "YouTube · 林俊瑋",
+      "url": "https://www.youtube.com/@JasonLinAI",
+      "cost": "免費",
+      "topic": "中文 AI 工具實戰",
+      "type": "free-youtube",
+      "highlight": "中文 AI creator 老司機 · Claude / Sora / Cursor 實戰教學"
+    },
+    {
+      "title": "AI 工具人 · AI 工具評測",
+      "provider": "YouTube · AI 工具人",
+      "url": "https://www.youtube.com/results?search_query=AI+工具人",
+      "cost": "免費",
+      "topic": "AI 工具評測",
+      "type": "free-youtube",
+      "highlight": "中文圈最齊全的 AI 工具評測 · 每週新工具 + 比較"
+    },
+    {
+      "title": "AI 思維 · 創作者 AI 教學",
+      "provider": "YouTube · AI 思維",
+      "url": "https://www.youtube.com/results?search_query=AI+思維+教學",
+      "cost": "免費",
+      "topic": "中文 AI 創作",
+      "type": "free-youtube",
+      "highlight": "創作者導向 · AI 圖文 + 影片 + Podcast 應用"
+    },
+    {
+      "title": "智子情報 · AI 新聞解讀",
+      "provider": "YouTube · 智子情報",
+      "url": "https://www.youtube.com/results?search_query=智子情報",
+      "cost": "免費",
+      "topic": "AI 產業新聞中文解讀",
+      "type": "free-youtube",
+      "highlight": "frontier lab 新聞 + 模型發布 中文深度分析"
+    },
+    {
+      "title": "曼報 ManReport · AI 新聞",
+      "provider": "YouTube · 曼報",
+      "url": "https://www.youtube.com/results?search_query=曼報+AI",
+      "cost": "免費",
+      "topic": "AI 新聞中文",
+      "type": "free-youtube",
+      "highlight": "中文圈 AI 新聞每週整理 · 適合非技術背景"
+    },
+    {
+      "title": "科技玩具庫 · AI 工具實測",
+      "provider": "YouTube",
+      "url": "https://www.youtube.com/results?search_query=科技玩具庫+AI",
+      "cost": "免費",
+      "topic": "AI 工具實測",
+      "type": "free-youtube",
+      "highlight": "工具實測導向 · 不講術語只看效果"
+    },
+    {
+      "title": "電腦王阿達 · AI 工具導覽",
+      "provider": "YouTube · 電腦王阿達",
+      "url": "https://www.youtube.com/results?search_query=電腦王阿達+AI",
+      "cost": "免費",
+      "topic": "AI 工具中文導覽",
+      "type": "free-youtube",
+      "highlight": "台灣老牌科技頻道 · AI 工具中文入門"
+    },
+    {
+      "title": "What's AI Bot · 國際 AI 新聞中文",
+      "provider": "YouTube",
+      "url": "https://www.youtube.com/results?search_query=What+is+AI+中文",
+      "cost": "免費",
+      "topic": "AI 新聞中文翻譯",
+      "type": "free-youtube",
+      "highlight": "國外 AI 新聞中文翻譯解讀 · 每日更新"
+    },
+    {
+      "title": "哥布林學院 · 程式教學",
+      "provider": "YouTube · 哥布林學院",
+      "url": "https://www.youtube.com/results?search_query=哥布林學院+AI",
+      "cost": "免費",
+      "topic": "AI + 程式入門",
+      "type": "free-youtube",
+      "highlight": "中文 vibe coding + Cursor 入門必看"
+    },
+    {
+      "title": "Claude · 完整 API + Agent 5 課",
+      "provider": "Anthropic 官方",
+      "url": "https://github.com/anthropics/courses",
+      "cost": "免費",
+      "topic": "Claude · API 課綱",
+      "type": "free-github",
+      "highlight": "Anthropic 官方 5 門課 GitHub repo · API basics / Prompt eng / Real-world / Agent / Evaluation"
+    },
+    {
+      "title": "ChatGPT / GPT API · 官方 Academy",
+      "provider": "OpenAI Academy",
+      "url": "https://academy.openai.com",
+      "cost": "免費",
+      "topic": "GPT 課綱",
+      "type": "free-platform",
+      "highlight": "OpenAI 官方教學平台 · 含 Sora / DALL-E / o-series 全系列"
+    },
+    {
+      "title": "Gemini · Google AI for Developers",
+      "provider": "Google",
+      "url": "https://ai.google.dev",
+      "cost": "免費",
+      "topic": "Gemini 課綱",
+      "type": "free-platform",
+      "highlight": "Google AI 開發者中心 · Gemini API / Vertex / Colab 整套"
+    },
+    {
+      "title": "Llama · Meta 官方學習中心",
+      "provider": "Meta",
+      "url": "https://www.llama.com/docs",
+      "cost": "免費",
+      "topic": "Llama 開源課綱",
+      "type": "free-docs",
+      "highlight": "Meta Llama 4 文件 · fine-tuning / deploy / RAG 範例"
+    },
+    {
+      "title": "DeepSeek · 官方 docs + 範例",
+      "provider": "DeepSeek",
+      "url": "https://api-docs.deepseek.com",
+      "cost": "免費",
+      "topic": "DeepSeek 課綱",
+      "type": "free-docs",
+      "highlight": "DeepSeek V3 / R1 官方 docs · 含中文版"
+    },
+    {
+      "title": "Mistral · La Plateforme docs",
+      "provider": "Mistral",
+      "url": "https://docs.mistral.ai",
+      "cost": "免費",
+      "topic": "Mistral 課綱",
+      "type": "free-docs",
+      "highlight": "Mistral Large / Pixtral docs · API + agents 教學"
+    },
+    {
+      "title": "Hugging Face Cohort · LLM 課程",
+      "provider": "Hugging Face",
+      "url": "https://huggingface.co/learn",
+      "cost": "免費",
+      "topic": "全 model 訓練",
+      "type": "free-platform",
+      "highlight": "NLP / Diffusion / Audio / RL 4 個免費 cohort · 從 0 到 fine-tune"
     }
   ]
 }

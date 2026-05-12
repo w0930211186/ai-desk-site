@@ -946,7 +946,7 @@ footer.site-footer {
         }, 300);
       }
     })
-    .catch(function(){ document.getElementById('models-list').innerHTML = '<li class="models-empty">models data 載入失敗</li>'; });
+    .catch(function(){ document.getElementById('models-list').innerHTML = '<li class="models-empty">每小時 :30 自動更新 · 沒新模型發布就不寫（寧缺勿濫）</li>'; });
 })();
 </script>
 
@@ -1063,7 +1063,7 @@ footer.site-footer {
       var ucBadges = (m.use_cases || []).map(function(u){return '<span class="badge">'+u+'</span>';}).join('');
       var latest = m.is_latest ? '<span class="latest-tag">最新</span>' : '';
       var upcoming = m.is_upcoming ? '<span class="upcoming-tag">即將</span>' : '';
-      return '<div class="model-card ' + m.tier + '">' +
+      return '<a href="' + (m.official_url || '#') + '" target="_blank" rel="noopener" class="model-card-link"><div class="model-card ' + m.tier + '">' +
         '<div class="mc-head"><strong class="mc-vendor">' + m.vendor + '</strong>' + latest + upcoming + '</div>' +
         '<h3 class="mc-name">' + m.name + '</h3>' +
         '<div class="mc-version">' + (m.version || '') + ' · ' + (m.release_date || '') + '</div>' +
@@ -1075,8 +1075,8 @@ footer.site-footer {
         '</div>' +
         '<div class="mc-uses">' + ucBadges + '</div>' +
         (m.highlight ? '<p class="mc-highlight">💡 ' + m.highlight + '</p>' : '') +
-        '<div class="mc-links"><a href="' + m.official_url + '" target="_blank" rel="noopener">官方 ↗</a> · <a href="' + m.pricing_url + '" target="_blank" rel="noopener">Pricing ↗</a></div>' +
-      '</div>';
+        '<div class="mc-links"><span class="mc-link-pill">官方頁面 ↗</span> · <a href="' + m.pricing_url + '" target="_blank" rel="noopener" onclick="event.stopPropagation();">Pricing ↗</a></div>' +
+      '</div></a>';
     }).join('');
   }
 
@@ -1117,7 +1117,9 @@ footer.site-footer {
 
 .dir-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 1.5rem; }
 .model-card { background: rgba(255,255,255,0.04); border: 1px solid #222; padding: 1.2rem; transition: border-color 0.2s; }
-.model-card:hover { border-color: #fbbf24; }
+.model-card-link { text-decoration: none; color: inherit; display: block; }
+.model-card:hover { border-color: #fbbf24; transform: translateY(-2px); transition: all 0.2s; }
+.mc-link-pill { color: #fbbf24; font-family: "JetBrains Mono", monospace; }
 .model-card.open-source { border-left: 3px solid #4ade80; }
 .model-card.frontier { border-left: 3px solid #fbbf24; }
 .mc-head { display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem; }

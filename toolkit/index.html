@@ -89,6 +89,16 @@ a:hover { color: var(--accent-hover); }
 
 .empty { padding: 4rem 2rem; text-align: center; color: var(--text-mute); background: var(--bg-soft); border-radius: var(--radius); }
 
+.hot-section { margin: 2rem 0 3rem; padding: 2rem; background: linear-gradient(135deg, rgba(168,85,247,0.05), rgba(16,185,129,0.05)); border-radius: var(--radius); border: 1px solid var(--border); }
+.hot-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1rem; }
+.hot-card-link { text-decoration: none; color: inherit; display: block; }
+.hot-card { background: var(--bg-card); border-radius: var(--radius); padding: 1.2rem; position: relative; transition: all 0.2s; display: flex; gap: 1rem; align-items: flex-start; border: 1px solid var(--border); }
+.hot-card:hover { transform: translateY(-2px); box-shadow: var(--shadow); border-color: var(--accent); }
+.hot-rank { font-family: "JetBrains Mono", monospace; font-size: 1.6rem; font-weight: 800; color: var(--accent); min-width: 50px; }
+.hot-body h3 { margin: 0 0 0.3rem; font-size: 1rem; color: var(--text); }
+.hot-body .hot-vendor { font-family: "JetBrains Mono", monospace; font-size: 0.7rem; color: var(--text-mute); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 0.2rem; }
+.hot-body p { color: var(--text-soft); font-size: 0.82rem; margin: 0; line-height: 1.5; }
+
 /* Course Section */
 .courses-wrap { margin-top: 4rem; padding-top: 3rem; border-top: 2px solid var(--border); }
 .course-tabs { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 1.5rem; }
@@ -136,9 +146,14 @@ a:hover { color: var(--accent-hover); }
 <div class="wrap">
 
 <section class="hero">
-  <h1 id="cat-title">🎨 Creator Toolkit</h1>
-  <p class="lead">AI 創作者工具完整目錄 · <strong style="color: var(--free)">免費資源優先</strong> · YouTube 教學單獨分類 · 含官方 / Pricing / Docs / 學習資源連結。新手 + 進階都涵蓋。</p>
+  <h1 id="cat-title">Creator Toolkit</h1>
+  <p class="lead">AI 創作者工具完整目錄 · <strong style="color: var(--free)">免費資源優先</strong> · 中文 YouTube 教學單獨分類 · 含官方 / Pricing / Docs / 學習資源連結。新手 + 進階都涵蓋。</p>
 </section>
+
+<div class="hot-section">
+  <div class="section-h"><h2>熱門排行 · 全分類 Top 10</h2><span class="badge">最常被推薦的 AI 工具</span></div>
+  <div class="hot-grid" id="hot-grid"></div>
+</div>
 
 <div class="cat-tabs" id="cat-tabs"></div>
 
@@ -176,9 +191,9 @@ a:hover { color: var(--accent-hover); }
 
 <script>
 var CAT_LABELS = {
-  all: '全部', writing: '✍️ 寫作', image: '🎨 AI 生圖', video: '🎬 AI 影片',
-  audio: '🎙️ 音樂/配音', coding: '💻 編程', web: '🌐 做網站', mobile: '📱 手機介面',
-  design: '🖌️ 設計', agent: '🤖 Agent', research: '🔍 研究', productivity: '⚡ 生產力'
+  all: '全部', writing: '寫作 / 編輯', image: 'AI 生圖', video: 'AI 影片',
+  audio: '音樂 / 配音', coding: '編程 IDE', web: '做網站', mobile: '手機介面',
+  design: 'AI 設計', agent: 'AI Agent / 自動化', research: '研究 / 搜尋', productivity: '生產力'
 };
 function getCat() {
   var u = new URL(location.href);
@@ -263,14 +278,34 @@ function renderCourses(TK, filterType) {
   document.getElementById('course-count').textContent = courses.length + ' 個資源';
 }
 
+function renderHot(TK) {
+  // 熱門順序: Claude, ChatGPT, Cursor, Midjourney, v0, Runway, ElevenLabs, NotebookLM, Notion AI, Gemini
+  var hot_ids = ['claude','chatgpt','cursor','midjourney','v0','runway','elevenlabs','notebooklm','notion-ai','gemini'];
+  var hot = hot_ids.map(function(id, i){
+    var t = TK.tools.find(function(x){return x.id === id;});
+    if (!t) return null;
+    return {tool: t, rank: i + 1};
+  }).filter(Boolean);
+  document.getElementById('hot-grid').innerHTML = hot.map(function(h){
+    var t = h.tool;
+    return '<a href="' + t.official_url + '" target="_blank" rel="noopener" class="hot-card-link"><div class="hot-card">' +
+      '<span class="hot-rank">#' + h.rank + '</span>' +
+      '<div class="hot-body">' +
+        '<div class="hot-vendor">' + t.vendor + '</div>' +
+        '<h3>' + t.name + '</h3>' +
+        '<p>' + (t.highlight || '') + '</p>' +
+      '</div></div></a>';
+  }).join('');
+}
 var cat = getCat();
-document.getElementById('cat-title').textContent = (CAT_LABELS[cat] || '🎨 Toolkit');
+document.getElementById('cat-title').textContent = (CAT_LABELS[cat] || 'Toolkit');
 renderTabs(cat);
 fetch('/data/creators-toolkit.json?_=' + Date.now())
   .then(function(r){return r.json();})
   .then(function(TK){
     renderTools(TK, cat);
     renderCourses(TK, 'all');
+    renderHot(TK);
     document.querySelectorAll('.ctab').forEach(function(b){
       b.addEventListener('click', function(){
         document.querySelectorAll('.ctab').forEach(function(x){x.classList.remove('active');});
