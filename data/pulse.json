@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-05-12T16:00:00+08:00",
+  "updated_at": "2026-05-12T17:00:00+08:00",
   "items": [
+    {
+      "id": "pulse-2026-05-12-17-anthropic-spacex-colossus",
+      "ts": "2026-05-12T17:00:00+08:00",
+      "title": "Anthropic 租下 SpaceX Colossus 22 萬 GPU・Q1 年化收入 300 億超 OpenAI・馬斯克 180 度逆轉",
+      "source": "Anthropic",
+      "url": "https://www.anthropic.com/news/higher-limits-spacex",
+      "blurb": "Anthropic 5 月 6 日宣布取得前 xAI Colossus 1 全部算力——逾 300MW 容量與 22 萬張 NVIDIA GPU，Claude Pro／Max 費率限額同步翻倍；同日披露 Q1 年化收入突破 300 億美元（季增 80 倍），超越 OpenAI 估算的 250 億美元；馬斯克引用「沒有人觸動我的邪惡探測器」，三個月前他曾稱 Anthropic「仇恨西方文明」。",
+      "editorial": "<p><strong>第一</strong>，Anthropic 於 5 月 6 日宣布與 SpaceX 簽署算力協議，取得 Memphis Colossus 1 資料中心的全部算力：超過 300 兆瓦電力容量及 22 萬張以上 NVIDIA GPU，預計一個月內完成移交。Colossus 1 是 SpaceX 合併前 xAI 後持有的算力設施，xAI 保留規模更大的 Colossus 2，Colossus 1 的閒置容量使此次租賃具備充分商業合理性。同日，Anthropic 公開披露 Q1 2026 業績：年化收入（ARR）突破 300 億美元，較 2025 年底約 90 億美元在單一季度增長近 80 倍，超越 OpenAI 同期估算的 250 億美元年化水準；Claude Code 與企業 API 為主要增長引擎，企業收入佔整體逾 80%。Anthropic 同步宣布 Claude Code Pro、Max 使用限額翻倍、取消尖峰時段上限，並提高 Opus 系列 API 請求量。</p><p><strong>第二</strong>，此交易的結構性意義有兩個維度。在算力層面，Anthropic 已在一個月內累計落實四條算力供應線——Google Cloud 2,000 億美元 TPU 承諾（2027 年起交付）、Akamai 七年 18 億美元邊緣算力、SpaceX Colossus 300MW 即時容量，加計 AWS 原有承諾，形成超大型 frontier lab 首個跨供應商、多時間維度的算力對沖架構；三條現役供應線合計容量逾 680MW。在市場定位層面，300 億美元 ARR 確立 Anthropic 超越 OpenAI 的收入領先地位，改寫此前「OpenAI 消費端領先、Anthropic 企業端補充」的市場敘事，為 2026 年下半年傳言中的 IPO 提供了最有說服力的基本面論據。</p><p><strong>第三</strong>，馬斯克態度的 180 度逆轉，揭示 AI 算力供需失衡格局的深層驅動力。馬斯克於 2 月在 X 公開稱 Anthropic「仇恨西方文明」；5 月在親赴 Anthropic 總部與高管見面後，他援引「沒有人觸動我的邪惡探測器」完成轉向。Colossus 1 對 Grok 用戶基礎從未達到飽和利用率，算力閒置損耗遠大於對競對廠商的意識形態疑慮——商業邏輯最終壓過聲量。對競爭格局，SpaceX 即時算力意味 Anthropic 在 Google TPU 大規模上線前不會因算力瓶頸限制用戶規模，Claude 的服務質量與費率改善將直接壓縮向 ChatGPT 的轉換理由，消費者市場的多模型競爭將在 2026 年下半年進入新一輪激化期。</p>"
+    },
+    {
+      "id": "pulse-2026-05-12-17-eu-ai-act-omnibus-simplify",
+      "ts": "2026-05-12T17:00:00+08:00",
+      "title": "歐盟 AI Act 修正案達成臨時協議・高風險合規推遲至 2027-28 年・首度明文禁止性深度偽造",
+      "source": "EU Council",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/",
+      "blurb": "歐盟理事會與歐洲議會 5 月 7 日就 AI Act「Omnibus VII」修正案達成臨時協議：高風險 AI 系統合規期限推遲至 2027 年 12 月、安全組件系統推至 2028 年 8 月，SME 豁免擴及 500 人以下企業，首度明文禁止非共識性性深度偽造與 CSAM，AI 生成內容透明度實施寬限期縮短至三個月（2026 年 12 月 2 日）。",
+      "editorial": "<p><strong>第一</strong>，歐洲議會談判代表與理事會主席國於 5 月 7 日凌晨就「Omnibus VII」數位法規簡化一攬子協議達成臨時共識，正式修訂 EU AI Act 若干執法時程。核心變更有四：適用於高風險 AI 場景（生物辨識、關鍵基礎設施、教育、就業、執法、邊境管理）的合規義務，從原定 2026 年 8 月延至 2027 年 12 月 2 日；作為安全組件納管的 AI 系統，合規期限延至 2028 年 8 月；各成員國 AI 監管沙盒建立截止延至 2027 年 8 月；AI 生成內容透明度標記的實施寬限期，由六個月縮短至三個月，新截止為 2026 年 12 月 2 日。小型企業豁免資格從 250 人以下擴至 500 人以下「小型中型企業」（SMC），同步簡化技術文件要求。新增明文禁止未經同意的性深度偽造（非共識性性影像、CSAM），為 EU AI Act 首度納入此類內容規範。</p><p><strong>第二</strong>，此次協議的戰略背景，是歐盟首次公開承認原有 AI Act 執法時程的結構性不可行：AI Act 賴以執法的歐洲技術標準委員會（CEN／CENELEC）相關 AI 標準至今仍未完成制定；各成員國主管機關多數尚未具備評估能力與人員編制。在技術標準與監管機構雙重缺位的情況下強推執法，只會產生大量形式合規卻缺乏實質安全審核的文件，反而降低整體合規可信度。延期是務實的監管自我修正，但 AI 生成內容透明度三個月截止期（2026 年 12 月）比原六個月更緊，是為數不多的加速要求，在歐盟部署 AI 生成內容服務的廠商需提前優先處理。</p><p><strong>第三</strong>，協議達成後有三個後續指標值得密切追蹤。其一，深度偽造禁令的落地機制：新條款禁止 AI 工具生成非共識性性影像與兒童性剝削材料，但執法依賴各成員國監管機構的建立進度——而機構建置滯後正是整體時程延期的核心原因，執法能力的實際建立速度仍是未知數。其二，2026 年 12 月的 AI 生成內容透明度截止：所有在歐盟部署的 AI 生成內容標記系統需在此日期前完成基礎設施部署，技術標準的最終細節是合規準備的關鍵變量。其三，臨時協議需待理事會全體與議會正式批准及法律文字核查方生效，預計數週完成；此後 EU AI Act 的分段執法時程正式重啟，2027 年 12 月與 2028 年 8 月將是後續兩個主要合規壓力節點，高風險 AI 廠商的合規規劃需相應調整。</p>"
+    },
+    {
+      "id": "pulse-2026-05-12-17-nvidia-iren-5gw-ai-factory",
+      "ts": "2026-05-12T17:00:00+08:00",
+      "title": "NVIDIA 以最高 21 億美元入股 IREN・擬部署 5GW DSX AI 工廠・連同 Corning 48 小時資本行動逾 53 億",
+      "source": "NVIDIA Newsroom",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-and-iren-announce-strategic-partnership-to-accelerate-deployment-of-up-to-5-gigawatts-of-ai-infrastructure",
+      "blurb": "NVIDIA 5 月 7 日宣布與 AI 雲端基礎設施商 IREN 結成戰略夥伴，授予最高 21 億美元五年期認股期權（3,000 萬股，行使價 70 美元），合作目標部署 5GW NVIDIA DSX 對齊 AI 工廠；連同前一日 32 億美元 Corning 光纖協議，NVIDIA 48 小時資本行動合計逾 53 億美元，「算力站點 + 機架光纖」全棧整合布局明確。",
+      "editorial": "<p><strong>第一</strong>，NVIDIA 於 5 月 7 日宣布與 AI 雲端基礎設施商 IREN Limited（Nasdaq：IREN）締結戰略合作，授予 IREN 五年期認股期權：向 NVIDIA 發行最多 3,000 萬股普通股的購買權，行使價每股 70 美元，潛在投資總額最高 21 億美元（視監管批准）。雙方合作目標是在 IREN 全球資料中心管線中部署最高 5 吉瓦（GW）的 NVIDIA DSX 對齊 AI 工廠，IREN 提供電力、土地、資料中心設施與 GPU 叢集運營能力，NVIDIA 輸出加速計算架構與 DGX Cloud 技術標準；合作優先服務 AI 訓練與推論的新創、企業及政府客戶。IREN 目前在北美、歐洲與亞太地區持有連接電網的再生能源用地，5GW 目標代表其當前已運營規模的數十倍擴張。</p><p><strong>第二</strong>，IREN 協議與前一日（5 月 6 日）Corning 光纖協議共同構成 NVIDIA 完整「AI 工廠全棧控制」戰略的兩個不同環節：Corning 協議瞄準機架內互聯的物理層——以光纖替換銅線，解決晶片至交換機之間的數據傳輸瓶頸；IREN 協議瞄準資料中心的基礎算力層——電力、機房、大規模 GPU 叢集部署能力。兩項協議合計：NVIDIA 在 48 小時內以資本工具完成從算力基礎設施（IREN 5GW 部署管線，$21 億）到機架光纖互聯（Corning 美國十倍擴產，$32 億），$53 億整體行動形成「DSX 算力主機 + 光纖互聯 + 大規模供電站點」的完整 AI 工廠組件圖譜。此模式與 Google（掌控 TPU 至海底光纜）的垂直整合路徑平行，但 NVIDIA 以認股期權而非直接收購完成供應鏈鎖定，財務靈活性更高。</p><p><strong>第三</strong>，後續連鎖效應有三個維度值得追蹤。其一，NVIDIA「投資換優先採購」商業範本的傳導效應：IREN 獲 NVIDIA 認股期權後，優先部署 NVIDIA DGX 架構的激勵機制被制度化，CoreWeave、Lambda、Together AI 等尚未建立此類戰略股東關係的 neocloud 廠商，在未來 GPU 採購優先排序上面臨系統性劣勢。其二，5GW 的雄心目標依賴電力協議取得、政府許可與土地開發三個長週期環節，IREN 2026 至 2028 年的年均資本支出計劃與融資能力是最關鍵的執行瓶頸，IREN 季報中的電力容量在建進度是最直接的追蹤指標。其三，NVIDIA 連續兩日超 53 億美元美國本土基礎設施資本行動，時間點恰在美中峰會（5/14-15）前夕，作為晶片出口管制談判的核心當事方，密集宣示美國製造投資的政治信號意義明確，峰會後 H20 或 H200 出口管制是否出現鬆動，將直接影響 NVIDIA 股價與以上基礎設施投資的隱含回報邏輯。</p>"
+    },
     {
       "id": "pulse-2026-05-12-16-openai-deployment-company",
       "ts": "2026-05-12T16:00:00+08:00",
@@ -238,30 +265,6 @@
       "source": "Bloomberg",
       "url": "https://www.bloomberg.com/news/articles/2026-05-05/anthropic-unveils-ai-agents-to-field-financial-services-tasks",
       "blurb": "Anthropic 推出 10 款針對金融服務行業的 Claude AI 智能體，涵蓋自動草擬客戶報告、審查財報及合規升級複核等功能，覆蓋銀行、保險、資產管理與金融科技四大領域；消息一出，金融數據商 FactSet 盤中重挫逾 8%、Morningstar 跌逾 3%、標普全球與穆迪亦大幅承壓，為 AI 大模型廠商直接衝擊金融資訊產業傳統護城河的標誌性市場事件。"
-    },
-    {
-      "id": "pulse-2026-05-11-nadella-sutskever-trial",
-      "ts": "2026-05-11T23:00:00+08:00",
-      "title": "Musk v. Altman 第三週：Nadella 稱馬斯克從未提異議・Sutskever 爆 Google 年薪 $600 萬留人失敗",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/05/11/microsoft-ceo-satya-nadella-musk-altman-trial.html",
-      "blurb": "Microsoft CEO Satya Nadella 出庭作證，表明 Elon Musk 從未就微軟投資 OpenAI 一事向他提出任何法律異議；隨後 Ilya Sutskever 出庭揭示 Google 曾開出年薪 600 萬美元試圖留人，並說明當年因「深切在乎 OpenAI 不被毀掉」而向董事會通報 Altman 問題，兩人關鍵證詞將左右 5/21 責任裁決及 OpenAI 非營利轉型合法性認定。"
-    },
-    {
-      "id": "pulse-2026-05-11-trump-xi-ai-summit",
-      "ts": "2026-05-11T22:00:00+08:00",
-      "title": "中美峰會 5/14-15 確認在北京舉行・AI 技術竊取與晶片禁令成核心議程",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-11/china-confirms-x-trump-summit-that-was-delayed-by-iran-war",
-      "blurb": "中國確認川普-習近平峰會將於 5 月 14-15 日在北京舉行，為川普近十年來首次訪中；峰會議程橫跨貿易關稅、稀土、台灣、伊朗戰爭及 AI 技術竊取五大主軸，美國國務院已發布全球警告指中國廠商「工業級」竊取 OpenAI、Anthropic 等美國 AI 研究室知識產權，晶片出口管制鬆緊將決定全球 AI 算力格局走向。"
-    },
-    {
-      "id": "pulse-2026-05-11-trump-ceos-beijing-summit",
-      "ts": "2026-05-11T21:00:00+08:00",
-      "title": "川普邀馬斯克、庫克、芬克同赴北京峰會・AI 技術竊取與晶片管制成核心科技議程",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/05/11/trump-ceos-elon-musk-tim-cook-larry-fink-xi-china-summit.html",
-      "blurb": "川普宣布邀請 Tesla CEO 馬斯克、Apple CEO Tim Cook、BlackRock CEO Larry Fink 及 Boeing CEO Ortberg 等科技與金融領袖隨行 5/14-15 北京習近平峰會；AI 議程包括商議建立美中 AI 安全溝通熱線、討論中方「工業級」竊取美國前沿 AI 知識產權問題，並就晶片出口管制鬆緊及稀土協議展開直接談判，馬斯克代表 xAI 同行備受矚目。"
     }
   ],
   "_note": "seeded by Peter 2026-05-10 — cloud routine ai-desk-pulse 每 2 小時自動更新"
