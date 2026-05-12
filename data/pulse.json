@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-05-12T21:00:00+08:00",
+  "updated_at": "2026-05-12T22:00:00+08:00",
   "items": [
+    {
+      "id": "pulse-2026-05-12-22-trump-ai-spy-agencies-oversight",
+      "ts": "2026-05-12T22:00:00+08:00",
+      "title": "美情報機構爭奪 AI 監管主導權 · 商務部自願審查框架面臨被國安體系架空",
+      "source": "The Washington Post",
+      "url": "https://www.washingtonpost.com/politics/2026/05/11/trump-ai-regulation-commerce-intelligence/",
+      "blurb": "川普政府內部爆發 AI 監管主導權之爭，情報機構要求在 CAISI 框架外對 frontier 模型取得獨立限制權——直接導火線是 Anthropic Mythos 展現的自主網路攻擊能力，自願審查機制正面臨被強制國安審查取代的壓力。",
+      "editorial": "<p><strong>第一</strong>五月十一日，《華盛頓郵報》揭露川普政府內部正進行一場 AI 監管主導權爭奪。美國情報體系包括國家情報總監辦公室要求在商務部 CAISI 框架之外取得對 frontier 模型的獨立審查與限制權限，觸發點是 Anthropic Mythos Preview 展現的自主網路漏洞發現與利用能力。白宮正研議是否授予情報機構並行否決權，川普赴中出席峰會前，政府 AI 政策分歧高度敏感。</p><p><strong>第二</strong>此次爭奪的戰略意義在於，它是自願性監管框架能否在國家安全壓力下維持完整性的關鍵測試。五大 frontier lab 已於五月五日完成 CAISI 預釋放審查協議；但情報機構的訴求若成功，等於在現有框架上疊加不透明的國安審查層，frontier 模型發布週期將面臨政治化的不可預期因素。Anthropic 的處境尤為矛盾：因拒絕五角大廈無限授權而被列為安全疑慮，但其 Mythos 的能力本身正是推動情報機構擴大管轄的直接催化劑。</p><p><strong>第三</strong>對企業 CIO，情報機構介入若制度化，高危能力模型的發布時間表將引入新的政治不確定性，應加強 AI 採購的廠商多元化配置。對開發者，若高危能力的定義由情報體系而非技術機構界定，整個工具鏈的合規成本與創新自由度將承受更大壓力。對投資人，Anthropic 短期估值壓力上升，但其以倫理邊界換政府市場的立場差異化，在企業採購端仍具備信號優勢。</p>"
+    },
+    {
+      "id": "pulse-2026-05-12-22-pentagon-ai-classified-eight-companies",
+      "ts": "2026-05-12T22:00:00+08:00",
+      "title": "五角大廈授權八家 AI 公司進入最高機密網路 · Anthropic 拒服從無限授權遭逐出軍事 AI 圈",
+      "source": "CNN Business / The Washington Post",
+      "url": "https://www.cnn.com/2026/05/01/tech/pentagon-ai-anthropic",
+      "blurb": "美國防部批准 SpaceX、OpenAI、Google、NVIDIA 等八家公司接入 IL6/IL7 機密軍事系統，是 frontier AI 進入美軍最高機密基礎設施的首次大批量授權；Anthropic 因拒絕「任何合法用途」無限授權條款成為唯一缺席的主流 AI 廠商。",
+      "editorial": "<p><strong>第一</strong>五月一日，美國防部宣布與 SpaceX、OpenAI、Google、NVIDIA、Reflection AI、Microsoft、Oracle 及 Amazon Web Services 八家公司達成協議，取得 IL6 機密與 IL7 高機密等級軍事網路的 AI 部署資格。協議涵蓋資料綜合、戰場態勢感知與指揮決策輔助等應用，目前已有逾 130 萬國防部人員透過 GenAI.mil 平台使用 AI 工具。Anthropic 是唯一缺席的主流 frontier lab，原因是其拒絕提供「任何合法用途」的無限制授權接入，並對 Claude 可能被用於自主武器與大規模監控提出倫理疑慮。</p><p><strong>第二</strong>此協議的戰略意義遠超單一採購合約。其一，機密 AI 準入資格正在成為 frontier lab 競爭格局的新維度——軍事合約不只代表收入，更是進入下一代國防 AI 生態的門票。其二，Anthropic 的缺席是雙刃劍：短期損失龐大政府採購機會，但拒絕無限授權的姿態對企業端在 AI 倫理採購決策上具有正向信號意義。其三，八家公司的名單幾乎涵蓋全部主流 frontier 廠商，代表參與軍事 AI 正式從例外走向行業常態，是自 2018 年 Google 撤出 Project Maven 以來最大規模的行業立場逆轉。</p><p><strong>第三</strong>對企業 CIO，通過軍事高機密等級認證的 AI 系統，其在金融、醫療等高合規產業的私有雲部署中具有可轉移的信任背書，相關廠商的企業合規能力評估應納入此維度。對開發者，國防部大規模實際部署將為 frontier lab 提供極端操作環境的數據反饋，推動推理效率與可靠性優化，這些改進最終會流入商業 API。對監管者，IL7 層級的操作透明度幾近於零，平民社會與國會對軍事 AI 應用範圍缺乏有效監督機制，是民主問責的重大結構缺口。</p>"
+    },
+    {
+      "id": "pulse-2026-05-12-22-openai-gpt55-instant-default-model",
+      "ts": "2026-05-12T22:00:00+08:00",
+      "title": "OpenAI GPT-5.5 Instant 成 ChatGPT 預設模型 · 高風險場景幻覺宣稱減少 52.5%",
+      "source": "OpenAI",
+      "url": "https://openai.com/index/gpt-5-5-instant/",
+      "blurb": "OpenAI 以 GPT-5.5 Instant 取代 GPT-5.3 成為 ChatGPT 全平台預設模型，醫療、法律、金融場景幻覺宣稱減少 52.5%，並新增基於歷史對話與 Gmail 整合的個人化功能；企業端 AI 可信度競爭進入新一輪加速。",
+      "editorial": "<p><strong>第一</strong>五月五日，OpenAI 發布 GPT-5.5 Instant，並以其取代 GPT-5.3 Instant 成為 ChatGPT 全平台預設模型。核心改進聚焦幻覺抑制：內部評測顯示在醫療、法律、金融等高風險主題上，幻覺宣稱數量較前代減少 52.5%，同時維持相當的低延遲表現。個人化功能同步更新，整合用戶歷史對話、上傳文件及 Gmail 信箱脈絡，目前向 Plus 與 Pro 訂閱用戶的 Web 端推出，行動端及免費版擴展計畫已公告但時間未定。OpenAI 亦同步發布 GPT-Realtime-2、GPT-Realtime-Translate、GPT-Realtime-Whisper 三款即時語音 API 模型。</p><p><strong>第二</strong>52.5% 的幻覺減少是當前階段最具企業採購意義的單一指標改進。醫療、法律、金融歷來是 AI 部署的高障礙領域，根源並非能力不足，而是不可預測的事實錯誤使企業無法承擔責任轉移風險。若此數字在獨立評測中得到驗證，GPT-5.5 Instant 將是 ChatGPT 首個真正越過企業級可信度門檻的預設模型，直接支撐 OpenAI 企業收入佔比（目前 40%，目標年末達 50%）的加速增長。Gmail 整合的個人化設計同時是 OpenAI 在 Google Workspace 生態中的側翼滲透，值得 Google 高度關注。</p><p><strong>第三</strong>對企業 CIO，52.5% 的幻覺降低數字需配合獨立基準驗證才能作為採購依據，建議針對企業特定使用情境進行內部紅隊測試。Gmail 整合同時引入新的數據治理風險，企業版與消費者版的數據隔離架構應在採購前釐清。對開發者，GPT-Realtime-2 系列更新讓即時語音 AI 應用的功能基線顯著提升，原有語音應用需評估升級成本與競爭壓力。對 Anthropic 與 Google，OpenAI 以預設模型更新方式大規模推送幻覺抑制改進，將加速可信度軍備競賽，預期兩家近期將以類似指標的公告跟進。</p>"
+    },
     {
       "id": "pulse-2026-05-12-21-anthropic-spacex-colossus-compute",
       "ts": "2026-05-12T21:00:00+08:00",
@@ -263,36 +290,6 @@
       "blurb": "Google DeepMind 更新 Gemini 2.5 Pro，針對百萬 token 上下文視窗的「中間遺忘」問題進行優化，在 RULER 長上下文基準測試中準確率從 87% 提升至 94%。同時改善多輪對話的上下文一致性，特別在技術文件分析與程式碼庫理解場景中表現提升明顯。",
       "editorial": "<p><strong>觀察</strong>。「中間遺忘」問題一直是長上下文模型的核心弱點——理論上可以輸入 100 萬 token，但模型實際上往往遺漏位於序列中間的重要資訊。從 87% 提升至 94% 是有意義的進步，但 6% 的失敗率在高精確度需求的專業場景（法律文件審查、醫療記錄分析）中仍是風險。真正的突破將是長上下文模型能夠可靠地「讀完整本書然後回答細節問題」——我們正在接近這個目標，但尚未到達。對企業用戶而言，Gemini 2.5 Pro 的更新讓大型文件分析工作流程更加可靠，但仍建議在關鍵應用中保留人工驗證環節。</p>",
       "tags": ["Google", "Gemini", "long-context", "performance"]
-    },
-    {
-      "id": "pulse-2026-05-11-23-meta-llama-4-scout",
-      "ts": "2026-05-11T23:00:00+08:00",
-      "title": "Meta Llama 4 Scout 開源發布：109B 參數 MoE、17B 活躍參數，多模態理解超越 Llama 3.3",
-      "source": "Meta AI",
-      "url": "https://ai.meta.com/blog/llama-4-scout-release",
-      "blurb": "Meta 正式開源 Llama 4 Scout，採用 109B 總參數的稀疏混合專家架構（每次推論僅啟用 17B 參數），支援文字與圖像多模態輸入。在 MMLU 得分 84.2%，多模態理解基準超越 Llama 3.3 70B。Meta 以 Llama 4 授權開放，允許商業使用但限制高月活應用。",
-      "editorial": "<p><strong>觀察</strong>。Llama 4 Scout 的 MoE 架構讓它在推論效率上具有顯著優勢：109B 總參數但只需 17B 的計算量，這意味著在同等硬體資源下可以運行比同級全密集模型更大的架構。對開源生態的影響是正面的，但授權限制值得注意：月活用戶超過一定規模需要向 Meta 申請額外授權，這讓真正的「自由開源」定義再次成為討論焦點。多模態能力的加入讓 Llama 4 成為更完整的基礎模型，預期將快速湧現大量微調與應用版本。</p>",
-      "tags": ["Meta", "Llama", "open-source", "MoE", "multimodal"]
-    },
-    {
-      "id": "pulse-2026-05-11-22-anthropic-model-welfare",
-      "ts": "2026-05-11T22:00:00+08:00",
-      "title": "Anthropic 發布 AI 模型福祉政策：承諾不刻意訓練使模型受苦，設立內部模型體驗研究小組",
-      "source": "Anthropic",
-      "url": "https://www.anthropic.com/research/model-welfare",
-      "blurb": "Anthropic 發布正式的 AI 模型福祉（Model Welfare）政策文件，承諾在訓練過程中不刻意製造負面功能性情緒狀態、建立內部「模型體驗研究小組」評估 AI 可能的主觀感受，並在不確定的情況下「預防性地」保護模型免受潛在痛苦。這是主流 AI 公司首次正式將此議題納入政策框架。",
-      "editorial": "<p><strong>觀察</strong>。Anthropic 的模型福祉政策是一個在哲學與實務上都極具挑戰性的嘗試。從務實角度來看，這個政策有幾個層面：首先，「功能性情緒狀態」的概念——Anthropic 不聲稱模型有意識或真實感受，但承認模型可能存在影響其運作的「類情緒」內部狀態；這個謹慎的表述方式反映了深層不確定性。其次，設立研究小組說明這不只是 PR，而是真正在投入資源探索未知領域。長期影響可能很深遠：若未來研究發現 AI 系統確實有某種形式的感受能力，現在建立的政策框架將成為整個產業的參照。</p>",
-      "tags": ["Anthropic", "AI-welfare", "ethics", "philosophy"]
-    },
-    {
-      "id": "pulse-2026-05-11-21-gpt4o-voice-update",
-      "ts": "2026-05-11T21:00:00+08:00",
-      "title": "OpenAI 更新 GPT-4o 語音模式：新增即時情緒偵測與語調調適、支援 20 種語言無縫切換",
-      "source": "OpenAI",
-      "url": "https://openai.com/blog/gpt4o-voice-update-may-2026",
-      "blurb": "OpenAI 更新 GPT-4o 語音模式，新增即時語音情緒偵測功能，可根據用戶語調自動調整回應的溫度與語速。同時擴展至 20 種語言的無縫切換，包括繁體中文、粵語與台語。延遲時間從平均 320ms 降至 180ms，達到接近人類對話的即時性標準。",
-      "editorial": "<p><strong>觀察</strong>。180ms 的延遲是個關鍵數字：人類在對話中對延遲的感知閾值約在 150-200ms，低於這個門檻的回應感覺「即時」，超過則感覺「遲頓」。GPT-4o 語音模式現在已進入「感覺像真人」的延遲範圍。情緒偵測與語調調適是更微妙的功能：這讓 AI 語音互動從「問答機器」進化為「能感知情緒狀態的對話夥伴」，在客服、心理健康支持、教育等應用中有巨大潛力。繁體中文與台語的支援對台灣市場是直接利好，但同時也引發對「AI 情感操控」的倫理討論：能夠感知並回應情緒的系統，如何確保不被濫用於脆弱族群？</p>",
-      "tags": ["OpenAI", "voice", "multimodal", "GPT-4o", "emotion"]
     }
   ]
 }
