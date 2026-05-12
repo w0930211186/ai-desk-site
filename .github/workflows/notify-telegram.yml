@@ -1,12 +1,16 @@
 name: Notify Telegram on AI DESK Push
 
 on:
+  workflow_dispatch:
   push:
     branches: [main]
     paths:
       - 'posts/*-daily.html'
       - 'assets/ig-stories/**'
       - 'data/pulse.json'
+
+permissions:
+  contents: read
 
 jobs:
   notify:
