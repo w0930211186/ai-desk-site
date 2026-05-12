@@ -725,6 +725,14 @@ footer.site-footer {
 </style>
 <link rel="stylesheet" href="/assets/site-extras.css">
 <link rel="alternate" type="application/rss+xml" title="AI DESK RSS" href="/rss.xml">
+
+<style>
+.modern-section-header { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; max-width: 1200px; margin: 4rem auto 1.5rem; padding: 0 2rem; flex-wrap: wrap; }
+.msh-title { font-size: 2.2rem; margin: 0 0 0.3rem; color: #fff; font-weight: 800; letter-spacing: -0.02em; }
+.msh-sub { color: #888; font-family: "JetBrains Mono", monospace; font-size: 0.82rem; margin: 0; line-height: 1.4; }
+.msh-meta { font-family: "JetBrains Mono", monospace; font-size: 0.72rem; color: #555; letter-spacing: 0.05em; white-space: nowrap; }
+@media (max-width: 700px) { .modern-section-header { padding: 0 1rem; margin-top: 2.5rem; } .msh-title { font-size: 1.6rem; } }
+</style>
 </head>
 <body>
 
@@ -796,11 +804,12 @@ footer.site-footer {
   </div>
 </section>
 
-<div class="section-label">
-  <span class="num">00</span>
-  <span>Pulse — live AI signals</span>
-  <span class="bar"></span>
-  <span id="pulse-meta">— · live</span>
+<div class="modern-section-header">
+  <div>
+    <h2 class="msh-title">Latest Pulse</h2>
+    <p class="msh-sub">即時 AI 動態 · 每小時自動更新 · 含中文短篇專欄</p>
+  </div>
+  <span class="msh-meta" id="pulse-meta">— · live</span>
 </div>
 
 <section class="pulse" aria-label="Latest AI pulse">
@@ -878,11 +887,12 @@ footer.site-footer {
 @media (max-width: 700px) { .pulse-item { grid-template-columns: 1fr; gap: 0.3rem; } .pulse-blurb { grid-column: 1; } }
 </style>
 
-<div class="section-label" id="models-section-label">
-  <span class="num">00b</span>
-  <span>Models — frontier model spec + editorial</span>
-  <span class="bar"></span>
-  <span id="models-meta">— · live</span>
+<div class="modern-section-header" id="models-section-label">
+  <div>
+    <h2 class="msh-title">Latest Models</h2>
+    <p class="msh-sub">即時新模型發布 · 含完整 spec + 短篇專欄 editorial</p>
+  </div>
+  <span class="msh-meta" id="models-meta">— · live</span>
 </div>
 
 <section class="models" id="models-section" aria-label="Latest AI models">
@@ -987,11 +997,12 @@ footer.site-footer {
 @media (max-width: 700px) { .models-head-row { grid-template-columns: 1fr; gap: 0.3rem; } .models-blurb, .model-card-table, .models-editorial { padding-left: 0; margin-left: 0; } }
 </style>
 
-<div class="section-label">
-  <span class="num">00c</span>
-  <span>Model Directory — 完整 frontier model 對照</span>
-  <span class="bar"></span>
-  <span id="dir-meta">— · live</span>
+<div class="modern-section-header">
+  <div>
+    <h2 class="msh-title">Model Directory</h2>
+    <p class="msh-sub">完整 frontier model 對照 · 勾選用途自動推薦</p>
+  </div>
+  <span class="msh-meta" id="dir-meta">— · live</span>
 </div>
 
 <section class="directory" aria-label="AI Model Directory">
@@ -1122,8 +1133,8 @@ footer.site-footer {
 .dir-rec-list li .match { font-family: "JetBrains Mono", monospace; font-size: 0.72rem; color: #888; margin-left: 0.5rem; }
 .dir-rec-list li p { margin: 0.3rem 0 0 30px; color: #999; font-size: 0.82rem; line-height: 1.5; }
 
-.dir-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); gap: 1.2rem; }
-.model-card { background: rgba(255,255,255,0.04); border: 1px solid #222; padding: 1.2rem; transition: border-color 0.2s; }
+.dir-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem; align-items: stretch; }
+.model-card { background: linear-gradient(180deg, rgba(255,255,255,0.06), rgba(255,255,255,0.02)); border: 1px solid rgba(255,255,255,0.1); padding: 1.3rem; transition: all 0.2s cubic-bezier(.4,0,.2,1); border-radius: 12px; height: 100%; display: flex; flex-direction: column; }
 .model-card-link { text-decoration: none; color: inherit; display: block; }
 .model-card:hover { border-color: #fbbf24; transform: translateY(-2px); transition: all 0.2s; }
 .mc-link-pill { color: #fbbf24; font-family: "JetBrains Mono", monospace; }
@@ -1149,11 +1160,12 @@ footer.site-footer {
 @media (max-width: 700px) { .dir-grid { grid-template-columns: 1fr; } .mc-spec { grid-template-columns: 1fr; } }
 </style>
 
-<div class="section-label">
-  <span class="num">00d</span>
-  <span>Creator Toolkit — 創作者工具 + 學習資源</span>
-  <span class="bar"></span>
-  <span id="toolkit-meta">— · 30+ tools · 20+ courses</span>
+<div class="modern-section-header">
+  <div>
+    <h2 class="msh-title">Creator Toolkit</h2>
+    <p class="msh-sub">創作者工具 + 學習資源 · 點分類進入子頁</p>
+  </div>
+  <span class="msh-meta" id="toolkit-meta">— · 30+ tools · 20+ courses</span>
 </div>
 
 <section class="toolkit-hub" aria-label="Creator Toolkit Hub">
