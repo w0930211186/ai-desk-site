@@ -1,6 +1,22 @@
 {
-  "updated_at": "2026-05-12T09:23:56+08:00",
+  "updated_at": "2026-05-12T09:31:36+08:00",
   "items": [
+    {
+      "id": "pulse-2026-05-12-anthropic-spacex-compute",
+      "ts": "2026-05-12T09:31:36+08:00",
+      "title": "Anthropic 拉高 Claude 使用上限 · 同步宣布 SpaceX 算力合作",
+      "source": "Anthropic blog",
+      "url": "https://www.anthropic.com/news/higher-limits-spacex",
+      "blurb": "Anthropic 官方公告 Claude Pro/Max 用量上限調升 加 Musk 算力供應 — frontier 算力鏈深化軌道資源整合 · 對 5/7 N°50 Colossus 1 收購敘事繼續加碼。"
+    },
+    {
+      "id": "pulse-2026-05-12-anthropic-finance-agents",
+      "ts": "2026-05-12T09:26:36+08:00",
+      "title": "Anthropic 推 Finance Agents · AI 進入金融垂直業務鏈",
+      "source": "Anthropic blog",
+      "url": "https://www.anthropic.com/news/finance-agents",
+      "blurb": "Anthropic 推出金融服務專用 agent 套件 · 跟 BlackRock / Goldman / Jamie Dimon 三家試點 · frontier lab 開始攻產業垂直 ARR 結構。"
+    },
     {
       "id": "pulse-2026-05-12-nyt-notetakers",
       "ts": "2026-05-12T09:23:56+08:00",
@@ -224,22 +240,6 @@
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/05/05/open-ai-altman-musk-trial-brockman-testimony.html",
       "blurb": "OpenAI 共同創辦人 Greg Brockman 出庭反駁馬斯克的陳述，揭示馬斯克曾要求 OpenAI 內部工程師秘密協助 Tesla 解決技術問題，並指馬斯克爭取董事會絕對控制權不成後態度激化；Brockman 公開日記片段成為法庭證據，顯示 Musk 與 OpenAI 決裂的深層動機，為第三週 Sutskever 與 Nadella 出庭奠定關鍵背景。"
-    },
-    {
-      "id": "pulse-2026-05-05-anthropic-google-200b",
-      "ts": "2026-05-05T20:00:00+08:00",
-      "title": "Anthropic 承諾五年向 Google 支付 2,000 億美元雲端與晶片費用・創 AI 史上最大算力採購紀錄",
-      "source": "The Information",
-      "url": "https://www.theinformation.com/articles/anthropic-commits-spending-200-billion-googles-cloud-chips",
-      "blurb": "The Information 揭露，Anthropic 已向 Google 承諾於未來五年支付共 2,000 億美元雲端運算與 TPU 晶片費用，是 Google 已向 Anthropic 累計投資 400 億美元的五倍；協議包含初期百萬 TPU 及逾 1 GW 容量、2027 年起擴至多 GW 規模，搭配 Amazon 1,000 億美元 AWS 承諾，Anthropic 成為推動全球 AI 基礎設施算力投資循環的最大單一需求方。"
-    },
-    {
-      "id": "pulse-2026-05-05-gpt55-instant",
-      "ts": "2026-05-05T20:00:00+08:00",
-      "title": "OpenAI 推出 GPT-5.5 Instant 取代 GPT-5.3 Instant 成 ChatGPT 預設模型・醫療法律幻覺率降 52.5%",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/",
-      "blurb": "OpenAI 將 GPT-5.5 Instant 設為全體 ChatGPT 用戶預設模型，取代 GPT-5.3 Instant；新模型在法律、醫療、金融等高風險領域幻覺率降低 52.5%，AIME 數學測試得分從 65.4 躍升至 81.2，並新增基於 Gmail 與歷史對話的個人化記憶功能（Plus/Pro 優先上線）；API 以 chat-latest 名稱提供，舊版三個月後停用，為 ChatGPT 億萬用戶基礎模型智慧再度大步升級。"
     }
   ],
   "_note": "seeded by Peter 2026-05-10 — cloud routine ai-desk-pulse 每 2 小時自動更新"
