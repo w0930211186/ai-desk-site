@@ -2000,50 +2000,64 @@
       "cost": "免費",
       "topic": "AI 音樂中文",
       "type": "free-youtube",
-      "highlight": "中文 Suno prompt 教學 + 中文歌詞"
+      "highlight": "Suno v4 中文歌詞教學 · AI 音樂創作入門"
     },
     {
-      "title": "Cursor / Windsurf 中文編程教學",
+      "title": "ElevenLabs 語音克隆中文教學",
       "provider": "YouTube",
-      "url": "https://www.youtube.com/results?search_query=Cursor+Windsurf+中文教學",
+      "url": "https://www.youtube.com/results?search_query=ElevenLabs+中文+配音",
       "cost": "免費",
-      "topic": "AI 編程中文",
+      "topic": "AI 語音 / 配音中文",
       "type": "free-youtube",
-      "highlight": "中文 AI IDE 教學 · Composer / Agent mode"
+      "highlight": "ElevenLabs 語音克隆 + TTS 中文教學"
     },
     {
-      "title": "n8n / Make 自動化中文教學",
+      "title": "n8n AI 自動化中文教學",
       "provider": "YouTube",
       "url": "https://www.youtube.com/results?search_query=n8n+Make+中文教學",
       "cost": "免費",
-      "topic": "自動化 + AI",
+      "topic": "n8n 中文",
       "type": "free-youtube",
-      "highlight": "中文 no-code 自動化教學 + AI 整合"
+      "highlight": "n8n 中文教學 · AI workflow / Make.com 整合"
     },
     {
-      "title": "Two Minute Papers · AI 論文簡介",
-      "provider": "YouTube · Károly Zsolnai-Fehér",
-      "url": "https://www.youtube.com/@TwoMinutePapers",
+      "title": "Cursor / Windsurf 中文 AI 程式教學",
+      "provider": "YouTube",
+      "url": "https://www.youtube.com/results?search_query=Cursor+Windsurf+中文教學",
       "cost": "免費",
-      "topic": "AI 論文",
+      "topic": "AI 程式編輯器中文",
       "type": "free-youtube",
-      "highlight": "What a time to be alive! · AI 論文快速 review · 全球粉絲 1.7M",
-      "thumbnail_accent": "#fbbf24",
-      "thumbnail_initial": "2P"
+      "highlight": "Cursor / Windsurf 中文教學 · Vibe Coding 入門"
     },
     {
-      "title": "Yannic Kilcher · ML Paper Discussion",
-      "provider": "YouTube · Yannic Kilcher",
-      "url": "https://www.youtube.com/@YannicKilcher",
+      "title": "v0 / Bolt 中文 App 建站教學",
+      "provider": "YouTube",
+      "url": "https://www.youtube.com/results?search_query=v0+Bolt+中文教學+app",
       "cost": "免費",
-      "topic": "ML 論文深度",
+      "topic": "AI 建站中文",
       "type": "free-youtube",
-      "highlight": "前 Google DeepMind · ML 論文 30 分鐘深度解析",
-      "thumbnail_accent": "#3b82f6",
-      "thumbnail_initial": "YK"
+      "highlight": "中文 v0 / Bolt 1 prompt 建 app 完整教學"
     },
     {
-      "title": "Lex Fridman Podcast",
+      "title": "NotebookLM 完整中文教學",
+      "provider": "YouTube",
+      "url": "https://www.youtube.com/results?search_query=NotebookLM+中文+完整教學",
+      "cost": "免費",
+      "topic": "NotebookLM 中文",
+      "type": "free-youtube",
+      "highlight": "NotebookLM 中文完整教學 · 自動產 Podcast + 筆記"
+    },
+    {
+      "title": "Perplexity AI 中文搜尋教學",
+      "provider": "YouTube",
+      "url": "https://www.youtube.com/results?search_query=Perplexity+中文教學",
+      "cost": "免費",
+      "topic": "AI 搜尋中文",
+      "type": "free-youtube",
+      "highlight": "Perplexity 中文教學 · AI 搜尋引擎完整入門"
+    },
+    {
+      "title": "Lex Fridman Podcast · AI 領袖訪談",
       "provider": "YouTube · Lex Fridman",
       "url": "https://www.youtube.com/@lexfridman",
       "cost": "免費",
@@ -2280,6 +2294,126 @@
       "thumbnail_url": "https://i.ytimg.com/vi/cS-CXkA8XYw/hqdefault.jpg",
       "thumbnail_accent": "#3b82f6",
       "thumbnail_initial": "AI"
+    },
+    {
+      "title": "Claude Code 零基礎入門（上）· 非工程師也能打造 AI 助理",
+      "provider": "YouTube · 生活黑客 · 雷蒙三十",
+      "url": "https://www.youtube.com/watch?v=xo7dE80ktu4",
+      "cost": "免費",
+      "topic": "Claude Code 環境設定 · 非工程師入門",
+      "type": "free-youtube",
+      "highlight": "雷蒙三十（10 萬訂閱）帶領非工程師完整設定 Claude Code，從安裝、CLAUDE.md 建立到基礎指令使用，手把手逐步示範，教學清晰易懂，是非技術背景學員踏入 AI 程式輔助的最佳起點。",
+      "thumbnail_url": "https://i.ytimg.com/vi/xo7dE80ktu4/hqdefault.jpg",
+      "thumbnail_accent": "#1a73e8",
+      "thumbnail_initial": "雷蒙"
+    },
+    {
+      "title": "Claude Code 零基礎入門（下）· Vibe Coding 實戰三案例",
+      "provider": "YouTube · 生活黑客 · 雷蒙三十",
+      "url": "https://www.youtube.com/watch?v=80kCvbsuniw",
+      "cost": "免費",
+      "topic": "Claude Code 實戰 · Vibe Coding 應用",
+      "type": "free-youtube",
+      "highlight": "接續上篇，用「自動早報、AI 配圖、報價單生成」三個真實案例演示 Vibe Coding 完整工作流，讓非工程師親眼看見 Claude Code 的驚人生產力，實戰案例清晰可複製。",
+      "thumbnail_url": "https://i.ytimg.com/vi/80kCvbsuniw/hqdefault.jpg",
+      "thumbnail_accent": "#1a73e8",
+      "thumbnail_initial": "雷蒙"
+    },
+    {
+      "title": "Claude 根本不是 AI 工具，是工作團隊（完整教學）",
+      "provider": "YouTube · Brayden Chen",
+      "url": "https://www.youtube.com/watch?v=GulVqC1ifL0",
+      "cost": "免費",
+      "topic": "Claude 生態 · Projects · Cowork · AI 工作體系",
+      "type": "free-youtube",
+      "highlight": "Brayden 布萊登以「AI 工作團隊」視角重新定義 Claude，完整示範 Projects、Cowork、Skills 如何串成真正自動化體系，適合想用 AI 取代日常雜事的創作者與一人公司。發布於 2026 年 3 月。",
+      "thumbnail_url": "https://i.ytimg.com/vi/GulVqC1ifL0/hqdefault.jpg",
+      "thumbnail_accent": "#6d28d9",
+      "thumbnail_initial": "布萊"
+    },
+    {
+      "title": "10 分鐘搞懂 Claude 基礎設定！Project · Skills · Style 完全攻略",
+      "provider": "YouTube · 泛科學院",
+      "url": "https://www.youtube.com/watch?v=5Aha8QOVke4",
+      "cost": "免費",
+      "topic": "Claude 基礎設定 · AI 助理個人化",
+      "type": "free-youtube",
+      "highlight": "泛科學院 10 分鐘快速拆解 Claude 2026 三大新設定：Project 空間、Skills 技能、Style 風格，手把手示範如何打造專屬 AI 代理人，適合剛接觸 Claude 的初學者最優先觀看。",
+      "thumbnail_url": "https://i.ytimg.com/vi/5Aha8QOVke4/hqdefault.jpg",
+      "thumbnail_accent": "#059669",
+      "thumbnail_initial": "泛科"
+    },
+    {
+      "title": "Claude 免費版 5 大神功能 · 一鍵生成 Excel、Word 與 AI 工作流",
+      "provider": "YouTube · 泛科學院",
+      "url": "https://www.youtube.com/watch?v=114H9EWKfzM",
+      "cost": "免費",
+      "topic": "Claude 免費功能 · Office 文件生成 · 上班族工作流",
+      "type": "free-youtube",
+      "highlight": "泛科學院示範 Claude 免費版如何產生 Excel 試算表、Word 報告等 Office 格式檔案，深入解析 Projects、Memory、Artifacts 三大功能，內容紮實，是上班族最省錢的 AI 工作流入門。",
+      "thumbnail_url": "https://i.ytimg.com/vi/114H9EWKfzM/hqdefault.jpg",
+      "thumbnail_accent": "#059669",
+      "thumbnail_initial": "泛科"
+    },
+    {
+      "title": "Claude Cowork 最友善的手把手教學 · 高手都在用 AI 交成品",
+      "provider": "YouTube · Jason Lin AI",
+      "url": "https://www.youtube.com/watch?v=_cVTzXvb7xs",
+      "cost": "免費",
+      "topic": "Claude Cowork · AI 自動化 · 任務執行",
+      "type": "free-youtube",
+      "highlight": "台灣高人氣 AI 頻道深度示範 Claude Cowork 完整操作，從安裝設定到執行自動化任務，強調從「問答模式」轉為「交成品模式」的思維升級，實戰案例清晰，2026 年 4 月發布。",
+      "thumbnail_url": "https://i.ytimg.com/vi/_cVTzXvb7xs/hqdefault.jpg",
+      "thumbnail_accent": "#0066cc",
+      "thumbnail_initial": "林"
+    },
+    {
+      "title": "Claude Cowork + Code 保姆級完整教學 · 從入門到自動化工作流",
+      "provider": "YouTube",
+      "url": "https://www.youtube.com/watch?v=Lq-wedAiffo",
+      "cost": "免費",
+      "topic": "Claude Cowork · Claude Code · 內容與網頁自動生成",
+      "type": "free-youtube",
+      "highlight": "中文最完整的 Claude Cowork + Code 整合教學之一，涵蓋自動生成文章、網頁、工作流全程示範，手把手幫你打造 AI 員工體系，適合想一部影片搞懂 Claude 所有模式的初學者。",
+      "thumbnail_url": "https://i.ytimg.com/vi/Lq-wedAiffo/hqdefault.jpg",
+      "thumbnail_accent": "#c2410c",
+      "thumbnail_initial": "AI"
+    },
+    {
+      "title": "從 0 到 1：6 小時掌握 Vibe Coding！Claude Code ＋ AI 完整教學",
+      "provider": "YouTube",
+      "url": "https://www.youtube.com/watch?v=NAdWvM5RPJE",
+      "cost": "免費",
+      "topic": "Vibe Coding · Claude Code · AI 開發入門",
+      "type": "free-youtube",
+      "highlight": "長達 6 小時的 Vibe Coding 完整中文教學，結合 Claude Code 工具從概念到實作全面覆蓋，被多個社群推薦為「讓你超越 90% AI 玩家」的必看影片，發布於 2026 年 4 月，內容新鮮且密度極高。",
+      "thumbnail_url": "https://i.ytimg.com/vi/NAdWvM5RPJE/hqdefault.jpg",
+      "thumbnail_accent": "#7c3aed",
+      "thumbnail_initial": "Vibe"
+    },
+    {
+      "title": "AI Agents Full Course 2026: Master Agentic AI in 2 Hours",
+      "provider": "YouTube · Maker School",
+      "url": "https://www.youtube.com/watch?v=EsTrWCV0Ph4",
+      "cost": "免費",
+      "topic": "AI Agents · Agentic AI · Multi-Agent Systems",
+      "type": "free-youtube",
+      "highlight": "Maker School's 2-hour course covers the full agentic AI stack for 2026: tool use, planning, memory, multi-agent orchestration, and real-world deployment patterns. Code-along format suited for developers building production AI agents.",
+      "thumbnail_url": "https://i.ytimg.com/vi/EsTrWCV0Ph4/hqdefault.jpg",
+      "thumbnail_accent": "#dc2626",
+      "thumbnail_initial": "AI"
+    },
+    {
+      "title": "How to Actually Learn LLMs in 2026 | Ex-Google, Microsoft Engineer",
+      "provider": "YouTube",
+      "url": "https://www.youtube.com/watch?v=U07MHi4Suj8",
+      "cost": "免費",
+      "topic": "LLM Learning Roadmap · AI Engineering",
+      "type": "free-youtube",
+      "highlight": "An ex-Google and Microsoft engineer shares a no-fluff 2026 LLM learning roadmap: what to study, what to skip, and how to build real engineering skills beyond surface tutorials. Essential for developers who want a clear path to AI competence.",
+      "thumbnail_url": "https://i.ytimg.com/vi/U07MHi4Suj8/hqdefault.jpg",
+      "thumbnail_accent": "#1e40af",
+      "thumbnail_initial": "LLM"
     }
   ]
 }
