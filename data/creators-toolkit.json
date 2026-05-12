@@ -1866,6 +1866,302 @@
       "type": "free-platform",
       "highlight": "NLP / Diffusion / Audio / RL 4 個免費 cohort · 從 0 到 fine-tune",
       "thumbnail": "https://huggingface.co/favicon.ico"
+    },
+    {
+      "title": "鼠年 / Mosky · Python + AI 教學",
+      "provider": "YouTube",
+      "url": "https://www.youtube.com/results?search_query=mosky+python+AI",
+      "cost": "免費",
+      "topic": "Python + AI",
+      "type": "free-youtube",
+      "highlight": "台灣 Python 圈老師 · AI 整合 Python 實戰",
+      "thumbnail_accent": "#22c55e",
+      "thumbnail_initial": "鼠"
+    },
+    {
+      "title": "陳寗 · AI 工具 + iPhone 教學",
+      "provider": "YouTube · 陳寗",
+      "url": "https://www.youtube.com/results?search_query=陳寗+AI",
+      "cost": "免費",
+      "topic": "AI + Apple 整合",
+      "type": "free-youtube",
+      "highlight": "3C YouTuber · AI app + iPhone 整合教學",
+      "thumbnail_accent": "#000",
+      "thumbnail_initial": "寗"
+    },
+    {
+      "title": "老王探機 · AI 工具實測",
+      "provider": "YouTube",
+      "url": "https://www.youtube.com/results?search_query=老王探機+AI",
+      "cost": "免費",
+      "topic": "AI 工具實測",
+      "type": "free-youtube",
+      "highlight": "台灣科技 YouTuber · AI 工具中文評測",
+      "thumbnail_accent": "#dc2626",
+      "thumbnail_initial": "王"
+    },
+    {
+      "title": "老謝看世界 · AI 產業分析",
+      "provider": "YouTube",
+      "url": "https://www.youtube.com/results?search_query=老謝看世界+AI",
+      "cost": "免費",
+      "topic": "AI 產業 + 商業",
+      "type": "free-youtube",
+      "highlight": "中文 AI 產業評論 · 商業視角",
+      "thumbnail_accent": "#0891b2",
+      "thumbnail_initial": "謝"
+    },
+    {
+      "title": "TechBites · AI 工具一週看",
+      "provider": "YouTube",
+      "url": "https://www.youtube.com/results?search_query=TechBites+AI+工具",
+      "cost": "免費",
+      "topic": "AI 一週彙整",
+      "type": "free-youtube",
+      "highlight": "AI 工具每週彙整 · 中文",
+      "thumbnail_accent": "#7c3aed",
+      "thumbnail_initial": "TB"
+    },
+    {
+      "title": "硬塞科技 · AI 模型評測",
+      "provider": "YouTube · INSIDE",
+      "url": "https://www.youtube.com/results?search_query=INSIDE+硬塞+AI",
+      "cost": "免費",
+      "topic": "AI 模型 + 監管",
+      "type": "free-youtube",
+      "highlight": "INSIDE 媒體 · AI 模型 + 監管深度評析",
+      "thumbnail_accent": "#16a34a",
+      "thumbnail_initial": "塞"
+    },
+    {
+      "title": "DT 數位時代 · AI 商業",
+      "provider": "YouTube · 數位時代",
+      "url": "https://www.youtube.com/results?search_query=數位時代+AI",
+      "cost": "免費",
+      "topic": "AI 商業應用",
+      "type": "free-youtube",
+      "highlight": "中文商業媒體 · AI 對企業影響",
+      "thumbnail_accent": "#ea580c",
+      "thumbnail_initial": "DT"
+    },
+    {
+      "title": "科技新報 TechNews · AI 新聞",
+      "provider": "YouTube · TechNews",
+      "url": "https://www.youtube.com/results?search_query=TechNews+AI",
+      "cost": "免費",
+      "topic": "AI 新聞",
+      "type": "free-youtube",
+      "highlight": "中文科技新聞 · AI 每日整理",
+      "thumbnail_accent": "#0284c7",
+      "thumbnail_initial": "TN"
+    },
+    {
+      "title": "啟思學苑 · ChatGPT 中文教學",
+      "provider": "YouTube",
+      "url": "https://www.youtube.com/results?search_query=ChatGPT+中文教學+進階",
+      "cost": "免費",
+      "topic": "ChatGPT 中文",
+      "type": "free-youtube",
+      "highlight": "中文圈 ChatGPT 進階 prompt 教學",
+      "thumbnail_accent": "#9333ea",
+      "thumbnail_initial": "啟"
+    },
+    {
+      "title": "Midjourney 中文教學系列",
+      "provider": "YouTube",
+      "url": "https://www.youtube.com/results?search_query=Midjourney+中文教學",
+      "cost": "免費",
+      "topic": "Midjourney 教學",
+      "type": "free-youtube",
+      "highlight": "中文 MJ prompt 大全 + 美學風格"
+    },
+    {
+      "title": "Stable Diffusion 中文社群",
+      "provider": "YouTube",
+      "url": "https://www.youtube.com/results?search_query=Stable+Diffusion+中文+教學",
+      "cost": "免費",
+      "topic": "SD 中文",
+      "type": "free-youtube",
+      "highlight": "中文 SD ComfyUI / AUTOMATIC1111 從零教學"
+    },
+    {
+      "title": "Runway / Sora 中文教學整理",
+      "provider": "YouTube",
+      "url": "https://www.youtube.com/results?search_query=Runway+Sora+中文教學",
+      "cost": "免費",
+      "topic": "AI 影片中文",
+      "type": "free-youtube",
+      "highlight": "AI 影片創作中文教學 + 比較"
+    },
+    {
+      "title": "Suno 音樂創作中文",
+      "provider": "YouTube",
+      "url": "https://www.youtube.com/results?search_query=Suno+AI+中文+教學",
+      "cost": "免費",
+      "topic": "AI 音樂中文",
+      "type": "free-youtube",
+      "highlight": "中文 Suno prompt 教學 + 中文歌詞"
+    },
+    {
+      "title": "Cursor / Windsurf 中文編程教學",
+      "provider": "YouTube",
+      "url": "https://www.youtube.com/results?search_query=Cursor+Windsurf+中文教學",
+      "cost": "免費",
+      "topic": "AI 編程中文",
+      "type": "free-youtube",
+      "highlight": "中文 AI IDE 教學 · Composer / Agent mode"
+    },
+    {
+      "title": "n8n / Make 自動化中文教學",
+      "provider": "YouTube",
+      "url": "https://www.youtube.com/results?search_query=n8n+Make+中文教學",
+      "cost": "免費",
+      "topic": "自動化 + AI",
+      "type": "free-youtube",
+      "highlight": "中文 no-code 自動化教學 + AI 整合"
+    },
+    {
+      "title": "Two Minute Papers · AI 論文簡介",
+      "provider": "YouTube · Károly Zsolnai-Fehér",
+      "url": "https://www.youtube.com/@TwoMinutePapers",
+      "cost": "免費",
+      "topic": "AI 論文",
+      "type": "free-youtube",
+      "highlight": "What a time to be alive! · AI 論文快速 review · 全球粉絲 1.7M",
+      "thumbnail_accent": "#fbbf24",
+      "thumbnail_initial": "2P"
+    },
+    {
+      "title": "Yannic Kilcher · ML Paper Discussion",
+      "provider": "YouTube · Yannic Kilcher",
+      "url": "https://www.youtube.com/@YannicKilcher",
+      "cost": "免費",
+      "topic": "ML 論文深度",
+      "type": "free-youtube",
+      "highlight": "前 Google DeepMind · ML 論文 30 分鐘深度解析",
+      "thumbnail_accent": "#3b82f6",
+      "thumbnail_initial": "YK"
+    },
+    {
+      "title": "Lex Fridman Podcast",
+      "provider": "YouTube · Lex Fridman",
+      "url": "https://www.youtube.com/@lexfridman",
+      "cost": "免費",
+      "topic": "AI 對談",
+      "type": "free-youtube",
+      "highlight": "AI 領域長訪談 · 訪問 Karpathy / Altman / Hassabis 等",
+      "thumbnail_accent": "#000",
+      "thumbnail_initial": "LF"
+    },
+    {
+      "title": "AI Explained",
+      "provider": "YouTube · AI Explained",
+      "url": "https://www.youtube.com/@aiexplained-official",
+      "cost": "免費",
+      "topic": "AI 新聞",
+      "type": "free-youtube",
+      "highlight": "AI frontier 新聞每週深度解讀 · 高品質",
+      "thumbnail_accent": "#7c3aed",
+      "thumbnail_initial": "AI"
+    },
+    {
+      "title": "Sam Witteveen · LangChain / RAG",
+      "provider": "YouTube · Sam Witteveen",
+      "url": "https://www.youtube.com/@samwitteveenai",
+      "cost": "免費",
+      "topic": "LangChain / RAG",
+      "type": "free-youtube",
+      "highlight": "LangChain / agent 實作教學 · code-along style"
+    },
+    {
+      "title": "James Briggs · Vector DB + RAG",
+      "provider": "YouTube · James Briggs",
+      "url": "https://www.youtube.com/@jamesbriggs",
+      "cost": "免費",
+      "topic": "Vector DB",
+      "type": "free-youtube",
+      "highlight": "Pinecone / Weaviate / RAG 實作 · 進階 AI 工程"
+    },
+    {
+      "title": "David Ondrej · AI Agent 教學",
+      "provider": "YouTube · David Ondrej",
+      "url": "https://www.youtube.com/@DavidOndrej",
+      "cost": "免費",
+      "topic": "AI Agent",
+      "type": "free-youtube",
+      "highlight": "AI agent 平民化教學 · 從 prompt 到自動化"
+    },
+    {
+      "title": "Matthew Berman · AI 工具評測",
+      "provider": "YouTube · Matthew Berman",
+      "url": "https://www.youtube.com/@matthew_berman",
+      "cost": "免費",
+      "topic": "AI 工具評測",
+      "type": "free-youtube",
+      "highlight": "AI 新工具評測 · 每週新模型實測"
+    },
+    {
+      "title": "Wes Roth · AI 新聞 + 工具",
+      "provider": "YouTube · Wes Roth",
+      "url": "https://www.youtube.com/@WesRoth",
+      "cost": "免費",
+      "topic": "AI 新聞",
+      "type": "free-youtube",
+      "highlight": "AI 新聞 + frontier lab 動態 · 美式快節奏"
+    },
+    {
+      "title": "AI 寫作中文教學集",
+      "provider": "YouTube",
+      "url": "https://www.youtube.com/results?search_query=AI+寫作+中文+教學",
+      "cost": "免費",
+      "topic": "AI 寫作",
+      "type": "free-youtube",
+      "highlight": "ChatGPT / Claude 中文寫作 prompt 技巧"
+    },
+    {
+      "title": "Figma AI 中文教學",
+      "provider": "YouTube",
+      "url": "https://www.youtube.com/results?search_query=Figma+AI+中文教學",
+      "cost": "免費",
+      "topic": "Figma AI",
+      "type": "free-youtube",
+      "highlight": "設計師中文教學 · Figma AI / Make 整合"
+    },
+    {
+      "title": "v0 / Bolt App 中文教學",
+      "provider": "YouTube",
+      "url": "https://www.youtube.com/results?search_query=v0+Bolt+中文教學+app",
+      "cost": "免費",
+      "topic": "AI 做 app",
+      "type": "free-youtube",
+      "highlight": "中文 v0 / Bolt 做 mobile app 教學"
+    },
+    {
+      "title": "NotebookLM 完整中文教學",
+      "provider": "YouTube",
+      "url": "https://www.youtube.com/results?search_query=NotebookLM+中文+完整教學",
+      "cost": "免費",
+      "topic": "NotebookLM",
+      "type": "free-youtube",
+      "highlight": "Google NotebookLM 中文完整教學 · 自動產 Podcast"
+    },
+    {
+      "title": "Perplexity 中文教學",
+      "provider": "YouTube",
+      "url": "https://www.youtube.com/results?search_query=Perplexity+中文教學",
+      "cost": "免費",
+      "topic": "Perplexity",
+      "type": "free-youtube",
+      "highlight": "AI 搜尋引擎中文教學 · 研究員 / 行銷必看"
+    },
+    {
+      "title": "ElevenLabs 中文配音教學",
+      "provider": "YouTube",
+      "url": "https://www.youtube.com/results?search_query=ElevenLabs+中文+配音",
+      "cost": "免費",
+      "topic": "AI 配音",
+      "type": "free-youtube",
+      "highlight": "AI 配音中文教學 · Podcaster / YouTuber 必看"
     }
   ]
 }
