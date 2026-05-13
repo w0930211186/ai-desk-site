@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-05-13T18:07:00+08:00",
+  "updated_at": "2026-05-13T19:05:00+08:00",
   "items": [
+    {
+      "id": "pulse-2026-05-13-19-trump-china-ceo-delegation-arrival",
+      "ts": "2026-05-13T19:05:00+08:00",
+      "title": "川習峰會前夕矽谷最大代表團抵京 · Musk、Huang、Cook 三強並列 H200 禁令鬆綁進入倒數",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/13/trump-china-xi-beijing-meeting-ceos.html",
+      "blurb": "Trump 親率 Elon Musk、Jensen Huang、Tim Cook 及逾十二位科技金融 CEO 登陸北京，史上規模最大的矽谷赴華代表團正式出現在川習峰會現場，NVIDIA 漲 1.9%、Tesla 跟漲，H200 晶片禁令能否實質鬆綁成為明日雙邊會談的算力外交核心變數。",
+      "editorial": "<p><strong>第一</strong>2026 年 5 月 13 日，美國總統 Trump 率史上規模最大的科技金融 CEO 代表團降落北京，正式揭開川習峰會序幕。隨行成員包含 Tesla 執行長 Elon Musk、NVIDIA 執行長 Jensen Huang（應 Trump 親電臨時加入）、Apple 執行長 Tim Cook，以及 BlackRock、Blackstone、Citi、Goldman Sachs、Mastercard、Micron、Qualcomm、Visa、Boeing、GE Aerospace、Cargill 等逾十二家機構代表。NVIDIA 股價盤中上漲 1.9%，Tesla 同步走高。峰會正式日程訂於 5 月 14 日展開，議程涵蓋 AI 晶片出口管制、稀土供應鏈、台灣問題及伊朗局勢。</p><p><strong>第二</strong>三位科技執行長的並行出席，代表算力外交的三條關鍵供應鏈在同一談判桌交匯。Huang 的核心訴求是解除 H200 晶片禁令——NVIDIA 雖於去年底獲得授權，但迄今未能向中國客戶出售任何 H200；Musk 同時代表 SpaceXAI 算力租賃業務與 Tesla 中國製造業兩張籌碼，其在代表團中的多重角色是此次談判最不透明的變數；Cook 則需為 Apple Intelligence 在中國的落地取得監管許可。值得注意的是，DeepSeek 已完成在華為晶片上的最優化部署，中方對 H200 解禁的談判迫切性有限，北京並非必須妥協的一方。美國國內 China Hawk 派系對此代表團高度警覺，任何實質出口管制鬆動均將觸發國內政治摩擦。</p><p><strong>第三</strong>對 BEXS 學員而言，5 月 14 日雙邊會談聯合聲明的措辭是今年迄今最關鍵的算力市場訊號——H200 任何實質鬆綁的潛在年度營收影響逾 150 億美元，是今年最大的單一 macro 事件風險窗口，應同步納入科技股劇烈波動對黃金等避險資產傳導路徑的情境評估。對 CIO 而言，若晶片禁令鬆動，中國雲端供應商（阿里雲、騰訊雲）算力補充，企業在亞太地區的 AI 推論服務採購格局將隨之重組，現有亞太 AI 基礎設施路線圖需預留彈性視窗。對 frontier lab 而言，Musk 同時控制算力（SpaceXAI Colossus）、社交媒體（X）及 Tesla 中國製造業，其在峰會後對中美 AI 協議的公開表態，是解讀軌道算力商業化地緣政治前景的重要先行指標。</p>"
+    },
     {
       "id": "pulse-2026-05-13-18-korea-ai-profit-dividend-kospi",
       "ts": "2026-05-13T18:07:00+08:00",
@@ -261,15 +270,6 @@
       "url": "https://www.anthropic.com/news/google-broadcom-partnership-compute",
       "blurb": "Anthropic 宣布與 Google 及 Broadcom 簽訂 5 GW 算力合約，2027 年起啟動，規模達 200 億美元級 TPU 自定義晶片陣列，是繼 SpaceX Colossus 之後 Anthropic 再度擴大非 NVIDIA 算力比重的具體布局。",
       "editorial": "<p><strong>第一</strong>Anthropic 宣布與 Google 及 Broadcom 簽訂 5 GW 算力框架合約，2027 年起逐步上線，總規模涵蓋 Google TPU 自定義晶片及 Broadcom 自定義 ASIC 設計，估計合約總值達 200 億美元量級。結合此前已確認的 Amazon 5 GW 合約（近 1 GW 於 2026 年底前上線）、SpaceX Colossus 300 MW 及 Microsoft/NVIDIA Azure 300 億美元容量，Anthropic 的算力供應框架已覆蓋近 15 GW 的長期承諾。</p><p><strong>第二</strong>此合約有兩個結構性意義：其一，Anthropic 的算力分布已跨越 NVIDIA-only 的路徑依賴——Google TPU 及 Broadcom ASIC 代表針對推論優化的替代架構，在訓練成本之外開闢了推論效率的差異化空間；其二，5 GW 從 2027 年上線的時間節點，與當前 AI 訓練規模每 12 個月翻倍的速度對齊，代表 Anthropic 正以多年鎖定合約對抗算力市場的結構性短缺。對 Google 而言，此合約確保 TPU 的大量外部部署，進一步攤薄 TPU 研發成本。</p><p><strong>第三</strong>對企業採購而言，Anthropic 的多軌算力布局意味著其服務穩定性承諾較依賴單一供應商的競爭者更有結構保障，長期 SLA 談判中的籌碼有所提升。對半導體供應鏈而言，Broadcom ASIC 設計進入 frontier lab 算力框架，是繼 Google TPU、AWS Trainium/Inferentia、Meta MTIA 之後另一個非 NVIDIA 算力節點確認落地的數據點。對 BEXS 學員而言，算力供應的多元化正在從「NVIDIA 獨大」走向「多 ASIC 並行」的格局，Broadcom 的估值與 AI 定製晶片業務成長性是值得追蹤的中期市場錨點。</p>"
-    },
-    {
-      "id": "pulse-2026-05-13-01-openai-daybreak-codex-security",
-      "ts": "2026-05-13T01:06:00+08:00",
-      "title": "OpenAI 發布 Daybreak 安全框架 + Codex CLI 代理 · 把 AI 安全稽核拉進 DevSecOps 主流",
-      "source": "OpenAI",
-      "url": "https://openai.com/daybreak/",
-      "blurb": "OpenAI 宣布 Daybreak 安全框架及 Codex CLI 代理，Codex 直接在終端機執行程式碼任務，Daybreak 則是針對 AI 模型的安全評估標準，把 AI 應用的安全驗證拉入企業 DevSecOps 的主流流程。",
-      "editorial": "<p><strong>第一</strong>OpenAI 宣布 Daybreak，一套針對企業和政府 AI 應用的安全評估框架，定義 AI 模型在生產環境中的安全基準測試方法，覆蓋幻覺風險、指令注入、資料外洩及模型後門等主要威脅面向。同步推出 Codex CLI，一個直接在本地終端機執行的代理，能讀寫檔案、執行 shell 命令、操作 git，設計定位為開發者日常工作流中的 AI 協作層。</p><p><strong>第二</strong>Daybreak 框架的推出時機值得關注：與此同時，Anthropic 的 Mythos 安全評估紅隊管制模型持續維持不開放，美國 CAISI 啟動針對主要 lab 的預部署安全審查，五眼聯盟剛發布代理 AI 採用安全指引。OpenAI 選擇主動公布安全評估框架，是一種「定義安全標準敘事」的先佔策略——若 Daybreak 成為業界認可標準，其他 lab 的安全評估結果將以此框架為基準衡量，OpenAI 自然佔據有利地位。Codex CLI 的開源化同步降低開發者採用 OpenAI 生態的摩擦成本。</p><p><strong>第三</strong>對企業 CIO 而言，Daybreak 提供了一個可引用的 AI 安全評估框架，可作為 IT 採購清單上「AI 安全盡職調查」的初步參考，但其由 OpenAI 主導定義的特性代表它具有顯著的框架偏見，建議與 NIST AI RMF 及 CISA 代理 AI 安全指引並用。對開發者而言，Codex CLI 的本地代理能力大幅降低了 AI 輔助開發的工具鏈切換成本，但 shell 執行能力也帶來供應鏈安全風險，採用前應評估 git 倉庫的代理許可邊界。</p>"
     }
   ]
 }
