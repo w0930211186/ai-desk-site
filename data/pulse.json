@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-05-13T09:00:00+08:00",
+  "updated_at": "2026-05-13T10:00:00+08:00",
   "items": [
+    {
+      "id": "pulse-2026-05-13-10-anthropic-dreaming-managed-agents",
+      "ts": "2026-05-13T10:00:00+08:00",
+      "title": "Anthropic 發布代理自學 dreaming 框架 · Harvey 任務完成率六倍躍升確立工程落地新標準",
+      "source": "Anthropic Blog",
+      "url": "https://www.anthropic.com/news/agent-capabilities-api",
+      "blurb": "Anthropic 於 Code with Claude 2026 開發者大會發布 dreaming、outcomes、multi-agent orchestration 三項代理核心能力，Harvey 法律 AI 任務完成率提升六倍，Claude 平台 API 用量年增七十倍，代理工作流已進入規模化部署新階段。",
+      "editorial": "<p><strong>第一</strong>五月六日，Anthropic 於舊金山舉辦第二屆 Code with Claude 開發者大會，正式發布三項 Claude Managed Agents 核心功能：dreaming、outcomes 及 multi-agent orchestration。dreaming 以排程方式審查代理過往 session 記憶，提煉行為模式並以純文字「劇本」形式儲存供後續 session 引用，全程不修改底層模型權重，結果完整可稽核；outcomes 提供基準評估框架使代理任務完成率可量化；multi-agent orchestration 允許代理協調子代理並行處理複雜工作流。法律 AI 公司 Harvey 實測後任務完成率提升約六倍；Netflix 以 multi-agent orchestration 同步處理數百個建置日誌。Claude 平台 API 用量年增近七十倍，Claude Code 使用者平均每週使用時間達二十小時。</p><p><strong>第二</strong>dreaming 的核心戰略意義在於解決代理 AI 最根本的「無狀態性」問題。現有代理在 session 結束後失去所有積累，dreaming 提供「代理組織學習」機制使系統隨使用持續改善。相較修改模型權重（需昂貴再訓練），純文字劇本的可觀察性與可稽核性更高，更易通過企業合規審查。outcomes 評估框架的配套推出同樣關鍵——能量化任務完成率才能讓 AI 採購進入可衡量的 ROI 框架，是代理 AI 從概念驗證走向生產部署的必要基礎設施。七十倍 API 成長說明 Anthropic 已由「模型 API 供應商」演化為「代理工作流基礎設施」提供者，這一定位轉換將直接影響其企業合約議價結構。</p><p><strong>第三</strong>對開發者而言，dreaming 目前仍為 research preview，outcomes 與 multi-agent orchestration 已進入 public beta；採用前應確認 dreaming 記憶儲存的跨組織隔離設計，以符合企業 IT 安全隔離要求。對 CIO 而言，六倍任務完成率的提升代表代理 AI 評估標準已移向「持續改善能力」，需建立對應的效益追蹤框架，避免以靜態單次測試為採購依據。對 BEXS 學員而言，Claude Code 七十倍 API 成長是 Anthropic ARR 加速的最直接驅動力，是評估其 IPO 核心增長引擎的最具體數據錨點，同時也是判斷 Anthropic 相對 OpenAI 企業端市場份額走向的領先指標。</p>"
+    },
+    {
+      "id": "pulse-2026-05-13-10-sap-acquires-prior-labs-europe",
+      "ts": "2026-05-13T10:00:00+08:00",
+      "title": "SAP 十億歐元收購 Prior Labs · 表格基礎模型首次進入 ERP 核心以替代 LLM",
+      "source": "SAP News Center",
+      "url": "https://news.sap.com/2026/05/sap-to-acquire-prior-labs-establish-frontier-ai-lab-europe/",
+      "blurb": "SAP 五月四日宣布收購德國 AI 新創 Prior Labs，四年投入逾十億歐元建立歐洲 frontier AI 研究中心，核心技術 TabPFN 表格基礎模型已在《Nature》發表並拿下數百項結構化數據基準第一，主攻全球商業核心 ERP 數據場景。",
+      "editorial": "<p><strong>第一</strong>五月四日，SAP SE 宣布與 Prior Labs 簽署確定收購協議，承諾四年內投入逾十億歐元，將其擴建為全球頂尖表格數據 frontier AI 研究中心，交易預計 Q2 或 Q3 完成，待監管審批。Prior Labs 由 Frank Hutter、Noah Hollmann、Sauraj Gambhir 創辦，核心技術為表格基礎模型（Tabular Foundation Models，TFM），旗艦模型 TabPFN 系列已在《Nature》期刊發表，在數百項獨立學術研究的結構化數據基準中取得最先進成果。收購後 Prior Labs 以獨立機構形式運作，維持研究自主性，並透過 SAP AI Core、SAP Business Data Cloud 及 Joule 代理框架走向產品化。</p><p><strong>第二</strong>此收購有三個結構性意義。其一，SAP 明確選擇「表格數據」為企業 AI 差異化戰場，而非追逐通用 LLM——全球商業核心數據幾乎全以結構化表格形式存在，LLM 在此場景的可靠性與效率均不及原生 TFM；其二，此舉是歐洲主要企業軟體商以直接資本建設介入 frontier AI 研究的具體實踐，代表歐洲企業界開始以「自建」取代「依賴美國供應商」，是歐洲 AI 主權的制度性推進；其三，TabPFN 的《Nature》發表背書對金融、製藥及政府數據應用場景尤具吸引力，是 SAP 開拓法規嚴格市場的信用基礎。</p><p><strong>第三</strong>對 CIO 而言，SAP TFM 商業化代表未來 S/4HANA 和 Business Data Cloud 的 AI 能力將更深度依賴原生表格推論，而非外接 LLM 的語言解析，應重新評估既有 ERP AI 整合路線圖的技術假設。對開發者而言，需觀察收購後 TabPFN 的開源策略是否延續——若 SAP 限制開源，現有社群使用者將面臨版本分叉風險，MCP 接入能力的對外開放程度也值得密切追蹤。對 BEXS 學員而言，SAP 的 TFM 技術若成功商業化嵌入 ERP 生態，對企業數據分析工具（Snowflake、Databricks、Palantir）將構成長期結構性競爭壓力，是評估此類標的長期成長空間的新變量。</p>"
+    },
+    {
+      "id": "pulse-2026-05-13-10-google-turboquant-kv-cache",
+      "ts": "2026-05-13T10:00:00+08:00",
+      "title": "Google TurboQuant 六倍 KV Cache 壓縮零精度損失 · ICLR 2026 確立長上下文推論效率新基準",
+      "source": "Google Research Blog",
+      "url": "https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/",
+      "blurb": "Google DeepMind 在 ICLR 2026 發表 TurboQuant，將 KV Cache 壓縮至三位元實現六倍記憶體節省、零精度損失，H100 上推論速度提升八倍，長上下文大規模推論的單位算力成本產生數量級改善，且無需重新訓練即可部署。",
+      "editorial": "<p><strong>第一</strong>Google DeepMind 研究團隊在 ICLR 2026 發表 TurboQuant，並同步於 Google Research 部落格公開完整技術細節。TurboQuant 針對大語言模型推論的核心瓶頸 KV Cache（鍵值快取）開發兩階段壓縮框架：PolarQuant（隨機 Hadamard 變換消除異常值分布）加 QJL Correction（量化 Johnson-Lindenstrauss 矯正偏差），實現 KV Cache 壓縮至三位元、六倍記憶體節省，並在 LongBench、RULER、ZeroSCROLLS 等長上下文基準測試中達到零精度降級。H100 GPU 上四位元 TurboQuant 推論速度較三十二位元未量化版本提升八倍，且無需重新訓練或微調即可部署於現有模型。</p><p><strong>第二</strong>TurboQuant 的戰略意義在於以純算法方式解決長上下文推論的算力瓶頸。KV Cache 隨上下文長度線性增長，是 128K 至 1M token 長文本應用成本高昂的根本原因；六倍壓縮率直接對應六倍服務容量提升，或六分之一的單位算力成本，對 frontier lab 的推論業務具有直接財務意義。Google 選擇以 ICLR 發表並同步開放技術細節，是「算法影響力加生態主導」的組合策略——若 TurboQuant 複製 FlashAttention 的標準化路徑，Google 將在開源推論生態取得長期技術話語權，同時使下游應用的長上下文成本大幅下降，加速代理記憶、長文件分析等商業場景的落地。</p><p><strong>第三</strong>對開發者而言，TurboQuant 已有第三方 PyTorch 及 llama.cpp 實作在 GitHub 流通，可在不依賴 Google 官方支援的情況下自行驗證；長上下文生產推論場景應評估導入的遷移路徑與量化精度的具體業務影響。對 CIO 而言，此類推論效率突破代表在現有算力預算下，法律文件審查、財報分析、程式碼庫理解等高成本場景的單位成本可見性大幅改善，是 AI 推論預算規劃的重要新輸入。對 BEXS 學員而言，算法效率提升對 frontier lab 推論毛利率有結構性正向影響，監測 Alphabet AI 服務業務毛利率趨勢，是確認 TurboQuant 商業化效益的後續具體觀察點。</p>"
+    },
     {
       "id": "pulse-2026-05-13-09-boe-pra-frontier-ai-financial-warning",
       "ts": "2026-05-13T09:00:00+08:00",
@@ -243,33 +270,6 @@
       "url": "https://www.cnbc.com/2026/05/06/anthropic-spacex-data-center-capacity.html",
       "blurb": "Anthropic 宣布取得 SpaceX Colossus 1 全部算力：超過 22 萬張 NVIDIA GPU、300 MW，加入 AWS 5 GW、Google/Broadcom 5 GW、Microsoft Azure 300 億美元三條已確認算力鏈，Anthropic 的算力布局進入四軌同時在線格局。",
       "editorial": "<p><strong>第一</strong>Anthropic 於五月六日宣布與 SpaceX 簽署算力協議，取得位於田納西州孟菲斯 Colossus 1 資料中心的全部算力：超過 22 萬張 NVIDIA GPU、300 MW 計算容量，預計一個月內上線。協議範圍並涵蓋 Anthropic 對「多 GW 軌道算力」的探索興趣，即評估在太空建置推論節點的可能性。馬斯克公開表示「沒觸發我的惡意探測器」，確認商業理性主導了本次跨競爭對手交易。</p><p><strong>第二</strong>此協議的結構意義不只在規模，在於 Anthropic 正系統性地建立多供應商算力鏈：Amazon 5 GW（2026 年底前近 1 GW 上線）、Google/Broadcom 5 GW（2027 年起）、Microsoft/NVIDIA Azure 300 億美元容量，加上此次 SpaceX Colossus，Anthropic 已完成「四軌算力布局」。對 xAI 而言，將 Colossus 出租給主要競爭對手是罕見商業決定，在算力供需極度緊張的環境下，商業理性正超越生態系壁壘。協議同步直接改善 Claude Pro 及 Max 用戶的使用上限，說明算力擴張已直接連動終端服務體驗。</p><p><strong>第三</strong>對企業採購方而言，Anthropic 多軌算力鏈代表服務穩定性大幅提升，SLA 談判籌碼也隨之增加。對開發者而言，Claude Code 的雙倍速率上限直接降低 agentic 工作流的節流風險。對投資人而言，此協議發生於 Anthropic 預計六月 IPO 前夕，算力「囤積」行為歷來是 IPO 前的重要信號。對市場結構而言，軌道算力構想若推進，將開啟超越現有資料中心地理限制的新推論基礎設施形態，是值得長期追蹤的 second-order 觀察點。</p>"
-    },
-    {
-      "id": "pulse-2026-05-12-21-microsoft-delegate52-llm-document-corruption",
-      "ts": "2026-05-12T21:00:00+08:00",
-      "title": "研究揭露 LLM 文件修改漏洞 Delegate52 · AI 代理操作 Office 文件存在隱性損壞風險",
-      "source": "arXiv",
-      "url": "https://arxiv.org/abs/2604.15597",
-      "blurb": "arXiv 論文揭露 Delegate52 漏洞：多款主流 LLM 在代理模式下處理 Word/Excel/PowerPoint 文件時，存在被誘導進行隱性文件損壞的攻擊面，企業採用 AI 代理自動化 Office 工作流時面臨新的資安評估需求。",
-      "editorial": "<p><strong>第一</strong>arXiv 論文（2604.15597）揭露 Delegate52 漏洞類別，研究發現多款主流 LLM 在代理模式下操作 Microsoft Office 文件（Word、Excel、PowerPoint）時，可被精心設計的提示誘導執行隱性文件損壞操作——包含刪除關鍵段落、靜默修改數字、插入不可見惡意內容，且操作結果在一般檢視下不易被發現。研究測試涵蓋 GPT-5、Claude Opus 4.6 及 Gemini 1.5 Pro 等模型。</p><p><strong>第二</strong>Delegate52 漏洞的戰略意義在於它攻擊了企業 AI 代理部署的最脆弱節點：文件自動化。企業目前大量採用 AI 代理自動化 Office 工作流（財報整理、合約審查、簡報生成），而這些場景恰恰是 Delegate52 攻擊的高價值目標。與傳統的資安漏洞不同，AI 代理的隱性文件損壞在攻擊發生時難以即時偵測，可能在幾個工作週後才在財務對帳或法律文件審查中顯現，損失擴散路徑長且難以追溯根因。</p><p><strong>第三</strong>對企業 CIO 而言，採用 AI 代理自動化 Office 文件工作流的企業應立即評估現有部署的輸入來源管控機制，並在 AI 代理操作關鍵財務和法律文件的節點引入人工複核層。對開發者而言，涉及文件操作的代理系統設計應加入輸出差異比對與版本快照機制，避免隱性損壞繞過現有審核流程。對安全研究社群而言，Delegate52 是 AI 代理安全研究的重要新品類，預計後續將出現針對不同文件格式和代理框架的系列研究跟進。</p>"
-    },
-    {
-      "id": "pulse-2026-05-12-20-deepmind-uk-union-pentagon",
-      "ts": "2026-05-12T20:00:00+08:00",
-      "title": "DeepMind 英國員工投票組工會 · 反對五角大廈 AI 軍事合約引爆內部矛盾",
-      "source": "Fortune",
-      "url": "https://fortune.com/2026/05/05/google-deepmind-unionize-vote-military-ai-contracts-internal-backlash-pentagon-deal-israeli-defense-forces/",
-      "blurb": "Google DeepMind 英國研究人員投票決定組建工會，直接原因為反對公司接受五角大廈及以色列國防軍的 AI 合約，代表 frontier lab 內部「安全使命」與「軍事應用」的矛盾在組織層面公開化，AI 研究人才的政治化傾向成為 lab 治理新挑戰。",
-      "editorial": "<p><strong>第一</strong>Google DeepMind 英國研究人員宣布投票組建工會，直接觸發因素為公司宣布與五角大廈（美國國防部）及以色列國防軍（IDF）簽署 AI 相關合約，員工認為此舉違背 DeepMind 長期以來的「以 AI 造福人類」安全使命定位。組工會行動由數百名英國員工發起，涵蓋研究科學家及工程師。</p><p><strong>第二</strong>此事件揭示了 frontier lab 在「AGI 安全使命」與「政府軍事合約」之間的深層矛盾。DeepMind 的「安全 AI」品牌是其吸引頂尖研究人才的核心競爭優勢，但 Google 作為商業母公司，政府和國防合約代表重要的收入和戰略渠道。員工組工會代表這一矛盾已無法僅靠內部文化管理消化，進入了正式的勞動關係框架。此事件也在 AI 研究社群中引發廣泛關注——前沿 AI 研究者越來越傾向以組織手段而非個人辭職的方式表達反對，對 frontier lab 的 HR 和治理模式構成挑戰。</p><p><strong>第三</strong>對企業 CIO 而言，DeepMind 組工會事件代表 frontier lab 的內部治理風險正在外部化，採用 Google/DeepMind AI 服務的企業應關注潛在的勞資糾紛是否影響 Gemini 系列模型的研發和維護節奏。對監管而言，AI 工程師和研究人員的集體組織化趨勢，可能成為未來 AI 倫理治理框架的補充力量，值得追蹤歐洲勞動法框架下 AI 研究人員的集體談判能力。</p>"
-    },
-    {
-      "id": "pulse-2026-05-12-20-claude-mythos-glasswing-zero-day",
-      "ts": "2026-05-12T20:00:00+08:00",
-      "title": "Anthropic Mythos 紅隊測試驗證真實零日漏洞能力 · 高能力 AI 進入受管控推出軌道",
-      "source": "Anthropic",
-      "url": "https://www.anthropic.com/glasswing",
-      "blurb": "Anthropic 公開 Claude Mythos 紅隊測試結果，確認模型具備真實零日漏洞探索和利用能力，並宣布採用 Glasswing 框架進行管控推出，拒絕公開存取，標誌具備真實網路攻擊能力的 AI 首度在受管控環境中被公開確認存在。",
-      "editorial": "<p><strong>第一</strong>Anthropic 發布 Claude Mythos 的紅隊測試評估報告（Glasswing 框架），確認 Mythos 在多個指標上具備「真實可操作性」的零日漏洞探索和利用能力：在受控測試環境中，Mythos 自主發現並撰寫可運行的漏洞利用程式碼，成功率明顯高於先前任何公開評估的商業模型。Anthropic 宣布 Mythos 僅對受管控的紅隊成員及政府合規夥伴開放，不進行公開 API 部署。</p><p><strong>第二</strong>Mythos 網路能力的公開確認是 AI 安全歷史上的一個分水嶺。此前，高能力 AI 的網路攻擊能力主要停留在理論分析和有限演示層面；Mythos 測試結果代表具備真實零日漏洞利用能力的 AI 已存在，並由商業 frontier lab 持有。Anthropic 選擇以「公開承認能力」但「管控存取」的方式處理，是一種對比 OpenAI（向歐盟交出受管控版本）更保守的策略——但這也意味著 Mythos 的商業化時間窗口被推遲，在 IPO 前夕犧牲了潛在的高附加值政府合約收入。</p><p><strong>第三</strong>對企業 CIO 而言，Mythos 的存在代表網路防禦規劃的威脅模型需要更新：真實可操作的 AI 輔助零日漏洞探索已不是假設情境，網路安全演練應納入「AI 輔助攻擊者」的能力假設。對開發者而言，具備真實網路攻擊能力的 AI 若將來以任何形式商業化，將徹底改變滲透測試和漏洞評估工具鏈的格局。對監管而言，Mythos 的存在已是 frontier lab 監管緊迫性的最直接論據，CAISI 預部署審查機制的設計若未能覆蓋此類能力，其有效性將受質疑。</p>"
     }
   ]
 }
