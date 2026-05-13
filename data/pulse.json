@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-05-13T14:00:00+08:00",
+  "updated_at": "2026-05-13T15:00:00+08:00",
   "items": [
+    {
+      "id": "pulse-2026-05-13-15-altman-openai-compute-spinout",
+      "ts": "2026-05-13T15:00:00+08:00",
+      "title": "Altman 籌設 OpenAI 多數持股獨立算力公司 · 算力基礎設施脫離主體報表成前沿實驗室新戰略正式開啟",
+      "source": "Sources (Alex Heath)",
+      "url": "https://sources.news/p/sam-altman-stargate-redux-maybe",
+      "blurb": "Sources.news 獨家：OpenAI 執行長 Sam Altman 正與投資人討論成立獨立算力公司，OpenAI 持有多數股份但公司獨立運營融資，目標複製 Stargate 架構、由 Altman 主導外部募資，將算力資產移出 OpenAI 主體報表以擴大資本靈活性。",
+      "editorial": "<p><strong>第一</strong>，Sources.news 記者 Alex Heath 引述知情人士，Altman 正就算力新公司與潛在投資人進行初步接觸。新公司結構設計為：OpenAI 持有多數股份，但融資與治理獨立進行，不受 OpenAI 現有股東結構約束。此計畫實質上是將算力基礎設施從 OpenAI 主體資產負債表切割出去，在 OpenAI 完成最新 $30B 融資輪、估值達 9000 億美元的高峰期以更靈活的方式吸引外部資本。</p><p><strong>第二</strong>，從戰略脈絡來看，此舉呼應了 Anthropic 與 Google/Broadcom 算力聯盟的分拆趨勢：前沿 AI 公司已意識到算力控制權不能完全依賴第三方，需自建供應鏈閉環。Altman 方案以 OpenAI 為信用背書但不將算力資產入表，既避免稀釋現有投資人持股，又保留獨立融資彈性，與 SoftBank 在 Stargate 的做法高度相似。</p><p><strong>第三</strong>，對企業 CIO 而言，若此計畫落地，OpenAI 算力自足程度將提升，長期依賴 AWS/Azure 的單點風險將降低，API 可用性與定價穩定性料將改善。對 BEXS 學員而言，算力資產獨立化意味著 AI 公司資本支出週期拉長，對 NVIDIA 等 GPU 製造商的長期採購議價力增強，有利於壓低算力邊際成本。</p>"
+    },
+    {
+      "id": "pulse-2026-05-13-15-musk-altman-trial-closing",
+      "ts": "2026-05-13T15:00:00+08:00",
+      "title": "Musk v. Altman 案明日結辯 · 陪審團下週出具建議票 AI 安全使命與商業利益之爭進入司法最終裁量",
+      "source": "Axios",
+      "url": "https://www.axios.com/2026/05/13/openai-trial-sam-altman-elon-musk-ai-safety",
+      "blurb": "Axios 5 月 13 日：Musk v. Altman 案結辯訂於明日（5/14），陪審建議票最快下週出爐，主審法官隨後作出最終裁定。若裁決不利於 Altman，OpenAI 最高恐須將 1500 億美元吐回非營利主體，Altman 與 Brockman 亦面臨被強制移除領導職位。",
+      "editorial": "<p><strong>第一</strong>，Axios 於 5 月 13 日報導，Musk v. Altman 案在加州北區聯邦地院即將進入尾聲：結辯訂於 5 月 14 日，陪審團建議票最快下週出具，主審法官 Yvonne Gonzalez Rogers 將作最終裁定。Altman 本週作證時表示，OpenAI 轉型為盈利架構是籌集足夠資金、安全開發 AI 的唯一途徑，並指 Musk 曾兩度試圖「掐死」OpenAI。</p><p><strong>第二</strong>，此案核心問題已超越創辦人恩怨，聚焦於更根本的命題：AI 實驗室的商業化模式是否必然侵蝕安全使命？Altman 的答辯邏輯是「安全需要資金、資金需要商業模式、商業模式需要結構轉型」，直接反駁 Musk「非營利才能保安全」的論述，但庭審也暴露他個人在 Helion、Stripe、Cerebras 等投資的潛在利益衝突。</p><p><strong>第三</strong>，對 AI 產業的結構性影響在於，無論裁決結果如何，本案已確立「AI 公司治理透明度」屬正式法律審查範疇。企業 CIO 部署 OpenAI API 服務時須納入平台治理穩定性評估；若 Altman 被裁定須退出，OpenAI 的服務連續性與模型路線圖均將面臨重大不確定性。BEXS 學員應留意，此案若重燃 AI 公司非營利義務爭議，將影響市場對 AI 基礎設施股的長期估值邏輯。</p>"
+    },
+    {
+      "id": "pulse-2026-05-13-15-softbank-graphcore-agi-chip",
+      "ts": "2026-05-13T15:00:00+08:00",
+      "title": "SoftBank 向英國晶片商 Graphcore 追加注資 4.57 億美元 · AGI 全棧帝國硬體自主化棋局浮現",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/12/softbank-graphcore-ai-chip-investment.html",
+      "blurb": "CNBC 5 月 12 日：英國公司登記顯示 SoftBank 以約 4.57 億美元認購 Graphcore 新股，為 2024 年收購後最大規模的追加注資，且僅為 SoftBank 今年對 Graphcore 計畫注資的「部分資金」，顯示孫正義正加速將 Graphcore 打造為 AGI 全棧計畫的自主晶片支柱。",
+      "editorial": "<p><strong>第一</strong>，英國公司登記資料顯示，SoftBank 於 4 月 10 日以約 4.57 億美元認購 Graphcore 單一新股，為 2024 年收購後最大規模的追加注資。CNBC 引述知情人士指出，此筆資金僅為 SoftBank 今年對 Graphcore 計畫注資的「部分資金」，後續金額視業務里程碑而定。Graphcore 在 2020 年代初曾被市場視為「英國版 NVIDIA」，但因商業化受阻於 2024 年以折讓價被 SoftBank 收購。</p><p><strong>第二</strong>，此次注資的戰略意義在於：SoftBank 正將 Graphcore 從問題資產重塑為 AGI 全棧帝國的自主晶片支柱。孫正義在 Stargate 持有 40% 份額，同時推動 Graphcore 以 IPU 架構配合自研晶片，目標是建立不依賴 NVIDIA H100/B200 系列的替代算力路徑，長期目標為 AGI 訓練與推論的完全硬體自足。</p><p><strong>第三</strong>，市場影響是雙重的：短期內，Graphcore 若能在 2026 年推出具競爭力的 AI 加速晶片，將為 NVIDIA 生態提供來自 SoftBank 系統的真實替代選項；長期而言，SoftBank「晶片＋算力＋模型＋機器人」垂直整合戰略一旦形成閉環，將從供應鏈上游壓縮對美系晶片巨頭的結構性依賴。對 BEXS 學員而言，英國 AI 晶片生態的復甦是觀察非美系算力供應鏈格局的重要窗口。</p>"
+    },
     {
       "id": "pulse-2026-05-13-14-anthropic-stainless-sdk-acquisition",
       "ts": "2026-05-13T14:00:00+08:00",
@@ -8,7 +35,7 @@
       "source": "The Information",
       "url": "https://www.theinformation.com/articles/anthropic-talks-buy-developer-tools-startup-used-openai-google",
       "blurb": "The Information 獨家：Anthropic 以逾 3 億美元洽購 SDK 自動生成平台 Stainless，此平台同時服務 OpenAI 與 Google，若成交，Anthropic 將首度持有競爭對手開發者生態的關鍵基礎設施層。",
-      "editorial": "<p><strong>第一</strong>The Information 於 5 月 12 日獨家報導，Anthropic 正就收購紐約新創 Stainless 進行進階談判，交易估值至少 3 億美元，相較 Stainless 於 2024 年 12 月的 1.5 億美元上輪融資估值溢價兩倍。Stainless 的核心產品是以 AI 從 API 規格自動生成 SDK 的平台，現有客戶包括 Anthropic、OpenAI 與 Google。消息人士指出，Stainless 工具是 Claude Code 代理效能提升的關鍵基礎設施之一。Anthropic 近半年已完成多起收購：開發工具新創 Bun（12 月）、電腦使用新創 Vercept，及 AI 生物科技新創 Coefficient Bio，Stainless 交易若完成將是規模最大的一筆。</p><p><strong>第二</strong>此次收購的戰略意義在於 Anthropic 首次嘗試控制對手開發者生態所依賴的基礎設施。若交易完成，Anthropic 將成為 OpenAI 和 Google 部分 SDK 生成鏈的持有方，在沒有任何直接技術封鎖的情況下，形成對競爭對手開發者工具鏈的微妙制衡籌碼。更深層的邏輯是：Anthropic 在 ARR 突破 300 億美元、9000 億美元估值在即的背景下，正以 M&amp;A 加速從「模型 API 供應商」升格為「開發者平台基礎設施」持有者，這一路徑與 OpenAI DeploymentCo 及 Microsoft 在企業端採用的整合敘事框架高度一致。</p><p><strong>第三</strong>對開發者而言，Stainless 若成為 Anthropic 旗下，OpenAI 與 Google 的 SDK 生成需求的長期供應連續性存在不確定性，需評估是否啟動 SDK 自建路線。對 OpenAI 與 Google，預計加速內部化 SDK 工具鏈以降低對 Anthropic 控制工具的依賴，中期可能形成 SDK 生成標準的技術分叉。對投資人，此收購標誌 Anthropic 進入「開發者平台整合」收購週期，IPO 估值框架將從純粹 AI 模型公司轉向「AI 開發者基礎設施平台」，對應更高的市場估值倍數，是調整 frontier AI 上市定價模型的重要新輸入。</p>"
+      "editorial": "<p><strong>第一</strong>The Information 於 5 月 12 日獨家報導，Anthropic 正就收購紐約新創 Stainless 進行進階談判，交易估值至少 3 億美元，相較 Stainless 於 2024 年 12 月的 1.5 億美元上輪融資估值溢價兩倍。Stainless 的核心產品是以 AI 從 API 規格自動生成 SDK 的平台，現有客戶包括 Anthropic、OpenAI 與 Google。消息人士指出，Stainless 工具是 Claude Code 代理效能提升的關鍵基礎設施之一。Anthropic 近半年已完成多起收購：開發工具新創 Bun（12 月）、電腦使用新創 Vercept，及 AI 生物科技新創 Coefficient Bio，Stainless 交易若完成將是規模最大的一筆。</p><p><strong>第二</strong>此次收購的戰略意義在於 Anthropic 首次嘗試控制對手開發者生態所依賴的基礎設施。若交易完成，Anthropic 將成為 OpenAI 和 Google 部分 SDK 生成鏈的持有方，在沒有任何直接技術封鎖的情況下，形成對競爭對手開發者工具鏈的微妙制衡籌碼。更深層的邏輯是：Anthropic 在 ARR 突破 300 億美元、9000 億美元估值在即的背景下，正以 M&amp;A 加速從「模型 API 供應商」升格為「開發者平台基礎設施」持有者，這一路徑轉換將直接影響其企業合約議價結構。</p><p><strong>第三</strong>對開發者而言，Stainless 若成為 Anthropic 旗下，OpenAI 與 Google 的 SDK 生成需求的長期供應連續性存在不確定性，需評估是否啟動 SDK 自建路線。對 OpenAI 與 Google，預計加速內部化 SDK 工具鏈以降低對 Anthropic 控制工具的依賴，中期可能形成 SDK 生成標準的技術分叉。對投資人，此收購標誌 Anthropic 進入「開發者平台整合」收購週期，IPO 估值框架將從純粹 AI 模型公司轉向「AI 開發者基礎設施平台」，對應更高的市場估值倍數，是調整 frontier AI 上市定價模型的重要新輸入。</p>"
     },
     {
       "id": "pulse-2026-05-13-14-google-android-show-gemini-intelligence",
@@ -243,33 +270,6 @@
       "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/",
       "blurb": "歐盟理事會與議會確認通過 Digital Omnibus AI 簡化提案，多項高風險 AI 系統的合規要求被放寬或推遲，監管時間表的再次調整代表歐盟在 AI 競爭力壓力下，正在從「嚴格監管」向「先鬆後緊」方向調整策略。",
       "editorial": "<p><strong>第一</strong>歐盟理事會與歐洲議會宣布達成協議，通過 Digital Omnibus 提案中有關 AI 法案的簡化條款，涵蓋高風險 AI 系統的合規要求放寬、特定行業豁免範圍擴大及部分合規截止日期向後推移。原定 2026 年八月強制生效的高風險 AI 合規義務，部分被推遲至 2027 年至 2028 年間。</p><p><strong>第二</strong>此次簡化案的通過標誌歐盟 AI 監管策略的重要轉向。原版 AI 法案設計強調高標準合規義務，但企業界和部分成員國持續反映執行成本過高、創新受阻，而同期美國和中國採取更寬鬆的 AI 政策，歐盟的競爭力壓力明顯上升。Digital Omnibus 簡化案是對這一壓力的政策回應，代表歐盟選擇以「更具彈性的執行路徑」換取更高的市場採用率。然而，簡化監管並不代表監管消失——合規義務只是延後，最終將全面落地。</p><p><strong>第三</strong>對企業 CIO 而言，歐盟 AI 法案合規時間表的再次調整意味著在歐洲市場部署高風險 AI 系統的緊迫性暫時降低，但建議不要因此暫停合規規劃——要求最終將到來，且合規能力的建立通常需要 12-18 個月的前置期。對開發者而言，歐盟市場的 AI 應用部署窗口略有延展，但涉及醫療、金融、人力資源的高風險應用分類仍需持續追蹤最新指引。對監管而言，歐盟此次的策略調整被視為「先競爭後監管」信號，可能影響其他司法管轄區的監管步調，尤其是英國和加拿大。</p>"
-    },
-    {
-      "id": "pulse-2026-05-12-23-five-eyes-cisa-agentic-ai-guidance",
-      "ts": "2026-05-12T23:00:00+08:00",
-      "title": "五眼聯盟 + CISA 聯合發布代理 AI 安全指引 · 自主代理成政府網路安全第一優先議題",
-      "source": "CISA",
-      "url": "https://www.cisa.gov/news-events/news/cisa-us-and-international-partners-release-guide-secure-adoption-agentic-ai",
-      "blurb": "美國 CISA 聯合英國 NCSC、澳洲 ASD、加拿大 CCCS 等五眼聯盟成員機構，共同發布代理 AI 安全採用指引，明確定義代理 AI 的攻擊面並提供企業採用框架，代表自主代理 AI 的安全監管正式進入主流政府議程。",
-      "editorial": "<p><strong>第一</strong>美國 CISA 聯合英國國家網路安全中心（NCSC）、澳洲 ASD、加拿大 CCCS 及紐西蘭 NCSC，共同發布《代理 AI 安全採用指引》。文件定義代理 AI 的核心安全風險（包含提示注入、工具鏈污染、代理間信任鏈攻擊及不可控的長程任務執行），並提供企業設計代理系統時的安全架構原則，包含最小權限代理設計、人工審批節點及完整操作日誌要求。</p><p><strong>第二</strong>五眼聯盟聯合發布此指引的政策意義在於：代理 AI 的安全問題已從學術研究進入政府網路安全機構的主流視野，且這是多國政府首次對代理 AI 的安全架構設計提出具體要求。此文件將成為政府採購 AI 代理系統的評估基準，也可能成為部分國家立法的前驅文件。對 frontier lab 而言，此指引明確定義了代理 AI 攻擊面，意味著政府客戶對代理 AI 的安全評估要求將顯著提升，lab 的代理產品安全文件需要對應升級。</p><p><strong>第三</strong>對企業 CIO 而言，五眼 CISA 指引可作為企業內部代理 AI 治理框架的起點，特別是涉及跨系統操作的長程代理（如 Claude Code、OpenAI Codex CLI）的部署審查。對開發者而言，代理系統的最小權限設計和操作日誌要求將成為企業客戶的採購必要條件，建議現在就將這些安全設計納入代理架構的標準組件。對監管而言，五眼聯盟的聯合指引是多邊 AI 安全治理協調的早期實例，其後續是否演化為正式條約義務，是今年最值得關注的 AI 監管政策進展之一。</p>"
-    },
-    {
-      "id": "pulse-2026-05-12-23-microsoft-openai-nonexclusive-restructure",
-      "ts": "2026-05-12T23:00:00+08:00",
-      "title": "Microsoft 宣告 OpenAI 夥伴關係重組 · 非獨家條款確認 Microsoft 可自由採購 frontier model",
-      "source": "Microsoft",
-      "url": "https://blogs.microsoft.com/blog/2026/04/27/the-next-phase-of-the-microsoft-openai-partnership/",
-      "blurb": "Microsoft 公告 OpenAI 夥伴關係進入新階段，非獨家條款確認 Microsoft 可同時採購其他 frontier model 提供商，標誌雲端最大 AI 賦能商正式解除對 OpenAI 的單一依賴，frontier lab 市場進入多元化競爭新格局。",
-      "editorial": "<p><strong>第一</strong>Microsoft 官方部落格宣布 OpenAI 夥伴關係進入「下一階段」，重組條款確認夥伴關係由獨家轉為非獨家，Microsoft Azure 可自由選用其他 frontier model 提供商（包含 Anthropic、Google、Mistral 等），OpenAI 同步取得更大的非 Azure 雲端部署自由度。原 130 億美元的投資承諾轉化為按使用量計算的算力採購安排，取消了 OpenAI 必須在 Azure 運行特定比例算力的限制。</p><p><strong>第二</strong>此重組是 AI 供應鏈結構的里程碑事件。此前，Microsoft 是 OpenAI 的獨家雲端夥伴，OpenAI 是 Microsoft Azure AI 服務的核心供應商——雙方的綁定關係構成了一個高度集中的模型供應鏈，也被視為其他 frontier lab 進入 Microsoft 生態的最大障礙。非獨家化後，Microsoft 同時採購 Anthropic、Google 等模型的能力提升，Azure AI 服務的模型多樣性增加；OpenAI 則獲得在 AWS、Google Cloud 等其他雲端平台上擴大部署的自由，收入來源去集中化。</p><p><strong>第三</strong>對企業 CIO 而言，Microsoft Azure AI 服務的模型多樣性提升意味著採購談判籌碼增加，避免了在微軟生態中被強制綁定 OpenAI 模型版本更新週期的風險。對開發者而言，Azure AI Studio 將更快納入非 OpenAI 模型的 API 選項，工具鏈遷移成本降低。對 Anthropic、Mistral 等其他 frontier lab 而言，Microsoft 客戶基礎的開放代表一個巨大的銷售管道被部分解鎖——與 Microsoft 的商業合作談判難度降低。對 BEXS 學員而言，OpenAI 非獨家化後，其在 Microsoft 生態的「護城河」降低，IPO 估值的壁壘假設需要更新。</p>"
-    },
-    {
-      "id": "pulse-2026-05-12-22-trump-ai-spy-agencies-oversight",
-      "ts": "2026-05-12T22:00:00+08:00",
-      "title": "川普政府授權情報機構主導 AI 安全監管 · AI 監管軸線從商務部移往情報體系",
-      "source": "Washington Post",
-      "url": "https://www.washingtonpost.com/politics/2026/05/11/trump-ai-regulation-commerce-intelligence/",
-      "blurb": "川普政府宣布由情報機構主導 AI 前沿模型的安全監管，商務部角色弱化，代表美國 AI 監管從「商業競爭力優先」調整為「國安優先」框架，影響 frontier lab 模型發布、出口管制及政府採購的規則走向。",
-      "editorial": "<p><strong>第一</strong>Washington Post 報道川普政府宣布將 AI 前沿模型的安全監管主導權從商務部移交情報機構，具體範圍包含高能力 AI 模型的出口管制審查、政府採購的安全評估標準及前沿 AI 技術的國家安全分類。商務部 AI 辦公室角色縮減，情報體系將掌握核心模型審查決策。</p><p><strong>第二</strong>此政策轉向具有深刻的結構意義。商務部主導的 AI 監管框架通常強調競爭力與創新，傾向寬鬆；情報機構主導的框架則以國安評估為優先，傾向限制。情報機構接管意味著 AI 模型審查的考量維度從「是否影響美國 AI 競爭力」轉向「是否構成國安威脅」，審查標準提高、審查周期延長的可能性上升。此轉向也影響出口管制的敏感度——情報主導下，AI 模型技術向非盟國的出口管制力度可能進一步加強。</p><p><strong>第三</strong>對企業 CIO 而言，政府 AI 採購框架的監管軸線轉移意味著接下來政府客戶的 AI 合規要求將更嚴格，尤其是涉及高能力推理模型的部署。對 frontier lab 而言，與情報機構建立合規關係的成本增加，但同時也代表能夠通過情報機構審查的 lab 將在政府合約市場取得更強的競爭優勢。對 BEXS 學員而言，此政策轉向可能影響短期 AI 相關股票的政府合約估值預期，應追蹤 frontier lab 的政府合約佈局動態。</p>"
     }
   ]
 }
