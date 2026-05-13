@@ -1,0 +1,16 @@
+N°79 Stratechery · The Deployment Company · Ben Thompson 把 frontier 戰場釘到部署層
+
+— N°79 · 2026/05/14 —
+
+
+
+◆ Stratechery 把 frontier 戰場敘事從「模型參數」釘到「部署層」 · 70 年代 IBM 寡頭格局類比正式上桌
+◆ Anthropic 企業客戶數正式翻盤 OpenAI · Ramp 5/13 數據把 B2B 戰局結構性逆轉
+◆ Casey Newton × Aaron Levie 給 AI 就業恐慌敘事一桶冷水 · Jevons 悖論 + 任務碎片化壓縮成可引用版本
+
+····
+
+全文 · 附源 · 附判斷
+ai-desk-tw.netlify.app
+
+#AIDESK #AI大事 #AINews #獨立編輯台 #AIDailyBrief #AI #editorial #monobrutalist
