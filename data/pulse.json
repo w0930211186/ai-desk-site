@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-05-14T09:00:00+08:00",
+  "updated_at": "2026-05-14T09:05:00+08:00",
   "items": [
+    {
+      "id": "pulse-2026-05-14-09-google-gtig-ai-zeroday-irl-confirmed",
+      "ts": "2026-05-14T09:05:00+08:00",
+      "title": "AI 生成零日漏洞野外首案確認 · Google GTIG 報告揭示 LLM 武器化已達規模化",
+      "source": "Google Cloud Blog (GTIG)",
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/ai-vulnerability-exploitation-initial-access",
+      "blurb": "Google GTIG 確認全球首例 AI 生成零日漏洞已用於野外實戰，中俄朝攻擊者系統化武器化 LLM；AI 輔助漏洞挖掘從實驗室走進真實攻擊，攻防格局需以此為基準重組。",
+      "editorial": "<p><strong>第一</strong>Google Threat Intelligence Group（GTIG）於 2026 年 5 月 11 日確認全球首例 AI 生成零日漏洞實戰案例：攻擊者以 LLM 開發 Python 腳本，旁路開源 Web 管理平台的雙重驗證（2FA）邏輯缺陷，漏洞類型為 hardcoded 信任假設，超越傳統模糊測試工具的能力邊界，GTIG 評估使用的模型「極可能非 Gemini 或 Claude Mythos」。同期記錄包括：中國 APT45 大規模驗證 CVE PoC、安卓後門 PROMPTSPY 通過 Gemini API 自主操作設備，以及 LiteLLM、Checkmarx 等 AI 工具鏈遭供應鏈攻擊。</p><p><strong>第二</strong>此案例在戰略層面同時確認三個轉折：AI 輔助漏洞挖掘進入實戰，恰在 Anthropic Mythos 與 GPT-5.5-Cyber 上線的相同時間窗口，攻防雙方以相近的能力邊界並行升級；攻擊者直接濫用 Gemini API，使 AI 平台帳號監控從「最佳實踐」升格為基礎安全義務；AI 工具鏈本身成為供應鏈攻擊面，開發者信任假設需即時重估。</p><p><strong>第三</strong>對 CISO 而言，「LLM 優先識別高層語意邏輯漏洞」的實戰確認代表傳統滲透測試框架存在結構性盲區，應優先排查遺留系統 2FA 的 hardcoded 信任假設，滲透測試採購框架需同步更新評估方法論。對開發者而言，LiteLLM 與 Checkmarx 的供應鏈攻擊意味著 AI 工作流本身成為攻擊面，PyPI 簽名驗證與 GitHub Actions 完整性審計應即時納入 CI/CD 基線。對 BEXS 學員而言，AI 網攻實戰化使「AI 原生資安防禦」賽道的成長邏輯更為清晰，持有 CAISI 合約的 Google DeepMind 及 Microsoft 的政府安全合約競爭優勢因此進一步強化，而 AI 平台廠商因合規義務上升面臨管理成本增加，但進入門檻同步抬高，有利於現有大型平台維持市場護城河。</p>"
+    },
     {
       "id": "pulse-2026-05-14-09-openai-microsoft-exclusivity-ended-multicloud",
       "ts": "2026-05-14T09:00:00+08:00",
