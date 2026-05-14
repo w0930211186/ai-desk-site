@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-05-14T07:02:33+08:00",
+  "updated_at": "2026-05-14T08:12:00+08:00",
   "items": [
+    {
+      "id": "pulse-2026-05-14-08-apple-ios27-third-party-ai-gemini-claude",
+      "ts": "2026-05-14T08:12:00+08:00",
+      "title": "Apple iOS 27 傳開放第三方 AI 核心整合 · Gemini 與 Claude 或直接接管 Siri 與 Writing Tools",
+      "source": "9to5Mac",
+      "url": "https://9to5mac.com/2026/05/05/ios-27-will-let-you-choose-between-gemini-claude-and-more-for-ai-features-report/",
+      "blurb": "報導指 Apple iOS 27 將推出「Extensions」設定入口，允許用戶選擇 Google Gemini、Anthropic Claude 或 OpenAI ChatGPT 作為 Siri、Writing Tools 與 Image Playground 的 AI 引擎，Apple 計畫在 6 月 8 日 WWDC 正式宣布，iPhone 平台的 AI 戰場正式開放。",
+      "editorial": "<p><strong>第一</strong>9to5Mac 於 2026 年 5 月 5 日引述消息人士報導，Apple 正在內部測試一項重大平台轉變：iOS 27、iPadOS 27 及 macOS 27 將透過名為「Extensions」的新設定入口，允許用戶自行選擇 Google Gemini、Anthropic Claude 或 OpenAI ChatGPT 等第三方 AI 作為 Apple Intelligence 功能的驅動引擎，涵蓋 Siri、Writing Tools 及 Image Playground。Apple 目前已與 Google 及 Anthropic 進行內部測試整合，不同 AI 引擎將以不同語音回應加以區分。正式宣布預計在 2026 年 6 月 8 日的 WWDC 開發者大會。</p><p><strong>第二</strong>這是 Apple 智慧型手機平台史上最大規模的主動開放決策之一。蘋果以「AI 市場」取代「AI 助理」的思路，等同將 iPhone 生態系轉變為多方 AI 供應商的競爭場域，主動放棄對 AI 引擎的單一控制權。戰略意圖在於：在蘋果自家 AI 能力相對落後的窗口期，以開放策略換取最佳使用者體驗與市場話語權，同時建立「AI 流量市占」的資料優勢以引導後續差異化競爭。對 OpenAI 而言，iOS 預設 AI 地位的排他性正在瓦解；對 Anthropic 和 Google 而言，這是以最短路徑直接進入 iPhone 十億用戶日常工作流的重大入口。</p><p><strong>第三</strong>對企業 CIO 而言，iOS 27 的 Extensions 架構意味著員工設備上的 AI 引擎將成為可配置項，企業 AI 採購策略需同步納入移動端 AI 引擎的統一管理視窗，現行 MAM（行動應用管理）框架尚無對應 AI 引擎授權的管控機制。對開發者而言，Extensions API 的開放程度決定第三方 AI 能否深度整合於 App 內部，是未來半年最值得追蹤的 iOS 平台規格，應提前評估支援多 AI 引擎的工作量。對 BEXS 學員而言，若 WWDC 6 月 8 日確認此框架，Anthropic 與 Google 的 B2C 觸達能力將發生質的躍升，有助支撐兩者的高估值敘事，而 OpenAI 的 ChatGPT 行動端獨佔地位若遭侵蝕，其消費端護城河的重估壓力值得密切追蹤。</p>"
+    },
+    {
+      "id": "pulse-2026-05-14-08-sap-prior-labs-1b-european-frontier-ai",
+      "ts": "2026-05-14T08:12:00+08:00",
+      "title": "SAP 斥逾 10 億歐元收購 18 個月德國 AI 新創 Prior Labs · 歐洲首個表格基礎模型 frontier lab 浮現",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/05/sap-bets-1-16b-on-18-month-old-german-ai-lab-and-says-yes-to-nemoclaw/",
+      "blurb": "SAP 宣布以逾 10 億歐元四年承諾收購德國 AI 新創 Prior Labs，Prior Labs 以 TabPFN 在 Nature 發表的表格基礎模型研究為核心，此次整合將形成歐洲第一個聚焦企業結構化數據的 frontier AI lab，正面迎戰 Microsoft 與 Salesforce 的 ERP 智慧化路線。",
+      "editorial": "<p><strong>第一</strong>SAP SE 於 2026 年 5 月 4 日宣布收購德國 AI 新創 Prior Labs，交易預計 Q2 或 Q3 完成，待監管批准。SAP 承諾四年內投入逾 10 億歐元，Prior Labs 將以獨立實體繼續運營。Prior Labs 成立僅 18 個月，由弗萊堡大學教授 Frank Hutter 及共同創辦人 Noah Hollmann、Sauraj Gambhir 創立，核心成果 TabPFN 系列（表格預訓練基礎網路）以 In-Context 學習達成結構化數據的零樣本預測，研究成果發表於 Nature，在多個表格基準測試中超越傳統機器學習方法。NemoClaw 是其面向企業部署的旗艦模型。</p><p><strong>第二</strong>此次收購的戰略意義有兩個層次：第一，SAP 主動承認通用 LLM 路線對結構化企業數據存在天然侷限，選擇以 TFM（表格基礎模型）作為下一代企業 AI 的核心技術路線，這是企業軟體龍頭對「特化模型 vs. 通用模型」技術路線之爭做出明確站隊；第二，歐洲首個具規模資本支撐的 frontier AI lab 正式成形，過去歐洲研究能力強、商業化路徑弱的結構性困境，有望透過 SAP 逾四十萬家企業客戶網絡獲得直接商業出口。從競爭格局而言，此舉是 SAP 防禦 Microsoft Copilot 與 Salesforce Einstein 在 ERP 生態滲透的主動反制布局。</p><p><strong>第三</strong>對企業 CIO 而言，表格基礎模型能直接應用於 ERP 數據預測、供應鏈優化及財務異常偵測，Prior Labs 的整合路線圖是評估 SAP 平台長期 AI 競爭力的核心觀察點。對 AI 從業者而言，TFM 路線獲得十億歐元級別的商業化驗證，將激勵更多非 LLM 特化 AI 研究的資本化嘗試，挑戰「LLM 通吃一切」的市場敘事。對投資人而言，SAP 以 11.6 億美元估值一家 18 個月新創，是歐洲 AI 研究機構商業化的重要定價基準，也是評估亞太 AI 特化模型新創估值空間的參照錨點。</p>"
+    },
+    {
+      "id": "pulse-2026-05-14-08-openai-gpt55-cyber-vetted-access",
+      "ts": "2026-05-14T08:12:00+08:00",
+      "title": "OpenAI 推出 GPT-5.5-Cyber · 授權資安防禦者可自動生成並驗證漏洞利用程式碼",
+      "source": "OpenAI",
+      "url": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber/",
+      "blurb": "OpenAI 正式對通過審核的資安研究者開放 GPT-5.5-Cyber，這個模型不僅能生成漏洞利用 PoC，還能自動在沙箱中驗證攻擊效果，與 Anthropic Project Glasswing 並列，frontier lab AI 攻防能力的實戰部署競賽正式升溫。",
+      "editorial": "<p><strong>第一</strong>OpenAI 於 2026 年 5 月 7 日宣布 GPT-5.5-Cyber 進入限量預覽，目標用戶為負責關鍵基礎設施安全的認證防禦者。這是 OpenAI 資安模型線中限制最寬鬆的版本，可生成漏洞利用概念驗證程式碼（PoC），並在受控沙箱環境中自動驗證攻擊是否成功——即從漏洞識別到模擬攻擊全程自動化。模型存取設有嚴格帳號安全驗證，2026 年 6 月 1 日起強制啟用進階帳號安全機制。</p><p><strong>第二</strong>此舉是對 Anthropic 四月發布 Claude Mythos 與 Project Glasswing 的直接戰略回應。Claude Mythos 已在主要作業系統與瀏覽器中自主識別出數千個零日漏洞，Project Glasswing 聯合 AWS、Apple、CrowdStrike、Google、Microsoft、NVIDIA 等十二個機構，以受控方式將前沿漏洞挖掘能力釋放至安全社群。OpenAI 的 Trusted Access for Cyber 體系與之形成平行的「可信存取」路線，兩家 frontier lab 的資安軍備競爭已從模型能力比較，進入工作流實戰部署與認證生態圈建立的新階段。</p><p><strong>第三</strong>對企業 CISO 有三個即時觀察點：第一，具備 GPT-5.5-Cyber 或 Claude Mythos 存取資格的資安廠商將在紅隊演練市場形成差異化競爭門檻，採購邏輯在 2026 年下半年將重組。第二，模型自動生成並驗證 PoC 讓傳統「人工滲透測試→報告」流程的自動化壓縮成為可能，中小型滲透測試服務的定價面臨結構性壓力。第三，英國 AISI 已公開評估 GPT-5.5 的網路進攻能力，代表監管機構正在形成對 AI 資安模型的獨立審計慣例，企業採購此類工具前需確認所在地合規框架的適用範圍。</p>"
+    },
     {
       "id": "pulse-2026-05-14-07-trump-xi-summit-ai-chips-day1",
       "ts": "2026-05-14T07:02:33+08:00",
@@ -125,7 +152,7 @@
       "source": "The Information",
       "url": "https://www.theinformation.com/articles/anthropic-talks-buy-developer-tools-startup-used-openai-google",
       "blurb": "The Information 獨家：Anthropic 以逾 3 億美元洽購 SDK 自動生成平台 Stainless，此平台同時服務 OpenAI 與 Google，若成交，Anthropic 將首度持有競爭對手開發者生態的關鍵基礎設施層。",
-      "editorial": "<p><strong>第一</strong>The Information 於 5 月 12 日獨家報導，Anthropic 正就收購紐約新創 Stainless 進行進階談判，交易估值至少 3 億美元，相較 Stainless 於 2024 年 12 月的 1.5 億美元上輪融資估值溢價兩倍。Stainless 的核心產品是以 AI 從 API 規格自動生成 SDK 的平台，現有客戶包括 Anthropic、OpenAI 與 Google。消息人士指出，Stainless 工具是 Claude Code 代理效能提升的關鍵基礎設施之一。Anthropic 近半年已完成多起收購：開發工具新創 Bun（12 月）、電腦使用新創 Vercept，及 AI 生物科技新創 Coefficient Bio，Stainless 交易若完成將是規模最大的一筆。</p><p><strong>第二</strong>此次收購的戰略意義在於 Anthropic 首次嘗試控制對手開發者生態所依賴的基礎設施。若交易完成，Anthropic 將成為 OpenAI 和 Google 部分 SDK 生成鏈的持有方，在沒有任何直接技術封鎖的情況下，形成對競爭對手開發者工具鏈的微妙制衡籌碼。更深層的邏輯是：Anthropic 在 ARR 突破 300 億美元、9000 億美元估值在即的背景下，正以 M&amp;A 加速從「模型 API 供應商」升格為「開發者平台基礎設施」持有者，這一路徑轉換將直接影響其企業合約議價結構。</p><p><strong>第三</strong>對開發者而言，Stainless 若成為 Anthropic 旗下，OpenAI 與 Google 的 SDK 生成需求的長期供應連續性存在不確定性，需評估是否啟動 SDK 自建路線。對 OpenAI 與 Google，預計加速內部化 SDK 工具鏈以降低對 Anthropic 控制工具的依賴，中期可能形成 SDK 生成標準的技術分叉。對投資人，此收購標誌 Anthropic 進入「開發者平台整合」收購週期，IPO 估值框架將從純粹 AI 模型公司轉向「AI 開發者基礎設施平台」，對應更高的市場估值倍數，是調整 frontier AI 上市定價模型的重要新輸入。</p>"
+      "editorial": "<p><strong>第一</strong>The Information 於 5 月 12 日獨家報導，Anthropic 正就收購紐約新創 Stainless 進行進階談判，交易估值至少 3 億美元，相較 Stainless 於 2024 年 12 月的 1.5 億美元上輪融資估值溢價兩倍。Stainless 的核心產品是以 AI 從 API 規格自動生成 SDK 的平台，現有客戶包括 Anthropic、OpenAI 與 Google。消息人士指出，Stainless 工具是 Claude Code 代理效能提升的關鍵基礎設施之一。Anthropic 近半年已完成多起收購：開發工具新創 Bun（12 月）、電腦使用新創 Vercept，及 AI 生物科技新創 Coefficient Bio，Stainless 交易若完成將是規模最大的一筆。</p><p><strong>第二</strong>此次收購的戰略意義在於 Anthropic 首次嘗試控制對手開發者生態所依賴的基礎設施。若交易完成，Anthropic 將成為 OpenAI 和 Google 部分 SDK 生成鏈的持有方，在沒有任何直接技術封鎖的情況下，形成對競爭對手開發者工具鏈的微妙制衡籌碼。更深層的邏輯是：Anthropic 在 ARR 突破 300 億美元、9000 億美元估值在即的背景下，正以 M&A 加速從「模型 API 供應商」升格為「開發者平台基礎設施」持有者，這一路徑轉換將直接影響其企業合約議價結構。</p><p><strong>第三</strong>對開發者而言，Stainless 若成為 Anthropic 旗下，OpenAI 與 Google 的 SDK 生成需求的長期供應連續性存在不確定性，需評估是否啟動 SDK 自建路線。對 OpenAI 與 Google，預計加速內部化 SDK 工具鏈以降低對 Anthropic 控制工具的依賴，中期可能形成 SDK 生成標準的技術分叉。對投資人，此收購標誌 Anthropic 進入「開發者平台整合」收購週期，IPO 估值框架將從純粹 AI 模型公司轉向「AI 開發者基礎設施平台」，對應更高的市場估值倍數，是調整 frontier AI 上市定價模型的重要新輸入。</p>"
     },
     {
       "id": "pulse-2026-05-13-14-google-android-show-gemini-intelligence",
