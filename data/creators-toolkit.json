@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-12T04:30:00+08:00",
+  "updated_at": "2026-05-15T04:44:14+08:00",
   "_note": "creator toolkit · Peter 手動 curation V1 · 含官方 URL + 學習資源連結",
   "categories": [
     "writing",
@@ -2414,6 +2414,126 @@
       "thumbnail_url": "https://i.ytimg.com/vi/U07MHi4Suj8/hqdefault.jpg",
       "thumbnail_accent": "#1e40af",
       "thumbnail_initial": "LLM"
+    },
+    {
+      "title": "懶人必學！4 招無腦生成神級 Prompt，打造專屬提示語｜泛科學院",
+      "provider": "YouTube · 泛科學院",
+      "url": "https://www.youtube.com/watch?v=xqHUrLOJixQ",
+      "cost": "免費",
+      "topic": "Prompt Engineering · AI 提示詞技巧",
+      "type": "free-youtube",
+      "highlight": "泛科學院出品，4 招實戰技巧讓你無需死記別人範本，自己就能寫出高品質提示詞。涵蓋角色設定、情境描述、輸出格式到語氣調校，手把手帶你讓 AI 真正聽懂每句話，適合創作者與上班族快速上手。",
+      "thumbnail_url": "https://i.ytimg.com/vi/xqHUrLOJixQ/hqdefault.jpg",
+      "thumbnail_accent": "#7c3aed",
+      "thumbnail_initial": "泛科"
+    },
+    {
+      "title": "用完這個 AI 保證你立刻退訂其它設計工具！Lovart 完整教學｜泛科學院",
+      "provider": "YouTube · 泛科學院",
+      "url": "https://www.youtube.com/watch?v=fYPAu8FI-ik",
+      "cost": "免費",
+      "topic": "AI 設計工具 · Lovart Design Agent",
+      "type": "free-youtube",
+      "highlight": "泛科學院深度測評全球首個 AI 設計 Agent Lovart，對話式生成 Logo、海報到品牌視覺系統，速度與品質媲美設計師團隊。示範從想法到成品全流程，是創作者與內容行銷人替換 Canva 的最佳指南。",
+      "thumbnail_url": "https://i.ytimg.com/vi/fYPAu8FI-ik/hqdefault.jpg",
+      "thumbnail_accent": "#7c3aed",
+      "thumbnail_initial": "泛科"
+    },
+    {
+      "title": "你唯一需要的 Claude 教學，從入門到打造你的 AI 團隊｜泛科學院",
+      "provider": "YouTube · 泛科學院",
+      "url": "https://www.youtube.com/watch?v=qYKRiZBWrZ4",
+      "cost": "免費",
+      "topic": "Claude AI · 完整入門 · AI 工作團隊",
+      "type": "free-youtube",
+      "highlight": "泛科學院 2026 年 Claude 全攻略，從最基礎的對話技巧一路到 Projects、Skills 設定，最終打造出能自動處理任務的 AI 助理團隊。結構清晰、中文解說，是目前最系統化的 Claude 中文學習路徑。",
+      "thumbnail_url": "https://i.ytimg.com/vi/qYKRiZBWrZ4/hqdefault.jpg",
+      "thumbnail_accent": "#7c3aed",
+      "thumbnail_initial": "泛科"
+    },
+    {
+      "title": "CLAUDE CODE 4 小時完整教學：Skills / AI 自動工作 / 搜集資料 (2026)",
+      "provider": "YouTube · Claude Code 中文教學",
+      "url": "https://www.youtube.com/watch?v=fYuohy6rQ9c",
+      "cost": "免費",
+      "topic": "Claude Code · Skills · AI 自動化工作流",
+      "type": "free-youtube",
+      "highlight": "四小時超完整課程，深入講解 Claude Code 的 Skills 架構設計、如何讓 AI 自動執行重複性任務與自動搜集資料。從零安裝到進階 Agent 應用一氣呵成，是目前中文圈涵蓋廣度最全的 Claude Code 教學。",
+      "thumbnail_url": "https://i.ytimg.com/vi/fYuohy6rQ9c/hqdefault.jpg",
+      "thumbnail_accent": "#dc2626",
+      "thumbnail_initial": "CC"
+    },
+    {
+      "title": "忘掉 ChatGPT 吧！Claude Cowork + Skills 打造 AI 自動化系統｜零基礎入門",
+      "provider": "YouTube · Claude 中文教學",
+      "url": "https://www.youtube.com/watch?v=a5OTTbSCpO8",
+      "cost": "免費",
+      "topic": "Claude Cowork · Skills · AI 工作自動化",
+      "type": "free-youtube",
+      "highlight": "2026 年 3 月最新教學，手把手帶零基礎學員建立 Claude Cowork + Skills 工作流，實現自動化處理 99% 重複性任務。清楚解釋 Dispatch、記憶設定與子代理協作，適合想從 ChatGPT 切換到 Claude 生態的創作者。",
+      "thumbnail_url": "https://i.ytimg.com/vi/a5OTTbSCpO8/hqdefault.jpg",
+      "thumbnail_accent": "#d97706",
+      "thumbnail_initial": "CW"
+    },
+    {
+      "title": "從零基礎到精通 n8n！萬用三步驟做出 AI 自動化助理（超簡單）",
+      "provider": "YouTube · n8n 中文教學",
+      "url": "https://www.youtube.com/watch?v=mNRphFUPzjE",
+      "cost": "免費",
+      "topic": "n8n · AI 自動化助理 · 工作流設計",
+      "type": "free-youtube",
+      "highlight": "2026 年 3 月發布的 n8n 精通指南，以「萬用三步驟」框架教你快速搭建 AI 自動化助理。涵蓋節點設定、AI 決策邏輯與工作流串接，零程式基礎也能在一支影片內完成可用的自動化系統。",
+      "thumbnail_url": "https://i.ytimg.com/vi/mNRphFUPzjE/hqdefault.jpg",
+      "thumbnail_accent": "#ea580c",
+      "thumbnail_initial": "n8n"
+    },
+    {
+      "title": "Vibe Coding 是什麼？不到半年將完全取代工程師？2026 最重要 AI 開發新方法",
+      "provider": "YouTube · Vibe Coding 中文教學",
+      "url": "https://www.youtube.com/watch?v=eFYZxXPPPDU",
+      "cost": "免費",
+      "topic": "Vibe Coding · AI 輔助開發 · 自然語言寫程式",
+      "type": "free-youtube",
+      "highlight": "2026 年 1 月清楚解析 Vibe Coding 趨勢：以自然語言取代傳統逐行寫碼，介紹三大主流 AI 工具並討論對工程師職業的真實影響。非技術背景的創作者、行銷人、設計師必看的時代趨勢解說。",
+      "thumbnail_url": "https://i.ytimg.com/vi/eFYZxXPPPDU/hqdefault.jpg",
+      "thumbnail_accent": "#059669",
+      "thumbnail_initial": "VC"
+    },
+    {
+      "title": "超強 AI 前端設計師！Claude Design 聊天即生成網站並一鍵上線教學",
+      "provider": "YouTube · Claude AI 教學",
+      "url": "https://www.youtube.com/watch?v=JxaI6HK2onc",
+      "cost": "免費",
+      "topic": "Claude Design · AI 網站生成 · 前端設計",
+      "type": "free-youtube",
+      "highlight": "示範 Claude Design 如何透過純對話生成完整網站 UI，內建設計系統、一鍵部署上線，全程無需動 CSS。適合想快速製作 Landing Page 或個人作品集的創作者，展現 AI 設計 Agent 的真實落地能力。",
+      "thumbnail_url": "https://i.ytimg.com/vi/JxaI6HK2onc/hqdefault.jpg",
+      "thumbnail_accent": "#1e40af",
+      "thumbnail_initial": "CD"
+    },
+    {
+      "title": "Building AI Agents that Actually Work (Full Course) | Remy Gaskell",
+      "provider": "YouTube · Remy Gaskell",
+      "url": "https://www.youtube.com/watch?v=eA9Zf2-qYYM",
+      "cost": "免費",
+      "topic": "AI Agents · Agent Loops · Production Agentic AI",
+      "type": "free-youtube",
+      "highlight": "Remy Gaskell's 59-minute crash course on building real-world AI agents: covers agent loops, context files, memory systems, MCP tool connections, and skills. Demos Claude Code, Codex, and multiple platforms. Zero-jargon, production-focused — published March 2026.",
+      "thumbnail_url": "https://i.ytimg.com/vi/eA9Zf2-qYYM/hqdefault.jpg",
+      "thumbnail_accent": "#7c3aed",
+      "thumbnail_initial": "RG"
+    },
+    {
+      "title": "n8n AI Agents & Automation Complete Course (2026)",
+      "provider": "YouTube",
+      "url": "https://www.youtube.com/watch?v=eQNkwr82KVo",
+      "cost": "免費",
+      "topic": "n8n · AI Agents · Workflow Automation Full Course",
+      "type": "free-youtube",
+      "highlight": "Comprehensive 2026 n8n course covering AI agents, LLM integration (ChatGPT, Claude, Gemini), RAG pipelines, and production workflow automation end-to-end. Includes community support and real business use-case examples — ideal for building and selling AI automation services.",
+      "thumbnail_url": "https://i.ytimg.com/vi/eQNkwr82KVo/hqdefault.jpg",
+      "thumbnail_accent": "#ea580c",
+      "thumbnail_initial": "n8n"
     }
   ]
 }
