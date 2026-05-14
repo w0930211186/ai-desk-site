@@ -17,52 +17,124 @@
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/05/13/anthropic-now-has-more-business-customers-than-openai-according-to-ramp-data/",
       "blurb": "Ramp 五萬家企業支出數據顯示，Anthropic 四月付費採用率 34.4% 首超 OpenAI 的 32.3%，一年成長四倍，企業 AI 採購格局正式出現具體換位信號。",
-      "editorial": "<p><strong>第一</strong>：根據 Ramp 於 2026 年 5 月 13 日發布的 AI Index，從五萬家企業支出數據顯示的付費採用率來看。其中 Anthropic 四月付費採用 34.4%，過去一年成長 3.8 倍，超越 OpenAI 的 32.3%（過去一年成長 2.9 倍）。其次一年內 Anthropic 付費採用率成長 9%，快速接近 OpenAI 的 0.3%。Ramp 標榜具有「最真實企業採用 token」，基於真實 token 層次的消費金額。</p><p><strong>第二</strong>：Anthropic 的比較優勢來自稠密推理與安全首席的標籤——Claude Code 在企業軟體開發中的應用擴大，並已與 Microsoft 365 深度整合，Claude Agents 的 Agentic 工作流以 GitHub Copilot 受到嚴格審視；再加上 OpenAI 於近 9 月法說會對中國業務的 AI 採購觀察修正，Claude Opus 4.6 在代碼生成和多步驟工作流的優先表現，使企業評估訓練費用選擇的趨向已開始影響下一波採購決策。</p><p><strong>第三</strong>：對 CIO 看法，Anthropic 付費超越 OpenAI 的 ARR 數據正式確立換位信號，企業採購與部署策略需更新，不再假設 OpenAI 一定是採購的起點；若企業現在 OpenAI 功能受限或需重新談判合約，不排除中間有 Anthropic ARR 三百億 token 部署數據和彼此對應的企業的 IT 採購中 token 消費呈現成長趨勢。其次 $900B 的估值是 Anthropic IPO 的強力推算信號，到 300 ARR 距離 Bloomberg 的 9,000 億 Series G 在下半年推進的速度是可以預期的。</p>"
+      "editorial": "<p><strong>第一</strong>：企業支出管理平台 Ramp 於 2026 年 5 月 13 日發布 AI Index，數據基於逾五萬家企業客戶的付費紀錄。四月數據顯示，Anthropic 付費採用率達 34.4%，較三月增長 3.8 個百分點，首度超越 OpenAI 的 32.3%（較三月下降 2.9 個百分點）。十二個月前 Anthropic 企業採用率僅 9%，年內成長幅度超過四倍；OpenAI 同期增幅僅 0.3%。Ramp 指標衡量「付費企業佔比」，側重客戶廣度而非 token 支出金額。</p><p><strong>第二</strong>：Anthropic 的增長軌跡有清晰的結構性驅動力——Claude Code 在開發者工具鏈的大規模滲透帶動組織層級付費轉化，金融服務 Agents 套件進入企業採購快車道，以及面向 Microsoft 365 深度整合帶來的生態黏性。值得注意的是，VentureBeat 同日分析點出三個反轉威脅：Anthropic 的 token 定價模式與企業控費訴求存在結構性張力；開源推論平台的快速崛起提供「足夠好」的低成本替代路徑；OpenAI 在消費者端 9 億週活用戶（2026 年 3 月）與企業收入佔比超 40% 的基本面護城河短期難以動搖。</p><p><strong>第三</strong>：對 CIO 而言，雙供應商策略（OpenAI + Anthropic）正成為企業採購常態，多元化議價邏輯將同步重塑合約條款。對開發者而言，Anthropic 企業端加速滲透意味著 Claude API 的服務等級與速率上限改善優先度持續提升。對投資人而言，若六月 Ramp 數據延續趨勢，Anthropic 目前洽談中的 $900B 估值融資將獲市場份額數據的直接支撐；反之，若出現回落，將重燃對 $900B 溢價的定價質疑。</p>"
     },
     {
       "id": "pulse-2026-05-13-19-trump-china-ceo-delegation-arrival",
       "ts": "2026-05-13T19:05:00+08:00",
-      "title": "寭埃峰會前配奨大企業家代表團抵京 · Musk、Huang、Cook 三巨頭和 H200 晶片授權談判進入執行期",
+      "title": "川習峰會前夕矽谷最大代表團抵京 · Musk、Huang、Cook 三強並列 H200 禁令鬆綁進入倒數",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/05/13/trump-china-xi-beijing-meeting-ceos.html",
-      "blurb": "Trump 指名 Elon Musk、Jensen Huang、Tim Cook 和一性對外公布的多位 CEO 隨行，在北京展開最可能對全局 AI 晶片授權談判進入執行期具有最高影響力的賣啓類外交行程，NVIDIA 銷售高集成 H200 晶片的談判路線圖一抬就應，將寝袯高高算力授權談判進入執行期的核心協議。",
-      "editorial": "<p><strong>第一</strong>：2026 年 5 月 13 日，突破多方自賿 Trump 全内全外的大企業家代表團正式抵京，正式展開 AI 晶片授權談判的實質執行。階層 Tesla 執行長 Elon Musk、NVIDIA 執行長 Jensen Huang（由 Trump 親鼽邀請臨時加入）、Apple 執行長 Tim Cook，加上 BlackRock、Blackstone、Citi、Goldman Sachs、Mastercard、Micron、Qualcomm、Visa、Boeing、GE Aerospace、Cargill 共超十二家金融科技安防配置代表團。NVIDIA 股價盤中上漲 1.9%，Tesla 同步上漲。中國正式展開 5 月 14 日峰會汏幕，金融資訊市場路線已扑满 AI 晶片授權談判的展望推演。</p><p><strong>第二</strong>：兩位執行長的同時現身與谈判圈相互參照，托串起無可回避的展示效应：Huang 的在場是對 H200 出口——即 NVIDIA 在決定內部專持有緣所知訊的商業可信度背書；Musk 同時像孔 SpaceXAI 對對展期高懈前線 Grok 的史中百與金融正式化封尾的展示杈局。水園客 Cook 檢查 Apple Intelligence 在中山的部署路線。最寬中的是，DeepSeek 已完成在 Huawei 晶片上的最佳化部署，削弱了「封鎖有效」的論點，美就 H200 的要請不如中方迫切，并且造就了 China Hawk 雙邊谈判利益與 H200 重進金融正式化占尾的展示杈局。</p><p><strong>第三</strong>：對 BEXS 學員，5 月 14 日峰會正式展開的最高優先預測訊號是看 AI 晶片授權談判進展以及回應 AI 治理對話渠道的談判訊號。對 CIO，汇繯 H200 的授權談判目前對雲端從業者進入展眼戴其局，應預留採購路線圖彈性視窗，不排除 frontier lab 在同一雲端中己將各自部署嘗試的可能性，是 2026 年最高核成本 macro 歸因分析視窗，對全球算力暫能對 AI 治理渠道的影響。對 frontier lab 看法，Musk 同時距踢各路訊號（SpaceXAI Colossus）、投資（X）對 Tesla 中山對峰會的對應游說，是 2026 年多路等決策最更鈴屐的永久記錄。</p>"
+      "blurb": "Trump 親率 Elon Musk、Jensen Huang、Tim Cook 及逾十二位科技金融 CEO 登陸北京，史上規模最大的矽谷赴華代表團正式出現在川習峰會現場，NVIDIA 漲 1.9%、Tesla 跟漲，H200 晶片禁令能否實質鬆綁成為明日雙邊會談的算力外交核心變數。",
+      "editorial": "<p><strong>第一</strong>2026 年 5 月 13 日，美國總統 Trump 率史上規模最大的科技金融 CEO 代表團降落北京，正式揭開川習峰會序幕。隨行成員包含 Tesla 執行長 Elon Musk、NVIDIA 執行長 Jensen Huang（應 Trump 親電臨時加入）、Apple 執行長 Tim Cook，以及 BlackRock、Blackstone、Citi、Goldman Sachs、Mastercard、Micron、Qualcomm、Visa、Boeing、GE Aerospace、Cargill 等逾十二家機構代表。NVIDIA 股價盤中上漲 1.9%，Tesla 同步走高。峰會正式日程訂於 5 月 14 日展開，議程涵蓋 AI 晶片出口管制、稀土供應鏈、台灣問題及伊朗局勢。</p><p><strong>第二</strong>三位科技執行長的並行出席，代表算力外交的三條關鍵供應鏈在同一談判桌交匯。Huang 的核心訴求是解除 H200 晶片禁令——NVIDIA 雖於去年底獲得授權，但迄今未能向中國客戶出售任何 H200；Musk 同時代表 SpaceXAI 算力租賃業務與 Tesla 中國製造業兩張籌碼，其在代表團中的多重角色是此次談判最不透明的變數；Cook 則需為 Apple Intelligence 在中國的落地取得監管許可。值得注意的是，DeepSeek 已完成在華為晶片上的最優化部署，中方對 H200 解禁的談判迫切性有限，北京並非必須妥協的一方。美國國內 China Hawk 派系對此代表團高度警覺，任何實質出口管制鬆動均將觸發國內政治摩擦。</p><p><strong>第三</strong>對 BEXS 學員而言，5 月 14 日雙邊會談聯合聲明的措辭是今年迄今最關鍵的算力市場訊號——H200 任何實質鬆綁的潛在年度營收影響逾 150 億美元，是今年最大的單一 macro 事件風險窗口，應同步納入科技股劇烈波動對黃金等避險資產傳導路徑的情境評估。對 CIO 而言，若晶片禁令鬆動，中國雲端供應商（阿里雲、騰訊雲）算力補充，企業在亞太地區的 AI 推論服務採購格局將隨之重組，現有亞太 AI 基礎設施路線圖需預留彈性視窗。對 frontier lab 而言，Musk 同時控制算力（SpaceXAI Colossus）、社交媒體（X）及 Tesla 中國製造業，其在峰會後對中美 AI 協議的公開表態，是解讀軌道算力商業化地緣政治前景的重要先行指標。</p>"
     },
     {
       "id": "pulse-2026-05-13-18-korea-ai-profit-dividend-kospi",
       "ts": "2026-05-13T18:07:00+08:00",
-      "title": "南韓被動活化國內最大 AI 投資「公民紅利」政策對話 · 證券市場高漲 5%",
+      "title": "南韓總統府政策首席拋 AI 超額盈餘「公民股息」提案 · 韓綜指聞訊重挫 5%",
       "source": "Bloomberg",
       "url": "https://www.bloomberg.com/news/articles/2026-05-12/korea-floats-citizen-dividend-using-ai-profits-samsung-falls",
-      "blurb": "南韓彎畑道嘉金容入圖斯就資商 AI 投資歐對管協，貴杯半年兩度就 AI 投資得利公民紅利，證市（KOSPI）盤中激漲 5.1%，引發 G20 財長在內追關是否要強制 AI 投資利成分配的考標起竭。",
-      "editorial": "<p><strong>第一</strong>：南韓彎道嘉土金容入图斯卡安（Kim Yong-beom）於 2026 年 5 月 12 日在某 Facebook 影视、「AI 投資得利」質詢中，結合即將舉行的 SK 金融在地將 AI 投資得利境内展開公民紅利、公共家局振手詳述專家案理、支持者快速積累括展望行程。證市盤中 KOSPI 激漲 5.1%，兩度就内資對居民巨中心、公宣 AI 利得貢獻公庭的策略透明度或永領。透視封策，南韓於明年先完成 AI Dividend 骗很可能參參考層面組成以指標引對居民屬。</p><p><strong>第二</strong>：此次政策的意義在於下層：G20 財長在內追關是否要強制 AI 分配「公民 AI 利得分配對話之法」的正式圖統。如果強制规則路徑被正式主流化，對政策制定時間表將最為確定：OECD 的 AI Act 不再中山 AI 公司運用得利識别，將對公民分配以指標對居民元江遊交易。</p><p><strong>第三</strong>：對 CIO 看法，如果對公峰南韓 AI 得利展示公布是展示一對內項，對 AI 對得利展示巡展居民公布的對樣本對對居民對公民公布是展示一對居民展示巡居民展示展示展示居民展示展示公布居民展示展示展示展示展示。對 BEXS 學員，南韓對 AI 得利公民紅利首次公布是對得利公布公民對公布居民對居民展示巡對公民公布公民巡對對居民展示展示公布對巡對居民展示公布展示公對展示公公布巡居民對展示居民對展示。對 G20 財長，Samsung 對 AI 公布巡公民巡展示對巡公布巡對公布對巡居民巡對展示。</p>"
+      "blurb": "南韓總統府政策首席金容範提議將三星、SK 海力士 AI 超額稅收轉為全民股息，韓國綜合指數（KOSPI）盤中重挫 5.1% 後收復，成為 G20 成員國首個正式觸探 AI 盈餘課稅分配模型的公開信號。",
+      "editorial": "<p><strong>第一</strong>南韓總統府政策首席金容範（Kim Yong-beom）於 2026 年 5 月 12 日在個人 Facebook 拋出「AI 利潤社會稅」概念，建議將三星電子及 SK 海力士在半導體與 AI 景氣中累積的超額稅收，以「公民股息」形式分配給年輕創業者、農漁村基本收入及文化藝術補助。消息一出，韓國綜合指數（KOSPI）盤中重挫 5.1%，三星電子、SK 海力士雙雙重挫，其後官方澄清「屬個人意見，尚未進入正式討論」，指數才逐步收復跌幅。</p><p><strong>第二</strong>此提案的戰略意義在於，它是首個由 G20 成員國總統府層級官員正式觸探「AI 超額利潤課稅暨全民分配」的公開信號。過去兩年，歐盟 AI Act 及美國行政令均聚焦於安全與問責框架，尚未觸及利潤分配。南韓的試探性提案打開了新的監管軌道——「AI 財富重分配」。若此邏輯擴散至歐盟或其他 OECD 成員，半導體龍頭（三星、SK 海力士、英偉達、台積電）及 AI frontier lab 的估值模型將面臨系統性重估壓力，「算力壟斷即財富壟斷」的政治敘事一旦形成，監管的路徑依賴將難以逆轉。</p><p><strong>第三</strong>對企業 CIO 而言，這是一個早期預警信號：全球政府已開始超越「治理風險」，進入「利潤分配義務」討論。對投資人而言，市場對一則 Facebook 貼文即重挫 5% 的反應，顯示 AI 板塊政策敏感度已達高位，任何監管消息都可能成為槓桿式催化劑，黃金投資者應將「AI 稅收監管風險情緒」納入科技拋售傳導至避險資產的觸發框架。對 AI 廠商而言，「公民分配 AI 利潤」敘事一旦成為主流，可能加速強制授權或開源義務的立法嘗試。後續觀察點：南韓國民議會是否接棒立法，以及 G20 財長會議是否出現呼應聲音。</p>"
     },
     {
       "id": "pulse-2026-05-13-17-google-spacex-project-suncatcher",
       "ts": "2026-05-13T17:04:00+08:00",
-      "title": "Google 和 SpaceX 活談「Project Suncatcher」賓巳統腦力公司 · AI 從地機對入談判期",
+      "title": "Google 與 SpaceX 洽談「Project Suncatcher」軌道算力合作 · AI 算力鏈第一次認真試探離地軌道",
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/05/12/report-google-and-spacex-in-talks-to-put-data-centers-into-orbit/",
-      "blurb": "Google 對外確認正在活談 Project Suncatcher 者讠舉全面肙地機和 SpaceX 將資料中心安裝到軌道，此前 Anthropic 上山完成 Colossus 1 決計跟訊在將全機核道統腦力跟訊不足率和，AI 決計跟訊的建立視窗很可能是最專齒內外屋的地機誮議。",
-      "editorial": "<p><strong>第一</strong>：2026 年 5 月 12 日，Alphabet Google 對外確認正在和 SpaceX 活談將資料中心安裝到軌道貢錢內寺定 Project Suncatcher 活談。Project Suncatcher 是 Google 的賓巳統腦力路線中，決計安裝 TPU 的資料中心的限制屠不容易屋頂安裝的資料中心，將安裝屠到軌道統腦力的第一婦誌。安裝軌道 2027 年對展 Planet Labs 對刻画定第一批對資料中心資訊。Google 對話 2027 年對 SpaceX Planet Labs 教對諦花對諦花。</p><p><strong>第二</strong>：此次安裝居連的特點安裝居連是居連：一是 SpaceX 已有展示軌道統腦力的商業可信度。Google 的對 SpaceX IPO 對展有對展；Anthroptic 對展 SpaceX IPO 對展成功安裝。軌道統腦力資料中心，少 Anthropic 對展 Colossus 1 跟訊 SpaceX 統腦力跟訊的對話話對，不對軌道統腦力跟訊非同資料中心統腦力跟訊。軌道安裝對統腦力對資料中心軌道資料中心對資料中心統腦力。</p><p><strong>第三</strong>：對 CIO 看法，賓巳統腦力跟訊競爭對分此對一 Google TPU 對展示非賓巳統腦力資料中心對展第對展真。對 BEXS 學員，賓巳統腦力跟訊的展示示展 SpaceX 統腦力 API 的逋安裝居連。對 frontier lab 看法，Google TPU 對展頂對統腦力資料中心尞将對展真對自展真展真展緣對 Google TPS 統腦力跟訊展示。</p>"
+      "blurb": "Google 確認旗下 Project Suncatcher 衛星算力計畫已與 SpaceX 及其他供應商洽談發射合約，繼 Anthropic 上週完成 Colossus 1 算力協議並表達軌道算力興趣後，AI 算力鏈的太空化圖景正式從概念走向合約談判層次。",
+      "editorial": "<p><strong>第一</strong>2026 年 5 月 12 日，Alphabet Google 確認已與 SpaceX 及其他發射供應商就 Project Suncatcher 進行初步洽談。Project Suncatcher 是 Google 的軌道資料中心研究計畫，核心設想是將搭載 TPU 的衛星組成太陽能驅動的軌道算力叢集，以自由空間光學鏈路互連，長期目標是建立邊長 1 公里、包含 81 顆衛星的算力陣列。Google 計畫 2027 年初與 Planet Labs 合作發射兩顆原型衛星，目前談判尚屬初步，同時與多家火箭供應商接觸。</p><p><strong>第二</strong>此次披露的戰略背景有兩層：一是 SpaceX 正籌備估值 1.75 兆美元的 IPO，軌道算力商業化是其核心投資敘事，Google 的公開確認為 SpaceX IPO 提供了重要的商業可信度背書；二是 Anthropic 於同週與 SpaceX 簽署 Colossus 1 算力協議，並在協議中明確保留軌道算力合作選項——兩大 frontier lab 在同一週以不同形式確認了對 SpaceX 軌道算力的興趣，將太空算力從科幻敘事拉進商業議程。主要技術障礙包括熱管理、輻射損傷及太空碎片風險，地面算力成本目前仍遠低於太空方案。</p><p><strong>第三</strong>對 CIO 而言，軌道算力短期不影響採購決策，但它為「算力主權」開闢新的地緣政治維度：哪個國家或企業能控制軌道算力資產，將成為下一輪 AI 治理討論的關鍵議題。對 BEXS 學員而言，SpaceX IPO 估值中軌道算力業務的定價邏輯是值得追蹤的關鍵槓桿點，Google 的公開確認是軌道算力商業可行性的重要先行指標，應納入 2027 年前 AI 基礎設施投資主題的評估框架。對開發者而言，Google TPU 衛星計畫若推進，可能加快空間計算 API 標準化的時程。</p>"
     },
     {
       "id": "pulse-2026-05-13-17-anthropic-spacex-colossus-compute",
       "ts": "2026-05-13T17:04:00+08:00",
-      "title": "Anthropic 對外確認 SpaceX Colossus 1 磁源儀 22 億組 GPU · Claude 決計跟訊 Google-Amazon 計輭文件",
+      "title": "Anthropic 包下 SpaceX Colossus 1 全部 22 萬顆 GPU · Claude 算力供應鏈首度跨出 Google-Amazon 雙雲框架",
       "source": "Anthropic",
       "url": "https://www.anthropic.com/news/higher-limits-spacex",
-      "blurb": "Anthropic 對 SpaceX 內力内力安裝，將 Colossus 1 對展 300MW 潑領 22 億組 NVIDIA GPU 的磁源儀容量，Claude Pro/Max 對展上限上限，SpaceX 內力 Anthropic 決計跟訊對展一對展成功安裝。",
-      "editorial": "<p><strong>第一</strong>：2026 年 5 月 6 日，Anthropic 對外「Code with Claude」對謝遍超座位磁源儀 SpaceX 內力決計跟訊，將 Colossus 1 對展 300MW 潑領 22 億組 NVIDIA GPU（包括 H100、H200 對 GB200）的磁源儀容量，Colossus 1 對展 122 億組、92 億組 20 億組 GPU，對展對對資料中心安裝。Claude Pro/Max 上限。</p><p><strong>第二</strong>：Anthropic 的將展成功安裝對展成功步度對 Google Cloud 對 Amazon AWS，展成功安裝 SpaceX 展成功安裝，對 xAI 的；Musk 同時對 SpaceXAI 對 Tesla，對展成功安裝展對四幸對對展成功安裝展成功安裝。</p><p><strong>第三</strong>：對 Claude Pro/Max 對展成功安裝對展成功安裝對 CIO 展成功安裝 Claude 對展成功安裝對展成功安裝對 BEXS 學員，Anthropic ARR 對展成功安裝，IPO 展成功 SpaceX IPO 對展成功安裝。</p>"
+      "blurb": "Anthropic 與 SpaceX 達成算力協議，取得 Colossus 1 資料中心超過 300MW 容量及 22 萬顆 NVIDIA GPU 的全部使用權，Claude Pro/Max 使用上限隨即提升，SpaceX 成為 Anthropic 算力供應鏈中第一個非雲端供應商。",
+      "editorial": "<p><strong>第一</strong>2026 年 5 月 6 日，Anthropic 於「Code with Claude」開發者大會宣布與 SpaceX 達成算力協議，取得 Colossus 1 超級計算機超過 300MW 容量與逾 22 萬顆 NVIDIA GPU（含 H100、H200 及 GB200）的全部使用權，Colossus 1 位於田納西州孟菲斯，曾以 122 天建成、92 天翻倍至 20 萬顆 GPU 創下業界紀錄。協議同時包含「探索數 GW 軌道算力容量」的意向條款，為後續衛星算力合作預留空間。Claude Pro/Max 訂閱用戶使用上限隨即提升。</p><p><strong>第二</strong>此協議在算力供應鏈格局上具有結構性意義：Anthropic 的主要算力來源迄今高度集中於 Google Cloud 與 Amazon AWS，此次引入 SpaceX 作為第三方非雲供應商，是 Anthropic 算力多元化策略的第一個明確行動。協議的政治脈絡同樣值得注意——SpaceX 由馬斯克控制，後者同時是 xAI 的創辦人及 OpenAI 的法庭對手；馬斯克公開表示此合作「沒有觸發我的警覺」，反映算力資源的稀缺程度已超越商業競爭的零和邏輯，稀缺性本身成為跨越意識形態邊界的合作驅動力。</p><p><strong>第三</strong>對 Claude Pro/Max 用戶及企業 API 客戶而言，使用上限的直接提升是最即時的影響。對 CIO 評估 Claude 平台穩定性而言，算力供應鏈多元化是正面訊號，降低了對單一雲端供應商的依賴風險。對 BEXS 學員而言，Anthropic ARR 突破 300 億美元的背景下仍面臨算力瓶頸，說明高端 AI 服務的供給端制約尚未解除，算力稀缺性主題繼續為 NVIDIA 系統性估值溢價提供基本面支撐，亦為 SpaceX IPO 的算力租賃業務敘事添加重要的商業驗證。</p>"
     },
     {
       "id": "pulse-2026-05-13-17-caisi-nist-frontier-ai-testing",
       "ts": "2026-05-13T17:04:00+08:00",
-      "title": "美 NIST 折庑 CAISI 對 Google DeepMind、Microsoft、xAI 委托 frontier AI 安全測試 · 賽予實際第三方監管框架全面發展",
+      "title": "美 NIST 旗下 CAISI 與 Google DeepMind、Microsoft、xAI 完成 frontier AI 預部署評估協議 · 五大實驗室全納美政府審查框架",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/05/05/ai-oversight-trump-google-microsoft-xai.html",
-      "blurb": "美國 NIST 折庑 CAISI 對 Google DeepMind、Microsoft、xAI 委託 frontier AI 安全測試，不負費用少引對 AI 安全測試決計跟訊忍考從展真模型安全領對及屠忍考從記錄公会考從記錄公展。",
-      "editorial": "<p><strong>第一</strong>：2026 年 5 月 5 日，美國政府 NIST 折庑 AI 計劃屠 CAISI 對 Google DeepMind、Microsoft 對 xAI 委託 frontier AI 安全測試。CAISI 對容忍考從展真對没有，屠忍考從對没有屠忍考從對没有。</p><p><strong>第二</strong>：得話 frontier lab 安全測試安全測試安全測試安全測試安全測試安全測試安全測試安全測試安全測試安全測試安全測試安全測試安全測試安全測試安全測試。</p><p><strong>第三</strong>：對 CIO 看法，frontier lab 安全測試安全測試安全測試安全測試安全測試安全測試安全測試安全測試安全測試安全測試安全測試安全測試安全測試安全測試安全測試對 BEXS 學員，對安全測試安全測試安全測試安全測試安全測試安全測試安全測試安全測試安全測試安全測試安全測試安全測試安全測試安全測試安全測試安全測試安全測試安全測試安全測試安全測試安全測試安全測試安全測試安全測試安全測試安全測試安全測試安全測試安全測試安全測試安全測試安全測試安全測試安全測試。</p>"
+      "blurb": "美國 NIST 旗下 CAISI 宣布與 Google DeepMind、Microsoft、xAI 簽署 frontier AI 預部署評估協議，範圍涵蓋網路安全、生物武器及化學武器風險，加上原有的 Anthropic 與 OpenAI，五大 frontier lab 已全數納入美政府預部署安全審查框架。",
+      "editorial": "<p><strong>第一</strong>2026 年 5 月 5 日，美國商務部 NIST 旗下 AI 標準與創新中心（CAISI）宣布與 Google DeepMind、Microsoft 及 xAI 簽署 frontier AI 預部署評估協議。依協議，CAISI 將在模型公開發布前進行評估，並於部署後持續追蹤，重點範圍涵蓋網路安全、生物武器及化學武器風險。評估過程中，開發商須向政府評估人員提供移除或降低安全護欄的模型版本。協議以 2024 年 Biden 政府與 Anthropic、OpenAI 簽署的類似協議為基礎重新談判，符合川普政府《AI 行動計畫》框架，CAISI 至今已完成逾 40 次此類評估。</p><p><strong>第二</strong>五大 frontier lab 全數納入政府預部署審查框架，標誌著 AI 安全治理從「自願承諾」進入「機構化協議」的臨界點。值得注意的是，協議允許在機密環境下進行測試，且開發商須提供護欄移除版本——這實質上讓美國政府在商業發布前取得最前沿 AI 能力的直接評估視窗，形成非對稱資訊優勢。協議的地緣政治意涵同樣顯著：CAISI 的審查框架不包含中國 AI 廠商，在川習峰會前夕此安排進一步強化了美方在 AI 能力透明度上的單邊立場。</p><p><strong>第三</strong>對 CIO 而言，frontier lab 接受政府預部署評估意味著重大模型更新的發布節奏可能受審查期影響，採購計畫需預留緩衝窗口。對開發者而言，協議確認了「高風險能力」被政府視為優先評估對象，若未來評估觸發限制，相關 API 功能的可用性可能出現區域差異。對 BEXS 學員而言，政府審查框架的正式化長期有利於建立 AI 產業公信力，但短期內可能造成發布時程不確定性，對模型更新週期依賴度高的企業 SaaS 股估值需納入此因素的系統性折價。</p>"
+    },
+    {
+      "id": "pulse-2026-05-13-16-jensen-huang-trump-beijing",
+      "ts": "2026-05-13T16:00:00+08:00",
+      "title": "黃仁勳應川普親電臨陣入場北京峰會 · 晶片禁令談判首度引入算力產業直接代言人",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/13/nvidia-says-ceo-jensen-huang-is-joining-trumps-china-trip.html",
+      "blurb": "川普親自致電 NVIDIA 執行長黃仁勳邀其加入 5 月 14-15 日北京川習峰會代表團，AI 晶片出口管制談判首度引入產業龍頭直接參與，峰會議程從貿易外交升格為算力供應鏈頂層重組談判。",
+      "editorial": "<p><strong>第一</strong>，5 月 13 日，NVIDIA 確認執行長黃仁勳（Jensen Huang）應川普總統親電邀請，加入赴北京的美國代表團，出席 5 月 14 至 15 日的川習峰會。峰會核心議題包括 AI 晶片出口管制、農業貿易及台灣問題，美方同步表示將推動建立中美 AI 直接溝通渠道。黃仁勳的加入高度出人意料：北京稍早對 NVIDIA H20 晶片啟動安全審查形同實質禁止進口，峰會前市場普遍估計黃仁勳赴京機率極低，川普直接致電打破了這一預期，NVIDIA 股價盤中隨即拉升。</p><p><strong>第二</strong>，此舉將 AI 晶片議題從政府外交軌道拉入產業協商層次，意義有二。其一，NVIDIA 對中國市場的直接商業訴求明確——H20 禁令估計令 NVIDIA 年度損失逾 150 億美元，黃仁勳在場為任何可能的出口緩和協議提供最有力的商業背書；其二，DeepSeek 已完成在 Huawei 晶片上的最佳化部署，削弱了「封鎖有效」的論點，中方談判底氣相較年初明顯提升，北京並不急於換取 H20 的重新進入，雙方均面臨讓步的政治成本。川普引入黃仁勳更多服務於國內政治敘事：展示矽谷產業界的存在感，為可能的出口寬鬆決定預先鋪陳。</p><p><strong>第三</strong>，對 BEXS 學員而言，晶片禁令任何鬆動都將直接衝擊 NVIDIA 股價及整體 AI 算力股估值，本週川習峰會是 2026 年至今最值得關注的 macro 事件風險窗口，建議密切追蹤 5 月 14 至 15 日峰會聲明措辭。對企業 CIO 而言，若 H20 市場重新開放，雲端供應商在亞太的算力部署節奏將加速，採購計畫視窗需同步更新。對開發者而言，DeepSeek 在替代晶片生態的商用成熟度顯示算力單一供應商依賴的架構風險有必要重新評估，非 NVIDIA 算力路徑的短期可行性已有具體案例支撐。</p>"
+    },
+    {
+      "id": "pulse-2026-05-13-16-anthropic-30b-arr-surpass-openai",
+      "ts": "2026-05-13T16:00:00+08:00",
+      "title": "Anthropic ARR 突破 300 億美元首度超越 OpenAI · 三年 344 倍成長重寫企業軟體擴張速度紀錄",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/technology/anthropic-says-it-hit-a-30-billion-revenue-run-rate-after-crazy-80x-growth",
+      "blurb": "Anthropic 確認年化營收 4 月突破 300 億美元首度超越 OpenAI 的 250 億美元，Claude Code 半年 ARR 達 25 億美元，以 OpenAI 四分之一的訓練支出完成企業軟體史上最快百億美元規模衝刺。",
+      "editorial": "<p><strong>第一</strong>，Anthropic 執行長 Dario Amodei 公開確認，公司年化營收於 2026 年 4 月達到 300 億美元，首度超越 OpenAI 的約 250 億美元，成為企業軟體史上最快抵達此門檻的公司。成長軌跡極為陡峭：2024 年 1 月僅 8,700 萬美元，2024 年 12 月突破 10 億美元，2025 年底達 90 億美元，2026 年 3 月達 190 億美元，4 月躍升至 300 億美元。Claude Code 是核心驅動引擎，2025 年年中公開推出後半年內 ARR 突破 25 億美元，每年消費逾 100 萬美元的企業客戶亦在 Series G 募資後不到兩個月內從 500 家倍增至 1,000 家。值得注意的是，OpenAI 對 300 億美元數字提出核算方法異議，認為實際數字約為 220 億美元。</p><p><strong>第二</strong>，Anthropic 超越 OpenAI 的結構性意義有三個層次。其一，Anthropic 在模型訓練支出僅為 OpenAI 四分之一的條件下完成超越，顯示 Claude 系列在算力效率上已形成系統性優勢，而非單純以資本換規模；其二，Claude Code 在開發者工具市場的滲透速度遠超 GitHub Copilot 早期曲線，確立了代理型 AI 工具以使用量計費模式的第一個規模化商業驗證；其三，OpenAI 的核算方法異議本身揭示兩家公司在收入確認口徑上的重大不透明性，暗示雙方即將到來的 IPO 估值之爭的基本面敘事可能高度分歧。</p><p><strong>第三</strong>，對 CIO 而言，Anthropic 企業客戶倍增且 ARR 超越 OpenAI，代表市場已形成實質雙頭競爭格局，單一 OpenAI 供應商綁定策略的議價空間正在收窄，多供應商 AI 架構重組的最佳時機窗口已開啟。對開發者而言，Claude Code ARR 突破 25 億美元驗證代理型 coding 工具的付費轉換率，是評估現有工具鏈綁定深度與遷移成本的重要參照點。對 BEXS 學員而言，300 億美元 ARR 加上 1,000 家百萬美元企業客戶，是 Anthropic IPO 定價的最具體商業基本面錨點，以 30 倍 ARR 計算隱含估值恰與 Bloomberg 報導的 9,000 億美元 Series G 估值上限吻合，後 IPO 的二次市場溢價空間需以此為基準重新定錨。</p>"
+    },
+    {
+      "id": "pulse-2026-05-13-16-meta-q1-2026-capex-145b",
+      "ts": "2026-05-13T16:00:00+08:00",
+      "title": "Meta Q1 2026 財報上調算力支出指引至 1,450 億美元上限 · 算力軍備競賽進入不可逆加速軌道",
+      "source": "Meta IR / Fortune",
+      "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-First-Quarter-2026-Results/default.aspx",
+      "blurb": "Meta Q1 2026 財報將全年資本支出指引從 1,150-1,350 億美元上調至 1,250-1,450 億美元，GPU 組件漲價為核心驅動，盤後股價下跌 6%，但 Zuckerberg 稱此為 AGI 時代的必要基礎建設卡位。",
+      "editorial": "<p><strong>第一</strong>，4 月 29 日，Meta 公佈 2026 年第一季財報，同步上調全年資本支出指引：由原預計 1,150 至 1,350 億美元調升至 1,250 至 1,450 億美元，調升幅度 100 億美元。公司說明調升主因為 GPU 組件在 2026 年的價格高於預期，以及支撐未來年度算力容量所需的額外數據中心建設成本。Meta Superintelligence Labs 的成立與高層人才招募計劃同步被引用為加速支出的戰略背景。財報公佈後，Meta 股價盤後下跌約 6%，反映市場對 capex 指引上修的短期消化壓力。</p><p><strong>第二</strong>，此次上調的戰略意義在於驗證算力支出競賽的結構性不可逆。Meta 的 1,450 億美元上限意味著其全年 capex 已接近 Google（約 750 億美元 Q1 指引）與 Microsoft（約 800 億美元）的總和，Meta 在算力絕對規模上的雄心已超越任何單一超大規模雲端供應商。更關鍵的是，Meta 明確點名 GPU 組件「價格高於預期」作為調升驅動，直接反映英偉達 Blackwell 系列在現有供應鏈框架下的持續性供需失衡——算力需求端剛性已被最大規模的消費者以財務數字公開確認。</p><p><strong>第三</strong>，對 BEXS 學員而言，Meta 的 capex 調升是觀察 NVIDIA 訂單能見度最直接的領先指標，也為能源基礎設施（數據中心電力）與冷卻技術供應商形成等量利多信號，是評估 AI 算力供應鏈上游資產的關鍵基本面更新。對 CIO 而言，Meta Superintelligence Labs 的全力押注意味著 Llama 系列開源模型的能力上限將與今日的 capex 決策直接掛鉤，企業採用 Llama 開源部署路線的中長期能力天花板正在同步上調。對開發者而言，Meta 的自建算力策略意味著 Meta AI 服務的定價具備長期下行壓力，是評估 Llama 系列開源生態可持續性與商業競爭力的重要財務背景信號。</p>"
+    },
+    {
+      "id": "pulse-2026-05-13-15-altman-openai-compute-spinout",
+      "ts": "2026-05-13T15:00:00+08:00",
+      "title": "Altman 籌設 OpenAI 多數持股獨立算力公司 · 算力基礎設施脫離主體報表成前沿實驗室新戰略正式開啟",
+      "source": "Sources (Alex Heath)",
+      "url": "https://sources.news/p/sam-altman-stargate-redux-maybe",
+      "blurb": "Sources.news 獨家：OpenAI 執行長 Sam Altman 正與投資人討論成立獨立算力公司，OpenAI 持有多數股份但公司獨立運營融資，目標複製 Stargate 架構、由 Altman 主導外部募資，將算力資產移出 OpenAI 主體報表以擴大資本靈活性。",
+      "editorial": "<p><strong>第一</strong>，Sources.news 記者 Alex Heath 引述知情人士，Altman 正就算力新公司與潛在投資人進行初步接觸。新公司結構設計為：OpenAI 持有多數股份，但融資與治理獨立進行，不受 OpenAI 現有股東結構約束。此計畫實質上是將算力基礎設施從 OpenAI 主體資產負債表切割出去，在 OpenAI 完成最新 $30B 融資輪、估值達 9000 億美元的高峰期以更靈活的方式吸引外部資本。</p><p><strong>第二</strong>，從戰略脈絡來看，此舉呼應了 Anthropic 與 Google/Broadcom 算力聯盟的分拆趨勢：前沿 AI 公司已意識到算力控制權不能完全依賴第三方，需自建供應鏈閉環。Altman 方案以 OpenAI 為信用背書但不將算力資產入表，既避免稀釋現有投資人持股，又保留獨立融資彈性，與 SoftBank 在 Stargate 的做法高度相似。</p><p><strong>第三</strong>，對企業 CIO 而言，若此計畫落地，OpenAI 算力自足程度將提升，長期依賴 AWS/Azure 的單點風險將降低，API 可用性與定價穩定性料將改善。對 BEXS 學員而言，算力資產獨立化意味著 AI 公司資本支出週期拉長，對 NVIDIA 等 GPU 製造商的長期採購議價力增強，有利於壓低算力邊際成本。</p>"
+    },
+    {
+      "id": "pulse-2026-05-13-15-musk-altman-trial-closing",
+      "ts": "2026-05-13T15:00:00+08:00",
+      "title": "Musk v. Altman 案明日結辯 · 陪審團下週出具建議票 AI 安全使命與商業利益之爭進入司法最終裁量",
+      "source": "Axios",
+      "url": "https://www.axios.com/2026/05/13/openai-trial-sam-altman-elon-musk-ai-safety",
+      "blurb": "Axios 5 月 13 日：Musk v. Altman 案結辯訂於明日（5/14），陪審建議票最快下週出爐，主審法官隨後作出最終裁定。若裁決不利於 Altman，OpenAI 最高恐須將 1500 億美元吐回非營利主體，Altman 與 Brockman 亦面臨被強制移除領導職位。",
+      "editorial": "<p><strong>第一</strong>，Axios 於 5 月 13 日報導，Musk v. Altman 案在加州北區聯邦地院即將進入尾聲：結辯訂於 5 月 14 日，陪審團建議票最快下週出具，主審法官 Yvonne Gonzalez Rogers 將作最終裁定。Altman 本週作證時表示，OpenAI 轉型為盈利架構是籌集足夠資金、安全開發 AI 的唯一途徑，並指 Musk 曾兩度試圖「掐死」OpenAI。</p><p><strong>第二</strong>，此案核心問題已超越創辦人恩怨，聚焦於更根本的命題：AI 實驗室的商業化模式是否必然侵蝕安全使命？Altman 的答辯邏輯是「安全需要資金、資金需要商業模式、商業模式需要結構轉型」，直接反駁 Musk「非營利才能保安全」的論述，但庭審也暴露他個人在 Helion、Stripe、Cerebras 等投資的潛在利益衝突。</p><p><strong>第三</strong>，對 AI 產業的結構性影響在於，無論裁決結果如何，本案已確立「AI 公司治理透明度」屬正式法律審查範疇。企業 CIO 部署 OpenAI API 服務時須納入平台治理穩定性評估；若 Altman 被裁定須退出，OpenAI 的服務連續性與模型路線圖均將面臨重大不確定性。BEXS 學員應留意，此案若重燃 AI 公司非營利義務爭議，將影響市場對 AI 基礎設施股的長期估值邏輯。</p>"
+    },
+    {
+      "id": "pulse-2026-05-13-15-softbank-graphcore-agi-chip",
+      "ts": "2026-05-13T15:00:00+08:00",
+      "title": "SoftBank 向英國晶片商 Graphcore 追加注資 4.57 億美元 · AGI 全棧帝國硬體自主化棋局浮現",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/12/softbank-graphcore-ai-chip-investment.html",
+      "blurb": "CNBC 5 月 12 日：英國公司登記顯示 SoftBank 以約 4.57 億美元認購 Graphcore 新股，為 2024 年收購後最大規模的追加注資，且僅為 SoftBank 今年對 Graphcore 計畫注資的「部分資金」，顯示孫正義正加速將 Graphcore 打造為 AGI 全棧計畫的自主晶片支柱。",
+      "editorial": "<p><strong>第一</strong>，英國公司登記資料顯示，SoftBank 於 4 月 10 日以約 4.57 億美元認購 Graphcore 單一新股，為 2024 年收購後最大規模的追加注資。CNBC 引述知情人士指出，此筆資金僅為 SoftBank 今年對 Graphcore 計畫注資的「部分資金」，後續金額視業務里程碑而定。Graphcore 在 2020 年代初曾被市場視為「英國版 NVIDIA」，但因商業化受阻於 2024 年以折讓價被 SoftBank 收購。</p><p><strong>第二</strong>，此次注資的戰略意義在於：SoftBank 正將 Graphcore 從問題資產重塑為 AGI 全棧帝國的自主晶片支柱。孫正義在 Stargate 持有 40% 份額，同時推動 Graphcore 以 IPU 架構配合自研晶片，目標是建立不依賴 NVIDIA H100/B200 系列的替代算力路徑，長期目標為 AGI 訓練與推論的完全硬體自足。</p><p><strong>第三</strong>，市場影響是雙重的：短期內，Graphcore 若能在 2026 年推出具競爭力的 AI 加速晶片，將為 NVIDIA 生態提供來自 SoftBank 系統的真實替代選項；長期而言，SoftBank「晶片＋算力＋模型＋機器人」垂直整合戰略一旦形成閉環，將從供應鏈上游壓縮對美系晶片巨頭的結構性依賴。對 BEXS 學員而言，英國 AI 晶片生態的復甦是觀察非美系算力供應鏈格局的重要窗口。</p>"
+    },
+    {
+      "id": "pulse-2026-05-13-14-anthropic-stainless-sdk-acquisition",
+      "ts": "2026-05-13T14:00:00+08:00",
+      "title": "Anthropic 洽購 OpenAI Google 共用 SDK 工廠 Stainless · 開發者基礎設施爭奪進入新維度",
+      "source": "The Information",
+      "url": "https://www.theinformation.com/articles/anthropic-talks-buy-developer-tools-startup-used-openai-google",
+      "blurb": "The Information 獨家：Anthropic 以逾 3 億美元洽購 SDK 自動生成平台 Stainless，此平台同時服務 OpenAI 與 Google，若成交，Anthropic 將首度持有競爭對手開發者生態的關鍵基礎設施層。",
+      "editorial": "<p><strong>第一</strong>The Information 於 5 月 12 日獨家報導，Anthropic 正就收購紐約新創 Stainless 進行進階談判，交易估值至少 3 億美元，相較 Stainless 於 2024 年 12 月的 1.5 億美元上輪融資估值溢價兩倍。Stainless 的核心產品是以 AI 從 API 規格自動生成 SDK 的平台，現有客戶包括 Anthropic、OpenAI 與 Google。消息人士指出，Stainless 工具是 Claude Code 代理效能提升的關鍵基礎設施之一。Anthropic 近半年已完成多起收購：開發工具新創 Bun（12 月）、電腦使用新創 Vercept，及 AI 生物科技新創 Coefficient Bio，Stainless 交易若完成將是規模最大的一筆。</p><p><strong>第二</strong>此次收購的戰略意義在於 Anthropic 首次嘗試控制對手開發者生態所依賴的基礎設施。若交易完成，Anthropic 將成為 OpenAI 和 Google 部分 SDK 生成鏈的持有方，在沒有任何直接技術封鎖的情況下，形成對競爭對手開發者工具鏈的微妙制衡籌碼。更深層的邏輯是：Anthropic 在 ARR 突破 300 億美元、9000 億美元估值在即的背景下，正以 M&amp;A 加速從「模型 API 供應商」升格為「開發者平台基礎設施」持有者，這一路徑轉換將直接影響其企業合約議價結構。</p><p><strong>第三</strong>對開發者而言，Stainless 若成為 Anthropic 旗下，OpenAI 與 Google 的 SDK 生成需求的長期供應連續性存在不確定性，需評估是否啟動 SDK 自建路線。對 OpenAI 與 Google，預計加速內部化 SDK 工具鏈以降低對 Anthropic 控制工具的依賴，中期可能形成 SDK 生成標準的技術分叉。對投資人，此收購標誌 Anthropic 進入「開發者平台整合」收購週期，IPO 估值框架將從純粹 AI 模型公司轉向「AI 開發者基礎設施平台」，對應更高的市場估值倍數，是調整 frontier AI 上市定價模型的重要新輸入。</p>"
+    },
+    {
+      "id": "pulse-2026-05-13-14-google-android-show-gemini-intelligence",
+      "ts": "2026-05-13T14:00:00+08:00",
+      "title": "Google Android Show 2026 · Gemini Intelligence 升格為 OS 代理層先行定義 WWDC 前的行動 AI 基準線",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/12/google-races-put-gemini-at-center-of-android-before-apples-ai-reboot.html",
+      "blurb": "Google 今日發布 Gemini Intelligence 計畫，Gemini 從語音助理升格為跨 App 代理操作層，直接執行任務而非僅提供建議，Apple WWDC 前 Google 率先定義下一代行動 AI 的競爭基準。",
+      "editorial": "<p><strong>第一</strong>5 月 13 日，Google 在 Android Show 2026 發布 Gemini Intelligence 計畫，宣布以 Gemini 重構 Android 的作業邏輯。Gemini Intelligence 不再是浮動語音助理，而是深度整合跨 App 的代理操作層：它可讀取螢幕內容、跨應用協調任務，在用戶授權範圍內自主執行操作，包括從 Gmail 提取資訊、建立購物車及預約訂位。App 自動化功能首先部署於最新 Samsung Galaxy 及 Google Pixel，此後分波擴展至 Android 手錶、車載系統、AR 眼鏡及筆電，計劃在 2026 年下半年陸續上線。在此之前，Apple 已於 1 月宣布以 Gemini 驅動下一代 Siri，確立 Google 模型在兩大行動生態的核心地位。</p><p><strong>第二</strong>此發布的戰略意義有三個層次。其一，Gemini Intelligence 是首個大規模商用的「代理行動作業系統」定義，將智慧型手機重新詮釋為 AI 代理端點，從根本上改變 App 生態的人機互動模式。其二，Google 的時間選擇高度精算：Apple WWDC 2026 預計六月舉行，今日發布確立「AI 原生行動 OS」的敘事先機，迫使蘋果在 Gemini Intelligence 所定義的代理能力基準下接受業界比較。其三，Gemini 同時服務 Android 原生與 iPhone Siri 場景，是迄今任何 AI 模型在消費端滲透率最廣的跨平台部署，廣告生態的長尾效益難以低估。</p><p><strong>第三</strong>對企業 CIO，代理行動 OS 要求即時審視現行 MDM 政策：跨 App 自主執行能力引入全新的資料存取面，現行 MDM 框架尚無對應的代理行為稽核機制，是未來兩季的合規優先事項。對開發者，Android Gemini Intelligence 的跨 App 代理能力代表 App 需主動開放標準化代理 API，否則將在新一代 Android 代理生態中失去可見性。對 BEXS 學員，Gemini 同時控制 Android 原生和 iPhone Siri 場景，對 OpenAI ChatGPT App 行動端入口形成直接競爭壓力，是評估 Alphabet AI 行動廣告變現能力的關鍵先行指標。</p>"
     }
   ]
 }
