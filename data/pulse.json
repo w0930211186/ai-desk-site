@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-05-14T12:05:00+08:00",
+  "updated_at": "2026-05-15T05:01:00+08:00",
   "items": [
+    {
+      "id": "pulse-2026-05-15-05-google-android-show-gemini-intelligence",
+      "ts": "2026-05-15T05:01:00+08:00",
+      "title": "Google Android Show 宣告行動 OS 時代終結 · Gemini Intelligence 以代理框架接管全球 33 億台裝置",
+      "source": "Google Blog",
+      "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence/",
+      "blurb": "Google 於 5 月 12 日舉辦 Android Show I/O Edition，正式宣告 Android 從「作業系統」轉型為「智慧系統」，Gemini Intelligence 跨應用代理框架夏季率先推送 Pixel 與 Galaxy，Googlebook 筆電同步亮相，行動 AI 代理主戰場正式開幕。",
+      "editorial": "<p><strong>第一</strong>2026 年 5 月 12 日，Google 在 Google I/O 前夕舉辦「Android Show：I/O Edition」，Android 生態系負責人 Sameer Samat 正式宣告 Android 從作業系統轉型為「智慧系統（intelligence system）」。核心公告 Gemini Intelligence 是嵌入 Android 底層的主動式 AI 代理框架，能跨應用理解畫面脈絡、串連多服務完成複合任務，示例場景包括自動從 Gmail 解析書單、建立購物車並完成結帳，以及以自然口語生成主畫面自定義小工具（generative UI widgets）。語音功能 Rambler 能將散漫語音整理為精簡訊息，Android 17 改善 Android-iOS 跨平台相容性。首批功能將於 2026 年夏季推送最新 Samsung Galaxy 及 Google Pixel，年內延伸至 Android 手錶、車機、智慧眼鏡與筆電。Google 同步宣布 Googlebook，以 Gemini Intelligence 為核心的 AI 筆電，正面競爭 Microsoft Copilot+ PC。</p><p><strong>第二</strong>Google 選擇在 Apple WWDC（6 月 8 日）一個月前獨立舉辦 Android Show，搶先確立「行動 AI 代理 OS」的敘事主導權。脈絡值得注意：Apple iOS 27 Extensions 開放框架（允許 Gemini、Claude、ChatGPT 進入 Siri 底層）在報導語境中被定位為「回應 Google」的步驟，而非主動出擊，Google 在議題設定層面取得先手。規模護城河同樣關鍵：Android 全球活躍裝置約 33 億台，Gemini Intelligence 若大規模落地，等同在目前最大的行動平台建立 AI 使用習慣基礎設施，此類習慣鎖定遠比 API 授權或 app 下載更難被競爭者替代。Googlebook 宣示 Google 首次以硬體方式全棧介入 AI 消費裝置設計層，對標 Microsoft Surface Copilot+ 與 OpenAI 即將在 2026 下半年發布的 Jony Ive 裝置。</p><p><strong>第三</strong>對企業 CIO 而言，Gemini Intelligence 的跨應用代理能力意味著 Android 企業裝置隊列的應用資料孤島假設正在瓦解，過去 MDM/MAM 框架以應用為最小管理單元，代理 AI 的跨應用操作需在合規框架內補充新的管控邊界，建議優先評估 Android Enterprise 管理 API 對 Gemini Intelligence 的政策設定選項。對開發者而言，跨應用代理 API 與 generative UI widget 框架是 Android 平台數年內最大的開發者機會視窗，應於 6 月 Google I/O 後追蹤 API 規格與接入申請時序，提早卡位平台級應用場景。對 BEXS 學員而言，Google 行動 AI 代理平台的確立強化了 Alphabet 廣告業務「AI 代理完成任務取代搜尋點擊」的長期變現敘事，Gemini Intelligence 的落地速度是 2026 下半年 Alphabet 廣告收入預期能否上修的關鍵先行信號，值得在 Q2 財報週前建立追蹤框架。</p>"
+    },
+    {
+      "id": "pulse-2026-05-15-05-eu-ai-act-omnibus-high-risk-deadline-2027",
+      "ts": "2026-05-15T05:01:00+08:00",
+      "title": "歐盟 AI Act Omnibus 達成政治協議 · 高風險系統合規截止延至 2027 年並明文禁止 AI 生成非自願親密影像",
+      "source": "EU Council",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/",
+      "blurb": "歐盟理事會與歐洲議會於 5 月 7 日凌晨達成 AI Act Omnibus 政治協議，高風險 AI 系統合規截止日延至 2027 年 12 月，並新增明文禁止 AI 生成非自願性親密影像，擴大對中小企業的監管豁免，首次以法律框架正面回應 AI 生成有害內容問題。",
+      "editorial": "<p><strong>第一</strong>歐盟理事會與歐洲議會談判代表於 2026 年 5 月 7 日凌晨 4 時 30 分達成 AI Act Omnibus 政治協議，正式修訂 2024 年生效的歐盟 AI 法規。最關鍵的結構性調整是合規期限全面延後：高風險 AI 系統（涵蓋生物辨識、關鍵基礎設施、教育、就業、執法及邊境管理等應用）的合規截止日延至 2027 年 12 月 2 日；嵌入受管制產品的高風險 AI 進一步延至 2028 年 8 月 2 日。AI 生成內容的浮水印要求截止日亦從 8 月延至 2026 年 12 月。新增禁止事項：明文禁止 AI 生成非自願性親密影像（含兒童性剝削素材），適用日期為 2026 年 12 月 2 日。對中小企業與中型企業的監管豁免範圍同步擴大，AI Office 權力同步強化。協議尚需歐洲議會及理事會正式批准後生效。</p><p><strong>第二</strong>此次 Omnibus 協議是歐盟首次正式承認原 AI Act 時程對企業造成合規負擔過重，期限延後 12–24 個月等同釋放明確的政策緩衝信號。戰略背景值得注意：在美國 CAISI 與 Trump 政府主導的相對寬鬆監管框架下，歐盟需要防止 AI 企業優先選擇在歐洲以外部署，期限延後是提升歐盟 AI 投資吸引力的主動調控。新增的 AI nudification 明文禁止是歐盟 AI 監管首次直接回應生成式 AI 對性剝削內容的推波助瀾，此類規範在未來可能被援引為其他司法管轄區立法的範本。同期，OpenAI 與 Anthropic 在 EU 市場對 AI 資安模型採取不同開放策略，說明 AI Act 的執行力度正在影響 frontier lab 的市場進入決策。</p><p><strong>第三</strong>對企業 CIO 而言，高風險 AI 合規截止日延至 2027–2028 年提供更充分的系統評估時間，但建議不要將此視為停滯信號，提早完成合規稽核可在供應商談判中取得話語優勢，尤其是 AI 系統評估機構（Notified Body）認證名額有限，早佔具體優勢。對 AI 從業者而言，延後期間是完善合規工程框架的最佳視窗，特別是高風險系統的文件要求、人類監督介面及資料治理，應優先建立可重複使用的合規工具鏈，而非等待最後期限。對 BEXS 學員而言，合規期限延後降低了歐洲企業的短期 AI 採購顧慮，有利於歐洲市場 AI 企業服務需求在 2027 年前加速成長，是評估在歐洲有大量業務的 AI 服務廠商——包括 Cohere-Aleph Alpha 合體、SAP Prior Labs——成長潛力的正面監管信號。</p>"
+    },
     {
       "id": "pulse-2026-05-14-12-nvidia-h200-china-10firms-cleared",
       "ts": "2026-05-14T12:05:00+08:00",
@@ -252,24 +270,6 @@
       "url": "https://www.axios.com/2026/05/13/openai-trial-sam-altman-elon-musk-ai-safety",
       "blurb": "Axios 5 月 13 日：Musk v. Altman 案結辯訂於明日（5/14），陪審建議票最快下週出爐，主審法官隨後作出最終裁定。若裁決不利於 Altman，OpenAI 最高恐須將 1500 億美元吐回非營利主體，Altman 與 Brockman 亦面臨被強制移除領導職位。",
       "editorial": "<p><strong>第一</strong>，Axios 於 5 月 13 日報導，Musk v. Altman 案在加州北區聯邦地院即將進入尾聲：結辯訂於 5 月 14 日，陪審團建議票最快下週出具，主審法官 Yvonne Gonzalez Rogers 將作最終裁定。Altman 本週作證時表示，OpenAI 轉型為盈利架構是籌集足夠資金、安全開發 AI 的唯一途徑，並指 Musk 曾兩度試圖「掐死」OpenAI。</p><p><strong>第二</strong>，此案核心問題已超越創辦人恩怨，聚焦於更根本的命題：AI 實驗室的商業化模式是否必然侵蝕安全使命？Altman 的答辯邏輯是「安全需要資金、資金需要商業模式、商業模式需要結構轉型」，直接反駁 Musk「非營利才能保安全」的論述，但庭審也暴露他個人在 Helion、Stripe、Cerebras 等投資的潛在利益衝突。</p><p><strong>第三</strong>，對 AI 產業的結構性影響在於，無論裁決結果如何，本案已確立「AI 公司治理透明度」屬正式法律審查範疇。企業 CIO 部署 OpenAI API 服務時須納入平台治理穩定性評估；若 Altman 被裁定須退出，OpenAI 的服務連續性與模型路線圖均將面臨重大不確定性。BEXS 學員應留意，此案若重燃 AI 公司非營利義務爭議，將影響市場對 AI 基礎設施股的長期估值邏輯。</p>"
-    },
-    {
-      "id": "pulse-2026-05-13-15-softbank-graphcore-agi-chip",
-      "ts": "2026-05-13T15:00:00+08:00",
-      "title": "SoftBank 向英國晶片商 Graphcore 追加注資 4.57 億美元 · AGI 全棧帝國硬體自主化棋局浮現",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/05/12/softbank-graphcore-ai-chip-investment.html",
-      "blurb": "CNBC 5 月 12 日：英國公司登記顯示 SoftBank 以約 4.57 億美元認購 Graphcore 新股，為 2024 年收購後最大規模的追加注資，且僅為 SoftBank 今年對 Graphcore 計畫注資的「部分資金」，顯示孫正義正加速將 Graphcore 打造為 AGI 全棧計畫的自主晶片支柱。",
-      "editorial": "<p><strong>第一</strong>，英國公司登記資料顯示，SoftBank 於 4 月 10 日以約 4.57 億美元認購 Graphcore 單一新股，為 2024 年收購後最大規模的追加注資。CNBC 引述知情人士指出，此筆資金僅為 SoftBank 今年對 Graphcore 計畫注資的「部分資金」，後續金額視業務里程碑而定。Graphcore 在 2020 年代初曾被市場視為「英國版 NVIDIA」，但因商業化受阻於 2024 年以折讓價被 SoftBank 收購。</p><p><strong>第二</strong>，此次注資的戰略意義在於：SoftBank 正將 Graphcore 從問題資產重塑為 AGI 全棧帝國的自主晶片支柱。孫正義在 Stargate 持有 40% 份額，同時推動 Graphcore 以 IPU 架構配合自研晶片，目標是建立不依賴 NVIDIA H100/B200 系列的替代算力路徑，長期目標為 AGI 訓練與推論的完全硬體自足。</p><p><strong>第三</strong>，市場影響是雙重的：短期內，Graphcore 若能在 2026 年推出具競爭力的 AI 加速晶片，將為 NVIDIA 生態提供來自 SoftBank 系統的真實替代選項；長期而言，SoftBank「晶片＋算力＋模型＋機器人」垂直整合戰略一旦形成閉環，將從供應鏈上游壓縮對美系晶片巨頭的結構性依賴。對 BEXS 學員而言，英國 AI 晶片生態的復甦是觀察非美系算力供應鏈格局的重要窗口。</p>"
-    },
-    {
-      "id": "pulse-2026-05-13-14-anthropic-stainless-sdk-acquisition",
-      "ts": "2026-05-13T14:00:00+08:00",
-      "title": "Anthropic 洽購 OpenAI Google 共用 SDK 工廠 Stainless · 開發者基礎設施爭奪進入新維度",
-      "source": "The Information",
-      "url": "https://www.theinformation.com/articles/anthropic-talks-buy-developer-tools-startup-used-openai-google",
-      "blurb": "The Information 獨家：Anthropic 以逾 3 億美元洽購 SDK 自動生成平台 Stainless，此平台同時服務 OpenAI 與 Google，若成交，Anthropic 將首度持有競爭對手開發者生態的關鍵基礎設施層。",
-      "editorial": "<p><strong>第一</strong>The Information 於 5 月 12 日獨家報導，Anthropic 正就收購紐約新創 Stainless 進行進階談判，交易估值至少 3 億美元，相較 Stainless 於 2024 年 12 月的 1.5 億美元上輪融資估值溢價兩倍。Stainless 的核心產品是以 AI 從 API 規格自動生成 SDK 的平台，現有客戶包括 Anthropic、OpenAI 與 Google。消息人士指出，Stainless 工具是 Claude Code 代理效能提升的關鍵基礎設施之一。Anthropic 近半年已完成多起收購：開發工具新創 Bun（12 月）、電腦使用新創 Vercept，及 AI 生物科技新創 Coefficient Bio，Stainless 交易若完成將是規模最大的一筆。</p><p><strong>第二</strong>此次收購的戰略意義在於 Anthropic 首次嘗試控制對手開發者生態所依賴的基礎設施。若交易完成，Anthropic 將成為 OpenAI 和 Google 部分 SDK 生成鏈的持有方，在沒有任何直接技術封鎖的情況下，形成對競爭對手開發者工具鏈的微妙制衡籌碼。更深層的邏輯是：Anthropic 在 ARR 突破 300 億美元、9000 億美元估值在即的背景下，正以 M&A 加速從「模型 API 供應商」升格為「開發者平台基礎設施」持有者，這一路徑轉換將直接影響其企業合約議價結構。</p><p><strong>第三</strong>對開發者而言，Stainless 若成為 Anthropic 旗下，OpenAI 與 Google 的 SDK 生成需求的長期供應連續性存在不確定性，需評估是否啟動 SDK 自建路線。對 OpenAI 與 Google，預計加速內部化 SDK 工具鏈以降低對 Anthropic 控制工具的依賴，中期可能形成 SDK 生成標準的技術分叉。對投資人，此收購標誌 Anthropic 進入「開發者平台整合」收購週期，IPO 估值框架將從純粹 AI 模型公司轉向「AI 開發者基礎設施平台」，對應更高的市場估值倍數，是調整 frontier AI 上市定價模型的重要新輸入。</p>"
     }
   ]
 }
