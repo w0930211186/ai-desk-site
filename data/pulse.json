@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-05-15T11:06:00+08:00",
+  "updated_at": "2026-05-15T12:00:00+08:00",
   "items": [
+    {
+      "id": "pulse-2026-05-15-12-meta-muse-spark-apps-rollout",
+      "ts": "2026-05-15T12:00:00+08:00",
+      "title": "Meta Muse Spark 全平台消費端部署完成 · 三十億月活用戶進入 AI 超級應用代理時代",
+      "source": "9to5Mac",
+      "url": "https://9to5mac.com/2026/05/12/meta-ai-app-enhanced-with-new-features-using-muse-spark-heres-whats-new/",
+      "blurb": "Muse Spark 於 5 月 12 日全面進駐 WhatsApp、Instagram、Facebook、Messenger 等 Meta 系平台，觸及逾三十億月活用戶，是 2026 年消費端 AI 代理迄今最大規模的單次落地，Meta 廣告閉環與代理能力整合正式啟動。",
+      "editorial": "<p><strong>第一</strong>Meta 於 2026 年 5 月 12 日完成 Muse Spark 模型向全系消費端平台的部署，涵蓋 WhatsApp、Instagram、Facebook、Messenger、Threads 及 Meta AI App，觸及逾三十億月活用戶。Muse Spark 是 Meta Superintelligence Labs 在 Alexandr Wang 加入後推出的首款模型，初版於 4 月 8 日發布，本次為全面商用落地版本。模型具備多模態視覺辨識、跨語言即時語音及多代理編排能力，在醫療推理基準 HealthBench Hard 上拿下 42.8 分，顯著超越 Claude Opus 4.6 Max 的 14.8 分與 Gemini 3.1 Pro High 的 20.6 分；計算效率上，達到同等能力所需算力不及前代 Llama 4 Maverick 的十分之一。消費端新功能包括可隨時打斷並切換語言的即時語音對話、結合 Reels 與地圖的購物推薦代理，以及 Ray-Ban Meta 眼鏡的鏡頭視覺辨識，美加市場先行推送。</p><p><strong>第二</strong>這次部署標誌 Meta 完成從社交廣告平台向 AI 代理超級應用的結構性轉型。OpenAI 的 ChatGPT 月活逾九億，但用戶須主動切換至獨立應用；Meta 的戰略邏輯截然不同——三十億用戶的日常使用習慣本已鎖定在 WhatsApp 與 Instagram，Muse Spark 的部署無需改變行為，代理能力隨平台更新自然滲透。這在全球最大即時通訊工具 WhatsApp 的群組場景中意義尤深：AI 代理首次以用戶「信任的對話框」而非外部 App 的形式進入私人與商業溝通流。廣告閉環的戰略意涵同樣清晰：Muse Spark 的購物推薦功能直接接入廣告轉化漏斗，Meta 商業 AI 此前已達每週一千萬次對話里程碑，Muse Spark 的部署是廣告商業模式在代理時代最自然的延伸路徑，與 OpenAI 同期推進的 ChatGPT Ads Manager 形成平行但路線截然不同的廣告代理競賽。</p><p><strong>第三</strong>對企業 CIO 而言，WhatsApp Business API 與 Muse Spark 代理能力的整合，正成為採購摩擦最低的 AI 客服入口——尤其在東南亞、拉丁美洲、印度等 WhatsApp 主導市場，建議於 2026 年 Q3 前完成場景評估，釐清 Muse Spark 驅動的 WhatsApp 代理是否可替代現有客服工作流，並確認資料主權與訓練資料使用條款的合規邊界。對開發者而言，Meta AI SDK 的 Muse Spark API 存取時序與多代理框架開放範圍，是 2026 年消費端平台最值得早期卡位的應用機會窗口，建議追蹤 Meta Connect 2026 的開發者工具公告。對 BEXS 學員而言，Muse Spark 購物推薦的廣告轉化整合是評估 Meta Q2 廣告收入上修概率的先行信號，若 Q2 財報（7 月底）披露 AI 驅動廣告 ARPU 超預期，Meta 2026 全年廣告收入目標存在上修空間，建議在財報前建立追蹤框架，觀察商業 AI 對話量與廣告 CTR 的相關性數據。</p>"
+    },
     {
       "id": "pulse-2026-05-15-11-openai-iaea-global-ai-governance-us-china",
       "ts": "2026-05-15T11:06:00+08:00",
@@ -261,15 +270,6 @@
       "url": "https://www.cnbc.com/2026/05/13/trump-china-xi-beijing-meeting-ceos.html",
       "blurb": "Trump 親率 Elon Musk、Jensen Huang、Tim Cook 及逾十二位科技金融 CEO 登陸北京，史上規模最大的矽谷赴華代表團正式出現在川習峰會現場，NVIDIA 漲 1.9%、Tesla 跟漲，H200 晶片禁令能否實質鬆綁成為明日雙邊會談的算力外交核心變數。",
       "editorial": "<p><strong>第一</strong>2026 年 5 月 13 日，美國總統 Trump 率史上規模最大的科技金融 CEO 代表團降落北京，正式揭開川習峰會序幕。隨行成員包含 Tesla 執行長 Elon Musk、NVIDIA 執行長 Jensen Huang（應 Trump 親電臨時加入）、Apple 執行長 Tim Cook，以及 BlackRock、Blackstone、Citi、Goldman Sachs、Mastercard、Micron、Qualcomm、Visa、Boeing、GE Aerospace、Cargill 等逾十二家機構代表。NVIDIA 股價盤中上漲 1.9%，Tesla 同步走高。峰會正式日程訂於 5 月 14 日展開，議程涵蓋 AI 晶片出口管制、稀土供應鏈、台灣問題及伊朗局勢。</p><p><strong>第二</strong>三位科技執行長的並行出席，代表算力外交的三條關鍵供應鏈在同一談判桌交匯。Huang 的核心訴求是解除 H200 晶片禁令——NVIDIA 雖於去年底獲得授權，但迄今未能向中國客戶出售任何 H200；Musk 同時代表 SpaceXAI 算力租賃業務與 Tesla 中國製造業兩張籌碼，其在代表團中的多重角色是此次談判最不透明的變數；Cook 則需為 Apple Intelligence 在中國的落地取得監管許可。值得注意的是，DeepSeek 已完成在華為晶片上的最優化部署，中方對 H200 解禁的談判迫切性有限，北京並非必須妥協的一方。美國國內 China Hawk 派系對此代表團高度警覺，任何實質出口管制鬆動均將觸發國內政治摩擦。</p><p><strong>第三</strong>對 BEXS 學員而言，5 月 14 日雙邊會談聯合聲明的措辭是今年迄今最關鍵的算力市場訊號——H200 任何實質鬆綁的潛在年度營收影響逾 150 億美元，是今年最大的單一 macro 事件風險窗口，應同步納入科技股劇烈波動對黃金等避險資產傳導路徑的情境評估。對 CIO 而言，若晶片禁令鬆動，中國雲端供應商（阿里雲、騰訊雲）算力補充，企業在亞太地區的 AI 推論服務採購格局將隨之重組，現有亞太 AI 基礎設施路線圖需預留彈性視窗。對 frontier lab 而言，Musk 同時控制算力（SpaceXAI Colossus）、社交媒體（X）及 Tesla 中國製造業，其在峰會後對中美 AI 協議的公開表態，是解讀軌道算力商業化地緣政治前景的重要先行指標。</p>"
-    },
-    {
-      "id": "pulse-2026-05-13-18-korea-ai-profit-dividend-kospi",
-      "ts": "2026-05-13T18:07:00+08:00",
-      "title": "南韓總統府政策首席拋 AI 超額盈餘「公民股息」提案 · 韓綜指聞訊重挫 5%",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-12/korea-floats-citizen-dividend-using-ai-profits-samsung-falls",
-      "blurb": "南韓總統府政策首席金容範提議將三星、SK 海力士 AI 超額稅收轉為全民股息，韓國綜合指數（KOSPI）盤中重挫 5.1% 後收復，成為 G20 成員國首個正式觸探 AI 盈餘課稅分配模型的公開信號。",
-      "editorial": "<p><strong>第一</strong>南韓總統府政策首席金容範（Kim Yong-beom）於 2026 年 5 月 12 日在個人 Facebook 拋出「AI 利潤社會稅」概念，建議將三星電子及 SK 海力士在半導體與 AI 景氣中累積的超額稅收，以「公民股息」形式分配給年輕創業者、農漁村基本收入及文化藝術補助。消息一出，韓國綜合指數（KOSPI）盤中重挫 5.1%，三星電子、SK 海力士雙雙重挫，其後官方澄清「屬個人意見，尚未進入正式討論」，指數才逐步收復跌幅。</p><p><strong>第二</strong>此提案的戰略意義在於，它是首個由 G20 成員國總統府層級官員正式觸探「AI 超額利潤課稅暨全民分配」的公開信號。過去兩年，歐盟 AI Act 及美國行政令均聚焦於安全與問責框架，尚未觸及利潤分配。南韓的試探性提案打開了新的監管軌道——「AI 財富重分配」。若此邏輯擴散至歐盟或其他 OECD 成員，半導體龍頭（三星、SK 海力士、英偉達、台積電）及 AI frontier lab 的估值模型將面臨系統性重估壓力，「算力壟斷即財富壟斷」的政治敘事一旦形成，監管的路徑依賴將難以逆轉。</p><p><strong>第三</strong>對企業 CIO 而言，這是一個早期預警信號：全球政府已開始超越「治理風險」，進入「利潤分配義務」討論。對投資人而言，市場對一則 Facebook 貼文即重挫 5% 的反應，顯示 AI 板塊政策敏感度已達高位，任何監管消息都可能成為槓桿式催化劑，黃金投資者應將「AI 稅收監管風險情緒」納入科技拋售傳導至避險資產的觸發框架。對 AI 廠商而言，「公民分配 AI 利潤」敘事一旦成為主流，可能加速強制授權或開源義務的立法嘗試。後續觀察點：南韓國民議會是否接棒立法，以及 G20 財長會議是否出現呼應聲音。</p>"
     }
   ]
 }
