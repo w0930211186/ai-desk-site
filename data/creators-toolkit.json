@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-15T04:44:14+08:00",
+  "updated_at": "2026-05-15T20:45:13+08:00",
   "_note": "creator toolkit · Peter 手動 curation V1 · 含官方 URL + 學習資源連結",
   "categories": [
     "writing",
@@ -2534,6 +2534,126 @@
       "thumbnail_url": "https://i.ytimg.com/vi/eQNkwr82KVo/hqdefault.jpg",
       "thumbnail_accent": "#ea580c",
       "thumbnail_initial": "n8n"
+    },
+    {
+      "title": "我不會寫 Code，但用 AI 做出第一個 App｜Claude + Cursor 完整流程教學",
+      "provider": "YouTube · BonTime Bonnie",
+      "url": "https://www.youtube.com/watch?v=zjEiAQjhg7I",
+      "cost": "免費",
+      "topic": "Claude + Cursor · 非工程師 App 開發 · Vibe Coding 實戰",
+      "type": "free-youtube",
+      "highlight": "完全不懂程式的人如何從 0 用 Claude Code + Cursor 做出真實 App，從需求定義到部署全程實錄，適合想嘗試 Vibe Coding 的創作者與非技術人員。",
+      "thumbnail_url": "https://i.ytimg.com/vi/zjEiAQjhg7I/hqdefault.jpg",
+      "thumbnail_accent": "#ff6b35",
+      "thumbnail_initial": "邦"
+    },
+    {
+      "title": "Midjourney V7 網頁版攻略｜細節大師的提示詞、設定到修圖全流程",
+      "provider": "YouTube · 細節大師",
+      "url": "https://www.youtube.com/watch?v=EiUFzuSaL1U",
+      "cost": "免費",
+      "topic": "Midjourney V7 · 網頁版操作 · AI 生圖到影片生成",
+      "type": "free-youtube",
+      "highlight": "玩 AI 影片前的必學攻略：從網頁版介面操作、個人化設定到萬用提示詞寫法，再到後製修圖全流程，V7 特有細節一次掌握。",
+      "thumbnail_url": "https://i.ytimg.com/vi/EiUFzuSaL1U/hqdefault.jpg",
+      "thumbnail_accent": "#0066cc",
+      "thumbnail_initial": "細"
+    },
+    {
+      "title": "Midjourney V7 畫質突破！萬用提示詞與個人化設定大公開",
+      "provider": "YouTube · Hao0321",
+      "url": "https://www.youtube.com/watch?v=Pec_6MHCzkI",
+      "cost": "免費",
+      "topic": "Midjourney V7 · 提示詞模板 · 個人化風格設定",
+      "type": "free-youtube",
+      "highlight": "創作者 Hao0321 整理實測後的萬用提示詞框架與 Midjourney V7 個人化參數設定，大幅提升出圖畫質與風格穩定性，適合希望快速提升作品品質的設計師。",
+      "thumbnail_url": "https://i.ytimg.com/vi/Pec_6MHCzkI/hqdefault.jpg",
+      "thumbnail_accent": "#7b2d8b",
+      "thumbnail_initial": "浩"
+    },
+    {
+      "title": "n8n 零基礎 AI 自動化教學｜6 大實戰 Lab 打造 LLM 與 AI Agent 工作流",
+      "provider": "YouTube · Alex Hsieh 相談室 | AI Brain",
+      "url": "https://www.youtube.com/watch?v=V-0UKJTqjSA",
+      "cost": "免費",
+      "topic": "n8n · LLM · AI Agent · 自動化工作流 · 實戰 Lab",
+      "type": "free-youtube",
+      "highlight": "透過 6 大實戰 Lab 從零學會 n8n 自動化：整合 LLM、打造 AI Agent 工作流，附免費模板下載。中文完整教學，適合想學自動化但沒有技術背景的學員。",
+      "thumbnail_url": "https://i.ytimg.com/vi/V-0UKJTqjSA/hqdefault.jpg",
+      "thumbnail_accent": "#e85d04",
+      "thumbnail_initial": "謝"
+    },
+    {
+      "title": "超詳細 n8n AI 實作從入門到進階｜AI Agent / LLM / RAG / Webhook / 自動生成研究報告",
+      "provider": "YouTube · AI 說人話",
+      "url": "https://www.youtube.com/watch?v=vvqhzbp4J5A",
+      "cost": "免費",
+      "topic": "n8n · AI Agent · RAG · Webhook · 研究報告自動化",
+      "type": "free-youtube",
+      "highlight": "手把手帶你從零學 n8n，完整涵蓋 AI Agent、LLM、RAG、Webhook 整合到自動生成研究報告的全流程，適合想深入掌握 AI 自動化工作流的學員。",
+      "thumbnail_url": "https://i.ytimg.com/vi/vvqhzbp4J5A/hqdefault.jpg",
+      "thumbnail_accent": "#1a1a2e",
+      "thumbnail_initial": "說"
+    },
+    {
+      "title": "Claude Code 从 0 到 1 全攻略｜MCP / SubAgent / Agent Skill / Hook 完整實戰",
+      "provider": "YouTube · AI 技術創作者",
+      "url": "https://www.youtube.com/watch?v=AT4b9kLtQCQ",
+      "cost": "免費",
+      "topic": "Claude Code · MCP · SubAgent · Hook · 圖片與上下文處理",
+      "type": "free-youtube",
+      "highlight": "Claude Code 最完整中文攻略：涵蓋 MCP 配置、SubAgent 設計、Agent Skill、Hook 鉤子、圖片輸入、上下文管理與後台任務，讓 Claude Code 真正成為生產力工具。",
+      "thumbnail_url": "https://i.ytimg.com/vi/AT4b9kLtQCQ/hqdefault.jpg",
+      "thumbnail_accent": "#cc4b00",
+      "thumbnail_initial": "碼"
+    },
+    {
+      "title": "【2026 最新】你不知道的 20 種使用 ChatGPT 的方法！隱藏功能與進階技巧全解析",
+      "provider": "YouTube · AI 效率教學頻道",
+      "url": "https://www.youtube.com/watch?v=04cz8zNr33Y",
+      "cost": "免費",
+      "topic": "ChatGPT · 隱藏功能 · 進階使用技巧 · 2026 最新",
+      "type": "free-youtube",
+      "highlight": "深挖 ChatGPT 鮮為人知的 20 種用法，包含鮮少被討論的隱藏功能，手把手帶你從入門到頂尖使用者，掌握後工作效率可大幅提升，2026 最新版本完整教學。",
+      "thumbnail_url": "https://i.ytimg.com/vi/04cz8zNr33Y/hqdefault.jpg",
+      "thumbnail_accent": "#10a37f",
+      "thumbnail_initial": "習"
+    },
+    {
+      "title": "Codex 保姆級完整教學｜從入門到進階，自動生成內容、網頁、影片和 App",
+      "provider": "YouTube · AI 工具教學頻道",
+      "url": "https://www.youtube.com/watch?v=tfeCwDT-5m0",
+      "cost": "免費",
+      "topic": "OpenAI Codex · AI Agent · 自動生成工作流 · Vibe Coding",
+      "type": "free-youtube",
+      "highlight": "OpenAI Codex 最新保姆級中文教學：從基礎安裝到進階指揮，實測自動生成內容、網頁、影片與 App，快速成為 Codex AI Agent 指揮官的完整入門指南。",
+      "thumbnail_url": "https://i.ytimg.com/vi/tfeCwDT-5m0/hqdefault.jpg",
+      "thumbnail_accent": "#6b21a8",
+      "thumbnail_initial": "代"
+    },
+    {
+      "title": "n8n Quick Start Tutorial: Build Your First AI Agent [2026]",
+      "provider": "YouTube · n8n (Official)",
+      "url": "https://www.youtube.com/watch?v=GuaKeDS6UKU",
+      "cost": "免費",
+      "topic": "n8n · AI Agent · Workflow Automation · Quick Start",
+      "type": "free-youtube",
+      "highlight": "n8n 官方出品 2026 最新快速入門教學，從安裝到完成第一個 AI Agent 工作流，步驟清晰適合完全新手，視覺化拖拉介面搭配英文旁白，易於跟隨。",
+      "thumbnail_url": "https://i.ytimg.com/vi/GuaKeDS6UKU/hqdefault.jpg",
+      "thumbnail_accent": "#e85d04",
+      "thumbnail_initial": "n8"
+    },
+    {
+      "title": "AI Agents Full Course 2026 | How to Build AI Agents | Simplilearn",
+      "provider": "YouTube · Simplilearn",
+      "url": "https://www.youtube.com/watch?v=6DnUAhAcDtU",
+      "cost": "免費",
+      "topic": "AI Agent · Agentic AI · 系統化學習課程 · 2026",
+      "type": "free-youtube",
+      "highlight": "Simplilearn 出品的 2026 年 AI Agent 完整課程，涵蓋 Agentic AI 架構、工具選擇到實際部署，適合想系統學習 AI Agent 開發的學員，英文授課適合進修。",
+      "thumbnail_url": "https://i.ytimg.com/vi/6DnUAhAcDtU/hqdefault.jpg",
+      "thumbnail_accent": "#0052cc",
+      "thumbnail_initial": "Si"
     }
   ]
 }
