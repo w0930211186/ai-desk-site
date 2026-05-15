@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-05-15T09:00:00+08:00",
+  "updated_at": "2026-05-15T10:06:00+08:00",
   "items": [
+    {
+      "id": "pulse-2026-05-15-10-cisco-ai-infra-orders-3x-yoy",
+      "ts": "2026-05-15T10:06:00+08:00",
+      "title": "Cisco Q3 財報以 19 億美元訂單量化 AI 超級週期 · 全年超大規模指引翻倍至 90 億美元",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/13/cisco-csco-q3-earnings-report-2026.html",
+      "blurb": "Cisco 5 月 13 日財報顯示 Q3 AI 超大規模基礎設施訂單達 19 億美元，同比三倍，年度目標從 50 億上修至 90 億美元，股價盤後跳漲 15%，是 AI 算力超級週期首次有主要網路設備商以財報數字正式確認需求烈度。",
+      "editorial": "<p><strong>第一</strong>Cisco 於 2026 年 5 月 13 日盤後公布第三財季業績，創下多項紀錄：季度收入 158.4 億美元，按年成長 12%，超出華爾街預期的 155.6 億美元；EPS 每股 1.06 美元小幅超預期。最關鍵的數字是 AI 超大規模基礎設施訂單：Q3 單季訂單達 19 億美元，較一年前的 6 億美元成長逾三倍；年初至今累計訂單已達 53 億美元，超越全年原始目標，公司因此將全年 AI 超大規模訂單指引從 50 億大幅上修至約 90 億美元，FY27 AI 超大規模收入目標進一步設定在至少 60 億美元。同步宣布裁員約 4,000 人（佔全球員工不到 5%），以集中資源投入 AI 及相鄰成長業務。股價盤後跳漲 15%。</p><p><strong>第二</strong>Cisco 財報的戰略意義在於，它是 AI 算力超級週期首次獲得主要網路基礎設施廠商以季報數字正式確認的量化現實。過去兩年，AI 資本支出的敘事主要由 NVIDIA GPU 出貨量與 Meta、Microsoft Capex 指引構成，均屬前端計算資源；Cisco 的乙太網路交換器與矽光模組是超大規模 AI 算力叢集的後端互連基礎設施，其訂單三倍成長意味著 GPU 叢集的實際建造速度在後端帶寬層面獲得定量確認，而非僅靠前端晶片採購推斷。同步裁員 4,000 人亦具指標性：Cisco 以組織重構為條件確保 AI 轉型，顯示傳統網路設備廠商對 AI 替代非核心業務的系統性研判已進入執行層。</p><p><strong>第三</strong>對 BEXS 學員而言，Cisco 財報提供了截至目前最具說服力的 AI 超級週期「後端訂單現實確認」，FY27 最少 60 億美元 AI 收入指引是評估 AI 算力基礎設施板塊長期景氣能見度的重要先行錨點；Cisco 與 NVIDIA 的相對強弱走勢，是判斷 AI 算力基礎設施板塊是否已從前端晶片向後端網路全面擴散的直接信號。對企業 CIO 而言，400G/800G 乙太網路模組的超大規模採購量代表 AI 推論叢集建設進入高速複製階段，企業自建私有 AI 推論能力的算力採購窗口正在收窄，租用超大規模雲端推論算力的性價比相對優勢在 2026-2027 可能持續擴大。對開發者而言，Cisco 後端網路能力升級直接影響分佈式推論（MoE 大模型）與多智能體工作流的網路延遲基線，是未來複雜推論應用架構設計的底層假設更新。</p>"
+    },
+    {
+      "id": "pulse-2026-05-15-10-isomorphic-labs-21b-series-b-sovereign-ai",
+      "ts": "2026-05-15T10:06:00+08:00",
+      "title": "Demis Hassabis 旗下 Isomorphic Labs 完成 21 億美元 B 輪 · 三大主權 AI 基金跨大西洋背書 AlphaFold 藥物設計引擎規模化",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-12/deepmind-spinout-isomorphic-labs-raises-2-1-billion-to-design-drugs-with-ai",
+      "blurb": "Isomorphic Labs 5 月 12 日關閉 21 億美元 B 輪，由 Thrive Capital 領投，阿布達比 MGX、新加坡淡馬錫、英國主權 AI 基金聯合跟投，標誌 AlphaFold 驅動的 AI 藥物設計從學術成果正式升格為全球主權投資級別的戰略資產類別。",
+      "editorial": "<p><strong>第一</strong>Isomorphic Labs 於 2026 年 5 月 12 日宣布完成 21 億美元 Series B 融資，由 Thrive Capital 領投（該基金亦領投了 2025 年 6 億美元的 Series A），新投資人包括阿布達比主權技術基金 MGX、新加坡淡馬錫、CapitalG，以及英國主權 AI 基金，現有股東 Alphabet 與 GV 繼續跟投。公司成立於 2021 年，以 Google DeepMind 衍生公司身份獨立，由 DeepMind 創辦人暨諾貝爾化學獎得主 Sir Demis Hassabis 親自出任 CEO。核心引擎建立在 AlphaFold 3 之上，整合可預測分子結構與蛋白質-配體互動的大規模 AI 模型，目標是將傳統藥物發現週期從平均十二年縮短至三至五年。Hassabis 表示這輪融資「讓我們能以規模推進藥物設計引擎建設」。</p><p><strong>第二</strong>此輪融資的戰略重心不在金額本身，而在投資人結構。阿布達比 MGX、新加坡淡馬錫、英國主權 AI 基金同場入局，是繼太空算力之後，主權資本第二次系統性進入 AI 應用層——且這次目標是生命科學，而非算力基礎設施。政策意涵清晰：各國政府正將 AI 藥物設計列入國家生物科技戰略，因為主權國家的健康保障依賴藥物創新，若 AI 能縮短開發週期、降低試藥失敗率，其主權回報遠超財務回報。對大型製藥企業而言，Isomorphic 的規模化是觀察窗口正在縮短的競合警訊：藥物設計 AI 基礎設施一旦形成寡頭格局，後進的傳統藥企將面臨議價成本急速攀升。</p><p><strong>第三</strong>對企業 CIO（特別是製藥和醫療行業）而言，Isomorphic 的商業化路徑意味著 AI 分子設計能力已進入 B2B 採購評估期，現在評估 AlphaFold API 整合的性價比優於等待市場成熟後的高溢價採購。對開發者而言，AlphaFold 3 商業化 API 與蛋白質設計工具鏈的開源生態演進是計算生物學與機器學習交叉場景的高成長工程機會窗口，值得追蹤 Isomorphic 是否在 B 輪後開放更廣泛的 API 存取。對 BEXS 學員而言，三個主權基金同場背書意味著 AI 藥物設計已完成從「概念資產」到「主權戰略資產」的升格，後續應追蹤 Isomorphic 的臨床試驗轉化率數據，這將是 AI 藥物設計板塊估值從「早期押注」切換為「基本面驅動」的重要先行信號，亦為評估 Novo Nordisk、AstraZeneca 等大型藥廠 AI 合作估值影響提供參照框架。</p>"
+    },
     {
       "id": "pulse-2026-05-15-09-openai-eu-cyber-action-plan-mythos",
       "ts": "2026-05-15T09:00:00+08:00",
@@ -252,24 +270,6 @@
       "url": "https://techcrunch.com/2026/05/12/report-google-and-spacex-in-talks-to-put-data-centers-into-orbit/",
       "blurb": "Google 確認旗下 Project Suncatcher 衛星算力計畫已與 SpaceX 及其他供應商洽談發射合約，繼 Anthropic 上週完成 Colossus 1 算力協議並表達軌道算力興趣後，AI 算力鏈的太空化圖景正式從概念走向合約談判層次。",
       "editorial": "<p><strong>第一</strong>2026 年 5 月 12 日，Alphabet Google 確認已與 SpaceX 及其他發射供應商就 Project Suncatcher 進行初步洽談。Project Suncatcher 是 Google 的軌道資料中心研究計畫，核心設想是將搭載 TPU 的衛星組成太陽能驅動的軌道算力叢集，以自由空間光學鏈路互連，長期目標是建立邊長 1 公里、包含 81 顆衛星的算力陣列。Google 計劃 2027 年初與 Planet Labs 合作發射兩顆原型衛星，目前談判尚屬初步，同時與多家火箭供應商接觸。</p><p><strong>第二</strong>此次披露的戰略背景有兩層：一是 SpaceX 正籌備估值 1.75 兆美元的 IPO，軌道算力商業化是其核心投資敘事，Google 的公開確認為 SpaceX IPO 提供了重要的商業可信度背書；二是 Anthropic 於同週與 SpaceX 簽署 Colossus 1 算力協議，並在協議中明確保留軌道算力合作選項——兩大 frontier lab 在同一週以不同形式確認了對 SpaceX 軌道算力的興趣，將太空算力從科幻敘事拉進商業議程。主要技術障礙包括熱管理、輻射損傷及太空碎片風險，地面算力成本目前仍遠低於太空方案。</p><p><strong>第三</strong>對 CIO 而言，軌道算力短期不影響採購決策，但它為「算力主權」開闢新的地緣政治維度：哪個國家或企業能控制軌道算力資產，將成為下一輪 AI 治理討論的關鍵議題。對 BEXS 學員而言，SpaceX IPO 估值中軌道算力業務的定價邏輯是值得追蹤的關鍵槓桿點，Google 的公開確認是軌道算力商業可行性的重要先行指標，應納入 2027 年前 AI 基礎設施投資主題的評估框架。對開發者而言，Google TPU 衛星計畫若推進，可能加快空間計算 API 標準化的時程。</p>"
-    },
-    {
-      "id": "pulse-2026-05-13-17-anthropic-spacex-colossus-compute",
-      "ts": "2026-05-13T17:04:00+08:00",
-      "title": "Anthropic 包下 SpaceX Colossus 1 全部 22 萬顆 GPU · Claude 算力供應鏈首度跨出 Google-Amazon 雙雲框架",
-      "source": "Anthropic",
-      "url": "https://www.anthropic.com/news/higher-limits-spacex",
-      "blurb": "Anthropic 與 SpaceX 達成算力協議，取得 Colossus 1 資料中心超過 300MW 容量及 22 萬顆 NVIDIA GPU 的全部使用權，Claude Pro/Max 使用上限隨即提升，SpaceX 成為 Anthropic 算力供應鏈中第一個非雲端供應商。",
-      "editorial": "<p><strong>第一</strong>2026 年 5 月 6 日，Anthropic 於「Code with Claude」開發者大會宣布與 SpaceX 達成算力協議，取得 Colossus 1 超級計算機超過 300MW 容量與逾 22 萬顆 NVIDIA GPU（含 H100、H200 及 GB200）的全部使用權，Colossus 1 位於田納西州孟菲斯，曾以 122 天建成、92 天翻倍至 20 萬顆 GPU 創下業界紀錄。協議同時包含「探索數 GW 軌道算力容量」的意向條款，為後續衛星算力合作預留空間。Claude Pro/Max 訂閱用戶使用上限隨即提升。</p><p><strong>第二</strong>此協議在算力供應鏈格局上具有結構性意義：Anthropic 的主要算力來源迄今高度集中於 Google Cloud 與 Amazon AWS，此次引入 SpaceX 作為第三方非雲供應商，是 Anthropic 算力多元化策略的第一個明確行動。協議的政治脈絡同樣值得注意——SpaceX 由馬斯克控制，後者同時是 xAI 的創辦人及 OpenAI 的法庭對手；馬斯克公開表示此合作「沒有觸發我的警覺」，反映算力資源的稀缺程度已超越商業競爭的零和邏輯，稀缺性本身成為跨越意識形態邊界的合作驅動力。</p><p><strong>第三</strong>對 Claude Pro/Max 用戶及企業 API 客戶而言，使用上限的直接提升是最即時的影響。對 CIO 評估 Claude 平台穩定性而言，算力供應鏈多元化是正面訊號，降低了對單一雲端供應商的依賴風險。對 BEXS 學員而言，Anthropic ARR 突破 300 億美元的背景下仍面臨算力瓶頸，說明高端 AI 服務的供給端制約尚未解除，算力稀缺性主題繼續為 NVIDIA 系統性估值溢價提供基本面支撐，亦為 SpaceX IPO 的算力租賃業務敘事添加重要的商業驗證。</p>"
-    },
-    {
-      "id": "pulse-2026-05-13-17-caisi-nist-frontier-ai-testing",
-      "ts": "2026-05-13T17:04:00+08:00",
-      "title": "美 NIST 旗下 CAISI 與 Google DeepMind、Microsoft、xAI 完成 frontier AI 預部署評估協議 · 五大實驗室全納美政府審查框架",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/05/05/ai-oversight-trump-google-microsoft-xai.html",
-      "blurb": "美國 NIST 旗下 CAISI 宣布與 Google DeepMind、Microsoft、xAI 簽署 frontier AI 預部署評估協議，範圍涵蓋網路安全、生物武器及化學武器風險，加上原有的 Anthropic 與 OpenAI，五大 frontier lab 已全數納入美政府預部署安全審查框架。",
-      "editorial": "<p><strong>第一</strong>2026 年 5 月 5 日，美國商務部 NIST 旗下 AI 標準與創新中心（CAISI）宣布與 Google DeepMind、Microsoft 及 xAI 簽署 frontier AI 預部署評估協議。依協議，CAISI 將在模型公開發布前進行評估，並於部署後持續追蹤，重點範圍涵蓋網路安全、生物武器及化學武器風險。評估過程中，開發商須向政府評估人員提供移除或降低安全護欄的模型版本。協議以 2024 年 Biden 政府與 Anthropic、OpenAI 簽署的類似協議為基礎重新談判，符合川普政府《AI 行動計畫》框架，CAISI 至今已完成逾 40 次此類評估。</p><p><strong>第二</strong>五大 frontier lab 全數納入政府預部署審查框架，標誌著 AI 安全治理從「自願承諾」進入「機構化協議」的臨界點。值得注意的是，協議允許在機密環境下進行測試，且開發商須提供護欄移除版本——這實質上讓美國政府在商業發布前取得最前沿 AI 能力的直接評估視窗，形成非對稱資訊優勢。協議的地緣政治意涵同樣顯著：CAISI 的審查框架不包含中國 AI 廠商，在川習峰會前夕此安排進一步強化了美方在 AI 能力透明度上的單邊立場。</p><p><strong>第三</strong>對 CIO 而言，frontier lab 接受政府預部署評估意味著重大模型更新的發布節奏可能受審查期影響，採購計畫需預留緩衝窗口。對開發者而言，協議確認了「高風險能力」被政府視為優先評估對象，若未來評估觸發限制，相關 API 功能的可用性可能出現區域差異。對 BEXS 學員而言，政府審查框架的正式化長期有利於建立 AI 產業公信力，但短期內可能造成發布時程不確定性，對模型更新週期依賴度高的企業 SaaS 股估值需納入此因素的系統性折價。</p>"
     }
   ]
 }
