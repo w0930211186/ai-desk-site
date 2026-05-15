@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-05-15T10:06:00+08:00",
+  "updated_at": "2026-05-15T11:06:00+08:00",
   "items": [
+    {
+      "id": "pulse-2026-05-15-11-openai-iaea-global-ai-governance-us-china",
+      "ts": "2026-05-15T11:06:00+08:00",
+      "title": "OpenAI 倡議美中共治 AI 國際機構 · IAEA 核監管邏輯移植至 frontier lab 算力治理",
+      "source": "Japan Times",
+      "url": "https://www.japantimes.co.jp/business/2026/05/14/tech/openai-global-governance-us-china/",
+      "blurb": "OpenAI 全球事務副總裁 Chris Lehane 5 月 14 日提案建立類 IAEA 架構的 AI 治理機構，納入中國入席，時間點精準卡在川普赴北京中美峰會前夕，地緣算計與商業卡位一體兩面。",
+      "editorial": "<p><strong>第一</strong>2026 年 5 月 14 日，OpenAI 全球事務副總裁 Chris Lehane 公開提案建立全球 AI 治理組織，框架參照國際原子能機構（IAEA）：追蹤算力使用、制定模型部署標準、跨境核查合規。主張由美國主導、中國入席，具體路徑為將美國商務部 AI 標準與創新中心（CAISI）與全球各國 AI 安全研究院連結成多邊網絡。公告時間早於美國總統川普啟程赴北京出席中美高峰會議數小時，戰略時機並非偶然。</p><p><strong>第二</strong>這一提案的地緣政治算計精密。OpenAI 是當前算力競賽的最大受益者之一，卻主動呼籲將中國納入同一框架——核心邏輯並非示弱，而是佔位博弈：由美國 frontier lab 牽頭定義的全球標準，等同於在 AI 架構層輸出美國規則。若此機構成形，OpenAI 作為倡議方自然獲得優先席次；若北京拒絕，則強化「中方不願接受多邊 AI 監管」的外交敘事。川普政府此前明確反對全球 AI 治理，此提案能否轉化為政策動能，仍屬高度不確定。</p><p><strong>第三</strong>對企業 CIO 而言，若國際 AI 治理機構落地，跨境 AI 部署將面臨新合規層——算力溯源、模型版本記錄與地緣合規文件可能成為標配，2027 年前的採購決策應提前納入此風險評估。對開發者而言，若標準由美系主導制定，與 AWS、Azure、Google Cloud 深度綁定的技術棧將具備先發合規優勢。對監管者而言，此提案與歐盟 AI Omnibus（5 月 7 日達成）構成多邊 AI 治理的平行框架，兩者的標準協同或衝突走向，是 2026 下半年最值得持續追蹤的監管敘事主線。</p>"
+    },
     {
       "id": "pulse-2026-05-15-10-cisco-ai-infra-orders-3x-yoy",
       "ts": "2026-05-15T10:06:00+08:00",
@@ -261,15 +270,6 @@
       "url": "https://www.bloomberg.com/news/articles/2026-05-12/korea-floats-citizen-dividend-using-ai-profits-samsung-falls",
       "blurb": "南韓總統府政策首席金容範提議將三星、SK 海力士 AI 超額稅收轉為全民股息，韓國綜合指數（KOSPI）盤中重挫 5.1% 後收復，成為 G20 成員國首個正式觸探 AI 盈餘課稅分配模型的公開信號。",
       "editorial": "<p><strong>第一</strong>南韓總統府政策首席金容範（Kim Yong-beom）於 2026 年 5 月 12 日在個人 Facebook 拋出「AI 利潤社會稅」概念，建議將三星電子及 SK 海力士在半導體與 AI 景氣中累積的超額稅收，以「公民股息」形式分配給年輕創業者、農漁村基本收入及文化藝術補助。消息一出，韓國綜合指數（KOSPI）盤中重挫 5.1%，三星電子、SK 海力士雙雙重挫，其後官方澄清「屬個人意見，尚未進入正式討論」，指數才逐步收復跌幅。</p><p><strong>第二</strong>此提案的戰略意義在於，它是首個由 G20 成員國總統府層級官員正式觸探「AI 超額利潤課稅暨全民分配」的公開信號。過去兩年，歐盟 AI Act 及美國行政令均聚焦於安全與問責框架，尚未觸及利潤分配。南韓的試探性提案打開了新的監管軌道——「AI 財富重分配」。若此邏輯擴散至歐盟或其他 OECD 成員，半導體龍頭（三星、SK 海力士、英偉達、台積電）及 AI frontier lab 的估值模型將面臨系統性重估壓力，「算力壟斷即財富壟斷」的政治敘事一旦形成，監管的路徑依賴將難以逆轉。</p><p><strong>第三</strong>對企業 CIO 而言，這是一個早期預警信號：全球政府已開始超越「治理風險」，進入「利潤分配義務」討論。對投資人而言，市場對一則 Facebook 貼文即重挫 5% 的反應，顯示 AI 板塊政策敏感度已達高位，任何監管消息都可能成為槓桿式催化劑，黃金投資者應將「AI 稅收監管風險情緒」納入科技拋售傳導至避險資產的觸發框架。對 AI 廠商而言，「公民分配 AI 利潤」敘事一旦成為主流，可能加速強制授權或開源義務的立法嘗試。後續觀察點：南韓國民議會是否接棒立法，以及 G20 財長會議是否出現呼應聲音。</p>"
-    },
-    {
-      "id": "pulse-2026-05-13-17-google-spacex-project-suncatcher",
-      "ts": "2026-05-13T17:04:00+08:00",
-      "title": "Google 與 SpaceX 洽談「Project Suncatcher」軌道算力合作 · AI 算力鏈第一次認真試探離地軌道",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/05/12/report-google-and-spacex-in-talks-to-put-data-centers-into-orbit/",
-      "blurb": "Google 確認旗下 Project Suncatcher 衛星算力計畫已與 SpaceX 及其他供應商洽談發射合約，繼 Anthropic 上週完成 Colossus 1 算力協議並表達軌道算力興趣後，AI 算力鏈的太空化圖景正式從概念走向合約談判層次。",
-      "editorial": "<p><strong>第一</strong>2026 年 5 月 12 日，Alphabet Google 確認已與 SpaceX 及其他發射供應商就 Project Suncatcher 進行初步洽談。Project Suncatcher 是 Google 的軌道資料中心研究計畫，核心設想是將搭載 TPU 的衛星組成太陽能驅動的軌道算力叢集，以自由空間光學鏈路互連，長期目標是建立邊長 1 公里、包含 81 顆衛星的算力陣列。Google 計劃 2027 年初與 Planet Labs 合作發射兩顆原型衛星，目前談判尚屬初步，同時與多家火箭供應商接觸。</p><p><strong>第二</strong>此次披露的戰略背景有兩層：一是 SpaceX 正籌備估值 1.75 兆美元的 IPO，軌道算力商業化是其核心投資敘事，Google 的公開確認為 SpaceX IPO 提供了重要的商業可信度背書；二是 Anthropic 於同週與 SpaceX 簽署 Colossus 1 算力協議，並在協議中明確保留軌道算力合作選項——兩大 frontier lab 在同一週以不同形式確認了對 SpaceX 軌道算力的興趣，將太空算力從科幻敘事拉進商業議程。主要技術障礙包括熱管理、輻射損傷及太空碎片風險，地面算力成本目前仍遠低於太空方案。</p><p><strong>第三</strong>對 CIO 而言，軌道算力短期不影響採購決策，但它為「算力主權」開闢新的地緣政治維度：哪個國家或企業能控制軌道算力資產，將成為下一輪 AI 治理討論的關鍵議題。對 BEXS 學員而言，SpaceX IPO 估值中軌道算力業務的定價邏輯是值得追蹤的關鍵槓桿點，Google 的公開確認是軌道算力商業可行性的重要先行指標，應納入 2027 年前 AI 基礎設施投資主題的評估框架。對開發者而言，Google TPU 衛星計畫若推進，可能加快空間計算 API 標準化的時程。</p>"
     }
   ]
 }
