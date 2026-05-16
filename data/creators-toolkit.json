@@ -2654,6 +2654,102 @@
       "thumbnail_url": "https://i.ytimg.com/vi/6DnUAhAcDtU/hqdefault.jpg",
       "thumbnail_accent": "#0052cc",
       "thumbnail_initial": "Si"
+    },
+    {
+      "title": "Claude Design + Claude Code + Figma 工作流 Live Demo",
+      "provider": "YouTube · AAPD",
+      "url": "https://www.youtube.com/watch?v=kWZycvnSBsw",
+      "cost": "免費",
+      "topic": "Claude Design · Figma 設計工作流 · AI 快速實現設計想法",
+      "type": "free-youtube",
+      "highlight": "台灣頂尖產品設計社群 AAPD 直播示範，完整展示 Claude Design + Claude Code + Figma 三工具閉環工作流，從草圖到上線一氣呵成，設計師與工程師必看的 2026 最新 AI 設計實戰。",
+      "thumbnail_url": "https://i.ytimg.com/vi/kWZycvnSBsw/hqdefault.jpg",
+      "thumbnail_accent": "#6366f1",
+      "thumbnail_initial": "AAPD"
+    },
+    {
+      "title": "2026 Google Gemini 10個實用示範｜語音對話＋即時翻譯",
+      "provider": "YouTube · AI生活科技",
+      "url": "https://www.youtube.com/watch?v=Je9ssxv4tFQ",
+      "cost": "免費",
+      "topic": "Gemini · 語音對話 · 即時翻譯 · 文字轉錄 · 隱私設定",
+      "type": "free-youtube",
+      "highlight": "2026 年 3 月最新出爐，完整示範 Gemini LIVE 10 大實用功能：文字轉錄、即時語音對話、即時翻譯與隱私設定，適合想立即上手 Gemini 的中文用戶。",
+      "thumbnail_url": "https://i.ytimg.com/vi/Je9ssxv4tFQ/hqdefault.jpg",
+      "thumbnail_accent": "#4285f4",
+      "thumbnail_initial": "Gem"
+    },
+    {
+      "title": "Claude Code 安裝、設定教學：終端機 + Markdown 新手入門",
+      "provider": "YouTube · 諾特斯",
+      "url": "https://www.youtube.com/watch?v=-gPTgWftzOc",
+      "cost": "免費",
+      "topic": "Claude Code · 終端機安裝 · Markdown · 零基礎新手入門",
+      "type": "free-youtube",
+      "highlight": "諾特斯團隊 2026 年 4 月出品，手把手帶新手完成 Claude Code 環境安裝與 Markdown 基礎設定，告別複製貼上，讓 AI 直接操作檔案，是 Vibe Coding 入門第一步。",
+      "thumbnail_url": "https://i.ytimg.com/vi/-gPTgWftzOc/hqdefault.jpg",
+      "thumbnail_accent": "#cc785c",
+      "thumbnail_initial": "諾"
+    },
+    {
+      "title": "n8n AI 自動化保姆級教程：從 0 到 1 建立 AI 工作流",
+      "provider": "YouTube · 回到Axton",
+      "url": "https://www.youtube.com/watch?v=02U_eT1S-AY",
+      "cost": "免費",
+      "topic": "n8n · AI 自動化 · JSON · API · 節點邏輯",
+      "type": "free-youtube",
+      "highlight": "2026 年 1 月出品，回到 Axton 詳解 n8n 核心概念：JSON 結構、API 串接、節點邏輯，從零搭建第一個 AI 自動化工作流，適合完全沒有程式基礎的創作者和工作者。",
+      "thumbnail_url": "https://i.ytimg.com/vi/02U_eT1S-AY/hqdefault.jpg",
+      "thumbnail_accent": "#ea5c0e",
+      "thumbnail_initial": "n8n"
+    },
+    {
+      "title": "2026 年最值得學的 10 門免費 AI 課程｜哈佛、Google、OpenAI",
+      "provider": "YouTube · 阿峰老師",
+      "url": "https://www.youtube.com/watch?v=3G7Az-6w0Wg",
+      "cost": "免費",
+      "topic": "AI 學習路線 · 免費課程精選 · Harvard · Google · Anthropic",
+      "type": "free-youtube",
+      "highlight": "有 400+ 企業培訓經驗的阿峰老師於 2026 年 2 月精選，從哈佛、Google、OpenAI、Anthropic 等機構的免費 AI 課程中挑出 10 門最值得投資時間的，附學習路線建議。",
+      "thumbnail_url": "https://i.ytimg.com/vi/3G7Az-6w0Wg/hqdefault.jpg",
+      "thumbnail_accent": "#f59e0b",
+      "thumbnail_initial": "峰"
+    },
+    {
+      "title": "2026 開工必看！10 大 AI 神級更新全攻略｜ChatGPT、Grok、NotebookLM",
+      "provider": "YouTube · 泛科學院",
+      "url": "https://www.youtube.com/watch?v=caMnKw_XyPk",
+      "cost": "免費",
+      "topic": "AI 工具更新 · ChatGPT · Grok · NotebookLM · Gamma · 2026",
+      "type": "free-youtube",
+      "highlight": "泛科學院 2026 年 1 月出爐的年度精華，一次盤點 ChatGPT、Gemini、NotebookLM、Grok 等十大 AI 工具最新神級更新，並附立即可用的實戰技巧，適合開年補課衝生產力。",
+      "thumbnail_url": "https://i.ytimg.com/vi/caMnKw_XyPk/hqdefault.jpg",
+      "thumbnail_accent": "#0ea5e9",
+      "thumbnail_initial": "泛"
+    },
+    {
+      "title": "AI Agent Full Course For Beginners 2026 | Edureka Live",
+      "provider": "YouTube · Edureka",
+      "url": "https://www.youtube.com/watch?v=WxE7elJuyt0",
+      "cost": "免費",
+      "topic": "AI Agents · Agentic AI · Multi-Agent · LangChain · 2026",
+      "type": "free-youtube",
+      "highlight": "Edureka 2026 年 3 月出品完整 AI Agent 課程，從基礎概念到 LangChain 實作，涵蓋 Multi-Agent、工具調用、記憶管理等關鍵主題，英文授課適合想進階 Agentic AI 的工程師。",
+      "thumbnail_url": "https://i.ytimg.com/vi/WxE7elJuyt0/hqdefault.jpg",
+      "thumbnail_accent": "#7c3aed",
+      "thumbnail_initial": "Edu"
+    },
+    {
+      "title": "LLM Full Course 2026 | LLM Tutorial For Beginners | Simplilearn",
+      "provider": "YouTube · Simplilearn",
+      "url": "https://www.youtube.com/watch?v=G-DMiXvQgMM",
+      "cost": "免費",
+      "topic": "LLM · Large Language Models · Transformers · Fine-tuning · 2026",
+      "type": "free-youtube",
+      "highlight": "Simplilearn 2026 年 4 月最新大型語言模型完整課程，涵蓋 Transformer 架構、預訓練、Fine-tuning、RAG 等核心技術，是英文世界入門 LLM 的高評分系統性教材。",
+      "thumbnail_url": "https://i.ytimg.com/vi/G-DMiXvQgMM/hqdefault.jpg",
+      "thumbnail_accent": "#059669",
+      "thumbnail_initial": "LLM"
     }
   ]
 }
