@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-05-16T09:00:00+08:00",
+  "updated_at": "2026-05-16T10:00:00+08:00",
   "items": [
+    {
+      "id": "pulse-2026-05-16-10-recursive-superintelligence-650m",
+      "ts": "2026-05-16T10:00:00+08:00",
+      "title": "Recursive Superintelligence 以 6.5 億美元出關・Google 風投與 Nvidia 同押「自我遞迴改進 AI」實驗室",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/14/what-happens-when-ai-starts-building-itself/",
+      "blurb": "Richard Socher 與前 Google DeepMind 科學家 Tim Rocktäschel 共同創辦的 Recursive Superintelligence 5 月 13 日出關，以 46.5 億美元估值完成 6.5 億美元融資，Google 風投 GV、Nvidia 及 AMD 同輪跟投；不足 30 人團隊，使命是打造無需人類介入即可自我遞迴改進的 AI 系統，Level 1 自主訓練系統預計 2026 年中公開。",
+      "editorial": "<p><strong>第一</strong>2026 年 5 月 13 日，英國 AI 新創 Recursive Superintelligence 宣布從隱形期公開出關，同步披露完成 6.5 億美元融資，估值達 46.5 億美元。本輪由 Google 風投 GV 及 Greycroft 領投，Nvidia 與 AMD 同輪跟投。公司聯合創辦人為 Richard Socher（執行長，前 Salesforce 首席科學家、you.com 創辦人）及 Tim Rocktäschel（前 Google DeepMind 科學家、UCL 人工智能教授），核心團隊不足 30 人，成員分別來自 Meta 及 OpenAI。Recursive Superintelligence 以倫敦為基地，成立時間僅數月，核心論點是：現有 AI 系統在訓練結束後即靜止，而真正的智慧增強需要系統能在無人類介入的前提下，透過分析自身表現持續遞迴改進，擺脫以人類偏好標注作為瓶頸的 RLHF 依賴。公司計畫於 2026 年中推出「Level 1 自主訓練系統」公開版本。</p><p><strong>第二</strong>Recursive 的架構主張在哲學上與 DeepMind AlphaZero 的自我對弈設計一脈相承，但試圖在開放領域（非封閉博弈空間）中實現類似的自我最佳化機制，技術挑戰量級顯著更高。從資本結構解讀，GV（Google 風投）、Nvidia 及 AMD 同時出現在同一輪，代表的不僅是財務押注，更是生態系綁定——Recursive 的自主訓練迴路若成立並需要大量計算，其晶片採購優先序將直接影響 GPU 供應商的份額競逐；Nvidia 與 AMD 同步下注，暗示雙方均不願讓這個潛在的大型計算消費者落入單一陣營。從競爭格局看，Recursive 是 Ineffable Intelligence（前 DeepMind RL 部門負責人 David Silver 創辦，估值 51 億美元）之後，2026 年第二家以「去 RLHF、自主學習」論點完成超大規模融資的英國 AI 實驗室，標誌倫敦在 ASL-3 以上研究賽道的資本吸引力已形成正向循環。</p><p><strong>第三</strong>對開發者而言，「Level 1 自主訓練」的技術定義與 API 開放時程是 2026 年下半年最值得追蹤的 AI 架構動態之一；若 Recursive 公開評估基準，其自我改進能力的客觀量測方法本身就將成為推論能力評估框架的重要補充。對企業 CIO 而言，Recursive 目前仍處研究階段，短期採購價值有限；但團隊密度與資本規模的組合預示其商業化速度可能超出預期，建議納入 18 個月技術雷達追蹤清單，重點觀察 2026 年底前的概念驗證發布。對 BEXS 學員而言，Nvidia 與 AMD 同步參與 Recursive 融資是觀察兩家 GPU 廠商在「自主學習 AI 基礎設施」賽道最新競合動態的直接信號；若 Level 1 自主訓練系統在年底前完成驗證，其算力需求規模將成為判斷下一輪高端 GPU 及 HBM 採購週期的先行指標。</p>"
+    },
+    {
+      "id": "pulse-2026-05-16-10-sap-prior-labs-tabular-foundation-model",
+      "ts": "2026-05-16T10:00:00+08:00",
+      "title": "SAP 十億歐元收購德國 Prior Labs・押注表格基礎模型（TFM）成為結構化資料 AI 的歐洲標準",
+      "source": "SAP Newsroom",
+      "url": "https://news.sap.com/2026/05/sap-to-acquire-prior-labs-establish-frontier-ai-lab-europe/",
+      "blurb": "SAP 宣布收購弗萊堡 AI 新創 Prior Labs，四年承諾注入逾十億歐元打造歐洲前沿 AI 實驗室；Prior Labs 的表格基礎模型 TabPFN 已發表於 Nature 並刷新數百項學術基準，是歐洲最大企業軟體廠商在 LLM 主流之外，選擇以結構化資料專用架構建立核心 AI 能力的明確宣示。",
+      "editorial": "<p><strong>第一</strong>2026 年 5 月 4 日，SAP SE 與德國 AI 新創 Prior Labs 宣布簽署確定性收購協議，具體收購金額未披露。SAP 承諾未來四年投入逾十億歐元，支持 Prior Labs 在保持獨立運營的前提下擴展為「全球領先的結構化資料前沿 AI 實驗室」。交易預計於 2026 年第二或第三季完成，待監管審批。Prior Labs 由機器學習教授 Frank Hutter、Noah Hollmann 及 Sauraj Gambhir 共同創立，總部位於德國弗萊堡，在柏林及紐約另設辦公室，核心研究人員分別來自 Google、Apple、Amazon、Microsoft、Jane Street 及 CERN。Prior Labs 的核心技術成果是 TabPFN 系列表格基礎模型（Tabular Foundation Models, TFM）——專為結構化資料（如 ERP 交易記錄、財務資料表、供應鏈資料庫）設計的基礎模型架構；TabPFN 論文已發表於 Nature，在數百項獨立學術研究的表格資料基準測試中達到業界最高水準。</p><p><strong>第二</strong>SAP 此次收購的核心論點是「結構化資料才是企業 AI 的真正戰場」。當前 AI 主流敘事以大型語言模型為中心，然而 SAP 系統中流通的核心企業資料——應付帳款、庫存水位、客戶流失預測、供應商風險評分——幾乎全部是表格形式，LLM 在此類任務的表現遠低於專用 TFM。Prior Labs 的 TabPFN 在少樣本學習與零樣本類比方面的性能，使其能在幾乎無需微調的前提下直接處理企業資料預測任務。從歐洲 AI 競爭格局看，SAP 此舉是歐洲最大科技公司在「不押注通用 LLM 競賽」前提下建立核心 AI 能力的最直接宣示；TFM 的決策邏輯相較 LLM 更具可解釋性，亦符合 EU AI Act 對金融、醫療等高監管行業在可解釋性方面的合規要求，為「合規友好型 AI」路線提供商業支撐。</p><p><strong>第三</strong>對企業 CIO 而言，TabPFN 系列的商業化落地意味著 SAP 客戶在 2026 下半年有望在 SAP 原生環境中直接調用 TFM 能力進行業務預測；評估此路線的核心前提是：現有 SAP ERP 資料倉儲的清洗程度是否足以支撐 TFM 推論，資料治理團隊應提前介入評估。對開發者而言，Prior Labs 的 TabPFN 模型已部分開源，可在 Hugging Face 取得；在收購完成前建議優先評估開源版本在企業結構化資料場景的適用性，以建立技術判斷基礎。對 BEXS 學員而言，SAP（NYSE: SAP）以十億歐元級別強化 AI 基礎研究能力，是傳統企業軟體廠商在 AI 轉型週期中防禦性卡位的典型動作；相似邏輯下，Salesforce、Oracle、ServiceNow 在結構化資料 AI 的投資路線值得同步追蹤，以判斷企業 AI 生態系在 LLM 主流與 TFM 專用路線之間的聚合或分化走向。</p>"
+    },
+    {
+      "id": "pulse-2026-05-16-10-anthropic-agent-sdk-billing-split",
+      "ts": "2026-05-16T10:00:00+08:00",
+      "title": "Anthropic 六月十五日起拆出代理 SDK 計費池・吃到飽 AI 訂閱在 Agentic 浪潮下正式終止",
+      "source": "Axios",
+      "url": "https://www.axios.com/2026/05/14/anthropic-claude-price-openai-tokens",
+      "blurb": "Anthropic 宣布自 2026 年 6 月 15 日起，Claude Agent SDK、claude -p 及第三方代理框架的程式化用量從訂閱限額池拆出，改以 API 正價計費；Pro 每月額度僅 20 美元封頂，重度代理用戶實質成本漲幅估達 12 至 175 倍，宣告「AI 吃到飽訂閱」時代在代理工作流場景下的終結。",
+      "editorial": "<p><strong>第一</strong>Anthropic 於 2026 年 5 月 13 日向 Max 20x 訂閱用戶發送電郵，宣布自 6 月 15 日起，透過 Claude Agent SDK、claude -p、GitHub Actions 及第三方代理框架進行的所有程式化用量，將從原有訂閱速率限額池拆出，移入獨立的月度代理額度池，並按標準 API 報價計費。新制下月度代理額度依訂閱等級設定：Pro（月費 20 美元）獲 20 美元額度、Max 5x（月費 100 美元）獲 100 美元額度、Max 20x（月費 200 美元）獲 200 美元額度；額度耗盡後需另購，不可使用互動用量剩餘額度補位，且不跨月結轉。此調整直接導火線是以 OpenClaw 為代表的第三方代理框架「訂閱套利」問題——部分用戶以每月 20 至 200 美元訂閱驅動數千美元的代理用量。根據開發者社群分析，以標準 API 報價換算，重度代理用戶的等效成本漲幅介於 12 至 175 倍。</p><p><strong>第二</strong>此計費拆分是 AI 訂閱商業模式在代理工作流浪潮下的結構性斷裂。Frontier lab 的訂閱定價邏輯建立在「人類每小時能消費的 token 量有上限」的假設之上；代理工作流可以每秒觸發數十次工具調用，一個持續運行的代理迴路在數分鐘內即可耗盡設計為「月度人類用量」的配額。Anthropic 此舉等同正式承認代理場景與互動場景是截然不同的商業模式，訂閱池與 API 計費的分離是必然結果，而非政策失誤。從競爭格局看，OpenAI 的 Codex 代理計畫（Pro 計畫無限額）與 Anthropic 的新計費結構形成直接對比——在爭奪開發者採用的當口，訂閱策略的差異化將成為代理框架廠商選邊的重要參數，長期而言代理場景的計費模型最終將趨向「用量付費」，訂閱包月只是過渡型態。</p><p><strong>第三</strong>對開發者而言，6 月 15 日前的關鍵行動是稽核現有代理工作流的月度 token 消耗，計算在新計費結構下的等效成本，並評估是否需要轉向直接 API 呼叫或優化代理迴路的 token 效率；Zed、MindStudio 等集成 Claude Agent SDK 的第三方工具亦已發布因應指南，應在更新前確認工具鏈定價影響。對企業 CIO 而言，此變化要求重新評估「AI 助手訂閱」與「AI 代理工作流」的採購框架——兩者的成本結構、使用模式與供應商協議設計應明確分開，避免預算低估。對 BEXS 學員而言，Anthropic 代理計費的結構調整是觀察其在 agent 時代商業模式成熟度的重要信號；若此「互動訂閱 + 代理計量」雙軌模式在業界複製，AI 訂閱企業的年化收入增速計算應加入「代理用量轉化率」作為新的核心變數。</p>"
+    },
     {
       "id": "pulse-2026-05-16-09-anthropic-stainless-sdk-acquisition",
       "ts": "2026-05-16T09:00:00+08:00",
@@ -243,33 +270,6 @@
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-deep-think/",
       "blurb": "Google 於 5 月初推出 Gemini 3 Deep Think 重大升級，以進階推理模式挑戰科研、工程與數學的複雜問題邊界，AI Ultra 訂閱者即時存取，五所知名研究機構獲優先合作資格，配合 AI for Math 計畫確立 Google 的科學 AI 差異化策略。",
       "editorial": "<p><strong>第一</strong>Google DeepMind 於 2026 年 5 月初推出 Gemini 3 Deep Think 的重大升級，定位為專為科學、研究與工程高難度挑戰設計的進階推理模式。Google 同步宣布與五所知名研究機構建立優先合作，以 Gemini Deep Think、AlphaEvolve 及 AlphaProof 三項工具支援數學研究加速，Google.org 同步提供資金與技術資源。Google AI Ultra 訂閱者可即時在 Gemini 應用中使用更新後的 Deep Think 模式，科學家、工程師與企業可申請 Gemini API 的早期接入計畫。5 月 4 日同步宣布的 AI for Math Initiative 標誌 Google 以機構合作模式系統性推進 AI 在數學研究中的應用，與 Deep Think 升級形成協同敘事。</p><p><strong>第二</strong>Gemini 3 Deep Think 升級是 Google 在「科學推理差異化」賽道上的關鍵卡位動作，直接對標 OpenAI o3 及 Anthropic Claude Opus 4.7 的多步推理能力。Google 的優勢在於同時擁有 DeepMind 的學術信用（AlphaFold、AlphaProof 系列的科學界背書）、Google Scholar 的學術語料優勢，以及 AI Ultra 訂閱生態的商業化出口，三者形成整合護城河。時間節點同樣精算：Deep Think 升級夾在 5 月 13 日 Android Show Gemini Intelligence（行動代理 OS）與 6 月 WWDC（Apple Extensions 多 AI 引擎框架）之間，Google 在消費端（Android）、科研端（Deep Think）、行動跨平台（iOS Siri）三個維度同步強化 Gemini 存在感，形成 360 度佈局壓力。</p><p><strong>第三</strong>對企業 CIO 而言，Gemini 3 Deep Think 的進階推理能力直接影響計算密集型高價值場景的採購判斷——藥物研發分子模擬、金融衍生品定價模型、先進製造材料設計等場景的 AI 投資回報比將隨推理能力提升而顯著改善，應將 Deep Think 納入下季度同類場景的供應商評估框架。對開發者而言，企業 API 早期接入計畫是構建科研 AI 應用的高優先資源窗口，Deep Think 加 AlphaProof 的組合能力是形式化數學驗證工具鏈的新前沿，值得優先探索。對 BEXS 學員而言，Google 以科學 AI 建立差異化護城河有別於純商業模型競賽，提供 Alphabet AI 業務估值多元化的重要新敘事支撐；AI for Math Initiative 若在 2026 下半年產出重大學術成果，將成為 Gemini 品牌信用度的強力放大器，搭配 Android 代理 OS 公告，Alphabet AI 變現路徑比過去任何時候都清晰。</p>"
-    },
-    {
-      "id": "pulse-2026-05-14-09-google-gtig-ai-zeroday-irl-confirmed",
-      "ts": "2026-05-14T09:05:00+08:00",
-      "title": "AI 生成零日漏洞野外首案確認 · Google GTIG 報告揭示 LLM 武器化已達規模化",
-      "source": "Google Cloud Blog (GTIG)",
-      "url": "https://cloud.google.com/blog/topics/threat-intelligence/ai-vulnerability-exploitation-initial-access",
-      "blurb": "Google GTIG 確認全球首例 AI 生成零日漏洞已用於野外實戰，中俄朝攻擊者系統化武器化 LLM；AI 輔助漏洞挖掘從實驗室走進真實攻擊，攻防格局需以此為基準重組。",
-      "editorial": "<p><strong>第一</strong>Google Threat Intelligence Group（GTIG）於 2026 年 5 月 11 日確認全球首例 AI 生成零日漏洞實戰案例：攻擊者以 LLM 開發 Python 腳本，旁路開源 Web 管理平台的雙重驗證（2FA）邏輯缺陷，漏洞類型為 hardcoded 信任假設，超越傳統模糊測試工具的能力邊界，GTIG 評估使用的模型「極可能非 Gemini 或 Claude Mythos」。同期記錄包括：中國 APT45 大規模驗證 CVE PoC、安卓後門 PROMPTSPY 通過 Gemini API 自主操作設備，以及 LiteLLM、Checkmarx 等 AI 工具鏈遭供應鏈攻擊。</p><p><strong>第二</strong>此案例在戰略層面同時確認三個轉折：AI 輔助漏洞挖掘進入實戰，恰在 Anthropic Mythos 與 GPT-5.5-Cyber 上線的相同時間窗口，攻防雙方以相近的能力邊界並行升級；攻擊者直接濫用 Gemini API，使 AI 平台帳號監控從「最佳實踐」升格為基礎安全義務；AI 工具鏈本身成為供應鏈攻擊面，開發者信任假設需即時重估。</p><p><strong>第三</strong>對 CISO 而言，「LLM 優先識別高層語意邏輯漏洞」的實戰確認代表傳統滲透測試框架存在結構性盲區，應優先排查遺留系統 2FA 的 hardcoded 信任假設，滲透測試採購框架需同步更新評估方法論。對開發者而言，LiteLLM 與 Checkmarx 的供應鏈攻擊意味著 AI 工作流本身成為攻擊面，PyPI 簽名驗證與 GitHub Actions 完整性審計應即時納入 CI/CD 基線。對 BEXS 學員而言，AI 網攻實戰化使「AI 原生資安防禦」賽道的成長邏輯更為清晰，持有 CAISI 合約的 Google DeepMind 及 Microsoft 的政府安全合約競爭優勢因此進一步強化，而 AI 平台廠商因合規義務上升面臨管理成本增加，但進入門檻同步抬高，有利於現有大型平台維持市場護城河。</p>"
-    },
-    {
-      "id": "pulse-2026-05-14-09-openai-microsoft-exclusivity-ended-multicloud",
-      "ts": "2026-05-14T09:00:00+08:00",
-      "title": "OpenAI 終止 Microsoft 獨家協議 · 正式開放多雲路線挑戰 AI 供應鏈護城河",
-      "source": "OpenAI",
-      "url": "https://openai.com/index/next-phase-of-microsoft-partnership/",
-      "blurb": "OpenAI 與 Microsoft 於 4 月 27 日聯合宣布重寫六年合作協議，Microsoft 的 OpenAI 技術獨家授權正式終止並改為非獨家，OpenAI 即日起可在 AWS 及 Google Cloud 服務全部客戶，直接導火線是 Amazon 500 億美元投資協議與原有獨家條款的法律衝突。",
-      "editorial": "<p><strong>第一</strong>OpenAI 與 Microsoft 於 2026 年 4 月 27 日聯合宣布，全面重寫六年合作協議。核心變更有三：Microsoft 對 OpenAI 技術的獨家授權改為非獨家，授權期延至 2032 年；Microsoft 向 OpenAI 的收入分成設定上限（金額未披露），持續至 2030 年；雙方刪除「AGI 觸發條款」——原協議規定一旦 OpenAI 宣布達成 AGI，合約結構將自動改變。直接導火線是 2026 年 2 月宣布的 Amazon 500 億美元投資協議——原有 API 獨家條款讓 OpenAI 無法在 AWS 上服務客戶，交割面臨法律障礙。協議生效後，OpenAI 可在 AWS Bedrock 及 Google Cloud 部署並服務所有客戶；Azure 保留優先上架權，但不再具備排他性。</p><p><strong>第二</strong>此次重組是過去六年 AI 商業格局中規模最大的結構性調整。Microsoft 前後合計投入逾 1000 億美元，包括股權、算力及基礎設施成本，六年的獨家護城河正式瓦解。從 OpenAI 角度，雲端中立路線打開了多元化收入渠道，為潛在 IPO 補上「非平台鎖定」敘事，直接支撐其 9000 億美元估值的基本面合理性。從 Microsoft 角度，失去獨家但保留 2032 年前的 IP 授權與 2030 年前的分成，本質是以可控代價換取 OpenAI 多雲戰略的彈性空間；Microsoft 在 Musk v. Altman 庭審中確認的 1000 億美元投入，讓市場得以首次校正這筆交易的真實成本結構。AWS Bedrock 正式引入 OpenAI 模型，使雲端 AI 市場進入三方競爭格局。</p><p><strong>第三</strong>對企業 CIO 而言，Azure-OpenAI 整合鎖定的假設已失效，多雲 OpenAI 部署路線圖即時解鎖，現有 Azure 合約的 AI 服務議價空間亦同步放寬，應重新評估供應商採購架構。對開發者而言，AWS Bedrock 與 Google Cloud 上的 OpenAI 模型 API 一致性需要工程驗證，跨雲 latency 及定價差異將是選型的關鍵決策因素。對 BEXS 學員而言，雲端 AI 從雙寡頭（Azure-OpenAI vs. Google Cloud-Gemini）演進為三強格局，後續應追蹤 Bedrock 上 OpenAI 模型的採用速度——這是評估 AWS AI 收入成長潛力的直接先行指標，並同步關注 Microsoft Azure AI 服務份額是否因獨家優勢消失而出現結構性流失。</p>"
-    },
-    {
-      "id": "pulse-2026-05-14-09-cohere-aleph-alpha-20b-transatlantic-sovereign-ai",
-      "ts": "2026-05-14T09:00:00+08:00",
-      "title": "Cohere 收購 Aleph Alpha 估值 200 億美元 · 加德主權 AI 跨大西洋聯盟挑戰美系超大規模雲端",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/04/24/cohere-acquires-merges-with-german-based-startup-to-create-a-transatlantic-ai-powerhouse/",
-      "blurb": "加拿大 Cohere 於 4 月 24 日宣布收購德國 Aleph Alpha，合併估值約 200 億美元，Schwarz Group 主導逾 6 億美元 Series E 注資，加德兩國政府聯合背書，以 STACKIT 主權雲為部署平台，直接挑戰 Microsoft、Google、Amazon 在歐洲企業市場的雲端壟斷格局。",
-      "editorial": "<p><strong>第一</strong>加拿大企業 AI 公司 Cohere 於 2026 年 4 月 24 日在柏林宣布收購德國 AI 新創 Aleph Alpha，交易完成後合併估值約 200 億美元（Cohere 原估值 68 億美元）。股權結構為 Cohere 股東持有新實體約 90%，Aleph Alpha 股東約 10%。德國零售集團 Schwarz Group 為交易核心財務支柱，計劃在 Cohere 即將啟動的 Series E 輪認購逾 6 億美元，並以旗下主權雲平台 STACKIT 作為合併實體的企業部署基礎設施。德國數位部長與加拿大 AI 及數位創新部長均出席柏林發布會，兩國政府正式背書，德國政府亦將成為新實體的錨點客戶。交易尚待監管機構及股東批准。</p><p><strong>第二</strong>此次合併在主權 AI 市場具有里程碑意義：它是迄今第一個以 200 億美元量級形成跨大西洋聯軍、正面挑戰美系超大規模雲端企業 AI 業務的商業化行動。Aleph Alpha 的核心能力——歐洲語系、小型語言模型及符合歐盟 AI Act 的數據主權架構——與 Cohere 的企業大模型 API 及指令微調能力形成互補；Schwarz Group 的 STACKIT 提供了商業化出口，一個不流經 AWS、Azure 或 Google Cloud 的歐洲主權算力基底。戰略目標直指歐洲及北美政府機構的 AI 採購框架——這類採購者對數據主權與 GDPR 合規的敏感度遠高於技術能力單一指標，且政府錨定客戶身份大幅降低了商業化的初期風險。</p><p><strong>第三</strong>對歐洲及亞太 CIO 而言，Cohere-Aleph Alpha 合體提供了首個在 AI 能力、歐盟 GDPR 合規及主權算力三者兼備的規模化採購選項，應納入下一輪多供應商 AI 架構評估，尤其是具有數據出境限制的行業（金融、醫療、政府）。對 BEXS 學員而言，Schwarz Group 的 6 億美元錨定了合併後實體的 Series E 定價基準，也是歐洲主權 AI 生態第一個 200 億美元級別的估值事件；後續應追蹤 Series E 其餘投資人的構成——若歐洲主權基金大量進入，將形成「主權 AI」作為獨立資產類別的市場定價基準。對開發者而言，Aleph Alpha 的 Pharia 開源模型路線是否在合併後延續，決定歐洲語系開源模型生態的後續資源投入，是最值得追蹤的技術治理決策之一。</p>"
     }
   ]
 }
