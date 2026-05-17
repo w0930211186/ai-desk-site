@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-05-17T07:07:00+08:00",
+  "updated_at": "2026-05-17T09:09:00+08:00",
   "items": [
+    {
+      "id": "pulse-2026-05-17-09-xai-grok-build-cli-coding-agent",
+      "ts": "2026-05-17T09:09:00+08:00",
+      "title": "xAI Grok Build 終端代理出關・SuperHeavy 299 美元入市，代理程式碼三方格局正式成形",
+      "source": "xAI",
+      "url": "https://x.ai/news/grok-build-cli",
+      "blurb": "xAI 5 月 14 日推出 Grok Build CLI 代理工具，計畫模式、平行子代理與 worktree 整合直指 Claude Code；SuperGrok Heavy 以 299 美元月費獨立入市，Claude Code、Codex、Grok Build 三方終端代理戰線正式成形。",
+      "editorial": "<p><strong>第一</strong>2026 年 5 月 14 日，xAI 宣布推出 Grok Build 並開放 early beta，定位為面向專業軟體工程師的代理 CLI（Command Line Interface）工具。核心架構含三項機制：計畫模式（Plan Mode），在任何變更執行前以逐步 diff 形式呈現完整行動計畫，用戶可逐步批注、修改或完全重寫；平行子代理（Parallel Subagents），複雜任務自動分解後同步委派給多個子代理並行執行，縮短大型工程任務的掛鐘時間；worktree 整合，子代理各自在獨立 Git worktree 中運行，不影響主分支狀態。Grok Build 以新設的 SuperGrok Heavy 訂閱層為進入門檻，正式定價 299 美元/月，目前提供早鳥優惠：前六個月以 99 美元/月計費，折扣幅度達 67%。安裝方式為終端機單行 curl 腳本，無需 GUI 介面。</p><p><strong>第二</strong>xAI 入場代理程式碼工具市場，正式打破 Claude Code 與 OpenAI Codex 的雙強格局。從競爭定位看，Anthropic Claude Code 深度整合 VS Code 與 JetBrains IDE，年化收入已突破 250 億美元，生成提交量佔全球公開 GitHub 約 4%；OpenAI Codex 剛完成 iOS 與 Android 上線並持有 HIPAA 合規認證，主打 mobile-first 體驗。Grok Build 選擇以「CLI 終端機原生」為差異化核心，鎖定偏好不離開終端機的 DevOps 工程師與系統工程師族群，在生態位上避免與 Claude Code 的 IDE 整合正面重疊。SuperGrok Heavy 以全新獨立訂閱層切入（而非附加至現有 Grok 訂閱），是 xAI 有意建立獨立專業開發者付費基礎的清晰信號——299 美元定價亦與 Anthropic Max（100 美元/月）拉開價格區間，暗示 xAI 瞄準的是願意為高算力專業工具支付溢價的核心開發族群。</p><p><strong>第三</strong>對開發者而言，Grok Build 的平行子代理與 worktree 整合在當前三款主流代理程式碼工具中屬設計最明確的多任務並行架構，建議優先在需要同時推進多條功能分支的大型重構場景中評估；若 Claude Code 在速率限制或特定工作流下出現瓶頸，Grok Build 是值得加入評估清單的 CLI 備用路線。對企業 CIO 而言，三方競爭格局使代理程式碼工具採購進入實質比價階段，建議在下輪合約更新前納入三款工具的任務完成率、企業合規認證（HIPAA、SOC 2）與計費模式的系統性評估，避免過早鎖定單一供應商。對 BEXS 學員而言，xAI 以 299 美元獨立訂閱層切入開發者工具市場，是追蹤 xAI 企業 AI 收入構成的首個量化觀察點；SuperGrok Heavy 的用戶成長速度，是評估 Grok 生態能否在 2026 年下半年在開發者族群建立與 Claude Code 可比較之市場份額的關鍵先行指標。</p>"
+    },
     {
       "id": "pulse-2026-05-17-07-anthropic-30b-900b-valuation-closes",
       "ts": "2026-05-17T07:00:00+08:00",
@@ -261,15 +270,6 @@
       "url": "https://openai.com/index/new-ways-to-buy-chatgpt-ads/",
       "blurb": "OpenAI 5 月 5 日在美國開放 ChatGPT Ads Manager 自助廣告平台，引入 CPC 競價、Adobe 等廣告科技接入及 Dentsu、Omnicom、Publicis、WPP 四大代理商合作，目標年底達 25 億美元廣告收入，以 AI 對話取代傳統搜尋廣告位。",
       "editorial": "<p><strong>第一</strong>OpenAI 於 2026 年 5 月 5 日宣布對美國廣告主開放 ChatGPT Ads Manager 自助廣告平台測試版。平台提供完整的自助廣告工具：廣告主可自主設定預算、出價與節奏，上傳廣告素材，啟動與管理廣告活動，並透過結果儀表板追蹤效益。同步引入 CPC（每次點擊計費）競價模式，補充現有展示廣告方案；廣告科技接入夥伴包括 Adobe、Criteo、Kargo、Pacvue 及 StackAdapt；Dentsu、Omnicom、Publicis、WPP 四大全球廣告代理商確認接入合作。OpenAI 同步發布 Conversions API 及像素追蹤工具，讓廣告主追蹤廣告後行為（購買、潛在客戶、Sign-up）。OpenAI 今年廣告收入目標為 25 億美元，2030 年目標 1,000 億美元。</p><p><strong>第二</strong>此舉是 OpenAI 在核心商業模式上最具戰略重量的新布局之一，標誌其從純訂閱與 API 收費向廣告收入的結構性擴張。ChatGPT 月活用戶超 9 億，若用戶將 ChatGPT 作為搜尋取代品，廣告投放的意圖精準度理論上優於傳統關鍵字廣告——用戶在對話框中表達的需求比搜尋關鍵字更具語義完整性，廣告主的轉化效率存在上行空間。四大廣告代理商的快速接入是更強烈的信號：Dentsu、Omnicom、Publicis、WPP 代表全球最大廣告預算的配置者，其接入等同確認 ChatGPT 已被視為獨立媒體購買通路，而非搜尋廣告的附屬。廣告自助化設計直接複製 Google Ads 的入門路徑，在廣告主習慣建立前搶佔操作習慣，是對 Google 廣告市場最高效的侵蝕動作。</p><p><strong>第三</strong>對行銷長（CMO）而言，ChatGPT Ads Manager 開放是評估預算是否從傳統搜尋廣告向 AI 對話廣告遷移的觸發點，建議先評估目標客群在 ChatGPT 的搜尋意圖分佈，確認適合場景後再進行預算切分，避免在測試期過度投入。對 BEXS 學員而言，OpenAI 廣告收入路線的正式啟動為其估值提供了訂閱＋廣告雙收入的基本面支柱，$1,000 億廣告目標若實現，意味著 OpenAI 2030 年廣告單線收入將超越 Meta 2024 全年廣告收入，須以 Google Ads 與 Meta 當前規模進行現實核驗；對 Google 廣告業務的侵蝕速度是今年最值得追蹤的 AI 商業化先行指標。對開發者而言，Conversions API 與廣告科技生態的整合是 AI 應用在廣告場景中從展示延伸至後端轉化追蹤的基礎設施佈局，相關廣告技術整合文件值得提前研讀。</p>"
-    },
-    {
-      "id": "pulse-2026-05-15-05-google-android-show-gemini-intelligence",
-      "ts": "2026-05-15T05:01:00+08:00",
-      "title": "Google Android Show 宣告行動 OS 時代終結 · Gemini Intelligence 以代理框架接管全球 33 億台裝置",
-      "source": "Google Blog",
-      "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence/",
-      "blurb": "Google 於 5 月 12 日舉辦 Android Show I/O Edition，正式宣告 Android 從「作業系統」轉型為「智慧系統」，Gemini Intelligence 跨應用代理框架夏季率先推送 Pixel 與 Galaxy，Googlebook 筆電同步亮相，行動 AI 代理主戰場正式開幕。",
-      "editorial": "<p><strong>第一</strong>2026 年 5 月 12 日，Google 在 Google I/O 前夕舉辦「Android Show：I/O Edition」，Android 生態系負責人 Sameer Samat 正式宣告 Android 從作業系統轉型為「智慧系統（intelligence system）」。核心公告 Gemini Intelligence 是嵌入 Android 底層的主動式 AI 代理框架，能跨應用理解畫面脈絡、串連多服務完成複合任務，示例場景包括自動從 Gmail 解析書單、建立購物車並完成結帳，以及以自然口語生成主畫面自定義小工具（generative UI widgets）。語音功能 Rambler 能將散漫語音整理為精簡訊息，Android 17 改善 Android-iOS 跨平台相容性。首批功能將於 2026 年夏季推送最新 Samsung Galaxy 及 Google Pixel，年內延伸至 Android 手錶、車機、智慧眼鏡與筆電。Google 同步宣布 Googlebook，以 Gemini Intelligence 為核心的 AI 筆電，正面競爭 Microsoft Copilot+ PC。</p><p><strong>第二</strong>Google 選擇在 Apple WWDC（6 月 8 日）一個月前獨立舉辦 Android Show，搶先確立「行動 AI 代理 OS」的敘事主導權。脈絡值得注意：Apple iOS 27 Extensions 開放框架（允許 Gemini、Claude、ChatGPT 進入 Siri 底層）在報導語境中被定位為「回應 Google」的步驟，而非主動出擊，Google 在議題設定層面取得先手。規模護城河同樣關鍵：Android 全球活躍裝置約 33 億台，Gemini Intelligence 若大規模落地，等同在目前最大的行動平台建立 AI 使用習慣基礎設施，此類習慣鎖定遠比 API 授權或 app 下載更難被競爭者替代。Googlebook 宣示 Google 首次以硬體方式全棧介入 AI 消費裝置設計層，對標 Microsoft Surface Copilot+ 與 OpenAI 即將在 2026 下半年發布的 Jony Ive 裝置。</p><p><strong>第三</strong>對企業 CIO 而言，Gemini Intelligence 的跨應用代理能力意味著 Android 企業裝置隊列的應用資料孤島假設正在瓦解，過去 MDM/MAM 框架以應用為最小管理單元，代理 AI 的跨應用操作需在合規框架內補充新的管控邊界，建議優先評估 Android Enterprise 管理 API 對 Gemini Intelligence 的政策設定選項。對開發者而言，跨應用代理 API 與 generative UI widget 框架是 Android 平台數年內最大的開發者機會視窗，應於 6 月 Google I/O 後追蹤 API 規格與接入申請時序，提早卡位平台級應用場景。對 BEXS 學員而言，Google 行動 AI 代理平台的確立強化了 Alphabet 廣告業務「AI 代理完成任務取代搜尋點擊」的長期變現敘事，Gemini Intelligence 的落地速度是 2026 下半年 Alphabet 廣告收入預期能否上修的關鍵先行信號，值得在 Q2 財報週前建立追蹤框架。</p>"
     }
   ]
 }
