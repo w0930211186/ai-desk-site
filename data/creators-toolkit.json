@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-15T20:45:13+08:00",
+  "updated_at": "2026-05-17T20:40:41+08:00",
   "_note": "creator toolkit · Peter 手動 curation V1 · 含官方 URL + 學習資源連結",
   "categories": [
     "writing",
@@ -2750,6 +2750,126 @@
       "thumbnail_url": "https://i.ytimg.com/vi/G-DMiXvQgMM/hqdefault.jpg",
       "thumbnail_accent": "#059669",
       "thumbnail_initial": "LLM"
+    },
+    {
+      "title": "什麼是 MCP（Model Context Protocol）白話解說",
+      "provider": "YouTube · 小高白話科技",
+      "url": "https://www.youtube.com/watch?v=MxsjS6CWy6Y",
+      "cost": "免費",
+      "topic": "MCP 協定概念入門",
+      "type": "free-youtube",
+      "highlight": "用 USB-C 類比解釋 MCP 如何作為 AI 工具間的通用溝通標準，概念清晰適合非技術人員快速建立 MCP 認知框架，2026 年 3 月最新發布。",
+      "thumbnail_url": "https://i.ytimg.com/vi/MxsjS6CWy6Y/hqdefault.jpg",
+      "thumbnail_accent": "#2a6ebb",
+      "thumbnail_initial": "高"
+    },
+    {
+      "title": "MCP 整合功能正式登場！AI 助理一鍵串聯 Gmail、日曆與雲端檔案",
+      "provider": "YouTube · 泛科學院",
+      "url": "https://www.youtube.com/watch?v=m7Uqd8BUgFc",
+      "cost": "免費",
+      "topic": "MCP 實作 · 知識工作者自動化",
+      "type": "free-youtube",
+      "highlight": "示範 ChatGPT 與 Claude 透過 MCP 一鍵串聯 Gmail、Google 日曆和雲端檔案的完整操作流程，知識工作者效率立即可見，泛科學院出品。",
+      "thumbnail_url": "https://i.ytimg.com/vi/m7Uqd8BUgFc/hqdefault.jpg",
+      "thumbnail_accent": "#1e7e34",
+      "thumbnail_initial": "科"
+    },
+    {
+      "title": "學會 n8n 為你省下 80% 時間！EP.1：打造個人專屬 AI 自動化助理",
+      "provider": "YouTube · Alex Hsieh 相談室",
+      "url": "https://www.youtube.com/watch?v=r9mi3ZJIWbg",
+      "cost": "免費",
+      "topic": "n8n AI 自動化 · 入門系列",
+      "type": "free-youtube",
+      "highlight": "系列第一集，手把手示範 n8n 觸發節點設定、Google 日曆整合與 RSS 新聞自動抓取，整套工作流完整示範，是學習 n8n 最佳系列起點。",
+      "thumbnail_url": "https://i.ytimg.com/vi/r9mi3ZJIWbg/hqdefault.jpg",
+      "thumbnail_accent": "#e05a00",
+      "thumbnail_initial": "n8"
+    },
+    {
+      "title": "Midjourney V7 全攻略：手機訓練專屬風格 + 訂閱方案與進階參數完整解說",
+      "provider": "YouTube · Hao0321 Studio",
+      "url": "https://www.youtube.com/watch?v=-y0AZqyJj-w",
+      "cost": "免費",
+      "topic": "Midjourney V7 · AI 圖像創作進階",
+      "type": "free-youtube",
+      "highlight": "從手機訓練個人化風格開始，覆蓋 V7 訂閱方案比較、sref 風格控制、–chaos 等進階參數，Hao0321 Studio 出品，適合希望突破 AI 繪圖天花板的創作者。",
+      "thumbnail_url": "https://i.ytimg.com/vi/-y0AZqyJj-w/hqdefault.jpg",
+      "thumbnail_accent": "#6e3fa3",
+      "thumbnail_initial": "MJ"
+    },
+    {
+      "title": "Vibe Coding 學習地圖：Gemini → Google AI Studio → Antigravity 三層實戰路徑",
+      "provider": "YouTube · 林鼎淵",
+      "url": "https://www.youtube.com/watch?v=2hbYCe_E5aU",
+      "cost": "免費",
+      "topic": "Vibe Coding · 全端開發 · Google 工具鏈",
+      "type": "free-youtube",
+      "highlight": "企業內訓精華版，用三層 Google 工具從入門到上線：Gemini 生成原型、AI Studio 精化迭代、Antigravity 部署 GitHub Pages，零工程師背景可完整跟做。",
+      "thumbnail_url": "https://i.ytimg.com/vi/2hbYCe_E5aU/hqdefault.jpg",
+      "thumbnail_accent": "#1a73e8",
+      "thumbnail_initial": "VC"
+    },
+    {
+      "title": "普通人的 AI 編程指南：Cursor 完整教程（安裝、核心功能與免費使用技巧）",
+      "provider": "YouTube · 回到Axton",
+      "url": "https://www.youtube.com/watch?v=lypPoT8lZ2M",
+      "cost": "免費",
+      "topic": "Cursor · AI 輔助開發入門",
+      "type": "free-youtube",
+      "highlight": "針對非工程師設計，涵蓋 Cursor 下載、中文介面、Composer 核心功能與省錢使用策略，以「不寫一行 code 完成實際專案」為終極驗證目標。",
+      "thumbnail_url": "https://i.ytimg.com/vi/lypPoT8lZ2M/hqdefault.jpg",
+      "thumbnail_accent": "#0f4c81",
+      "thumbnail_initial": "Ax"
+    },
+    {
+      "title": "超詳細 N8N 教學：0 基礎入門到進階，從零搭建第一個 AI Agent 全自動內容工廠",
+      "provider": "YouTube · 傑克自動化AI教學",
+      "url": "https://www.youtube.com/watch?v=b6AEsVRJjzI",
+      "cost": "免費",
+      "topic": "n8n · AI Agent · 內容自動化",
+      "type": "free-youtube",
+      "highlight": "手把手從安裝到打造 AI Agent 全自動內容工廠，涵蓋 LLM 節點、Webhook、資料合併等核心節點實操示範，傑克自動化AI教學頻道出品，適合創作者與行銷人員。",
+      "thumbnail_url": "https://i.ytimg.com/vi/b6AEsVRJjzI/hqdefault.jpg",
+      "thumbnail_accent": "#d4380d",
+      "thumbnail_initial": "傑"
+    },
+    {
+      "title": "n8n Webhook 應用：整合 AI 打造訂單通知自動化（Portaly 傳送門電商實戰案例）",
+      "provider": "YouTube · Raymond Hou",
+      "url": "https://www.youtube.com/watch?v=CgPEN3sewwA",
+      "cost": "免費",
+      "topic": "n8n Webhook · 電商自動化",
+      "type": "free-youtube",
+      "highlight": "以 Portaly 創作者商城為真實案例，示範 n8n Webhook 接收訂單後自動推送 Telegram 通知的完整流程，含操作介面逐步圖解，繁體中文授課。",
+      "thumbnail_url": "https://i.ytimg.com/vi/CgPEN3sewwA/hqdefault.jpg",
+      "thumbnail_accent": "#15803d",
+      "thumbnail_initial": "WH"
+    },
+    {
+      "title": "LangChain Tutorial for Beginners 2026: AI Agents for Data Engineers",
+      "provider": "YouTube · AI Agents For Data Engineers",
+      "url": "https://www.youtube.com/watch?v=AOQyRiwydyo",
+      "cost": "免費",
+      "topic": "LangChain · AI Agents · 資料工程",
+      "type": "free-youtube",
+      "highlight": "2026 完整入門指南，涵蓋 LangChain 核心架構、Chains、Agents 與 RAG 模式，針對資料工程師實際應用場景設計，英文授課。",
+      "thumbnail_url": "https://i.ytimg.com/vi/AOQyRiwydyo/hqdefault.jpg",
+      "thumbnail_accent": "#1e4d78",
+      "thumbnail_initial": "LC"
+    },
+    {
+      "title": "LangChain Crash Course 2026 by Simplilearn: Beginner to Advanced AI Agents",
+      "provider": "YouTube · Simplilearn",
+      "url": "https://www.youtube.com/watch?v=Oaf30T08COY",
+      "cost": "免費",
+      "topic": "LangChain · AI Agent 開發 · 完整速成",
+      "type": "free-youtube",
+      "highlight": "Simplilearn 出品百萬訂閱頻道，2026 年全新 LangChain 速成課，涵蓋 Chains、Agents、記憶體管理與 RAG 等核心模組，適合快速上手 LangChain 的開發者，英文授課。",
+      "thumbnail_url": "https://i.ytimg.com/vi/Oaf30T08COY/hqdefault.jpg",
+      "thumbnail_accent": "#003366",
+      "thumbnail_initial": "Si"
     }
   ]
 }
