@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-05-18T05:03:00+08:00",
+  "updated_at": "2026-05-18T06:00:00+08:00",
   "items": [
+    {
+      "id": "pulse-2026-05-18-06-anthropic-mythos-macos-m5-kernel-exploit",
+      "ts": "2026-05-18T06:00:00+08:00",
+      "title": "Anthropic Mythos Preview 五日破解 Apple M5 核心・AI 輔助漏洞研究進入「日」量級計時",
+      "source": "9to5Mac / Calif Security Research",
+      "url": "https://9to5mac.com/2026/05/14/calif-team-details-how-anthropic-mythos-helped-build-a-working-macos-exploit-in-five-days/",
+      "blurb": "加州資安團隊 Calif 5 月 14 日公開完整細節：以 Anthropic Mythos Preview 為核心工具，五個工作日內完成 macOS 26.4.1 本地核心特權提升漏洞鏈，繞過 Apple 五年投入的記憶體完整性強制防護，是 AI 輔助漏洞研究從「月」壓縮至「日」的里程碑。",
+      "editorial": "<p><strong>第一</strong>加州資安研究機構 Calif 於 2026 年 5 月 14 日發布完整技術細節，並啟動向 Apple 的負責任揭露程序，記錄其如何透過 Anthropic Mythos Preview 在五個工作日內完成 macOS 26.4.1（25E253）的本地核心特權提升漏洞利用鏈。攻擊鏈從非特權本地使用者帳號出發，僅使用正常系統呼叫，鏈接兩個記憶體損壞漏洞與多項已知技術，最終取得 root shell，繞過 Apple 在 M 系列晶片上投入五年研發的硬體加速記憶體安全機制 Memory Integrity Enforcement（MIE）。Mythos Preview 全程參與漏洞識別與概念驗證開發協作——研究者指出 AI 得以快速識別，是因漏洞屬於已知類別；但繞過 MIE 的最後環節仍需人類專業知識。Calif 已在 Apple Park 完成技術簡報，55 頁完整報告待修補程式發布後公開。</p><p><strong>第二</strong>此事件有三層結構性影響。第一，時間壓縮意涵：傳統核心漏洞研究從發現到可利用概念驗證需數月乃至數年；Mythos Preview 將 M5 核心攻擊面分析壓縮至五天，意味著 AI 輔助漏洞研究的「時間量級」已從月遷移至日，所有企業的修補程式部署 SLA 必須對應重新校準。第二，雙重用途監管意涵：Anthropic 較早前以「Mythos Preview 在電腦安全任務具顯著能力」為由發布 Project Glasswing（防守方輔助計畫）；此次攻擊性應用的完整展示，是「防守工具同時被攻擊者採用」的典型雙重用途案例，直接觸及即將生效的 EU AI Act 高風險 AI 系統定義（Annex III 網路安全類別）。第三，競爭格局意涵：此案例揭示特化安全模型在真實漏洞研究的前沿能力，亦是迄今公開等級最高的 frontier AI 安全能力展示，將加速各 frontier lab 在安全能力評估標準制定上的競爭。</p><p><strong>第三</strong>對企業 CIO 而言，此事件是重新評估 macOS 設備管理風險矩陣的強制觸發點——現有 MDM 政策的修補程式部署 SLA 若超過一個工作週，在 AI 輔助漏洞研究的時代背景下已屬高風險，Apple 修補程式發布前應評估 M5 裝置敏感資料存取的額外網路分區需求。對監管者而言，「五天完成 frontier 系統核心漏洞利用」是 GPAI 能力評估框架中「嚴重網路安全能力」門檻設定的最新現實校準點，EU AI Act 技術委員會應將此案例納入 2026 下半年能力評估指引修訂。對 BEXS 學員而言，此事件同時衝擊兩個市場面向：一是 Apple 設備安全股（Crowdstrike、SentinelOne 等端點防護廠商）的短期需求催化；二是 Anthropic 安全類 AI 服務的商業潛力驗證——若 Project Glasswing 的防守端應用形成訂閱收入，可能成為 Anthropic IPO 估值的重要佐證之一。</p>"
+    },
+    {
+      "id": "pulse-2026-05-18-06-openai-gpt52codex-swebench-frontier-coding",
+      "ts": "2026-05-18T06:00:00+08:00",
+      "title": "OpenAI 發布 GPT-5.2-Codex・SWE-Bench Pro 奪冠確立代理式程式設計新基準",
+      "source": "OpenAI",
+      "url": "https://openai.com/index/introducing-gpt-5-2-codex/",
+      "blurb": "OpenAI 5 月 16 日發布 GPT-5.2-Codex，在 SWE-Bench Pro 與 Terminal-Bench 2.0 取得最佳成績，針對長視野代理式程式設計最佳化，支援四級推論努力設定並明確開放防禦性網路安全場景，是 frontier 程式碼代理能力標準的最新遷移節點。",
+      "editorial": "<p><strong>第一</strong>OpenAI 於 2026 年 5 月 16 日發布 GPT-5.2-Codex，作為 GPT-5.2 在代理式程式設計任務上的特化升級版。模型在兩個設計用於評估「真實終端環境長視野任務」的基準測試——SWE-Bench Pro 與 Terminal-Bench 2.0——上取得當前最佳成績。SWE-Bench Pro 相比原版 SWE-Bench 採用更大程式碼庫、更長修復鏈，指標更接近真實生產部署表現。模型支援四個推論努力等級（低、中、高、超高），並針對兩大核心場景最佳化：其一為專業軟體工程代理，涵蓋程式碼審閱、測試生成、複雜多步驟重構；其二為防禦性網路安全工作流，涵蓋漏洞識別、安全代碼審查與入侵後取證輔助。模型透過 OpenAI Codex 環境及 API 端點 gpt-5.2-codex 提供存取，並同步發布系統安全說明補充文件。</p><p><strong>第二</strong>GPT-5.2-Codex 的戰略意涵分三層。第一，SWE-Bench Pro 奪冠意味著 OpenAI 在「代理可完成完整生產環境任務」這條賽道上重奪前線位置，正面回應 Anthropic Claude Code 近月在開發者社群的高速擴散。第二，「長視野終端代理」能力的強化，直接指向 CI/CD 管道中「無人監督跨檔案自主重構」場景的可部署條件，是代理從「輔助工具」正式進入「工作流承包商」的能力門檻宣示。第三，「防禦性網路安全工作流」的明確標注，在 Pwn2Own Berlin 2026 AI 特設組與 Mythos 核心漏洞事件的同期語境下，是 OpenAI 刻意以「防守者賦能」框架定位安全類代理能力，與 Anthropic Project Glasswing 的定位相互競爭。</p><p><strong>第三</strong>對開發者而言，gpt-5.2-codex 端點的定價與 gpt-5.2 的差異將決定代理工作流的成本模型；超高推論努力設定在長時間代理任務中的 token 消耗應建立基線，評估其對複雜重構任務的 ROI 是否正當。對企業 CIO 而言，SWE-Bench Pro 指標成為採購評估的可比維度後，建議在下季代理工具採購中要求各供應商提供等效基準成績，不再以單一提示示範作為評估依據。對 BEXS 學員而言，OpenAI 在 IPO 前夕強化代理程式碼能力是對 Claude Code 市場份額的直接競爭宣示，後續應追蹤 GitHub 提交佔比等第三方市場份額指標，以判斷此次能力提升能否在 H2 2026 轉化為可量化的企業訂閱增長。</p>"
+    },
+    {
+      "id": "pulse-2026-05-18-06-eu-ai-act-omnibus-high-risk-deadline-extension",
+      "ts": "2026-05-18T06:00:00+08:00",
+      "title": "歐盟 AI 法修正案 5 月 7 日通過・高風險義務截止日延至 2027 年底、開闢七個月工程因應視窗",
+      "source": "Council of the EU",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/",
+      "blurb": "歐洲議會與理事會 5 月 7 日就 AI 法數位綜合修正案達成政治協議，附件三高風險 AI 義務截止日推後逾 16 個月至 2027 年 12 月，但 UI 標注與機器可讀元資料要求 2026 年 12 月 2 日仍強制上路，是 AI 法執行史上最重要的時程重寫。",
+      "editorial": "<p><strong>第一</strong>2026 年 5 月 7 日，歐洲議會與歐盟理事會就《數位綜合法》（Digital Omnibus）中的 AI 監管修正條款達成臨時政治協議。核心修正：附件三（Annex III）所定義高風險 AI 系統的義務合規截止日，從原定 2026 年 8 月 2 日延至 2027 年 12 月 2 日（推遲逾 16 個月）；嵌入於附件一（Annex I）受監管產品（醫療設備、汽車、航空等）的高風險 AI 義務截止日則延至 2028 年 8 月 2 日。維持不變的早期義務：所有面向歐盟市場的生成式 AI 功能，必須於 2026 年 12 月 2 日前完成 UI 標注（AI 生成內容標示）、機器可讀元資料嵌入，以及 AI 生成偵測能力部署。修正案仍待歐洲議會全體投票與理事會正式採納，但政治協議已確立後續走向。</p><p><strong>第二</strong>此次時程調整的戰略意涵分三層。對 AI 產業而言，延遲超過 16 個月的 Annex III 高風險義務，直接減輕了對話 AI、代理系統及推薦算法等「邊界定義模糊」類別的短期合規壓力，許多企業原定投入的大型合規工程項目可重新排序，釋放 H2 2026 至 2027 Q1 的工程資源。對 AI 模型提供商而言，早期義務維持不變（2026 年 12 月 2 日 UI 標注與元資料），意味著面向歐盟市場的 frontier 模型服務商仍面臨約七個月的生成式 AI 標注工程期限，API 不可見的企業級後端部署亦需確認合規路徑。對非美國 AI 生態而言，修正案批准恰在 Cohere-Aleph Alpha 跨大西洋合併宣告後約兩週，延期視窗讓合併後實體有更充裕時間建立雙重監管架構，降低早期截止日對整合進程的阻力。</p><p><strong>第三</strong>對企業 CIO 而言，2026 年 12 月 2 日 UI 標注為強制截止日，現有在歐盟部署的任何生成式 AI 前端介面均應本季啟動標注合規差距分析——七個月是足夠但不寬裕的工程視窗。對開發者而言，機器可讀元資料嵌入要求（C2PA 等標準）是即將生效的技術規格，API 層的元資料傳遞架構設計應在 Q3 納入路線圖。對 BEXS 學員而言，高風險義務延期降低了歐盟市場部署 AI 系統的短期合規成本壓力，對依賴歐洲 B2B 客戶的 AI 公司估值有正面影響；然而 UI 標注義務維持不變，消費端 AI 產品的歐盟上市計畫仍應將 2026 年 12 月 2 日合規成本納入定價模型。</p>"
+    },
     {
       "id": "pulse-2026-05-18-05-musk-openai-jury-deliberation-altman",
       "ts": "2026-05-18T05:03:00+08:00",
@@ -243,33 +270,6 @@
       "url": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api/",
       "blurb": "OpenAI 5月8日推出三款 Realtime API 模型：GPT-Realtime-2 首次以 GPT-5 等級推理進入音訊即時迴路並支援平行工具調用與 128K 上下文；GPT-Realtime-Translate 覆蓋 70 語言即時翻譯；GPT-Realtime-Whisper 串流轉文字，三款構成企業即時語音代理的完整基礎設施層。",
       "editorial": "<p><strong>第一</strong>OpenAI於2026年5月8日透過官方部落格發布三款Realtime API新模型。旗艦款GPT-Realtime-2是OpenAI首個將GPT-5等級推理能力嵌入音訊即時迴路的語音模型：上下文視窗從前代32K擴展至128K；新增「Preambles」功能，模型在處理複雜請求時主動說出「讓我查一下」等過渡語，避免靜默延遲帶來的體驗斷點；支援平行工具調用並向用戶播報工具執行動作（Tool Transparency）。能力基準：Big Bench Audio評分比GPT-Realtime-1.5高15.2%，Audio MultiChallenge高13.8%。定價：$32/百萬音訊輸入token、$64/百萬音訊輸出token。第二款GPT-Realtime-Translate支援70種以上輸入語言翻譯至13種輸出語言，定價$0.034/分鐘。第三款GPT-Realtime-Whisper提供串流即時語音轉文字，定價$0.017/分鐘。</p><p><strong>第二</strong>三款模型的推出時點精準卡在Thinking Machines Lab公布0.4秒全雙工互動模型後不到兩週（本輪稍早已有專欄）。OpenAI的回應邏輯與架構選擇截然不同：Thinking Machines以原生全雙工設計重構語音對話底層，OpenAI則以在現有請求-回應框架內嵌入GPT-5等級推理的方式提升語音代理能力密度。GPT-Realtime-2的128K上下文擴展是企業語音代理最關鍵的能力突破——過去32K限制使長對話工作流（客服歷史、多步驟業務流程）在生產環境架構複雜，128K版本直接覆蓋金融電話服務、醫療問診、法律顧問等高上下文密度場景。定價策略亦具清晰的市場區隔邏輯：$32/M輸入token較標準文字GPT-5約高10倍，劃分出「高價值企業語音代理」與「低成本消費語音應用」兩層市場，前者以能力換溢價，後者由Whisper等低成本模型承接。</p><p><strong>第三</strong>對開發者而言，三款模型構成即時語音應用的完整建構套件，應依場景明確選型：高複雜度企業代理選Realtime-2（接受成本溢價）、跨語言服務優先選Realtime-Translate（$0.034/分鐘遠低於Realtime-2）、純轉錄場景選Realtime-Whisper；128K上下文開放意味著過去以「記憶體管理」為主要複雜度來源的語音代理工程問題可大幅簡化。對企業CIO而言，GPT-Realtime-2的GPT-5等級推理能力使語音代理首次可處理真正複雜的多步驟業務邏輯而不需要語音-文字的中間層轉換，建議在下一輪電話客服AI採購評估中將「上下文視窗大小」列為核心指標。對BEXS學員而言，語音AI定價結構的顯著升級是OpenAI在企業語音市場試探定價上限的信號，若Q3財報顯示Realtime-2採用率達預期，則企業語音代理市場ARPU的上修幅度將成為評估OpenAI下半年收入加速的重要變數。</p>"
-    },
-    {
-      "id": "pulse-2026-05-16-08-thinking-machines-interaction-models",
-      "ts": "2026-05-16T08:01:00+08:00",
-      "title": "Murati 的 Thinking Machines 預覽全雙工互動模型 · 0.4 秒延遲宣告 AI 對話架構正規則轉換",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/05/11/thinking-machines-wants-to-build-an-ai-that-actually-listens-while-it-talks/",
-      "blurb": "前 OpenAI 技術長 Mira Murati 創辦的 Thinking Machines Lab 於 5 月 11 日發布「互動模型」研究預覽，以 0.4 秒回應延遲實現聽說同步全雙工對話，從架構層挑戰 OpenAI、Google 現行語音 AI 的輪換假設。",
-      "editorial": "<p><strong>第一</strong>2026 年 5 月 11 日，Thinking Machines Lab 發布 TML-Interaction-Small 研究預覽，以「互動模型（interaction models）」定義新型 AI 架構設計哲學：互動能力應原生內建於模型，而非疊加於推論引擎之上。系統採雙模型分層架構——前端互動模型全程在線，處理即時音訊、視訊輸入與即時響應；後端推理模型異步處理深度推論任務與工具調用。核心技術指標：回應延遲 0.40 秒，接近人類自然對話速度；支援 200 毫秒微轉、視覺主動感知及即時工具調用。Thinking Machines Lab 由前 OpenAI 技術長 Mira Murati 於 2025 年創辦，現估值約 20 億美元，核心研究人員大量來自 OpenAI 與 DeepMind。</p><p><strong>第二</strong>此發布的戰略意義在於它對現行 AI 對話系統提出了系統性批判。OpenAI GPT-4o Realtime、Google Gemini 2.0 Live 均採「請求-回應」輪換架構——即便優化了延遲，底層設計仍假設一次一方發言。Thinking Machines 的全雙工設計使 AI 可在用戶說話時同步聆聽並準備響應，等同從電話通話升級至真實面對面對話，是語言模型首次以原生架構方式捕捉人類對話的非線性特質。若此架構在全規模模型上驗證可行，現有語音 AI 的交互設計前提將面臨根本重估，並重新定義企業語音代理的採購規格基線。</p><p><strong>第三</strong>對開發者而言，TML-Interaction-Small 的前後端解耦架構提供了一個值得深入學習的工程設計範本——即時響應與深度推理的分離，可能成為下一代實時 AI 應用的標準架構模式；研究預覽開放後應優先評估 API 接入時序。對企業 CIO 而言，全雙工互動能力若成熟落地，電話客服、醫療問診輔助、遠端教學等高頻對話場景的採購評估前提，將從「延遲優化」升級為「對話節奏原生支援」，建議在現有語音 AI 採購評估框架中提前納入全雙工能力作為獨立評鑑維度。對 BEXS 學員而言，Thinking Machines Lab 是觀察頂尖 AI 人才密度與資本分配流向的重要信號——前 OpenAI 技術長以 20 億美元起點挑戰現有架構，若研究預覽正式產品化，其企業語音代理市場的商業化速度是判斷估值合理性的核心先行變數。</p>"
-    },
-    {
-      "id": "pulse-2026-05-16-08-openai-codex-mobile-ios-android-hipaa",
-      "ts": "2026-05-16T08:01:00+08:00",
-      "title": "OpenAI Codex 代理登陸 iOS 與 Android · CI 流水線令牌與 HIPAA 合規同步解鎖企業場景",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/05/14/openai-says-codex-is-coming-to-your-phone/",
-      "blurb": "OpenAI 5 月 14 日將 Codex 代碼代理整合至 ChatGPT 行動應用，開發者可透過手機遠端監控與審批代理任務；同步開放 CI 流水線程式化存取令牌及 ChatGPT Enterprise 的 HIPAA 合規認證，是 AI 代理工作流從桌面解耦至全裝置生命週期的結構性擴張。",
-      "editorial": "<p><strong>第一</strong>2026 年 5 月 14 日，OpenAI 面向 iOS 與 Android 推出 Codex 手機端預覽，整合於 ChatGPT 應用。用戶可在手機管理全部 Codex 任務執行緒、審閱輸出、核准系統指令、切換推理模型或啟動新任務；初始版本需與 macOS 桌面端 Codex 應用配對（QR code 掃描），Windows 支援時程未定。同步公告三項企業功能：Hooks 正式進入通用可用（GA）、Business 與 Enterprise 方案開放程式化存取令牌供 CI 流水線與發布工作流使用，以及針對 ChatGPT Enterprise 工作區本地環境使用 Codex 的 HIPAA 合規認證。手機端覆蓋 Free、Go、Pro 全計畫，Pro 訂閱（每月 200 美元）享無限制 Codex 存取。</p><p><strong>第二</strong>Codex 登陸行動端的核心戰略意涵不在手機功能本身，而在代理生命週期的裝置解耦。AI 代碼代理的完整工作週期往往以小時計，涵蓋代碼生成、測試、審閱、部署等多個步驟，開發者此前只能守在桌面機前等待輸出。手機端整合使代理任務的審批控制點從桌面脫鉤，開發者可在通勤或會議間隙保持代理進度，本質上是在不改變代理能力上限的前提下，大幅提升開發者的多任務並行效率閾值。HIPAA 合規的獨立意涵同樣清晰：醫療科技公司工程團隊此前因合規障礙無法在內部工具中採用 Codex，此更新直接清除了醫療行業 AI 代碼代理採購的最大制度性摩擦。</p><p><strong>第三</strong>對開發者而言，Hooks GA 與 CI 流水線程式化存取令牌的開放，優先級高於手機端功能本身——Codex 代理接入 CI/CD 管道已正式成熟，建議即刻評估在 GitHub Actions 或 GitLab CI 中嵌入 Codex 自動審閱步驟的工程成本與品質收益，這是短期 ROI 最明確的 AI 代理整合入口。對企業 CIO 而言，HIPAA 合規是醫療、保險、生命科學行業正式評估 OpenAI Codex 採購的起點信號；合規認證之後仍須完成資料處理協議（BAA）審查、存取控制策略設計及員工使用政策制定，建議把握目前評估窗口完成制度性鋪墊。對 BEXS 學員而言，Codex 在 Pro 計畫無限存取的定位是觀察 OpenAI 開發者收入能否有效升維至高 ARPU 訂閱層的先行信號；若 HIPAA 企業合規採購在 H2 2026 加速落地，OpenAI 企業年約收入增速存在上修空間，值得在 Q2 財報週前建立追蹤框架。</p>"
-    },
-    {
-      "id": "pulse-2026-05-16-07-openai-chatgpt-personal-finance-plaid",
-      "ts": "2026-05-16T07:05:00+08:00",
-      "title": "OpenAI 今日推出 ChatGPT 個人理財・接入 Plaid 連結一萬兩千家金融機構開放帳戶問答",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/05/15/openai-launches-chatgpt-for-personal-finance-will-let-you-connect-bank-accounts/",
-      "blurb": "OpenAI 以 Plaid 為橋樑讓 ChatGPT Pro 用戶連結 Schwab、Fidelity、Chase 等一萬兩千家金融機構，可查詢持倉、分析支出、規劃財務，是 ChatGPT 從通用助理轉向垂直金融場景的第一步公開落地，也是對 Bloomberg Terminal 個人化路線的最直接挑戰。",
-      "editorial": "<p><strong>第一</strong>2026 年 5 月 15 日，OpenAI 面向美國 ChatGPT Pro 訂閱用戶推出個人理財工具預覽版。透過 Plaid API 接入逾一萬兩千家金融機構，涵蓋 Schwab、Fidelity、Chase、Robinhood、American Express 及 Capital One；用戶連結帳戶後可看到持倉績效儀表板、消費趨勢分析、定期扣款清單及即將到期付款提醒，並以自然語言問答進行財務分析。此功能的前置步驟為 OpenAI 在 4 月完成對個人理財新創 Hiro 團隊的收購，Hiro 曾獲 Ribbit Capital 與 General Catalyst 背書，其金融領域技術棧直接支撐本次產品。</p><p><strong>第二</strong>這款產品的戰略意義在於 OpenAI 以垂直場景突破通用模型的商業化瓶頸。ChatGPT 在一般問答賽道已面臨 Gemini、Perplexity 等強力競爭，整合私人金融帳戶所形成的資料護城河，是競爭對手最難複製的差異化路徑——一旦用戶建立帳戶連結習慣，切換成本以乘數級增加。從生態角度，Plaid 因此確立了在 AI 代理金融場景中的基礎設施地位；對 Robinhood、Fidelity 等金融平台而言，這是主流 AI 助理首次正式整合其帳戶數據，後續在 AI 投資建議的合規框架與監管責任劃分上，將引發不可忽視的政策壓力。</p><p><strong>第三</strong>對 BEXS 黃金交易學員而言，ChatGPT 個人理財的落地是 AI 首次以帳戶連結形式進入投資輔助決策場景，觀察下一步 OpenAI 是否納入市場情報與資產配置建議功能，可判斷其進逼 Bloomberg Terminal 個人版定位的速度與節奏。對企業 CIO 而言，ChatGPT 整合金融帳戶的路徑對現有財富管理 SaaS 產生直接替代壓力，金融科技部門應優先評估 Plaid-OpenAI 資料流的資料主權邊界與金融監管合規範圍（尤其 SEC 投資建議免責聲明適用性）。對開發者而言，OpenAI 透過 Plaid 的金融帳戶整合模式是 AI 垂直應用最清晰的參考藍圖之一，值得追蹤 OpenAI 後續是否對第三方開發者開放金融場景 API 存取通道。</p>"
     }
   ]
 }
