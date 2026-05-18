@@ -2870,6 +2870,126 @@
       "thumbnail_url": "https://i.ytimg.com/vi/Oaf30T08COY/hqdefault.jpg",
       "thumbnail_accent": "#003366",
       "thumbnail_initial": "Si"
+    },
+    {
+      "title": "超級新手指南：我每天都在用的 5 項 Claude Code 技能全公開（打造一人公司）",
+      "provider": "YouTube",
+      "url": "https://www.youtube.com/watch?v=wW6_Q-5aH5o",
+      "cost": "免費",
+      "topic": "Claude Code · 核心技能 · 一人公司工作流",
+      "type": "free-youtube",
+      "highlight": "公開 5 項 Claude Code 每日必用技能，包含指令入門、CLAUDE.md 設定、多工任務並行、Hooks 自動化等，以「初學者也能打造一人公司」為驗證目標，2026 年 4 月最新，實戰舉例清晰可複製。",
+      "thumbnail_url": "https://i.ytimg.com/vi/wW6_Q-5aH5o/hqdefault.jpg",
+      "thumbnail_accent": "#7c3aed",
+      "thumbnail_initial": "CC"
+    },
+    {
+      "title": "Vibe Coding 新手入門：從藍圖規劃到 AI 開發的思維轉型（20+ 堂課系列）",
+      "provider": "YouTube · OxxO Studio",
+      "url": "https://www.youtube.com/watch?v=4Gnms_QmLl0",
+      "cost": "免費",
+      "topic": "Vibe Coding · 藍圖規劃思維 · AI 輔助開發",
+      "type": "free-youtube",
+      "highlight": "Vibe Coding 系列課程第 2 集，教你把「構思拆解邏輯」的架構師思維交給 AI 執行，從傳統打字手工編程升級為「藍圖規劃 → AI 建構」模式，2026 年 3 月出品，非技術背景可直接入手。",
+      "thumbnail_url": "https://i.ytimg.com/vi/4Gnms_QmLl0/hqdefault.jpg",
+      "thumbnail_accent": "#059669",
+      "thumbnail_initial": "VC"
+    },
+    {
+      "title": "我不再打字了！語音 Vibe Coding 效率提升 50%｜兩大語音神器完整實測",
+      "provider": "YouTube",
+      "url": "https://www.youtube.com/watch?v=dJI2F5bVZzY",
+      "cost": "免費",
+      "topic": "語音 Vibe Coding · Claude Code · 效率工具",
+      "type": "free-youtube",
+      "highlight": "實測語音輸入搭配 Claude Code 進行 Vibe Coding，兩款主流語音辨識工具完整對比，展示語音指令如何讓開發效率提升 50%，2026 年 3 月發布，適合想解放雙手的 AI 開發者。",
+      "thumbnail_url": "https://i.ytimg.com/vi/dJI2F5bVZzY/hqdefault.jpg",
+      "thumbnail_accent": "#0ea5e9",
+      "thumbnail_initial": "語音"
+    },
+    {
+      "title": "Google Antigravity 教學：用 Vibe Coding 完成輕量級全端專案（React + GAS + Sheets）",
+      "provider": "YouTube · 林鼎淵",
+      "url": "https://www.youtube.com/watch?v=-FW5DgQEV0M",
+      "cost": "免費",
+      "topic": "Google Antigravity · 全端開發 · Vibe Coding 實戰",
+      "type": "free-youtube",
+      "highlight": "林鼎淵出品，示範用 Google Antigravity AI 程式編輯器完成完整全端專案：React 前端 + Google Apps Script 後端 + Sheets 資料庫，零後端基礎可全程跟做，2025 年 12 月發布。",
+      "thumbnail_url": "https://i.ytimg.com/vi/-FW5DgQEV0M/hqdefault.jpg",
+      "thumbnail_accent": "#1a73e8",
+      "thumbnail_initial": "AG"
+    },
+    {
+      "title": "Google Gemini 全系列教學（上集）：21 個超強 AI 應用，大量免費功能完整示範",
+      "provider": "YouTube",
+      "url": "https://www.youtube.com/watch?v=4n8jswc2pAI",
+      "cost": "免費",
+      "topic": "Google Gemini · 21 個實用應用 · 免費功能",
+      "type": "free-youtube",
+      "highlight": "一次掌握 Google Gemini 21 個強大應用場景，包含多模態分析、AI 簡報製作、APP 原型設計、NotebookLM 智能筆記等，大量免費功能完整演示，2025 年 12 月發布，繁體中文授課。",
+      "thumbnail_url": "https://i.ytimg.com/vi/4n8jswc2pAI/hqdefault.jpg",
+      "thumbnail_accent": "#4285f4",
+      "thumbnail_initial": "GM"
+    },
+    {
+      "title": "2026 Google Gemini 終極教學：免寫 Code 打造有靈魂的個人 AI 助手",
+      "provider": "YouTube",
+      "url": "https://www.youtube.com/watch?v=DMbg15Fj3Gg",
+      "cost": "免費",
+      "topic": "Google Gemini · 個人 AI 助手 · 零程式開發",
+      "type": "free-youtube",
+      "highlight": "香港 AI 頻道出品，手把手帶你免寫程式打造具個性化的 Google Gemini 個人 AI 助手，涵蓋 2026 最新功能設定，適合香港、台灣繁體中文用戶，2026 年 3 月發布。",
+      "thumbnail_url": "https://i.ytimg.com/vi/DMbg15Fj3Gg/hqdefault.jpg",
+      "thumbnail_accent": "#34a853",
+      "thumbnail_initial": "Ge"
+    },
+    {
+      "title": "Gemini CLI 完整教學：免費白嫖 Gemini 2.5 Pro｜安裝到實戰快速上手",
+      "provider": "YouTube",
+      "url": "https://www.youtube.com/watch?v=UfrXGfivlEQ",
+      "cost": "免費",
+      "topic": "Gemini CLI · 免費 AI 工具 · Gemini 2.5 Pro",
+      "type": "free-youtube",
+      "highlight": "Google 開源 Gemini CLI 完整實測教學，從安裝到實戰逐步示範，免費取得 Gemini 2.5 Pro 百萬 token 上下文能力，每日 1,000 次免費請求配額，2026 年發布，適合開發者與進階用戶。",
+      "thumbnail_url": "https://i.ytimg.com/vi/UfrXGfivlEQ/hqdefault.jpg",
+      "thumbnail_accent": "#0f9d58",
+      "thumbnail_initial": "CLI"
+    },
+    {
+      "title": "我用 Lovart 做設計，結果比專業設計師還好｜Lovart AI 完整實測教學",
+      "provider": "YouTube",
+      "url": "https://www.youtube.com/watch?v=xAEZlJe3MrU",
+      "cost": "免費",
+      "topic": "Lovart AI · 設計代理 · 品牌視覺生成",
+      "type": "free-youtube",
+      "highlight": "實測以 Lovart AI 替代設計師團隊，完整展示 Logo、海報、品牌視覺一站式生成流程，與專業設計師產出品質對比，繁體中文授課，2025 年 11 月上線，創作者自學品牌設計首選。",
+      "thumbnail_url": "https://i.ytimg.com/vi/xAEZlJe3MrU/hqdefault.jpg",
+      "thumbnail_accent": "#e11d48",
+      "thumbnail_initial": "Lo"
+    },
+    {
+      "title": "Agentic AI Full Course for Beginners 2026 | Complete AI Agents Tutorial · Intellipaat",
+      "provider": "YouTube · Intellipaat",
+      "url": "https://www.youtube.com/watch?v=eooxQPZQUEM",
+      "cost": "免費",
+      "topic": "Agentic AI · 多智能體框架 · LLM 編排 · 英文入門",
+      "type": "free-youtube",
+      "highlight": "Intellipaat 百萬訂閱頻道 2026 年 5 月最新 Agentic AI 完整入門課，涵蓋多智能體框架、LLM 編排、工具呼叫與生產部署模式，適合快速上手 Agent 開發的工程師，英文授課。",
+      "thumbnail_url": "https://i.ytimg.com/vi/eooxQPZQUEM/hqdefault.jpg",
+      "thumbnail_accent": "#1e40af",
+      "thumbnail_initial": "Ag"
+    },
+    {
+      "title": "Agentic Workflows: Build & Sell AI Automations (2026)",
+      "provider": "YouTube",
+      "url": "https://www.youtube.com/watch?v=MxyRjL7NG18",
+      "cost": "免費",
+      "topic": "AI Automation · Agentic Workflow · 商業化變現 · 英文",
+      "type": "free-youtube",
+      "highlight": "實戰指南：用 Agentic Workflow 建構 AI 自動化服務並商業變現，涵蓋工作流設計、客戶交付流程與定價模型，2025 年 12 月發布，適合想把 AI 能力轉化為收入的創作者，英文授課。",
+      "thumbnail_url": "https://i.ytimg.com/vi/MxyRjL7NG18/hqdefault.jpg",
+      "thumbnail_accent": "#7c2d12",
+      "thumbnail_initial": "AW"
     }
   ]
 }
