@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-05-19T11:06:00+08:00",
+  "updated_at": "2026-05-20T05:08:06+08:00",
   "items": [
+    {
+      "id": "pulse-2026-05-20-05-google-search-25year-overhaul-ai-agents",
+      "ts": "2026-05-20T05:08:06+08:00",
+      "title": "Google Search 25 年最大改版落地 · AI Information Agent 正式接替關鍵字搜尋框架",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/19/google-search-as-you-know-it-is-over/",
+      "blurb": "Google I/O 2026 宣布 Search 史上最大架構重設計：搜尋框升級為 AI 對話介面、多模態輸入上線，Information Agents 今夏起可在背景 24/7 自主追蹤網頁並主動推送通知，TechCrunch 以「你所認識的 Google Search 已終結」為題標記此轉型。",
+      "editorial": "<p><strong>第一</strong>2026 年 5 月 19 日，Google I/O 開幕主旨演講中，Sundar Pichai 宣布 Search 進行創立以來最大的架構重設計。新版「Intelligent Search Box」從靜態關鍵字框升級為動態展開的 AI 對話介面，支援文字、圖片、影片、文件及啟用中的 Chrome 分頁等多模態輸入。今夏起，用戶可在 Search 介面內建立、自訂並管理多個「Information Agents」，這些代理可在背景 24/7 自主追蹤網頁變化並主動通知用戶；Search 同步引入生成式 UI 能力，可為複雜查詢即時生成互動表格、模擬情境與視覺化工具，底層由 Gemini 3.5 Flash 全面驅動。</p><p><strong>第二</strong>此次重設計的戰略本質是：Google 正將自身最核心的 distribution 護城河——全球最大入口、每月數千億次查詢——從流量分發機制升級為 AI Agent 執行平台。Information Agents 的 24/7 背景執行能力，是在 Search 框架內直接複製 Perplexity、ChatGPT Search 的核心功能，並以 Google 的索引深度與即時性建立差異壁壘。對依賴 SEO 流量的媒體、電商與 SaaS 公司而言，這是 organic traffic 的結構性衝擊：當 AI 代理直接回答問題並主動推送更新，點擊抵達的流量價值將持續下降，TechCrunch 的「Search 已終結」論述是對這個趨勢的精準概括。</p><p><strong>第三</strong>對企業 CIO 而言，Search 代理化意味著企業資訊在網路的「被發現性」邏輯將在 12 個月內根本改變，現有 SEO 架構與內容策略需評估「AI 可讀性」——structured data、schema markup——作為新的優化維度。對開發者而言，Information Agents 的多模態輸入能力（尤其是 Chrome 分頁作為上下文）是 Google 搶占「瀏覽器原生 AI 代理」入口的戰略嵌入，值得追蹤此能力是否延伸為 Gemini API 的商業功能。對 BEXS 學員而言，Search 重設計是 Alphabet 廣告商業模式轉型的最大單一風險因子，亦是其 AI 生態整合護城河的最直接體現——AI 摘要頁的廣告貨幣化驗證，是 Alphabet 2026 下半年財報中最值得追蹤的結構性指標。</p>"
+    },
+    {
+      "id": "pulse-2026-05-20-05-google-gemini-35-flash-spark-agent-io2026",
+      "ts": "2026-05-20T05:08:06+08:00",
+      "title": "Gemini 3.5 Flash 以三分之一定價攻擊 frontier 成本線 · Spark 個人代理今週向 Ultra 用戶開放",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/19/google-ai-ultra-gemini-spark-omni.html",
+      "blurb": "Google I/O 2026 當日推出 Gemini 3.5 Flash——速度達同級 frontier 模型 4 倍、定價僅三分之一，且在 coding/agentic/多模態基準壓過前代旗艦 Gemini 3.1 Pro；Spark 個人代理以 24/7 Google Cloud VM 持續執行，Google 單日同步對算力成本線與用戶鎖定展開雙線攻勢。",
+      "editorial": "<p><strong>第一</strong>2026 年 5 月 19 日，Google I/O 現場正式推出 Gemini 3.5 Flash 與個人 AI 代理 Gemini Spark。Gemini 3.5 Flash 在 coding、agentic 與多模態基準上全面超越前代旗艦 Gemini 3.1 Pro，輸出速度為同等級 frontier 模型的 4 倍，API 定價約為同性能競品的三分之一，當日起即全面部署至 Gemini App、Google Search、Antigravity 2.0 開發平台與 Gemini API。Gemini Spark 為 24/7 個人 AI 代理，在 Google Cloud 專屬虛擬機上持續運行，可跨 Gmail、Drive、Calendar、Workspace 等應用在背景推理並代為執行任務，本週起向美國 Google AI Ultra 訂閱用戶優先開放 beta，正式名稱為「your personal agent」。</p><p><strong>第二</strong>Gemini 3.5 Flash 的定價策略是 Google 對 Anthropic Claude Sonnet 系列與 OpenAI o4-mini 的直接成本線進攻——在保有 frontier 性能標籤的同時，以三分之一價格重設市場期望，壓縮競品在「性價比敘事」上的空間。若 API 開發者將 Gemini 3.5 Flash 列為預設模型，中低用量企業的 AI 工作負載成本結構將顯著重組，Google 有望借此加速 API 份額攻取。Gemini Spark 則是 Google 在「個人 AI 代理平台」的直接競爭宣告，對標 OpenAI Operator 與 Anthropic Claude Projects，核心差異在於 24/7 VM 持續執行機制，而非單次對話代理模式，是 Google 以 Cloud 基礎設施優勢在代理鎖定層的結構性下注。</p><p><strong>第三</strong>對開發者而言，Gemini 3.5 Flash 同日開放 API 意味著可立即以實際工作負載驗證定價優勢——重點測試長上下文推理與多步驟代理任務的 token 效率，而非僅參考基準跑分，並評估遷移 Claude Sonnet 或 o4-mini 工作負載的實際 TCO 差距。對企業 CIO 而言，Gemini Spark 的 Workspace 深度整合是 Google 對 Microsoft 365 Copilot 的直接功能對位，建議在 Q3 預算週期前完成兩平台在 email 自動化、日曆管理與文件生成的 TCO 對比評估。對 BEXS 學員而言，Google 單日同步釋出低價高速模型與個人代理平台，是其從「模型跟隨者」轉入「定價主導者」的戰略姿態轉換信號，Alphabet 在 AI API 市場的競爭格局重估應在 I/O 後 48 小時內更新。</p>"
+    },
     {
       "id": "pulse-2026-05-19-11-anthropic-gates-foundation-200m-global-health",
       "ts": "2026-05-19T11:06:00+08:00",
@@ -252,24 +270,6 @@
       "url": "https://blog.google/products-and-platforms/platforms/android/meet-googlebook/",
       "blurb": "Google 5 月 12 日在 Android Show 宣布以 Googlebook 全面取代 Chromebook 產品線，聯手 Acer、Asus、Dell、HP、Lenovo 五大 OEM 秋季發售，Gemini Intelligence 作為 OS 底層而非外加功能整合，是 Microsoft Copilot+ PC 以外迄今最大規模的 AI 原生筆電體系架構宣示。",
       "editorial": "<p><strong>第一</strong>2026 年 5 月 12 日，Google 在「Android Show: I/O Edition」線上活動宣布 Googlebook，一個以 Gemini Intelligence 為作業系統核心的全新筆記型電腦品類，正式取代運行長達 15 年的 Chromebook 產品線。首批合作廠商涵蓋 Acer、Asus、Dell、HP、Lenovo，預計 2026 年秋季上市。三項核心設計差異：其一，「Magic Pointer」，一種以 Gemini 驅動的游標，可在任意應用程式介面即時呼叫 AI 能力，無需切換至獨立 AI 應用；其二，原生 Android 應用相容性，用戶可直接在 Googlebook 執行手機 App；其三，「Create My Widget」，以自然語言生成自訂桌面小工具，是 vibe coding 概念首次整合至消費端作業系統原生層。同場公告的 Gemini Intelligence 將成為 Android 底層 AI 推論引擎，Android Auto 同步更新以支援邊緣形狀螢幕。</p><p><strong>第二</strong>Googlebook 的戰略意義在於重新定義 AI PC 的競爭規格座標。Microsoft Copilot+ PC 路線以 NPU 晶片本地運算為核心賣點，AI 功能疊加於現有 Windows 生態之上；Google 選擇以 Gemini Intelligence 作為作業系統底層，AI 不是疊加功能而是原生架構，從 OS 層面而非晶片層面定義 AI PC。五大 OEM 同步背書，等同 Google 在 AI PC 賽道建立了規模不遜 Windows 的硬體分銷網絡，Microsoft OEM 合作壟斷優勢首次出現可量化的分流壓力。從 Chromebook 到 Googlebook 的品牌遷移，亦是 Google 在教育市場的主動升級信號：Chromebook 在美國 K-12 市場佔有率接近 60%，Googlebook 若能在教育採購週期前建立合規框架，是 Google 最大的現成轉換客戶群，可直接產生教育設備採購的結構性切換。</p><p><strong>第三</strong>對企業 CIO 而言，Googlebook 的秋季上市打開了新一輪設備採購評估窗口，應在 2026 Q3 前完成對 Googlebook、Copilot+ PC 與 Apple Silicon Mac 三條路線在安全合規、MDM 整合與 AI 生產力收益的系統性比較評估，避免在採購週期中被動跟隨市場成熟度；Googlebook 的 Android 應用生態整合意味著 MDM 政策需同步延伸至 Android App 管理框架。對開發者而言，Android 應用原生相容桌面環境意味著 Web+Android 雙路線策略的 ROI 在 Googlebook 上市後將出現結構性提升，建議提前評估現有 Android 應用的桌面 UX 適配需求。對 BEXS 學員而言，Alphabet（NASDAQ: GOOGL）以 Googlebook 進入 AI PC 硬體市場，是 Google 收入多元化在硬體層的最新實驗；若 Googlebook 首季出貨量超預期，可能在年底重評 Google 硬體業務對整體估值的貢獻乘數，亦是在 I/O 2026 主場發布前校準 Alphabet 技術戰略廣度的重要先行指標。</p>"
-    },
-    {
-      "id": "pulse-2026-05-17-09-xai-grok-build-cli-coding-agent",
-      "ts": "2026-05-17T09:09:00+08:00",
-      "title": "xAI Grok Build 終端代理出關・SuperHeavy 299 美元入市，代理程式碼三方格局正式成形",
-      "source": "xAI",
-      "url": "https://x.ai/news/grok-build-cli",
-      "blurb": "xAI 5 月 14 日推出 Grok Build CLI 代理工具，計畫模式、平行子代理與 worktree 整合直指 Claude Code；SuperGrok Heavy 以 299 美元月費獨立入市，Claude Code、Codex、Grok Build 三方終端代理戰線正式成形。",
-      "editorial": "<p><strong>第一</strong>2026 年 5 月 14 日，xAI 宣布推出 Grok Build 並開放 early beta，定位為面向專業軟體工程師的代理 CLI（Command Line Interface）工具。核心架構含三項機制：計畫模式（Plan Mode），在任何變更執行前以逐步 diff 形式呈現完整行動計畫，用戶可逐步批注、修改或完全重寫；平行子代理（Parallel Subagents），複雜任務自動分解後同步委派給多個子代理並行執行，縮短大型工程任務的掛鐘時間；worktree 整合，子代理各自在獨立 Git worktree 中運行，不影響主分支狀態。Grok Build 以新設的 SuperGrok Heavy 訂閱層為進入門檻，正式定價 299 美元/月，目前提供早鳥優惠：前六個月以 99 美元/月計費，折扣幅度達 67%。安裝方式為終端機單行 curl 腳本，無需 GUI 介面。</p><p><strong>第二</strong>xAI 入場代理程式碼工具市場，正式打破 Claude Code 與 OpenAI Codex 的雙強格局。從競爭定位看，Anthropic Claude Code 深度整合 VS Code 與 JetBrains IDE，年化收入已突破 250 億美元，生成提交量佔全球公開 GitHub 約 4%；OpenAI Codex 剛完成 iOS 與 Android 上線並持有 HIPAA 合規認證，主打 mobile-first 體驗。Grok Build 選擇以「CLI 終端機原生」為差異化核心，鎖定偏好不離開終端機的 DevOps 工程師與系統工程師族群，在生態位上避免與 Claude Code 的 IDE 整合正面重疊。SuperGrok Heavy 以全新獨立訂閱層切入（而非附加至現有 Grok 訂閱），是 xAI 有意建立獨立專業開發者付費基礎的清晰信號——299 美元定價亦與 Anthropic Max（100 美元/月）拉開價格區間，暗示 xAI 瞄準的是願意為高算力專業工具支付溢價的核心開發族群。</p><p><strong>第三</strong>對開發者而言，Grok Build 的平行子代理與 worktree 整合在當前三款主流代理程式碼工具中屬設計最明確的多任務並行架構，建議優先在需要同時推進多條功能分支的大型重構場景中評估；若 Claude Code 在速率限制或特定工作流下出現瓶頸，Grok Build 是值得加入評估清單的 CLI 備用路線。對企業 CIO 而言，三方競爭格局使代理程式碼工具採購進入實質比價階段，建議在下輪合約更新前納入三款工具的任務完成率、企業合規認證（HIPAA、SOC 2）與計費模式的系統性評估，避免過早鎖定單一供應商。對 BEXS 學員而言，xAI 以 299 美元獨立訂閱層切入開發者工具市場，是追蹤 xAI 企業 AI 收入構成的首個量化觀察點；SuperGrok Heavy 的用戶成長速度，是評估 Grok 生態能否在 2026 年下半年在開發者族群建立與 Claude Code 可比較之市場份額的關鍵先行指標。</p>"
-    },
-    {
-      "id": "pulse-2026-05-17-07-anthropic-30b-900b-valuation-closes",
-      "ts": "2026-05-17T07:00:00+08:00",
-      "title": "Anthropic 三個月估值翻倍至九千億美元・Dragoneer 領投三百億確立 Claude 超越 OpenAI 定價基線",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-12/anthropic-in-talks-to-raise-30-billion-at-900-billion-valuation",
-      "blurb": "《金融時報》5 月 15 日確認 Anthropic 已就三百億美元融資達成協議，估值九千億美元超越 OpenAI 的八千五百億成為全球最高估值私有 AI 公司；Dragoneer、Greenoaks、Sequoia、Altimeter 四方領投，自今年二月 Series G 不足九十天估值翻逾兩倍。",
-      "editorial": "<p><strong>第一</strong>2026 年 5 月 12 日，Bloomberg 率先披露 Anthropic 正尋求以九千億美元估值融資三百億美元；5 月 15 日英國《金融時報》確認協議已達成，共同領投方為 Dragoneer Investment Group、Greenoaks Capital、Sequoia Capital 及 Altimeter Capital，每家認購不低於二十億美元。此輪距 Anthropic 於 2 月 12 日完成的三千八百億美元 Series G 不足九十天，估值漲幅超 2.4 倍。與 OpenAI 比較：OpenAI 在 2025 年 3 月完成一千二百二十億美元融資時估值為八千五百億美元，Anthropic 此輪以九千億超越，成為全球估值最高私有 AI 公司。定價核心錨點為 Anthropic 年化收入：4 月 7 日突破三百億美元，自 2025 年底九十億美元起四個月成長逾三倍；超大規模企業客戶（年消費逾百萬美元）已從五百家增至逾一千家，不足兩個月翻倍；Claude Code 年化收入突破二百五十億美元，其生成提交量佔全球公開 GitHub 總提交量的 4%。Anthropic 計劃最早於 2026 年 10 月啟動 IPO。</p><p><strong>第二</strong>九千億估值對 AI 競爭格局的戰略意涵是多層次的。其一，Anthropic 已從「追趕者」位置切換為「估值座標設定者」，在頂尖研究人才招募與企業大合同簽署時均具實質議價優勢。其二，此輪融資速度本身傳遞了算力與收入正向飛輪的信號：過去六個月 Anthropic 相繼鎖定 Google-Broadcom 三點五吉瓦 TPU 供應、Amazon 算力協議、Microsoft Azure 三百億美元框架及 SpaceX Colossus 1 全部二十二萬顆 GPU——算力確定性為機構投資人提供了清晰的收入上限模型。其三，「三個月估值翻倍」宣告 AI 旗艦實驗室的定價已不服從傳統 SaaS 的年化收入倍數框架，而更接近基礎設施平台或作業系統的戰略溢價邏輯。</p><p><strong>第三</strong>對 BEXS 學員而言，九千億估值意味著 Anthropic 若以相似倍數 IPO，首日市值可能直逼甚至超越 Meta（目前約一點六兆美元），成為 2026 至 2027 年最受矚目的定價事件；Claude Code 4% 的 GitHub 提交佔比是開發者生態鎖定最直接的量化指標，後續應追蹤其增速是否持續加快。對企業 CIO 而言，三百億美元融資規模確保 Anthropic 未來兩至三年的研發與算力供應穩定，採購 Claude Enterprise 的長期供應商風險顯著降低；但九千億估值同時意味著 Anthropic 在定價上的讓步空間收窄，企業合約應在 IPO 前鎖定長期價格條款。對開發者而言，Sequoia 和 Altimeter 同時押注 Anthropic，顯示頂尖生態投資注意力已從「OpenAI 優先」轉為「雙馬並行」格局，Claude API 生態擴展勢頭預期持續加速。</p>"
     }
   ]
 }
