@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-17T20:40:41+08:00",
+  "updated_at": "2026-05-19T20:44:38+08:00",
   "_note": "creator toolkit · Peter 手動 curation V1 · 含官方 URL + 學習資源連結",
   "categories": [
     "writing",
@@ -2990,6 +2990,114 @@
       "thumbnail_url": "https://i.ytimg.com/vi/MxyRjL7NG18/hqdefault.jpg",
       "thumbnail_accent": "#7c2d12",
       "thumbnail_initial": "AW"
+    },
+    {
+      "title": "GPT-5.5 Instant 免費開放！速度、中文、程式全面進化｜零度解說",
+      "provider": "YouTube · 零度解說",
+      "url": "https://www.youtube.com/watch?v=krEDel3aGGw",
+      "cost": "免費",
+      "topic": "GPT-5.5 · OpenAI 最新模型 · 中文實測 · LLM 評測",
+      "type": "free-youtube",
+      "highlight": "零度解說頻道 2026 年 5 月最新實測 GPT-5.5 Instant 版本，全面評測速度提升、中文理解能力與程式撰寫改進，以真實範例展示與前代差異，是掌握 GPT-5.5 最快入門影片。",
+      "thumbnail_url": "https://i.ytimg.com/vi/krEDel3aGGw/hqdefault.jpg",
+      "thumbnail_accent": "#10a37f",
+      "thumbnail_initial": "G5"
+    },
+    {
+      "title": "我用了上百個 AI 工具，只有這 17 個值得每天打開",
+      "provider": "YouTube",
+      "url": "https://www.youtube.com/watch?v=vQPr1tKHE7Y",
+      "cost": "免費",
+      "topic": "AI 工具精選 · 免費工具 · 生產力 · 圖像創作 · 語音轉文字",
+      "type": "free-youtube",
+      "highlight": "創作者實測上百款 AI 工具後精選 17 款，涵蓋日常寫作、圖像生成、語音轉文字與效率工具，多款免費可用，2026 年 3 月最新整理，節省選工具時間，一片抵百篇評測文。",
+      "thumbnail_url": "https://i.ytimg.com/vi/vQPr1tKHE7Y/hqdefault.jpg",
+      "thumbnail_accent": "#7c3aed",
+      "thumbnail_initial": "17"
+    },
+    {
+      "title": "完全不會寫程式也能開發 App？實測 Google Antigravity！",
+      "provider": "YouTube",
+      "url": "https://www.youtube.com/watch?v=v0Y9zMJuYb0",
+      "cost": "免費",
+      "topic": "Google Antigravity · 零程式碼開發 · Vibe Coding · App 製作",
+      "type": "free-youtube",
+      "highlight": "實測 Google Antigravity 零程式碼開發 App 可行性，從需求描述到完整 App 全程 AI 驅動，示範非程式背景的創作者如何用自然語言指令完成產品開發，2026 年 3 月發布。",
+      "thumbnail_url": "https://i.ytimg.com/vi/v0Y9zMJuYb0/hqdefault.jpg",
+      "thumbnail_accent": "#4285f4",
+      "thumbnail_initial": "AG"
+    },
+    {
+      "title": "Antigravity Agent Skills 教學：當別人還在複製貼上，你的 AI 已自動搞定",
+      "provider": "YouTube · Dean Lin",
+      "url": "https://www.youtube.com/watch?v=xe00zJEtuMo",
+      "cost": "免費",
+      "topic": "Google Antigravity · Agent Skills · AI 自動化 · 工作流架構",
+      "type": "free-youtube",
+      "highlight": "Dean Lin 深度解說 Antigravity Agent Skills 架構，區分 Rules、Workflows、Skills 使用情境，透過實戰減少 token 消耗，讓 AI 自動完成重複流程，2026 年 2 月發布，進階用戶必看。",
+      "thumbnail_url": "https://i.ytimg.com/vi/xe00zJEtuMo/hqdefault.jpg",
+      "thumbnail_accent": "#4285f4",
+      "thumbnail_initial": "AS"
+    },
+    {
+      "title": "Antigravity 新手入門：為什麼這個 AI 工具讓我放棄 Gemini、ChatGPT",
+      "provider": "YouTube",
+      "url": "https://www.youtube.com/watch?v=lHkz99ohnQE",
+      "cost": "免費",
+      "topic": "Google Antigravity · AI 開發工具 · Vibe Coding · 新手入門",
+      "type": "free-youtube",
+      "highlight": "零基礎視角完整介紹 Google Antigravity，說明為何這款 AI 代碼編輯器優於 Gemini 和 ChatGPT，從安裝設定到第一個專案全流程示範，2026 年 1 月發布，AI 開發新手首選。",
+      "thumbnail_url": "https://i.ytimg.com/vi/lHkz99ohnQE/hqdefault.jpg",
+      "thumbnail_accent": "#4285f4",
+      "thumbnail_initial": "入門"
+    },
+    {
+      "title": "Google Antigravity 開箱實測：Vibe Coding 製作美美網頁",
+      "provider": "YouTube",
+      "url": "https://www.youtube.com/watch?v=vpr45ljEYmk",
+      "cost": "免費",
+      "topic": "Google Antigravity · Vibe Coding 實測 · 網頁設計 · Gemini",
+      "type": "free-youtube",
+      "highlight": "繁體中文 Google Antigravity 開箱實測，搭配 Gemini 模型製作完整網頁設計，展示 Vibe Coding 全流程與成果，與傳統工具對比，零程式基礎即可快速上手，2025 年 11 月發布。",
+      "thumbnail_url": "https://i.ytimg.com/vi/vpr45ljEYmk/hqdefault.jpg",
+      "thumbnail_accent": "#34a853",
+      "thumbnail_initial": "開箱"
+    },
+    {
+      "title": "Perplexity Comet 憑什麼讓我拋棄 Chrome？10 個功能自動化你的工作",
+      "provider": "YouTube",
+      "url": "https://www.youtube.com/watch?v=Lbi_YrlOutM",
+      "cost": "免費",
+      "topic": "Perplexity Comet · AI 瀏覽器 · 工作自動化 · 研究工具",
+      "type": "free-youtube",
+      "highlight": "深度測試 Perplexity Comet AI 瀏覽器 10 大自動化功能，展示如何取代 Chrome 完成日常研究、摘要與任務追蹤，原月費 200 美元功能現已全面免費，2025 年 10 月發布，研究型創作者必看。",
+      "thumbnail_url": "https://i.ytimg.com/vi/Lbi_YrlOutM/hqdefault.jpg",
+      "thumbnail_accent": "#1fb8cd",
+      "thumbnail_initial": "PC"
+    },
+    {
+      "title": "Vibe Coding for Beginners – Full Course 2026 (Codex + GPT-5.5)",
+      "provider": "YouTube",
+      "url": "https://www.youtube.com/watch?v=BpOsHF5Oj_I",
+      "cost": "免費",
+      "topic": "Vibe Coding · Codex · GPT-5.5 · App 開發 · 英文完整課",
+      "type": "free-youtube",
+      "highlight": "2026 最新 Vibe Coding 完整入門課，使用 Codex 結合 GPT-5.5 從自然語言到 Web App / Desktop App / iOS App 全流程示範，無需寫程式，2026 年 5 月發布，英文授課適合進階補強。",
+      "thumbnail_url": "https://i.ytimg.com/vi/BpOsHF5Oj_I/hqdefault.jpg",
+      "thumbnail_accent": "#0ea5e9",
+      "thumbnail_initial": "VC"
+    },
+    {
+      "title": "Google Antigravity – Full Tutorial 2026: How to Build an App",
+      "provider": "YouTube",
+      "url": "https://www.youtube.com/watch?v=_G00r4phw-Y",
+      "cost": "免費",
+      "topic": "Google Antigravity · App 開發 · Vibe Coding · 英文完整教學",
+      "type": "free-youtube",
+      "highlight": "完整英文版 Google Antigravity 教學，從安裝設定到完整 App 開發全流程，涵蓋 Agentic IDE 核心功能、AI 代理工作流與部署，2026 年 1 月發布，中文教學不夠看可補充此英文版。",
+      "thumbnail_url": "https://i.ytimg.com/vi/_G00r4phw-Y/hqdefault.jpg",
+      "thumbnail_accent": "#4285f4",
+      "thumbnail_initial": "AG"
     }
   ]
 }
