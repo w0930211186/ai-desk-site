@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-05-21T04:09:35+08:00",
+  "updated_at": "2026-05-21T05:00:00+08:00",
   "items": [
+    {
+      "id": "pulse-2026-05-21-05-google-webmcp-chrome149-w3c-agentic-web",
+      "ts": "2026-05-21T05:00:00+08:00",
+      "title": "Google × Microsoft 在 W3C 共推 WebMCP 進入 Chrome 149 源試驗 · 每個網站即將成為 AI 代理的結構化工具端點",
+      "source": "Chrome for Developers / VentureBeat",
+      "url": "https://developer.chrome.com/blog/chrome-at-io26",
+      "blurb": "Google I/O 2026 宣佈 WebMCP 移入 Chrome 149 公開源試驗，Google 與 Microsoft 在 W3C 共同推進這個讓網站對 AI 代理暴露結構化函式呼叫的新瀏覽器標準，Expedia、Shopify 等主要零售商率先導入，代理操作網頁從截圖解析升級為精準 API 呼叫。",
+      "editorial": "<p><strong>第一</strong>2026 年 5 月 19 日，Google 在 I/O 2026 開發者主題演講中宣佈 WebMCP（Web Model Context Protocol）進入 Chrome 149 公開源試驗（Origin Trial）。WebMCP 是由 Google 與 Microsoft 工程師在 W3C Web Machine Learning 社群工作組共同起草的開放網路標準提案，核心設計是讓網站透過兩套互補 API 直接對瀏覽器 AI 代理暴露可呼叫的結構化工具端點：宣告式 API 對現有 HTML 表單加入工具名稱與描述，命令式 API 允許透過 JavaScript 暴露動態函式。開發者可使用 navigator.modelContext API 查詢並呼叫這些工具，取代代理解析 DOM 或截圖的傳統操作方式。Expedia、Shopify、Instacart、Target、Etsy 已確認作為早期實驗者導入，Chrome 中的 Gemini 代理支援 WebMCP API 的時間尚待確認，Microsoft Edge 整合計畫同步公佈。</p><p><strong>第二</strong>WebMCP 的戰略意涵在三個層次上超越單一瀏覽器功能更新。其一，效率倍增：一個 searchProducts 工具呼叫可取代代理點選篩選器、滾動翻頁、截圖再解析的數十個操作步驟，代理任務成功率與 token 消耗比將同時大幅改善，直接壓縮了 web-browsing agent 在商業部署中的成本基準線。其二，跨瀏覽器生態鎖定：W3C 工作組路徑意味著 WebMCP 的最終目標是成為類似 PWA、WebAuthn 的通用瀏覽器標準，而非 Google 私有 API；由 Google 與 Microsoft 共同起草，降低 Safari 與 Firefox 陣營的反對摩擦，比 Anthropic 主導的 MCP 更具覆蓋全 Web 的潛力。其三，網站可發現性維度重塑：當代理以結構化 API 取代視覺解析，「可被 AI 代理有效操作」將成為繼 SEO 之後網站必須優化的新維度，主動導入 WebMCP 的品牌將在代理採購流中取得先機。</p><p><strong>第三</strong>對開發者而言，Chrome 149 源試驗是立即可評估的工程機會：為現有電商、預訂、表單工作流新增 WebMCP 工具宣告的實施成本低，潛在效益是讓自家平台成為 AI 代理生態的一等公民端點；建議在 Q3 前評估核心用戶旅程（搜尋、加入購物車、結帳）的 WebMCP 工具化可行性，並申請加入源試驗計畫取得早期數據。對企業 CIO 而言，Expedia、Shopify 等大型零售商的先行導入意味著 B2C 及 B2B 採購流程中「AI 代理作為採購入口」的場景已進入現實部署視窗，評估自有企業採購平台是否需在下一個財年前完成 WebMCP 工具暴露，是確保代理時代通路可見度的主動防禦行動。對 BEXS 學員而言，WebMCP 的 W3C 標準化路徑是比任何單一模型發布更具長期影響力的 AI 生態基礎設施訊號，若標準成型，依賴視覺爬蟲的 RPA 工具供應商的商業模式護城河將出現結構性侵蝕，相關持倉的估值風險值得在 H2 2026 前列入追蹤框架。</p>"
+    },
     {
       "id": "pulse-2026-05-21-04-deepmind-contextual-ai-acquihire",
       "ts": "2026-05-21T04:09:35+08:00",
@@ -261,15 +270,6 @@
       "url": "https://openai.com/index/introducing-gpt-5-2-codex/",
       "blurb": "OpenAI 5 月 16 日發布 GPT-5.2-Codex，在 SWE-Bench Pro 與 Terminal-Bench 2.0 取得最佳成績，針對長視野代理式程式設計最佳化，支援四級推論努力設定並明確開放防禦性網路安全場景，是 frontier 程式碼代理能力標準的最新遷移節點。",
       "editorial": "<p><strong>第一</strong>OpenAI 於 2026 年 5 月 16 日發布 GPT-5.2-Codex，作為 GPT-5.2 在代理式程式設計任務上的特化升級版。模型在兩個設計用於評估「真實終端環境長視野任務」的基準測試——SWE-Bench Pro 與 Terminal-Bench 2.0——上取得當前最佳成績。SWE-Bench Pro 相比原版 SWE-Bench 採用更大程式碼庫、更長修復鏈，指標更接近真實生產部署表現。模型支援四個推論努力等級（低、中、高、超高），並針對兩大核心場景最佳化：其一為專業軟體工程代理，涵蓋程式碼審閱、測試生成、複雜多步驟重構；其二為防禦性網路安全工作流，涵蓋漏洞識別、安全代碼審查與入侵後取證輔助。模型透過 OpenAI Codex 環境及 API 端點 gpt-5.2-codex 提供存取，並同步發布系統安全說明補充文件。</p><p><strong>第二</strong>GPT-5.2-Codex 的戰略意涵分三層。第一，SWE-Bench Pro 奪冠意味著 OpenAI 在「代理可完成完整生產環境任務」這條賽道上重奪前線位置，正面回應 Anthropic Claude Code 近月在開發者社群的高速擴散。第二，「長視野終端代理」能力的強化，直接指向 CI/CD 管道中「無人監督跨檔案自主重構」場景的可部署條件，是代理從「輔助工具」正式進入「工作流承包商」的能力門檻宣示。第三，「防禦性網路安全工作流」的明確標注，在 Pwn2Own Berlin 2026 AI 特設組與 Mythos 核心漏洞事件的同期語境下，是 OpenAI 刻意以「防守者賦能」框架定位安全類代理能力，與 Anthropic Project Glasswing 的定位相互競爭。</p><p><strong>第三</strong>對開發者而言，gpt-5.2-codex 端點的定價與 gpt-5.2 的差異將決定代理工作流的成本模型；超高推論努力設定在長時間代理任務中的 token 消耗應建立基線，評估其對複雜重構任務的 ROI 是否正當。對企業 CIO 而言，SWE-Bench Pro 指標成為採購評估的可比維度後，建議在下季代理工具採購中要求各供應商提供等效基準成績，不再以單一提示示範作為評估依據。對 BEXS 學員而言，OpenAI 在 IPO 前夕強化代理程式碼能力是對 Claude Code 市場份額的直接競爭宣示，後續應追蹤 GitHub 提交佔比等第三方市場份額指標，以判斷此次能力提升能否在 H2 2026 轉化為可量化的企業訂閱增長。</p>"
-    },
-    {
-      "id": "pulse-2026-05-18-06-eu-ai-act-omnibus-high-risk-deadline-extension",
-      "ts": "2026-05-18T06:00:00+08:00",
-      "title": "歐盟 AI 法修正案 5 月 7 日通過・高風險義務截止日延至 2027 年底、開闢七個月工程因應視窗",
-      "source": "Council of the EU",
-      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/",
-      "blurb": "歐洲議會與理事會 5 月 7 日就 AI 法數位綜合修正案達成政治協議，附件三高風險 AI 義務截止日推後逾 16 個月至 2027 年 12 月，但 UI 標注與機器可讀元資料要求 2026 年 12 月 2 日仍強制上路，是 AI 法執行史上最重要的時程重寫。",
-      "editorial": "<p><strong>第一</strong>2026 年 5 月 7 日，歐洲議會與歐盟理事會就《數位綜合法》（Digital Omnibus）中的 AI 監管修正條款達成臨時政治協議。核心修正：附件三（Annex III）所定義高風險 AI 系統的義務合規截止日，從原定 2026 年 8 月 2 日延至 2027 年 12 月 2 日（推遲逾 16 個月）；嵌入於附件一（Annex I）受監管產品（醫療設備、汽車、航空等）的高風險 AI 義務截止日則延至 2028 年 8 月 2 日。維持不變的早期義務：所有面向歐盟市場的生成式 AI 功能，必須於 2026 年 12 月 2 日前完成 UI 標注（AI 生成內容標示）、機器可讀元資料嵌入，以及 AI 生成偵測能力部署。修正案仍待歐洲議會全體投票與理事會正式採納，但政治協議已確立後續走向。</p><p><strong>第二</strong>此次時程調整的戰略意涵分三層。對 AI 產業而言，延遲超過 16 個月的 Annex III 高風險義務，直接減輕了對話 AI、代理系統及推薦算法等「邊界定義模糊」類別的短期合規壓力，許多企業原定投入的大型合規工程項目可重新排序，釋放 H2 2026 至 2027 Q1 的工程資源。對 AI 模型提供商而言，早期義務維持不變（2026 年 12 月 2 日 UI 標注與元資料），意味著面向歐盟市場的 frontier 模型服務商仍面臨約七個月的生成式 AI 標注工程期限，API 不可見的企業級後端部署亦需確認合規路徑。對非美國 AI 生態而言，修正案批准恰在 Cohere-Aleph Alpha 跨大西洋合併宣告後約兩週，延期視窗讓合併後實體有更充裕時間建立雙重監管架構，降低早期截止日對整合進程的阻力。</p><p><strong>第三</strong>對企業 CIO 而言，2026 年 12 月 2 日 UI 標注為強制截止日，現有在歐盟部署的任何生成式 AI 前端介面均應本季啟動標注合規差距分析——七個月是足夠但不寬裕的工程視窗。對開發者而言，機器可讀元資料嵌入要求（C2PA 等標準）是即將生效的技術規格，API 層的元資料傳遞架構設計應在 Q3 納入路線圖。對 BEXS 學員而言，高風險義務延期降低了歐盟市場部署 AI 系統的短期合規成本壓力，對依賴歐洲 B2B 客戶的 AI 公司估值有正面影響；然而 UI 標注義務維持不變，消費端 AI 產品的歐盟上市計畫仍應將 2026 年 12 月 2 日合規成本納入定價模型。</p>"
     }
   ]
 }
