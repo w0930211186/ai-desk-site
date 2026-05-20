@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-19T20:44:38+08:00",
+  "updated_at": "2026-05-20T20:48:19+08:00",
   "_note": "creator toolkit · Peter 手動 curation V1 · 含官方 URL + 學習資源連結",
   "categories": [
     "writing",
@@ -3098,6 +3098,126 @@
       "thumbnail_url": "https://i.ytimg.com/vi/_G00r4phw-Y/hqdefault.jpg",
       "thumbnail_accent": "#4285f4",
       "thumbnail_initial": "AG"
+    },
+    {
+      "title": "Vibe Coding 新手營：用 AI 開發辦公室系統",
+      "provider": "YouTube · 六角學院",
+      "url": "https://www.youtube.com/watch?v=JfSLh4z0BRc",
+      "cost": "免費",
+      "topic": "Vibe Coding · AI App 開發",
+      "type": "free-youtube",
+      "highlight": "2026/3 六角學院出品 · 4 堂直播 + 10 小時影片 · 零基礎打造結合 Google Sheets 的辦公室系統 · 完整環境配置到部署上線全流程",
+      "thumbnail_url": "https://i.ytimg.com/vi/JfSLh4z0BRc/hqdefault.jpg",
+      "thumbnail_accent": "#0066cc",
+      "thumbnail_initial": "六角"
+    },
+    {
+      "title": "GPT Image 這次更新太猛！10 種又快又好看的玩法",
+      "provider": "YouTube · 享玩AI",
+      "url": "https://www.youtube.com/watch?v=YhC5zhToHEQ",
+      "cost": "免費",
+      "topic": "ChatGPT 圖像生成 · GPT Image",
+      "type": "free-youtube",
+      "highlight": "2026/5 最新 · GPT Image 升級後 10 種創作技巧 · 含中文文字辨識改善、細節修圖、UI 設計到廣告海報 · 享玩AI 完整實測",
+      "thumbnail_url": "https://i.ytimg.com/vi/YhC5zhToHEQ/hqdefault.jpg",
+      "thumbnail_accent": "#10b981",
+      "thumbnail_initial": "享"
+    },
+    {
+      "title": "Gemini 網頁版 7 個實用示範",
+      "provider": "YouTube · AI生活科技",
+      "url": "https://www.youtube.com/watch?v=9872vJcRKLg",
+      "cost": "免費",
+      "topic": "Google Gemini · 網頁版操作",
+      "type": "free-youtube",
+      "highlight": "2026/4 AI生活科技出品 · 臨時對話設定、GEM 功能、連接 Google 服務全示範 · 廣東話教學 · 上班族快速上手 Gemini 實用技",
+      "thumbnail_url": "https://i.ytimg.com/vi/9872vJcRKLg/hqdefault.jpg",
+      "thumbnail_accent": "#4285f4",
+      "thumbnail_initial": "G"
+    },
+    {
+      "title": "Gemini 重要更新：合體 NotebookLM 多模態輸出教學",
+      "provider": "YouTube · AI生活科技",
+      "url": "https://www.youtube.com/watch?v=kSgxHy-mqxI",
+      "cost": "免費",
+      "topic": "Gemini × NotebookLM · 多模態輸出",
+      "type": "free-youtube",
+      "highlight": "2026/5 最新 · Gemini 整合 NotebookLM 後 5 大工作效率應用 · 一次生成 PDF / Excel / 互動網頁 · 省下 80% 來回查找時間",
+      "thumbnail_url": "https://i.ytimg.com/vi/kSgxHy-mqxI/hqdefault.jpg",
+      "thumbnail_accent": "#4285f4",
+      "thumbnail_initial": "GN"
+    },
+    {
+      "title": "2026 必學！Gemini × NotebookLM 外掛全解析",
+      "provider": "YouTube · 職能小真",
+      "url": "https://www.youtube.com/watch?v=UzyhbfkGknc",
+      "cost": "免費",
+      "topic": "Gemini + NotebookLM · 外掛工具",
+      "type": "free-youtube",
+      "highlight": "2026/1 職能小真出品 · 5 大外掛工具拆解 · Gemini 配合 NotebookLM 最強工作搭配 · 學習效率翻倍實戰示範",
+      "thumbnail_url": "https://i.ytimg.com/vi/UzyhbfkGknc/hqdefault.jpg",
+      "thumbnail_accent": "#4285f4",
+      "thumbnail_initial": "職"
+    },
+    {
+      "title": "Gemini 動態檢視功能實測：5 個實做見真章",
+      "provider": "YouTube · 泛科學院",
+      "url": "https://www.youtube.com/watch?v=9YX91Vgqz6U",
+      "cost": "免費",
+      "topic": "Google Gemini · 動態檢視功能",
+      "type": "free-youtube",
+      "highlight": "2025/12 泛科學院出品 · Gemini 動態檢視（Dynamic Grounding）新功能完整解析 · 5 個實際應用情境示範 · 超越對手關鍵功能一集搞懂",
+      "thumbnail_url": "https://i.ytimg.com/vi/9YX91Vgqz6U/hqdefault.jpg",
+      "thumbnail_accent": "#4285f4",
+      "thumbnail_initial": "泛"
+    },
+    {
+      "title": "Gemini 深度研究功能：Google 生態鏈自動化整理電郵",
+      "provider": "YouTube",
+      "url": "https://www.youtube.com/watch?v=aWGz9wy9qyY",
+      "cost": "免費",
+      "topic": "Gemini 深度研究 · Google Workspace 自動化",
+      "type": "free-youtube",
+      "highlight": "2026/5 最新 · Gemini 深度研究結合 Gmail / Google Workspace 自動整理電郵 · Gemini Spark 自動代理示範 · 每天省下 1 小時",
+      "thumbnail_url": "https://i.ytimg.com/vi/aWGz9wy9qyY/hqdefault.jpg",
+      "thumbnail_accent": "#4285f4",
+      "thumbnail_initial": "深"
+    },
+    {
+      "title": "Lovart AI 整合設計神器：中文指令一鍵搞定所有 AI 工具",
+      "provider": "YouTube",
+      "url": "https://www.youtube.com/watch?v=ALAXQQN_rLI",
+      "cost": "免費",
+      "topic": "Lovart · AI 設計 Agent",
+      "type": "free-youtube",
+      "highlight": "2026/5 Lovart 公測開放 · 世界首款 AI 設計 Agent 中文完整教學 · 整合 Logo / 廣告 / 3D / UI / 影片製作 · 新手 10 分鐘上手",
+      "thumbnail_url": "https://i.ytimg.com/vi/ALAXQQN_rLI/hqdefault.jpg",
+      "thumbnail_accent": "#f59e0b",
+      "thumbnail_initial": "Lo"
+    },
+    {
+      "title": "How to Build LangChain Deep Agents with Python (2026)",
+      "provider": "YouTube · Krish Naik",
+      "url": "https://www.youtube.com/watch?v=Su1bwIzjTxY",
+      "cost": "免費",
+      "topic": "LangChain Deep Agents · Python",
+      "type": "free-youtube",
+      "highlight": "2026/1 Krish Naik · LangChain Deep Agents 完整教學 · 建構可規劃 / 管理上下文 / 分派子 Agent 的進階 AI · Claude Code 同款架構",
+      "thumbnail_url": "https://i.ytimg.com/vi/Su1bwIzjTxY/hqdefault.jpg",
+      "thumbnail_accent": "#7c3aed",
+      "thumbnail_initial": "LA"
+    },
+    {
+      "title": "LangChain Full Crash Course: AI Agents in Python",
+      "provider": "YouTube · Python Engineer",
+      "url": "https://www.youtube.com/watch?v=J7j5tCB_y4w",
+      "cost": "免費",
+      "topic": "LangChain · AI Agents · Python",
+      "type": "free-youtube",
+      "highlight": "2025/11 Python Engineer 出品 · LangChain 完整速成課 · message history / tools / memory / multimodal 全覆蓋 · 實戰 Agent 從零構建",
+      "thumbnail_url": "https://i.ytimg.com/vi/J7j5tCB_y4w/hqdefault.jpg",
+      "thumbnail_accent": "#7c3aed",
+      "thumbnail_initial": "LC"
     }
   ]
 }
