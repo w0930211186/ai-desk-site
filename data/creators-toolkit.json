@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-20T20:48:19+08:00",
+  "updated_at": "2026-05-21T20:43:17+08:00",
   "_note": "creator toolkit · Peter 手動 curation V1 · 含官方 URL + 學習資源連結",
   "categories": [
     "writing",
@@ -3218,6 +3218,126 @@
       "thumbnail_url": "https://i.ytimg.com/vi/J7j5tCB_y4w/hqdefault.jpg",
       "thumbnail_accent": "#7c3aed",
       "thumbnail_initial": "LC"
+    },
+    {
+      "title": "提示詞工程完整教學：Anthropic 六大架構與五個實戰技巧",
+      "provider": "YouTube · 提示詞工程教學",
+      "url": "https://www.youtube.com/watch?v=TiQOnrbVje0",
+      "cost": "免費",
+      "topic": "Prompt Engineering 提示詞工程",
+      "type": "free-youtube",
+      "highlight": "系統拆解 Anthropic 官方六大提示詞架構加五個落地技巧，中文學員學完可立即提升 Claude/ChatGPT 指令品質，March 2026 最新版，適合中高階使用者",
+      "thumbnail_url": "https://i.ytimg.com/vi/TiQOnrbVje0/hqdefault.jpg",
+      "thumbnail_accent": "#7c3aed",
+      "thumbnail_initial": "提示"
+    },
+    {
+      "title": "別再選錯模型！2026 Gemini 實測解析：Flash · Thinking · Pro 完整場景指南",
+      "provider": "YouTube · Gemini 實測頻道",
+      "url": "https://www.youtube.com/watch?v=LPo6oDs9Ps8",
+      "cost": "免費",
+      "topic": "Gemini 模型選擇與實測",
+      "type": "free-youtube",
+      "highlight": "實測比較 Gemini Flash、Thinking、Pro 三種模型差異與使用場景，幫助創作者選對工具省錢省時，2026 最新版本實際測試數據",
+      "thumbnail_url": "https://i.ytimg.com/vi/LPo6oDs9Ps8/hqdefault.jpg",
+      "thumbnail_accent": "#1a73e8",
+      "thumbnail_initial": "模型"
+    },
+    {
+      "title": "2026 年普通人必備的 6 個 AI 使用技能（保姆級零基礎教學）",
+      "provider": "YouTube · AI 技能教學",
+      "url": "https://www.youtube.com/watch?v=wEjdQtaTlW0",
+      "cost": "免費",
+      "topic": "AI 基礎技能入門",
+      "type": "free-youtube",
+      "highlight": "從零基礎出發梳理 2026 年每個人必會的六項 AI 核心技能，涵蓋寫作、圖像、自動化等，適合 BEXS 剛入門的學員快速建立 AI 工具感",
+      "thumbnail_url": "https://i.ytimg.com/vi/wEjdQtaTlW0/hqdefault.jpg",
+      "thumbnail_accent": "#0ea5e9",
+      "thumbnail_initial": "技能"
+    },
+    {
+      "title": "ChatGPT Codex 實戰：把 Vibe Coding 成果變成可持續優化的 Agent Skills",
+      "provider": "YouTube · Vibe Coding 教學",
+      "url": "https://www.youtube.com/watch?v=0pZri5f_tfk",
+      "cost": "免費",
+      "topic": "ChatGPT Codex · Vibe Coding · Agent Skills",
+      "type": "free-youtube",
+      "highlight": "教你把 Vibe Coding 一次性成果轉化為可重複使用的 Agent Skills，結合 ChatGPT Codex 做 production-grade 工作流，April 2026，進階必看",
+      "thumbnail_url": "https://i.ytimg.com/vi/0pZri5f_tfk/hqdefault.jpg",
+      "thumbnail_accent": "#10b981",
+      "thumbnail_initial": "Vibe"
+    },
+    {
+      "title": "2026 最新 ChatGPT 訂閱完整指南：Go · Plus · Pro 方案詳解",
+      "provider": "YouTube · ChatGPT 中文教學",
+      "url": "https://www.youtube.com/watch?v=WiFQRhGr--M",
+      "cost": "免費",
+      "topic": "ChatGPT 訂閱方案比較",
+      "type": "free-youtube",
+      "highlight": "完整解析 ChatGPT 三個訂閱方案差異、功能對比與購買方式，幫助中文使用者選對方案不浪費，附詳細操作教程，May 2026 最新",
+      "thumbnail_url": "https://i.ytimg.com/vi/WiFQRhGr--M/hqdefault.jpg",
+      "thumbnail_accent": "#22c55e",
+      "thumbnail_initial": "訂閱"
+    },
+    {
+      "title": "測完 102 款 AI 工具，2026 年我只留這 10 個！",
+      "provider": "YouTube · AI 工具測評",
+      "url": "https://www.youtube.com/watch?v=L9q12GJOgNI",
+      "cost": "免費",
+      "topic": "AI 工具精選與評測",
+      "type": "free-youtube",
+      "highlight": "創作者親測 100+ 款 AI 工具後精選出 2026 年真正值得每天打開的 10 款，涵蓋寫作、圖像、影片、效率工具，December 2025 出品",
+      "thumbnail_url": "https://i.ytimg.com/vi/L9q12GJOgNI/hqdefault.jpg",
+      "thumbnail_accent": "#f59e0b",
+      "thumbnail_initial": "百測"
+    },
+    {
+      "title": "Google Gemini 3 完整教學：15 個超強功能全場景實測（免費可用）",
+      "provider": "YouTube · Gemini 中文教學",
+      "url": "https://www.youtube.com/watch?v=8o737qKO3IM",
+      "cost": "免費",
+      "topic": "Google Gemini 3 功能全覽",
+      "type": "free-youtube",
+      "highlight": "系統介紹 Gemini 3 的 15 大功能，含簡報製作、Live 互動、網站設計、APP 開發全場景實測，免費用戶也能受益，簡繁中文均適用",
+      "thumbnail_url": "https://i.ytimg.com/vi/8o737qKO3IM/hqdefault.jpg",
+      "thumbnail_accent": "#1a73e8",
+      "thumbnail_initial": "G3"
+    },
+    {
+      "title": "Gemini 整合 Google Workspace 全功能詳解保母級教學",
+      "provider": "YouTube · Workspace AI 教學",
+      "url": "https://www.youtube.com/watch?v=dHknQINzPdg",
+      "cost": "免費",
+      "topic": "Gemini × Google Workspace 整合",
+      "type": "free-youtube",
+      "highlight": "詳解 Gemini 在 Gmail、Docs、Sheets、Meet 中的整合功能，從零到精通取代 ChatGPT 完成辦公自動化，適合上班族與小團隊",
+      "thumbnail_url": "https://i.ytimg.com/vi/dHknQINzPdg/hqdefault.jpg",
+      "thumbnail_accent": "#34a853",
+      "thumbnail_initial": "GWS"
+    },
+    {
+      "title": "Complete AI Agents Tutorial for Beginners 2026",
+      "provider": "YouTube · Algocamp",
+      "url": "https://www.youtube.com/watch?v=szNeVMWRyzo",
+      "cost": "免費",
+      "topic": "AI Agents · Agentic AI",
+      "type": "free-youtube",
+      "highlight": "2026 最新 AI Agent 完整入門課，涵蓋 agent 架構、tool use、multi-agent 協作，範例豐富，April 2026 出品，適合開發者快速上手",
+      "thumbnail_url": "https://i.ytimg.com/vi/szNeVMWRyzo/hqdefault.jpg",
+      "thumbnail_accent": "#6366f1",
+      "thumbnail_initial": "AG"
+    },
+    {
+      "title": "Generative AI Full Course 2026: LangChain · LLMs · Prompt Engineering",
+      "provider": "YouTube · GenAI Tutorial",
+      "url": "https://www.youtube.com/watch?v=vwncYfhxbR0",
+      "cost": "免費",
+      "topic": "Generative AI · LangChain · LLM",
+      "type": "free-youtube",
+      "highlight": "4 小時 GenAI 全課程，含 LangChain、LLM 原理、Prompt Engineering 三大主題，從初學到進階系統訓練，March 2026 最新版",
+      "thumbnail_url": "https://i.ytimg.com/vi/vwncYfhxbR0/hqdefault.jpg",
+      "thumbnail_accent": "#0891b2",
+      "thumbnail_initial": "GAI"
     }
   ]
 }
