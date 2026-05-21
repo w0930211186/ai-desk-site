@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-05-21T11:00:00+08:00",
+  "updated_at": "2026-05-21T12:00:00+08:00",
   "items": [
+    {
+      "id": "pulse-2026-05-21-12-hark-700m-universal-ai-interface",
+      "ts": "2026-05-21T12:00:00+08:00",
+      "title": "Brett Adcock 打造「通用 AI 介面」公司 Hark 完成 7 億美元 A 輪 · Nvidia 與 AMD 共同押注標誌 AI 硬體新戰線",
+      "source": "TechCrunch / Bloomberg",
+      "url": "https://techcrunch.com/2026/05/21/hark-raises-700m-series-a-for-its-secretive-universal-ai-interface/",
+      "blurb": "Figure.AI 創辦人 Brett Adcock 的新 AI 硬體新創 Hark 完成 7 億美元 A 輪、估值 60 億美元，Nvidia 與 AMD 同步入股是罕見的跨晶片陣營戰略押注；Hark 欲以自研多模態模型加專屬硬體打造「通用 AI 介面」，今夏首款模型即將公開。",
+      "editorial": "<p><strong>第一</strong>2026 年 5 月 21 日，AI 硬體新創 Hark 宣布完成逾 7 億美元 A 輪融資，融後估值 60 億美元，本輪由 Parkway Venture Capital 領投，策略投資人涵蓋 Nvidia、AMD Ventures、英特爾資本、高通創投、Brookfield 及 Salesforce Ventures。Hark 由 Brett Adcock 於 2025 年末以 1 億美元自有資金創立；Adcock 此前創辦人資歷包含電動飛行器公司 Archer Aviation 及人形機器人新創 Figure.AI，是美國近年最活躍的連續硬科技創業者之一。公司目前規模約 70 人，已自行建置以 Nvidia B200 GPU 為核心的訓練資料中心。Hark 的目標是打造「通用 AI 介面（universal AI interface）」：以自研多模態基礎模型為驅動核心，可與用戶現有的數位產品與服務無縫協作，計畫在模型層成熟後推出配套的專屬硬體裝置，首款多模態模型預計今夏公開發布。</p><p><strong>第二</strong>Hark 的投資陣容具有罕見的戰略信號密度。Nvidia 與 AMD 在同一家 AI 新創公司同時持有股份，在晶片巨頭的生態佈局策略中屬高度異常——兩家公司在絕大多數場景中以競爭而非協作的姿態運作；此案意味著雙方均認定 Hark 具備在「通用 AI 介面」賽道達成規模化硬體部署的現實路徑，戰略投資背後的硬體銷售預期可能超越純財務回報的考量。7 億美元 A 輪是 AI 個人裝置及通用介面類別迄今最大規模的早期融資，一舉重設此賽道的估值基準線。值得注意的是，「通用 AI 介面」的前代競爭者——Humane AI Pin 已解散、Rabbit r1 定位動搖——均因模型能力與硬體形態脫節而折戟；Hark 選擇軟體基礎模型先行、硬體後發的路線，在切入邏輯上更接近蘋果 iOS 生態的演化路徑，而非前代的「設備優先」策略。</p><p><strong>第三</strong>對開發者而言，Hark 今夏多模態模型的公開發布是評估其 API 生態開放程度的第一個節點，若採開放 API 路線，是在 Claude、Gemini、GPT 三大主線之外觀察第四條通用多模態能力的早期視窗，尤其值得追蹤其在跨應用整合場景的實際表現。對企業 CIO 而言，「通用 AI 介面」的落地形態在硬體設備公布前仍難以對企業採購場景作出具體評估，但 Nvidia B200 自建算力的訓練基礎意味著模型能力的起點不容忽視，建議在今夏模型發布後列入 AI 工具鏈評估矩陣的參照標的。對 BEXS 學員而言，Nvidia 與 AMD 共同押注是跨晶片陣營在 AI 個人裝置生態的罕見協同信號，若 Hark 今夏成功落地多模態能力，60 億美元 A 輪的下一輪定價大概率顯著上修，屬高風險高潛力的早期追蹤標的；Brookfield 入股同時是基礎設施資本進場 AI 硬體公司的信號，值得追蹤未來是否形成「AI 設備算力基礎設施」的次板塊投資主題。</p>"
+    },
     {
       "id": "pulse-2026-05-21-11-trump-delays-ai-security-eo",
       "ts": "2026-05-21T11:00:00+08:00",
@@ -261,15 +270,6 @@
       "url": "https://openai.com/index/dell-codex-enterprise-partnership/",
       "blurb": "OpenAI 5 月 19 日宣布與 Dell Technologies 合作，將每週 400 萬活躍開發者使用的 Codex 代理接入 Dell AI Data Platform 與 AI Factory 本地部署基礎設施，正面回應高監管企業不願將程式碼與數據送出企業邊界的核心阻力。",
       "editorial": "<p><strong>第一</strong>2026 年 5 月 19 日，OpenAI 與 Dell Technologies 宣布合作，將 Codex 代理式軟體開發工具延伸至混合雲及本地部署企業環境。整合面向包含兩條路線：其一，Codex 將連接 Dell AI Data Platform，使企業可在本地儲存、組織及治理框架內直接使用 Codex 進行代碼推理；其二，雙方將探索 Codex、ChatGPT Enterprise 及 OpenAI API 方案與 Dell AI Factory 的接入，支援數據準備、系統管理、測試及 AI 應用在本地 GPU 集群上的整合部署。現況規模：Codex 目前每週活躍開發者超過 400 萬人，已商業部署於代碼審查、測試覆蓋率提升、事故響應及跨大型程式碼庫的多文件推理場景。本次合作是 OpenAI 首度為 Codex 提供明確的企業級本地部署路線，也是繼 ChatGPT Enterprise 雲端方案之後，正式面向本地數據主權需求的戰略延伸。</p><p><strong>第二</strong>Codex 的本地部署選項解決了 frontier AI 代理工具在傳統企業落地的最關鍵結構性阻力：程式碼庫與業務數據不能離開企業邊界。金融、醫療、國防及政府合規環境中，許多法規明確禁止將敏感程式碼送至第三方雲端處理，Codex 的雲端版本長期在這些領域的採購評估中被直接排除。Dell 在企業資料中心的基礎設施滲透率（全球 Fortune 500 企業中超過 70% 使用 Dell 伺服器）是 OpenAI 難以透過自建基礎設施短期複製的分銷管道。此合作同時是 OpenAI 在 Microsoft Azure 深度綁定關係之外的硬體生態擴張訊號，也是與 Anthropic 企業 AI 服務公司（Blackstone + Goldman，15 億美元）本地工程部署路線的直接競爭佈局。</p><p><strong>第三</strong>對企業 CIO 而言，Codex 本地部署選項意味著 AI 輔助軟體開發工具的採購評估範疇正式擴展至數據主權受限的高監管環境；建議在 Q3 前更新 AI 開發工具供應商矩陣，將「on-premises 可行性」列為與「功能性能」同等級的評估維度，並優先量化在本地程式碼庫推理上雲端版與本地版的性能差距。對開發者而言，若 Dell AI Factory 整合在 2026 下半年正式開放，意味著在本地 GPU 集群上運行 Codex 級別代理工作流將成為可操作選項，對建構企業私有代理平台的開發者而言是關鍵工具鏈評估節點，尤其是金融及國防合規場景的落地機會。對 BEXS 學員而言，Dell（$DELL）作為 OpenAI 代理落地橋樑的角色可能支撐其股票在 AI 基礎設施敘事中的估值重評；同時值得追蹤 HP Enterprise、SuperMicro 是否以類似架構跟進，形成「本地 AI 代理基礎設施」的次板塊投資主題。</p>"
-    },
-    {
-      "id": "pulse-2026-05-20-05-google-search-25year-overhaul-ai-agents",
-      "ts": "2026-05-20T05:08:06+08:00",
-      "title": "Google Search 25 年最大改版落地 · AI Information Agent 正式接替關鍵字搜尋框架",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/05/19/google-search-as-you-know-it-is-over/",
-      "blurb": "Google I/O 2026 宣布 Search 史上最大架構重設計：搜尋框升級為 AI 對話介面、多模態輸入上線，Information Agents 今夏起可在背景 24/7 自主追蹤網頁並主動推送通知，TechCrunch 以「你所認識的 Google Search 已終結」為題標記此轉型。",
-      "editorial": "<p><strong>第一</strong>2026 年 5 月 19 日，Google I/O 開幕主旨演講中，Sundar Pichai 宣布 Search 進行創立以來最大的架構重設計。新版「Intelligent Search Box」從靜態關鍵字框升級為動態展開的 AI 對話介面，支援文字、圖片、影片、文件及啟用中的 Chrome 分頁等多模態輸入。今夏起，用戶可在 Search 介面內建立、自訂並管理多個「Information Agents」，這些代理可在背景 24/7 自主追蹤網頁變化並主動通知用戶；Search 同步引入生成式 UI 能力，可為複雜查詢即時生成互動表格、模擬情境與視覺化工具，底層由 Gemini 3.5 Flash 全面驅動。</p><p><strong>第二</strong>此次重設計的戰略本質是：Google 正將自身最核心的 distribution 護城河——全球最大入口、每月數千億次查詢——從流量分發機制升級為 AI Agent 執行平台。Information Agents 的 24/7 背景執行能力，是在 Search 框架內直接複製 Perplexity、ChatGPT Search 的核心功能，並以 Google 的索引深度與即時性建立差異壁壘。對依賴 SEO 流量的媒體、電商與 SaaS 公司而言，這是 organic traffic 的結構性衝擊：當 AI 代理直接回答問題並主動推送更新，點擊抵達的流量價值將持續下降，TechCrunch 的「Search 已終結」論述是對這個趨勢的精準概括。</p><p><strong>第三</strong>對企業 CIO 而言，Search 代理化意味著企業資訊在網路的「被發現性」邏輯將在 12 個月內根本改變，現有 SEO 架構與內容策略需評估「AI 可讀性」——structured data、schema markup——作為新的優化維度。對開發者而言，Information Agents 的多模態輸入能力（尤其是 Chrome 分頁作為上下文）是 Google 搶占「瀏覽器原生 AI 代理」入口的戰略嵌入，值得追蹤此能力是否延伸為 Gemini API 的商業功能。對 BEXS 學員而言，Search 重設計是 Alphabet 廣告商業模式轉型的最大單一風險因子，亦是其 AI 生態整合護城河的最直接體現——AI 摘要頁的廣告貨幣化驗證，是 Alphabet 2026 下半年財報中最值得追蹤的結構性指標。</p>"
     }
   ]
 }
