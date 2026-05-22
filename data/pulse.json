@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-05-22T14:12:00+08:00",
+  "updated_at": "2026-05-22T15:05:00+08:00",
   "items": [
+    {
+      "id": "pulse-2026-05-22-15-karpathy-anthropic-pretraining-talent-signal",
+      "ts": "2026-05-22T15:05:00+08:00",
+      "title": "Karpathy 棄自創業跨越 OpenAI 選擇 Anthropic 預訓練 · frontier 人才競爭格局最直接的外部溫度計",
+      "source": "TechCrunch / CNBC",
+      "url": "https://techcrunch.com/2026/05/19/openai-co-founder-andrej-karpathy-joins-anthropics-pre-training-team/",
+      "blurb": "離開 OpenAI 後未返回、未選 Google，Karpathy 選擇 Anthropic 預訓練部門；這個決定本身比任何招聘公關稿更有說服力，是 Anthropic 研究吸引力已達讓人二次選邊強度的最具象徵性外部驗證。",
+      "editorial": "<p><strong>第一</strong>　2026 年 5 月 19 日，Andrej Karpathy 宣布正式加入 Anthropic，任職預訓練部門，由預訓練負責人 Nick Joseph 直接帶領。Anthropic 發言人向 TechCrunch 確認，Karpathy 將組建一支以 Claude 加速預訓練研究為核心任務的新小組。其職涯軌跡完整呈現一條罕見的候選人檔案：2015 年以 OpenAI 共同創辦人身份主導早期深度學習研究；2017 年轉至 Tesla 出任 AI 總監，帶領完全自動駕駛及 Autopilot 計畫；2022 年離開 Tesla；2023 年重返 OpenAI 一年；2024 年再次離開並創立教育 AI 新創 Eureka Labs；2026 年 5 月以加入 Anthropic 作為下一站，明確跳過重返 OpenAI 與加入 Google 的選項。</p><p><strong>第二</strong>　Karpathy 的擇邊具有三層戰略意涵。其一，他是有機會重返 OpenAI 的人，主動選擇競對，公開確認 Anthropic 的預訓練研究環境對頂尖研究者的吸引力已達到讓人二次選邊的強度，這在 frontier lab 的人才戰中屬於罕見的公開訊號。其二，預訓練是大型語言模型競爭的核心節點，Karpathy 的加入對 Anthropic 在下一代模型規模與效率的長期能力提升，具有不可即刻量化但可觀察的複利效應——其在大規模神經網絡設計和 GPU 訓練效率的研究積累，與 Anthropic 正在落地的 xAI Colossus 22 萬 GPU 訓練基礎設施形成直接互補。其三，Karpathy 在 AI 社群的個人公信力（X 與 YouTube 合計逾 800 萬追蹤者）是 Anthropic 在開發者生態的人才品牌背書，對未來遞歸式招募頂尖研究人員的引力效應遠超一般研究員入職。</p><p><strong>第三</strong>　對企業 CIO 而言，Karpathy 的加入意味著 Anthropic 的預訓練研究梯隊在未來 12 至 18 個月存在質變的合理預期，具體表現在後續 Claude 版本的長上下文推理穩定性與多步推理精準度上，企業採購決策中「模型能力長期投資報酬」的評分應相應更新 Anthropic 的預期軌跡。對開發者而言，Karpathy 承諾帶領以 Claude 加速預訓練研究的新小組，是追蹤 Anthropic 在 AI 自動化自身研究流程進展上的高可信信號源，值得訂閱其個人發文頻道作為能力路線圖的外部觀察視窗。對 BEXS 學員而言，頂尖研究人才向 Anthropic 集中搭配其首季獲利轉正，使 Anthropic 在 IPO 定價的「人才溢價」敘事獲得最具象徵性的外部驗證；若後續招聘速度維持加速態勢，是其在 frontier 競爭中拉大能力差距的先行人力資本指標，應在 Anthropic S-1 的「關鍵人員」章節中作為估值支撐的核心參照。</p>"
+    },
+    {
+      "id": "pulse-2026-05-22-15-newsom-california-ai-workforce-executive-order",
+      "ts": "2026-05-22T15:05:00+08:00",
+      "title": "加州 Newsom 全美首簽 AI 勞動力行政令 · 180 天研究窗口開啟、無即時法規不等於沒有政策信號",
+      "source": "California Governor's Office / NPR",
+      "url": "https://www.gov.ca.gov/2026/05/21/governor-newsom-signs-first-of-its-kind-executive-order-to-prepare-workers-and-businesses-for-potential-ai-disruption/",
+      "blurb": "Newsom 5 月 21 日以行政令要求加州各機構在 180 天內研究 AI 取代就業的對策，不創設新法、不立即影響企業，卻是全美首位州長正式將 AI 勞動衝擊列為行政優先項，政治信號先於法律效力到來。",
+      "editorial": "<p><strong>第一</strong>　2026 年 5 月 21 日，加州州長 Gavin Newsom 簽署行政令，成為全美首位以行政令框架正式回應 AI 勞動力衝擊的州長。行政令核心機制是研究與建議：動員加州勞工局、經濟發展廳、教育廳等多個州立機構，匯合勞工專家、經濟學家、大學及業界，在 180 天內提交政策建議，方向涵蓋 WARN Act 提前通知義務更新、AI 取代就業的早期預警機制、客服、軟體開發、行銷及銷售等高影響職能的職業轉型訓練計畫。行政令不創設任何新法律或立即性工人保護措施，不具直接法律約束力，本質是啟動一個有時限的州政府政策研究程序。</p><p><strong>第二</strong>　行政令的政策意涵分兩個層次。其一，加州是科技勞動力最密集的美國州份，Newsom 選擇「研究先行、監管後置」框架，是科技行業遊說壓力與勞工組織訴求之間的刻意平衡——行動可見、短期不阻礙 AI 部署、批評者已指出「保護落短」。180 天研究周期結束於 2026 年 11 月，處於中期選舉政治高敏視窗，是 Newsom 將聯邦路線放棄 AI 監管的反差轉化為州層次政治主動性的時間設計。其二，在川普聯邦政府同週放棄 AI 安全行政令的背景下，加州從就業衝擊角度切入 AI 監管，形成聯邦「競爭優先」對抗州層次「勞工保護」的制度張力，後者的立法轉化路徑，是 AI 行業在加州面臨合規成本上升的主要政策風險來源，時間節點在 2027 年第一季立法會期。</p><p><strong>第三</strong>　對企業 CIO 而言，180 天研究周期屆滿前不產生新合規義務，但 WARN Act 更新建議若轉化為立法，將直接影響在加州運營的科技公司以 AI 置換職能時的通知與資遣義務，建議在 Q3 前由法務部門評估現有 WARN Act 合規框架是否包含 AI 取代場景的應對條款，提前識別需補強的缺口。對 BEXS 學員而言，加州行政令是 AI 結構性失業議題的第一個州層次立法前置信號，若紐約、伊利諾州跟進類似行政令，以 AI 置換人力為核心論點的企業股票在 2027 年的 HR 合規成本上升風險將產生實質估值影響，是評估相關持倉長期邏輯時值得納入的監管維度。對一般 AI 從業者而言，軟體開發職能被明確列為高影響場景，加州 WARN Act 更新若最終落地，「以 AI 置換」的裁員通知義務與遣散標準可能率先在科技行業試行，是了解勞工保護法律演進的重要觀察節點。</p>"
+    },
     {
       "id": "pulse-2026-05-22-14-google-gemini-omni-flash-io2026-video",
       "ts": "2026-05-22T14:12:00+08:00",
@@ -252,24 +270,6 @@
       "url": "https://developer.chrome.com/blog/chrome-at-io26",
       "blurb": "Google I/O 2026 宣佈 WebMCP 移入 Chrome 149 公開源試驗，Google 與 Microsoft 在 W3C 共同推進這個讓網站對 AI 代理暴露結構化函式呼叫的新瀏覽器標準，Expedia、Shopify 等主要零售商率先導入，代理操作網頁從截圖解析升級為精準 API 呼叫。",
       "editorial": "<p><strong>第一</strong>2026 年 5 月 19 日，Google 在 I/O 2026 開發者主題演講中宣佈 WebMCP（Web Model Context Protocol）進入 Chrome 149 公開源試驗（Origin Trial）。WebMCP 是由 Google 與 Microsoft 工程師在 W3C Web Machine Learning 社群工作組共同起草的開放網路標準提案，核心設計是讓網站透過兩套互補 API 直接對瀏覽器 AI 代理暴露可呼叫的結構化工具端點：宣告式 API 對現有 HTML 表單加入工具名稱與描述，命令式 API 允許透過 JavaScript 暴露動態函式。開發者可使用 navigator.modelContext API 查詢並呼叫這些工具，取代代理解析 DOM 或截圖的傳統操作方式。Expedia、Shopify、Instacart、Target、Etsy 已確認作為早期實驗者導入，Chrome 中的 Gemini 代理支援 WebMCP API 的時間尚待確認，Microsoft Edge 整合計畫同步公佈。</p><p><strong>第二</strong>WebMCP 的戰略意涵在三個層次上超越單一瀏覽器功能更新。其一，效率倍增：一個 searchProducts 工具呼叫可取代代理點選篩選器、滾動翻頁、截圖再解析的數十個操作步驟，代理任務成功率與 token 消耗比將同時大幅改善，直接壓縮了 web-browsing agent 在商業部署中的成本基準線。其二，跨瀏覽器生態鎖定：W3C 工作組路徑意味著 WebMCP 的最終目標是成為類似 PWA、WebAuthn 的通用瀏覽器標準，而非 Google 私有 API；由 Google 與 Microsoft 共同起草，降低 Safari 與 Firefox 陣營的反對摩擦，比 Anthropic 主導的 MCP 更具覆蓋全 Web 的潛力。其三，網站可發現性維度重塑：當代理以結構化 API 取代視覺解析，「可被 AI 代理有效操作」將成為繼 SEO 之後網站必須優化的新維度，主動導入 WebMCP 的品牌將在代理採購流中取得先機。</p><p><strong>第三</strong>對開發者而言，Chrome 149 源試驗是立即可評估的工程機會：為現有電商、預訂、表單工作流新增 WebMCP 工具宣告的實施成本低，潛在效益是讓自家平台成為 AI 代理生態的一等公民端點；建議在 Q3 前評估核心用戶旅程（搜尋、加入購物車、結帳）的 WebMCP 工具化可行性，並申請加入源試驗計畫取得早期數據。對企業 CIO 而言，Expedia、Shopify 等大型零售商的先行導入意味著 B2C 及 B2B 採購流程中「AI 代理作為採購入口」的場景已進入現實部署視窗，評估自有企業採購平台是否需在下一個財年前完成 WebMCP 工具暴露，是確保代理時代通路可見度的主動防禦行動。對 BEXS 學員而言，WebMCP 的 W3C 標準化路徑是比任何單一模型發布更具長期影響力的 AI 生態基礎設施訊號，若標準成型，依賴視覺爬蟲的 RPA 工具供應商的商業模式護城河將出現結構性侵蝕，相關持倉的估值風險值得在 H2 2026 前列入追蹤框架。</p>"
-    },
-    {
-      "id": "pulse-2026-05-21-04-deepmind-contextual-ai-acquihire",
-      "ts": "2026-05-21T04:09:35+08:00",
-      "title": "DeepMind 以 9,000 萬美元授權結構收編 Contextual AI 全隊・Bezos 投資組合再遭 acquihire 式拆解",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-19/google-hires-staff-from-bezos-backed-contextual-ai-in-licensing-deal",
-      "blurb": "Google DeepMind 以約 8,000 至 9,000 萬美元授權協議延攬 Contextual AI 逾 20 名研究員，含共同創辦人兼執行長 Douwe Kiela，延續以授權結構繞開反壟斷審查的操作模式，RAG 技術路線關鍵人才正式流入 DeepMind。",
-      "editorial": "<p><strong>第一</strong>2026 年 5 月 19 日，Bloomberg 報導 Google DeepMind 與 Jeff Bezos 投資的 AI 新創 Contextual AI 達成人才及技術授權協議，以 8,000 至 9,000 萬美元取得非獨家技術授權，同步延攬逾 20 名研究員加入 DeepMind，包含共同創辦人兼執行長 Douwe Kiela。Contextual AI 成立於 2023 年，深耕企業 Retrieval-Augmented Generation（RAG）系統與精準文件理解，Bezos Expeditions 為其主要投資人之一。協議結構為非獨家技術授權加人才移轉，Contextual AI 獨立法律實體是否保留存續尚待進一步披露。</p><p><strong>第二</strong>此次交易延續 Google 近年以「授權加人才」結構繞開美國反壟斷審查的操作序列——2025 年以 24 億美元授權 Windsurf 程式碼生成技術，2024 年以授權結構納入 Character.AI 人才，三起交易均未觸發 FTC 合併申報義務。Douwe Kiela 曾主導 Facebook AI Research 多模態語言理解方向，是 RAG 架構大規模企業部署中最具代表性的研究者之一，其積累與 DeepMind 在 Gemini 3.5 Flash agentic 檢索層（MCP Atlas 基準 83.6%）的方向高度互補，有望強化 Gemini 在精準企業知識問答場景的中長期競爭力。</p><p><strong>第三</strong>對監管機構而言，授權式 acquihire 是否構成應受審查的實質合併是 FTC 面臨的政策空缺，若啟動調查可能影響 Google 此一模式的持續可行性並牽連 Microsoft 等以類似結構擴充 AI 人才的大型科技公司。對 Contextual AI 現有企業客戶而言，核心研究人員移轉後的服務連續性和產品路線圖是立即需要釐清的合約問題，建議本週與供應商確認 SLA 有效期及技術支援接班安排。對開發者而言，Douwe Kiela 的加入有望在 Gemini API 的文件理解和 RAG 基礎設施功能上帶來可觀察的能力提升，相關 API 更新值得在 Q3 路線圖中列入追蹤。</p>"
-    },
-    {
-      "id": "pulse-2026-05-21-04-anthropic-managed-agents-selfhosted-mcp-tunnels",
-      "ts": "2026-05-21T04:09:35+08:00",
-      "title": "Anthropic 倫敦場宣布自托管 Sandbox 與 MCP Tunnel・企業 agentic 基礎設施資料主權缺口正式補齊",
-      "source": "Anthropic",
-      "url": "https://claude.com/blog/claude-managed-agents-updates",
-      "blurb": "Anthropic 在 Code with Claude 倫敦大會宣布 Claude Managed Agents 兩項企業安全新功能：自托管 Sandbox（公開 beta）允許企業在自有基礎設施執行 agent 工具；MCP Tunnel（研究預覽）讓 agent 透過加密通道存取企業內網而無需開放公網端口，高監管行業部署障礙正式移除。",
-      "editorial": "<p><strong>第一</strong>2026 年 5 月 19 至 20 日，Anthropic 在倫敦 Code with Claude 開發者大會發布 Claude Managed Agents 兩項企業安全新功能。自托管 Sandbox（self-hosted sandbox）進入公開 beta：企業可在自有計算基礎設施或 Cloudflare、Daytona、Modal、Vercel 等受管服務商環境執行 agent 工具調用，agent 編排邏輯留在 Anthropic 端，執行層完全在客戶主權環境內。MCP Tunnel 進入研究預覽（需申請存取）：Claude agent 透過部署在客戶側的輕量閘道以加密通道訪問企業內部私有資料庫、API、知識庫和工單系統，無需開放防火牆入站規則或公網端口。</p><p><strong>第二</strong>此次更新直接移除了企業部署 Claude agent 的最核心資料主權障礙。過去，工具調用執行流量必須離開企業邊界，在金融、醫療和政府等受嚴格監管的環境，此架構限制導致 Claude 在採購評估初期即被排除。自托管 Sandbox 搭配 MCP Tunnel 建立了「Anthropic 負責編排，客戶負責執行」的主權分層架構，使 Claude Managed Agents 在敏感資料場景的合規可行性從存疑升級為可配置。此功能組合對標 Google Agent Platform 的 Managed Agents API 與 Microsoft Azure AI Studio 的私有代理執行選項，三大代理平台在企業安全特性上已進入同等競爭視窗。</p><p><strong>第三</strong>對企業 CIO 而言，自托管 Sandbox 的公開 beta 是重新評估 Claude 在金融和醫療場景採購可行性的具體觸發點，建議在 Q2 結束前測試 Cloudflare Workers 或既有 AWS 環境中的 Sandbox 配置阻力，並提交 MCP Tunnel 研究預覽存取申請搶佔早期用戶優先佇列。對開發者而言，MCP Tunnel 打通私有 MCP server 的能力大幅擴展了內部 ERP、CRM 及知識庫的 agent 整合場景，是企業 AI 架構中短期 ROI 最高的工具整合候選節點。對競爭格局而言，企業代理平台的差異化已從安全功能有無轉移至整合複雜度與既有基礎設施相容性，三大平台的下一個分化點將是 2026 下半年企業客戶導入速度的對比。</p>"
     }
   ]
 }
