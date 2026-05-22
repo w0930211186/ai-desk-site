@@ -1,0 +1,5 @@
+=== BEXS Netlify probe · 2026-05-22T07:27:26Z ===
+api.netlify.com/api/v1/sites => HTTP 403
+POST .../deploys => HTTP 403
+bexs-gold.netlify.app/home/ => HTTP 403
+401/403/200 = 連通(sandbox 不擋)；000 或 timeout = sandbox 擋
