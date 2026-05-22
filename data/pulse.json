@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-05-22T10:00:00+08:00",
+  "updated_at": "2026-05-22T11:06:48+08:00",
   "items": [
+    {
+      "id": "pulse-2026-05-22-11-anthropic-q2-first-profit",
+      "ts": "2026-05-22T11:06:48+08:00",
+      "title": "Anthropic 預測 Q2 首季獲利 5.59 億美元 · 109 億季收入讓兩年前「2028 無望獲利」成為歷史",
+      "source": "Dataconomy / CryptoBriefing",
+      "url": "https://dataconomy.com/2026/05/21/anthropic-profit-revenue-10-9-billion/",
+      "blurb": "Anthropic 向投資人披露 Q2 2026 季度營收預估達 109 億美元、首次轉為正向營業利潤 5.59 億美元，距「2028 年前不獲利」的預測不足兩年即翻轉，AI 商業模式轉折的速度再次超越業界預期。",
+      "editorial": "<p><strong>第一</strong>　Anthropic 向投資人披露，2026 年第二季（4 月至 6 月）預估營收達 109 億美元，較 Q1 的 48 億美元成長 130%，預估季度營業利潤 5.59 億美元，為公司成立以來首次轉正。驅動力集中於企業端採購，尤其是程式碼輔助與資安應用的高增速場景。這份數字在融資輪投資人簡報中披露，已審計的正式財報尚未公開。值得注意的是，公司同時坦承：受制於後續算力基礎設施投入的計畫增幅，全年獲利能否持續具有不確定性。</p><p><strong>第二</strong>　不足兩年前，Anthropic 曾告知投資人「2028 年以前不指望全年獲利」；如今季度利潤率已率先翻正，具有多重戰略意涵。其一，token margin 的正向轉折意味著算力成本下降速度已超過訓練投入增速，frontier lab 首次出現商業模式自我強化的早期證據。其二，OpenAI 與 Anthropic 若在相近時間點同步走向獲利，將加速兩者的 IPO 進程，並大幅重設資本市場對 AI 公司估值的基準。其三，Anthropic 在估值磋商逾 9,000 億美元、Disruptor 50 榜首以及 KPMG 全球部署等敘事之外，獲利轉正是最具說服力的財務結構性佐證。</p><p><strong>第三</strong>　對企業 CIO 而言，Anthropic 財務轉正降低了長期 SLA 合約的供應商破產尾部風險，在下一輪 Claude 合約更新中是向對方談判更長期承諾條款的有利時機。對 BEXS 學員而言，季度獲利轉正與 9,000 億美元估值磋商的同步出現，使 Anthropic IPO 定價在 P/S 與 P/E 雙框架下均具更完整的基本面支撐，投資人應追蹤 Q2 財報（預計 7 月公布）能否以正式審計數字驗證簡報預測，這是判斷定價倍數能否在 IPO 路演中維持的核心數據節點。對開發者而言，獲利壓力反而是推動 Anthropic 加速推出更高效版 Claude 的內在動力，定價維持競爭力是其企業市占的命脈，API 定價在近期出現重大調整的可能性低，算力擴容後的速率限制改善則有望持續。</p>"
+    },
     {
       "id": "pulse-2026-05-22-10-anthropic-spacex-colossus-45b-compute",
       "ts": "2026-05-22T10:00:00+08:00",
@@ -261,15 +270,6 @@
       "url": "https://techcrunch.com/2026/05/19/openai-co-founder-andrej-karpathy-joins-anthropics-pre-training-team/",
       "blurb": "Andrej Karpathy 5 月 19 日正式加入 Anthropic 預訓練團隊，這位 OpenAI 共同創辦人、前 Tesla AI 主管的選擇，是 AI 頂尖研究人才向 Anthropic 流動趨勢的最高規格確認。",
       "editorial": "<p><strong>第一</strong>2026 年 5 月 19 日，AI 研究員 Andrej Karpathy 宣布加入 Anthropic 的預訓練（pre-training）團隊，直接向預訓練負責人 Nick Joseph 彙報。Karpathy 是 OpenAI 共同創辦人之一（2015 年），後於 2017 年加入 Tesla 主導全自動駕駛研究，2022 年離開 Tesla 後再度短暫回歸 OpenAI，2024 年創立 AI 教育新創 Eureka Labs。此次加入 Anthropic，他將負責核心大規模訓練工作，並計畫建立一個以 Claude 自身加速預訓練研究的新團隊。Karpathy 公開表示：「LLM 前沿的未來幾年將尤其具有形塑性，很高興重返研發。」</p><p><strong>第二</strong>Karpathy 的選擇在 AI 競爭敘事中具有多重戰略意涵。其一，預訓練是模型能力的根基——這不是對話工程或產品優化的人才移動，而是模型核心競爭力的直接強化，對 Anthropic 下一代模型的能力起點有直接影響。其二，Karpathy 是 AI 社群最具知名度的教育者與研究者之一，其個人品牌在開發者生態圈的信任價值難以量化但不可忽視。其三，在 Anthropic 企業份額首度超越 OpenAI（Ramp AI 指數 34.4% vs 32.3%）之際，頂尖研究人才的流向是判斷哪個 frontier lab 具備長期技術主導潛力的先行訊號。</p><p><strong>第三</strong>對企業 CIO 而言，Karpathy 的加入意味著 Anthropic 在預訓練方向的研究透明度可能提升——他的習慣是公開分享方法論，有助於企業採購方評估 Claude 下一代基礎能力路線圖。對開發者而言，以 Claude 自身加速預訓練研究的新團隊構想，是「AI 輔助 AI 訓練」方向首次在 frontier lab 獲得顯著資源投入，相關研究成果值得追蹤。對 BEXS 學員而言，Karpathy 加盟是 Anthropic IPO 前研究人才敘事最強的單一外部驗證，與企業份額逆轉、蓋茲基金會合作及 440 億美元 ARR 共同構成近年最完整的前沿 AI 公司基本面敘事，在 IPO 定價分析中此類頂尖人才訊號的估值溢價值得獨立建模量化。</p>"
-    },
-    {
-      "id": "pulse-2026-05-20-10-google-antigravity-2-agentic-dev-platform",
-      "ts": "2026-05-20T10:05:00+08:00",
-      "title": "Google Antigravity 2.0 以 12 小時造出作業系統 · 代理開發平台正面挑戰 Claude Code",
-      "source": "Google Developers Blog / TechCrunch",
-      "url": "https://developers.googleblog.com/build-with-google-antigravity-our-new-agentic-development-platform/",
-      "blurb": "Google I/O 2026 發布 Antigravity 2.0，一個以 Gemini 3.5 Flash 驅動的完整代理開發平台，CLI、SDK、並行代理協調與企業支援一次到位，並以現場示範 12 小時從零建出作業系統，對代理編程基準提出直接挑戰。",
-      "editorial": "<p><strong>第一</strong>2026 年 5 月 19 日，Google 在 I/O 2026 發布 Antigravity 2.0，將其重新定位為獨立的代理優先（agent-first）開發平台。核心元件包含：全新以 Go 語言重建的桌面應用（支援並行代理協調與自訂子代理工作流）、Antigravity CLI、Antigravity SDK，以及 Gemini API 上的 Managed Agents 後端執行環境，並透過 Gemini Enterprise Agent Platform 提供企業支援。Google 現場演示 Antigravity 2.0 在 12 小時內從空白指令建出完整作業系統，以「可運行 Doom」的畫面作為能力標杆。平台原生整合 Google AI Studio、Firebase 及 Android；AI Ultra 訂閱（月費 100 美元）在 Antigravity 的使用配額為 AI Pro 訂閱的 5 倍。</p><p><strong>第二</strong>Antigravity 2.0 是 Google 在代理開發工具賽道最系統性的競爭宣告，直接對標 Anthropic Claude Code、Microsoft GitHub Copilot 及 Cursor。Antigravity（原 Project IDX）作為 Web IDE 的歷史定位已被徹底捨棄，2.0 版以 CLI + SDK + 後端 Managed Agents 的完整架構，加上 Gemini 3.5 Flash 的 4 倍速度優勢與三分之一定價，試圖以成本與速度同步壓制代理能力的議價空間。Gemini Enterprise Agent Platform 的加入意味著 Antigravity 目標延伸至企業規模的代理工作流管理，是 Google 對 Azure AI 代理平台與 Amazon Bedrock 的第三條企業代理雲棧宣告。</p><p><strong>第三</strong>對開發者而言，Antigravity 2.0 的 CLI 與 SDK 架構是評估是否遷移現有 Claude Code 或 GitHub Copilot 工作流的實質觸發點——重點評估多代理並行協調能力與 Firebase 原生整合對現有 GCP 棧的實際效益，以及 Managed Agent 後端執行的 token 成本結構。對企業 CIO 而言，Gemini Enterprise Agent Platform 是 Azure AI 及 Amazon Bedrock 之外的第三條完整代理雲棧選項，評估時應特別考量既有 GCP 投資的整合效益與遷移摩擦。對 BEXS 學員而言，Google 以完整生態進場代理開發工具市場，意味著此賽道的競爭從「性能」升級為「生態深度」，Alphabet 在代理工具鏈的份額增長是下半年估值修復敘事的重要觀察指標。</p>"
     }
   ]
 }
