@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-05-23T07:05:00+08:00",
+  "updated_at": "2026-05-23T08:10:00+08:00",
   "items": [
+    {
+      "id": "pulse-2026-05-23-08-japan-megabanks-anthropic-mythos",
+      "ts": "2026-05-23T08:10:00+08:00",
+      "title": "日本三大銀行本月底接入 Anthropic Mythos · 美日財政部協調確認亞洲金融體系首批存取授權",
+      "source": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/business/finance/japan-megabanks-to-gain-access-to-anthropic-s-powerful-ai-model-mythos",
+      "blurb": "MUFG、SMBC、Mizuho 將於五月底首度取得 Claude Mythos 的受限存取授權，成為 Glasswing 計畫首批亞洲機構；此舉由美日財政部長本週東京峰會協調達成，日本同步組建 36 機構公私工作組追蹤 Mythos 級別金融網路安全風險。",
+      "editorial": "<p><strong>第一</strong>　日經亞洲（Nikkei Asia）5 月 22 日報導，三菱 UFJ 金融集團（MUFG）、三井住友金融集團（SMBC）及瑞穗金融集團（Mizuho）預計於五月底以 Glasswing 合作夥伴條款取得 Anthropic Claude Mythos 的受限存取授權，成為 Mythos 預覽計畫的首批非西方機構。消息源自美國財政部長 Scott Bessent 本週赴東京與三大行及日本財務大臣的系列會面。日本財務大臣同步宣布，以三大銀行、日本銀行、Anthropic 及 OpenAI 日本法人為核心，組成 36 機構的公私聯合工作組，任務是在六個月內完成 Mythos 級別 AI 網路攻擊能力的系統性風險評估框架。Mythos 在 Glasswing 框架下交付時設有嚴格限制：合作方可掃描自身系統漏洞並獲取修補建議，不得對外披露漏洞利用程式碼。</p><p><strong>第二</strong>　此舉是 AI 攻擊性安全能力首度被納入美日同盟數位合作框架的制度性信號。Glasswing 計畫此前的合作夥伴以美國科技巨頭（AWS、Apple、Cisco、Google、Microsoft）和少數歐洲機構為主，日本三大行的接入由政府協調而非純商業談判驅動，標誌著美國政府已將 Mythos 的存取授權視為同盟數位安全外交的一部分，可預期南韓、澳洲等同盟夥伴機構的接入談判在此後加速。對全球金融監管機構而言，Mythos 已由 CISA 及五眼聯盟指引確認為系統性網路風險來源，日本成立 36 機構工作組是亞洲在 AI 安全監管框架上的快速補位，亦是全球主要金融市場在 AI 攻擊性能力的監管協調機制快速並聯的可見前緣。</p><p><strong>第三</strong>　對 BEXS 黃金交易學員而言，日本三大銀行是全球外匯與固定收益市場的核心流動性提供方，此次 Mythos 存取若在六個月工作組評估後觸發日本金融廳（FSA）的 AI 工具使用新規，相關合規成本的影響可能在 FY2027 對三大行的運營成本基準產生初步可量化影響，是追蹤亞洲金融機構 AI 轉型合規成本的早期觀察節點。對企業 CIO 而言，以 AI 輔助漏洞掃描為核心的主動安全防禦正在成為頂尖金融機構的標準流程，建議在 Q3 前評估企業當前滲透測試框架是否需要引入 AI 輔助掃描環節，Glasswing 夥伴陸續公開的工具和程式碼是選型的低成本起點。</p>"
+    },
+    {
+      "id": "pulse-2026-05-23-08-pope-leo-magnifica-humanitas-ai-encyclical",
+      "ts": "2026-05-23T08:10:00+08:00",
+      "title": "教宗良十四世 AI 通諭《Magnifica Humanitas》後天發布 · Anthropic 共同創辦人同台、道德主體正式切入 frontier 治理討論",
+      "source": "Vatican News / Fortune",
+      "url": "https://www.vaticannews.va/en/pope/news/2026-05/pope-leo-xiv-first-encyclical-magnifica-humanitas.html",
+      "blurb": "教宗良十四世 5 月 15 日親署首份 AI 主題通諭，定於 25 日在梵蒂岡發布，主題聚焦「人工智能時代的人格保護」；Anthropic 共同創辦人、可解釋 AI 研究負責人 Christopher Olah 受邀同台，良十四世親自出席屬創教宗先例，同步設立梵蒂岡 AI 委員會。",
+      "editorial": "<p><strong>第一</strong>　梵蒂岡新聞社 5 月 18 日確認，教宗良十四世（Pope Leo XIV）將於 5 月 25 日上午 11 時 30 分在梵蒂岡宗教廳（Synod Hall）發布首份通諭《Magnifica Humanitas》（人的偉大尊嚴），核心主題是「人工智能時代的人格保護」。良十四世於 5 月 15 日親署本文件，與 135 年前良十三世簽署《勞工問題》（Rerum Novarum）同日；教宗親自出席自身通諭發布儀式屬創教宗先例。演講嘉賓包含 Anthropic 共同創辦人兼可解釋 AI 研究負責人 Christopher Olah。梵蒂岡同步於 5 月 18 日宣告設立常設 AI 委員會，以通諭框架為基礎持續追蹤政策演進。全球天主教信眾約 13 億，梵蒂岡在道德外交層面的認可效力覆蓋 UN 成員國中多數具影響力的政府與非政府組織框架。</p><p><strong>第二</strong>　良十四世選擇 Anthropic 代表而非 OpenAI 或 Google 同台，是可讀的機構信任訊號：Anthropic 的憲法式 AI（Constitutional AI）框架與對可解釋性研究的公開投入，符合梵蒂岡「AI 系統可理解、可問責」的道德要求。良十四世以《勞工問題》週年日簽署本文件，建立了明確的道德傳承定位：《勞工問題》在 1891 年工業革命期間奠定了全球勞工保護原則的宗教-政策框架，《Magnifica Humanitas》的相似定位意味著梵蒂岡正在建構一個可在 AI 監管討論中供各國政府援引的道德錨點。這是 Anthropic 繼比爾蓋茲基金會之後，在 AI 安全形象建設上的第二個頂級非商業機構背書，且背書維度從全球公衛延伸至宗教道德主體，覆蓋的受眾地理範疇超越前者。</p><p><strong>第三</strong>　對 BEXS 學員而言，Anthropic 在 8 個月內連續獲得比爾蓋茲基金會和梵蒂岡兩個頂級非商業機構背書，是 Anthropic IPO 路演中 ESG 章節可直接援引的具體背書記錄，對主權財富基金及退休基金等 ESG 敏感型機構投資人的吸引力高於純商業指標，是下一輪融資及 IPO 定價敘事的正向材料。對一般 AI 從業者而言，Olah 在梵蒂岡的演講是「可解釋 AI 技術定義如何在全球治理語境中取得非技術共識」的早期觀察節點，通諭對 AI 透明度的措辭在未來三至五年可能成為歐盟 AI Act 後續修訂及南美監管框架的參照文本，值得在發布後追蹤通諭措辭的具體政策回響。</p>"
+    },
+    {
+      "id": "pulse-2026-05-23-08-sap-prior-labs-1b-tabular-ai-europe",
+      "ts": "2026-05-23T08:10:00+08:00",
+      "title": "SAP 逾 10 億歐元收購德國 Prior Labs · 結構化資料基礎模型進入 Frontier 量級、歐洲企業 AI 實驗室首現旗艦競爭者",
+      "source": "TechCrunch / SAP News",
+      "url": "https://techcrunch.com/2026/05/05/sap-bets-1-16b-on-18-month-old-german-ai-lab-and-says-yes-to-nemoclaw/",
+      "blurb": "SAP 5 月 4 日宣布收購德國弗萊堡 Prior Labs，承諾四年逾 10 億歐元打造歐洲 Frontier AI 研究機構；Prior Labs 的 TabPFN 模型以單次前向傳遞取代梯度提升訓練、於 Nature 發表、逾 300 萬次下載，SAP 下注的是 LLM 以外最具企業資料密度的結構化 AI 範式。",
+      "editorial": "<p><strong>第一</strong>　2026 年 5 月 4 日，SAP SE 宣布收購德國 AI 研究新創 Prior Labs，SAP 承諾四年投入逾 10 億歐元，以 Prior Labs 為核心在歐洲建立 Frontier 級別 AI 研究機構，Prior Labs 以獨立實體形式繼續運作，交易預計在 Q2 或 Q3 完成，TechCrunch 確認交易規模約 11.6 億美元（SAP 內部代號「NemoClaw」）。Prior Labs 由機器學習教授 Frank Hutter、Noah Hollmann 及 Sauraj Gambhir 於 2024 年末創立，總部德國弗萊堡，成立約 18 個月，研究人員來自 Google、Microsoft、Amazon、Jane Street 及 CERN。核心技術 TabPFN（Tabular Prior-data Fitted Networks）是以企業結構化表格資料為對象的基礎模型，可在單次前向傳遞中完成分類與回歸，無需任務特定訓練，在數百項學術研究中匹敵調參梯度提升模型（XGBoost、LightGBM），研究發表於 Nature 期刊，開源版本累計逾 300 萬次下載。</p><p><strong>第二</strong>　SAP 此案的戰略核心是對 LLM 為主的企業 AI 競爭路線的主動差異化。SAP 系統每年處理全球 87% 的商業交易記錄，這些資料的絕大多數是表格型（ERP 訂單、庫存流、供應商付款、客戶流失），而非文字；TabPFN 在此類資料上的零訓練推理效率遠超 GPT 系列，是 SAP 在與 Microsoft Copilot（整合 GPT）和 Salesforce Einstein（整合 OpenAI）的競爭中，選擇在算法層建立非 LLM 護城河的技術賭注。從地緣角度，此案是歐洲近年最具規模的本土 Frontier AI 投資之一，打破「歐洲 AI 無頂尖研究群」的固有敘事，Prior Labs 研究密度在結構化 AI 子領域具全球競爭力。NemoClaw 代號暗示與 NVIDIA Nemotron Coalition 框架的潛在整合路線，值得後續追蹤。</p><p><strong>第三</strong>　對企業 CIO 而言，TabPFN 在無需微調的條件下達到與調參模型相當的預測精準度，若 Prior Labs 在 SAP 資源投入後推出 Enterprise API，建議在 H2 2026 的 ERP AI 模組評估中重點驗證採購延遲預測、庫存優化及客戶流失率三個高頻業務場景的推理效能，這三項是判斷 TabPFN 投資報酬率的直接業務錨點。對 BEXS 學員而言，SAP（$SAP、XETRA 上市）以歐洲 Frontier AI Lab 框架重新定位技術能力敘事，若後續財報中 AI 模組滲透率出現量化提升，是重估 SAP 技術溢價的直接觸發點，建議在 H2 2026 財報中追蹤 AI 雲端模組 ARR 增速。對開發者而言，TabPFN 開源版本在 SAP 支援下的迭代加速，對結構化資料的 AutoML、企業數位孿生及時間序列場景均有高相關性，是評估是否從梯度提升遷移至 TabPFN 架構的重要技術信號，建議在 H2 2026 跟蹤 Prior Labs 開源更新頻率。</p>"
+    },
     {
       "id": "pulse-2026-05-23-07-anthropic-30b-900b-valuation-round",
       "ts": "2026-05-23T07:05:00+08:00",
@@ -243,33 +270,6 @@
       "url": "https://www.anthropic.com/news/claude-for-small-business",
       "blurb": "Anthropic 5 月 13 日推出 Claude for Small Business，以 15 套即用工作流嵌入 QuickBooks、HubSpot、Canva、DocuSign 等 8 個中小企業核心工具，透過 Claude Cowork 無需工程師部署；AI 代理從精品企業服務降維成中小企業可直接啟動的標配基礎設施，Anthropic 首次系統性進入 SMB 市場。",
       "editorial": "<p><strong>第一</strong>2026 年 5 月 13 日，Anthropic 正式推出 Claude for Small Business，以 15 套即用型代理工作流（ready-to-run agent workflows）和 8 個工具連接器為核心，透過 Claude Cowork 平台向中小企業交付，不需工程師設定即可啟用。8 個連接器涵蓋：Intuit QuickBooks（帳務、薪資規劃、稅務申報、月末結帳）、PayPal（收付款流程）、HubSpot（潛客分類、行銷歸因、客戶關係）、Canva（品牌素材生成）、DocuSign（合約簽署流程）、Google Workspace（文件、試算表、Email）、Microsoft 365（Word、Excel、Outlook）及 Slack（內部通知與協作）。15 套工作流分布於財務、營運、銷售、行銷、HR 及客服六大業務職能，整合入口為 Claude Cowork，需要 Claude Team 或 Enterprise 方案。</p><p><strong>第二</strong>Claude for Small Business 是 Anthropic 在 KPMG（27.6 萬人）、PwC（3 萬人認證）、蓋茲基金會、金融機構等大型夥伴佈局之外，首次系統性下沉至中小企業市場的產品部署，戰略本質是以現有 SaaS 工具棧作為分銷管道。QuickBooks 全球超過 800 萬付費企業用戶、HubSpot 服務逾 19 萬家企業、Canva 月活超過 1.8 億——Anthropic 無需建立中小企業直銷團隊，只需嵌入現有工具即可觸及龐大 SMB 用戶基數，邊際獲客成本遠低於直銷模式。Claude Cowork 作為統一代理執行層是關鍵架構選擇：中小企業主在同一介面跨工具啟動代理任務，不需在多個 SaaS 介面切換，降低了 AI 代理的使用摩擦。這一佈局完整了 Anthropic 的市場覆蓋矩陣——旗艦企業（KPMG、PwC、金融機構）→ 中型企業（諮詢 JV）→ 中小企業（Cowork + 工具連接器）——與 OpenAI 以 Deployment Company 專攻大型高監管行業的市場切分形成互補競爭關係。</p><p><strong>第三</strong>對企業 CIO 而言，Claude for Small Business 的 15 套工作流架構是評估中型企業能否適用相同模式的參考框架——若核心業務流程已在 QuickBooks、HubSpot、Google Workspace 等連接器覆蓋的工具上運行，Cowork 的無代碼連接器模式比自建 MCP server 的技術成本更低，建議在 Q3 前評估現有 SaaS 棧與 8 個連接器的覆蓋重疊度，識別最低阻力的 AI 代理切入點。對開發者而言，Anthropic 以 Cowork 構建的「連接器市場」架構是 AI 代理工作流商業化的清晰路線圖；Canva、HubSpot 等工具的 MCP 連接器開發模式若演進為開放生態，第三方垂直連接器的技術合作機會值得在 H2 2026 前進行可行性評估。對 BEXS 學員而言，Claude 進入 SMB 工具棧意味著 Anthropic 的企業收入基盤正從大客戶集中型向長尾分散型演進，對 ARR 成長的結構性可持續性具有正面意涵；Intuit（$INTU）與 HubSpot（$HUBS）等工具供應商因 Claude 整合帶來的用戶黏性變化，是後續觀察三方生態效益分配的追蹤指標，後者能否將 Claude 整合轉化為自身的升級換代收入，是判斷工具平台在 AI 代理時代護城河能否強化的核心問題。</p>"
-    },
-    {
-      "id": "pulse-2026-05-21-08-eu-ai-act-omnibus-compliance-delay",
-      "ts": "2026-05-21T08:00:00+08:00",
-      "title": "EU AI 法案全面簡化協議達成・高風險 AI 合規截止延後 16 個月、水印義務 12 月起跑",
-      "source": "EU Council",
-      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/",
-      "blurb": "歐盟 5 月 7 日達成 AI 法案簡化協議，Annex III 高風險 AI 系統合規截止延後 16 個月至 2027 年 12 月，AI 生成內容水印義務維持 12 月 2 日執行，並新增 CSAM 及非同意親密影像 AI 禁令，監管視窗全面重設。",
-      "editorial": "<p><strong>第一</strong>2026 年 5 月 7 日，歐洲議會與歐盟理事會就 Digital Omnibus AI 簡化提案達成臨時協議，是 EU AI Act 自 2024 年正式生效以來首次系統性修訂。核心變更分三個層次：Annex III 高風險 AI 系統（涵蓋 HR、信用評估、招聘、教育等應用場景）合規截止日從 2026 年 8 月 2 日延後 16 個月至 2027 年 12 月 2 日；Annex I 產品規範類高風險系統（醫療器材、機械設備等）則延至 2028 年 8 月；AI 生成內容水印與溯源標記義務維持原定 2026 年 12 月 2 日執行，並同步新增兩項禁止 AI 用途：生成或操控非同意性親密影像及兒童性虐待素材（CSAM），12 月 2 日起生效。SME 優惠延伸至中型企業，並進一步集中部分類型系統的執法管轄至 AI 辦公室。</p><p><strong>第二</strong>延期決定的戰略含義分兩個層次。其一，Annex III 的 16 個月寬限期是歐盟對「合規成本過高阻礙 AI 採用」這一企業遊說壓力的直接讓步，德法中型企業聯盟指出技術文件要求與合格評估義務超出現有資源承擔能力。對高監管行業（金融、醫療、招聘平台）而言，原訂 2026 年 Q3 的合規部署計畫可以重新調整節奏，採購評估中的合規成本假設需立即更新。其二，水印義務的 12 月截止日不受延期影響，意味著 AI 生成內容工具供應商（含 OpenAI、Anthropic、Google 旗下工具）在歐盟用戶端的合規路徑依然緊迫，C2PA 或 SynthID 技術整合需在近期完成路線確認。</p><p><strong>第三</strong>對企業 CIO 而言，Annex III 的 16 個月緩衝視窗是重新規劃 AI 合規路徑的機會窗口，建議在 2026 年 Q4 前完成內部 AI 應用的高風險分類評估，提前識別哪些工作流需進入完整合規路徑，避免在 2027 年底前才臨時補件。對開發者而言，AI 生成內容水印義務的 12 月截止是近期最確定的合規節點，面向歐盟用戶的圖像、影片及文字生成功能需在六個月內確認 C2PA 技術整合計畫。對監管觀察者而言，此次延期後歐盟 AI 辦公室的執法優先級設定，以及第一批實際執法案例的時間線，是判斷 EU AI Act 在 2027 至 2028 年能否真正形成約束力的關鍵前置信號。</p>"
-    },
-    {
-      "id": "pulse-2026-05-21-08-kpmg-anthropic-global-alliance-276k-claude",
-      "ts": "2026-05-21T08:00:00+08:00",
-      "title": "KPMG 27.6 萬人全面接入 Claude・Big Four 規模部署標誌企業 AI 進入全員工作流新常態",
-      "source": "Anthropic",
-      "url": "https://www.anthropic.com/news/anthropic-kpmg",
-      "blurb": "KPMG 與 Anthropic 5 月 19 日宣布全球策略聯盟，27.6 萬名員工全面接入 Claude 並整合進稅務及私募股權交付平台，是迄今規模最大的 Big Four 企業 AI 部署，Anthropic 借此打通四大顧問業的企業客戶分銷鏈。",
-      "editorial": "<p><strong>第一</strong>2026 年 5 月 19 日，KPMG 與 Anthropic 宣布全球策略聯盟，同步推出 KPMG Digital Gateway Powered by Claude。三個核心層次：KPMG 27.6 萬名全球員工全面接入 Anthropic Claude 套件，建立在過去兩年 KPMG 美國 Advisory 及 AI 實驗室已有的 Claude 採用基礎之上；Digital Gateway 是 KPMG 的核心 AI 交付平台，Claude 嵌入後客戶可在平台上實時構建代理工作流，首期聚焦稅務客戶及私募股權業務；Anthropic 同時指定 KPMG 為 PE 生態首選顧問夥伴，雙方共同開發面向 PE 投資組合公司的 Claude 整合產品。</p><p><strong>第二</strong>KPMG 聯盟的戰略意涵超越一般企業客戶協議。四大會計師事務所的服務網絡覆蓋全球絕大多數 Fortune 500 企業，KPMG 將 Claude 嵌入其稅務和 PE 交付平台，等同以顧問服務管道將 Claude 輸送至這些企業客戶的日常業務操作中，而無需 Anthropic 直接銷售。這是 Anthropic「顧問生態前置企業鏈」戰略的最大單一落地，搭配此前 PwC 三萬人認證計畫，Anthropic 已在全球前兩大會計師事務所建立了 Claude 的制度性採購前置優勢。對 OpenAI 而言，KPMG 並非其既有核心夥伴，此聯盟意味著 Anthropic 在高監管行業的顧問觸達正快速佔領先機。</p><p><strong>第三</strong>對企業 CIO 而言，若組織正在與 KPMG 合作稅務審計或 PE 諮詢，其交付流程已預設為 Claude；建議在供應商 AI 採購評估中審視 KPMG 整合所帶來的預設 AI 模型層是否與自身採購策略一致，以及是否存在 AI 廠商決策外包的風險。對 BEXS 學員而言，27.6 萬員工是迄今最大的單一機構 Claude 部署，強化 Anthropic ARR 高增長的底層結構驗證；後續觀察 KPMG 是否進一步向客戶推廣 Claude 代理工作流，才是 Anthropic 實際企業二層滲透的關鍵追蹤指標。對開發者而言，KPMG Digital Gateway 的 Claude 代理工作流構建能力可能在稅務和 PE 場景帶動垂直工作流工具需求，值得追蹤 Anthropic 是否開放相關行業特定 API 功能。</p>"
-    },
-    {
-      "id": "pulse-2026-05-21-08-anthropic-glasswing-mythos-findings-public",
-      "ts": "2026-05-21T08:00:00+08:00",
-      "title": "Anthropic 開放 Glasswing 夥伴公開 Mythos 漏洞研究・AI 攻擊性安全能力進入可審計公開視窗",
-      "source": "Techzine / Security Boulevard",
-      "url": "https://www.techzine.eu/news/security/141441/anthropic-allows-partners-to-share-findings-from-mythos/",
-      "blurb": "Anthropic 宣布允許 Project Glasswing 夥伴公開分享 Claude Mythos 發現的漏洞、最佳實踐、工具與程式碼，解除初期保密限制，是 AI 攻擊性安全能力首次可合法進行跨機構公開討論的制度性開口。",
-      "editorial": "<p><strong>第一</strong>2026 年 5 月 18 日，Anthropic 宣布允許 Project Glasswing 夥伴將使用 Claude Mythos 所獲得的研究發現，對外公開分享至安全研究機構、監管機構、開源維護者及媒體，解除了夥伴們在計畫初期自行提出的保密約束。夥伴可公開分享的範疇涵蓋漏洞研究發現、最佳防禦實踐、輔助工具及相關程式碼。背景：Glasswing 是 Anthropic 於 2026 年 4 月 7 日啟動的防禦性聯盟，成員涵蓋 AWS、Apple、Broadcom、Cisco、CrowdStrike、Google、JPMorganChase、Linux Foundation、Microsoft、NVIDIA 及 Palo Alto Networks，Anthropic 提供 1 億美元 API 額度支撐此計畫。Claude Mythos Preview 已被驗證具備在所有主流作業系統及瀏覽器中識別並利用零日漏洞的能力，包含一個長達 17 年的 FreeBSD NFS 遠端代碼執行漏洞。</p><p><strong>第二</strong>公開披露政策的放寬標誌著 Glasswing 從「內部防禦計畫」進入「公開知識基礎建設」階段，戰略意涵在兩個層次展開。其一，AI 攻擊性安全能力首度可在機構邊界外進行有依據的公開討論，安全研究社群可以合法引用 Mythos 的具體發現，對 METR 等機構的 AI 安全能力評估框架而言，這是重要的外部資料點補充。其二，允許分享是對「資訊孤立造成防禦劣勢」批評的直接回應——若攻擊方最終能取得類似能力，防禦方需要儘早建立知識儲備和工具鏈，公開夥伴研究是加速防禦生態成熟的系統性選擇，亦是 Anthropic 在 AI 安全社群建立信任基礎的主動信號。</p><p><strong>第三</strong>對企業 CIO 而言，Glasswing 公開研究成果意味著未來幾週將出現大量基於 Mythos 的具體漏洞分析報告，建議安全團隊在 6 月前訂閱 AWS、CrowdStrike、Palo Alto 等 Glasswing 夥伴的安全通告，重點關注操作系統及瀏覽器漏洞的修補時間表；若企業使用 FreeBSD 環境，應立即確認 NFS 相關漏洞補丁狀態。對開發者而言，Glasswing 夥伴工具和程式碼的公開意味著 AI 輔助安全掃描工具鏈的可及性大幅提升，6 月後值得追蹤相關開源工具的發布動態。對監管者而言，夥伴公開研究發現是「進攻性 AI 能力應如何監管披露」的現實壓力測試，相關立法框架的修訂在 2026 下半年預期加速，EU AI Act 高風險 AI 分類的更新是否需納入攻擊性安全工具是關鍵待解問題。</p>"
     }
   ]
 }
