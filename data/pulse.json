@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-05-24T05:04:00+08:00",
+  "updated_at": "2026-05-24T06:10:00+08:00",
   "items": [
+    {
+      "id": "pulse-2026-05-24-06-nvidia-q1-fy27-816b-vera-cpu-agentic",
+      "ts": "2026-05-24T06:00:00+08:00",
+      "title": "Nvidia 單季 816 億美元刷新紀錄 · Vera 代理 AI 專屬 CPU 打開 2,000 億全新市場、GPU 霸主切入算力全棧",
+      "source": "TechCrunch / Nvidia",
+      "url": "https://techcrunch.com/2026/05/20/jensen-huang-says-hes-found-a-brand-new-200b-market-for-nvidia/",
+      "blurb": "第一財季 816 億美元、年增 85%，Q2 指引再至 910 億；Vera CPU 作為全球首款代理 AI 專屬處理器，首年已售出 200 億美元並開拓 2,000 億全新 TAM，黃仁勳宣告 Nvidia 從 GPU 寡占擴展至代理 AI 全棧基礎設施。",
+      "editorial": "<p><strong>第一</strong>　 2026 年 5 月 20 日，Nvidia 公布第一財季（截至 4 月 26 日）業績：營收 816 億美元，年增 85%，單季刷新公司紀錄；數據中心部門貢獻 752 億美元，年增 92%，佔總營收逾九成；毛利率 74.9%（GAAP）。第二財季指引為 910 億美元，暗示年增約 95%，持續超越分析師共識。同日，黃仁勳宣布 Vera CPU 進軍代理 AI 基礎設施市場：Vera 定位為全球首款代理 AI 專屬 CPU，與 Rubin GPU 共同構成 Vera Rubin 平台，覆蓋代理工作流從推理生成到任務執行的完整算力鏈。Nvidia 確認今年獨立 Vera CPU 銷售能見度達 200 億美元，對應新開拓的 2,000 億美元總可服務市場（TAM），並明確表示市場估算涵蓋中國。SpaceX、Anthropic、OpenAI 等主要超大規模雲廠商已完成首批 Vera Rubin 系統的接收交付。</p><p><strong>第二</strong>　 Vera CPU 的戰略意義在三個層面同步展開。其一，Nvidia 的算力競爭邊界由 GPU 訓練及推理雙鏈正式延伸至代理 AI 工作流執行層：代理任務的工具調用、環境互動及長步驟協調大量依賴 CPU 算力，而非 GPU；Vera 的代理優化設計直接挑戰英特爾及 AMD 在資料中心 CPU 市場的既有地位，是 Nvidia 在 CPU 市場的首次大規模商業化攻勢。其二，GPU、CPU 與 InfiniBand 網絡的全棧垂直整合，強化 Nvidia 在 AI 算力生態的定價主導地位，形成競對短期內難以整體複製的採購黏性。其三，2,000 億美元新 TAM 明確涵蓋中國市場的公開陳述，是 Nvidia 在出口管制框架下主動向投資人設定新的地緣可及性預期，短期為估值提供上修空間，但後續若管制收緊，此 TAM 預測的下行敏感性亦相對放大。</p><p><strong>第三</strong>　 對 BEXS 學員而言，816 億 Q1 及 910 億 Q2 指引使 Nvidia 在 H1 2026 的算力超週期受益持續量化可見；Vera CPU 收入的單獨財務披露預計在 Q2 FY2027 財報（約 2026 年 8 月）首次出現，是確認全棧戰略財務可行性的關鍵節點；涵蓋中國的 2,000 億 TAM 陳述應搭配出口管制政策動向作為下行情景參數納入估值模型。對企業 CIO 而言，代理 AI 工作流的 CPU 算力在 H2 2026 逐步成為獨立採購預算項，建議在下一輪多雲基礎設施評估中識別代理工作流的 CPU 成本佔比，並以 Vera Rubin 平台的雲廠商部署計畫評估作為算力採購預算假設的更新基準。對開發者而言，代理框架的長步驟執行成本模型在 Vera CPU 商業化後需重新校準；GPU 推理層（生成）與 CPU 執行層（工具調用）的分離定價，是代理工作流成本優化的新設計維度，建議在 H2 2026 追蹤主要雲廠商 Vera CPU 實例的定價公告。</p>"
+    },
     {
       "id": "pulse-2026-05-24-05-anthropic-glasswing-10k-vulns-mythos-security",
       "ts": "2026-05-24T05:00:00+08:00",
@@ -261,15 +270,6 @@
       "url": "https://www.anthropic.com/news/anthropic-acquires-stainless",
       "blurb": "Stainless 是 OpenAI、Google、Cloudflare 均依賴的 SDK 與 MCP server 生成工具；Anthropic 收購後關閉全部托管服務，競對必須自建替代，MCP 生態的協議制定權與工具鏈控制權同步歸攏。",
       "editorial": "<p><strong>第一</strong>2026 年 5 月 18 日，Anthropic 宣布收購 Stainless，一家為數百家企業生成 SDK、CLI 及 MCP server 的開發工具公司，交易金額據報逾 3 億美元，具體條款未披露。Stainless 的服務名單包含 OpenAI、Google 和 Cloudflare，也是 Anthropic 自身自 API 早期以來的官方 SDK 生成方。收購完成後，Anthropic 將關閉 Stainless 全部托管產品（含 SDK 生成器），現有客戶保留已生成 SDK 的完整所有權及修改權。</p><p><strong>第二</strong>此次收購的戰略核心不在工具本身，而在 MCP（Model Context Protocol）生態的雙層控制。MCP 是 Anthropic 主導推進的 AI agent 連接協議；Stainless 的 MCP server 生成能力是 agent 接入企業系統的關鍵通道。收購後，Anthropic 同步掌握「制定 MCP 協議標準」與「壟斷其生成工具鏈」兩個節點，迫使 OpenAI 與 Google 短期內自建或遷移 SDK/MCP 生成基礎設施，工程成本集中在競對一側。關閉托管服務亦意味著 Stainless 生態的外部中型企業用戶面臨工具棧遷移的摩擦成本。</p><p><strong>第三</strong>對開發者而言，依賴 Stainless 托管服務生成 SDK 的用戶需在 Anthropic 公告的截止日前評估遷移計畫；現有 SDK 程式碼所有權完整，核心影響是新 SDK 生成管道的替代選型。對 CIO 而言，MCP 生態主導權持續向 Anthropic 集中，是評估未來 AI agent 接入架構時供應商依賴度的核心維度——若企業代理基礎設施深度依賴 MCP，應在採購決策中建立對 Anthropic 生態單點失效的備援評估框架。對 OpenAI 與 Google，SDK tooling 自主性的緊迫性已上升一個等級，相關工程投資的時間線加速是可預期的競爭反應。</p>"
-    },
-    {
-      "id": "pulse-2026-05-21-05-openai-model-erdos-geometry-conjecture",
-      "ts": "2026-05-21T05:03:16+08:00",
-      "title": "OpenAI 通用推理模型自主推翻 80 年 Erdős 幾何猜想 · 外部數學家驗證確認 AI 原創數學突破成立",
-      "source": "OpenAI",
-      "url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture/",
-      "blurb": "OpenAI 一個通用推理模型在未經專項訓練的條件下自主發現，並構造了推翻 Erdős 1946 年平面單位距離猜想的反例族，由外部數學家獨立驗證，是 AI 首次在數學子領域核心開放問題上留下可引用的原創貢獻。",
-      "editorial": "<p><strong>第一</strong>2026 年 5 月 20 日，OpenAI 宣布旗下通用推理模型推翻了 Paul Erdős 於 1946 年提出的平面單位距離問題（planar unit distance problem）核心猜想——近 80 年來學界認為最優解形如方格網，而 OpenAI 模型發現一個表現更優的無限族構造，以多項式量級的改進推翻既有上限。OpenAI 聲明此成果來自通用推理模型，未針對此問題專門微調，亦未建置專用搜尋工具；結果已由一組外部數學家獨立驗證。</p><p><strong>第二</strong>此突破的戰略意涵在框定邊界後更清晰。首先，外部數學家驗證是此次聲明與 OpenAI 七個月前宣稱「GPT-5 解決多個 Erdős 問題」後遭發現只是引用既有文獻的本質差異——獨立同行驗證賦予結果科學可信度。其次，突破來自通用推理模型是這一結果超越數學本身的關鍵：它直接驗證了通用推理能力在有明確驗證標準的複雜知識域中，有能力自主產生人類尚未得出的原創輸出。對 frontier lab 競爭格局而言，OpenAI 在算力採購合約、個人財務接入、企業部署公司等產品攻勢之外，同步向「科學發現加速」方向推進技術敘事，是在 AGI 定義之爭中先手落點的佈局。</p><p><strong>第三</strong>對企業 CIO 而言，此突破的近期實務意義有限，但它確認了「通用推理模型在強驗證條件下超越人類先有成果」的能力邊界，是評估 AI 代理在研究、審計、程式碼驗證等高複雜度知識任務上潛力的外部基準更新。對開發者而言，通用推理模型在探索性問題上的能力提升，是 LLM 輔助演算法優化、系統架構探索場景適用性上升的技術信號，可在 H2 2026 工具鏈評估中納入推理深度作為模型選型的獨立評分維度。對 BEXS 學員而言，OpenAI 在科學發現的原創性突破是其「AI 加速高壁壘研究」投資敘事的最強外部驗證，強化了製藥、材料科學與生命科學 AI 賽道在 2026 至 2028 年的長線投資論點。</p>"
     }
   ]
 }
