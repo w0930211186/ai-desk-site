@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-05-23T10:07:00+08:00",
+  "updated_at": "2026-05-23T11:05:00+08:00",
   "items": [
+    {
+      "id": "pulse-2026-05-23-11-recursive-superintelligence-650m-self-improving-ai",
+      "ts": "2026-05-23T11:05:00+08:00",
+      "title": "Recursive Superintelligence 六個月出暗池獲 GV 領投 6.5 億美元 · DeepMind 系創辦人押注 AI 自主改進訓練、NVIDIA 同步入股鎖定算力優先路徑",
+      "source": "Tech.eu / TechCrunch",
+      "url": "https://tech.eu/2026/05/13/recursive-superintelligence-emerges-from-stealth-with-650m-raise/",
+      "blurb": "前 Salesforce 首席科學家 Richard Socher 與 UCL 教授暨前 Google DeepMind 科學家 Tim Rocktäschel 創立不足六個月的 Recursive Superintelligence，以 46.5 億美元估值完成 6.5 億美元首輪融資，Google Ventures 領投、NVIDIA 與 AMD 跟投，目標是讓 AI 在零人工干預下自主完成下一輪訓練。",
+      "editorial": "<p><strong>第一</strong>　倫敦 AI 新創 Recursive Superintelligence 於 5 月 13 日正式出暗，宣布完成 6.5 億美元首輪融資，融資後估值達 46.5 億美元。本輪由 Google Ventures（GV）主導，英偉達（NVIDIA）、超微半導體（AMD）及英國風投 Greycroft 共同跟投。公司核心團隊由兩位聯合創辦人主導：執行長 Richard Socher 曾任 Salesforce 首席科學家，在自然語言處理深度學習早期研究具有領軍地位；技術負責人 Tim Rocktäschel 為 Google DeepMind 前科學家及倫敦大學學院（UCL）AI 教授，研究專長覆蓋強化學習與元學習。全公司員工不足 30 人，成立時間不足六個月。Recursive 的核心使命是建立「Level 1」自主訓練系統：AI 系統能夠分析自身性能弱項，並在無人工標注干預的條件下自主規劃並執行下一輪訓練，公司計畫於 2026 年中推出公開版本。</p><p><strong>第二</strong>　Recursive 同時獲得 GV 與 NVIDIA 直接股權投入，在融資結構上呈現明確的算力-資本一體化特徵：NVIDIA 的股權參與意味著 Grace Blackwell 或 Vera Rubin 算力的優先存取路徑正在被早期結構化鎖定，與其在 OpenAI Codex 訓練合作及 CoreWeave 投資上的套路相同。自改進 AI 是 frontier lab 當前研究競爭密度最高的議題之一，Anthropic 的可解釋性擴展路線、OpenAI 的 o 系列強化學習路線，與 Recursive 的自主訓練路線，構成三條根本路線差異的平行賽道。Recursive 以 7 倍以上資本效率（6.5 億融資、不足 30 人）完成此估值的能力，是「DeepMind-OpenAI 系科學家創業溢價」的最新定價樣本，也反映了頂尖研究者出走建立獨立 frontier lab 的趨勢正在加速取得資本認可。GV 同步持有 Anthropic 股份，此番加注 Recursive 意味著 Alphabet 在 AI 研究層的押注組合已覆蓋三條不同路線：Google DeepMind（內部）、Anthropic（憲法式 AI）及 Recursive（自主訓練）。</p><p><strong>第三</strong>　對 BEXS 學員而言，GV 作為 Alphabet 旗下 VC 同時持有 Anthropic 與 Recursive 的股份，代表 Alphabet 在 AI 頭部的資本寬度超過多數同業，是評估 GOOGL 作為 AI 市場整體代理持倉的正向佐證；NVIDIA 的直接股權投入構成 Recursive 訓練算力需求在訂單層面的前置可見性，是追蹤 NVIDIA 數據中心業務增量的早期觀察節點。對企業 CIO 而言，Recursive 的自主訓練商業化雖在 2026 下半年，但其核心應用場景——合成數據生成、AutoML、領域模型自動微調——已在當前生產環境中具有可落地性，建議在 H2 評估 Recursive 早期試用計畫是否適合低數據密度的業務場景垂直微調需求。對開發者而言，Rocktäschel 的 UCL 研究路線與 Open-Endedness 和元強化學習高度相關，Recursive 若依計畫發布開源節點，將是 RL 工具鏈及自動化 AutoML 框架的高相關性技術信號。</p>"
+    },
+    {
+      "id": "pulse-2026-05-23-11-anthropic-beats-openai-enterprise-ramp-ai-index",
+      "ts": "2026-05-23T11:05:00+08:00",
+      "title": "Anthropic 企業採用率首度反超 OpenAI · Ramp 五月指數揭示 Claude Code 已重塑 frontier 市佔格局、一年內業務採用率翻四倍",
+      "source": "TechCrunch / Ramp AI Index",
+      "url": "https://techcrunch.com/2026/05/13/anthropic-now-has-more-business-customers-than-openai-according-to-ramp-data/",
+      "blurb": "追蹤逾五萬家美國企業真實支出的 Ramp 五月 AI Index 首度確認：付費選用 Anthropic 的企業佔比達 34.4%，超越 OpenAI 的 32.3%；Anthropic 在一年內將業務採用率從不足 8% 翻四倍，主要驅動力為 Claude Code，整體企業 AI 採用率同步首破 50%。",
+      "editorial": "<p><strong>第一</strong>　追蹤逾五萬家美國企業軟體實際訂閱支出的金融科技平台 Ramp 於 5 月 13 日發布五月 AI Index，首度記錄 Anthropic 在企業付費採用率上超越 OpenAI：Anthropic 四月份錄得 3.8 個百分點增長至 34.4%，OpenAI 則下滑 2.9 個百分點至 32.3%。以十二個月視角回溯，Anthropic 的企業採用率從 2025 年 4 月的不足 8% 增至 34.4%，增幅逾四倍；OpenAI 同期僅增長 0.3 個百分點。此為 Ramp 指數設立以來首次出現 Anthropic 領先 OpenAI 的讀數，方法論基於企業實際訂閱支出而非問卷調查，具直接商業效度。整體企業 AI 採用率亦於同期首度突破 50%，達 50.6%，標誌著企業 AI 工具部署已從實驗期正式進入規模化普及期。</p><p><strong>第二</strong>　Ramp 報告明確指出本次市佔逆轉的主要驅動力是 Claude Code：Anthropic 的代理式編碼工具在 CI/CD 工作流深度整合方面形成先發優勢，使其在工程師工具鏈支出層面的滲透早於 OpenAI Codex 行動。這是一個結構性市場信號：企業 AI 採購主導權正從業務端（ChatGPT 對話介面）向工程師工具鏈（IDE、CI/CD、MCP 生態）遷移，代理式編碼工具正在成為下一波企業 AI 支出的核心決策節點。同一份報告同時標記三大結構性壓力：算力成本持續上升、以 token 計費模式在大規模代理工作流下的成本可持續性存疑，以及 OpenAI 和 Google 在代理工具上的快速追趕（Codex 月度活躍用戶已達四百萬）。市佔領先能否轉化為護城河，取決於 Anthropic 是否能在 IPO 前建立足夠的工具鏈黏性。</p><p><strong>第三</strong>　對 BEXS 學員而言，Ramp 指數是觀察企業 AI 支出結構的季頻實證數據集，34.4% vs 32.3% 的讀數顯示 Claude 生態訂閱支出已超越 OpenAI 形成獨立量級資本流向。Anthropic 若在 2026 下半年 IPO，一年四倍的企業採用率增速將是路演中最直接的收入增長佐證，是評估 Anthropic 公開市場定價倍數的核心參照指標。對企業 CIO 而言，50.6% 的整體企業 AI 採用率意味著未部署的企業面臨的已不是「是否採用」，而是「如何在 Anthropic 與 OpenAI 工具鏈之間做出策略性選擇」；在代理式編碼工具選型中，Claude Code 在現有 Anthropic API 生態中的整合深度是 Q3 評估的關鍵差異化指標。對開發者而言，Claude Code 增長驅動的市佔逆轉提示 MCP 生態、Claude API 代理工作流及 Anthropic SDK 在企業開發場景的配置優先級正在加速上升，是工具鏈決策中的明確方向性信號。</p>"
+    },
     {
       "id": "pulse-2026-05-23-10-github-nxconsole-teampcp-vscode-supply-chain",
       "ts": "2026-05-23T10:07:00+08:00",
@@ -252,24 +270,6 @@
       "url": "https://www.cnbc.com/2026/05/18/nextera-nee-dominion-energy-d-data-center-ai.html",
       "blurb": "NextEra Energy 5 月 18 日宣布以 668 億美元全股票收購 Dominion Energy，組成全球最大受監管公用事業；Dominion 旗下北維吉尼亞數據中心走廊服務 Amazon、Microsoft、Google、Meta 等客戶逾 51GW 容量，AI 算力耗電需求首度成為電網所有權重組的主敘事。",
       "editorial": "<p><strong>第一</strong>2026 年 5 月 18 日，NextEra Energy 宣布以全股票方式收購 Dominion Energy，交易估值約 668 億美元，NextEra 股東持合併後實體 74.5%，Dominion 股東持 25.5%，組成全球最大受監管電力公用事業，合計服務約 1,000 萬戶美國用電帳戶，覆蓋佛羅里達、維吉尼亞、北卡羅來納及南卡羅來納四州。Dominion 在北維吉尼亞服務逾 450 座資料中心、50 多家客戶，已簽約 51GW 資料中心容量，客戶涵蓋 Amazon、Microsoft、Alphabet、Meta、Equinix 及 CoreWeave；北維吉尼亞走廊是全球規模最大的資料中心聚集地，亦是全球 AI 算力密度最高的地理單元之一。NextEra 承諾提供 22.5 億美元客戶電費抵扣，並計畫在全美建設逾 30 個資料中心電力樞紐，合併後合計 EBITDA 預計從約 85 億美元增至 2029 至 2030 年的 112.7 億美元，年 EPS 成長率目標 9%，整合預期需 12 至 18 個月完成，需聯邦及各州監管審批。</p><p><strong>第二</strong>668 億美元的定價邏輯，是 AI 算力電力需求從「電力基礎設施的超載壓力」升格為「電網所有權結構性重組的首要驅動力」的歷史標誌。傳統公用事業合併以穩定電費收入和受監管資本回報率為估值基礎；此次交易的核心敘事是「掌握服務 AI 算力集群的電網樞紐，即掌握未來十年電力需求增量的結構性優勢」。NextEra 是全球最大可再生能源發電商之一，Dominion 具備核電和天然氣發電資產，合體後形成可再生、核電、天然氣的多元供電組合，符合 AI 資料中心客戶「24/7 可靠基載電力加可再生能源目標」的雙重需求。合併後對手方談判能力的集中，意味著超大規模雲廠商在北維吉尼亞電力合約更新周期中將面對更強勢的電力供應方，長期電力合約的條款重談是未來兩年的戰略關注點。</p><p><strong>第三</strong>對 BEXS 黃金交易學員而言，668 億美元公用事業合併以 AI 算力電力需求作為核心定價邏輯，是繼超大規模雲廠商資本支出浪潮後，AI 基礎設施估值向傳統能源行業滲透的最直接例證；電力公用事業板塊的估值框架正融入「AI 算力電力溢價」，傳統以股息折現模型（DDM）估值的分析框架需補充資料中心高負載因子與長期電力合約帶來的收入可見度，相關持倉評估應在 NextEra（$NEE）和 Dominion（$D）合併審批時間線上建立敏感性分析。對企業 CIO 而言，北維吉尼亞資料中心走廊電力採購的對手方集中度將在合併後提高，超大規模租戶在 2027 年合約更新周期前應評估地理多元化部署的可行性，並確認現有電力合約的長期條款保護。對監管者而言，668 億美元的交易規模和 AI 資料中心電力需求作為合併理由，將在聯邦能源監管委員會（FERC）及各州公用事業委員會引發「公眾利益論點」的系統性測試，監管決策預計在 2026 年 Q4 前形成初步方向，是此次合併最大的執行風險來源。</p>"
-    },
-    {
-      "id": "pulse-2026-05-21-10-intuit-3000-layoff-ai-refocus",
-      "ts": "2026-05-21T10:00:00+08:00",
-      "title": "Intuit 裁員 3,000 人置換 AI 能力・TurboTax 母公司以外部 frontier 模型替換內部人力密集職能",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/05/20/intuit-to-lay-off-over-3000-employees-to-refocus-on-ai/",
-      "blurb": "Intuit 5 月 20 日宣布裁減逾 3,000 名員工（17% 全球員工）並關閉雷諾及洛杉磯兩個辦公室，CEO 以 AI 深度整合為戰略核心；已簽訂 Anthropic 與 OpenAI 多年合約，QuickBooks 和 TurboTax 正以外部模型能力系統性置換內部人力密集職能。",
-      "editorial": "<p><strong>第一</strong>2026 年 5 月 20 日，Intuit 執行長 Sasan Goodarzi 向全體員工發出內部備忘錄，宣布裁減逾 3,000 名員工，約佔全球員工總數的 17%，同步關閉內華達州雷諾及加州伍德蘭希爾斯（Woodland Hills）兩個美國辦公室。受影響的美國員工最後工作日訂於 2026 年 7 月 31 日，資遣條件為 16 週基本薪酬加每服務年額外兩週。Goodarzi 表示裁員目的是「簡化組織結構、減少複雜性」並將資源集中於「AI 大押注」。Intuit 旗下 QuickBooks（全球逾 800 萬付費用戶）、TurboTax、Credit Karma 已分別與 Anthropic（Claude for Small Business 5 月 13 日上線，涵蓋 QuickBooks 連接器）和 OpenAI 簽訂多年 AI 合作協議，以外部模型能力為核心重塑產品交付。根據行業追蹤數據，2026 年科技業因 AI 重組裁員已超 10 萬人，涉及 Amazon、Block、Cisco、Meta、Microsoft、Oracle；Intuit 是迄今宣告規模最大的財務 SaaS 類公司。</p><p><strong>第二</strong>Intuit 的裁員結構具有可複製的行業模板意涵。Intuit 商業模式歷來依賴人力密集職能——稅務審核師、客服、財務顧問內容生成、QA——這些職能在 GPT-5.5、Claude Opus 系列達到企業可部署水準後，邊際生產力對比大幅劣化。以外部 frontier 模型能力（Anthropic 加 OpenAI 多年合約）置換內部人力，是「SaaS 公司 AI 成本結構重置」最直接的落地動作，選擇採購外部能力而非自建的路線，與 Salesforce 自建 Einstein AI 模型形成鮮明對比。Intuit 的規模（2025 財年收入約 170 億美元）使此次裁員具有行業先導效應，金融服務、稅務、會計 SaaS 賽道的同類公司正在觀察此路線是否形成市場標準，預期類似重組公告將在 Q3 集中出現。</p><p><strong>第三</strong>對 BEXS 黃金交易學員而言，Intuit（$INTU）以裁員明示「AI 工具已可量化壓縮 SaaS 人力成本」，是盈利改善敘事的前置信號；若 H2 2026 財報出現毛利率改善，重組的資本市場正面解讀預計在 Q3 至 Q4 逐步定價，建議在 Q3 財報前建立持倉敏感性分析，重點評估人力成本下降對 Intuit EBITDA margin 的季度貢獻。對 CIO 而言，Intuit 的重組模板是「採購外部 frontier AI 能力、壓縮內部人力密集職能」戰略在金融 SaaS 行業的最大規模落地案例，是評估自身組織中哪些職能可複製此置換邏輯的外部基準，財務、採購、HR 及客服部門的 AI 置換可行性評估應在此案例後提速規劃。對開發者而言，Intuit 承諾深化 AI 整合意味著 QuickBooks API 和 TurboTax 生態的開發者整合需求將在 H2 2026 增加，AI 帳務、稅務計算及財務分析工具是前景明確的商業機會，應在 7 月前完成可行性評估以搶佔 Intuit 新整合計畫的早期入場視窗。</p>"
-    },
-    {
-      "id": "pulse-2026-05-21-10-nvidia-vera-cpu-200b-agent-market",
-      "ts": "2026-05-21T10:00:00+08:00",
-      "title": "Nvidia 單季收入 816 億再破紀錄・Vera CPU 首年售 200 億美元、Jensen Huang 宣告 AI 代理開闢 2,000 億新算力市場",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/05/20/jensen-huang-says-hes-found-a-brand-new-200b-market-for-nvidia/",
-      "blurb": "Nvidia 5 月 20 日財報披露單季收入 816 億美元再創歷史新高，預測下季 910 億；CEO Jensen Huang 宣告 Vera CPU 今年已售 200 億美元，為 AI 代理運算開闢 2,000 億美元全新市場，Nvidia 算力版圖從 GPU 向 CPU 代理執行層全面延伸。",
-      "editorial": "<p><strong>第一</strong>2026 年 5 月 20 日，Nvidia 在財報電話會議中披露創歷史紀錄的單季收入 816 億美元，並預測下一財季收入達 910 億美元，持續超越華爾街共識。CEO Jensen Huang 在同場電話會議宣告：「Vera 為 Nvidia 開闢了一個全新的 2,000 億美元可定址市場（TAM），這是 Nvidia 從未涉足的市場，每個主要超大規模雲廠商和系統製造商都在與我們合作部署。」Vera CPU 於 2026 年 3 月 GTC 大會首發，以盡可能快速處理 token 為核心設計目標；Huang 透露 Vera 今年迄今已售出 200 億美元，是首年即產生規模化銷售的新產品線。Huang 同時解釋 Vera 的市場邏輯：AI 模型的「思考」階段（推理、規劃）依賴 GPU，但 AI 代理在執行具體任務時——呼叫工具、瀏覽 API、操作文件、管理工作流——主要消耗 CPU 算力，Vera 的設計定位正是代理執行層的 token 處理優化。</p><p><strong>第二</strong>Vera CPU 的 2,000 億美元 TAM 宣告，是 Nvidia 在 GPU 主導地位建立後的第二條規模曲線。傳統伺服器 CPU 市場由 Intel 和 AMD 長期主導，年規模約 250 至 300 億美元；Nvidia 主張 AI 代理算力將創造一個比傳統 CPU 市場大近十倍的新市場，核心前提是代理 AI 工作負載的 CPU 消耗遠超傳統伺服器計算場景。此敘事的商業假設需要兩個條件成立：其一，AI 代理的規模化部署以 CPU 算力消耗為主要瓶頸，而非 GPU 推理或網路 I/O；其二，Vera 的 token 處理優化對替代架構（ARM、Intel Xeon、AMD EPYC）具備可持續的效能領先優勢。Intel 和 AMD 的應對策略，以及 Google TPU 和 Amazon Trainium 是否推出代理執行層算力方案，是判斷 Vera 能否真正鞏固 2,000 億 TAM 的關鍵競爭訊號。</p><p><strong>第三</strong>對 BEXS 黃金交易學員而言，816 億創紀錄加 910 億預測持續否定「AI 算力需求見頂」的做空論點；Vera CPU 若在後續兩個財季的銷售數據驗證 200 億美元起點的持續性，是 Nvidia 多年收入成長軌跡可持續性的核心支撐，相關持倉的盈利模型應在 GPU 業務之外將 CPU 算力業務列為獨立增長因子，並在 Q2 財報前更新 EPS 估算。對 CIO 而言，「GPU 做推理、CPU 做執行」的代理算力架構分工框架，是企業自建 AI 代理基礎設施的採購邏輯更新；現有以 GPU 採購為中心的 AI 基礎設施規劃應評估是否需要補充代理執行層的 CPU 容量配置，避免代理規模化後出現 CPU 算力瓶頸。對開發者而言，Vera CPU 的 token 處理優化意味著雲端底層代理執行性能的系統性提升有明確時間線，長時程代理工作流的實際執行延遲在 H2 2026 通過底層硬體升級改善是高可預期結果，可在代理架構設計中以此作為算力假設的上修依據，加速生產就緒的工程評估時程。</p>"
     }
   ]
 }
