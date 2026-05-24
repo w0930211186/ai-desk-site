@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-05-24T10:00:00+08:00",
+  "updated_at": "2026-05-24T11:00:00+08:00",
   "items": [
+    {
+      "id": "pulse-2026-05-24-11-eu-ai-act-omnibus-deadline-extended-nudification-ban",
+      "ts": "2026-05-24T11:00:00+08:00",
+      "title": "EU AI Act Omnibus 達成 · 高危系統合規期延至 2027 年、新增非自願性親密內容禁令、美歐 AI 治理分歧制度化",
+      "source": "EU Council / European Commission",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/",
+      "blurb": "歐洲議會與理事會 5 月 7 日就 AI Act Omnibus VII 達成協議，獨立高危 AI 系統合規期延至 2027 年 12 月、嵌入式延至 2028 年 8 月；新增 AI 生成非自願性親密影像及 CSAM 絕對禁令，同週川普撤回美國 AI 安全行政令，全球 AI 治理制度性雙軌正式確立。",
+      "editorial": "<p><strong>第一</strong>　2026 年 5 月 7 日，歐洲議會與理事會談判代表就 Omnibus VII 數位一攬子提案中的 AI Act 修正達成政治協議。主要修正條款：獨立高危 AI 系統合規期由 2026 年 8 月延至 2027 年 12 月 2 日，嵌入於受監管產品的高危 AI 延至 2028 年 8 月 2 日；AI 監管沙盒建立期限延至 2027 年 8 月 2 日；人工合成內容透明度義務的企業寬限期從 6 個月縮短至 3 個月，新截止日為 2026 年 12 月 2 日。共同立法者同步新增兩項絕對禁止條款：AI 生成非自願性性與親密內容（nudification），以及兒童性剝削材料（CSAM）生成，均無豁免例外。行政負擔方面，協議大幅削減重複報告義務，降低中小企業合規成本。協議正式通過預計在 2026 年 8 月 2 日前完成。</p><p><strong>第二</strong>　EU AI Act Omnibus 的核心戰略意涵在三個維度展開。其一，合規期延長是對監管能力追不上 AI 能力部署速度的制度性承認：若按原時限執行，大量企業在 2026 年 8 月即面臨高危 AI 合規義務，而對應指導文件、標準及評估程序尚未完備；延期使監管框架具備落地可操作性，降低行業大規模合規失敗的風險。其二，nudification 及 CSAM 絕對禁令是 EU AI Act 框架下首次明確立法界定的「生成性危害」類別，在技術層面與 OpenAI 及 Google 同週部署的 SynthID 及 C2PA 水印義務形成互補，對圖像及影片生成 API 在歐洲市場的合規要求產生即時效力。其三，此協議與川普同週撤回美國 AI 安全行政令形成鮮明對比，歐洲以義務性規範路線繼續推進，美國確立自願性框架為核心，全球 AI 治理的制度性雙軌正式確立，在歐美市場同時運營的 AI 公司面臨雙重合規架構的長期結構性成本。</p><p><strong>第三</strong>　對企業 CIO 而言，高危 AI 合規期延至 2027 年 12 月是在歐洲部署 AI 系統的實質喘息空間，建議以此窗口完成內部 AI 風險分類、建立合規記錄架構及供應商評估流程，而非以延期為由推遲合規預算。nudification 及 CSAM 絕對禁令即時生效，圖像生成 API 使用者須在 Q3 前更新使用政策，確認相關使用場景已明確排除。對開發者而言，人工合成內容透明度義務的新截止日（2026 年 12 月 2 日）與 OpenAI 及 Google 已部署的 C2PA 及 SynthID 水印形成最短阻力合規路徑，建議優先整合 C2PA SDK 以在截止日前建立合規基線。對 BEXS 學員而言，EU AI Act Omnibus 延期對在歐洲市場有重大收入暴露的 AI 公司（Alphabet、Microsoft、SAP）短期正向，降低近期監管合規成本上升的可能性；2027 年 12 月的新截止日是觀察 EU AI Act 合規成本量化的可觀察時間節點，建議在相關持倉評估中以此為監管成本上升的前置觀察點。</p>"
+    },
+    {
+      "id": "pulse-2026-05-24-11-trump-ai-eo-scrapped-sacks-musk",
+      "ts": "2026-05-24T11:00:00+08:00",
+      "title": "白宮提前數小時撤回 AI 安全行政令 · Sacks 馬斯克祖克柏三路施壓、聯邦「競爭優先」路線正式落定",
+      "source": "NBC News / Axios",
+      "url": "https://www.nbcnews.com/tech/tech-news/trump-scraps-signing-landmark-executive-order-regulating-ai-rcna346288",
+      "blurb": "川普 5 月 21 日在白宮典禮前數小時撤回原定 AI 安全行政令，Sacks 電話直達總統、馬斯克與祖克柏同步施壓，計畫中的邊境模型 90 天政府存取框架胎死腹中，聯邦政府 AI 治理方向確定為「競爭領先、安全自願」。",
+      "editorial": "<p><strong>第一</strong>　2026 年 5 月 21 日，白宮原計畫舉行 AI 行政令簽署典禮，Anthropic CEO Dario Amodei 等主要 frontier lab 高管受邀出席。行政令草稿的核心條款是以自願框架要求 AI 公司在公開發布邊境模型前最多 90 天，提供聯邦機構提前存取以進行安全測試。然而典禮前數小時，白宮 AI 政策負責人 David Sacks 致電川普，xAI CEO 馬斯克及 Meta CEO 祖克柏亦同步就行政令對美國 AI 競爭力的潛在阻礙提出異議。川普隨即宣告暫緩，公開引用理由為：「我們正在領先中國和所有人，我不想做任何妨礙這個領先地位的事。」行政令隨後確認無限期擱置。</p><p><strong>第二</strong>　此次撤回的核心意涵，是美國聯邦政府在 AI 前沿模型安全測試框架上的立場正式退至「完全自願」基線。川普政府 3 月 20 日發布的 AI 國家政策框架已確立競爭優先、聯邦預先佔管主軸；行政令胎死腹中，進一步確認任何強制性安全測試義務在現任行政當局的政策序列中不具優先地位。與此形成直接對比的是，同週歐盟 AI Act Omnibus 協議達成，在延長合規期的同時新增明確禁止條款，美歐在 AI 治理路線上的制度性分歧由此從討論層面轉化為法律現實。Sacks、馬斯克、祖克柏三人同步施壓的事件結構，亦確認 frontier lab 與平台公司對聯邦 AI 安全框架具有直接且有效的政策否決能力，是理解美國 AI 治理制度設計的重要觀察基準。</p><p><strong>第三</strong>　對 frontier lab 而言，短期合規負擔減少，但自願框架下若發生重大 AI 安全事件，國會立法干預的政治反應速度可能遠超行業預期，且強制性立法的條款設計往往比談判性框架更為嚴苛。對企業 CIO 而言，聯邦 AI 安全測試要求的缺席意味著採購前沿模型時無法仰賴政府安全背書，自行建立供應商風險評估機制的重要性實質性上升，建議在 H2 2026 採購周期中優先完成獨立安全審計作為合規補充。對 BEXS 學員而言，美聯邦放棄前沿模型安全測試框架短期利好 AI 公司部署速度，但監管真空在重大 AI 安全事件後觸發的立法收緊風險是需要定期重評的尾部情景，建議在 Anthropic 及 OpenAI IPO 估值模型中保留突發監管事件折扣的彈性參數。</p>"
+    },
     {
       "id": "pulse-2026-05-24-10-openai-ipo-s1-sec-confidential-q4-listing",
       "ts": "2026-05-24T10:00:00+08:00",
@@ -252,24 +270,6 @@
       "url": "https://blog.google/innovation-and-ai/sundar-pichai-io-2026/",
       "blurb": "四倍競品輸出速度、不及競品一半的成本，加上 AI Ultra 月費從 250 降至 200 美元並新設 100 美元入門層，Google 以算力規模換定價空間的邏輯在 I/O 2026 正式落地為可量化的競爭壓力。",
       "editorial": "<p><strong>第一</strong>　2026 年 5 月 20 日，Google 於年度 I/O 大會發布 Gemini 3.5 Flash，作為新 Gemini 3.5 系列首款模型全面上線，成為 Gemini 應用、Search AI Mode、AI Overviews 及 Antigravity 2.0 平台的預設推理引擎。效能指標：輸出速度達同類 frontier 模型的四倍，每百萬輸入 Token 定價 1.50 美元、輸出 9.00 美元，約為 Gemini 3.1 Pro 的六成；Google 估算若大型企業將 80% 工作負載遷移至 3.5 Flash，每年可節省逾 10 億美元。規模指標：API 每分鐘處理 190 億 Token，每月處理量達 3.2 千兆（兩年前為 9.7 兆，七倍增長）；Gemini 應用月活接近 9 億；AI Overviews 月活 25 億；每月有 850 萬開發者在 Google 平台構建應用。訂閱定價調整：AI Ultra 月費從 250 美元降至 200 美元，同步新設 100 美元入門層，正面挑戰 ChatGPT Pro 及 Claude Max 的價格定位。Gemini Spark 作為 24/7 個人 AI 代理在 Google Cloud 虛擬機常駐，整合 Gmail、Docs、Sheets，設備離線時持續執行任務；Search 將於今夏向全體用戶免費開放 AI 自定義實時介面生成功能。</p><p><strong>第二</strong>　本次 I/O 的核心戰略邏輯是以分發規模換定價空間。Gemini 3.5 Flash 的低成本來自 Google 數十年算力基礎設施積累，而非犧牲模型能力——這是 OpenAI 和 Anthropic 在短期內難以複製的結構優勢。AI Ultra 從 250 美元降至 200 美元並新設 100 美元入門層，直接壓縮了 OpenAI ChatGPT Pro（200 美元）及 Anthropic Claude Max（100 美元）的訂閱空間，是 Google 首次以大規模公開定價調整向競品發動正面價格戰。對搜尋廣告生態的影響尤其值得關注：AI Mode 月活突破 10 億後，傳統關鍵字搜尋流量向 AI 問答的遷移加速，廣告主在 AI Search 的曝光邏輯與傳統 SEO 邏輯的差異正在擴大，Search 的廣告收入模型面臨結構性重組壓力。</p><p><strong>第三</strong>　對企業 CIO 而言，Gemini 3.5 Flash 的定價是本年度最值得重新評估 AI 供應商結構的單一觸發事件：同等預算在 Flash 上可擴展約兩倍工作負載，需要在現有 OpenAI 或 Anthropic 合約更新周期前完成基準測試。對開發者而言，Antigravity 2.0 每日 Token 消耗量在十週內六倍暴增至 3 兆，反映其作為多代理編排中樞的生態黏性正在超預期積累，是與 Claude Code 及 OpenAI Codex 做橫向工具鏈評估的關鍵時間窗口。對 BEXS 學員而言，AI Overviews 25 億月活和 AI Mode 10 億月活代表廣告競價格局的結構性重組，Google 正把更多搜尋流量導入 AI 回答框架，影響廣告主轉換率追蹤的傳統路徑，是 Alphabet 廣告收入走勢的領先觀察指標；AI Ultra 訂閱降價同步提升了 Google One 付費用戶的轉換潛力，是 Google 消費訂閱收入的短期正向催化信號。</p>"
-    },
-    {
-      "id": "pulse-2026-05-22-07-anthropic-gates-foundation-200m-global-health",
-      "ts": "2026-05-22T07:02:59+08:00",
-      "title": "Anthropic 與比爾蓋茲基金會簽署 2 億美元四年協議 · Claude 進入全球公衛決策鏈成史上最大 AI 公益合作",
-      "source": "Anthropic",
-      "url": "https://www.anthropic.com/news/gates-foundation-partnership",
-      "blurb": "聚焦 46 億人口缺乏基礎醫療的低中收入國家，這筆史上最大 AI 公司對全球慈善機構的合作案為 Anthropic 在監管從嚴趨勢中建立了可查核的公益紀錄，也為其潛在 IPO 定價鋪設 ESG 敘事基礎。",
-      "editorial": "<p><strong>第一</strong>　2026 年 5 月 14 日，Anthropic 與比爾及梅琳達·蓋茲基金會宣布四年期協議，總規模達 2 億美元，形式涵蓋資助金、Claude API 使用額度及技術支持，領域聚焦全球健康、生命科學、教育及經濟流動性四大方向。全球健康是最大單一優先項：合作聚焦低中收入國家約 46 億缺乏基礎醫療的人口，初期從小兒麻痺、人類乳突病毒及子癇前症三類疾病切入，協助政府利用健康數據優化政策決策並加速疫苗與療法研發。教育方向，合作在撒哈拉以南非洲及印度推進 AI 驅動的基礎識讀與計算能力項目，隸屬「全球 AI 學習聯盟（GAILA）」框架。農業方向，合作投入農業專屬 Claude 能力改進及公開數據集，服務依賴小農務農的約 20 億人口。雙方將此案定位為史上 AI 公司與全球慈善機構規模最大的合作案。</p><p><strong>第二</strong>　這筆合作的戰略意義在於品牌背書的雙向性。對 Anthropic 而言，蓋茲基金會的全球公衛公信力是商業合約無法取得的監管緩衝：在 AI 安全審查日趨嚴格的環境中，「負責任 AI」定位從公司主張升格為可查核的外部背書紀錄，在潛在 IPO 周期前有利於機構投資人定價。對蓋茲基金會而言，選擇 Anthropic 而非 OpenAI 是明確的技術信號：Claude 的憲法式安全設計（Constitutional AI）在高風險決策場景（醫療診斷建議、政策數據分析）提供更可控的推理路徑，符合基金會在問責框架下的採購標準。這也是 Anthropic 繼 KPMG（27.6 萬員工）、PwC 企業轉型合約之後，在機構採購側建立的第三條戰略縱深，合作類型從「企業效率」延伸至「全球治理」，顯著拓寬了 Claude 的應用場景敘事。</p><p><strong>第三</strong>　對開發者而言，農業及全球健康領域的公開數據集承諾是 Claude 生態中罕見的公共財投入，若數據集如期發布，可作為低資源語言場景及農業垂直模型微調的新基準，值得追蹤 Anthropic 的數據集發布時間表。對企業 CIO 而言，Anthropic 在高問責、高風險公衛政策場景的落地是評估 Claude 在受監管環境中可靠性的外部壓力測試，未來 12 個月的案例報告可納入企業採購評估的參照框架。對 BEXS 學員而言，Anthropic 的 ESG 敘事強化有助於其在一級市場吸引廣泛機構投資人認購，而蓋茲基金會的主要捐助者結構也帶出了主權財富基金對此類 AI 公益合作的潛在追蹤興趣，是觀察 Anthropic 上市前估值動態的輔助信號維度。</p>"
-    },
-    {
-      "id": "pulse-2026-05-22-07-nvidia-corning-32b-optical-manufacturing-infra",
-      "ts": "2026-05-22T07:02:59+08:00",
-      "title": "Nvidia 入股 Corning 最高 32 億美元 · 美國光纖製造產能十倍擴張錨定 AI 算力鏈本地化主軸",
-      "source": "Nvidia Newsroom",
-      "url": "https://nvidianews.nvidia.com/news/nvidia-and-corning-announce-long-term-partnership-to-strengthen-us-manufacturing-for-ai-infrastructure",
-      "blurb": "光纖互聯是 AI 工廠每瓦效能的隱性瓶頸，Nvidia 以最高 32 億美元股權投資鎖定 Corning 美國本土光纖產能，是從晶片到連接的算力鏈垂直整合邏輯的首次大規模外部延伸。",
-      "editorial": "<p><strong>第一</strong>　2026 年 5 月 6 日，Nvidia 與 Corning 宣布多年期商業及技術合作，以 5 億美元證券購買協議為基礎、潛在股權投資上限達 32 億美元，目標是大幅擴展 Corning 位於美國本土的先進光纖連接製造能力。具體計畫涵蓋三座新製造設施（分布於北卡羅來納州與德克薩斯州），光纖連接製造產能擴大十倍、美國光纖生產產能提升逾 50%，預計新增逾 3,000 個就業職位。Corning 提供的光纖連接解決方案是 Nvidia AI Factory 架構中 GPU 集群節點間互聯的關鍵基礎組件；Nvidia 從 GPU 晶片向光纖互聯基礎設施的延伸，是其「完整算力棧控制」戰略的具體實踐，同時響應了美國在 AI 基礎設施供應鏈本地化方面的政策壓力。</p><p><strong>第二</strong>　此筆投資的戰略意義在於 AI 算力鏈從「晶片」向「連接」的垂直整合延伸。光纖互聯在超大規模 AI 集群中的瓶頸效應日益顯著——當 GPU 密度超過特定閾值，卡間及節點間的數據傳輸延遲成為訓練效率的主要制約因素，而非算力本身。Nvidia 選擇以股權投資而非採購合約鎖定 Corning 產能，是在光纖供應持續緊張、地緣政治驅動的供應鏈分化加劇背景下，對競品 AI 晶片廠商（AMD、英特爾）的先手佈局——後者將面臨同類光纖資源的成本上升或可用性限制。就美國製造業政策角度而言，本次合作是科技公司響應在地供應鏈政策激勵的標誌性案例，預計帶動後續類似的 AI 基礎設施本地化投資浪潮。</p><p><strong>第三</strong>　對 BEXS 學員而言，AI 算力鏈從 GPU（Nvidia）延伸至光纖連接（Corning）是新的次板塊追蹤主題：光纖製造產能十倍擴張的落地時間窗口在 2026 至 2028 年，對應 AI 工廠建設高峰期，Corning（GLW）的估值重定是值得列入追蹤的正向催化劑，也為持倉 Nvidia 的投資人提供了算力鏈縱深的新觀察維度。對企業 CIO 而言，算力基礎設施採購周期可能因高階光纖連接組件的供應瓶頸而拉長，在規劃大型 GPU 集群或 AI 工廠部署時，建議提前評估光纖互聯解決方案的採購能見度與交期。對開發者而言，短期直接影響有限，但 Nvidia AI Factory 的端到端架構能力強化意味著未來基於 Nvidia 平台的分布式訓練穩定性和效能將有系統性改善，是評估大規模訓練基礎設施選型的長期參考因素。</p>"
     }
   ]
 }
