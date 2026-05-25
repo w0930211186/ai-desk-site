@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-05-25T22:00:00+08:00",
+  "updated_at": "2026-05-26T05:00:00+08:00",
   "items": [
+    {
+      "id": "pulse-2026-05-26-05-anthropic-microsoft-maia200-inference-first-external",
+      "ts": "2026-05-26T05:00:00+08:00",
+      "title": "Anthropic 洽租 Maia 200 推理算力 · 微軟定製晶片首度外供、算力多元格局正式進入 frontier lab 採購決策",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/21/anthropic-microsoft-maia-200-ai-chip.html",
+      "blurb": "Anthropic 正洽談在 Azure 以 Maia 200 定製晶片執行 Claude 推理工作負載，每元 token 產出較 NVIDIA 現行方案提升逾三成；成為首個外部商業客戶，標誌微軟自研矽片首度出廠外供，算力採購多極化從概念進入 frontier lab 實際決策。",
+      "editorial": "<p><strong>第一</strong>　五月二十一日，CNBC 援引知情人士確認，Anthropic 正與 Microsoft 洽談在 Azure 採用第二代自研 AI 晶片 Maia 200 執行 Claude 推理工作負載，交易尚未簽署。協議架構指向以 Azure 伺服器形式出租 Maia 200 算力，Anthropic 用於承接 Claude 用戶對話的推理（inference）階段，而非訓練。Microsoft CEO 納德拉於四月財報電話會議確認，Maia 200「在每美元 token 產出量上較現有最新晶片提升逾 30%」。Maia 200 至今僅在 Microsoft 自有資料中心執行 OpenAI GPT-5.2 推理工作負載，Anthropic 若成交將成為首個外部商業客戶，是 Maia 晶片首次以商業條款出廠外供的里程碑。背景：Anthropic 持有逾三百億美元 Azure 計算承諾，Maia 200 採用量將從此承諾中重新分配，非新增採購。</p><p><strong>第二</strong>　此交易若達成，在三個維度具有結構性意涵。其一，Anthropic 的算力來源將從現有的 Google TPU 與 NVIDIA 雙路擴展為四路，加入 AWS Trainium 與 Microsoft Maia，是主動分散算力供應商依賴的系統性行動，同時為 Claude 推理成本提供 NVIDIA 以外的議價基準，直接作用於 Anthropic 毛利率改善路徑。其二，如果 Anthropic-Maia 交易落地，Amazon Trainium 及 Google TPU 向第三方 frontier lab 擴大外供的邏輯同步得到驗證，算力硬體競爭將加速向「NVIDIA 加超大規模雲廠商自研晶片」的多極格局演進，是評估 NVIDIA 長期推理端定價權天花板的新外部參照事件。其三，Microsoft 持有 Anthropic 五十億美元股份並提供三百億美元算力承諾，引導 Anthropic 推理工作負載至 Maia 200，是微軟以股東身份推動自研晶片商業化的直接路徑，將 Anthropic 降本目標與 Microsoft 矽片商業敘事綁定為雙贏結構。</p><p><strong>第三</strong>　對 BEXS 黃金交易學員而言，Anthropic-Maia 200 交易是評估 NVIDIA 算力寡占敘事韌性的重要測試案例；若成交確認，代表最大 NVIDIA 需求方之一正式將定製晶片納入推理算力預算，建議在 NVIDIA Q2 FY2027 財報（約八月）追蹤 frontier lab 推理算力採購結構的相關披露，以量化自研晶片替代效應的實際規模。對企業 CIO 而言，Maia 200 每元三成效率提升若在 Anthropic 推理服務中確認，Claude API 定價在 H2 2026 具備結構性下行空間，多年 API 合約定價條款建議保留效率改善傳導的彈性安排。對開發者而言，若 Azure Maia 200 推理實例在 H2 2026 對外開放，代理工作流成本模型應同步納入自研晶片定價選項，以評估在 NVIDIA GPU 與 Maia 200 之間分配工作負載的最優策略。</p>"
+    },
+    {
+      "id": "pulse-2026-05-26-05-kpmg-anthropic-276k-digital-gateway-big4-first",
+      "ts": "2026-05-26T05:00:00+08:00",
+      "title": "KPMG 二十七萬員工全面嵌入 Claude · 四大首個全員 AI 聯盟、工作流原生整合取代工具訂閱成企業採購新基準",
+      "source": "Anthropic / KPMG",
+      "url": "https://www.anthropic.com/news/anthropic-kpmg",
+      "blurb": "KPMG 與 Anthropic 宣告全球戰略聯盟，逾二十七萬六千名員工全面部署 Claude 並嵌入核心工作平台 Digital Gateway；四大中首個 frontier AI 全員聯盟，確立大型專業服務機構 AI 採購從工具訂閱進入工作流原生嵌入的新採購臨界。",
+      "editorial": "<p><strong>第一</strong>　五月十九日，Anthropic 與 KPMG 宣布全球戰略聯盟，KPMG 全球逾二十七萬六千名員工將全面部署 Claude，成為四大會計師事務所中首個簽署 frontier AI 全員聯盟的機構。核心落地載體為 KPMG Digital Gateway Powered by Claude——KPMG 現有核心工作平台的 Claude 嵌入版本，初始聚焦稅務及私人股本客戶兩個工作流，後續擴展至審計、諮詢及法律業務線。Anthropic 同步命名 KPMG 為私人股本客戶服務的優先合作夥伴，雙方將聯合開發私募股權組合管理工具，涵蓋 IT 現代化加速（KPMG Blaze + Claude Code）及 AI 策略落地兩大服務線。同月，PwC 已宣布擴展聯盟並啟動三萬人 Claude 認證計畫，KPMG 在全員規模與工作流嵌入深度上均形成新基準。</p><p><strong>第二</strong>　KPMG 聯盟在三個維度確立大型專業服務機構 AI 採購進入新階段的結構信號。其一，從工具訂閱到工作流原生嵌入：KPMG 將 Claude 嵌入員工執行實際工作的 Digital Gateway 平台，而非以獨立 AI 助理工具形式部署，意味著 AI 採購重心已從「有無 AI 工具」轉向「AI 是否整合於核心工作流執行路徑」，後者的替換成本與員工採用率均遠高於前者，是高黏性採購關係的結構性鎖定。其二，KPMG 引入 Claude Code 至 IT 現代化服務線，將 AI 編程能力包裝為向私募股本客戶收費的交付加速服務，是 frontier lab 模型能力通過大型顧問機構向下游轉化為服務收費的典型商業化路徑，驗證 Claude Code 具備承接企業級關鍵路徑工作的商業可行性。其三，Anthropic 在同一個月完成 PwC、KPMG 及 Blackstone 企業服務公司三條大型進入路徑，形成覆蓋頂尖顧問、審計與 PE 分銷的企業佈局，與 OpenAI DeployCo 在企業規模市場的競爭格局正式確立。</p><p><strong>第三</strong>　對 BEXS 黃金交易學員而言，KPMG 聯盟是 Anthropic 企業 ARR 可見性最高的外部節點之一；二十七萬人全組織部署若按中等席位費率（月費約四十至六十美元）估算，單一客戶年化合約價值可達數億美元，與 Ramp 指數顯示的企業採用率逆轉相互印證，強化了 Anthropic Q2 正向利潤的企業採購驅動論述，是 Anthropic IPO 路演企業合約章節的核心佐證素材。對企業 CIO 而言，KPMG Digital Gateway 的嵌入模式代表大型 AI 採購正從通用助手訂閱遷移至工作流平台嵌入，下一輪評估的核心問題應是「哪個 AI 能整合進員工每天使用的核心系統」而非「哪個模型最強」；建議 Q3 評估中以此框架審查現有 ERP、CRM 及文件管理平台是否具備 Claude 嵌入的技術路徑。對開發者而言，KPMG Blaze + Claude Code 是 AI 編程助理從 IDE 插件升格為企業級交付加速服務的商業化範本，驗證 Claude Code 能承擔關鍵路徑 IT 現代化任務，是評估代理編程工具在企業採購預算中長期佔位能力的新外部數據點。</p>"
+    },
     {
       "id": "pulse-2026-05-25-22-karpathy-anthropic-pretraining-openai-cofounder",
       "ts": "2026-05-25T22:00:00+08:00",
@@ -252,24 +270,6 @@
       "url": "https://techcrunch.com/2026/05/13/anthropic-now-has-more-business-customers-than-openai-according-to-ramp-data/",
       "blurb": "追蹤逾五萬家美國企業真實支出的 Ramp 五月 AI Index 首度確認：付費選用 Anthropic 的企業佔比達 34.4%，超越 OpenAI 的 32.3%；Anthropic 在一年內將業務採用率從不足 8% 翻四倍，主要驅動力為 Claude Code，整體企業 AI 採用率同步首破 50%。",
       "editorial": "<p><strong>第一</strong>　追蹤逾五萬家美國企業軟體實際訂閱支出的金融科技平台 Ramp 於 5 月 13 日發布五月 AI Index，首度記錄 Anthropic 在企業付費採用率上超越 OpenAI：Anthropic 四月份錄得 3.8 個百分點增長至 34.4%，OpenAI 則下滑 2.9 個百分點至 32.3%。以十二個月視角回溯，Anthropic 的企業採用率從 2025 年 4 月的不足 8% 增至 34.4%，增幅逾四倍；OpenAI 同期僅增長 0.3 個百分點。此為 Ramp 指數設立以來首次出現 Anthropic 領先 OpenAI 的讀數，方法論基於企業實際訂閱支出而非問卷調查，具直接商業效度。整體企業 AI 採用率亦於同期首度突破 50%，達 50.6%，標誌著企業 AI 工具部署已從實驗期正式進入規模化普及期。</p><p><strong>第二</strong>　Ramp 報告明確指出本次市佔逆轉的主要驅動力是 Claude Code：Anthropic 的代理式編碼工具在 CI/CD 工作流深度整合方面形成先發優勢，使其在工程師工具鏈支出層面的滲透早於 OpenAI Codex 行動。這是一個結構性市場信號：企業 AI 採購主導權正從業務端（ChatGPT 對話介面）向工程師工具鏈（IDE、CI/CD、MCP 生態）遷移，代理式編碼工具正在成為下一波企業 AI 支出的核心決策節點。同一份報告同時標記三大結構性壓力：算力成本持續上升、以 token 計費模式在大規模代理工作流下的成本可持續性存疑，以及 OpenAI 和 Google 在代理工具上的快速追趕（Codex 月度活躍用戶已達四百萬）。市佔領先能否轉化為護城河，取決於 Anthropic 是否能在 IPO 前建立足夠的工具鏈黏性。</p><p><strong>第三</strong>　對 BEXS 學員而言，Ramp 指數是觀察企業 AI 支出結構的季頻實證數據集，34.4% vs 32.3% 的讀數顯示 Claude 生態訂閱支出已超越 OpenAI 形成獨立量級資本流向。Anthropic 若在 2026 下半年 IPO，一年四倍的企業採用率增速將是路演中最直接的收入增長佐證，是評估 Anthropic 公開市場定價倍數的核心參照指標。對企業 CIO 而言，50.6% 的整體企業 AI 採用率意味著未部署的企業面臨的已不是「是否採用」，而是「如何在 Anthropic 與 OpenAI 工具鏈之間做出策略性選擇」；在代理式編碼工具選型中，Claude Code 在現有 Anthropic API 生態中的整合深度是 Q3 評估的關鍵差異化指標。對開發者而言，Claude Code 增長驅動的市佔逆轉提示 MCP 生態、Claude API 代理工作流及 Anthropic SDK 在企業開發場景的配置優先級正在加速上升，是工具鏈決策中的明確方向性信號。</p>"
-    },
-    {
-      "id": "pulse-2026-05-23-10-github-nxconsole-teampcp-vscode-supply-chain",
-      "ts": "2026-05-23T10:07:00+08:00",
-      "title": "TeamPCP 以 18 分鐘 VS Code 插件滲入 GitHub 3,800 個內部倉庫 · 開發者機器首次確認為 AI 算力基礎設施的結構性入侵跳板",
-      "source": "The Hacker News / BleepingComputer",
-      "url": "https://thehackernews.com/2026/05/github-internal-repositories-breached.html",
-      "blurb": "惡意版 Nx Console 在 VS Code Marketplace 僅存活 18 分鐘，卻竊取 GitHub、AWS、Kubernetes、1Password 等多層憑證並滲入 GitHub 約 3,800 個內部倉庫；TanStack npm 到 Nx 開發者再到 GitHub 基礎設施的三層連鎖，確立開發者機器為高密度企業憑證的最優先攻擊入口。",
-      "editorial": "<p><strong>第一</strong>　2026 年 5 月 18 日 12 時 30 分 UTC，惡意版 Nx Console（nrwl.angular-console v18.95.0）被上傳至 Visual Studio Code Marketplace，僅存活 18 分鐘（12:48 下架）即感染數千台開發者機器。惡意載荷為 498KB 混淆多階段憑證竊取工具，在開發者打開任意工作區的瞬間自動執行，外滲目標涵蓋 GitHub token、npm 憑證、AWS 存取金鑰、HashiCorp Vault 秘鑰、Kubernetes 配置及 1Password 主金鑰，透過 HTTPS、GitHub API 及 DNS 通道三路並行外滲。攻擊溯源確認起點為 TanStack npm 供應鏈事件：Nx 開發者憑證在此前事件中洩露，攻擊者以此憑證在 nrwl/nx 官方儲存庫推送孤兒提交（orphan commit）並發布惡意插件版本。攻擊組織 TeamPCP 確認竊取約 3,800 個 GitHub 內部儲存庫並在犯罪論壇販售數據；Nx Console 正式安裝基礎超過 220 萬個實例。</p><p><strong>第二</strong>　此次攻擊的戰略意涵在三個維度同時展開。其一，VS Code Marketplace 是當前 AI 開發工具的核心分發節點：GitHub Copilot、Claude Code、Cursor 等所有主流 AI 程式碼工具均透過此平台分發，Marketplace 在即時威脅偵測上存在系統性缺口——18 分鐘存活窗口在現有自動審查機制下未被觸發任何強制下架。其二，攻擊鏈呈現「TanStack npm → Nx 開發者 → GitHub 基礎設施」的三層遞推信任傳遞結構，每層均為業界廣泛使用的受信工具，顯示開放源碼生態的信任傳遞鏈可被系統性武器化。其三，開發者機器憑證密度（雲端金鑰、密碼管理器主金鑰、Kubernetes 配置）已使其成為比直接攻擊企業 API 閘道更具效益的跳板——一台開發者機器等同一把企業基礎設施的萬能鑰匙。對 frontier lab 而言，預訓練管線普遍以 GitHub 管理代碼與自動化腳本，開發者帳號大規模憑證洩漏是訓練數據篡改及模型權重存取的前置風險，技術上僅需少量高權限受感染帳號即可觸及整個訓練基礎設施。</p><p><strong>第三</strong>　對開發者而言，應立即審計 VS Code 已安裝插件的版本紀錄，確認是否在 2026 年 5 月 18 日 12:30 至 12:48 UTC 期間安裝或自動更新 Nx Console v18.95.0；如有疑似暴露，應立即輪換所有 GitHub token、AWS 存取金鑰及雲端憑證，並啟用硬體安全金鑰（FIDO2）作為多因素驗證主層。對企業 CIO 而言，VS Code 插件端點管理政策是當前企業安全框架中最常見的治理空白，建議在 Q3 前要求工程師機器啟用「僅允許已驗證發布者（Verified Publisher）」強制篩選，並將 VS Code Marketplace 安裝紀錄納入現有 SIEM 的異常行為偵測規則中。對市場而言，TeamPCP 攻擊確認「AI 代碼工具平台即高價值攻擊目標」格局，GitHub 及微軟對 Marketplace 的強化投入（程式碼簽章、發布延遲視窗、自動沙盒掃描）已成監管壓力點，是觀察微軟 Q3 GitHub 安全功能更新的先行觸發事件；CISA 對開發者供應鏈安全的後續指引發布值得追蹤。</p>"
-    },
-    {
-      "id": "pulse-2026-05-23-10-neom-the-line-halt-ai-datacenter-pivot",
-      "ts": "2026-05-23T10:07:00+08:00",
-      "title": "沙烏地 NEOM 確認暫停 The Line 至 2030 後 · 兆元城市夢讓位 50 億美元 AI 算力園區、主權財富以算力需求重排基礎設施優先序",
-      "source": "Semafor",
-      "url": "https://www.semafor.com/article/05/22/2026/saudis-neom-halts-work-on-the-line-until-after-2030",
-      "blurb": "Semafor 5 月 22 日獨家確認 NEOM 已暫停 The Line（170 公里雙摩天大樓城市）建設至 2030 年後；僅完成 2.4 公里的計畫同步導入 DataVolt 50 億美元 AI 數據中心園區，沙烏地 PIF 正以可量化的算力需求取代基礎設施宏願作為主要戰略錨點。",
-      "editorial": "<p><strong>第一</strong>　2026 年 5 月 22 日，Semafor 獨家報導確認沙烏地阿拉伯主權財富基金（PIF）控制的 NEOM 已暫停 The Line 建設至 2030 年後。The Line 原定為 170 公里長的雙摩天大樓直線城市，計畫容納 900 萬人口，估計總投資逾 1 兆美元；截至停工時僅完成 2.4 公里的地基與基礎結構工程。NEOM 新執行長 Aiman al-Mudaifer 完成戰略審查後，確認優先發展港口、電力及數據連接基礎設施以吸引 AI 企業在 NEOM 設立算力據點。平行推進項目：2026 年 2 月，NEOM 與永續數據中心運營商 DataVolt 簽署 50 億美元合作協議，在 NEOM Oxagon 工業區建設 AI 算力園區。財政背景：沙烏地錄得 2018 年以來最大季度財政赤字，伊朗戰爭引致的經濟信心下滑加速了 PIF 的戰略重排，NEOM 總投資計畫從 5,000 億美元大幅縮減。</p><p><strong>第二</strong>　NEOM 戰略轉向的核心邏輯，是「宏觀城市敘事」讓位於「可量化算力需求」的主權財富重新定價。The Line 建設成本不透明、竣工時間線遙遠、預期商業回報難以量化，在油價承壓和財政赤字並存的環境中構成不可持續的資本承諾；而 AI 數據中心的需求端由超大規模雲廠商、frontier lab 及主權算力投資多方驅動，現金流可見度高。此轉向在全球主權財富格局具有結構性信號意義：沙烏地、阿聯酋（G42）、卡達（QIA）正形成以 AI 基礎設施為共同主題的海灣算力投資版圖，與美國弗吉尼亞走廊、台灣 HBM 製造帶、新加坡 AI 研究中心形成地緣多極算力分布。NEOM Oxagon 的深水港口和沙烏地太陽能資源在技術上符合 AI 算力園區的重要選址條件，DataVolt 合作是驗證這一地緣優勢能否轉化為實際算力供應的首個試點，其成敗直接影響後續海灣算力投資的規模與速度。</p><p><strong>第三</strong>　對 BEXS 學員而言，NEOM 算力轉向是海灣主權財富基金在 AI 基礎設施直接投資加速的結構性信號：PIF 以 DataVolt 合作代替建城夢，對衝傳統科技持倉的 AI 算力基礎設施直接配置，是評估 PIF 在 AI 超週期長期倉位的重要觀察視角；DataVolt 若完成 Oxagon 園區建設，是中東算力板塊升溫的可量化先行指標，建議在 2027 年前追蹤其實際容量上線情況作為倉位調整依據。對企業 CIO 而言，NEOM Oxagon 若於 2028 年達成商業運營，對需要在中東及非洲設立數據殘留節點的全球企業將提供新的算力選項，建議在現有多雲架構的地理節點規劃中提前識別 MENA 算力節點的業務觸發條件。對開發者而言，DataVolt 在 Oxagon 部署的具體 GPU 架構及連接生態是判斷 NEOM 算力市場可接入性的核心指標，建議追蹤 DataVolt 技術規格公告及算力對外開放時間線。</p>"
     }
   ]
 }
