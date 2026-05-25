@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-05-25T14:00:00+08:00",
+  "updated_at": "2026-05-25T15:00:00+08:00",
   "items": [
+    {
+      "id": "pulse-2026-05-25-15-google-search-ai-mode-gemini35-flash",
+      "ts": "2026-05-25T15:00:00+08:00",
+      "title": "Google Search 25 年最大改版 · AI Mode 免費覆蓋 200 國、Gemini 3.5 Flash 即壓前代旗艦確立 AI 搜尋新基線",
+      "source": "Google Blog",
+      "url": "https://blog.google/products-and-platforms/products/search/search-io-2026/",
+      "blurb": "Google I/O 宣告 25 年來最大 Search 改版，AI Mode 以免費方案向全球 200 國 98 種語言開放，Gemini 3.5 Flash 在全部關鍵基準超越前代旗艦並即日上線；搜尋市場從藍色連結向 AI 代理推送的不可逆轉換正式確立。",
+      "editorial": "<p><strong>第一</strong>　2026 年 5 月 19 日，Google 在加州山景城 I/O 年度大會宣告對 Google Search 進行 25 年最大規模改版，三項核心措施同日落地。AI Mode（AI 搜尋模式）以免費方案向全球近 200 個國家、98 種語言的用戶全量開放，不需訂閱；重構後的智慧搜尋框（Intelligent Search Box）以 AI 建議即時輔助用戶構建查詢，能力遠超傳統自動完成範疇；Information Agents（資訊代理）可橫跨網路和即時數據監控用戶指定主題並生成合成摘要推送，夏季優先向 AI Pro 及 AI Ultra 訂閱用戶開放。同日正式發布 Gemini 3.5 Flash 模型：Terminal-Bench 2.1 達 76.2%、GDPval-AA 1,656 Elo、MCP Atlas 83.6%、CharXiv 多模態理解 84.2%，全面超越前代旗艦 Gemini 3.1 Pro，即時向所有 Google 產品及 Gemini API 開放；Gemini 3.5 Pro 仍在內部測試，預計下月推出。Google 同步推出 AI Ultra 訂閱方案（月費 100 美元），包含 5 倍 Gemini 配額、20 TB 雲端儲存、YouTube Premium 及 Gemini Spark 搶先體驗。</p><p><strong>第二</strong>　此次改版在三個維度重塑搜尋市場結構。其一，AI Mode 免費全球化是 Google 以現有搜尋流量規模（月均逾 850 億次查詢）對沖 OpenAI ChatGPT Search 及 Perplexity 用戶替代威脅的反制部署，以零摩擦切換直接阻斷競對的增量用戶獲取路徑。其二，Gemini 3.5 Flash 即時替換 3.1 Pro 並全量開放 API，在不調整定價的前提下提升開發者可用能力，是 Google 以「免費能力升級」強化開發者生態黏性的結構性舉措，對 Anthropic API 及 OpenAI API 的開發者組合份額構成直接競爭壓力。其三，Information Agents 標誌 Google 從「被動搜尋」向「主動監控代理」演化，以原生索引優勢在情境感知即時性上形成競對難以在短期內系統性追趕的結構差異，並與 OpenAI 代理工作流及 Anthropic 企業代理形成三路線平行競爭格局。</p><p><strong>第三</strong>　對企業 CIO 而言，AI Mode 全球免費開放意味著企業內部搜尋場景將在 H2 2026 系統性向 AI 合成答案遷移，建議在 Q3 評估中同步測試 Gemini 3.5 Flash 對 Google Workspace 知識工作的效能提升，尤其是文件摘要、跨語言知識庫查詢及多輪客戶溝通草稿三類高頻場景。對開發者而言，Gemini 3.5 Flash 在 MCP Atlas 基準的 83.6% 是評估 Gemini API 在多工具代理場景可用性的新錨點，建議在 H2 工具鏈評估中對比 Gemini 3.5 Flash 與 Claude 3.7 及 GPT-5.5 Instant 在代理任務端到端成功率，而非僅依賴單一能力基準。對 BEXS 學員而言，AI Mode 免費全球化是 Alphabet 廣告商業模式在 AI 搜尋時代的第一個大規模壓力測試——AI 合成答案的廣告點擊通率與商業化機制是 Google FY2026 廣告業務的核心未確認變數，建議在 Q2 2026 Alphabet 財報（預計 7 月）中優先追蹤 AI Mode 對搜尋廣告收入的季度邊際影響披露方式，作為評估 $GOOGL 中期廣告收入增速的結構性觀察節點。</p>"
+    },
+    {
+      "id": "pulse-2026-05-25-15-google-deepmind-co-scientist-multiagent-science",
+      "ts": "2026-05-25T15:00:00+08:00",
+      "title": "Google DeepMind Co-Scientist 以多代理辯論自主生成科學假設 · AI 制度化參與前沿科研繼 Erdős 突破後以另一路線確立",
+      "source": "Google DeepMind",
+      "url": "https://deepmind.google/blog/co-scientist-a-multi-agent-ai-partner-to-accelerate-research/",
+      "blurb": "Google DeepMind 5 月 19 日發布 Co-Scientist，以 Gemini 驅動多代理群在封閉辯論框架中自主生成、質疑並優化生命科學假設；同週 OpenAI 以通用推理突破 Erdős 猜想，兩大 frontier lab 雙線確立 AI 在開放知識創新的制度化路徑。",
+      "editorial": "<p><strong>第一</strong>　2026 年 5 月 19 日，Google DeepMind 在 Google I/O 大會發布 Co-Scientist，定位為加速研究人員生成新假設的多代理 AI 合作夥伴，首先聚焦生命科學及延伸領域。Co-Scientist 以 Gemini 為基礎，部署多個平行 AI 代理，各代理在封閉科學辯論框架內扮演不同研究者角色：自主生成候選假設、相互提出反例、迭代修正後排名最具潛力的研究方向，並向人類研究者提交精煉後的假設集合。系統設計從 AlphaGo 和 AlphaStar 的博弈訓練原則中汲取靈感，以代理間結構性爭辯替代單次模型推理作為假設篩選機制，目標是在複雜生命科學問題上突破現有文獻和個人研究者知識邊界。Co-Scientist 向學術機構合作夥伴提供受控訪問，Vertex AI 整合時間表及商業化定價尚未公布。</p><p><strong>第二</strong>　Co-Scientist 的制度化科研意涵在三個層面展開。其一，代理辯論框架是針對假設生成場景的架構創新：科研假設要求高度創造性和嚴謹的自我批判，多代理辯論在結構上更接近真實科研團隊的思維碰撞，比單次大模型推理在反例意識和知識邊界識別上具備明確優勢。其二，Co-Scientist 與 OpenAI 同週公布的 Erdős 開放猜想突破形成雙線印證：OpenAI 以通用推理模型突破開放數學問題，Co-Scientist 以多代理框架建構有組織的假設生成生態，兩條路線共同確認 2026 年為 AI 在非工程化開放知識創新上取得系統性進展的節點年份。其三，生命科學作為首選垂直並非偶然：此領域假設生成量大、驗證周期長、每個假設錯誤的短期成本可控，是 AI 加速研究性價比最高的切入點，並與 Anthropic-蓋茨基金會在疫苗及療法開發的 AI 布局形成直接重疊競爭，Google 在學術機構關係上的先發優勢是重要差異化壁壘。</p><p><strong>第三</strong>　對企業 CIO 而言，生命科學及製藥行業的 R&amp;D 決策者應在 Q3 前與 Google DeepMind 接洽 Co-Scientist 合作夥伴試用計畫，評估多代理假設生成能否在現有科研管線的文獻探索及初步假設篩選階段替代部分研究人員工時；化學及材料科學行業的 CIO 應同步評估 Co-Scientist 擴展至非生命科學領域的技術路線圖，確認是否需要在 H1 2027 採購計畫中預留 AI 科研工具預算。對開發者而言，Co-Scientist 的代理辯論架構是評估多代理系統在複雜科學推理場景性能邊界的實用參照，建議追蹤 Google 公開的技術報告，識別辯論框架的提示工程設計是否可應用於自研代理工作流的批判性推理環節。對 BEXS 學員而言，Co-Scientist 配合 AI for Math Initiative 及 AlphaFold 3，形成 Alphabet 在 AI 科研生產力工具上可量化的技術組合論述，是評估 $GOOGL 在 AI 科研工具市場長線競爭力時技術差異化程度最高的外部觀察維度，尤其在 Anthropic-蓋茨基金會以公衛 AI 為敘事軸的 IPO 定價對比中，Google 學術科研路線的覆蓋廣度是值得長期追蹤的競爭力參照。</p>"
+    },
     {
       "id": "pulse-2026-05-25-14-nextera-dominion-67b-ai-power-utility-merger",
       "ts": "2026-05-25T14:00:00+08:00",
@@ -252,24 +270,6 @@
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni/",
       "blurb": "Google I/O 2026 宣布的 Gemini Omni Flash 以文字、圖像、音頻至影片全模態輸入生成 10 秒物理仿真短片，免費嵌入 YouTube Shorts 與 YouTube Create，並強制附加 SynthID 水印，AI 影片生成的規模分發格局由此由工具競爭升格為平台規模的生態博弈。",
       "editorial": "<p><strong>第一</strong>　2026 年 5 月 19 日，Google 於 I/O 2026 大會發布 Gemini Omni Flash，為 Omni 系列首款上線模型。Omni Flash 接受文字、圖像、音頻及影片混合輸入，生成最長 10 秒並附同步音軌的高品質影片，支援多輪對話式後製編輯，在生成過程中保持角色一致性與現實物理仿真連貫性。即日起整合進 Gemini 應用、Google Flow，並以免費形式在 YouTube Shorts 及 YouTube Create App 向全體用戶開放；開發者與企業 API「數週內上線」，具體時程未公布。每部 Omni Flash 生成影片強制嵌入 Google DeepMind SynthID 不可見水印，可於 Gemini 應用及 Google Search 驗證溯源。高擬真人像（Avatar）功能以深偽風險為由主動暫緩，開放時間表尚未公布。</p><p><strong>第二</strong>　Gemini Omni Flash 的核心戰略優勢不在模型能力本身，而在分發規模的不對稱性。OpenAI Sora、Runway 及 Pika 等獨立影片生成工具依賴用戶主動訪問獨立入口；Omni Flash 嵌入 YouTube Shorts（月活逾 20 億）及 Gemini 應用（月活近 9 億），以平台原生整合形成 AI 影片生成領域迄今規模最大的單一消費者分發通道，且對終端用戶免費，直接壓縮競對付費轉換意願。SynthID 強制捆綁與 OpenAI 同週採用 SynthID 的內容溯源公告形成行業收斂訊號——AI 影片水印正向業界事實標準演進，EU AI Act 影片標識規範制定進程將從此取得技術基礎設施支撐。Avatar 模式暫緩是值得長期追蹤的安全邊界公開表態，代表 Google 判斷當前深偽防護能力尚不足以在大規模開放環境中穩健管控濫用風險。</p><p><strong>第三</strong>　對企業 CIO 而言，Omni Flash 免費嵌入 YouTube 意味著員工以企業設備生成 AI 影片的場景即將常態化；金融及高監管行業應在 Q3 前更新 AI 生成媒體使用政策，確認 YouTube Create 是否在企業設備管理許可清單內，並評估 SynthID 水印是否符合品牌合規標識要求。對開發者而言，API 上線後的定價是評估商業落地可行性的核心節點，建議在官方定價公布前保留原有影片生成工具服務合約的彈性選項，並追蹤 10 秒上限是否因 API 定價差異化解鎖更長影片生成場景。對 BEXS 學員而言，YouTube Shorts 的 AI 影片標識義務與廣告庫存品質是 Alphabet 廣告業務在 H2 2026 的新合規變數，廣告主在 AI 生成內容大規模進入 Shorts 生態後的品牌安全敞口擴大，是觀察 Alphabet 如何定義並貨幣化 AI 輔助廣告的前置信號，也是評估 Shorts 廣告收入在 AI 生成內容普及後增速是否出現結構性變化的關鍵指標。</p>"
-    },
-    {
-      "id": "pulse-2026-05-22-14-openai-dell-codex-onprem-enterprise",
-      "ts": "2026-05-22T14:12:00+08:00",
-      "title": "OpenAI 與 Dell 打通 Codex 本地端部署通道 · 四百萬周活開發者走向高安全企業邊界",
-      "source": "OpenAI",
-      "url": "https://openai.com/index/dell-codex-enterprise-partnership/",
-      "blurb": "OpenAI 5 月 18 日宣布與 Dell Technologies 合作，透過 Dell AI Data Platform 將 Codex 延伸至混合及本地端企業環境，直接觸及因資料主權法規無法採用雲端 AI 程式碼工具的金融、政府、醫療等高監管行業，Dell 成為 OpenAI 在受監管市場的首個硬體分銷通道夥伴。",
-      "editorial": "<p><strong>第一</strong>　2026 年 5 月 18 日，OpenAI 與 Dell Technologies 宣布合作，Codex 將透過 Dell AI Data Platform 部署至混合及本地端企業環境，並計畫與 Dell AI Factory 深度整合，涵蓋資料準備、系統管理、測試及 AI 應用部署完整基礎設施棧。截至公告時，Codex 每週活躍開發者用戶超過 400 萬，應用場景已超越程式碼生成，延伸至程式碼審查、測試覆蓋、跨大型程式庫推理及事件響應；雙方亦指出企業用戶開始以 Codex 支援報告生成、潛客資格審核及跨業務系統任務協調等非程式碼知識工作場景。本地端部署的核心優勢是資料不需上傳至 OpenAI 雲端，可在企業防火牆內側執行。</p><p><strong>第二</strong>　此合作的戰略核心是突破雲端部署壁壘，打通長期無法採用 AI 程式碼工具的高監管市場。金融、政府、國防及醫療行業受 GDPR、FedRAMP、ITAR 等資料主權法規約束，此前因 AI 程式碼工具資料出境要求而系統性排除於市場之外；Dell AI Data Platform 的本地端分發路徑移除這一障礙。此合作在時序上與 Anthropic 同週宣布的「自托管 Sandbox 加 MCP Tunnel」形成正面競爭——兩大 AI 程式碼工具平台同步向本地端企業邊界推進，競爭焦點由模型能力轉向資料主權架構的完整性。對 Dell 而言，成為 OpenAI 在高監管市場的企業分銷通道，是其 AI Factory 商業定位從硬體銷售向「AI 企業部署整合商」升級的具體落點，服務收入佔比有望在 FY2027 取得量化提升。</p><p><strong>第三</strong>　對企業 CIO 而言，Codex 本地端部署為金融與政府行業提供了不妥協資料主權前提下評估 AI 程式碼助理的可行路徑，建議在 Q3 前透過 Dell 渠道啟動概念驗證，重點驗證私有大型程式庫的跨檔案推理精準度，這是決定 AI 程式碼助理在企業環境中實際投資報酬率的核心評估維度。對開發者而言，Codex 進入高監管本地端環境意味著金融科技及政府承包商職缺在 H2 2026 將系統性提升對 AI 輔助開發工具熟練度的要求，是工具鏈技能投資優先順序的正向信號。對 BEXS 學員而言，Dell（$DELL）以 AI Factory 作為 OpenAI 企業分銷通道，是其 AI 相關服務收入在 FY2027 具備加速動力的具體商業論點，建議在下一個 Dell 財報（預計 Q3）中追蹤 AI 服務收入的季度增長率，確認夥伴協議是否在 90 天內轉化為可量化的管道收入貢獻。</p>"
-    },
-    {
-      "id": "pulse-2026-05-22-12-anthropic-microsoft-maia-chip-talks",
-      "ts": "2026-05-22T12:03:00+08:00",
-      "title": "Anthropic 磋商租用微軟 Maia 200 推理晶片 · 算力供應鏈從三角延伸至微軟自製芯片陣營",
-      "source": "Bloomberg / CNBC",
-      "url": "https://www.cnbc.com/2026/05/21/anthropic-microsoft-maia-200-ai-chip.html",
-      "blurb": "微軟 Maia 200 以台積電 3 奈米打造、主打推理效能超越 Nvidia 同類，去年曾傳研發延誤；Anthropic 若完成租用協議，將是 Maia 200 首個 frontier lab 外部客戶，Claude 算力源在 AWS、Google TPU、xAI Colossus 外再加一極。",
-      "editorial": "<p><strong>第一</strong>　2026 年 5 月 21 日，The Information 率先報導、Bloomberg 及 CNBC 跟進確認，Anthropic 正就租用微軟 Maia 200 AI 伺服器晶片進行早期磋商，以擴充 Claude 推理算力容量。Maia 200 由台積電 3 奈米製程生產，設計定位為高速推理加速器，微軟主張在相同能耗條件下推理效能優於 Nvidia 同類產品，但不具備大規模預訓練能力。談判處於初期階段，雙方未就具體規模或價格置評。Anthropic 現有算力組合包括：AWS（主要推理基礎設施）、Google TPU 及 Broadcom 合約（3.5 吉瓦，2027 年起上線）、xAI Colossus（三年 450 億美元訓練算力合約）；Maia 200 若成交，將成為前述三方之外的第四條推理算力供應鏈。</p><p><strong>第二</strong>　此次談判的最大戰略變數是微軟自製 AI 芯片的外部商業化公信力。Maia 200 去年曾傳研發延誤，外界對其量產和效能可靠性持保留態度；Anthropic 作為目前算力消耗增速最快的 frontier lab，若選擇採購 Maia 200，將是微軟 AI 芯片取得市場公信力的最高規格外部驗證，直接推動分析師重新評估 Maia 商業可行性。對 Anthropic 而言，引入 Maia 200 的核心邏輯在三個層次同時運作：其一，補強 AWS 推理端的峰值承載能力，緩解需求爆增帶來的速率限制壓力；其二，強化對 AWS 的議價籌碼，避免在單一推理供應商格局下損失成本競爭力；其三，微軟已將 Claude 整合至 Office 365 全套工具，算力採購可形成與企業軟體分銷的雙向合作捆綁。在更廣泛的市場格局中，Nvidia 推理算力的主導地位正受 Google TPU、Amazon Trainium 及 Microsoft Maia 三面夾擊，frontier lab 的採購決策是這些替代方案能否形成規模的關鍵試金石。</p><p><strong>第三</strong>　對 BEXS 學員而言，Maia 200 若獲 Anthropic 確認採購，是微軟 Azure AI 基礎設施部門估值重定的正向催化劑，目前市場對 Maia 商業可行性的折扣計算偏多，Anthropic 入場可推動分析師上修 $MSFT 在 AI 芯片業務的貢獻估算，建議在協議正式確認後的第一個 $MSFT 財報驗證 Maia 商業化進度，是最具說服力的外部數據節點。對企業 CIO 而言，Anthropic 推理算力多元化有助於緩解 Claude API 在高峰時段的服務不穩定性，若 Maia 200 算力成功整合，H2 2026 的速率限制改善和延遲優化預期持續兌現，是調整企業 AI 採購優先級的正面信號。對開發者而言，若微軟在 Claude on Azure 部署中引入 Maia 200 降低推理成本，Azure 上 Claude API 的長期定價可能出現競爭性下調，是工具鏈採購決策中值得持續追蹤的成本變量。</p>"
     }
   ]
 }
