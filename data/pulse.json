@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-05-26T19:42:00+08:00",
+  "updated_at": "2026-05-26T15:02:00+08:00",
   "items": [
+    {
+      "id": "pulse-2026-05-26-15-anthropic-mcp-tunnels-self-hosted-sandboxes-enterprise",
+      "ts": "2026-05-26T15:02:00+08:00",
+      "title": "Anthropic Claude Managed Agents 自託管沙盒與 MCP 隧道公測 · 工具執行留客戶邊界、代理連私有內網免開防火牆、企業安全壁壘首度系統性移除",
+      "source": "Anthropic / Claude",
+      "url": "https://claude.com/blog/claude-managed-agents-updates",
+      "blurb": "Anthropic 在倫敦 Code with Claude 大會發布自託管沙盒（公開測試版）與 MCP 隧道（研究預覽版），工具執行移至客戶可控基礎設施、代理可經加密出站隧道連接私有 MCP 伺服器；金融、醫療等高監管行業代理工作流進入企業安全邊界的制度性障礙首度有系統性解方。",
+      "editorial": "<p><strong>第一</strong>　2026 年 5 月 19 日，Anthropic 在倫敦舉辦首屆美國以外開發者大會 Code with Claude，宣布 Claude Managed Agents 平台兩項企業安全新能力：自託管沙盒（Self-Hosted Sandboxes，公開測試版）與 MCP 隧道（MCP Tunnels，研究預覽版）。自託管沙盒允許工具執行環境在客戶自有基礎設施或受管提供商（Cloudflare、Daytona、Modal、Vercel）上運行，Anthropic 持續負責代理編排、上下文處理與錯誤恢復邏輯，工具實際執行遷移至客戶可控環境，企業取得網路策略、審計日誌、運行時設定與資料駐留的完整控制權。MCP 隧道允許 Claude Managed Agents 及 Messages API 連接私有內部 Model Context Protocol 伺服器，無需開放防火牆入站規則或設置公網端點，組織僅需部署輕量閘道建立單條加密出站連線，端對端加密全程維持。</p><p><strong>第二</strong>　這兩項工具在三個維度同步移除企業代理部署的系統性障礙。其一，工具執行進客戶基礎設施解決企業代理工作流最關鍵的資料主權問題：金融、醫療、法律等高監管行業的敏感數據在工具執行層面從未離開客戶控制邊界，在歐盟 GDPR 及 EU AI Act 資料駐留義務下直接降低合規風險敞口。其二，MCP 隧道以反轉連線架構取代傳統 VPN 或公開 API 端點，將代理存取企業內部資產（私有資料庫、內部 API、票據系統、知識庫）的連線從安全漏洞問題轉化為標準出站連線管理，是打通代理安全使用企業內部工具最後一哩的制度性解方。其三，這兩項工具與同日發布的 Google Antigravity 2.0 Managed Agents API 形成對照：Google 提供雲端托管代理執行環境，Anthropic 提供客戶自主控制執行環境，兩條技術路線在高監管行業企業選型中形成清晰分化決策點，確認 Anthropic 以企業可控性作為代理平台的差異化護城河。</p><p><strong>第三</strong>　對企業 CIO 而言，自託管沙盒公開測試版是 H2 2026 代理安全架構評估的核心新選項，建議在 Q3 概念驗證中以三個場景測試：法律合約審查（高敏感文件不離境）、金融 ERP 數據代理（審計日誌完整留存）及醫療記錄摘要（HIPAA 合規邊界驗證）；Cloudflare 與 Vercel 的受管提供商合作意味著企業無需自建沙盒基礎設施即可啟動，大幅降低前期工程門檻。對開發者而言，MCP 隧道支援 Messages API（非僅 Managed Agents），任何使用 Messages API 的代理工作流均可透過隧道存取私有 MCP 伺服器，建議追蹤 MCP 隧道從研究預覽升至正式 GA 的時程，以確認能否納入生產工作流架構決策，並在 Anthropic 發布正式安全審計合規文件後評估高監管行業的適用可行性。對 BEXS 學員而言，企業安全部署壁壘移除是 Anthropic 企業 ARR 加速擴展的制度性基礎，金融與醫療行業合約潛力直接依賴資料主權與私有內網連結能力的就緒程度，建議在 IPO 路演「企業市場準入度」評估中將此工具集 GA 時間表列為量化企業合約加速預期的技術先行指標。</p>"
+    },
     {
       "id": "pulse-2026-05-26-19-openai-chatgpt-ads-manager-cpc-self-serve-all",
       "ts": "2026-05-26T19:42:00+08:00",
@@ -261,15 +270,6 @@
       "url": "https://techcrunch.com/2026/05/20/jensen-huang-says-hes-found-a-brand-new-200b-market-for-nvidia/",
       "blurb": "第一財季 816 億美元、年增 85%，Q2 指引再至 910 億；Vera CPU 作為全球首款代理 AI 專屬處理器，首年已售出 200 億美元並開拓 2,000 億全新 TAM，黃仁勳宣告 Nvidia 從 GPU 寡占擴展至代理 AI 全棧基礎設施。",
       "editorial": "<p><strong>第一</strong>　 2026 年 5 月 20 日，Nvidia 公布第一財季（截至 4 月 26 日）業績：營收 816 億美元，年增 85%，單季刷新公司紀錄；數據中心部門貢獻 752 億美元，年增 92%，佔總營收逾九成；毛利率 74.9%（GAAP）。第二財季指引為 910 億美元，暗示年增約 95%，持續超越分析師共識。同日，黃仁勳宣布 Vera CPU 進軍代理 AI 基礎設施市場：Vera 定位為全球首款代理 AI 專屬 CPU，與 Rubin GPU 共同構成 Vera Rubin 平台，覆蓋代理工作流從推理生成到任務執行的完整算力鏈。Nvidia 確認今年獨立 Vera CPU 銷售能見度達 200 億美元，對應新開拓的 2,000 億美元總可服務市場（TAM），並明確表示市場估算涵蓋中國。SpaceX、Anthropic、OpenAI 等主要超大規模雲廠商已完成首批 Vera Rubin 系統的接收交付。</p><p><strong>第二</strong>　 Vera CPU 的戰略意義在三個層面同步展開。其一，Nvidia 的算力競爭邊界由 GPU 訓練及推理雙鏈正式延伸至代理 AI 工作流執行層：代理任務的工具調用、環境互動及長步驟協調大量依賴 CPU 算力，而非 GPU；Vera 的代理優化設計直接挑戰英特爾及 AMD 在資料中心 CPU 市場的既有地位，是 Nvidia 在 CPU 市場的首次大規模商業化攻勢。其二，GPU、CPU 與 InfiniBand 網絡的全棧垂直整合，強化 Nvidia 在 AI 算力生態的定價主導地位，形成競對短期內難以整體複製的採購黏性。其三，2,000 億美元新 TAM 明確涵蓋中國市場的公開陳述，是 Nvidia 在出口管制框架下主動向投資人設定新的地緣可及性預期，短期為估值提供上修空間，但後續若管制收緊，此 TAM 預測的下行敏感性亦相對放大。</p><p><strong>第三</strong>　 對 BEXS 學員而言，816 億 Q1 及 910 億 Q2 指引使 Nvidia 在 H1 2026 的算力超週期受益持續量化可見；Vera CPU 收入的單獨財務披露預計在 Q2 FY2027 財報（約 2026 年 8 月）首次出現，是確認全棧戰略財務可行性的關鍵節點；涵蓋中國的 2,000 億 TAM 陳述應搭配出口管制政策動向作為下行情景參數納入估值模型。對企業 CIO 而言，代理 AI 工作流的 CPU 算力在 H2 2026 逐步成為獨立採購預算項，建議在下一輪多雲基礎設施評估中識別代理工作流的 CPU 成本佔比，並以 Vera Rubin 平台的雲廠商部署計畫評估作為算力採購預算假設的更新基準。對開發者而言，代理框架的長步驟執行成本模型在 Vera CPU 商業化後需重新校準；GPU 推理層（生成）與 CPU 執行層（工具調用）的分離定價，是代理工作流成本優化的新設計維度，建議在 H2 2026 追蹤主要雲廠商 Vera CPU 實例的定價公告。</p>"
-    },
-    {
-      "id": "pulse-2026-05-24-05-anthropic-glasswing-10k-vulns-mythos-security",
-      "ts": "2026-05-24T05:00:00+08:00",
-      "title": "Anthropic Glasswing 首月掃出逾萬個高危漏洞 · Mythos Preview 誤報率低於人工、AI 安全能力上限進入外部機構驗證",
-      "source": "Anthropic",
-      "url": "https://www.anthropic.com/research/glasswing-initial-update",
-      "blurb": "50 家合作機構首月合計揭露逾萬個高危漏洞，Cloudflare 確認 Mythos 誤報率低於人工測試員；Anthropic 宣告安全發現瓶頸消失，核心難題轉至核實與修補速度。",
-      "editorial": "<p><strong>第一</strong>　2026年5月22日，Anthropic 發布 Project Glasswing 啟動後首月成果報告，確認約50家合作夥伴（含 Microsoft、Google、Cloudflare、Verizon 等）以 Claude Mythos Preview 掃描全球最具系統重要性的軟體，合計揭露逾一萬個高危或嚴重等級漏洞。開源掃描面向，Mythos Preview 分析逾一千個開源項目，識別出估計6,202個高危或嚴重漏洞，90.6%確認為真實漏洞，62.4%驗證屬高危或嚴重等級。Cloudflare 在核心路徑系統中發現約2,000個漏洞（400個為高危或嚴重），誤報率被其團隊評定為優於人工測試員。Anthropic 承諾最高1億美元 Mythos Preview 使用額度及400萬美元直接捐款予開源安全組織。</p><p><strong>第二</strong>　Glasswing 首月報告的核心戰略意涵，在於 AI 安全攻防格局的不對稱性首度獲外部機構數據確認。Mythos Preview 尚未對外開放，已可以低於人工的誤報率識別零日漏洞，直接挑戰「AI 安全工具尚不及頂尖滲透測試工程師」的基準假設。Anthropic 報告明確指出，軟體安全進度的瓶頸已從「漏洞發現速度」轉移至「核實、揭露與修補速度」。此瓶頸轉移意味著安全工程人力的高附加值工序將從發現端移向修補端，企業安全組織的人力配置邏輯面臨結構性更新壓力。50家夥伴覆蓋互聯網核心基礎設施的大量代碼路徑，漏洞修補的規模與速度，技術上決定了 Mythos Preview 公開發布前整體互聯網安全基線能被提升的實際幅度。</p><p><strong>第三</strong>　對企業 CIO 而言，Cloudflare 確認 Mythos 誤報率低於人工，是 AI 安全掃描工具開始取代而非補充滲透測試服務的早期市場訊號，建議在 Q3 前評估現有滲透測試合約在 Glasswing 後續公開拓展時的替代可行性，並識別申請優先合作夥伴資格的業務優先序。對開發者而言，本輪披露的 CVE 修補進度是評估 Mythos 級別 AI 安全工具在自身代碼庫中實際效益的外部校準點，高依賴度開源項目的 maintainer 應提前建立接收 Glasswing 安全披露的響應流程。對 BEXS 學員而言，Glasswing 首月報告是 Anthropic IPO 敘事中首個具備外部機構驗證的「Claude 超越人類頂尖表現」文件，直接強化路演中 Mythos 能力溢價的可信度，建議追蹤 Mythos 面向一般用戶的發布時間表作為 Anthropic 商業化擴展的可量化前置信號。</p>"
     }
   ]
 }
