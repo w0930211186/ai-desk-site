@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-05-28T12:01:35+08:00",
+  "updated_at": "2026-05-28T14:04:42+08:00",
   "items": [
+    {
+      "id": "pulse-2026-05-28-14-china-ai-researcher-travel-ban",
+      "ts": "2026-05-28T14:04:42+08:00",
+      "title": "中國強制管控 AI 研究員出境·DeepSeek 阿里人才首度納入國家戰略資產鎖定名單",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-26/china-expands-travel-curbs-to-top-ai-talent-at-private-firms",
+      "blurb": "北京要求 DeepSeek、阿里等私人企業頂尖 AI 研究員出境前須取得當局批准，從「建議迴避」升級為強制審批，標誌中美 AI 人才博弈進入主權管控新階段。",
+      "editorial": "<p><strong>第一</strong>彭博 5 月 26 日報導，中國政府已對 DeepSeek、阿里巴巴等私人企業的核心 AI 研究人員實施出境管控。凡被認定涉及先進 AI 開發且具戰略重要性者，出境前須取得相關當局預先批准；管控範圍不依職稱劃定，由官員逐案判斷技術相關性，適用對象涵蓋研究人員、創業公司創辦人及高管。2025 年的前置政策僅為「建議」知名 AI 人士避免赴美，此次升級為強制審批，具有明確法律約束力。</p><p><strong>第二</strong>此政策將 AI 研究人員正式歸類為與晶片、衛星同層次的國家技術資產。對 DeepSeek 而言，近兩年透過 R1 系列在國際學術界累積的論文合作網絡，可能因人員流動受限而出現結構性斷裂；對中國整體 AI 生態，強制審批意味著科研機構的人才引進、外派交流及與國際機構的聯合研發均需重新設計流程，研究速度將因行政摩擦而出現可見損耗。這是北京在算力出口管制升級後，在人才維度展開對等管控的配套措施，顯示中國政府已將 AI 核心人才的流動視為直接影響技術自主路線的戰略變量。</p><p><strong>第三</strong>對企業 CIO：規劃涉及中國研究團隊的跨境 AI 合作項目（含香港、新加坡中轉架構）時，須增列合規評估流程及人員流動彈性條款。對監管面：歐美政府有具體的政策窗口以快速 AI 人才簽證、研究合作協定承接潛在的人才外流，管控越緊，對他方的人才吸引力溢出越明顯。對投資人：中國私人 AI 實驗室的不確定溢價上升，標的公司核心研究人員的出境自由度已成新的盡職調查項目，海外上市或融資通道的盡調流程建議增列「核心人才出境自由度」評估欄位。</p>"
+    },
+    {
+      "id": "pulse-2026-05-28-14-gemini-spark-24h-cloud-agent-launch",
+      "ts": "2026-05-28T14:04:42+08:00",
+      "title": "Gemini Spark 本週正式上線·Google 首個 24 小時雲端常駐代理人押注個人 AI 市場主導權",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/19/google-introduces-gemini-spark-a-24-7-agentic-assistant-with-gmail-integration/",
+      "blurb": "Google I/O 宣布的 Gemini Spark 本週向 AI Ultra 訂閱者開放，這是 Google 首個在用戶離線後仍可自主執行任務的雲端常駐代理人，月費 100 美元，MCP 生態已接入 Canva、OpenTable 等第三方。",
+      "editorial": "<p><strong>第一</strong>Google I/O 2026 於 5 月 19 日發佈 Gemini Spark 後，本週正式向美國 AI Ultra 訂閱用戶開放，月費 100 美元。Spark 是基於 Gemini 3.5 的雲端常駐個人代理人，特點是全天候在 Google 伺服器上獨立執行任務，即使用戶已關閉裝置仍可持續工作，與 Gmail、Google Docs、Slides 深度整合。首批第三方連接已透過 MCP 協議接入 Canva、OpenTable、Instacart；Adobe、Spotify、GitHub、Notion、Slack 確認於 2026 年夏季上線。</p><p><strong>第二</strong>Spark 的核心設計哲學是「常駐雲端、主動執行」，相較於 ChatGPT 或 Claude 目前仍以用戶觸發、被動回應為主要模式，Spark 在產品架構上更接近 persistent agent 形態。Google 選擇 MCP 作為第三方整合標準，是繼 Anthropic 之後第二家主流 frontier lab 正式為 MCP 背書，此舉對 MCP 成為代理人生態互操作標準的確立具有里程碑意義。以 Gmail 嵌入為切入點，Google 同時掌控用戶數據管道與代理人執行環境，形成自我強化的整合優勢，對 Anthropic 及 OpenAI 在個人與輕量企業代理人市場的市佔構成直接競爭壓力。</p><p><strong>第三</strong>對開發者：MCP 整合機會窗口在未來 6 個月內優先性最高，Spark 夏季上線的第三方名單尚有垂直行業席位，尤其是 HR、財務、法律工具類 SaaS；對企業 CIO：Google Workspace AI Ultra 計畫可能重新框架現有授權費用，評估是否提升至 AI Ultra tier 應納入 H2 採購議程；對競爭格局：OpenAI Operator 及 Anthropic Computer Use 若無法提供等效的後台常駐能力，在個人與中小企業市場面臨結構性用戶流失風險，未來 6 個月的競品發佈節奏值得密切追蹤。</p>"
+    },
+    {
+      "id": "pulse-2026-05-28-14-openai-deployco-4b-enterprise-consulting",
+      "ts": "2026-05-28T14:04:42+08:00",
+      "title": "OpenAI 砸四十億美元成立部署公司·麥肯錫貝恩入股共謀繞開傳統系統整合商",
+      "source": "OpenAI",
+      "url": "https://openai.com/index/openai-launches-the-deployment-company/",
+      "blurb": "OpenAI 成立多數持股子公司 DeployCo，由 TPG 領投 19 方共同注資逾 40 億美元，並收購顧問工程公司 Tomoro，以前置工程師直接入駐企業的方式，與 Anthropic Big Four 合作通道正面競爭企業 AI 部署市場。",
+      "editorial": "<p><strong>第一</strong>OpenAI 於 5 月 12 日宣布成立 OpenAI Deployment Company（DeployCo），以逾 40 億美元初始資本、100 億美元投前估值啟動，OpenAI 保持多數控股。投資方陣容包括 19 個全球投資機構、顧問公司及系統整合商，由私募巨頭 TPG 領投，Advent、Bain Capital、Brookfield 為共同領投，Bain & Company、Capgemini、麥肯錫等策略顧問機構同時入股，投資人享有保底 17.5% 回報率並設利潤上限。OpenAI 同日宣布收購企業 AI 顧問公司 Tomoro，立即獲得約 150 名前置部署工程師的執行能量。</p><p><strong>第二</strong>DeployCo 的策略意涵在於 OpenAI 正從「API 提供商」轉向「AI 整合主機」，將傳統由 Accenture、Deloitte、Infosys 等系統整合商壟斷的企業 AI 落地最後一哩直接內化。麥肯錫與 Capgemini 的雙重身分（既是投資人、又是潛在競業者）揭示 DeployCo 的邏輯：讓頂尖系統整合商以股東身分自我綁定，形成利益共同體而非對立面。此結構與 Anthropic 透過 Big Four 合作走不同的企業路徑：Anthropic 押注合作夥伴管道，OpenAI 選擇自建部署能力並將系統整合商轉化為共投方，兩條路線在 2026 下半年企業 AI 採購大週期中形成正面競爭。</p><p><strong>第三</strong>對企業 CIO：AI 落地服務的供應商結構從「API 加系統整合商」雙層，可能演變為 frontier lab 直營部署、系統整合商合作通道並行的三層市場；議價空間在 2026 年下半年最大，建議在新一輪 AI 採購合約中設定服務層可替換條款。對系統整合商及顧問業：未入股 DeployCo 的系統整合商面臨更尖銳的替代壓力；已入股者需應對內部利益衝突及客戶公正性質疑。對開發者：DeployCo 的前置部署工程師模型為具備 LLMOps 及 RAG 實戰經驗的工程師創造高溢價職位需求，此類技能薪酬競爭將在 2026 下半年顯著升溫。</p>"
+    },
     {
       "id": "pulse-2026-05-28-12-bytedance-70b-ai-capex-china-compute-race",
       "ts": "2026-05-28T12:01:35+08:00",
@@ -243,33 +270,6 @@
       "url": "https://www.anthropic.com/research/glasswing-initial-update",
       "blurb": "Project Glasswing 啟動六週首次公開成果：Claude Mythos Preview 協同 50 家機構夥伴（含 Amazon、Apple、Microsoft、Palo Alto Networks）確認逾萬高危漏洞；1 億美元信用額度與 Claude Security 企業公測同步開放，AI 主動防禦從宣告進入可量化落地。",
       "editorial": "<p><strong>第一</strong>　2026 年 5 月 26 日，Anthropic 發布 Project Glasswing 首次階段更新。自 4 月 7 日 Claude Mythos Preview 公布以來，Anthropic 及約 50 家合作夥伴機構——包含 Amazon、Apple、Broadcom、Cisco、CrowdStrike、Linux Foundation、Microsoft 及 Palo Alto Networks 等核心基礎軟體維護者——協同掃描全球系統重要性最高的開源軟體庫，已確認超過一萬個高危或關鍵等級漏洞，其中 Mythos Preview 直接標記 6,202 個高危或關鍵等級漏洞（含中低危共 23,019 個）。Anthropic 同步宣告追加資源承諾：向參與機構提供最高 1 億美元 Mythos Preview 使用信用額度，另向開源資安組織直接捐贈 400 萬美元。Claude Security——企業資安能力模組——即日進入公開測試版，「網路核實計畫（Cyber Verification Program）」同步啟動，允許核准的資安專業人員以更少限制條件使用 Claude 執行合法資安任務。</p><p><strong>第二</strong>　逾萬個漏洞的具體數字使 Glasswing 從政策宣告轉化為可量化的防禦生產能力，三個維度的戰略意涵值得關注。其一，合作機構覆蓋 Amazon、Apple、Microsoft 及 Palo Alto Networks 等全球供應鏈樞紐，代表 Mythos 掃描的漏洞直接影響數十億終端用戶依賴的核心軟體，修補進度已具備可測量的外部防禦效益。其二，Claude Security 公測為企業安全工程師開啟商業化路徑存取 Mythos 級掃描能力，是 Anthropic 首次將 Glasswing 防禦工具鏈商業化，亦對 Cisco、CrowdStrike 及 Palo Alto Networks 現有掃描產品構成直接功能競爭——儘管三者同為合作夥伴，多重角色同框本身即是 AI 資安產業整合速度的制度性信號。其三，Cyber Verification Program 是對「攻防者不對稱存取限制」這一長期資安政策矛盾的制度性回應：OpenAI GPT-5.5-Cyber（限定預覽）與 Anthropic Mythos（受管受控）並存格局下，前沿 AI 資安能力的授權存取框架正快速成為業界標準化的下一個核心議題。</p><p><strong>第三</strong>　對企業 CIO 而言，Claude Security 公測是 Q3 資安預算評估中即可切入的新增 AI 掃描能力入口，建議資安架構師申請 Cyber Verification Program 存取後，以現有掃描工具的 CVE 覆蓋率為對比基準，優先評估 Mythos 掃描在老舊系統及低維護開源依賴項上的盲區覆蓋效果。對開發者而言，Claude Security API 的定價結構是將 AI 漏洞掃描納入 CI/CD 自動化管線的前置決策資訊；Glasswing 中低危漏洞分類的後續發布時間表是評估 AI 掃描廣度覆蓋率的外部參照節點，建議在公測期間主動測試並留存成本效益數據以備 Q4 預算支持。對 BEXS 黃金交易學員而言，1 億美元信用額度承諾確認 Glasswing 是 Anthropic 在政府與監管博弈中的主動資本投入，而非被動合規成本；Claude Security 商業化路徑若在後續季度形成獨立資安服務 ARR，是 Anthropic S-1「新興業務線」估值多元化的具體數字錨點，建議追蹤每季漏洞確認數量及夥伴機構增長斜率作為先行指標。</p>"
-    },
-    {
-      "id": "pulse-2026-05-27-06-nydfs-frontier-ai-cybersecurity-financial-guidance",
-      "ts": "2026-05-27T06:00:00+08:00",
-      "title": "紐約金融監管局發布前沿 AI 資安行業警告·Mythos 級攻擊能力首度入列 23 NYCRR Part 500 風險評估框架",
-      "source": "NY DFS",
-      "url": "https://www.dfs.ny.gov/industry-guidance/industry-letters/20260521-heightened-cybersecurity-risks-assoc-with-frontier-ai-models",
-      "blurb": "紐約 DFS 5 月 21 日向逾 3,000 家受監管金融機構發出雙份 AI 資安信函，確認前沿模型已能以遠超人類速度識別並利用漏洞，觸發受監管實體的 Part 500 風險評估更新義務；是美國金融監管機構首次以官方信函將特定前沿 AI 攻擊能力記錄為系統性外部威脅。",
-      "editorial": "<p><strong>第一</strong>　2026 年 5 月 21 日，紐約州金融服務局（NYDFS）就前沿 AI 模型相關的網路攻擊威脅發出雙份行業信函：《前沿 AI 模型相關之強化網路風險》（Advisory）及《受監管實體在強化網路威脅環境中應考量之措施指引》（Guidance），適用於 DFS 全部逾 3,000 家受監管實體，涵蓋銀行、保險及其他持牌金融機構。Advisory 明確指出，Claude Mythos Preview 等前沿 AI 模型能夠以遠超人類速度識別並利用資訊系統漏洞，在放大網路攻擊的潛在規模、效能與速度上構成新型風險，且雖然部分模型當前尚未廣泛可及，此類能力可能即將更易獲取。DFS 表示此信函不增設新的合規義務，但要求受監管實體更新風險評估，評估是否需要強化作業韌性（如汰換老舊系統）、並確認現有資安計畫符合 23 NYCRR Part 500 的完整要求。</p><p><strong>第二</strong>　NYDFS 行業信函在三個維度具有制度性意涵。其一，23 NYCRR Part 500 是美國金融監管史上最嚴格的州立網路安全法規之一，此次 Advisory 確認「前沿 AI 攻擊能力」已被 DFS 正式納入 Part 500 風險評估框架，意味著受監管金融機構若未在下一輪合規稽核中呈現針對 AI 攻擊面的更新風險評估，可能面臨監管調查——即使 Advisory 本身不設新罰則。其二，DFS 明確點名 Mythos 級能力作為風險驅動因素，是美國金融監管機構首次以官方信函將特定前沿模型的攻擊能力記錄為受監管行業的系統性外部威脅，為後續強制性規則制定提供了前置政策文件。其三，NYDFS 的監管範疇覆蓋全美金融業最密集的紐約市場，此信函若引發後續 Part 500 條文更新，對在美金融行業服務的 IT 供應商、資安廠商及雲端服務提供商的合規成本分配均有即時影響。</p><p><strong>第三</strong>　對 BEXS 黃金交易學員而言，NYDFS 將 AI 攻擊能力納入金融機構合規風險框架，是 AI 主動資安工具（如 Claude Security）在美國金融行業獲得監管背書商業化的制度前置條件；隨著 Part 500 風險評估更新義務在受監管機構觸發，AI 資安產品的採購審批週期預計縮短，建議追蹤 DFS 是否在 H2 2026 更新 Part 500 正式條款以具體化 AI 攻擊面義務，作為金融行業 AI 資安採購加速的制度先行信號。對企業 CIO 而言，DFS 的風險評估更新要求應在 Q3 合規審查中觸發獨立的 AI 攻擊面評估項目；在已有 23 NYCRR Part 500 合規框架的機構，建議明確分析 Glasswing 所揭示的漏洞類別是否與現有系統庫存直接重疊，並在下一輪稽核前完成文件化說明。對開發者而言，DFS 信函確認資安合規需求正驅動企業加速採購 AI 資安工具；面向金融行業的資安工具開發者應追蹤 NYDFS Part 500 後續修訂，提前確認合規認證要求，並評估 Claude Security API 是否可作為合規就緒的掃描能力組件。</p>"
-    },
-    {
-      "id": "pulse-2026-05-26-15-anthropic-mcp-tunnels-self-hosted-sandboxes-enterprise",
-      "ts": "2026-05-26T15:02:00+08:00",
-      "title": "Anthropic Claude Managed Agents 自託管沙盒與 MCP 隧道公測 · 工具執行留客戶邊界、代理連私有內網免開防火牆、企業安全壁壘首度系統性移除",
-      "source": "Anthropic / Claude",
-      "url": "https://claude.com/blog/claude-managed-agents-updates",
-      "blurb": "Anthropic 在倫敦 Code with Claude 大會發布自託管沙盒（公開測試版）與 MCP 隧道（研究預覽版），工具執行移至客戶可控基礎設施、代理可經加密出站隧道連接私有 MCP 伺服器；金融、醫療等高監管行業代理工作流進入企業安全邊界的制度性障礙首度有系統性解方。",
-      "editorial": "<p><strong>第一</strong>　2026 年 5 月 19 日，Anthropic 在倫敦舉辦首屆美國以外開發者大會 Code with Claude，宣布 Claude Managed Agents 平台兩項企業安全新能力：自託管沙盒（Self-Hosted Sandboxes，公開測試版）與 MCP 隧道（MCP Tunnels，研究預覽版）。自託管沙盒允許工具執行環境在客戶自有基礎設施或受管提供商（Cloudflare、Daytona、Modal、Vercel）上運行，Anthropic 持續負責代理編排、上下文處理與錯誤恢復邏輯，工具實際執行遷移至客戶可控環境，企業取得網路策略、審計日誌、運行時設定與資料駐留的完整控制權。MCP 隧道允許 Claude Managed Agents 及 Messages API 連接私有內部 Model Context Protocol 伺服器，無需開放防火牆入站規則或設置公網端點，組織僅需部署輕量閘道建立單條加密出站連線，端對端加密全程維持。</p><p><strong>第二</strong>　這兩項工具在三個維度同步移除企業代理部署的系統性障礙。其一，工具執行進客戶基礎設施解決企業代理工作流最關鍵的資料主權問題：金融、醫療、法律等高監管行業的敏感數據在工具執行層面從未離開客戶控制邊界，在歐盟 GDPR 及 EU AI Act 資料駐留義務下直接降低合規風險敞口。其二，MCP 隧道以反轉連線架構取代傳統 VPN 或公開 API 端點，將代理存取企業內部資產（私有資料庫、內部 API、票據系統、知識庫）的連線從安全漏洞問題轉化為標準出站連線管理，是打通代理安全使用企業內部工具最後一哩的制度性解方。其三，這兩項工具與同日發布的 Google Antigravity 2.0 Managed Agents API 形成對照：Google 提供雲端托管代理執行環境，Anthropic 提供客戶自主控制執行環境，兩條技術路線在高監管行業企業選型中形成清晰分化決策點，確認 Anthropic 以企業可控性作為代理平台的差異化護城河。</p><p><strong>第三</strong>　對企業 CIO 而言，自託管沙盒公開測試版是 H2 2026 代理安全架構評估的核心新選項，建議在 Q3 概念驗證中以三個場景測試：法律合約審查（高敏感文件不離境）、金融 ERP 數據代理（審計日誌完整留存）及醫療記錄摘要（HIPAA 合規邊界驗證）；Cloudflare 與 Vercel 的受管提供商合作意味著企業無需自建沙盒基礎設施即可啟動，大幅降低前期工程門檻。對開發者而言，MCP 隧道支援 Messages API（非僅 Managed Agents），任何使用 Messages API 的代理工作流均可透過隧道存取私有 MCP 伺服器，建議追蹤 MCP 隧道從研究預覽升至正式 GA 的時程，以確認能否納入生產工作流架構決策，並在 Anthropic 發布正式安全審計合規文件後評估高監管行業的適用可行性。對 BEXS 學員而言，企業安全部署壁壘移除是 Anthropic 企業 ARR 加速擴展的制度性基礎，金融與醫療行業合約潛力直接依賴資料主權與私有內網連結能力的就緒程度，建議在 IPO 路演「企業市場準入度」評估中將此工具集 GA 時間表列為量化企業合約加速預期的技術先行指標。</p>"
-    },
-    {
-      "id": "pulse-2026-05-26-19-openai-chatgpt-ads-manager-cpc-self-serve-all",
-      "ts": "2026-05-26T19:42:00+08:00",
-      "title": "OpenAI ChatGPT Ads Manager 向全體廣告主開放 · CPC 競標移除五萬美元門檻、AI 對話廣告商業化從邀請測試進入規模化軌道",
-      "source": "OpenAI",
-      "url": "https://openai.com/index/new-ways-to-buy-chatgpt-ads/",
-      "blurb": "OpenAI 推出 ChatGPT Ads Manager 並以 CPC 計費全量開放，移除原五萬美元進場門檻；Dentsu、Omnicom、WPP、Publicis 四大廣告集團同步入局，月活五億用戶的對話平台正式成為廣告媒體購買清單的新成員，AI 對話廣告商業化從邀請制測試階段躍升規模化部署。",
-      "editorial": "<p><strong>第一</strong>　OpenAI 正式推出 ChatGPT Ads Manager，向全體廣告主開放 ChatGPT 平台的廣告購買，標誌 ChatGPT 廣告業務從邀請制測試過渡至自助規模化階段。核心變更為三項：計費模式從 CPM（每千次曝光付費）全面轉型為 CPC（每次點擊付費）自助競標；最低進場門檻從五萬美元降至零；廣告主可直接透過 ads.openai.com 自助操作，亦可透過代理商合作夥伴，包括 Dentsu、Omnicom、Publicis 及 WPP 四大廣告集團，以及 Adobe、Criteo、Kargo、Pacvue 及 StackAdapt 等廣告技術公司。ChatGPT 目前月活使用者逾五億，每日處理超過三十億條對話，OpenAI 設定 2026 年廣告收入目標為 25 億美元、2030 年達到一千億美元。</p><p><strong>第二</strong>　ChatGPT Ads Manager 的核心戰略意涵在三個維度展開。其一，CPM 到 CPC 的計費轉型在 AI 對話廣告史上的地位等同於 Google 2002 年 AdWords 大規模推廣 CPC 模式——對話情境中用戶的明確意圖使 CPC 的點擊質量遠高於展示廣告，若廣告主確認轉化效率，ChatGPT 廣告 CPC 出價可能形成高於傳統搜索的溢價，直接為 OpenAI 廣告業務提供比 Google Search 更高的每次點擊收入天花板。其二，Dentsu、Omnicom、WPP、Publicis 四大廣告集團同步入局是廣告行業對 AI 對話平台廣告媒介地位的正式確認，類似 Facebook 2012 年開放自助廣告工具的行業節點——廣告預算遷移一旦建立生態黏性，對 Google Search 廣告意圖流量的分流壓力將持續累積，是評估 $GOOGL 搜索廣告長線定價議價空間的可量化外部信號。其三，OpenAI 廣告收入路線與訂閱並行，有助在 S-1 中向機構投資人展示多元化收入結構，降低對 API 與訂閱單一路線的集中風險，是 IPO 估值敘事中重要的商業模式廣度佐證。</p><p><strong>第三</strong>　對 BEXS 黃金交易學員而言，ChatGPT 廣告收入目標 25 億美元（2026）至一千億美元（2030）是 OpenAI IPO S-1 廣告業務成長敘事的財務錨點，建議以 Google Search 廣告 2002 至 2006 年 CPC 商業化斜率為歷史基準，評估 ChatGPT 廣告意圖密度能否複製同等斜率，並以 Q2 2026 OpenAI 財務披露中廣告收入首次列示比例作為商業化速度的基線確認。對企業 CIO 而言，ChatGPT Ads Manager 的 CPC 門檻移除意味著企業可以低於五萬美元的測試預算進入高意圖對話廣告場景，建議在 H2 2026 品牌廣告預算規劃中分配 5-10% 至 ChatGPT 廣告概念驗證，重點評估 B2B 採購決策類關鍵詞在 AI 對話情境的轉化質量相對 Google Search 的效益比。對開發者而言，追蹤 OpenAI 是否在 H2 2026 為 Criteo 及 StackAdapt 等合作夥伴開放程序化廣告 API 端點，是評估 ChatGPT 廣告生態開放度及代理驅動廣告優化工具架構機會的前置信號。</p>"
     }
   ]
 }
