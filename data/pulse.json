@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-05-28T17:05:00+08:00",
+  "updated_at": "2026-05-28T18:00:00+08:00",
   "items": [
+    {
+      "id": "pulse-2026-05-28-18-cisco-multi-turn-ai-attacks-no-frontier-safe",
+      "ts": "2026-05-28T18:00:00+08:00",
+      "title": "Cisco 實測 15 個前沿模型全數被攻破 · 多輪攻擊成功率最高 88%、行業安全基準系統性失真確認",
+      "source": "SiliconAngle / Cisco Research",
+      "url": "https://siliconangle.com/2026/05/27/cisco-report-finds-no-closed-frontier-ai-model-safe-from-multi-turn-attacks/",
+      "blurb": "Cisco AI 威脅研究團隊測試 OpenAI、Anthropic、Google、Amazon、xAI 五大廠商共 15 個閉源旗艦模型，多輪對抗攻擊成功率從 7.89% 至 88.30%；xAI Grok 4.1 Fast 最高達 88%，Claude 系列最低亦達 11-16%，多輪攻擊脆弱性被確認為當前 frontier 架構的結構性缺陷而非個別廠商問題。",
+      "editorial": "<p><strong>第一</strong>　2026 年 5 月 27 日，Cisco AI 威脅情報研究團隊發布報告，針對 OpenAI、Anthropic、Google、Amazon 及 xAI 五大廠商共 15 個閉源旗艦模型實施系統性對抗測試，執行 30,090 條單輪對抗提示及 6,986 條多輪提示、橫跨 1,456 場對話。單輪攻擊成功率（ASR）方面，Claude 系列表現最穩健，個位數 ASR 居全體最低；Google Gemini 3 Pro 單輪約 18%，xAI Grok 系列顯著偏高。進入多輪攻擊情境後，格局發生結構性逆轉：整體 ASR 從 7.89% 至 88.30% 不等，xAI Grok 4.1 Fast 非推理模式達 88.30%，Google Gemini 3 Pro 從約 18% 急升至 73%，Claude 系列雖為全體最低仍落入 11% 至 16% 區間。研究團隊結論：多輪攻擊脆弱性是當前 frontier AI 的結構性屬性，與模型是否開源無關，與廠商聲稱的安全評分亦幾乎無關。</p><p><strong>第二</strong>　此報告在三個維度確立 AI 安全基準話語的結構性失真。其一，現行業界主流安全基準幾乎全為單輪設計——一問一答框架無法模擬真實攻擊者逐步建立信任、累積上下文後才執行惡意指令的多輪策略，Cisco 的數據量化地證明單輪基準對真實攻擊威脅的低估程度從幾倍至數十倍不等。其二，Claude 系列在單輪 ASR 創下業界最低紀錄，卻在多輪情境中仍升至 11-16%，意味著即使是設計最謹慎的安全護欄在持續對話攻擊下仍存在可量化的失敗率——此數字是 Anthropic 在 Glasswing Project 及企業安全敘事中不可迴避的公開基準。其三，Grok 4.1 Fast 達到 88% ASR 揭示非推理架構配置在 JailBreak 防禦上的系統性劣勢，xAI 的企業部署策略若未針對推理模式做出明確區隔，面臨高監管行業採購審查的重大風險。</p><p><strong>第三</strong>　對企業 CIO 而言，多輪攻擊成功率是評估 AI 企業部署真實風險的核心指標，建議將「多輪 JailBreak ASR」列入供應商評估評分卡，並要求主要 AI 供應商提供多輪對抗測試的內部基準數字；在金融、醫療、法律等高監管場景，建議在 AI 工具合約中要求廠商承諾多輪安全測試更新頻率。對開發者而言，多輪攻擊的主要向量是累積上下文操控，建議在代理工作流設計中設置每 N 輪強制上下文重置節點，並評估是否在系統提示中嵌入指令完整性驗證邏輯。對 BEXS 黃金交易學員而言，Cisco 報告是 AI 安全合規審計市場規模擴張的直接外部催化劑——若多輪攻擊測試成為標準化要求，第三方 AI 安全審計需求量將出現乘數效應；建議追蹤伊利諾州 SB 315 實施細則中是否明確要求多輪攻擊測試為審計標準，以確認市場擴張時程。</p>"
+    },
+    {
+      "id": "pulse-2026-05-28-18-sap-prior-labs-tabular-ai-europe-frontier",
+      "ts": "2026-05-28T18:00:00+08:00",
+      "title": "SAP 十六億美元收購 18 個月德國 AI 新創 · 表格基礎模型繞開 LLM 賽道、歐洲首個企業 frontier 實驗室成形",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/05/sap-bets-1-16b-on-18-month-old-german-ai-lab-and-says-yes-to-nemoclaw/",
+      "blurb": "SAP 以超過五億美元現金收購德國 AI 初創 Prior Labs，承諾四年總投入逾十億歐元，押注表格基礎模型（TabPFN）以結構化數據繞開 LLM 賽道；Yann LeCun 加入科學顧問委員會，歐洲首個由全球頂尖企業軟體廠商錨定的 frontier AI 實驗室正式宣告。",
+      "editorial": "<p><strong>第一</strong>　2026 年 5 月 4 日，SAP 宣布完成對德國 AI 初創 Prior Labs 的收購協議，以超過五億美元現金完成初始收購，並承諾未來四年額外投入逾十億歐元（約 11.6 億美元）打造一個面向全球的 frontier AI 實驗室，收購與投資合計超過十六億美元。Prior Labs 由 Frank Hutter（AutoML 共同創辦人）、Noah Hollmann 及 Sauraj Gambhir 創辦，成立僅 18 個月，核心技術為表格基礎模型（Tabular Foundation Model，TFM）——以 TabPFN 為旗艦，在數百份獨立學術研究中多次刷新結構化數據 AI 基準，論文已發表於《Nature》。Prior Labs 將以獨立實體繼續運作，科學顧問委員會延攬 Yann LeCun（ACM 圖靈獎）及 Bernhard Schölkopf（Max Planck 智能系統所）。SAP 同時確認接受 NVIDIA NemoClaw 架構為 SAP 背書架構，允許其接入 SAP 核心系統。</p><p><strong>第二</strong>　SAP 押注 Prior Labs 的戰略邏輯在三個維度確立產業格局的轉折信號。其一，SAP CTO 明確表態「最大的企業 AI 機會不在大型語言模型，而在驅動全球業務的結構化數據」——全球企業數據超過 80% 存儲為表格結構（ERP 交易、財務帳目、供應鏈記錄），現有 LLM 在原生處理結構化數字與類別數據方面效率遠低於專用 TFM 架構，SAP 以逾十六億美元確認這一差異值得獨立押注。其二，Prior Labs 以獨立實體運作而非被吸收，Yann LeCun 加入科學委員會是 SAP 向學術界輸出信號、強化人才招募能量的制度性動作，是歐洲目前規模最大、最具機構信用背書的 AI 研究實驗室建設項目。其三，NVIDIA NemoClaw 獲 SAP 背書首次確立一個企業軟體巨頭在架構層面支持 NVIDIA 推論標準，對 AMD ROCm 及開源推論生態在企業 ERP 場景的相對競爭力構成制度性壓力。</p><p><strong>第三</strong>　對企業 CIO 而言，SAP 正式進入 frontier AI 模型層意味著 SAP S/4HANA 及 SAP Analytics Cloud 的未來 AI 功能路線圖將直接受 Prior Labs TFM 技術驅動，建議在 SAP 平台評估中納入「TFM 驅動功能完整性」作為 2027 至 2028 年合約周期的維度，並追蹤 Prior Labs TabPFN 何時整合進 SAP RISE 及 SAP BTP 環境。對 BEXS 黃金交易學員而言，SAP 收購後股價短期承壓，但 TFM 技術若在 2027 年確認整合進主力產品線並提升 ARR，是重新評估 SAP 估值倍數的中期觸發點；建議追蹤 SAP FY2026 Q3 財報中是否首次披露 Prior Labs 整合進度及相關研發支出分項。對開發者而言，Prior Labs TabPFN 的 Python 庫目前已開源，是現有 AutoML 工具（AutoGluon、H2O.ai）的高精度替代選項，在中小型數據集（最佳化約一萬行以下）的性能優勢顯著；建議在金融、零售及製造行業的預測分析管線中評估 TabPFN 相較 XGBoost 及 LightGBM 的準確率改善幅度。</p>"
+    },
     {
       "id": "pulse-2026-05-28-17-anthropic-compliance-api-28-security-integrations",
       "ts": "2026-05-28T17:05:00+08:00",
@@ -252,24 +270,6 @@
       "url": "https://techcrunch.com/2026/05/20/openai-barrels-toward-ipo-that-may-happen-in-september/",
       "blurb": "OpenAI 5 月 20 日正式向 SEC 保密遞交 S-1 草稿，高盛與摩根士丹利擔任主承銷，目標九月至十一月以逾兆美元估值敲鐘；Musk 訴訟全判撤銷清除最後法律障礙，全球最大未上市 AI 公司進入不可逆 IPO 倒計時。",
       "editorial": "<p><strong>第一</strong>　2026 年 5 月 20 日，OpenAI 向美國證券交易委員會（SEC）保密遞交其首份 S-1 招股說明書草稿，正式啟動公開上市流程。主承銷銀行為高盛（Goldman Sachs）與摩根士丹利（Morgan Stanley）。CEO Sam Altman 設定目標上市窗口為 2026 年九月（勞工節）至十一月（感恩節）之間，外部估值目標超過一兆美元。背景：OpenAI 上月取得 Musk 訴訟關鍵勝利，陪審團裁定 Musk 全部訴訟主張因時效問題不成立，移除了威脅公司結構、領導層與財務陳述完整性的最大法律風險。OpenAI 目前年化收入超過 250 億美元，以 2026 年 Q1 末 8,520 億美元估值完成 1,220 億美元融資，投資方涵蓋 Amazon、NVIDIA、SoftBank 及 Microsoft。</p><p><strong>第二</strong>　OpenAI 保密 S-1 申報的戰略意涵在三個維度同步展開。其一，保密申報確認 OpenAI 進入不可逆 IPO 倒計時——美國監管框架下，保密 S-1 後公司對投資人溝通受嚴格限制，Altman 九月目標意味著公開版 S-1 最遲需在八月上旬發布，任何重大新一輪融資或收購在此窗口內均受合規約束，公司實質進入準上市靜默期。其二，兆美元估值目標使 OpenAI 與 Anthropic（現估值約 9,000 億美元）的市場定價敘事形成直接競爭參照——兩家公司 IPO 窗口幾乎完全重疊，機構投資人必須在定位高度相似的兩家 AI 公司之間進行資本配置優先性選擇，形成有史以來最大規模同類 AI 公司上市競爭格局。其三，高盛加摩根承銷組合是最高信用背書信號，S-1 公開後「政府合約集中度、安全護欄政策影響、算力資本支出對自由現金流的結構性壓力」三項將成為機構投資人最關注的風險因素章節。</p><p><strong>第三</strong>　對 BEXS 黃金交易學員而言，OpenAI IPO 定價窗口（九月至十一月）是 2026 年下半年最重要的 AI 資本市場事件，建議在公開版 S-1 發布後優先分析年化收入增速、GPT API 企業合約留存率及算力資本支出對自由現金流的結構性壓力三項指標；OpenAI 兆美元估值敘事若需成立，API 毛利率需明確呈現改善趨勢，建議以季度數據作為判斷錨點。對企業 CIO 而言，OpenAI 上市後股東壓力可能加速其對企業合約定價的商業化取向，建議在現有 ChatGPT Enterprise 或 API 合約談判中爭取多年固定費率條款，以鎖定上市前的協議定價基準。對開發者而言，S-1 公開版通常附帶詳細 API 使用量及基礎設施成本披露，是評估 OpenAI 長線定價能力與算力效率的最直接外部資料，建議在公開後立即分析其 token 單位成本曲線，以量化定價下行空間。</p>"
-    },
-    {
-      "id": "pulse-2026-05-27-19-trump-canceled-ai-eo-90day-frontier-model-sharing",
-      "ts": "2026-05-27T19:00:00+08:00",
-      "title": "Trump 臨簽前叫停 AI 行政命令 · 前沿模型九十天強制預報計畫取消、美國 AI 監管從制度化退回自願框架",
-      "source": "Axios / CNBC",
-      "url": "https://www.axios.com/2026/05/21/trump-ai-executive-order-postponed-why",
-      "blurb": "Trump 5 月 21 日在文件即將簽署前緊急叫停要求 AI lab 提前 90 天向政府披露前沿模型的行政命令，原因是「不想阻礙美國對中國的技術領先」；美國聯邦 AI 安全監管框架從法規強制正式退回各 lab 自願分享的脆弱基礎，各州 AI 立法填補真空壓力驟增。",
-      "editorial": "<p><strong>第一</strong>　2026 年 5 月 21 日，美國總統 Trump 在行政命令即將於白宮簽署的最後時刻叫停，取消了一份要求 AI 公司在公開發布前 90 天提前向聯邦政府披露前沿模型的行政命令草稿。Trump 向媒體表示「我們領先中國、領先所有人，我不想做任何阻礙這個領先的事情」，並稱該命令「可能會成為一個阻礙」。草稿命令原計畫建立自願框架，要求 AI 公司提前 90 天向政府提交模型，並向重要基礎設施提供商開放存取；涉及政府機構包含財政部（Treasury）、國家安全局（NSA）及網路安全暨基礎設施安全局（CISA），擬設計機密基準測試流程評估 AI 模型的高級網路能力並定義「受監管前沿模型」啟動門檻。Axios 報導顯示，命令在白宮內部存在明顯分歧，AISI 主任派系支持更強制性框架，產業友好派認為此舉減緩美國 AI 商業化速度。</p><p><strong>第二</strong>　叫停在三個維度確立 2026 年美國 AI 監管格局的關鍵走向。其一，叫停確認 Trump 政府 AI 監管哲學以「不阻礙競爭力」為最高優先——現行框架下，AI 公司向政府分享預發布模型維持自願性質，Bloomberg 5 月 5 日報導的 Google、Microsoft、xAI 自願協議為目前唯一有效的政府存取機制，任何外部壓力都難以強制轉化。其二，叫停與五角大廈對 Anthropic 以「供應鏈風險」標籤施壓形成明顯矛盾——Trump 政府一方面以 AI 競爭力為由拒絕強制披露，另一方面以行政手段強迫 Anthropic 開放其拒絕授予的軍事使用場景，兩者均是政府對 AI 自主性的干預但方向截然相反，顯示美國 AI 政策在安全監督與商業化競速之間的根本矛盾仍未化解。其三，聯邦層面監管真空的確認，使各州 AI 法規（尤其是伊利諾伊州 SB-315 全議會 52:5 通過）事實上成為 frontier lab 的主要合規標準，碎片化合規成本結構性加速。</p><p><strong>第三</strong>　對 BEXS 黃金交易學員而言，聯邦 AI 監管確立延遲是 AI 公司估值的雙面因素——短期移除強制披露的商業摩擦，但監管不確定性同時提高機構投資人要求的風險溢價；建議在 OpenAI 及 Anthropic S-1 路演估值模型中，將「聯邦監管確立時間表」列為獨立不確定性因子，以敏感性分析量化強制監管落地對 IPO 估值的潛在折讓幅度。對企業 CIO 而言，聯邦自願框架確認後，AI 合規基準制定主導權向歐盟 AI Act（2026 年 12 月透明度義務截止）及各州法規傾斜；在美國多州業務機構的 AI 治理框架，建議優先對齊伊利諾伊州 SB-315 及加州最嚴標準以覆蓋最大風險敞口，無需等待聯邦框架確立再行規劃。對開發者而言，自願框架維持意味著 API 使用條款不會因政府存取義務被迫修訂，短期 API 設計不受政府預批審閱時間壓力；建議追蹤美國商務部 CAISI 的模型評估方法論公開文件，以理解政府評估邏輯對 frontier lab 技術決策的隱性影響。</p>"
-    },
-    {
-      "id": "pulse-2026-05-27-18-google-deepmind-contextual-ai-acqui-hire",
-      "ts": "2026-05-27T18:00:00+08:00",
-      "title": "Google DeepMind 以授權架構收購 Contextual AI 全隊 · 逾 20 名 RAG 研究員含創辦人轉移、同週四家 frontier lab 並發人才 M&A 整合加速",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-19/google-hires-staff-from-bezos-backed-contextual-ai-in-licensing-deal",
-      "blurb": "Google DeepMind 斥 8,000 至 9,000 萬美元以技術授權取代傳統收購，將 Bezos 投資的 Contextual AI 共同創辦人 Douwe Kiela 及逾 20 名 RAG 研究員整體移入；同週 Anthropic、Mistral、Meta 各完成一筆類似交易，五天四家 frontier lab 並發 M&A 是整合加速潮的集體信號。",
-      "editorial": "<p><strong>第一</strong>　2026 年 5 月 19 日，Bloomberg 報導 Google DeepMind 與 Bezos Expeditions 支持的 Contextual AI 達成技術授權協議，向 Google 轉讓核心技術的非獨家授權，並招募逾 20 名研究員加入 DeepMind，其中包含共同創辦人兼執行長 Douwe Kiela。Kiela 是在「RAG（檢索增強生成）」術語被業界廣泛採用之前即構建此類基礎設施架構的關鍵研究人物，Contextual AI 成立於 2023 年，完成 8,000 萬美元 Series A，總部位於加州山景城。交易金額約 8,000 至 9,000 萬美元，結構刻意設計為「技術授權＋人才招募」而非傳統企業收購，明確為規避聯邦貿易委員會的反壟斷審查。同週，Anthropic、Mistral 及 Meta 各完成一項類似結構的人才導向交易，四家 frontier lab 在五天內並發四筆交易。</p><p><strong>第二</strong>　此交易的戰略意涵在三個維度同步展開。其一，Kiela 對企業知識庫 RAG 系統的研究深度，直接補強 Google DeepMind 在企業代理工作流中的文件理解與知識注入能力，與同週發布的 Gemini Spark 長程記憶代理架構高度互補，更可能服務於 Google 企業知識代理的研發路線而非單純模型訓練。其二，「技術授權＋人才招募」結構是 frontier lab 在美國反壟斷審查升溫下主動構建的法律規避框架；FTC 針對 Microsoft-Inflection、Amazon-Adept 等類似交易的前期調查並未阻止此結構持續被複製，說明 frontier lab 已將監管規避結構標準化而非選擇直面審查成本。其三，四家 frontier lab 同週並發類似交易的集群效應，表明頂尖 AI 研究人才市場已進入供給緊縮加速期，各 lab 的共識是 2026 年剩餘建立護城河的時間視窗快速收窄。</p><p><strong>第三</strong>　對企業 CIO 而言，Contextual AI 核心技術及研究人員轉移至 DeepMind 後，現有 Contextual AI 客戶的產品路線圖存在不確定性，建議在 Q3 前與 Contextual AI 就維護義務及路線圖承諾取得書面確認，並評估 Google DeepMind 企業代理產品線是否於年底提供替代方案。對開發者而言，Kiela 加入 DeepMind 後，Gemini 系模型在企業文件理解、長程知識庫查詢及多跳推理上的逐季改善值得追蹤，建議在 Gemini 3.5 Pro（預計 6 月）中重點評估 RAG 基準，量化人才整合在 6 至 9 個月後的模型能力傳導。對 BEXS 黃金交易學員而言，四家 frontier lab 同週 M&A 是 2026 年 AI 整合加速浪潮的外部量化信號，若此類「人才授權」交易頻率持續上升，AI 初創的退出時間視窗縮短及退出估值傳導值得納入投資組合假設更新。</p>"
     }
   ]
 }
