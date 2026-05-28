@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-05-28T00:00:00+08:00",
+  "updated_at": "2026-05-28T09:01:00+08:00",
   "items": [
+    {
+      "id": "pulse-2026-05-28-09-google-search-ai-mode-gemini-flash-agentic-global",
+      "ts": "2026-05-28T09:01:00+08:00",
+      "title": "Google 以 Gemini 3.5 Flash 部署 Search AI Mode 全球上線 · 代理式預訂落地、搜尋框二十五年最大重構完成",
+      "source": "Google Blog",
+      "url": "https://blog.google/products-and-platforms/products/search/search-io-2026/",
+      "blurb": "Google 5 月 27 日將 AI Mode 向全球用戶全面開放，Gemini 3.5 Flash 成為 Search 預設推理模型，代理式預訂功能（Agentic Booking）正式允許 Search 代替用戶致電商家完成服務預約；搜尋框首次從關鍵字端點演變為任務執行界面。",
+      "editorial": "<p><strong>第一</strong>　5 月 27 日，Google 正式將 Search AI Mode 向全球用戶開放，以 Gemini 3.5 Flash 作為預設推理模型——其推理速度是前代同級模型的四倍，API 定價每百萬 token 輸入 1.5 美元、輸出 9 美元，約為 Gemini 3.1 Pro 的三分之一。同步上線的代理式預訂功能（Agentic Booking）允許 Google 代替用戶直接致電商家完成本地服務預約，覆蓋餐廳、活動及私人服務場景，今夏面向所有免費用戶開放。Google 官方將此定性為搜尋框二十五年來最大的架構升級，輸入介面從關鍵字端點演變為自然語言任務執行界面。</p><p><strong>第二</strong>　AI Mode 全球化部署在兩個維度確立結構性影響。其一，Agentic Booking 是搜尋廣告商業模式的臨界點：傳統點擊廣告邏輯建立在「用戶看到結果並點擊」的前提上，當搜尋代理直接完成任務，廣告主的轉化漏斗從 CPM/CPC 模型向任務完成導向的計費結構遷移，Alphabet 廣告收入的中長期結構性重塑已啟動。其二，Google 以 Gemini 3.5 Flash 的低成本優勢確保代理搜尋可在免費層大規模部署，明確意圖在 Perplexity 及 OpenAI Search 等替代搜尋產品形成規模前鞏固市場主導地位。</p><p><strong>第三</strong>　對企業 CIO 而言，代理化搜尋意味著員工知識工作流程正在改變信息獲取模式，建議評估員工使用 AI 搜尋代理的合規邊界，特別是代理自動預訂功能在企業採購場景的授權管理設計。對開發者而言，Search 代理化強化了 Gemini API Grounding with Google Search 工具的實用價值，值得重新評估代理應用整合 Google Search 工具的成本效益。對 BEXS 交易學員而言，Agentic Booking 的商業化是 Alphabet 廣告業務「點擊轉任務」估值重評的前置信號，建議追蹤 Q2/Q3 Alphabet 搜尋廣告 ARPU 趨勢以確認商業模式轉型的收入斜率。</p>"
+    },
+    {
+      "id": "pulse-2026-05-28-09-meta-8000-layoffs-ai-capex-125b-restructuring",
+      "ts": "2026-05-28T09:01:00+08:00",
+      "title": "Meta 砍萬人同步倍增算力支出 · Zuckerberg 以最大規模 AI 重組押注基礎設施主導地位",
+      "source": "The Next Web",
+      "url": "https://thenextweb.com/news/meta-layoffs-may-2026-ai-restructuring-thousands",
+      "blurb": "Meta 5 月 20 日裁員八千人（全球員工約 10%），同步削減六千個空缺並將七千名員工轉調 AI 部門；2026 年資本支出計畫達一千一百五十至一千四百五十億美元，近乎 2025 年兩倍，以人力成本換算力規模的路線正式確立。",
+      "editorial": "<p><strong>第一</strong>　2026 年 5 月 20 日，Meta Platforms 開始通知全球約八千名員工離職，裁員規模約佔全球員工總數的 10%，同步消除近六千個空缺職位，並將七千名員工轉調至 AI 相關部門。裁員通知從亞太地區開始，隨後擴及歐洲及美洲。Meta 2026 年資本支出計畫為一千一百五十至一千四百五十億美元，幾乎是 2025 年的兩倍，資金主要用於資料中心、自研 AI 晶片及 Meta 超級智能實驗室（MSL）。Zuckerberg 在內部備忘錄承諾 2026 年不再進行全公司規模裁員，但管理層確認年內局部削減仍有可能。</p><p><strong>第二</strong>　Meta 此波重組的戰略邏輯在三個面向上具有深層意涵。其一，Meta 的算力路徑與 OpenAI 及 Anthropic 根本不同：後者透過外部融資採購算力，Meta 透過內部人力重組釋放成本為自建基礎設施融資，兩條路都在爭奪相同的 GPU 資源，但 Meta 的自建路徑對算力堆疊具有更高的控制主權。其二，七千名轉調員工集中在 AI 工具、廣告自動化及基礎設施，與 Meta One 訂閱產品的商業化路徑高度一致，人力重組是商業模型重塑的一部分。其三，此次重組確立了「以人力成本換算力資本」的 AI 時代企業轉型範式，正在為後來者提供可複製的結構調整框架。</p><p><strong>第三</strong>　對 BEXS 交易學員而言，Meta 一千一百五十億至一千四百五十億美元的年度資本支出是 NVIDIA 硬體需求的直接確認信號；建議同時追蹤 Meta 自研 MTIA 晶片的推進進度，作為其 NVIDIA 依存度下降時程的前置指標。對企業 CIO 而言，Meta 結構轉型正在為「AI 優先重組」提供業界標竿，可預期類似的人力結構調整將在更多大型科技及金融機構複製，建議在 HR 戰略規劃中納入 AI 工具自動化對現有職能的中期替換路徑分析。對開發者而言，Meta MSL 資源加速意味著 Llama 模型家族的研發投入正在提升，開源生態的能力邊界擴張可預期加速。</p>"
+    },
+    {
+      "id": "pulse-2026-05-28-09-nvidia-nemotron-3-open-multimodal-moe",
+      "ts": "2026-05-28T09:01:00+08:00",
+      "title": "NVIDIA Nemotron 3 殺入開源多模態賽道 · 硬體龍頭宣告從晶片供應商升格為模型生態建構者",
+      "source": "NVIDIA Newsroom",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-debuts-nemotron-3-family-of-open-models",
+      "blurb": "NVIDIA 5 月 27 日推出 Nemotron 3 系列，Nano Omni 以 30B 總參數僅激活 3B 的混合 Mamba-Transformer MoE 架構，宣稱推理效率較同類開源模型提升 9 倍，統一支援視訊、音訊、圖像與文字四模態；GPU 製造商首度以自研開源模型正面挑戰 Meta Llama 生態主導地位。",
+      "editorial": "<p><strong>第一</strong>　NVIDIA 5 月 27 日正式發布 Nemotron 3 系列開源模型，包含 Nano、Super、Ultra 三款。旗艦發布品為 Nano Omni：30B 總參數、每次推理僅激活 3B，採混合 Mamba-Transformer MoE 架構，統一整合視訊、音訊、圖像與文字四模態；官方測試推理吞吐較同規模主流開源模型提升 9 倍，六項公開基準排名第一。Super（120B 總參數、激活 12B）宣稱相較 Qwen3.5-122B 效率提升 7.5 倍，支援百萬 token 上下文。全系列以開源形式發布，可通過 Nvidia NIM 微服務平台部署。</p><p><strong>第二</strong>　此次發布的戰略意涵超越模型技術本身。NVIDIA 從「算力賣方」升格為「模型生態建構者」：Nano Omni 的邊緣推理設計精確對準 Nvidia Jetson 生態，直接競爭 Meta Llama 在終端場景的市場份額；Mamba-Transformer 混合架構在 NVIDIA 原廠生產環境背書下，對純 Transformer 架構的推理效率假設形成量化挑戰，成為開源推理架構選型的新基準。更深層的邏輯在於：Nemotron 3 的最佳推理效率依賴 NVIDIA GPU 環境，自研模型成為強化硬體生態黏性的新槓桿，NVIDIA 從晶片到推理框架到模型的垂直整合正式成形。</p><p><strong>第三</strong>　對開發者而言，Nano Omni 的多模態設計大幅降低邊緣 AI 代理的架構複雜度，建議在 Nvidia NIM 平台評估其相較 Llama 或 Gemma 的推理成本替換空間。對企業 CIO 而言，NVIDIA 進入模型層意味著硬體採購與模型選型的利益衝突需要在架構治理層面正式討論，避免算法選型被硬體鎖定效應隱性驅動。對 BEXS 交易學員而言，模型主權佈局是 NVIDIA 從設備商向 AI 平台公司估值轉型的前置信號，建議追蹤 Nvidia AI Enterprise 軟體收入佔比作為轉型進度的量化指標。</p>"
+    },
     {
       "id": "pulse-2026-05-28-00-meta-one-subscription-ai-chatbot-global-launch",
       "ts": "2026-05-28T00:00:00+08:00",
@@ -243,33 +270,6 @@
       "url": "https://www.anthropic.com/news/anthropic-kpmg",
       "blurb": "KPMG 與 Anthropic 宣告全球戰略聯盟，逾二十七萬六千名員工全面部署 Claude 並嵌入核心工作平台 Digital Gateway；四大中首個 frontier AI 全員聯盟，確立大型專業服務機構 AI 採購從工具訂閱進入工作流原生嵌入的新採購臨界。",
       "editorial": "<p><strong>第一</strong>　五月十九日，Anthropic 與 KPMG 宣布全球戰略聯盟，KPMG 全球逾二十七萬六千名員工將全面部署 Claude，成為四大會計師事務所中首個簽署 frontier AI 全員聯盟的機構。核心落地載體為 KPMG Digital Gateway Powered by Claude——KPMG 現有核心工作平台的 Claude 嵌入版本，初始聚焦稅務及私人股本客戶兩個工作流，後續擴展至審計、諮詢及法律業務線。Anthropic 同步命名 KPMG 為私人股本客戶服務的優先合作夥伴，雙方將聯合開發私募股權組合管理工具，涵蓋 IT 現代化加速（KPMG Blaze + Claude Code）及 AI 策略落地兩大服務線。同月，PwC 已宣布擴展聯盟並啟動三萬人 Claude 認證計畫，KPMG 在全員規模與工作流嵌入深度上均形成新基準。</p><p><strong>第二</strong>　KPMG 聯盟在三個維度確立大型專業服務機構 AI 採購進入新階段的結構信號。其一，從工具訂閱到工作流原生嵌入：KPMG 將 Claude 嵌入員工執行實際工作的 Digital Gateway 平台，而非以獨立 AI 助理工具形式部署，意味著 AI 採購重心已從「有無 AI 工具」轉向「AI 是否整合於核心工作流執行路徑」，後者的替換成本與員工採用率均遠高於前者，是高黏性採購關係的結構性鎖定。其二，KPMG 引入 Claude Code 至 IT 現代化服務線，將 AI 編程能力包裝為向私募股本客戶收費的交付加速服務，是 frontier lab 模型能力通過大型顧問機構向下游轉化為服務收費的典型商業化路徑，驗證 Claude Code 具備承接企業級關鍵路徑工作的商業可行性。其三，Anthropic 在同一個月完成 PwC、KPMG 及 Blackstone 企業服務公司三條大型進入路徑，形成覆蓋頂尖顧問、審計與 PE 分銷的企業佈局，與 OpenAI DeployCo 在企業規模市場的競爭格局正式確立。</p><p><strong>第三</strong>　對 BEXS 黃金交易學員而言，KPMG 聯盟是 Anthropic 企業 ARR 可見性最高的外部節點之一；二十七萬人全組織部署若按中等席位費率（月費約四十至六十美元）估算，單一客戶年化合約價值可達數億美元，與 Ramp 指數顯示的企業採用率逆轉相互印證，強化了 Anthropic Q2 正向利潤的企業採購驅動論述，是 Anthropic IPO 路演企業合約章節的核心佐證素材。對企業 CIO 而言，KPMG Digital Gateway 的嵌入模式代表大型 AI 採購正從通用助手訂閱遷移至工作流平台嵌入，下一輪評估的核心問題應是「哪個 AI 能整合進員工每天使用的核心系統」而非「哪個模型最強」；建議 Q3 評估中以此框架審查現有 ERP、CRM 及文件管理平台是否具備 Claude 嵌入的技術路徑。對開發者而言，KPMG Blaze + Claude Code 是 AI 編程助理從 IDE 插件升格為企業級交付加速服務的商業化範本，驗證 Claude Code 能承擔關鍵路徑 IT 現代化任務，是評估代理編程工具在企業採購預算中長期佔位能力的新外部數據點。</p>"
-    },
-    {
-      "id": "pulse-2026-05-25-22-karpathy-anthropic-pretraining-openai-cofounder",
-      "ts": "2026-05-25T22:00:00+08:00",
-      "title": "Karpathy 加入 Anthropic 預訓練核心 · OpenAI 元老系最具代表性人才易位確立 frontier 研究重心向 Claude 陣營位移",
-      "source": "TechCrunch / CNBC",
-      "url": "https://techcrunch.com/2026/05/19/openai-co-founder-andrej-karpathy-joins-anthropics-pre-training-team/",
-      "blurb": "OpenAI 共同創辦人、前 Tesla AI 總監 Andrej Karpathy 5 月 19 日宣布加入 Anthropic 預訓練核心團隊，並同步啟動以 Claude 加速預訓練研究的新組；AI 業界最具學術影響力的導師型研究者正式切入競對預訓練前線，是 Anthropic IPO 前最具指標性的研究人才信號。",
-      "editorial": "<p><strong>第一</strong>　2026 年 5 月 19 日，Andrej Karpathy 在 X 宣布加入 Anthropic，加入預訓練核心團隊，並承擔建立新研究組的職責——以 Claude 本身加速預訓練研究，即以 AI 能力協助設計和優化下一輪訓練。Karpathy 為 OpenAI 創辦成員，後任 Tesla Full Self-Driving 技術總監至 2022 年，再短暫回 OpenAI 後於 2024 年成立 Eureka Labs 聚焦 AI 教育工具開發。此次宣告意味著 Karpathy 中止 Eureka Labs 全職投入，轉向 Anthropic 研究核心，加入時機在 Anthropic Q2 首度正向運營利潤（5.59 億美元）及 IPO 前數月。</p><p><strong>第二</strong>　Karpathy 此番選擇具有三層可讀的競爭信號。其一，他未選擇回 OpenAI，亦未選擇 Google DeepMind 或 Meta，而是選擇 Anthropic——在 frontier lab 對頂尖研究人才競爭公開化的背景下，此選擇本身即是 Anthropic 研究文化可信度的間接外部佐證。其二，他加入的是預訓練而非應用或安全研究，意味著 Anthropic 判斷自身最需在訓練核心強化研究投入，與市場上以「推理優化」為競爭主軸的趨勢形成差異化押注。其三，「用 Claude 加速預訓練研究」的新組定義，與 OpenAI 的強化學習自改進路線及 Recursive Superintelligence 的自主訓練路線形成三方直接對照，確認 Anthropic 以 AI 自動化研究本身列為核心競爭維度。</p><p><strong>第三</strong>　對 BEXS 學員而言，Karpathy 逾 300 萬 X 追蹤者及免費深度學習課程的社會資本，是 Anthropic 在 IPO 路演前最具傳播力的研究人才背書，建議追蹤 Karpathy 加入後 Anthropic 是否加速公開高級研究職缺招募，以量化人才端加速動能；對企業 CIO 而言，預訓練核心人才深化是 Claude 下一世代模型能力改善的研究前置信號，建議在多年 API 合約評估中將 Anthropic 人才積累深度列為供應商長期研發能力的定性指標；對開發者而言，Karpathy 表示將「適時恢復教育工作」，其教育方法論可能在 Claude 開發者工具設計上留下影響，建議追蹤 Claude for Education 及 API 學習工具是否在後續季度加速推出。</p>"
-    },
-    {
-      "id": "pulse-2026-05-25-22-illinois-sb315-senate-52-5-frontier-ai-audit",
-      "ts": "2026-05-25T22:00:00+08:00",
-      "title": "伊利諾州 SB315 以 52 比 5 通過參議院 · Meta、OpenAI、Anthropic 五月底面臨首個州立強制安全審計要求",
-      "source": "Capitol News Illinois / NPR Illinois",
-      "url": "https://capitolnewsillinois.com/news/bill-regulating-powerful-ai-models-advances-as-advocates-say-its-only-the-first-step/",
-      "blurb": "伊利諾州參議院 5 月 20 日以 52 比 5 通過 SB315，要求 frontier AI 開發者採用透明框架、委聘第三方審計並申報災難性風險能力；州議會會期 5 月 31 日截止，若眾議院跟進，將成美國最全面的州級 frontier AI 安全立法，合規期設至 2028 年。",
-      "editorial": "<p><strong>第一</strong>　2026 年 5 月 20 日，伊利諾州參議院以 52 比 5 通過 Senate Bill 315（SB315），為八法案立法套件之一，鎖定 Meta、OpenAI、Anthropic 等大型前沿 AI 開發者。法案核心義務涵蓋三項：一，採用透明框架，公開訓練數據、模型架構及能力評估；二，委聘獨立第三方審計員；三，向州政府申報模型的災難性風險能力。修正條款延長合規期至 2028 年（原定 2027 年）、要求開發者繳納申報費用、明確不創設民事責任。法案修正過程吸收了伊利諾州應急管理局、Secure AI 及 Anthropic 提出的建議。議會會期截止日為 5 月 31 日，法案若未能在期限前通過眾議院，須待秋季立法重啟；法案框架仿照紐約及加州同類議案，三州聯動意在形成美國事實上的 frontier AI 安全合規基準。</p><p><strong>第二</strong>　SB315 的戰略意涵在三個層次展開。其一，州立強制審計是白宮五月撤回 AI 安全行政令後的制度性補位，確認各州正在主動填補聯邦監管真空；紐約、加州、伊利諾三州若最終形成相近立法，對全美市場形成不遜於聯邦規管的外部合規壓力，frontier lab 將面臨多州並行合規義務的疊加成本結構。其二，以災難性風險能力申報為核心義務，首度以州立法明確要求 frontier lab 對政府的主動信息披露，是 EU AI Act 體系以外全球最具操作性的能力申報框架之一，在監管細則清晰度上超越現行聯邦自願性框架。其三，Anthropic 本身參與了法案修正討論，顯示部分 frontier lab 已接受州立合規框架的制度性存在而非採取純對抗姿態，此格局有助於後續聯邦立法的形成與談判。</p><p><strong>第三</strong>　對企業 CIO 而言，SB315 若在 5 月 31 日前通過，採購 frontier AI 模型的伊利諾州企業須在 2028 年前確認供應商合規狀態，建議在 Q3 供應商評估中新增「州立 AI 合規聲明」審查步驟，識別供應商在不同州透明度義務的差距；對開發者而言，第三方審計義務確認 frontier lab 在美國州立層級已進入正式外部問責框架，選擇已公開配合合規審計的供應商是降低採購法律尾部風險的前置手段；對 BEXS 學員而言，三州協調立法若在 H2 2026 形成，是評估 Anthropic 及 OpenAI IPO S-1「法律及監管風險」章節合規成本假設的重要制度信號，建議在 S-1 公開後優先確認各州立法合規成本的量化敏感性揭露方式，作為長期監管費用增速的基準設定依據。</p>"
-    },
-    {
-      "id": "pulse-2026-05-25-22-anthropic-900b-valuation-fundraise-openai-surpass",
-      "ts": "2026-05-25T22:00:00+08:00",
-      "title": "Anthropic 洽談 300 億美元新融資估值逾 9,000 億 · 三個月翻逾兩倍超越 OpenAI、frontier 估值領先正式易主",
-      "source": "CNBC / Bloomberg",
-      "url": "https://www.cnbc.com/2026/04/29/anthropic-weighs-raising-funds-at-900b-valuation-topping-openai.html",
-      "blurb": "CNBC 與 Bloomberg 相繼確認 Anthropic 正洽談以逾 9,000 億美元估值完成 300 至 500 億美元融資，本輪預計五月底收官；繼二月 Series G 以 3,800 億美元完成後，三個月估值翻逾兩倍超越 OpenAI 的 8,520 億美元，Q2 收入 109 億美元首度正向利潤為估值重估提供財務錨點。",
-      "editorial": "<p><strong>第一</strong>　CNBC（4 月 29 日）及 Bloomberg（5 月 12 日）相繼確認，Anthropic 正與投資人洽談新輪融資，籌資目標 300 億至 500 億美元，融前估值逾 9,000 億美元（部分報導引用上限 9,500 億美元），本輪預計五月底完成，要求投資人在 48 小時內提交認購額度。若以 9,000 億美元估值成交，Anthropic 將正式超越 OpenAI 今年三月以 8,520 億美元完成融資後的估值，成為全球估值最高的未上市 AI 公司。財務背景：Anthropic 二月以 3,800 億美元完成 Series G，融資 300 億美元；Q2 2026 季度收入預計 109 億美元（年化逾 400 億美元），Q2 首度實現正向運營利潤 5.59 億美元，財務轉折驅動本輪估值重估。部分早期投資人選擇暫緩此輪，等待 Anthropic IPO 時直接退出。</p><p><strong>第二</strong>　三個月內從 3,800 億美元躍升至逾 9,000 億美元，具有三個結構意涵。其一，Q2 首度正向利潤是此次估值重估的核心財務錨點：OpenAI 在 S-1 披露的 Q1 每賺 1 美元虧損 1.22 美元，與 Anthropic Q2 正向利潤形成直接對比，估值反超的根本驅動是財務敘事優勢的切換，而非單純市場情緒；此對比在 OpenAI IPO 路演定價期間將持續構成敘事摩擦。其二，Anthropic 超越 OpenAI 估值的時間節點，精確落在 OpenAI S-1 機密提交後數天，兩家公司在公開市場定價博弈的第一輪已在一級市場估值數字上確立對比，將直接影響 OpenAI 路演的定價區間設定。其三，9,000 億估值若成立，Anthropic IPO 定價目標將接近萬億美元，兩家萬億級 AI 公司同年掛牌的競爭格局在一級市場已提前確立。</p><p><strong>第三</strong>　對 BEXS 學員而言，本輪若在五月底完成，融後估值正式確立於 9,000 億美元以上，是一級市場給出的 IPO 定價地板；建議以此為 Anthropic IPO 估值分析的錨點下限，並追蹤早期投資人（Google、Amazon、Spark Capital）在本輪的認購態度，以評估二手份額溢價走向及 IPO 浮動幅度；對企業 CIO 而言，Anthropic Q2 正向利潤確認其商業模式已越過盈虧平衡點，多年 API 合約的供應商財務健全性尾部風險實質性下降，是 Q3 合約評估中財務穩定性維度的正向更新；對開發者而言，300 億至 500 億美元融資對應大量新增訓練算力和推理容量投入，結合 xAI Colossus 1 算力合約（月付 12.5 億美元），Anthropic 在 H2 2026 的 API 速率限制改善和新模型推出節奏具備充分資本支撐，是制定長期代理工作流架構選型計畫的正向假設基礎。</p>"
     }
   ]
 }
