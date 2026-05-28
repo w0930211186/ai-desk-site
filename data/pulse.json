@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-05-28T15:05:00+08:00",
+  "updated_at": "2026-05-28T16:06:00+08:00",
   "items": [
+    {
+      "id": "pulse-2026-05-28-16-snowflake-aws-graviton-6b",
+      "ts": "2026-05-28T16:06:00+08:00",
+      "title": "Snowflake 簽 60 億美元 AWS Graviton 合約 · AI 代理爆量推動算力重心從 GPU 訓練轉向 CPU 推論",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/27/in-more-good-news-for-amazon-snowflake-signs-6b-deal-with-aws-for-ai-cpu-chips/",
+      "blurb": "Snowflake 五年 60 億美元押注 AWS Graviton ARM 晶片，確認 AI 代理日常推論工作負載的 CPU 需求已超越 GPU 訓練成為企業算力主軸，雲端算力結構正在重塑。",
+      "editorial": "<p><strong>第一</strong>：雲端數據平台 Snowflake 於五月二十七日宣布與亞馬遜網路服務簽署五年期、總額六十億美元的新採購協議，主要標的為 AWS 自研 Graviton 系列 ARM 架構 CPU 算力。Snowflake 指出，隨著平台工作負載從模型訓練轉向 AI 代理日常推論與自動化任務，CPU 消耗量大幅攀升；Graviton 在性能功耗比上具備系統性優勢，六十億美元的規模確保了 Snowflake 在未來五年的算力成本可控性。</p><p><strong>第二</strong>：此筆合約是 2026 年算力版圖中一個結構性訊號的清晰量化。AI 工作負載的重心已從高單價 GPU 訓練，移向大規模 CPU 推論與代理執行，Snowflake 此舉是企業側對這一轉移的首批可公開量化的大型採購確認。對 AWS 而言，Graviton 在 AI 推論晶片的競爭中（面對 Intel Xeon 及 AMD EPYC）獲得一張六十億美元的長期背書。對 NVIDIA 而言，訓練端市佔短期無虞，但推論端若 CPU 替代趨勢持續擴大，推論加速器的長期定位需重新評估。</p><p><strong>第三</strong>：對企業 CIO 的啟示在於，AI 代理上線後的平台運營成本主要驅動力已轉移，原本以 GPU 為核心的算力採購模型需重新校準——評估 ARM／CPU 在推論負載的 TCO 優勢應成為 H2 採購評估的基準項目。對開發者而言，AI 代理在 ARM 架構的效能調優將成為差異化能力。對投資人而言，Graviton 生態擴張對 AWS 毛利率具正向影響，而純訓練算力供應商在推論端 CPU 替代趨勢的背景下，估值溢價的持續性值得重新審視。</p>"
+    },
+    {
+      "id": "pulse-2026-05-28-16-anthropic-mythos-glasswing-public-path",
+      "ts": "2026-05-28T16:06:00+08:00",
+      "title": "Anthropic 宣告 Mythos 將走向公開 · Glasswing 計畫首月挖出逾萬高危漏洞驗證「漸進式釋放」路線",
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropics-restricted-claude-mythos-model-may-be-coming-to-claude-code/",
+      "blurb": "Anthropic 確認將在安全措施充分後向大眾開放 Mythos 級別模型；Project Glasswing 首月在五十家夥伴軟體中發現逾一萬個高危漏洞，73% 的專家級入侵任務成功率使其成為迄今能力最高的公開 AI 安全工具。",
+      "editorial": "<p><strong>第一</strong>：Anthropic 首次公開表示，計畫在安全護欄充分建立後，將 Mythos 級別模型的能力向一般大眾開放。Mythos 自四月起透過 Project Glasswing 限定向約五十家具備審查資格的防禦性資安夥伴提供存取；英國人工智慧安全研究所評估其在專家級入侵任務中的成功率為 73%，Glasswing 首月合作夥伴已在受測軟體中發現逾一萬個高危或嚴重漏洞。Mythos 在 2026 年美國數學奧林匹亞競賽中得分 97.6%，較 Claude Opus 4.6 的 42.3% 高出逾五十五個百分點；Claude Code 中曾短暫出現 Mythos 存取開關後被下線。</p><p><strong>第二</strong>：Anthropic 此次聲明的戰略意義，在於確立了「依問責層級分配能力」的模型發布框架——最高能力模型先流向具備組織問責機制的防禦端夥伴，積累安全數據後再向下層市場開放。這一路線與 OpenAI 和 Google 的公開 API 優先策略形成明顯對照，是 Anthropic「以安全為核心競爭力」定位的具體制度化體現。逾一萬個漏洞的發現紀錄，同時提供了可量化的 ROI 論述，使企業資安採購決策者有可驗證的績效數字可依據。</p><p><strong>第三</strong>：後續有三個觀察節點：其一，Mythos 能力一旦大規模流入公開市場，現有企業滲透測試服務商的定價模式與人力結構將面臨根本性衝擊，CIO 宜提前評估內部紅隊能力的重構需求；其二，Claude Code 中曾出現的 Mythos 開關顯示開發者工具鏈是下一個可能的開放節點，關注 Claude Code 版本更新公告；其三，若 Anthropic 在 2026 下半年正式對外發布 Mythos 級別模型，將對 OpenAI GPT-5 系列及 Google Gemini Ultra 的企業資安定價構成直接壓力。</p>"
+    },
     {
       "id": "pulse-2026-05-28-15-pope-leo-magnifica-humanitas-ai-encyclical",
       "ts": "2026-05-28T15:05:00+08:00",
@@ -252,24 +270,6 @@
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/next-evolution-gemini-app/",
       "blurb": "Google 個人 AI 代理 Gemini Spark 本週（5 月 26 日起）開始向美國 AI Ultra 用戶廣泛推出，以任務、技能、排程三層架構在 Canva、OpenTable 等跨 App 自主執行；GitHub、Notion、Slack 確認夏季接入，是目前最直接挑戰 OpenAI Operator 的雲端常駐代理產品。",
       "editorial": "<p><strong>第一</strong>　2026 年 5 月 19 日 Google I/O 發布、本週（5 月 26 日起）向更廣泛美國 Google AI Ultra 訂閱者推出的 Gemini Spark，是 Google 迄今最系統性的個人 AI 代理產品。Spark 由任務（Tasks）、技能（Skills）與排程（Schedules）三層架構組成：任務允許指派多步驟跨 App 工作，技能為可反覆調用的個性化指令集，排程觸發定期自動化動作。Spark 部署於 Google 雲端伺服器，用戶關機或鎖屏後仍持續在後台執行。首批 MCP 連接涵蓋 Canva、OpenTable 及 Instacart；Adobe、Samsung、Spotify、CapCut、GitHub、Notion 及 Slack 確認於 2026 年夏季跟進。Google AI Ultra 月費由原 250 美元調降至 100 美元，包含五倍 Gemini 使用配額、20TB 儲存及 YouTube Premium。</p><p><strong>第二</strong>　Gemini Spark 的競爭意涵在三個維度展開。其一，雲端常駐架構是 Spark 相對 OpenAI Operator 最核心的技術差異點：Operator 以瀏覽器遠端操控為代理機制，在多步驟長時程任務中依賴瀏覽器會話持續性；Spark 的代理邏輯部署於 Google 雲端，不受用戶裝置狀態影響，在跨天多日的自動化任務（如持續求職追蹤、價格監控、日曆優化）上具有可靠性優勢。其二，MCP 整合路徑是 Spark 生態快速擴展的槓桿：以標準化 MCP 連接第三方服務，令工具覆蓋面可在夏季從三個快速跳躍至含 GitHub、Notion、Slack 的八個；Spark 是 Anthropic 首推 MCP 標準後最大規模的消費者端落地案例。其三，100 美元月費 AI Ultra 捆綁 YouTube Premium 與 20TB 儲存，是純 AI 訂閱競爭之外的差異化壁壘；若廣告收入可部分攤銷 AI 算力成本，Google 具備長期壓低訂閱定價的結構性優勢。</p><p><strong>第三</strong>　對企業 CIO 而言，Gemini Spark 企業版路線圖尚未公開，建議在 Q3 Google Cloud Next 追蹤 Workspace 企業代理授權框架，評估 GitHub 及 Slack 的 MCP 整合能否在 Workspace 企業環境合規落地。對開發者而言，申請 Spark MCP 合作夥伴資格是在 Google AI Ultra 用戶群建立工具分發管道的直接路徑，建議提前準備標準化 MCP 服務器接口，符合夏季合作夥伴名單的上線時程。對 BEXS 黃金交易學員而言，AI Ultra 訂閱轉化率及捆綁取消率是 Q2 Alphabet 財報中評估代理訂閱定價力的前置指標，建議在 7 月財報中優先關注 AI Ultra 增速與 YouTube Premium 獨立訂閱率的相對變化，量化代理訂閱對 Alphabet ARPU 的淨增量。</p>"
-    },
-    {
-      "id": "pulse-2026-05-27-18-openai-dell-codex-enterprise-on-premises",
-      "ts": "2026-05-27T18:00:00+08:00",
-      "title": "OpenAI 與 Dell 簽署 Codex 本地部署協議 · 400 萬週活開發者代理工具首度打通企業本地數據孤島",
-      "source": "OpenAI",
-      "url": "https://openai.com/index/dell-codex-enterprise-partnership/",
-      "blurb": "OpenAI 在 Dell Technologies World 宣布合作，Codex 代理接入 Dell AI Data Platform 與 AI Factory，使企業在本地基礎設施內調用 AI 編程代理；400 萬週活開發者代理工具首次獲得訪問企業本地敏感資產的技術路徑，高監管行業最大合規障礙首度有系統性解方。",
-      "editorial": "<p><strong>第一</strong>　2026 年 5 月 18 日，OpenAI 與 Dell Technologies 在 Dell Technologies World 宣布合作協議。核心整合涵蓋兩個方向：一，Codex 接入 Dell AI Data Platform（Dell 企業本地數據存儲與治理平台），使 Codex 代理可讀取客戶本地資産並在本地環境執行測試、部署；二，雙方探索 Codex、ChatGPT Enterprise 及 OpenAI API 方案與 Dell AI Factory 的全程整合，覆蓋數據準備、記錄系統管理、自動化測試及 AI 應用部署。Codex 目前每週有逾 400 萬開發者使用，企業場景已從代碼生成擴展至代碼審查、故障回應、產品反饋路由、銷售線索資格核定等非編碼業務場景。</p><p><strong>第二</strong>　OpenAI-Dell 合作在企業 AI 採購的三個結構維度具有戰略意義。其一，企業本地數據整合是 AI 代理工具滲透大型企業的最後一哩壁壘——絕大多數企業最具價值的資産存儲在受安全策略保護的本地或混合雲環境，無法直接發送至公有雲 API；Dell AI Data Platform 整合使 Codex 首次可在不將企業敏感資産上傳至 OpenAI 雲端的前提下執行代理任務，移除高監管行業的最大合規障礙。其二，此合作是 OpenAI DeployCo（5 月 20 日宣布）的具體渠道落地——DeployCo 定位為幫助大型企業遷移至 AI 工作流的諮詢機構，Dell 全球企業硬體分銷網絡覆蓋 Fortune 500 的 98%，一紙渠道協議大幅降低 DeployCo 的客戶獲取成本。其三，Anthropic Claude Managed Agents 自託管沙盒（5 月 19 日）與 OpenAI Codex + Dell 本地部署（5 月 18 日）在同一週發布，「客戶主控執行環境」已成為 frontier lab 在企業代理市場最重要的功能差異化戰場。</p><p><strong>第三</strong>　對企業 CIO 而言，Dell AI Data Platform + Codex 整合為現有 Dell 基礎設施客戶提供落地 AI 代理的最低門檻路徑，建議在現有 Dell 採購週期中索取 AI Factory + Codex 聯合報價及合規文件，並以代碼庫語義搜索、CI/CD 測試自動化、ERP 查詢三個場景設計 POC；有 GDPR 或高監管業務的企業可將此整合列為替代公有雲 API 部署的合規備選。對開發者而言，Codex 向「非編碼業務場景」的延伸驗證其代理 API 可作為跨職能任務引擎，建議評估 Codex API 是否可替換現有工作流中需讀取代碼上下文的業務流程，相對通用模型 Codex 具有結構性代碼理解優勢。對 BEXS 黃金交易學員而言，OpenAI-Dell 合作是評估 OpenAI DeployCo 企業合約規模化速度的最直接渠道信號，建議追蹤 Q2 2026 OpenAI 財務披露中 ChatGPT Enterprise 用戶數增速，以 Dell 渠道合作前後的同比增長曲線作為 DeployCo 轉化效率的量化評估錨點。</p>"
-    },
-    {
-      "id": "pulse-2026-05-27-14-japan-megabanks-claude-mythos-sovereign-finance",
-      "ts": "2026-05-27T14:00:00+08:00",
-      "title": "日本三大銀行月底接入 Claude Mythos · 美日外交授權首例、36 機構工作組確立主權金融 AI 防禦",
-      "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/business/finance/japan-megabanks-to-gain-access-to-anthropic-s-powerful-ai-model-mythos",
-      "blurb": "MUFG、SMBC、瑞穗三大銀行最快本月底接入 Claude Mythos Preview，成首批非美歐 Glasswing 受控預覽機構；美日財政外交渠道授權確認，36 機構公私工作組同步成立，AI 安全能力正式進入主權金融防禦外交議程。",
-      "editorial": "<p><strong>第一</strong>　日本財務大臣宣布，三菱 UFJ 金融集團（MUFG）、三井住友金融集團（SMBC）及瑞穗金融集團三大銀行將最快於 2026 年 5 月底前取得 Anthropic Claude Mythos Preview 存取資格，成為首批進入 Glasswing 受控預覽計畫的日本機構，亦是迄今美歐合作夥伴以外首批非西方主要金融體系成員。授予係經美國財政部長 Scott Bessent 訪問東京期間與日本金融廳（FSA）協商確認，模型使用限定於主動偵測關鍵軟體漏洞，而非一般生成式推理用途。財務省同步宣布成立 36 機構公私聯合工作組，成員涵蓋三大銀行、日本銀行及 Anthropic 與 OpenAI 日本法人，由瑞穗首席信息安全官擔任主席，負責識別日本金融系統曝露風險、部署防禦措施，並制定跨系統漏洞協同修補應急預案。</p><p><strong>第二</strong>　此事件在三個維度具有結構性意涵。其一，日本三大銀行合計管理資產逾七兆美元，為全球系統重要性金融機構（G-SIFIs）中最集中的單一國家叢集；Anthropic 藉此將「防守者先行」框架從美歐 IT 基礎設施延伸至亞太主權金融系統，對新加坡金管局、南韓金融監督院及歐洲系統性銀行監管機構具有清晰的示範效應，是 Glasswing 全球金融行業擴張的關鍵地緣節點。其二，Bessent 訪問東京的外交框架使 Claude Mythos 存取授予進入雙邊美日經濟安全議程，是 AI 安全能力首度以外交渠道向盟國主權金融體系授予，意味著美國政府已將 Mythos 類漏洞偵測能力視為可部署於戰略盟友的「非對稱防禦資源」，此定位對 Anthropic 政府合約市場的結構性支撐高於任何單一商業採購協議。其三，36 機構工作組的規模確認日本監管層將 Mythos 級 AI 能力評估為需系統性制度回應的基礎設施風險，工作組應急預案的設計邏輯若公開，將成為亞太 AI 安全監管框架的重要參照文件。</p><p><strong>第三</strong>　對 BEXS 黃金交易學員而言，日本三大銀行授權是 Anthropic 以 AI 安全能力為切入點在全球主權金融客戶體系建立存在的具體里程碑；建議追蹤後續擴展至新加坡、南韓或歐洲系統性銀行的授權公告，以此為評估 Glasswing 金融行業 ARR 增長速度的先行觀察指標，並在 Anthropic IPO S-1 的「政府與金融機構合約」章節確認此類受控預覽授權是否對應可量化的未來收入承諾。對企業 CIO 而言，36 機構工作組模式是亞太金融行業建立 Mythos 類能力集體防禦框架的制度先例；亞太金融機構資安負責人應在 Q3 前確認是否已啟動 Anthropic 受控授權申請流程，並評估 Claude Security 企業公測版是否可作為過渡防禦工具先行部署，以建立未來接入 Mythos Preview 的技術基線。對開發者而言，日本金融系統的受控使用場景若公開，是理解 Mythos 在 G-SIFIs 級嚴格合規環境下操作邊界的第一手文件；建議追蹤工作組應急預案的正式發布時間，作為評估 AI 安全工具在高監管金融場景可接受使用邊界的外部參照基準。</p>"
     }
   ]
 }
