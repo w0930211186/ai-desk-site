@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-05-28T10:03:00+08:00",
+  "updated_at": "2026-05-28T11:08:00+08:00",
   "items": [
+    {
+      "id": "pulse-2026-05-28-11-illinois-sb315-ai-safety-audit",
+      "ts": "2026-05-28T11:08:00+08:00",
+      "title": "伊利諾州眾議院 110 比 0 通過全美最嚴 frontier AI 安全法・強制第三方審計時代對 OpenAI 及 Anthropic 生效",
+      "source": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/illinois-lawmakers-pass-landmark-ai-accountability-bill/",
+      "blurb": "伊利諾州眾議院 5 月 27 日以 110 比 0 全票通過 SB 315，要求 OpenAI、Anthropic、Meta 等 frontier 開發商每年接受獨立第三方安全審計，州長 Pritzker 已表態簽署；加州、紐約後第三州立法確立，美國多州 AI 監管包圍網成形。",
+      "editorial": "<p><strong>第一</strong>　2026 年 5 月 27 日，伊利諾州眾議院以 110 比 0 的全票通過《人工智慧安全措施法》SB 315，此前州參議院已於 5 月 21 日通過。法案送交州長 J.B. Pritzker，後者在法案通過後隨即在 X 平台發文表示期待簽署，法案本週末前正式成為法律機率極高。SB 315 要求 Meta、OpenAI、Anthropic 等大型 frontier AI 開發商建立並每年更新一份 AI 安全框架（涵蓋災難性風險評估、緩解措施、網路安全、內部治理及第三方評估），強制聘請獨立第三方審計機構對上述框架進行年度審計，並設立員工吹哨者保護機制。適用對象以「frontier model」為定義門檻，通常以訓練算力（超過 10^26 FLOPs）為基準。</p><p><strong>第二</strong>　SB 315 是美國繼加州、紐約後第三個強制要求 frontier AI 第三方審計的州級立法，但在三項指標上均屬迄今最嚴：首個附帶員工吹哨者保護條款；首個要求審計機構獨立於被審計公司；要求公開申報的災難性風險細節最廣。最值得注意的政治信號是，OpenAI 與 Anthropic 雙雙公開支持此法案，而代表 Google 等公司的 AI 產業貿易協會 CCIA 表態反對。frontier lab 選擇站在強監管一方，是以合規成本作為護城河的策略性表態：對規模龐大的 OpenAI 及 Anthropic，年均數百萬美元的審計成本可以承受；對 frontier 門檻以下的中小型競爭者，比例壓力卻構成市場進入的結構性壁壘，強監管在客觀上鞏固了現有頭部玩家的市場地位。</p><p><strong>第三</strong>　對企業 CIO 而言，SB 315 正式生效後，「供應商是否通過第三方 AI 安全審計」將成為採購 frontier AI 服務的事實性盡職調查項目，建議在下半年 AI 服務合約更新週期中將審計報告列為供應商資格文件。對開發者而言，frontier 定義細節（最終算力門檻或參數量指標）將在法規實施細則中確認，建議追蹤伊利諾州 Attorney General 辦公室的執法指引，確認是否波及部署但未訓練模型的 API wrapper 服務商。對 BEXS 黃金交易學員而言，多州審計義務的累積效應是 AI 安全審計市場的直接催化劑；若聯邦 AI 監管在下半年加速，多頭州級監管格局可能促使 OpenAI 及 Anthropic 在 IPO 路演中主動要求聯邦優先權（federal preemption），此政策走向值得在 S-1 文件公開後確認。</p>"
+    },
     {
       "id": "pulse-2026-05-28-10-anthropic-xai-colossus-compute-deal",
       "ts": "2026-05-28T10:03:00+08:00",
@@ -261,15 +270,6 @@
       "url": "https://techcrunch.com/2026/05/19/googles-gemini-omni-turns-images-audio-and-text-into-video-and-thats-just-the-start/",
       "blurb": "Google DeepMind 5 月 19 日發布 Gemini Omni，以文字、圖像、音訊、影片任意組合輸入生成高品質影片，Gemini Omni Flash 當日向訂閱用戶及 YouTube Shorts 開放；首款統一全模態輸入視頻生成模型確立、AI 影片創作競爭從單一觸發模式正式進入全感知資產驅動賽道。",
       "editorial": "<p><strong>第一</strong>　2026 年 5 月 19 日，Google DeepMind 在 Google I/O 年度大會發布 Gemini Omni 模型家族，定位為首款能以文字、圖像、音訊與影片任意組合為輸入生成高畫質影片的統一多模態模型。首個版本 Gemini Omni Flash 當日開始向 Gemini 應用程式及 Google Flow 的 AI Plus、AI Pro 與 AI Ultra 訂閱用戶推送，YouTube Shorts 及 YouTube Create 應用程式同步以免費方案開放。部署層面，初始版本每段影片限制 10 秒，Google 說明此為部署決策而非模型能力上限。所有 Omni 生成影片均強制嵌入 Google SynthID 數字水印供內容真偽驗證；開發者 API 及企業存取方案預計數週內跟進。Gemini Omni 完整版（非 Flash）時間表尚未披露。</p><p><strong>第二</strong>　Gemini Omni 的戰略意涵在三個維度同步展開。其一，多媒體輸入統一是核心差異化技術點：OpenAI Sora 主要接受文字和影片輸入生成影片，Runway 聚焦文字或圖像為觸發，Gemini Omni 的全模態輸入設計，尤其是音訊觸發影片生成，在廣播、播客視覺化及音樂影像等場景具備先發優勢，且這些場景恰好是 YouTube 平台的核心內容形態。其二，YouTube Shorts 的即時整合使 Omni 擁有月活超 27 億用戶的規模化消費分發管道，是競對短期內難以系統性複製的應用入口，直接決定了 Omni 的使用量積累速度與反饋迭代週期，在「誰先建立最大使用者行為訓練集」的競爭邏輯下具有結構性優勢。其三，所有輸出強制 SynthID 水印是 Google 在 EU AI Act 透明度義務（2026 年 12 月截止）前主動建立合規先例的前置行動，相較 OpenAI Sora 在水印政策上的彈性空間，在歐洲市場監管合規維度形成差異化敘事，尤其在廣播及政府客戶採購決策中具有直接影響。</p><p><strong>第三</strong>　對企業 CIO 而言，Omni API 開放後的定價結構是評估 AI 影片生成是否納入品牌內容製作工作流的核心決策點；金融服務、教育及行銷行業的 CIO 應在 API 正式開放前完成試用評估，確認 10 秒初始限制是否覆蓋核心使用場景的最短表達單元，並建立 SynthID 水印對現有內容審核流程的影響評估；建議在 Q3 前安排 Vertex AI Gemini Omni 企業試用，優先測試混合輸入（現有品牌圖像加文案腳本）生成廣告影片的成本效益比。對開發者而言，Gemini Omni 與 Managed Agents API 的組合意味著代理工作流首度可以在單次 API 調用鏈中生成同一敘事的文字、靜態圖像及影片，是多模態代理工具架構的關鍵前置技術確認；建議追蹤 Gemini Omni API 在數週內的定價與速率限制公告，以此為多模態代理工作流成本模型的基準設定節點。對 BEXS 學員而言，YouTube Shorts 整合是評估 Alphabet 在 AI 影片生成商業化路徑上相較競對先發優勢最直接的外部觀察點，建議在 Q2 2026 Alphabet 財報（預計 7 月）中優先追蹤 AI 生成影片在 YouTube 生態的廣告配比政策及 YouTube Shorts 廣告分潤調整，作為 AI 影片工具商業化的首個大規模外部測試數據集，以量化 Omni 對 Google 廣告業務增量的邊際貢獻路徑。</p>"
-    },
-    {
-      "id": "pulse-2026-05-26-02-google-antigravity-2-managed-agents-agentic-dev",
-      "ts": "2026-05-26T02:00:00+08:00",
-      "title": "Google Antigravity 2.0 五元件代理開發全棧發布 · Managed Agents API 單次調用啟動沙盒完整代理、Claude Code 主導生態迎首個系統性競爭",
-      "source": "Google Blog",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-developer-highlights/",
-      "blurb": "Google 在 I/O 2026 發布 Antigravity 2.0，整合桌面應用、CLI、SDK、Managed Agents API 及企業部署五元件，單次 API 調用可啟動具備工具調用與沙盒程式執行能力的完整代理；Claude Code 和 Cursor 主導的代理開發生態首次迎來 Google 系統性全棧反制。",
-      "editorial": "<p><strong>第一</strong>　2026 年 5 月 19 日，Google 在 I/O 年度大會發布 Google Antigravity 2.0，定位為代理優先（agent-first）的完整開發者平台。Antigravity 2.0 由五個核心元件組成：桌面應用、全新以 Go 語言重建的 CLI、SDK、Managed Agents API 及企業部署路徑。桌面應用支援多代理平行執行與後台排程任務，並新增語音命令支援，讓開發者可以直接對代理說話操作；CLI 由 Go 重建，速度顯著提升；Managed Agents API 是最具結構性意義的新能力——開發者以單次 API 調用可啟動一個具備完整工具調用能力、並在隔離 Linux 環境中執行程式碼的代理，無需自行管理代理的工作流程和狀態。基礎推理引擎為 Gemini 3.5 Flash，Google 表示其執行速度較其他前沿模型快四倍。整合生態涵蓋 Google AI Studio、Android 及 Firebase，企業端 Google Cloud 同步支援。</p><p><strong>第二</strong>　Antigravity 2.0 的戰略意涵在於 Google 首次以完整平台（而非單一 API 或模型）切入代理開發生態競爭。Managed Agents API 是最直接的競爭威脅點：Anthropic 的 Claude Code 及 Microsoft 的 Fara1.5 均以代理編排為核心，但要求開發者自行管理代理的工具調用、狀態記憶及程式碼沙盒；Managed Agents API 以托管方式封裝此複雜度，類似 AWS Lambda 相對裸 EC2 的抽象關係，將代理部署的入門門檻大幅降低。Antigravity 2.0 同時形成 Google 的垂直整合防線：Gemini 3.5 Flash 模型→ Antigravity 代理框架 → Google AI Studio 開發環境 → Firebase/Cloud 部署 → Google Play Android 分發，形成從模型到終端用戶的完整控制鏈，若 Cursor 及 Claude Code 仍依賴第三方算力和雲廠商分發，Antigravity 在生態鎖定深度上具備結構性優勢。Managed Agents API 定價與速率限制是生態吸引力的最終決定因素，Google 的算力資源使其在代理托管服務的邊際成本競爭上具備長期優勢。</p><p><strong>第三</strong>　對開發者而言，Managed Agents API 是 2026 年代理工作流技術選型中最應優先評估的新選項之一：單次 API 調用啟動完整沙盒代理，相較自行搭建 LangChain/LangGraph 或 Anthropic 代理框架的工程量，初始開發成本估計下降 60-70%；建議在 Antigravity API 正式全量開放後，以三個場景對比 Managed Agents API 和 Claude Code 代理：程式碼審查自動化、多工具資料查詢、持續後台監控任務。對企業 CIO 而言，Antigravity 2.0 的企業部署路徑整合 Google Cloud，意味著已採購 Google Workspace 或 Google Cloud 的企業可以在現有商務採購框架內評估代理開發能力，無需引入新供應商關係；建議在 Q3 供應商評估中將 Antigravity 2.0 與 Microsoft Copilot Studio 及 Anthropic 企業代理服務並列，重點評估 Managed Agents API 的沙盒隔離安全審計合規性。對 BEXS 學員而言，Antigravity 2.0 的發布確認 Google 在代理工具鏈競爭中已從「提供模型 API」升格為「提供完整開發平台」，是評估 Alphabet 在 AI 開發者生態長線競爭力時技術深度和廣度最具代表性的外部信號；Managed Agents API 的商業規模化進度建議在 Google Cloud Next 年會（預計 Q3）中追蹤，作為 GCP 代理服務收入增量的前置觀察節點。</p>"
     }
   ]
 }
