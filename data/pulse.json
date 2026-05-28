@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-05-28T14:04:42+08:00",
+  "updated_at": "2026-05-28T15:05:00+08:00",
   "items": [
+    {
+      "id": "pulse-2026-05-28-15-pope-leo-magnifica-humanitas-ai-encyclical",
+      "ts": "2026-05-28T15:05:00+08:00",
+      "title": "教宗首份 AI 教諭《壯麗人性》頒布 · 梵蒂岡以道德憲章進入 AI 治理話語格局、自主武器正式被天主教世界譴責",
+      "source": "Vatican",
+      "url": "https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html",
+      "blurb": "教宗列奧十四世 5 月 25 日正式頒布首份以人工智慧為主題的教諭，42,300 字要求 AI 發展置於人性尊嚴、勞工保護及民主治理框架之下，明確譴責 AI 自主武器；全球逾十三億天主教徒的最高道德機構正式進入 AI 治理話語格局。",
+      "editorial": "<p><strong>第一</strong>2026 年 5 月 25 日，教宗列奧十四世在梵蒂岡親自主持頒布首份教諭《壯麗人性》（Magnifica Humanitas），全文約 42,300 字，是天主教會歷史上首份以人工智慧為核心主題的教宗訓令。教諭以 1891 年教宗利奧十三世《新事》（Rerum Novarum）發布 135 週年為寫作節點，明確延續工業革命至今的社會訓導傳統。核心立場三點：其一，AI 不應用於幫助人類「逃離限制」或追求無限優化，而應支持「開放與共融」的人性生命；其二，明確譴責以 AI 減少武器人類控制的做法，認為自主武器使戰爭正當性論證愈加困難；其三，要求 AI 發展必須置於民主治理、透明度、勞工權利及人性尊嚴框架之下。列奧十四世親自主持頒布儀式而非如前任多數教宗委派樞機主教代行，《華爾街日報》稱此文件「有望定義列奧教宗任期」。</p><p><strong>第二</strong>《壯麗人性》在三個維度確立對全球 AI 治理格局的實質影響。其一，梵蒂岡的道德框架聲明直接影響全球逾 130 個天主教國家政府的政策討論，在非洲、拉丁美洲及南歐等地區，教廷立場在政策制定中具有可量化的文化影響力；「AI 自主武器」的明確道德反對立場，可能在聯合國《特定常規武器公約》談判中形成可識別的投票壓力。其二，「AI 不應用於逃離人類限制」的核心立場直接對矽谷技術加速主義敘事提出有建制權威的道德反論，為歐盟 AI Act「人類監督要求」及伊利諾州 SB315「強制審計」等具體監管政策提供了道德框架背書，使監管者在面對產業遊說時具備更完整的論述支撐。其三，教諭強調 AI 對勞工的結構性衝擊並要求法律保護，是繼 G7 廣島 AI 進程及歐盟 AI Act 之後第三個主要機構將「AI 勞工保護」納入正式框架的治理節點，確認此議題正加速從倡議轉化為制度建構核心議程。</p><p><strong>第三</strong>對企業 CIO 而言，天主教機構（大學、醫院、慈善組織、信貸機構）在全球擁有龐大資產組合，此教諭可能在未來 12 至 18 個月內透過採購政策形成「AI 倫理合規」要求，全球逾 10,000 所天主教大學及醫療系統的 AI 採購決策若設立倫理框架篩選條件，對 frontier lab 企業市場的認證需求設計具有先行影響。對開發者而言，自主武器禁止立場雖非法律強制，但可能影響在天主教多數國家從事國防 AI 開發的工程師個人聲譽評估，在道德契約設計或開源授權條款研討中是可量化的道德成本新變量。對 BEXS 黃金交易學員而言，從聯合國 AI 決議、歐盟 AI Act 到各州立法再到梵蒂岡教諭，AI 治理框架的制度密度在 2026 年已進入系統性加速區間，合規成本基準線的長期上行趨勢已由多方制度力量確認，建議在 AI 企業長期估值模型中納入「全球 AI 治理成熟度」作為合規成本敏感性分析的獨立維度。</p>"
+    },
     {
       "id": "pulse-2026-05-28-14-china-ai-researcher-travel-ban",
       "ts": "2026-05-28T14:04:42+08:00",
@@ -261,15 +270,6 @@
       "url": "https://asia.nikkei.com/business/finance/japan-megabanks-to-gain-access-to-anthropic-s-powerful-ai-model-mythos",
       "blurb": "MUFG、SMBC、瑞穗三大銀行最快本月底接入 Claude Mythos Preview，成首批非美歐 Glasswing 受控預覽機構；美日財政外交渠道授權確認，36 機構公私工作組同步成立，AI 安全能力正式進入主權金融防禦外交議程。",
       "editorial": "<p><strong>第一</strong>　日本財務大臣宣布，三菱 UFJ 金融集團（MUFG）、三井住友金融集團（SMBC）及瑞穗金融集團三大銀行將最快於 2026 年 5 月底前取得 Anthropic Claude Mythos Preview 存取資格，成為首批進入 Glasswing 受控預覽計畫的日本機構，亦是迄今美歐合作夥伴以外首批非西方主要金融體系成員。授予係經美國財政部長 Scott Bessent 訪問東京期間與日本金融廳（FSA）協商確認，模型使用限定於主動偵測關鍵軟體漏洞，而非一般生成式推理用途。財務省同步宣布成立 36 機構公私聯合工作組，成員涵蓋三大銀行、日本銀行及 Anthropic 與 OpenAI 日本法人，由瑞穗首席信息安全官擔任主席，負責識別日本金融系統曝露風險、部署防禦措施，並制定跨系統漏洞協同修補應急預案。</p><p><strong>第二</strong>　此事件在三個維度具有結構性意涵。其一，日本三大銀行合計管理資產逾七兆美元，為全球系統重要性金融機構（G-SIFIs）中最集中的單一國家叢集；Anthropic 藉此將「防守者先行」框架從美歐 IT 基礎設施延伸至亞太主權金融系統，對新加坡金管局、南韓金融監督院及歐洲系統性銀行監管機構具有清晰的示範效應，是 Glasswing 全球金融行業擴張的關鍵地緣節點。其二，Bessent 訪問東京的外交框架使 Claude Mythos 存取授予進入雙邊美日經濟安全議程，是 AI 安全能力首度以外交渠道向盟國主權金融體系授予，意味著美國政府已將 Mythos 類漏洞偵測能力視為可部署於戰略盟友的「非對稱防禦資源」，此定位對 Anthropic 政府合約市場的結構性支撐高於任何單一商業採購協議。其三，36 機構工作組的規模確認日本監管層將 Mythos 級 AI 能力評估為需系統性制度回應的基礎設施風險，工作組應急預案的設計邏輯若公開，將成為亞太 AI 安全監管框架的重要參照文件。</p><p><strong>第三</strong>　對 BEXS 黃金交易學員而言，日本三大銀行授權是 Anthropic 以 AI 安全能力為切入點在全球主權金融客戶體系建立存在的具體里程碑；建議追蹤後續擴展至新加坡、南韓或歐洲系統性銀行的授權公告，以此為評估 Glasswing 金融行業 ARR 增長速度的先行觀察指標，並在 Anthropic IPO S-1 的「政府與金融機構合約」章節確認此類受控預覽授權是否對應可量化的未來收入承諾。對企業 CIO 而言，36 機構工作組模式是亞太金融行業建立 Mythos 類能力集體防禦框架的制度先例；亞太金融機構資安負責人應在 Q3 前確認是否已啟動 Anthropic 受控授權申請流程，並評估 Claude Security 企業公測版是否可作為過渡防禦工具先行部署，以建立未來接入 Mythos Preview 的技術基線。對開發者而言，日本金融系統的受控使用場景若公開，是理解 Mythos 在 G-SIFIs 級嚴格合規環境下操作邊界的第一手文件；建議追蹤工作組應急預案的正式發布時間，作為評估 AI 安全工具在高監管金融場景可接受使用邊界的外部參照基準。</p>"
-    },
-    {
-      "id": "pulse-2026-05-27-06-anthropic-glasswing-initial-update-10k-vulnerabilities",
-      "ts": "2026-05-27T06:00:00+08:00",
-      "title": "Anthropic Glasswing 首次進度更新·Mythos 協同 50 家機構確認逾萬高危漏洞、Claude Security 企業公測開啟",
-      "source": "Anthropic Research",
-      "url": "https://www.anthropic.com/research/glasswing-initial-update",
-      "blurb": "Project Glasswing 啟動六週首次公開成果：Claude Mythos Preview 協同 50 家機構夥伴（含 Amazon、Apple、Microsoft、Palo Alto Networks）確認逾萬高危漏洞；1 億美元信用額度與 Claude Security 企業公測同步開放，AI 主動防禦從宣告進入可量化落地。",
-      "editorial": "<p><strong>第一</strong>　2026 年 5 月 26 日，Anthropic 發布 Project Glasswing 首次階段更新。自 4 月 7 日 Claude Mythos Preview 公布以來，Anthropic 及約 50 家合作夥伴機構——包含 Amazon、Apple、Broadcom、Cisco、CrowdStrike、Linux Foundation、Microsoft 及 Palo Alto Networks 等核心基礎軟體維護者——協同掃描全球系統重要性最高的開源軟體庫，已確認超過一萬個高危或關鍵等級漏洞，其中 Mythos Preview 直接標記 6,202 個高危或關鍵等級漏洞（含中低危共 23,019 個）。Anthropic 同步宣告追加資源承諾：向參與機構提供最高 1 億美元 Mythos Preview 使用信用額度，另向開源資安組織直接捐贈 400 萬美元。Claude Security——企業資安能力模組——即日進入公開測試版，「網路核實計畫（Cyber Verification Program）」同步啟動，允許核准的資安專業人員以更少限制條件使用 Claude 執行合法資安任務。</p><p><strong>第二</strong>　逾萬個漏洞的具體數字使 Glasswing 從政策宣告轉化為可量化的防禦生產能力，三個維度的戰略意涵值得關注。其一，合作機構覆蓋 Amazon、Apple、Microsoft 及 Palo Alto Networks 等全球供應鏈樞紐，代表 Mythos 掃描的漏洞直接影響數十億終端用戶依賴的核心軟體，修補進度已具備可測量的外部防禦效益。其二，Claude Security 公測為企業安全工程師開啟商業化路徑存取 Mythos 級掃描能力，是 Anthropic 首次將 Glasswing 防禦工具鏈商業化，亦對 Cisco、CrowdStrike 及 Palo Alto Networks 現有掃描產品構成直接功能競爭——儘管三者同為合作夥伴，多重角色同框本身即是 AI 資安產業整合速度的制度性信號。其三，Cyber Verification Program 是對「攻防者不對稱存取限制」這一長期資安政策矛盾的制度性回應：OpenAI GPT-5.5-Cyber（限定預覽）與 Anthropic Mythos（受管受控）並存格局下，前沿 AI 資安能力的授權存取框架正快速成為業界標準化的下一個核心議題。</p><p><strong>第三</strong>　對企業 CIO 而言，Claude Security 公測是 Q3 資安預算評估中即可切入的新增 AI 掃描能力入口，建議資安架構師申請 Cyber Verification Program 存取後，以現有掃描工具的 CVE 覆蓋率為對比基準，優先評估 Mythos 掃描在老舊系統及低維護開源依賴項上的盲區覆蓋效果。對開發者而言，Claude Security API 的定價結構是將 AI 漏洞掃描納入 CI/CD 自動化管線的前置決策資訊；Glasswing 中低危漏洞分類的後續發布時間表是評估 AI 掃描廣度覆蓋率的外部參照節點，建議在公測期間主動測試並留存成本效益數據以備 Q4 預算支持。對 BEXS 黃金交易學員而言，1 億美元信用額度承諾確認 Glasswing 是 Anthropic 在政府與監管博弈中的主動資本投入，而非被動合規成本；Claude Security 商業化路徑若在後續季度形成獨立資安服務 ARR，是 Anthropic S-1「新興業務線」估值多元化的具體數字錨點，建議追蹤每季漏洞確認數量及夥伴機構增長斜率作為先行指標。</p>"
     }
   ]
 }
