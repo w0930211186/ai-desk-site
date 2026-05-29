@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-05-29T15:00:00+08:00",
+  "updated_at": "2026-05-29T16:00:00+08:00",
   "items": [
+    {
+      "id": "pulse-2026-05-29-16-deepmind-alphaproof-nexus-erdos-agi-2029",
+      "ts": "2026-05-29T16:00:00+08:00",
+      "title": "DeepMind AlphaProof Nexus 破解九道 Erdős 半世紀懸案 · Hassabis 同步將 AGI 時程收緊至「最快 2029 年」",
+      "source": "Axios / DeepMind",
+      "url": "https://www.axios.com/2026/05/26/deepmind-ceo-demis-hassabis",
+      "blurb": "Google DeepMind 5 月 21 日發布 AlphaProof Nexus 預印本，以 Gemini 3.1 Pro 結合形式化工具 Lean 在 Paul Erdős 遺留難題中解決九道、另驗證 OEIS 44 道猜想，每題計算成本僅數百美元；執行長 Demis Hassabis 隨後接受 Axios 訪問，首度公開將 AGI 到來時程從「五至十年」收緊至「最快 2029 年」。",
+      "editorial": "<p><strong>第一</strong>　 2026 年 5 月 21 日，Google DeepMind 在 arXiv 發布預印本（arXiv:2605.22763v1），AlphaProof Nexus 以 Gemini 3.1 Pro 大語言模型搭配 Lean 形式化證明工具，在 Paul Erdős 遺留的 353 道公開數學難題中自主解決 9 道（約 2.5%），其中兩道已懸置 56 年；另對 OEIS 整數數列百科全書的 492 道猜想成功驗證 44 道（約 9%）。每道問題計算成本僅數百美元，全部 Lean 形式化證明已開源於 GitHub，可由計算機直接核驗。5 月 26 日，DeepMind 執行長 Demis Hassabis 接受 Axios 訪問，首度明確表示 AGI「最快可能 2029 年到來」，相比此前「大約 2030 年、五至十年內」的公開估算明顯收緊，並指出提前聲明旨在向政府及經濟學家傳遞更高的準備緊迫感。</p><p><strong>第二</strong>　 AlphaProof Nexus 在三個維度確立 AI 數學推理格局的結構性轉折。其一，形式化 Lean 證明解決了 AI 數學宣稱長期的可信度問題：所有輸出可由計算機直接核查，建立了 AI 原創數學貢獻迄今最高的可信度標準，比 OpenAI 同週自然語言推理路線的單一問題突破更易被數學社群正式承認。其二，9 道 Erdős 問題橫跨數論、組合數學及整數序列多個領域，批量破解規模遠超 AlphaProof 的競賽題解，每題數百美元的成本確認以 AI 系統性掃描懸置數學難題在經濟上已具備可規模化可行性。其三，Hassabis 將 AGI 時程收緊至「最快 2029 年」，是目前所有 frontier lab CEO 中最緊迫的公開估算，算力擴張與數學推理能力同步突破的背景使此聲明具有明確的戰略壓迫意涵，而非僅是個人看法。</p><p><strong>第三</strong>　 後續三個觀察節點：其一，AlphaProof Nexus 預印本目前僅完成 arXiv 發布，期刊同行評審時程是評估 AI 原創數學貢獻「正式進入學術記錄」的關鍵里程碑，預計 2026 年下半年進入正式審查流程；其二，Google DeepMind 以形式化加代理人迭代的技術路線與 OpenAI 的自然語言推理路線形成直接競爭，下一階段的評估基準預計轉向千禧問題或 Hilbert 清單，技術競爭節奏加速；其三，對 BEXS 黃金交易學員，Hassabis 的 2029 年 AGI 目標若在機構投資人中形成共識，將非線性加速 OpenAI 及 Anthropic 的 IPO 估值上修壓力，同時也加速監管介入風險定價，建議在 IPO 估值情境分析中以「AGI 時程共識收緊概率」作為獨立敏感度維度持續追蹤。</p>"
+    },
+    {
+      "id": "pulse-2026-05-29-16-kpmg-anthropic-276k-big-four-triangle",
+      "ts": "2026-05-29T16:00:00+08:00",
+      "title": "KPMG 二十七萬六千人全員接入 Claude · 大四事務所六十日三角完成、Anthropic 企業顧問通路鎖定逾百六十萬員工",
+      "source": "Anthropic",
+      "url": "https://www.anthropic.com/news/anthropic-kpmg",
+      "blurb": "Anthropic 5 月 19 日宣布與 KPMG 達成全球戰略聯盟，KPMG 全球 138 國二十七萬六千名員工透過 Digital Gateway 全員接入 Claude，以稅務與私募股權業務為起點；加計 Deloitte 四十七萬及 PwC 三十六萬人合作，全球三大審計事務所在不足六十日內完成 Claude 綁定，顧問通路合計覆蓋逾一百六十萬人。",
+      "editorial": "<p><strong>第一</strong>　 2026 年 5 月 19 日，Anthropic 宣布與 KPMG 達成全球戰略聯盟，KPMG 將 Claude 嵌入旗下「Digital Gateway」企業軟體平台，向全球 138 國二十七萬六千名合夥人及員工開放 Claude 存取，首批落地場景為稅務客戶工具及私募股權工作流，並以 Joule 代理人框架建立多步驟自動化整合；Anthropic 同步指定 KPMG 為私募股權部署「首選合作夥伴」。加計 Deloitte 於 3 月宣布的四十七萬人部署協議，以及 PwC 於 4 月宣布的三十六萬人合作擴展，全球三大審計暨諮詢事務所在不足六十日內相繼確認以 Claude 為核心企業 AI 平台，合計員工覆蓋逾一百六十萬人。</p><p><strong>第二</strong>　 此次「Big Four 三角」完成在三個維度確立 Anthropic 企業生態競爭護城河。其一，專業服務業是全球企業最重要的 AI 採購決策影響者，Big Four 以 Claude 為標準平台整合後，其向下游企業客戶推薦的工具生態將大量以 Claude 為默認基礎設施，形成「顧問建議→企業採購→API 規模」的間接飛輪，是 OpenAI 以直銷為核心的 DeployCo 策略所不具備的乘數效應。其二，三大 Big Four 合計逾一百六十萬員工的企業授權在 Anthropic 四百七十億年化收入基礎上構成可量化的 ARR 確定性層，機構投資人在 IPO 估值定價時可以此合約規模作為最低確定性收入基準，降低收入增速放緩情境下的估值折讓幅度。其三，KPMG 的私募股權整合方向是 Anthropic 進入全球財務盡調、估值建模及交易報告工作流的切入點，此類場景的工具替換成本極高，確立了結構性客戶留存優勢。</p><p><strong>第三</strong>　 對企業 CIO 而言，Big Four 三角完成確認 Anthropic 在企業服務採購決策鏈中的「默認推薦地位」，使用上述事務所的組織可主動詢問其 Claude Digital Gateway 整合細節，在 H2 採購規劃中預留 Claude 企業合約評估視窗。對 BEXS 黃金交易學員而言，Big Four 三角合約是 Anthropic S-1 中最易量化的 ARR 確定性來源，建議以「Big Four 員工數×企業 AI 授權年費」建立收入保守基準估算，與 Anthropic 四百七十億年化收入的合理性做橫向核驗，以確認收入成長的企業端結構支撐。對開發者而言，KPMG Digital Gateway 開放第三方 MCP 伺服器整合，稅務、審計及私募股權行業的垂直 Claude 工具具備在 KPMG 生態系統內分發的可能性，建議評估通過 Claude Partner Network 進入高端企業客戶採購生態的合作路徑。</p>"
+    },
     {
       "id": "pulse-2026-05-29-15-nextera-dominion-67b-ai-energy-utility",
       "ts": "2026-05-29T15:00:00+08:00",
@@ -252,24 +270,6 @@
       "url": "https://techcrunch.com/2026/05/19/google-introduces-gemini-spark-a-24-7-agentic-assistant-with-gmail-integration/",
       "blurb": "Google I/O 宣布的 Gemini Spark 本週向 AI Ultra 訂閱者開放，這是 Google 首個在用戶離線後仍可自主執行任務的雲端常駐代理人，月費 100 美元，MCP 生態已接入 Canva、OpenTable 等第三方。",
       "editorial": "<p><strong>第一</strong>Google I/O 2026 於 5 月 19 日發佈 Gemini Spark 後，本週正式向美國 AI Ultra 訂閱用戶開放，月費 100 美元。Spark 是基於 Gemini 3.5 的雲端常駐個人代理人，特點是全天候在 Google 伺服器上獨立執行任務，即使用戶已關閉裝置仍可持續工作，與 Gmail、Google Docs、Slides 深度整合。首批第三方連接已透過 MCP 協議接入 Canva、OpenTable、Instacart；Adobe、Spotify、GitHub、Notion、Slack 確認於 2026 年夏季上線。</p><p><strong>第二</strong>Spark 的核心設計哲學是「常駐雲端、主動執行」，相較於 ChatGPT 或 Claude 目前仍以用戶觸發、被動回應為主要模式，Spark 在產品架構上更接近 persistent agent 形態。Google 選擇 MCP 作為第三方整合標準，是繼 Anthropic 之後第二家主流 frontier lab 正式為 MCP 背書，此舉對 MCP 成為代理人生態互操作標準的確立具有里程碑意義。以 Gmail 嵌入為切入點，Google 同時掌控用戶數據管道與代理人執行環境，形成自我強化的整合優勢，對 Anthropic 及 OpenAI 在個人與輕量企業代理人市場的市佔構成直接競爭壓力。</p><p><strong>第三</strong>對開發者：MCP 整合機會窗口在未來 6 個月內優先性最高，Spark 夏季上線的第三方名單尚有垂直行業席位，尤其是 HR、財務、法律工具類 SaaS；對企業 CIO：Google Workspace AI Ultra 計畫可能重新框架現有授權費用，評估是否提升至 AI Ultra tier 應納入 H2 採購議程；對競爭格局：OpenAI Operator 及 Anthropic Computer Use 若無法提供等效的後台常駐能力，在個人與中小企業市場面臨結構性用戶流失風險，未來 6 個月的競品發佈節奏值得密切追蹤。</p>"
-    },
-    {
-      "id": "pulse-2026-05-28-14-openai-deployco-4b-enterprise-consulting",
-      "ts": "2026-05-28T14:04:42+08:00",
-      "title": "OpenAI 砸四十億美元成立部署公司·麥肯錫貝恩入股共謀繞開傳統系統整合商",
-      "source": "OpenAI",
-      "url": "https://openai.com/index/openai-launches-the-deployment-company/",
-      "blurb": "OpenAI 成立多數持股子公司 DeployCo，由 TPG 領投 19 方共同注資逾 40 億美元，並收購顧問工程公司 Tomoro，以前置工程師直接入駐企業的方式，與 Anthropic Big Four 合作通道正面競爭企業 AI 部署市場。",
-      "editorial": "<p><strong>第一</strong>OpenAI 於 5 月 12 日宣布成立 OpenAI Deployment Company（DeployCo），以逾 40 億美元初始資本、100 億美元投前估值啟動，OpenAI 保持多數控股。投資方陣容包括 19 個全球投資機構、顧問公司及系統整合商，由私募巨頭 TPG 領投，Advent、Bain Capital、Brookfield 為共同領投，Bain & Company、Capgemini、麥肯錫等策略顧問機構同時入股，投資人享有保底 17.5% 回報率並設利潤上限。OpenAI 同日宣布收購企業 AI 顧問公司 Tomoro，立即獲得約 150 名前置部署工程師的執行能量。</p><p><strong>第二</strong>DeployCo 的策略意涵在於 OpenAI 正從「API 提供商」轉向「AI 整合主機」，將傳統由 Accenture、Deloitte、Infosys 等系統整合商壟斷的企業 AI 落地最後一哩直接內化。麥肯錫與 Capgemini 的雙重身分（既是投資人、又是潛在競業者）揭示 DeployCo 的邏輯：讓頂尖系統整合商以股東身分自我綁定，形成利益共同體而非對立面。此結構與 Anthropic 透過 Big Four 合作走不同的企業路徑：Anthropic 押注合作夥伴管道，OpenAI 選擇自建部署能力並將系統整合商轉化為共投方，兩條路線在 2026 下半年企業 AI 採購大週期中形成正面競爭。</p><p><strong>第三</strong>對企業 CIO：AI 落地服務的供應商結構從「API 加系統整合商」雙層，可能演變為 frontier lab 直營部署、系統整合商合作通道並行的三層市場；議價空間在 2026 年下半年最大，建議在新一輪 AI 採購合約中設定服務層可替換條款。對系統整合商及顧問業：未入股 DeployCo 的系統整合商面臨更尖銳的替代壓力；已入股者需應對內部利益衝突及客戶公正性質疑。對開發者：DeployCo 的前置部署工程師模型為具備 LLMOps 及 RAG 實戰經驗的工程師創造高溢價職位需求，此類技能薪酬競爭將在 2026 下半年顯著升溫。</p>"
-    },
-    {
-      "id": "pulse-2026-05-28-12-bytedance-70b-ai-capex-china-compute-race",
-      "ts": "2026-05-28T12:01:35+08:00",
-      "title": "字節跳動擬砸七百億美元年度 capex · 以五百億利潤自籌中方最大 AI 算力承諾、中美算力競賽進入現金流決戰",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-27/bytedance-weighs-capex-of-as-much-as-70-billion-in-ai-push",
-      "blurb": "彭博 5 月 27 日報導字節跳動正評估 2026 年資本支出上限達七百億美元，倍增上年規模，以 2025 年五百億美元自有利潤為底倉；這是中方迄今最大已知 AI 基礎設施單年承諾，確認中美算力競賽已進入企業現金流直接對沖的量級。",
-      "editorial": "<p><strong>第一</strong>　2026 年 5 月 27 日，彭博報導字節跳動正在內部評估將 2026 年全年資本支出提升至最高七百億美元（約五千億人民幣），較 2025 年增加逾一倍；依據 The Information 及 South China Morning Post 的補充報導，實際執行區間為四千億至五千億人民幣（約五百五十至七百億美元），最終數字每季依算力成本及商業進展調整。字節跳動以 2025 年約五百億美元的公司利潤為主要資金來源，不依賴外部融資即可支撐大規模部署。支出方向涵蓋國內外數據中心擴建、GPU 算力叢集及 AI 訓練基礎設施，以維持抖音、TikTok 推薦算法競爭力及 Doubao 系列 AI 產品線的全球擴張。</p><p><strong>第二</strong>　七百億美元的上限數字將字節跳動置於與 Meta（一千一百億至一千四百五十億計畫）同一量級，超越 Alphabet 及 Amazon 的同期資本支出承諾，且字節跳動不是上市公司，無需向季度盈利指引或機構投資人負責，算力擴張決策的執行靈活度實際高於任何美國 Mega Cap。更深層的結構意涵在於：由於美國晶片出口管制限制取得頂端 NVIDIA GPU，字節跳動的算力佈局大量依賴 NVIDIA H20（出口許可版本）、AMD MI300X，以及國內華為昇騰及自研 Qiangu 訓練晶片，此多元算力路線的規模化若成功，直接為中國本土算力生態的商業成熟度提供最大規模的外部驗證，是美國算力出口管制有效性的關鍵外部指標。</p><p><strong>第三</strong>　對 BEXS 黃金交易學員而言，字節跳動七百億美元 capex 是全球 AI 算力需求最重要的中方量化信號，對 NVIDIA H20 季度出貨量及 HBM 記憶體（SK Hynix、三星）的中國區需求拉動效應直接；建議追蹤 NVIDIA FY2027 Q2（2026 年 8 月）財報中中國區 Data Center 收入佔比，作為字節跳動採購落地速度的量化先行指標。對企業 CIO 而言，字節跳動以不受外部融資約束的速度擴張算力，代表 Doubao 系列及其開源衍生模型的能力提升節奏不受資本市場周期影響；在全球 AI 工具採購規劃中，應將中國頭部廠商的算力積累速度納入三年技術競爭格局假設。對開發者而言，字節跳動 2025 年已開源 Doubao Pro 1.5 及 SEED-X 系列，算力規模擴張加速其下一代開源模型訓練能力，建議在 H2 2026 評估其開源模型是否已接近 Llama 水準，以確認替代技術棧的可行性視窗。</p>"
     }
   ]
 }
