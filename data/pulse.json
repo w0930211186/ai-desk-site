@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-05-29T16:00:00+08:00",
+  "updated_at": "2026-05-29T17:00:00+08:00",
   "items": [
+    {
+      "id": "pulse-2026-05-29-17-illinois-sb315-frontier-audit-law",
+      "ts": "2026-05-29T17:00:00+08:00",
+      "title": "伊利諾州 SB315 院會全票通過 · 美國首個強制第三方審計 frontier 模型安全法落地 Pritzker 桌頭",
+      "source": "Capitol News Illinois / NPR Illinois",
+      "url": "https://capitolnewsillinois.com/news/illinois-lawmakers-pass-landmark-ai-accountability-bill/",
+      "blurb": "伊利諾州眾院 5 月 27 日以 110 比 0 全票通過 SB315，參院 52 比 5 先行採納，美國首個要求 frontier AI 廠商強制接受年度獨立第三方安全審計的州法即將生效；Pritzker 公開表態簽署、OpenAI 與 Anthropic 雙雙背書，2027 年 1 月 frontier 模型合規新基準確立。",
+      "editorial": "<p><strong>第一</strong>　2026 年 5 月 27 日，伊利諾州眾議院以 110 比 0 全票通過《人工智慧安全措施法》（Artificial Intelligence Safety Measures Act，SB315），參議院已於 5 月 21 日以 52 比 5 先行通過，法案現送至州長 J.B. Pritzker 桌頭，Pritzker 於 5 月 28 日在社群媒體公開聲明期待簽署，生效日期 2027 年 1 月 1 日。SB315 覆蓋門檻針對年收入逾五億美元且使用大規模算力訓練 frontier 模型的開發商，直接指向 OpenAI、Anthropic、Google DeepMind 等第一梯隊廠商。核心要求三項：強制廠商每年公開更新涵蓋災難性風險評估、緩解措施、網路安全及內部治理的 frontier AI 框架；每年接受獨立第三方外部審計，是美國迄今所有已生效或待簽署 AI 法規中首次出現的強制獨立審計要求；以及設立吹哨人保護機制與民事罰款，但明確不創設私人訴訟權。OpenAI 及 Anthropic 在法案審議全程公開表態支持。</p><p><strong>第二</strong>　SB315 在三個維度確立美國 AI 監管格局的結構性轉折。其一，「強制第三方審計」是美國 AI 立法史上首次在法條中要求外部審計機構對最高能力 AI 系統的安全框架進行獨立核驗，與紐約 RAISE Act 及加州 SB53 的廠商自報框架相比，SB315 在問責機制層次上確立獨立外部核驗標準，為美國 frontier 模型安全治理設立新全國基準。其二，110 比 0 的眾院票決是 2026 年美國所有 AI 相關立法投票中最高的跨黨支持度記錄，OpenAI 及 Anthropic 的公開背書確認主要 frontier lab 傾向以主動合規換取制度信任，與 Anthropic 在五角大廈自主武器案件中採取完全對抗立場形成明顯的戰略層次對比。其三，SB315 與加拿大 OPC 隱私裁決、歐盟 AI Act 修正及美國各州浮水印立法同步推進，確認全球 AI 治理密度在 2026 年進入系統性加速區間，frontier lab 合規成本基準線的長期上行趨勢由多方制度力量共同錨定。</p><p><strong>第三</strong>　對 frontier lab 的直接影響分三層。其一，年度強制審計要求意味著 OpenAI、Anthropic 等廠商需在 2026 年下半年建立獨立審計師遴選機制及報告框架，Big Four 審計事務所（尤其 KPMG 及 Deloitte 已與 Anthropic 建立戰略關係）具備最優先的市場進入位置，「第三方 frontier AI 安全審計」作為新收入類別的市場需求確定性高，2027 年 Q1 是首個報告週期的到期節點。其二，對企業 CIO 而言，SB315 對下游企業用戶無直接義務，但 frontier lab 年度審計報告將成為評估 AI 供應商風險的最強外部公開信息來源，建議在下一輪 AI 供應商評估中將「能否提供最新第三方安全審計摘要」納入強制性 RFP 要求，以 2027 年 Q1 為時間錨點追蹤主要廠商的合規建設進度。其三，對 BEXS 黃金交易學員而言，SB315 確認 frontier lab 合規成本進入量化可預期區間，建議在 Anthropic 及 OpenAI 的 IPO S-1 中確認「合規及法規負擔」章節是否引用 SB315，以量化強制審計義務對長期自由現金流預測的下行敏感度。</p>"
+    },
+    {
+      "id": "pulse-2026-05-29-17-groq-nvidia-20b-lpu-neocloud",
+      "ts": "2026-05-29T17:00:00+08:00",
+      "title": "Groq 以二百億授權 LPU 核心技術予 NVIDIA · 創辦人率隊加盟、剩餘實體轉型 AI Neocloud 籌資六億五千萬",
+      "source": "Axios",
+      "url": "https://www.axios.com/2026/05/28/groq-650-million-nvidia",
+      "blurb": "Axios 5 月 28 日獨家：Groq 以二百億美元非獨佔技術授權加資產出售方式將 LPU 架構移交 NVIDIA，創辦人 Jonathan Ross 率核心團隊加入；剩餘實體以 Groq2 轉型 AI 推論 neocloud，籌資六億五千萬美元，AI 推論晶片賽道最強替代路線正式完成 NVIDIA 集中。",
+      "editorial": "<p><strong>第一</strong>　2026 年 5 月 28 日，Axios 獨家報導 Groq 與 NVIDIA 達成規模約二百億美元的技術合作協議，結構為非獨佔技術授權加資產出售：NVIDIA 取得 Groq 語言處理器（Language Processing Unit，LPU）架構的非獨佔技術授權，Groq 出售部分實體資產；包括創辦人 Jonathan Ross（前 Google Brain 研究員、LPU 主要發明人）及總裁 Sunny Madra 在內的多名高管及資深工程師隨後轉赴 NVIDIA 任職。Groq 公司本體繼續存在，保留 IP 所有權及雲端推論業務，並以「Groq2」定位向既有投資人籌募最多六億五千萬美元，目標構建以 AI 推論服務為核心的 neocloud 業務；現有股東 Disruptive 及 Infinitum 承諾在額度未填滿情況下兜底全額。Groq 2024 年 D 輪估值約三十億美元，二百億美元交易規模反映 LPU 架構對 NVIDIA 的戰略技術溢價。</p><p><strong>第二</strong>　此交易在三個維度確立 AI 推論晶片競爭格局的結構性轉折。其一，Groq LPU 是 2023 至 2025 年最廣受工程師驗證的 GPU 推論替代方案，其靜態數據流架構在固定模型批量推論場景的每瓦效率及延遲優勢具備業界可量化的基準記錄；NVIDIA 以技術授權將 LPU 核心設計吸收入自身研發體系，移除了推論效率賽道最具技術可信度的主要替代路線，對 AMD ROCm 推論定位及開源推論社群的競爭資源構成直接壓縮。其二，非獨佔授權條款保留 Groq2 繼續使用 LPU 技術提供雲端服務的法律空間，但關鍵人才大批流失使 Groq2 實質從技術創新前沿退位為算力雲服務商，推論效率技術的迭代主軸已移入 NVIDIA 架構；二百億美元授權規模確認 NVIDIA 管理層對推論效率作為下一代競爭前線的明確估算，與 Computex 2026 Vera Rubin 宣稱五倍 Blackwell 推論效率的技術佈局相互印證。其三，AI 推論晶片市場在半年內完成了 Groq LPU 路線歸入 NVIDIA、AMD EPYC Venice 搶下 TSMC 2nm 首發的雙重整合，推論市場格局清晰化速度快於此前市場共識，獨立替代路線的競爭窗口正在顯著壓縮。</p><p><strong>第三</strong>　對開發者而言，Groq API 的 LPU 推論服務短期受現有合約保護，但 Groq2 轉型為 neocloud 後技術迭代節奏將與 NVIDIA 架構掛鉤而非獨立研發；若以低延遲推論為關鍵要求設計應用，建議在六至十二個月評估窗口中測試 Groq2 neocloud 的服務等級是否維持 LPU 時代效能基準，並預備 NVIDIA Triton Inference Server 或 AWS Inferentia 作為備選路由。對企業 CIO 而言，Groq 關鍵人才核心轉移至 NVIDIA 確認 AI 推論供應商市場集中化趨勢加速，建議在多供應商推論架構設計中增加備選冗餘，避免對單一推論加速器供應商形成架構層依賴。對 BEXS 黃金交易學員而言，二百億美元技術授權費是 NVIDIA 研發護城河強化的最新量化確認；Groq2 neocloud 六億五千萬美元融資若在下半年完成，將成為 AI 推論雲賽道的首個獨立估值基準，建議追蹤其估值以評估 CoreWeave 等同類定位的比較估值參考，以量化 neocloud 商業模式的可持續性。</p>"
+    },
     {
       "id": "pulse-2026-05-29-16-deepmind-alphaproof-nexus-erdos-agi-2029",
       "ts": "2026-05-29T16:00:00+08:00",
@@ -252,24 +270,6 @@
       "url": "https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html",
       "blurb": "教宗列奧十四世 5 月 25 日正式頒布首份以人工智慧為主題的教諭，42,300 字要求 AI 發展置於人性尊嚴、勞工保護及民主治理框架之下，明確譴責 AI 自主武器；全球逾十三億天主教徒的最高道德機構正式進入 AI 治理話語格局。",
       "editorial": "<p><strong>第一</strong>2026 年 5 月 25 日，教宗列奧十四世在梵蒂岡親自主持頒布首份教諭《壯麗人性》（Magnifica Humanitas），全文約 42,300 字，是天主教會歷史上首份以人工智慧為核心主題的教宗訓令。教諭以 1891 年教宗利奧十三世《新事》（Rerum Novarum）發布 135 週年為寫作節點，明確延續工業革命至今的社會訓導傳統。核心立場三點：其一，AI 不應用於幫助人類「逃離限制」或追求無限優化，而應支持「開放與共融」的人性生命；其二，明確譴責以 AI 減少武器人類控制的做法，認為自主武器使戰爭正當性論證愈加困難；其三，要求 AI 發展必須置於民主治理、透明度、勞工權利及人性尊嚴框架之下。列奧十四世親自主持頒布儀式而非如前任多數教宗委派樞機主教代行，《華爾街日報》稱此文件「有望定義列奧教宗任期」。</p><p><strong>第二</strong>《壯麗人性》在三個維度確立對全球 AI 治理格局的實質影響。其一，梵蒂岡的道德框架聲明直接影響全球逾 130 個天主教國家政府的政策討論，在非洲、拉丁美洲及南歐等地區，教廷立場在政策制定中具有可量化的文化影響力；「AI 自主武器」的明確道德反對立場，可能在聯合國《特定常規武器公約》談判中形成可識別的投票壓力。其二，「AI 不應用於逃離人類限制」的核心立場直接對矽谷技術加速主義敘事提出有建制權威的道德反論，為歐盟 AI Act「人類監督要求」及伊利諾州 SB315「強制審計」等具體監管政策提供了道德框架背書，使監管者在面對產業遊說時具備更完整的論述支撐。其三，教諭強調 AI 對勞工的結構性衝擊並要求法律保護，是繼 G7 廣島 AI 進程及歐盟 AI Act 之後第三個主要機構將「AI 勞工保護」納入正式框架的治理節點，確認此議題正加速從倡議轉化為制度建構核心議程。</p><p><strong>第三</strong>對企業 CIO 而言，天主教機構（大學、醫院、慈善組織、信貸機構）在全球擁有龐大資產組合，此教諭可能在未來 12 至 18 個月內透過採購政策形成「AI 倫理合規」要求，全球逾 10,000 所天主教大學及醫療系統的 AI 採購決策若設立倫理框架篩選條件，對 frontier lab 企業市場的認證需求設計具有先行影響。對開發者而言，自主武器禁止立場雖非法律強制，但可能影響在天主教多數國家從事國防 AI 開發的工程師個人聲譽評估，在道德契約設計或開源授權條款研討中是可量化的道德成本新變量。對 BEXS 黃金交易學員而言，從聯合國 AI 決議、歐盟 AI Act 到各州立法再到梵蒂岡教諭，AI 治理框架的制度密度在 2026 年已進入系統性加速區間，合規成本基準線的長期上行趨勢已由多方制度力量確認，建議在 AI 企業長期估值模型中納入「全球 AI 治理成熟度」作為合規成本敏感性分析的獨立維度。</p>"
-    },
-    {
-      "id": "pulse-2026-05-28-14-china-ai-researcher-travel-ban",
-      "ts": "2026-05-28T14:04:42+08:00",
-      "title": "中國強制管控 AI 研究員出境·DeepSeek 阿里人才首度納入國家戰略資產鎖定名單",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-26/china-expands-travel-curbs-to-top-ai-talent-at-private-firms",
-      "blurb": "北京要求 DeepSeek、阿里等私人企業頂尖 AI 研究員出境前須取得當局批准，從「建議迴避」升級為強制審批，標誌中美 AI 人才博弈進入主權管控新階段。",
-      "editorial": "<p><strong>第一</strong>彭博 5 月 26 日報導，中國政府已對 DeepSeek、阿里巴巴等私人企業的核心 AI 研究人員實施出境管控。凡被認定涉及先進 AI 開發且具戰略重要性者，出境前須取得相關當局預先批准；管控範圍不依職稱劃定，由官員逐案判斷技術相關性，適用對象涵蓋研究人員、創業公司創辦人及高管。2025 年的前置政策僅為「建議」知名 AI 人士避免赴美，此次升級為強制審批，具有明確法律約束力。</p><p><strong>第二</strong>此政策將 AI 研究人員正式歸類為與晶片、衛星同層次的國家技術資產。對 DeepSeek 而言，近兩年透過 R1 系列在國際學術界累積的論文合作網絡，可能因人員流動受限而出現結構性斷裂；對中國整體 AI 生態，強制審批意味著科研機構的人才引進、外派交流及與國際機構的聯合研發均需重新設計流程，研究速度將因行政摩擦而出現可見損耗。這是北京在算力出口管制升級後，在人才維度展開對等管控的配套措施，顯示中國政府已將 AI 核心人才的流動視為直接影響技術自主路線的戰略變量。</p><p><strong>第三</strong>對企業 CIO：規劃涉及中國研究團隊的跨境 AI 合作項目（含香港、新加坡中轉架構）時，須增列合規評估流程及人員流動彈性條款。對監管面：歐美政府有具體的政策窗口以快速 AI 人才簽證、研究合作協定承接潛在的人才外流，管控越緊，對他方的人才吸引力溢出越明顯。對投資人：中國私人 AI 實驗室的不確定溢價上升，標的公司核心研究人員的出境自由度已成新的盡職調查項目，海外上市或融資通道的盡調流程建議增列「核心人才出境自由度」評估欄位。</p>"
-    },
-    {
-      "id": "pulse-2026-05-28-14-gemini-spark-24h-cloud-agent-launch",
-      "ts": "2026-05-28T14:04:42+08:00",
-      "title": "Gemini Spark 本週正式上線·Google 首個 24 小時雲端常駐代理人押注個人 AI 市場主導權",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/05/19/google-introduces-gemini-spark-a-24-7-agentic-assistant-with-gmail-integration/",
-      "blurb": "Google I/O 宣布的 Gemini Spark 本週向 AI Ultra 訂閱者開放，這是 Google 首個在用戶離線後仍可自主執行任務的雲端常駐代理人，月費 100 美元，MCP 生態已接入 Canva、OpenTable 等第三方。",
-      "editorial": "<p><strong>第一</strong>Google I/O 2026 於 5 月 19 日發佈 Gemini Spark 後，本週正式向美國 AI Ultra 訂閱用戶開放，月費 100 美元。Spark 是基於 Gemini 3.5 的雲端常駐個人代理人，特點是全天候在 Google 伺服器上獨立執行任務，即使用戶已關閉裝置仍可持續工作，與 Gmail、Google Docs、Slides 深度整合。首批第三方連接已透過 MCP 協議接入 Canva、OpenTable、Instacart；Adobe、Spotify、GitHub、Notion、Slack 確認於 2026 年夏季上線。</p><p><strong>第二</strong>Spark 的核心設計哲學是「常駐雲端、主動執行」，相較於 ChatGPT 或 Claude 目前仍以用戶觸發、被動回應為主要模式，Spark 在產品架構上更接近 persistent agent 形態。Google 選擇 MCP 作為第三方整合標準，是繼 Anthropic 之後第二家主流 frontier lab 正式為 MCP 背書，此舉對 MCP 成為代理人生態互操作標準的確立具有里程碑意義。以 Gmail 嵌入為切入點，Google 同時掌控用戶數據管道與代理人執行環境，形成自我強化的整合優勢，對 Anthropic 及 OpenAI 在個人與輕量企業代理人市場的市佔構成直接競爭壓力。</p><p><strong>第三</strong>對開發者：MCP 整合機會窗口在未來 6 個月內優先性最高，Spark 夏季上線的第三方名單尚有垂直行業席位，尤其是 HR、財務、法律工具類 SaaS；對企業 CIO：Google Workspace AI Ultra 計畫可能重新框架現有授權費用，評估是否提升至 AI Ultra tier 應納入 H2 採購議程；對競爭格局：OpenAI Operator 及 Anthropic Computer Use 若無法提供等效的後台常駐能力，在個人與中小企業市場面臨結構性用戶流失風險，未來 6 個月的競品發佈節奏值得密切追蹤。</p>"
     }
   ]
 }
