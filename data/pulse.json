@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-05-29T12:00:00+08:00",
+  "updated_at": "2026-05-29T14:05:00+08:00",
   "items": [
+    {
+      "id": "pulse-2026-05-29-14-amd-venice-2nm-tsmc-ai-inference",
+      "ts": "2026-05-29T14:05:00+08:00",
+      "title": "AMD EPYC Venice 以 TSMC 2nm 量產奪業界首發 · 256 核每節點 AI 推論增益 40%、代理工作負載逆轉 CPU 邊緣化趨勢",
+      "source": "AMD",
+      "url": "https://www.amd.com/en/newsroom/press-releases/2026-5-20-amd-announces-production-ramp-of-next-generation-a.html",
+      "blurb": "AMD 5 月 21 日確認 EPYC Venice 在 TSMC 2nm 進入量產，為業界首個 HPC 產品登上此製程；256 核設計使每節點 AI 推論吞吐量提升約 40%，代理 AI 工作負載驅動 CPU/GPU 配比從 1:4 回升至 1:1，Venice 可能重塑 2026 年下半年 AI 推論基礎設施成本結構。",
+      "editorial": "<p><strong>第一</strong>　2026 年 5 月 21 日，AMD 正式確認旗艦伺服器 CPU「第六代 EPYC Venice」在 TSMC 台灣廠區進入量產，成為全球 HPC 市場首個在 TSMC 2nm（N2）製程上達到量產里程碑的高效能處理器。Venice 採 256 核單顆設計，相較上代 EPYC Turin 整體效能及能效改善逾 70%，以 2nm 製程的更高電晶體密度實現每節點 AI 推論吞吐量提升約 40%。AMD 同步宣布搭配 AMD Instinct MI450X GPU 的 Helios 機架規模平台已確認多個吉瓦級部署計畫，預計 2026 年下半年開始交付；未來亦規劃在 TSMC 美國亞利桑那廠區建立 Venice 量產產能。Intel 主流伺服器產品目前仍以 Intel 18A 及 TSMC N3 為主，Venice 在製程節點上取得約一代半的先發優勢視窗。</p><p><strong>第二</strong>　Venice 量產在三個維度確立 AI 推論硬體市場的格局轉折。其一，代理 AI 工作負載的興起正在逆轉過去五年 CPU 在 AI 伺服器中被邊緣化的趨勢：傳統 LLM 推論以 GPU 為核心、CPU 配比降至 1:4 乃至 1:8，而以 Claude Code Dynamic Workflows、Google Gemini Spark 為代表的多代理人協調架構對 CPU 核數提出大幅更高的並行處理要求，部分工作負載已重回 1:1 的 CPU/GPU 配比；Venice 256 核正面回應此需求，與 Snowflake 五年 60 億美元 AWS Graviton ARM 採購所反映的「推論端 CPU 需求回升」趨勢形成結構性互證。其二，AMD 以 Venice 搶下 TSMC 2nm 伺服器首發，確認 TSMC 2nm 產能向高付費能力的 AI 算力市場傾斜的分配邏輯，對英特爾數據中心業務設立明確的製程節點時間壓力。其三，Venice 的 40% 每節點推論增益若在 H2 2026 Helios 量產後全面兌現，大型雲廠商的 AI 推論 TCO 曲線下行速率將加速，對 API 推論成本定價具有系統性下行壓力。</p><p><strong>第三</strong>　對企業 CIO 而言，Venice 進入量產意味著 2026 年 Q4 至 2027 年 Q1 的伺服器採購週期可能出現基於 Venice 的 AI 推論基礎設施選型機會，建議在 H2 採購規劃中新增「EPYC Venice 方案比較」維度，尤其對 CPU 密集型代理工作流（多步驟 RAG、並行知識庫查詢）的場景進行 TCO 對比。對 BEXS 黃金交易學員而言，AMD 取得 TSMC 2nm 首發是評估 AMD 數據中心業務 2026 H2 至 2027 年市場份額增長的前置技術確認，建議追蹤 AMD FY2026 Q3 財報（2026 年 10 月）中 EPYC 伺服器出貨量增速及 ASP 趨勢，以量化 Venice 量產對整體 Data Center 業務毛利的槓桿效應。對開發者而言，以 AI 代理工作負載為核心的推論密集型應用（大量並行工具調用、長鏈思維鏈推理）在 Venice 架構下的性能基準測試值得在 H2 2026 進行，評估是否將代理協調層從 GPU 密集轉向 CPU/GPU 混合部署，以降低每百萬 token 的推論成本。</p>"
+    },
+    {
+      "id": "pulse-2026-05-29-14-openai-gpt55-cyber-japan-megabanks",
+      "ts": "2026-05-29T14:05:00+08:00",
+      "title": "美日 AI 安全外交成形 · OpenAI GPT-5.5-Cyber 與 Anthropic Mythos 同步入駐日本三大行",
+      "source": "OpenAI / Nikkei Asia",
+      "url": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber/",
+      "blurb": "美財長 Bessent 促成協議，MUFG、SMBC、瑞穗三大行同步取得 OpenAI GPT-5.5-Cyber 及 Anthropic Mythos 存取，覆蓋 15 個關鍵基礎設施板塊；frontier AI 安全能力首度以外交安排而非商業管道分配，日本金融基礎設施 AI 防禦層次完成大幅升格。",
+      "editorial": "<p><strong>第一</strong>　2026 年 5 月 21 日，OpenAI 宣布推出「Trusted Access for Cyber（TAC）」框架，透過此框架向經審查的政府機關及關鍵基礎設施運營商開放 GPT-5.5-Cyber 存取；GPT-5.5-Cyber 是 GPT-5.5 的安全強化版本，英國 AISI 的評估確認其在漏洞發現與修補建議場景具備接近 Anthropic Mythos 的能力水準。5 月 28 日，日本媒體確認三菱 UFJ 金融集團（MUFG）、三井住友金融集團（SMFG）及瑞穗金融集團三家日本最大銀行獲得 GPT-5.5-Cyber 存取資格；此安排由美國財政部長 Scott Bessent 於東京訪問期間直接協調推動，作為涵蓋 15 個關鍵基礎設施板塊的美日 AI 安全合作框架的一部分，36 個成員機構的公私部門工作組同步成立。同一框架下，三大行亦確認將在 5 月底前取得 Anthropic Claude Mythos 的 Project Glasswing 存取資格，是 Mythos 首度超出北美及歐洲限定夥伴範圍的地域擴張。</p><p><strong>第二</strong>　此安排在三個維度確立 frontier AI 安全工具部署格局的結構性轉折。其一，frontier AI 頂尖能力模型的存取資格首度被納入國家間外交協議的正式議程——過去 AI 廠商的安全工具以商業談判或研究合作形式對外分發，此次由美國財政部長直接充當協調方，將模型存取提升為與武器出口管制同層次的戰略分配決策，確認 AI 安全工具在地緣博弈中已具備可量化的外交槓桿屬性。其二，OpenAI TAC 框架與 Anthropic Glasswing 框架同步向同一批機構並行部署，確認頂尖 AI 安全能力的市場結構正在朝向「政府管制准入、商業競爭在准入後展開」的雙層架構演化；兩框架的同時存在亦確認日本金融機構不依賴單一 frontier 供應商的多元佈局。其三，日本三大行獲得存取是 Mythos 及 GPT-5.5-Cyber 雙框架首度突破北美及歐洲地域限制，為東亞市場後續准入路徑（尤其是南韓系統性金融機構）設立了外交程序先例。</p><p><strong>第三</strong>　對企業 CIO 而言，此外交部署框架確認「直接商業採購」以外，政府介導的准入通道已成為頂尖 AI 安全工具取得的獨立路徑；金融監管行業的機構若在日本本地有業務往來，應評估透過金融廳或相關工作組管道提出准入申請的可行性，並追蹤 TAC 框架是否在 H2 2026 開放更廣泛的商業審查路徑。對 BEXS 黃金交易學員而言，MUFG、SMBC、瑞穗三大行是東亞美元清算與外匯市場的核心節點，其 AI 強化的網路安全能力直接提升日本金融基礎設施的系統性穩健度；在評估東亞匯市及利率衍生品市場微結構風險時，金融基礎設施的 AI 防禦深度值得納入操作風險情境分析的獨立維度。對開發者而言，OpenAI TAC 框架及 Anthropic Glasswing 框架的技術合規文件均已公開，具備資安研究資格的組織可申請評估存取；兩框架均強調模型輸出的審計可追溯性，建議在開發 AI 滲透測試輔助工具時提前熟悉准入審查標準，以確認是否符合未來框架開放時的技術合規門檻。</p>"
+    },
     {
       "id": "pulse-2026-05-29-12-anthropic-stainless-sdk-acquisition",
       "ts": "2026-05-29T12:00:00+08:00",
@@ -252,24 +270,6 @@
       "url": "https://capitolnewsillinois.com/news/illinois-lawmakers-pass-landmark-ai-accountability-bill/",
       "blurb": "伊利諾州眾議院 5 月 27 日以 110 比 0 全票通過 SB 315，要求 OpenAI、Anthropic、Meta 等 frontier 開發商每年接受獨立第三方安全審計，州長 Pritzker 已表態簽署；加州、紐約後第三州立法確立，美國多州 AI 監管包圍網成形。",
       "editorial": "<p><strong>第一</strong>　2026 年 5 月 27 日，伊利諾州眾議院以 110 比 0 的全票通過《人工智慧安全措施法》SB 315，此前州參議院已於 5 月 21 日通過。法案送交州長 J.B. Pritzker，後者在法案通過後隨即在 X 平台發文表示期待簽署，法案本週末前正式成為法律機率極高。SB 315 要求 Meta、OpenAI、Anthropic 等大型 frontier AI 開發商建立並每年更新一份 AI 安全框架（涵蓋災難性風險評估、緩解措施、網路安全、內部治理及第三方評估），強制聘請獨立第三方審計機構對上述框架進行年度審計，並設立員工吹哨者保護機制。適用對象以「frontier model」為定義門檻，通常以訓練算力（超過 10^26 FLOPs）為基準。</p><p><strong>第二</strong>　SB 315 是美國繼加州、紐約後第三個強制要求 frontier AI 第三方審計的州級立法，但在三項指標上均屬迄今最嚴：首個附帶員工吹哨者保護條款；首個要求審計機構獨立於被審計公司；要求公開申報的災難性風險細節最廣。最值得注意的政治信號是，OpenAI 與 Anthropic 雙雙公開支持此法案，而代表 Google 等公司的 AI 產業貿易協會 CCIA 表態反對。frontier lab 選擇站在強監管一方，是以合規成本作為護城河的策略性表態：對規模龐大的 OpenAI 及 Anthropic，年均數百萬美元的審計成本可以承受；對 frontier 門檻以下的中小型競爭者，比例壓力卻構成市場進入的結構性壁壘，強監管在客觀上鞏固了現有頭部玩家的市場地位。</p><p><strong>第三</strong>　對企業 CIO 而言，SB 315 正式生效後，「供應商是否通過第三方 AI 安全審計」將成為採購 frontier AI 服務的事實性盡職調查項目，建議在下半年 AI 服務合約更新週期中將審計報告列為供應商資格文件。對開發者而言，frontier 定義細節（最終算力門檻或參數量指標）將在法規實施細則中確認，建議追蹤伊利諾州 Attorney General 辦公室的執法指引，確認是否波及部署但未訓練模型的 API wrapper 服務商。對 BEXS 黃金交易學員而言，多州審計義務的累積效應是 AI 安全審計市場的直接催化劑；若聯邦 AI 監管在下半年加速，多頭州級監管格局可能促使 OpenAI 及 Anthropic 在 IPO 路演中主動要求聯邦優先權（federal preemption），此政策走向值得在 S-1 文件公開後確認。</p>"
-    },
-    {
-      "id": "pulse-2026-05-28-10-anthropic-xai-colossus-compute-deal",
-      "ts": "2026-05-28T10:03:00+08:00",
-      "title": "Anthropic 每月付 xAI 十二點五億美元租下 Colossus 1 全量算力・三年合約逾四百億確立 frontier 算力外包新基準",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/05/20/anthropic-will-pay-xai-1-25-billion-per-month-for-compute/",
-      "blurb": "SpaceX S-1 首度披露 Anthropic 每月付 xAI 十二點五億美元、獨佔 Colossus 1 全量三百兆瓦算力至 2029 年，逾二十二萬枚 NVIDIA GPU 納入 Claude 服務鏈；frontier lab 以長租外部超算填補缺口的最大已知案例確立。",
-      "editorial": "<p><strong>第一</strong>　 2026 年 5 月 20 日，SpaceX 向美國 SEC 遞交的首份 S-1 招股說明書首度披露一項 Anthropic 算力採購協議：Anthropic 以每月約十二點五億美元承租 xAI Colossus 1 超算中心全部三百兆瓦輸出容量，合約期限至 2029 年 5 月，首兩個月因設施爬坡享有折扣，完整履約金額逾四百億美元。Colossus 1 位於田納西州孟菲斯，配備超過二十二萬枚 NVIDIA GPU（H100、H200 及 GB200），原為 xAI 訓練 Grok 系列模型而建。Anthropic 以合約形式獨佔全部容量，SpaceX 在 S-1 中將此交易定性為「變現閒置算力、提升基礎設施使用率」的財務工具。按年化換算，此算力租賃支出約一百五十億美元，高於 Anthropic Q2 預計收入一百零九億美元，意味著算力合約的財務可持續性以 Claude 服務在後續季度的持續高增長為前提。</p><p><strong>第二</strong>　此合約在三個面向確立 frontier 算力競爭格局的新坐標。其一，對 Anthropic 而言，三百兆瓦獨佔算力可在不到一個月內啟用，相較自建同等規模數據中心所需的三至五年，以長期現金承諾換取算力即時性，是 Anthropic 加速 Claude 系列模型能力的最快速路徑。其二，對 xAI 而言，Colossus 1 年化逾一百五十億美元的外部租金以機構合約收入形式在 SpaceX S-1 中首度確認，顯示 xAI 算力規模已超出自身訓練需求，具備以超算中心作為盈利資產的商業架構。其三，此合約確立算力外包定價參照：每兆瓦月均逾四百萬美元的租金隱含定價，對微軟 Azure、Amazon AWS 及 Google Cloud 的大型算力合約報價形成結構性基準壓力。</p><p><strong>第三</strong>　對 BEXS 黃金交易學員而言，每月十二點五億美元算力支出是評估 Anthropic IPO S-1 自由現金流結構的最關鍵壓力指標，建議在 S-1 公開後確認此合約是否以經營租賃義務列示，並以 Q2 盈利五億五千九百萬美元對比長期算力承諾總額，評估收入增速能否覆蓋四百億合約負擔。對企業 CIO 而言，此交易揭示 frontier lab 算力採購邏輯優先速度而非成本，私有算力自建路線在三至五年交付週期內將持續落後；建議在企業 AI 基礎設施規劃中優先評估超大規模雲廠商的算力容量預訂協議。對開發者而言，Anthropic 獲得 Colossus 1 全量算力意味著 Claude 系列推理資源在 2026 至 2029 年具備結構性容量保障，速率限制改善可能性提升，值得在下一輪工具鏈評估中重新測試 Claude API 的生產環境速率可靠性。</p>"
-    },
-    {
-      "id": "pulse-2026-05-28-10-isomorphic-labs-21b-series-b-ai-drug-discovery",
-      "ts": "2026-05-28T10:03:00+08:00",
-      "title": "Isomorphic Labs 完成二十一億美元 B 輪・AlphaFold 衍生藥物設計引擎獲最大私募背書、諾華禮來強生三大藥廠同框確認",
-      "source": "Isomorphic Labs",
-      "url": "https://www.isomorphiclabs.com/articles/isomorphic-labs-announces-series-b-investment-round",
-      "blurb": "Thrive Capital 領投，Alphabet、MGX、淡馬錫及英國主權 AI 基金跟投，Isomorphic Labs 完成二十一億美元 B 輪；AlphaFold 衍生 AI 藥物設計平台 IsoDDE 正式進入多管線臨床轉化資本規模，AI 藥物發現領域最大單輪私募確立。",
-      "editorial": "<p><strong>第一</strong>　 2026 年 5 月 12 日，DeepMind 孵化 Isomorphic Labs 宣布完成二十一億美元 B 輪融資，Thrive Capital 領投，Alphabet、GV、MGX、淡馬錫及英國主權 AI 基金聯合參與，累計融資達二十六億美元，是 AI 藥物發現領域迄今最大單輪私募。Isomorphic Labs 由 DeepMind 執行長 Demis Hassabis 兼任董事長、Max Jaderberg 擔任 President，建立於 AlphaFold 2 蛋白質結構預測技術基礎，核心平台為 AI 藥物設計引擎（IsoDDE），整合結構預測、分子生成、結合力評估及 ADMET 篩選的端對端計算管線，現有商業合作夥伴包含諾華（Novartis）、禮來（Eli Lilly）及強生（J&amp;J）。本輪資金將用於將 AI 設計候選藥物推進臨床試驗，並在全球擴大研究與工程人才佈局。</p><p><strong>第二</strong>　此輪融資在三個面向確立 AI 藥物發現的產業格局轉折點。其一，從學術展示到臨床轉化：AlphaFold 2 的學術里程碑已建立 Isomorphic 的技術信用，二十一億美元的資本規模足以支撐多條藥物候選物同步推進 I 期及 II 期臨床試驗；2027 至 2028 年讀出的臨床數據，將是驗證「AI 設計能否系統性縮短藥物開發週期」的第一批可量化外部確認，也是整個 AI 生命科學賽道的定義性里程碑。其二，英國主權 AI 基金首度大規模入局 AI 生命科學，與 Alphabet 政策性跟投同框，確認英國政府將 Isomorphic 視為國家 AI 生命科學戰略錨點，隱含未來 NHS 優先合作通道與監管快速審批框架的政策槓桿效應。其三，諾華、禮來及強生三家全球前十大藥廠同步確認合作，為 IsoDDE 在真實商業研發環境的技術可信度提供外部驗證，對 Schrödinger（SDGR）及 Recursion Pharmaceuticals（RXRX）構成資本與技術雙維競爭壓力。</p><p><strong>第三</strong>　對 BEXS 黃金交易學員而言，Isomorphic 二十一億美元融資是評估上市競爭者 SDGR 及 RXRX 市場份額壓力的重要近期信號，建議以諾華、禮來合作協議擴展時程為第一觀察節點，並在下一季財報確認兩者 AI 加速研發服務 ARR 增速的相對變化，量化 Isomorphic 私募規模化的競爭傳導效應。對企業 CIO 而言，製藥行業研發負責人應在 2026 年下半年啟動 IsoDDE 平台概念驗證評估，重點測試蛋白質-配體結合力篩選及分子 ADMET 預測場景的計算效率，並確認 Google Cloud Vertex AI 是否為 IsoDDE 企業授權的主要採購渠道。對開發者而言，Isomorphic Labs 是 AlphaFold 3 技術最深度商業化轉化的組織，建議追蹤其是否在 H2 2026 對外開放 IsoDDE API，以評估在 AlphaFold 技術棧上構建第三方計算化學或藥物設計工具的可行性與時間視窗。</p>"
     }
   ]
 }
