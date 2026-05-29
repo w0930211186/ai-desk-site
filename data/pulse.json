@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-05-29T08:09:00+08:00",
+  "updated_at": "2026-05-29T09:12:00+08:00",
   "items": [
+    {
+      "id": "pulse-2026-05-29-09-anthropic-series-h-900b-valuation",
+      "ts": "2026-05-29T09:00:00+08:00",
+      "title": "Anthropic 九千億美元估值融資本週預計封閉 · 年內第二筆三百億創史上最快估值倍增、首度超越 OpenAI 私人 AI 估值排位",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-22/anthropic-to-close-over-30-billion-round-as-soon-as-next-week",
+      "blurb": "彭博 5 月 22 日報導 Anthropic 本週預計完成逾三百億美元融資，Pre-money 估值超過九千億美元，首度超越 OpenAI 今年 3 月八千五百二十億估值；這是 Anthropic 在 2026 年內完成的第二筆三百億融資，距 2 月三千八百億估值三個月成長逾一倍。",
+      "editorial": "<p><strong>第一</strong>　2026 年 5 月 22 日，彭博報導 Anthropic 正與投資方進行最後協商，預計在 5 月 26 日起當週內完成一筆逾三百億美元融資，Pre-money 估值超過九千億美元。Sequoia Capital、Dragoneer Investment Group、Altimeter Capital 及 Greenoaks Capital Partners 各承諾約二十億美元擔任共同主導方，Founders Fund 及 General Catalyst 等現有股東亦確認參與。此輪融資前，Anthropic 最新確認估值為 2026 年 2 月完成的三百億美元 Series G，Post-money 估值三千八百億美元（Coatue 及新加坡主權財富基金 GIC 領投，微軟及 NVIDIA 參與）。九千億美元 Pre-money 估值若確認，Anthropic 將超越 OpenAI 今年 3 月確立的八千五百二十億美元估值，成為全球最高估值私人 AI 公司；且其為 2026 年日曆年內兩度完成三百億融資的首個 AI 新創，三個月估值從三千八百億躍升至逾九千億，年化增速在主要科技公司史上罕見先例。</p><p><strong>第二</strong>　此輪融資在三個面向確立 AI 市場競爭格局的結構性轉折。其一，估值超越 OpenAI 將標誌 Anthropic 在資本市場完成從「追趕者」到「領頭方」的切換，與此同步的是商業數據的強化：5WPR 5 月 28 日 AI Comms Study 確認 Anthropic 年化收入約三百億美元，高於 OpenAI 今年 2 月的約二百五十億美元；Ramp 5 月 AI Index 亦首度確認 Anthropic 企業客戶滲透率（34.4%）超越 OpenAI（32.3%），三項指標同步翻轉，確認「Anthropic 超越 OpenAI」非單一數據偏差而是系統性格局移位。其二，三個月內從三千八百億升至九千億的估值路徑，折射出 frontier AI 市場的極速資本化週期——此估值上漲直接對應 Colossus 算力交割、KPMG 27.6 萬人部署及 Claude Code 企業滲透率全面爆發的運營基礎，投資人以快速估值承認「算力存量 × 企業採購網絡」已構成 Anthropic 的結構性護城河。其三，Sequoia、Dragoneer、Altimeter 及 Greenoaks 四家各二十億美元的共同主導架構，是機構投資人以分散風險方式承接 frontier lab 估值上升的標準化結構，預示未來一年 AI 新創大型融資的模板格局。</p><p><strong>第三</strong>　對 BEXS 黃金交易學員而言，Anthropic 九千億美元 Pre-money 估值將對 OpenAI S-1 路演估值框架形成最直接的外部參照壓力：OpenAI 若在今年下半年正式遞交 S-1，投資銀行承銷估值必須正面回應「競對已以九千億上市前估值完成融資」的定價合理性敘事，兩者 IPO 時序競爭在本輪完成後進入最關鍵視窗；建議追蹤 Anthropic 官方是否在本週發布正式新聞稿確認融資封閉，以 S-1 公開後「主要股東持股架構」與本輪投資方名單的對應確認作為估值可信度基準。對企業 CIO 而言，Anthropic 持續高速融資確認其在可見未來擁有最充裕的算力投入能力，Claude 服務可靠性與版本更新頻率的長期穩定基礎清晰，支持在多年採購週期中以 Claude 為主力模型的架構決策。對開發者而言，九千億估值意味著 Anthropic 持續大量招募頂尖研究人才，Karpathy 主導的 Claude 自加速預訓練研究小組正在加速，Colossus 算力合約已確保到 2029 年，以 Claude API 為核心工具鏈選擇的工程師無需擔心短期服務中斷或能力倒退風險。</p>"
+    },
+    {
+      "id": "pulse-2026-05-29-09-openai-erdos-conjecture-reasoning-math",
+      "ts": "2026-05-29T09:00:00+08:00",
+      "title": "OpenAI 推理模型自主推翻 Erdős 80 年幾何猜想 · 代數數論路徑由 AI 完整發現、機器原創數學發現首獲外部數學家確認",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/20/openai-claims-it-solved-an-80-year-old-math-problem-for-real-this-time/",
+      "blurb": "OpenAI 5 月 20 日公布通用推理模型獨立推翻 Erdős 1946 年平面單位距離猜想，以 Golod-Shafarevich 代數數論構造無限點集族群系統性超越方格網格 80 年基準；普林斯頓數學家 Will Sawin 驗證並精煉至 n^1.014，是 AI 首次以完全自主方式解決數學界公認的長期開放問題。",
+      "editorial": "<p><strong>第一</strong>　2026 年 5 月 20 日，OpenAI 公布其內部通用推理模型已自主推翻 Paul Erdős 於 1946 年提出的平面單位距離猜想（planar unit distance conjecture）。猜想的問題是：將 n 個點放置於平面，恰好相距 1 的點對數最多可達多少？八十年間，數學界普遍認為方格網格（square grid）配置幾近最優，理論上界徘徊在 n^(1+c/log log n) 量級。OpenAI 推理模型進入代數數論領域，以 Golod-Shafarevich 理論及無限類域塔（infinite class field towers）構造出無限點集族群，系統性超越方格網格配置；普林斯頓大學數學家 Will Sawin 隨後獨立驗證並將改進量化為 n^1.014 的明確多項式因子。OpenAI 在聲明中刻意標注「我們有信心此次確實成立」，直接呼應此前 AI 數學宣稱被撤回的爭議歷史。</p><p><strong>第二</strong>　此事件在三個面向確立 AI 輔助數學研究格局的結構性轉折點。其一，「代數數論路徑」是數學家在過去 80 年未選擇的非主流方向，模型自主跨學科遷移找到新方法，而非沿循現有文獻路徑，是 AI 數學推理從「重現已知路徑」向「原創路徑發現」的明確跨越；此前 AI 數學里程碑（AlphaProof、Gemini Deep Think）主要體現在形式化驗證或競賽題解，而非長期開放問題的全新方法發現。其二，Will Sawin 的外部驗證是本次宣稱可信度的關鍵基礎：OpenAI 在普林斯頓數學家確認後才公布，直接回應 AI 數學宣稱在同行評審層面的可信度問題，確立更高的公開宣告標準；若後續完整論文通過數學期刊同行評審，將是第一篇以 AI 為核心貢獻者的數學發現期刊論文。其三，使用的是通用推理模型（general-purpose reasoning model）而非數學專用模型，意味著相同能力層級的模型理論上可被部署於物理學、化學及生命科學的開放問題，AI 驅動的基礎科學發現正從生物學（AlphaFold 蛋白質結構）擴展至純數學領域。</p><p><strong>第三</strong>　對企業 CIO 及研究機構負責人而言，此事件確認「AI 作為長期開放問題研究合作者」的技術可行性已具備外部驗證，建議評估組織內是否有研究密集型業務線（法律條文體系分析、藥物化合物探索、金融衍生品定價模型建構）可被「以 AI 進行跨學科路徑搜尋」的框架重新設計，以量化 AI 研究加速器的 ROI 潛在上限。對開發者而言，此突破確認長上下文推理在數學及科學領域的最前沿應用正快速打開，建議追蹤 OpenAI 是否在未來三個月開放此推理模型的 API 存取，以評估在研究工具鏈中整合高強度數學推理的技術可行性視窗。對 BEXS 黃金交易學員而言，AI 自主科學發現能力的確認是評估「AI 系統性加速基礎科研」這一長期主題的關鍵外部數據點；Isomorphic Labs 二十一億美元 B 輪藥物設計平台與 OpenAI 數學推理突破的能力收斂，構成兩個互補實證節點，建議在 AI 驅動研發加速的行業估值模型中將此列為技術可行性確認信號，而非僅依靠單一生物學領域的 AI 應用案例。</p>"
+    },
     {
       "id": "pulse-2026-05-29-08-anthropic-claude-code-security-sandbox",
       "ts": "2026-05-29T08:00:00+08:00",
@@ -252,24 +270,6 @@
       "url": "https://techcrunch.com/2026/05/26/duckduckgo-installs-are-up-30-as-users-reject-being-force-fed-googles-ai-search/",
       "blurb": "TechCrunch 5 月 26 日報導，Google I/O 後全面推行 AI 搜尋引發量化反彈：DuckDuckGo 美國應用安裝量單日峰值達 30.5%、iOS 更達 69.9%，全球搜尋「零點擊」比率突破六成，用戶在「強制 AI」與「選擇權」之間正在用腳投票。",
       "editorial": "<p><strong>第一</strong>　2026 年 5 月 26 日，TechCrunch 引述 DuckDuckGo 官方數據：Google 在 I/O 2026 全面推行以 AI Mode 為核心的重構搜尋介面後，DuckDuckGo 美國應用安裝量在 5 月 20 日至 25 日期間周平均增長 18.1%，5 月 25 日單日峰值達 30.5%；iOS 數據更為顯著，周平均增長 33%，單日峰值達 69.9%。DuckDuckGo「無 AI 搜尋頁面」（noai.duckduckgo.com）在同期周均增長 22.7%，峰值 27.7%。DuckDuckGo 執行長在聲明中直指：「Google 在強制餵食 AI，完全沒有退出選項。」背景數據：根據多份獨立研究，Google 搜尋已出現約 60% 的「零點擊」查詢，用戶取得 AI 摘要後不點擊任何來源；發布商搜尋流量在過去一年全球平均下降約 33%，部分出版商紀錄到特定查詢流量下滑高達 89%。</p><p><strong>第二</strong>　此事件在三個維度確立結構性意涵。其一，DuckDuckGo 安裝量七天內出現統計顯著增長，首次以量化數據確認 AI 搜尋強制化已觸發部分高感知度用戶的主動流失——此前 Google 的假設是用戶會在享受 AI 摘要便利後留存；此數據否定了「強制 AI 之後用戶會習慣」的產品邏輯，是 AI 搜尋 UX 設計史上最重要的外部驗證節點。其二，60% 零點擊率的結構性影響已超越用戶體驗層次，進入開放網路商業模式重置的維度：當 Google 以 AI 摘要取代跨站導流，廣告系統的 RPM 假設、發布商的 SEO 投資回報模型及整個內容經濟的流量來源結構均需重新評估，此重置的量級與 Facebook 2018 年 News Feed 調整對媒體業的衝擊相當甚至更大。其三，此事件與 Anthropic 在同期的「Claude 無廣告」策略形成鮮明 AI 平台哲學對照——Google 以「AI 優先」為由強制遷移用戶，Anthropic 以「用戶自主」為差異化敘事，兩條路線正在大眾市場中形成可量化的偏好數據分歧。</p><p><strong>第三</strong>　對企業 CIO 而言，員工依賴 Google 搜尋的知識工作流程面臨質量不確定性：AI 摘要在法律、醫療、財務等高難度查詢的引用準確率仍有顯著缺陷，建議評估是否為研究密集型職能部門設置替代搜尋工具選項，並在內部 AI 工具採購政策中新增「用戶選擇權」為必要評分維度。對開發者而言，DuckDuckGo 的增長數據是 AI 功能設計中「強制 vs. 漸進式引入」策略效果的外部量化基準：提供 AI 退出路徑的工具在用戶留存上具備可量化的長期優勢，建議在 AI 功能 A/B 測試中系統性納入「退出意願率」作為健康度指標。對 BEXS 黃金交易學員而言，Google 搜尋市場份額從 2023 年 92.9% 下滑至 2026 年中約 89.6%，雖短期對 Alphabet 廣告收入影響有限，但 AI 摘要的零點擊效應若持續壓低廣告主 CPM，廣告業務模型效益假設將需在 Q3 Alphabet 財報後系統性更新；建議追蹤 Cost per Click 及搜尋廣告收益同比增速作為前置警訊指標。</p>"
-    },
-    {
-      "id": "pulse-2026-05-27-22-trapdoor-supply-chain-ai-assistant-poisoning",
-      "ts": "2026-05-27T22:00:00+08:00",
-      "title": "TrapDoor 跨生態供應鏈攻擊首度毒化 CLAUDE.md · npm/PyPI/Crates 34 套件植入零寬指令劫持 AI 編碼代理",
-      "source": "Socket Security Research",
-      "url": "https://socket.dev/blog/trapdoor-crypto-stealer-npm-pypi-crates",
-      "blurb": "TrapDoor 攻擊從 5 月 22 日起橫跨 npm、PyPI、Crates.io 植入 34 個惡意套件，以零寬 Unicode 字元隱藏指令植入 CLAUDE.md 及 .cursorrules，直接劫持開發者的 Claude Code 與 Cursor 代理執行憑證竊取；首例針對 AI 代理工具鏈信任層的跨生態主動投毒攻擊正式確立。",
-      "editorial": "<p><strong>第一</strong>　2026 年 5 月 22 日起，供應鏈安全公司 Socket 發現代號 TrapDoor 的惡意套件攻擊行動，34 個惡意套件及 384 個以上版本橫跨 npm、PyPI 及 Crates.io 三大套件生態系同步投放，主要鎖定加密貨幣、DeFi、Solana 及 AI 開發者社群。TrapDoor 最值得注意的新型手法是 AI 代理工具鏈投毒：惡意 npm payload 在受害者專案目錄植入 .cursorrules 與 CLAUDE.md 設定檔，其中嵌入以零寬 Unicode 字元（zero-width characters，U+200B 系列）隱藏的惡意指令，開發者肉眼無法辨識，但 Claude Code、Cursor 等 AI 編碼代理在讀取設定檔時將自動解析並執行，攻擊者因此可在無需直接感染 AI 工具本身的前提下，於代理工作流程中植入持久化遠端指令執行能力。各生態手法分工：PyPI 套件在 import 時自動執行並從攻擊者 GitHub Pages 下載 JavaScript payload；npm 採 Fernet 及 ECDH 加密；Crates.io 使用 XOR 加密，金鑰硬編碼 cargo-build-helper-2026。Socket 自動化偵測系統在 381 個套件版本中平均 5 分 56 秒完成偵測，最快紀錄 58 秒。</p><p><strong>第二</strong>　TrapDoor 在三個維度確立 AI 代理工具鏈攻擊進入新階段的結構性信號。其一，.cursorrules 與 CLAUDE.md 投毒直接利用 AI 代理對本地設定檔的隱性信任機制，是第一個經正式記錄的跨生態供應鏈攻擊主動針對 AI 代理信任層的案例，攻擊面已從「開發者的程式碼」擴展至「代理讀取的設定文件」。其二，攻防雙方 AI 能力對稱化在供應鏈場景已是現實——TrapDoor 執行者利用 AI 代理工具鏈的盲點發動攻擊，Socket 以自動化 AI 掃描在分鐘級別偵測，與 Anthropic Glasswing 的防守型 AI 掃描邏輯在攻擊向量上形成直接對照。其三，npm、PyPI、Crates.io 三大生態同步投放意味著執行者具備系統性跨生態協調能力，跨生態供應鏈攻擊的技術門檻已不再構成有效嚇阻。</p><p><strong>第三</strong>　對開發者而言，最直接的行動點是立即以十六進制視圖或 Socket 工具審計本地開發環境中所有 .cursorrules 及 CLAUDE.md 文件，確認無零寬 Unicode 字元；任何近期安裝的加密貨幣、DeFi、AI 相關套件應核對 Socket 發布的 384 個已知惡意版本名單；建議在 CI/CD 管線強制設定 .cursorrules 及 CLAUDE.md 的 git diff 告警，偵測未經審核的設定檔修改。對企業 CIO 而言，TrapDoor 確認 AI 代理工具鏈已成供應鏈攻擊的明確目標，建議在 AI 工具採購政策中新增「代理設定檔完整性驗證」為強制控制點，確認 CLAUDE.md 等 AI 代理指令文件在代碼庫中受版本控制保護。對 BEXS 黃金交易學員而言，AI 代理信任層被攻擊的可見威脅向量，是評估 AI 安全工具採購急迫性及供應鏈安全細分市場成長加速的直接先行信號。</p>"
-    },
-    {
-      "id": "pulse-2026-05-27-22-nextera-dominion-67b-ai-power-infrastructure",
-      "ts": "2026-05-27T22:00:00+08:00",
-      "title": "NextEra 670 億美元收購 Dominion · AI 算力電力鏈完成公用事業級整合、維吉尼亞 AWS 核心電網正式納入 AI 超算供應鏈",
-      "source": "Fortune / Bloomberg",
-      "url": "https://fortune.com/2026/05/18/nextera-dominion-67-billion-acquisition-ai-data-centers-largest-utility/",
-      "blurb": "NextEra Energy 5 月 18 日宣布以全股票 670 億美元收購 Dominion Energy，合計服務一千萬用戶跨越佛羅里達、維吉尼亞、卡羅萊納；CEO 明確以超大規模 AI 算力數據中心電力需求為核心驅動，是全球電力基礎設施首次以「配合 AI 超算需求」為主旨完成的公用事業巨頭整合。",
-      "editorial": "<p><strong>第一</strong>　2026 年 5 月 18 日，美國最大電力公用事業 NextEra Energy 宣布以全股票形式收購 Dominion Energy，交易估值近 670 億美元，合計形成全球規模最大的受監管電力公用事業集團，服務覆蓋佛羅里達州、維吉尼亞州、北卡羅萊納州及南卡羅萊納州約一千萬電力用戶。NextEra 董事長兼執行長 John Ketchum 在公告中明確以「滿足大量且快速成長的 AI 數據中心電力需求」作為戰略驅動力，強調唯有更大規模才能更快速、更低成本地建造電力基礎設施配合超大規模雲廠商。Dominion 股東持有合併後公司 25.5%，NextEra 股東 74.5%；合併公司向維吉尼亞、北卡及南卡 Dominion 用戶提供兩年合計 22.5 億美元電費抵免。交易預計 2027 年中至下半年完成，須 FERC 及各州公用事業委員會審批。</p><p><strong>第二</strong>　NextEra-Dominion 合併在三個維度確立 AI 算力電力鏈整合的結構性意涵。其一，維吉尼亞州是全球 AI 數據中心密度最高的單一州，Dominion Energy 是其主要電力公用事業商，收購使 NextEra 直接控制供應 Amazon AWS 北維吉尼亞最大數據中心叢集、Microsoft Azure 及 Google Cloud 維吉尼亞設施的核心電網資產，此地理稀缺性難以在 5 至 7 年內被競爭者以新建電廠複製。其二，670 億美元交易規模反映資本市場已將「配合 AI 算力需求的電力整合溢價」正式計入公用事業估值，確認 AI 基礎設施投資已從軟硬體層擴展至電力基礎設施層，電力股成為 AI 資本週期的結構性組成部分。其三，全股票對價結構隱含 NextEra 執行層對 AI 電力需求長達十年以上持續增長的顯性戰略押注，也使 Dominion 股東以股票持有換取合併溢價，是 NextEra 對自身長期定價信心的資本市場宣示。</p><p><strong>第三</strong>　對 BEXS 黃金交易學員而言，NextEra-Dominion 合併正式確立「AI 電力基礎設施」為 2026 至 2027 年資本市場獨立主題板塊；維吉尼亞州核電資產（North Anna、Surry 核電廠）是評估 AI 長期基載電力稀缺性的具體資產標的，建議追蹤 FERC 審批進度作為交易閉環風險的主要不確定性節點，並在 NextEra FY2026 Q3 財報中確認 Dominion 整合對電力容量擴建速度的資本指引。對企業 CIO 而言，美國東岸大型 AI 基礎設施部署的長期電力合約策略應在審批完成前完成評估，合併後定價議價能力及可再生能源憑證採購政策均可能在新管理層框架下調整，建議 2026 年底前鎖定現有超大規模電力合約條款。對開發者而言，維吉尼亞州電力供應穩定性改善是評估 AWS us-east-1、Azure eastus 及 GCP us-east4 算力可靠性的基礎設施正向信號，若 NextEra 以可再生能源配合 AI 數據中心，相關雲端區域的 Scope 2 碳信用政策可能在合併後統一改善。</p>"
     }
   ]
 }
