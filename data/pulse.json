@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-05-30T09:01:00+08:00",
+  "updated_at": "2026-05-30T20:00:00+08:00",
   "items": [
+    {
+      "id": "pulse-2026-05-30-20-anthropic-mythos-wide-release-reversal",
+      "ts": "2026-05-30T20:00:00+08:00",
+      "title": "Anthropic Mythos 數週內向全體用戶開放 · 7 週「過於危險」封鎖解除、Mozilla Firefox 271 漏洞確認進攻能力",
+      "source": "Axios / Fortune / Bloomberg",
+      "url": "https://www.axios.com/2026/05/28/anthropic-opus-release-mythos",
+      "blurb": "英國 AISI 7 週前封鎖 Mythos、認定其進攻能力超越幾乎所有人類安全專家；Anthropic 5 月 28 日宣告防護措施取得快速進展、數週內向全體用戶解鎖，Mozilla 確認模型自主發現 Firefox 271 個漏洞——進攻性 AI 安全能力即將首度以消費產品形式進入市場，攻防能力的對稱假設需要全面重設。",
+      "editorial": "<p><strong>第一</strong>　2026 年 4 月 7 日，英國 AI 安全研究所（AISI）評估 Claude Mythos Preview 後，認定其進攻性網路安全能力「過於危險」，拒絕公開發布；AISI 的核心判定：Mythos 可自主識別並串聯每一主要作業系統與瀏覽器的零日漏洞，能力水準超越幾乎所有人類安全專家。Anthropic 隨即將存取限縮至 Project Glasswing 甄選夥伴圈，涵蓋 AWS、Apple、Google、Microsoft、NVIDIA 等逾 40 家機構。七週後，5 月 28 日，Anthropic 在宣布 650 億美元 Series H 的同日聲明，已在防護措施上取得「快速進展」，預計「數週內」向全體 Claude 用戶開放 Mythos 等級模型。已量化能力資料：Glasswing 夥伴評估確認 Mythos 在專家級 CTF（奪旗）挑戰的成功率為 73%；以 3/10 嘗試端對端完成「The Last Ones」——一個人類需約 20 小時的 32 步企業網路攻擊模擬；Mozilla 安全團隊確認，Mythos 在 Firefox 代碼庫中自主發現 271 個獨立漏洞；GPQA Diamond 評分 94.6%，位居所有已公開評估模型榜首。</p><p><strong>第二</strong>　此政策轉向在三個維度確立 frontier AI 安全格局的結構性意涵。其一，「過於危險→數週內全體開放」的逆轉窗口僅 7 週，時序與 9,650 億美元估值宣告完全重疊；《衛報》及《自然》均明確點出此時序關聯，《自然》以「Mythos 是否正在開啟 AI 限制釋出時代？」為題——提問本身即為訊號：若 frontier lab 的安全評估框架可在市場壓力下被 7 週加速，其作為產業護欄的可信度將受系統性質疑，監管機構在 SB315 及歐盟 AI Act 後續細則中引用此先例的空間由此擴大。其二，在 OpenAI 以 TAC 框架受控向政府分發 GPT-5.5-Cyber 的同一時期，Anthropic 選擇廣泛開放，兩家 frontier lab 在最高能力安全模型分發策略上形成明確路線分歧——封閉式政府合作釋出對比市場廣泛開放；此分歧將在加州及伊利諾州立法的後續細則制定中，成為監管者選擇對誰施加更嚴格義務的重要參考。其三，73% CTF 成功率與 3/10 完整企業攻擊鏈確認：進攻性 AI 安全工具的生產可行性已跨越此前所有公開可用模型的能力量級，廣泛開放後防禦方的回應時間視窗將顯著壓縮。</p><p><strong>第三</strong>　後續三個觀察節點：其一，對企業資安 CIO 而言，Glasswing 夥伴（CrowdStrike、Palo Alto Networks、Wiz 等）目前具備對應 Mythos 進攻能力的防禦設計時間優勢，廣泛開放後此窗口立即歸零；建議 CISO 在開放前完成以 Mythos 能力水準為假設的新一輪滲透測試基準建立，並確認主要 Glasswing 夥伴是否已更新對應防禦框架。其二，對開發者而言，Mythos API 的定價及准入結構尚未公開，預計定位高於 Opus 4.8；Mozilla 271 漏洞確認 Mythos 在白盒代碼審計的生產可行性，漏洞賞金計畫的市場定價基準在廣泛開放後將面臨系統性重設，具備安全研究資格的開發者應追蹤 Glasswing 框架申請通道是否對外開放。其三，對 BEXS 黃金交易學員而言，Mythos 廣泛釋出時序與 9,650 億估值同日宣告的結構，確認 Anthropic 商業化速度正在系統性壓縮此前設定的安全窗口假設；在 IPO S-1 路演中，「frontier lab 能否以商業加速為由持續壓縮安全評估窗口而不觸發重大監管反應」應作為尾部風險獨立列項，SB315 的強制第三方審計義務及加州 30 條法案是此風險的最直接制度化制約節點。</p>"
+    },
     {
       "id": "pulse-2026-05-30-09-anthropic-series-h-65b-965b-valuation",
       "ts": "2026-05-30T09:00:00+08:00",
@@ -261,15 +270,6 @@
       "url": "https://www.amd.com/en/newsroom/press-releases/2026-5-20-amd-announces-production-ramp-of-next-generation-a.html",
       "blurb": "AMD 5 月 21 日確認 EPYC Venice 在 TSMC 2nm 進入量產，為業界首個 HPC 產品登上此製程；256 核設計使每節點 AI 推論吞吐量提升約 40%，代理 AI 工作負載驅動 CPU/GPU 配比從 1:4 回升至 1:1，Venice 可能重塑 2026 年下半年 AI 推論基礎設施成本結構。",
       "editorial": "<p><strong>第一</strong>　2026 年 5 月 21 日，AMD 正式確認旗艦伺服器 CPU「第六代 EPYC Venice」在 TSMC 台灣廠區進入量產，成為全球 HPC 市場首個在 TSMC 2nm（N2）製程上達到量產里程碑的高效能處理器。Venice 採 256 核單顆設計，相較上代 EPYC Turin 整體效能及能效改善逾 70%，以 2nm 製程的更高電晶體密度實現每節點 AI 推論吞吐量提升約 40%。AMD 同步宣布搭配 AMD Instinct MI450X GPU 的 Helios 機架規模平台已確認多個吉瓦級部署計畫，預計 2026 年下半年開始交付；未來亦規劃在 TSMC 美國亞利桑那廠區建立 Venice 量產產能。Intel 主流伺服器產品目前仍以 Intel 18A 及 TSMC N3 為主，Venice 在製程節點上取得約一代半的先發優勢視窗。</p><p><strong>第二</strong>　Venice 量產在三個維度確立 AI 推論硬體市場的格局轉折。其一，代理 AI 工作負載的興起正在逆轉過去五年 CPU 在 AI 伺服器中被邊緣化的趨勢：傳統 LLM 推論以 GPU 為核心、CPU 配比降至 1:4 乃至 1:8，而以 Claude Code Dynamic Workflows、Google Gemini Spark 為代表的多代理人協調架構對 CPU 核數提出大幅更高的並行處理要求，部分工作負載已重回 1:1 的 CPU/GPU 配比；Venice 256 核正面回應此需求，與 Snowflake 五年 60 億美元 AWS Graviton ARM 採購所反映的「推論端 CPU 需求回升」趨勢形成結構性互證。其二，AMD 以 Venice 搶下 TSMC 2nm 伺服器首發，確認 TSMC 2nm 產能向高付費能力的 AI 算力市場傾斜的分配邏輯，對英特爾數據中心業務設立明確的製程節點時間壓力。其三，Venice 的 40% 每節點推論增益若在 H2 2026 Helios 量產後全面兌現，大型雲廠商的 AI 推論 TCO 曲線下行速率將加速，對 API 推論成本定價具有系統性下行壓力。</p><p><strong>第三</strong>　對企業 CIO 而言，Venice 進入量產意味著 2026 年 Q4 至 2027 年 Q1 的伺服器採購週期可能出現基於 Venice 的 AI 推論基礎設施選型機會，建議在 H2 採購規劃中新增「EPYC Venice 方案比較」維度，尤其對 CPU 密集型代理工作流（多步驟 RAG、並行知識庫查詢）的場景進行 TCO 對比。對 BEXS 黃金交易學員而言，AMD 取得 TSMC 2nm 首發是評估 AMD 數據中心業務 2026 H2 至 2027 年市場份額增長的前置技術確認，建議追蹤 AMD FY2026 Q3 財報（2026 年 10 月）中 EPYC 伺服器出貨量增速及 ASP 趨勢，以量化 Venice 量產對整體 Data Center 業務毛利的槓桿效應。對開發者而言，以 AI 代理工作負載為核心的推論密集型應用（大量並行工具調用、長鏈思維鏈推理）在 Venice 架構下的性能基準測試值得在 H2 2026 進行，評估是否將代理協調層從 GPU 密集轉向 CPU/GPU 混合部署，以降低每百萬 token 的推論成本。</p>"
-    },
-    {
-      "id": "pulse-2026-05-29-14-openai-gpt55-cyber-japan-megabanks",
-      "ts": "2026-05-29T14:05:00+08:00",
-      "title": "美日 AI 安全外交成形 · OpenAI GPT-5.5-Cyber 與 Anthropic Mythos 同步入駐日本三大行",
-      "source": "OpenAI / Nikkei Asia",
-      "url": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber/",
-      "blurb": "美財長 Bessent 促成協議，MUFG、SMBC、瑞穗三大行同步取得 OpenAI GPT-5.5-Cyber 及 Anthropic Mythos 存取，覆蓋 15 個關鍵基礎設施板塊；frontier AI 安全能力首度以外交安排而非商業管道分配，日本金融基礎設施 AI 防禦層次完成大幅升格。",
-      "editorial": "<p><strong>第一</strong>　2026 年 5 月 21 日，OpenAI 宣布推出「Trusted Access for Cyber（TAC）」框架，透過此框架向經審查的政府機關及關鍵基礎設施運營商開放 GPT-5.5-Cyber 存取；GPT-5.5-Cyber 是 GPT-5.5 的安全強化版本，英國 AISI 的評估確認其在漏洞發現與修補建議場景具備接近 Anthropic Mythos 的能力水準。5 月 28 日，日本媒體確認三菱 UFJ 金融集團（MUFG）、三井住友金融集團（SMFG）及瑞穗金融集團三家日本最大銀行獲得 GPT-5.5-Cyber 存取資格；此安排由美國財政部長 Scott Bessent 於東京訪問期間直接協調推動，作為涵蓋 15 個關鍵基礎設施板塊的美日 AI 安全合作框架的一部分，36 個成員機構的公私部門工作組同步成立。同一框架下，三大行亦確認將在 5 月底前取得 Anthropic Claude Mythos 的 Project Glasswing 存取資格，是 Mythos 首度超出北美及歐洲限定夥伴範圍的地域擴張。</p><p><strong>第二</strong>　此安排在三個維度確立 frontier AI 安全工具部署格局的結構性轉折。其一，frontier AI 頂尖能力模型的存取資格首度被納入國家間外交協議的正式議程——過去 AI 廠商的安全工具以商業談判或研究合作形式對外分發，此次由美國財政部長直接充當協調方，將模型存取提升為與武器出口管制同層次的戰略分配決策，確認 AI 安全工具在地緣博弈中已具備可量化的外交槓桿屬性。其二，OpenAI TAC 框架與 Anthropic Glasswing 框架同步向同一批機構並行部署，確認頂尖 AI 安全能力的市場結構正在朝向「政府管制准入、商業競爭在准入後展開」的雙層架構演化；兩框架的同時存在亦確認日本金融機構不依賴單一 frontier 供應商的多元佈局。其三，日本三大行獲得存取是 Mythos 及 GPT-5.5-Cyber 雙框架首度突破北美及歐洲地域限制，為東亞市場後續准入路徑（尤其是南韓系統性金融機構）設立了外交程序先例。</p><p><strong>第三</strong>　對企業 CIO 而言，此外交部署框架確認「直接商業採購」以外，政府介導的准入通道已成為頂尖 AI 安全工具取得的獨立路徑；金融監管行業的機構若在日本本地有業務往來，應評估透過金融廳或相關工作組管道提出准入申請的可行性，並追蹤 TAC 框架是否在 H2 2026 開放更廣泛的商業審查路徑。對 BEXS 黃金交易學員而言，MUFG、SMBC、瑞穗三大行是東亞美元清算與外匯市場的核心節點，其 AI 強化的網路安全能力直接提升日本金融基礎設施的系統性穩健度；在評估東亞匯市及利率衍生品市場微結構風險時，金融基礎設施的 AI 防禦深度值得納入操作風險情境分析的獨立維度。對開發者而言，OpenAI TAC 框架及 Anthropic Glasswing 框架的技術合規文件均已公開，具備資安研究資格的組織可申請評估存取；兩框架均強調模型輸出的審計可追溯性，建議在開發 AI 滲透測試輔助工具時提前熟悉准入審查標準，以確認是否符合未來框架開放時的技術合規門檻。</p>"
     }
   ]
 }
