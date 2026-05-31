@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-05-30T20:00:00+08:00",
+  "updated_at": "2026-05-31T09:00:00+08:00",
   "items": [
+    {
+      "id": "pulse-2026-05-31-09-deepseek-v4-pro-permanent-price-cut",
+      "ts": "2026-05-31T09:00:00+08:00",
+      "title": "DeepSeek 旗艦 V4-Pro 七五折永久化 · AI 定價戰首度攻入 frontier 能力層",
+      "source": "InfoWorld / DeepSeek",
+      "url": "https://www.infoworld.com/article/4176709/deepseeks-steep-v4-pro-price-cut-escalates-ai-pricing-war.html",
+      "blurb": "DeepSeek V4-Pro 七五折今日永久化——旗艦推理層每百萬 token 輸入跌至 $0.435，是 2026 年定價戰首度直攻 frontier 能力層；Anthropic Opus 4.8 與 OpenAI Codex 的成本護城河正面承壓，API 定價座標系已重設。",
+      "editorial": "<p><strong>第一</strong>　DeepSeek 於 2026 年 5 月 22 日宣告，原定 5 月 31 日截止的 V4-Pro 七五折促銷費率永久採用為標準定價；今日為其正式生效日。新費率：輸入每百萬 token 由 $1.74 降至 $0.435，輸出由 $3.48 降至 $0.87，快取命中降至 $0.003625，降幅整體 75%。V4-Pro 是 DeepSeek 目前能力最高的旗艦 MoE（Mixture of Experts）推理模型，多項前沿基準超越同等計算規模的競品；不同於此前多輪定價促銷均針對小型或中端模型，此次永久化直指 frontier 能力層，是 2026 年迄今最具戰略意義的旗艦層定價動作。</p><p><strong>第二</strong>　2026 年 AI 定價戰前五個月集中於效率模型（Gemini 3.5 Flash、GPT-4o mini 系列），此次是首度在旗艦能力層出現此量級的永久性降幅。以 Anthropic Opus 4.8 輸入 $5 相比，V4-Pro 在輸入層的成本差超過 11 倍；即便考量模型能力與合規差異，此懸殊在企業 API 採購談判中已形成明確的向下議價壓力，無法以定性差異論抵銷。DeepSeek 的 MoE 稀疏架構使其訓練與推論成本均低於同等能力的密集模型，此次降價確認其可在毛利正常前提下持續推低旗艦層定價——這是結構性成本優勢的直接輸出，而非燒錢補貼式競爭。</p><p><strong>第三</strong>　對開發者：V4-Pro 在代碼生成、多步推理及指令跟隨的生產可用性已達門檻，今日定價確立後值得重新評估代理框架及 API 後端的模型選型矩陣，尤其對成本敏感的高並發推論場景。對企業 CIO：下一輪 AI API 合約談判可以 V4-Pro 定價作為外部錨點進行議價；資料主權、跨境傳輸合規與供應商服務可靠性仍為前置審查必要條件。對 BEXS 黃金交易學員：旗艦能力層定價結構性重設，使 OpenAI 及 Anthropic 的「高毛利 API 護城河」假設在 IPO 估值敏感度分析中需要新增 DeepSeek 競爭壓力情境，建議在 S-1 定價前完成對應毛利率下行情境校準。</p>"
+    },
     {
       "id": "pulse-2026-05-30-20-anthropic-mythos-wide-release-reversal",
       "ts": "2026-05-30T20:00:00+08:00",
@@ -261,15 +270,6 @@
       "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/",
       "blurb": "歐盟理事會與歐洲議會 5 月 7 日達成 AI 法案修正臨時協議，Annex III 高風險 AI 系統合規延至 2027 年 12 月，同步新增禁止去衣 AI 條款、縮短 AIGC 浮水印緩衝期至三個月；亞洲及美國廠商獲逾 18 個月額外緩衝，歐洲監管視窗全面重設。",
       "editorial": "<p><strong>第一</strong>　2026 年 5 月 7 日，歐盟理事會主席國與歐洲議會談判代表達成臨時政治協議，作為《數位監管整合》（Digital Omnibus）提案的一部分修正《歐盟 AI 法案》部分條款。主要調整如下：Annex III 定義的獨立高風險 AI 系統（含招聘篩選、信用評分、教育評估工具）合規義務延至 2027 年 12 月 2 日；嵌入 Annex I 受監管硬體的高風險 AI（如醫療設備、安全元件）延至 2028 年 8 月 2 日。AI 生成內容的浮水印透明度義務緩衝期由六個月縮短為三個月，需於 2026 年 12 月 2 日前達標。新增禁止條款涵蓋非自願親密影像（NCII）生成 AI 系統及「去衣」（nudifier）AI。原定高危禁止條款（生物識別遠端監控、社會信用評分等）維持原效力，不受此次延期影響。此協議為臨時政治協議，尚需歐盟理事會及歐洲議會正式程序通過始成為正式法律。</p><p><strong>第二</strong>　延期背景是技術標準落後於法規節奏：歐盟 AI 辦公室承認高風險 AI 系統合規所需的 ISO/IEC 協調標準尚未最終完成，強制企業按原時程合規等同於要求依尚未確立的標準受罰，損及法規可信度。此次修正在三個維度具有結構性意涵：其一，對在歐洲境內部署高風險 AI 的非歐企業（台灣、日韓、美國廠商），合規窗口延長超過 18 個月，確認「先佈局、後合規」的市場進入策略在歐洲 AI 監管環境仍具操作空間，原本因 2026 年合規壓力而猶豫的部署決策可重新評估；其二，AIGC 浮水印義務的強化（縮短為三個月、早於高風險系統延期）確認歐盟對 AI 生成內容透明度的優先等級高於高風險系統分類本身，媒體及創意工具廠商面臨 2026 年底前的更緊迫合規節點；其三，禁止去衣 AI 是全球主要監管機構首次以法律禁令明確列為禁止的消費級 GenAI 類別，對所有含圖像生成功能的 AI 平台設立跨監管轄區的分類前例。</p><p><strong>第三</strong>　對企業 CIO 而言，延期影響分三層：招聘、信用、教育場景的高風險 AI 工具可繼續推進部署評估，但需在 2026 年底前確認面向 2027 年的合規路線圖；AIGC 浮水印在 2026 年 12 月前即需達標，使用 Sora、Imagen 等生成工具發布企業外部內容的團隊需確認工具的浮水印合規狀態；去衣 AI 禁止條款若企業 AI 工具涉及圖像處理功能，需確認歐洲版本已提前移除相關功能。對開發者而言，ISO/IEC 42001 AI 管理系統標準的最終版本發布是高風險 AI 合規文件架構的前置節點，建議在 H2 追蹤歐盟 AI 辦公室的技術規範進度。對 BEXS 黃金交易學員而言，延期確認歐洲 AI 監管合規服務市場的起飛時點後移至 2027 至 2028 年，相關 AI 治理工具廠商的 ARR 成長曲線需對應調整估值節點，建議以 2027 年 Q1 為歐盟合規採購啟動的核心假設錨點重新校準估值預期。</p>"
-    },
-    {
-      "id": "pulse-2026-05-29-14-amd-venice-2nm-tsmc-ai-inference",
-      "ts": "2026-05-29T14:05:00+08:00",
-      "title": "AMD EPYC Venice 以 TSMC 2nm 量產奪業界首發 · 256 核每節點 AI 推論增益 40%、代理工作負載逆轉 CPU 邊緣化趨勢",
-      "source": "AMD",
-      "url": "https://www.amd.com/en/newsroom/press-releases/2026-5-20-amd-announces-production-ramp-of-next-generation-a.html",
-      "blurb": "AMD 5 月 21 日確認 EPYC Venice 在 TSMC 2nm 進入量產，為業界首個 HPC 產品登上此製程；256 核設計使每節點 AI 推論吞吐量提升約 40%，代理 AI 工作負載驅動 CPU/GPU 配比從 1:4 回升至 1:1，Venice 可能重塑 2026 年下半年 AI 推論基礎設施成本結構。",
-      "editorial": "<p><strong>第一</strong>　2026 年 5 月 21 日，AMD 正式確認旗艦伺服器 CPU「第六代 EPYC Venice」在 TSMC 台灣廠區進入量產，成為全球 HPC 市場首個在 TSMC 2nm（N2）製程上達到量產里程碑的高效能處理器。Venice 採 256 核單顆設計，相較上代 EPYC Turin 整體效能及能效改善逾 70%，以 2nm 製程的更高電晶體密度實現每節點 AI 推論吞吐量提升約 40%。AMD 同步宣布搭配 AMD Instinct MI450X GPU 的 Helios 機架規模平台已確認多個吉瓦級部署計畫，預計 2026 年下半年開始交付；未來亦規劃在 TSMC 美國亞利桑那廠區建立 Venice 量產產能。Intel 主流伺服器產品目前仍以 Intel 18A 及 TSMC N3 為主，Venice 在製程節點上取得約一代半的先發優勢視窗。</p><p><strong>第二</strong>　Venice 量產在三個維度確立 AI 推論硬體市場的格局轉折。其一，代理 AI 工作負載的興起正在逆轉過去五年 CPU 在 AI 伺服器中被邊緣化的趨勢：傳統 LLM 推論以 GPU 為核心、CPU 配比降至 1:4 乃至 1:8，而以 Claude Code Dynamic Workflows、Google Gemini Spark 為代表的多代理人協調架構對 CPU 核數提出大幅更高的並行處理要求，部分工作負載已重回 1:1 的 CPU/GPU 配比；Venice 256 核正面回應此需求，與 Snowflake 五年 60 億美元 AWS Graviton ARM 採購所反映的「推論端 CPU 需求回升」趨勢形成結構性互證。其二，AMD 以 Venice 搶下 TSMC 2nm 伺服器首發，確認 TSMC 2nm 產能向高付費能力的 AI 算力市場傾斜的分配邏輯，對英特爾數據中心業務設立明確的製程節點時間壓力。其三，Venice 的 40% 每節點推論增益若在 H2 2026 Helios 量產後全面兌現，大型雲廠商的 AI 推論 TCO 曲線下行速率將加速，對 API 推論成本定價具有系統性下行壓力。</p><p><strong>第三</strong>　對企業 CIO 而言，Venice 進入量產意味著 2026 年 Q4 至 2027 年 Q1 的伺服器採購週期可能出現基於 Venice 的 AI 推論基礎設施選型機會，建議在 H2 採購規劃中新增「EPYC Venice 方案比較」維度，尤其對 CPU 密集型代理工作流（多步驟 RAG、並行知識庫查詢）的場景進行 TCO 對比。對 BEXS 黃金交易學員而言，AMD 取得 TSMC 2nm 首發是評估 AMD 數據中心業務 2026 H2 至 2027 年市場份額增長的前置技術確認，建議追蹤 AMD FY2026 Q3 財報（2026 年 10 月）中 EPYC 伺服器出貨量增速及 ASP 趨勢，以量化 Venice 量產對整體 Data Center 業務毛利的槓桿效應。對開發者而言，以 AI 代理工作負載為核心的推論密集型應用（大量並行工具調用、長鏈思維鏈推理）在 Venice 架構下的性能基準測試值得在 H2 2026 進行，評估是否將代理協調層從 GPU 密集轉向 CPU/GPU 混合部署，以降低每百萬 token 的推論成本。</p>"
     }
   ]
 }
