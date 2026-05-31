@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-05-31T17:00:00+08:00",
+  "updated_at": "2026-05-31T18:00:00+08:00",
   "items": [
+    {
+      "id": "pulse-2026-05-31-18-openai-rosalind-biodefense",
+      "ts": "2026-05-31T18:00:00+08:00",
+      "title": "OpenAI 以 GPT-Rosalind 入場生物防禦 · 政府免費通道確立、CBRN 敏感 AI 分發走出第三條路",
+      "source": "OpenAI",
+      "url": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense/",
+      "blurb": "OpenAI 5 月 29 日啟動 Rosalind Biodefense 計畫，以免費方式向美國政府及盟友機構開放 GPT-Rosalind 生命科學推理模型，初期夥伴含勞倫斯利佛摩國家實驗室與 CEPI；這是 frontier lab 在 CBRN 敏感領域「政府優先、受控開放」分發路線的首個規模化案例。",
+      "editorial": "<p><strong>第一</strong>　2026 年 5 月 29 日，OpenAI 宣布啟動 Rosalind Biodefense 計畫，以兩條管道分發 GPT-Rosalind 生命科學推理模型。開發者管道：向全球學術、非營利及政府相關組織的認證開發者贊助 API 存取，支援疫情流行病學建模、早期偵測、篩查、非藥物介入及醫療對策研發等場景。政府管道：直接向美國政府及盟友國的公共衛生與生物防禦機構提供 GPT-Rosalind 存取，已布告白宮及多個聯邦機構，初期夥伴包含勞倫斯利佛摩國家實驗室、霍普金斯大學應用物理實驗室、CEPI（流行病防範創新聯盟）及 SecureDNA。GPT-Rosalind 以 Rosalind Franklin 命名，在 OpenAI 內部基準中化學、生化及實驗設計領域優於 GPT-5、GPT-5.2 及 GPT-5.4，定位為生命科學特化推理模型而非通用旗艦替代品。</p><p><strong>第二</strong>　Rosalind Biodefense 的戰略意涵在於其分發結構，而非模型性能本身。OpenAI 對 CBRN（化學、生物、放射核武）敏感能力採取「政府優先、受控開放」路線，與其 Frontier Governance Framework（5 月 28 日）中公開承諾的 CBRN 風險管理機制形成制度對應；在全面廣播開放與封鎖管制之間，OpenAI 走出第三條路：免費但受控。此計畫在競爭格局上與 Anthropic Glasswing（23,019 個開源漏洞識別）形成互補路線——Glasswing 是網路安全防禦框架，Rosalind 是生物安全反應框架；兩家 frontier lab 正在 CBRN 最敏感領域同時示範「以合作替代管制」，為監管機構提供了不依賴 FDA 式強制預審就能管理雙用途 AI 風險的商業模型案例。</p><p><strong>第三</strong>　對 BEXS 黃金交易學員，Rosalind 的分發為非商業性，短期對 OpenAI 收入貢獻接近零，但在 S-1 路演「負責任 AI」敘事中強化政府信任資產，是雙 IPO 比較框架中「政府關係深度」維度的量化觀察節點。對開發者，計畫申請對象限學術、非營利及政府相關組織，私人商業開發者短期不在存取範圍；從事醫療或生命科學 AI 應用的工程師應追蹤 Rosalind API 後續公開化的時程，SecureDNA 的早期夥伴角色揭示了 DNA 合成篩查場景的技術需求方向。對企業 CIO，製藥、生技及醫療研究機構的 IT 決策者應評估是否具備申請政府夥伴通道的資格，GPT-Rosalind 的流行病學建模能力若對接內部 LIMS（實驗室資訊管理系統），有望帶來可量化的研究效率提升。</p>"
+    },
+    {
+      "id": "pulse-2026-05-31-18-github-copilot-usage-billing-june1",
+      "ts": "2026-05-31T18:00:00+08:00",
+      "title": "GitHub Copilot 明日移轉 AI Credits 計費 · 固定月費時代終結、Agent 模式成本可變性首度轉移至開發者端",
+      "source": "GitHub Blog",
+      "url": "https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/",
+      "blurb": "6 月 1 日起 GitHub Copilot 全線移轉 AI Credits 使用量計費，行內補全仍為包含項，但 Chat、Agent 模式及大型上下文視窗計入 Credits 消耗；重度代理使用者實際月費可能達舊費率 2-3 倍，是全球逾 3,000 萬 Copilot 用戶的定價基準重設。",
+      "editorial": "<p><strong>第一</strong>　2026 年 6 月 1 日，GitHub Copilot 全線移轉 AI Credits 使用量計費制度，月費訂閱固定費率時代正式終結。新費率：Copilot Pro 月費維持 $10 附帶 $10 Credits，Pro+ 維持 $39 附帶 $39 Credits；Business（$19/用戶/月）及 Enterprise（$39/用戶/月）同步切換，1 Credit = $0.01。計費以 token 消耗量為基礎，涵蓋輸入、輸出及快取 token，按各模型 API 費率計算，Credits 耗盡後依用量扣款。行內代碼補全（Completions）及 Next Edit Suggestions 仍為包含項，不計入 Credits；Copilot Chat、大型上下文視窗、代碼審查代理、Agent 模式及長時程工作階段均計入 Credits 消耗。年度訂閱用戶維持原有 Premium Request 計費至合約到期。</p><p><strong>第二</strong>　此計費轉換在三個維度確立 AI 編程工具市場的結構性轉折。其一，月費固定制是 GitHub Copilot 自 2021 年以來的定價基礎，覆蓋全球逾 3,000 萬開發者；Credits 制度終結「無限用量保障」，重度使用 Agent 模式的工程師若每月消耗超出 Credits 配額，有效費率可能達舊訂閱費率的 2-3 倍，是 AI 編程工具首次出現規模性的價格可變性轉移到用戶端。其二，計費粒度移轉至 token 層，使 Copilot 的成本結構更接近 OpenAI API 原生用量計費，確認 GitHub 正將 Copilot 從「固定成本辦公室工具」重新定位為「可計量 AI 服務」，為未來差異化模型定價（更強模型消耗更多 Credits）鋪設架構基礎。其三，Agent 模式被明確列為 Credits 消耗項，在 Microsoft Build 2026（6 月 2 日）前一天宣布計費轉換，確認此動作是為 Build 大會代理功能升級預留定價彈性的前置佈局；Project Polaris 自研模型接管 Copilot 底層後，Credits 費率的調整空間將成為 Microsoft 代理服務貨幣化的核心工具。</p><p><strong>第三</strong>　對開發者，6 月 1 日計費切換是需要立即採取行動的成本管理事件：建議今日確認各自 Copilot 計畫類型及對應 Credits 配額，在 GitHub 設定頁面設定用量上限警告閾值；重度使用 Chat 及 Agent 的工程師應以近一個月實際使用量估算新費率下的預期成本，評估是否需要提前轉換至 Business 方案或限制 Agent 工作階段的最大長度。對企業 CIO，Credits 制度引入 Copilot 企業授權的用量可變性，建議在 Q3 IT 預算規劃中以 P90 場景設定 Copilot 年度費用上限，並追蹤 Build 2026 是否發布新代理功能同步調整 Credits 配額標準；Finance IT 部門應更新 SaaS 授權管理系統的 Copilot 費用追蹤模型，從固定月費轉為用量預測模型。對 BEXS 黃金交易學員，用量計費將提高高頻用戶的實際付費金額，預期為 Microsoft GitHub 部門貢獻 ARPU 上行，Q3 Microsoft 財報（2026 年 10 月）應可追蹤 Copilot 收入貢獻是否因計費模式切換而出現可量化增幅。</p>"
+    },
     {
       "id": "pulse-2026-05-31-17-tech-layoffs-142k-700b-ai-infra",
       "ts": "2026-05-31T17:00:00+08:00",
@@ -252,24 +270,6 @@
       "url": "https://interestingengineering.com/ai-robotics/figure-03-humanoid-robot-200-hour-shift",
       "blurb": "Figure AI 三台 Figure 03 在加州桑尼維爾連續運行 200 小時，以 Helix-02 AI 自主分揀 249,560 件包裹達近人速度、全程零機械崩潰；自動電池輪換維持連續性，人形機器人工業部署可靠性首度通過可量化工況閥值。",
       "editorial": "<p><strong>第一</strong>　 2026 年 5 月下旬，Figure AI 在加州桑尼維爾總部進行人形機器人史上最長連續工業工況測試：三台 Figure 03 在物流分揀場景連續運行 200 小時，累計分揀包裹 249,560 件，全程零重大機械崩潰、零系統性中斷。測試起源於工業自動化工程師 Scott Walter 博士提出的 8 小時耐力挑戰，Figure AI 在機器人表現超預期後持續延長，最終達 200 小時。Figure 03 由自研 Helix-02 AI 模型驅動，機器人自主判斷分揀路徑而非依賴硬編程邏輯；電池約四小時耗盡時新機器人自動接班，耗電機器人走向整合於腳部的無線充電站，以此維持連續運作。人均分揀約每件三秒，Figure 03 在後段測試已達接近此速度的水平。</p><p><strong>第二</strong>　 此測試在三個面向確立具身 AI 格局的結構性訊號。其一，200 小時可靠運作相當於 25 個人類八小時工班，是首次由具身 AI 廠商以可量化、可重複驗證的工業工況數據確認機械系統與 AI 判斷聯合穩定性；過去人形機器人里程碑以能力示範（走樓梯、搬箱子）為主，此次以「可靠性時間」為指標，標誌評估框架從能力驗證轉向工業部署可行性。其二，Helix-02 AI 自主判斷而非固定程序驅動，確認感知-判斷-動作閉環在真實工業環境 200 小時內維持穩定，是具身 AI 可靠性的量化基準；Boston Dynamics、Tesla Optimus、Agility Robotics 目前均未發布同等連續工況數據，本測試確立了跨廠商比較基準。其三，物流分揀是勞動力替代最清晰、ROI 最易量化的第一波商業場景，接近人速的分揀效率使 Figure 03 進入與現有自主移動機器人（AMR）的直接 ROI 比較視窗，標誌人形機器人從示範設施走向商業評估的節點已到達。</p><p><strong>第三</strong>　 對 BEXS 黃金交易學員而言，Figure 03 的 200 小時可靠性確認是量化評估人形機器人商業化節點的先行指標；Figure AI 估值目前約 39 億美元（2025 年 B 輪），若此數據推動訂單確認，C 輪估值重定將成為具身 AI 投資賽道的定價參考，建議追蹤 Figure AI 在 H2 2026 的商業部署合同公告以評估商業化速度。對企業 CIO 而言，200 小時零崩潰是勞動密集型物流、製造業評估人形機器人 POC 的第一個可用外部可靠性基準，建議 H2 採購規劃中新增「人形機器人 POC 評估」維度，尤其針對勞動力短缺嚴重的倉儲及電商物流場景。對開發者而言，Helix-02 為閉源內部模型，但 200 小時可靠性確認具身 AI 感知-判斷-動作閉環的工業場景可行性；從事機器人工具鏈開發的工程師應評估 Figure AI 生態合作計畫是否在 H2 2026 對第三方開放，以確認具身 AI 平台的生態開放度。</p>"
-    },
-    {
-      "id": "pulse-2026-05-30-12-musk-spacex-anthropic-colossus-lease-dispute",
-      "ts": "2026-05-30T12:00:00+08:00",
-      "title": "Musk 一則推文將 Colossus $450 億合約重新定性為 180 天租約 · S-1 與創辦人聲明出現 $375 億落差",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/05/28/how-long-is-anthropics-lease-with-spacex-opinions-vary/",
-      "blurb": "SpaceX S-1 文件描述 Anthropic 三年 $450 億算力合約，Musk 5 月 28 日逕稱「這只是 180 天租約、90 天通知可終止」；SEC 申報文件與創辦人公開聲明之間的 $375 億落差，使算力合約結構的可信度陷入公開爭議，對 Anthropic 算力供應鏈的確定性構成有效衝擊。",
-      "editorial": "<p><strong>第一</strong>　2026 年 5 月 20 日，SpaceX 向 SEC 提交的 S-1 披露 Anthropic「已同意每月支付 $1.25B，合約期至 2029 年 5 月」，措辭清晰指向三年、總額逾 $450 億的算力租約。5 月 28 日，Elon Musk 在 X 上發文：「這是 180 天租約，雙方 90 天通知可解除，短期安排是我們的要求，不是 Anthropic 的。」TechCrunch 核實 S-1 確實存在 90 天互相終止條款，但主文措辭「已同意支付費用至 2029 年 5 月」描述的是合約完整期限，非 180 天基礎視窗。兩種解讀的隱含前向收入差距約 $375 億——三年 $450 億對比 180 天約 $75 億。Musk 另補充：若算力資源緊張，可能收回部分容量，但承諾提供「合理過渡」。</p><p><strong>第二</strong>　此爭議在三個面向產生結構性影響。其一，算力合約的法律確定性問題首度被創辦人以公開聲明重新定性，在 SpaceX IPO 路演中 $450 億 Anthropic 算力收入是前向收入確定性的核心敘事；Musk 在 SEC 審查窗口主動削弱此敘事，行為邏輯可能是向 Anthropic 傳遞供給不確定信號，同時為未來不繼續履約預設公開依據，SEC 可能就 S-1 前向收入描述發出補充問詢，延長 SpaceX 審查期。其二，對 Anthropic 算力策略而言，Colossus 合約確定性降低使 Google TPU、Amazon AWS 算力合約的冗餘邏輯在估值框架中重要性提升；若 Musk 在 2026 年 Q4 行使 90 天終止條款，Anthropic 須在 90 天窗口內完成 300MW 算力替代——此供應鏈脆弱性在 IPO 前是 S-1 必須正面處理的運營風險敘事。其三，「S-1 文件 vs. 創辦人推文」的公開矛盾為 SEC 審查員提供了直接質疑前向收入確定性描述的節點。</p><p><strong>第三</strong>　後續三個觀察點：其一，Anthropic 是否公開澄清對合約結構的法律解讀是解決爭議的關鍵缺失環節——若在 IPO S-1 前未澄清，機構投資人可能以算力合約期不確定性為由對估值施壓；其二，SpaceX SEC 補充問詢的處理節奏是評估 SpaceX IPO 時程是否延誤的先行指標，建議追蹤 S-1 狀態頁面的任何修正申報；其三，對 BEXS 黃金交易學員，若 Colossus 合約確定性降低，建議以「180 天租約」及「三年合約」兩個情境建立算力成本可用性的敏感度分析，Colossus 月費 $1.25B 若在 2026 年 Q4 終止，相當於從 Anthropic 年化成本基線移除約 $15B，對 H1 2027 盈利時程反而可能形成正面影響，與 Q2 首次盈利的趨勢判斷形成交叉驗證需求。</p>"
-    },
-    {
-      "id": "pulse-2026-05-30-12-anthropic-q2-first-operating-profit",
-      "ts": "2026-05-30T12:00:00+08:00",
-      "title": "Anthropic 向投資人披露 Q2 預測 $10.9B 收入 · 首季度 $559M 營業利潤提前兩年打破 AI 虧損神話",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/05/20/anthropic-revenue-explosive-growth-ipo-profitable-quarter.html",
-      "blurb": "Anthropic 5 月 20 日向投資人披露 Q2 預測收入 $10.9B（較 Q1 $4.8B 成長 130%），預測首次出現 $559M 季度營業利潤；公司此前以 2028 年為盈利時程，Claude Code 企業爆發使盈利節點提前兩個完整財務年度，frontier AI 實驗室盈利能力從假設進入可驗證預測階段。",
-      "editorial": "<p><strong>第一</strong>　2026 年 5 月 20 日，《華爾街日報》首先披露 Anthropic 向 Series H 投資人提交的財務預測：Q1 2026 實際收入 $4.8B，Q2 2026 預測收入 $10.9B，按季增幅 130%；以此為基礎，公司預測 Q2 出現首個季度營業利潤 $559M。CNBC 隨後獨立確認相關數字。Anthropic 此前公開預期全年盈利最早出現在 2028 年，此次轉盈至少提前兩個完整財務年度。Claude Code 的企業採購加速——KPMG、Deloitte、PwC 三大事務所合計 160 萬員工授權、Colossus 300MW 算力上線帶動 Claude Max 用戶擴張——是 Q1 至 Q2 加速的主要驅動力。公司同步警示投資人：2026 年下半年計算基礎設施支出預計大幅增加，全年持續盈利時間表仍不確定。</p><p><strong>第二</strong>　三個維度確立此財務節點的結構性意涵。其一，frontier AI 實驗室的盈利能力問題從「假設性估算」進入「可驗證財務預測」階段，$559M 季度營業利潤打破了「AI 前沿研究必然長期虧損」的結構性假設，直接改寫 IPO 定價中盈利折讓的預算邏輯；與 OpenAI Q1 每創造一美元收入仍虧損 $1.22 的成本結構相比，Anthropic 的轉盈在 IPO 估值比較框架中確立明確的差異化敘事。其二，Q1 $4.8B 到 Q2 $10.9B 的 130% 季增速，對應 Series H 九千六百五十億美元估值，使 Post-money 市銷率從年化 $19.2B（Q1×4）時的約 50 倍，收縮至年化 $43.6B（Q2×4）時的約 22 倍，估值合理性敘事在一個季度內出現顯著改善。其三，$559M 季度盈利雖僅為 Q2 的一次性快照，但作為 IPO 路演錨點，確認 Anthropic 商業模式的邊際獲利能力已存在，在兩家 frontier lab 同步衝刺 IPO 的 2026 年，此數字是機構投資人相對估值定價的重要外部校準點。</p><p><strong>第三</strong>　後續三個觀察點：其一，Q2 實際財報（若 Anthropic 在 IPO 前自願披露或於 S-1 中確認）是驗證 $10.9B 是否兌現的核心節點，Claude Code 企業 ARR 能否維持三位數季增速是市場分歧的先行指標；其二，H2 算力成本增加的具體幅度是最大下行風險——Colossus 月費 $1.25B（年化 $15B）疊加 Google TPU 及 Amazon AWS 算力承諾的全量計提，可能使 H2 營業虧損超過 H1 盈利，確認「Q2 轉盈是結構性 inflection 還是一次性事件」是 S-1 路演的核心分歧點；其三，對 BEXS 黃金交易學員，$559M 季度盈利使 Anthropic 的估值首次可以市盈率框架評估（若年化 $2.2B 利潤，市盈率約 440 倍），建議在 S-1 公開後以分部估值法重建自下而上的盈利路徑，以量化 440 倍 PE 在三至五年成長後的合理性區間。</p>"
     }
   ]
 }
