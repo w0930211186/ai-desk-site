@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-06-01T14:00:00+08:00",
+  "updated_at": "2026-06-01T15:00:00+08:00",
   "items": [
+    {
+      "id": "pulse-2026-06-01-15-nvidia-cosmos3-groot-n16-physical-ai-computex",
+      "ts": "2026-06-01T15:00:00+08:00",
+      "title": "NVIDIA COMPUTEX 同日發布 Cosmos 3 與 Isaac GR00T N1.6 · 物理 AI 全棧開源確立人形機器人訓練新標準",
+      "source": "NVIDIA Newsroom",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-releases-new-physical-ai-models-as-global-partners-unveil-next-generation-robots",
+      "blurb": "Cosmos 3 世界基礎模型與 GR00T N1.6 VLA 今日雙雙在 Hugging Face 開源、NIM 上線，搭配 Unitree H2 Plus 開放參考硬體平台，ETH Zurich 等頂尖學術機構首日採用——NVIDIA 以「算力 + 模型 + 硬體設計全開放」確立類人型機器人訓練標準棧。",
+      "editorial": "<p><strong>第一</strong>　NVIDIA 於 2026 年 6 月 1 日 GTC Taipei（COMPUTEX 2026 首日）集中發布物理 AI 三層更新。Cosmos 3 世界基礎模型是首個整合合成世界生成、視覺推理（Cosmos Reason）與動作模擬的統一架構，今日以開源形式在 Hugging Face 及 NVIDIA NIM 微服務同步上線，分 Super（高性能）與 Nano（端側）兩個版本，Edge 版本稍後推出。Isaac GR00T N1.6 是開源 VLA（Vision-Language-Action）模型，以 Cosmos Reason 強化情境推理能力，首度實現類人型機器人的全身端到端操控（loco-manipulation）——機器人可在推理意圖的同時同步控制四肢。硬體層：NVIDIA 與 Unitree 合作發布 Isaac GR00T Reference Humanoid Robot 開放參考設計，基於 Unitree H2 Plus 底盤、Sharpa Wave 五指靈巧手、Jetson AGX Thor 板載算力，高度近 2 公尺、75 個自由度；ETH Zurich、Stanford Robotics Center 及 UC San Diego 為首批學術採用機構，預計 2026 年底通過 Unitree 開始出貨。</p><p><strong>第二</strong>　Cosmos 3 + GR00T N1.6 + 開放參考硬體的三層同步開源，確立 NVIDIA 在物理 AI 領域複製 Android 生態打法的完整技術棧。核心邏輯：感知層（Cosmos 3 世界模型）+ 決策層（GR00T N1.6 VLA）+ 執行層（Jetson AGX Thor 參考硬體）全面開放標準，機器人廠商無需從零建立基礎模型，只需在 NVIDIA 技術棧上進行任務微調，算力消費自然向 DGX Cloud（訓練）及 Jetson（邊緣推論）鎖定。此策略與同日宣告的 RTX Spark PC 超芯片形成互補：NVIDIA 正在 PC 個人算力端（RTX Spark）與物理 AI 機器人端（Cosmos + GR00T）同步建立平台護城河，確保無論 AI 計算場景如何演進，都在基礎架構層保持不可替代性。Franka Robotics、NEURA Robotics 及 Humanoid 等商業機器人廠商確認接入 GR00T 訓練工作流，意味著開放生態採用速度快於傳統學術先行、商業跟進的節奏。</p><p><strong>第三</strong>　對開發者，Cosmos 3 Nano 在 Hugging Face 開源今日即可取用，最直接的應用場景是低成本 Sim-to-Real 管道：以 Cosmos 3 生成合成環境數據替代昂貴物理採集，配合 GR00T N1.6 進行策略訓練，最終部署至 Jetson 邊緣設備；現有 ROS2 開發者應優先確認 GR00T N1.6 的 ROS2 相容性文件，評估與現有末端執行器的整合難度。對企業 CIO，製造業、物流及倉儲的機器人自動化評估在 NVIDIA 開放技術棧確立後進入新的可行性評估周期：2026 年底 GR00T 參考硬體出貨、NIM 微服務已上線，2027 年的機器人自動化 POC 可基於已確立的開放標準棧推進，技術選型不確定性顯著降低；建議在 H2 供應鏈自動化投資規劃中將 NVIDIA Isaac 生態列為評估基準平台。對 BEXS 黃金交易學員，NVIDIA 同日在 RTX Spark（PC）與 Cosmos 3 + GR00T（物理 AI）雙軌布局確認算力商業化邊界繼續向終端與實體世界延伸；人形機器人供應鏈（Unitree、Sharpa Wave 等零部件商）的估值模型應更新以反映 NVIDIA 開放平台背書帶來的訂單可見度提升，建議追蹤 NVIDIA FY27 Q2（2026 年 8 月）是否首度在財報中量化 Jetson AGX Thor 的 GR00T 相關出貨量，作為物理 AI 商業化加速的最早財務驗證節點。</p>"
+    },
     {
       "id": "pulse-2026-06-01-14-nvidia-rtx-spark-computex-arm-blackwell-pc",
       "ts": "2026-06-01T14:00:00+08:00",
@@ -261,15 +270,6 @@
       "url": "https://techcrunch.com/2026/05/19/openai-co-founder-andrej-karpathy-joins-anthropics-pre-training-team/",
       "blurb": "OpenAI 共同創辦人、Tesla FSD 前負責人 Andrej Karpathy 5 月 19 日確認加入 Anthropic，負責建立以 Claude 本身加速預訓練研究的全新團隊；這是 frontier 最高量級研究人才首度以研究自動化架構師角色進入非 OpenAI 機構，確認「以 AI 驅動 AI 研究」已成為 frontier 競爭的新前線。",
       "editorial": "<p><strong>第一</strong>　2026 年 5 月 19 日，Anthropic 宣布 Andrej Karpathy 已加入公司，在預訓練負責人 Nick Joseph 麾下建立新團隊，核心任務是設計以 Claude 本身加速預訓練研究的工作流架構。Karpathy 是 OpenAI 共同創辦人之一，2017 年轉赴 Tesla 擔任 Full Self-Driving 技術負責人至 2022 年，此後短暫返回 OpenAI，2024 年創辦 AI 教育新創 Eureka Labs。本次是 Karpathy 首度加入非 OpenAI、非自身創辦機構的研究組織，亦是其研究重心從自動駕駛轉向 frontier 語言模型預訓練的明確轉軌。</p><p><strong>第二</strong>　此人事異動在三個維度確立 frontier 研究人才競爭格局的結構性轉折。其一，Karpathy 在 Anthropic 的核心任務是「以 Claude 自動化預訓練研究工作流」，而非傳統模型工程師職責；Anthropic 選擇以此定位招募業界最知名的 AI 研究工程師，確認「以 AI 自動化自身研究流程」已成為 frontier lab 下一代算力競爭之外的第二競爭前線。其二，Karpathy 的公開聲望獨特：其 YouTube 課程及 nanoGPT 等開源著作是全球開發者社群的事實標準教材，是極少數同時具備學術公信力與工程說服力的 AI 研究人物；加入 Anthropic 確認一個可量化的人才磁場訊號，對下一批 AI 研究人才的職涯路徑判斷形成直接影響。其三，在 Karpathy 2024 年離開 OpenAI 後，外界普遍預設其可能再度回歸 OpenAI 或維持獨立路線；此次轉向 Anthropic 是對 frontier 人才流動假設的公開修正，確認 Anthropic 以研究自主性及 Series H 資源深度已具備與 OpenAI 直接競爭頂尖研究人才的結構性能力。</p><p><strong>第三</strong>　後續三個觀察節點：其一，Karpathy 以 Claude 加速預訓練的工作流若在 H2 2026 產出可量化的訓練效率改善，是評估 AI 研究自動化能力成熟度最直接的外部基準；其二，對開發者，Karpathy 是否延續其開源教育傳統（如 Claude 研究工具或預訓練實踐公開分享），是評估 Anthropic 研究生態開放度的重要訊號；其三，對 BEXS 黃金交易學員，業界最知名 AI 研究品牌加持 Anthropic，使 IPO S-1 中研究人才密度敘事的機構投資人說服力顯著增強，在雙 IPO 比較框架中確立了 Anthropic 研究護城河的非財務差異化敘事，建議追蹤 Karpathy 加入後 Anthropic 是否加速公開新版模型技術報告的發布節奏，以量化其貢獻在 H2 的落地速度。</p>"
-    },
-    {
-      "id": "pulse-2026-05-31-11-sap-prior-labs-european-frontier",
-      "ts": "2026-05-31T11:00:00+08:00",
-      "title": "SAP 十一億美元收購德國 Prior Labs · 表格基礎模型脫 LLM 框架、歐洲 frontier 實驗室首度成形",
-      "source": "TechCrunch / SAP Newsroom",
-      "url": "https://techcrunch.com/2026/05/05/sap-bets-1-16b-on-18-month-old-german-ai-lab-and-says-yes-to-nemoclaw/",
-      "blurb": "SAP 5 月 4 日宣布收購僅成立 18 個月的德國 AI 新創 Prior Labs，承諾逾十一億六千萬美元四年投資、維持獨立運營；Prior Labs 的表格基礎模型（TFM）在超過三百份獨立學術研究中均超越 LLM，同步鎖定 NVIDIA NemoClaw 為代理框架標準，歐洲首個 frontier AI 實驗室正式成形。",
-      "editorial": "<p><strong>第一</strong>　SAP 與 Prior Labs 於 2026 年 5 月 4 日宣布簽署收購協議，結構以現金為主，創辦人等早期股東可取得超過五億美元現金，SAP 另承諾未來四年追加逾十一億六千萬美元（約一億歐元）投資，目標打造全球結構化資料領域頂尖 frontier AI 實驗室。Prior Labs 於 2024 年底由 AutoML 研究先驅 Frank Hutter、Noah Hollmann 及 Sauraj Gambhir 在德國弗萊堡創立，成立不足 18 個月；旗艦產品 TabPFN 系列表格基礎模型（Tabular Foundation Models，TFM）在超過三百份獨立學術研究中均超越同等規模 LLM，並於 2024 年發表於《自然》期刊，開源版本累計下載逾三百萬次。Prior Labs 維持獨立運營，SAP 同步更新 API 政策，限定代理接入須採用 SAP 認可架構，目前指向 NVIDIA NemoClaw 框架。</p><p><strong>第二</strong>　此收購在三個維度確立 AI 商業應用格局的結構性轉折。其一，LLM 在結構化數值資料場景的核心短板——幻覺率高、數值推論精度低——在 ERP、CRM、SCM 等企業核心系統中是阻礙大規模落地的最大障礙；TFM 以表格為原生輸入形式，在支付延遲預測、供應商風險評估、客戶流失分析等場景以統計推斷替代 token 生成，直接消除此障礙，使 SAP 可在 S/4HANA 四億五千萬企業用戶基礎上建立不依賴通用 LLM 的結構化資料 AI 護城河。其二，SAP 以 NVIDIA NemoClaw 為認可代理框架，確認 NVIDIA Agentic AI 生態在企業 ERP 部署中獲得最大 ERP 廠商的正式背書；NemoClaw-TFM 整合路線正在成為歐洲企業 AI 代理的事實架構標準，對採用非 NVIDIA 代理框架（如 LangChain、AutoGen）的 SAP 生態開發者形成明確的架構制約訊號。其三，Prior Labs 以德國弗萊堡為基地、SAP 承諾維持其獨立性，確認歐洲本土 frontier AI 研究能力首度在商業化路徑上獲得充分資本支撐，對歐盟 AI Act 合規設計及跨境資料主權敘事的政治意涵不可忽視。</p><p><strong>第三</strong>　對企業 CIO，SAP S/4HANA 使用者應追蹤 Prior Labs TFM 能力整合進入正式 SAP Business AI 功能的時程（預計 2026 年 H2 預覽），業務場景優先評估支付風險、供應商評級及財務預測三類結構化資料任務；對開發者，TabPFN 開源版本（三百萬次下載）可直接在結構化資料場景評估，但 SAP API 政策轉向「SAP 認可架構」提醒基於第三方代理框架構建的 SAP 整合需在 H2 前確認相容性；對 BEXS 黃金交易學員，SAP 採用 NemoClaw 確認 NVIDIA 代理框架在企業 ERP 市場滲透確定性進一步提升，是 NVIDIA Agentic AI 商業化加速敘事的額外量化錨點，建議在 NVIDIA FY2027 Q2 業績說明會（預計 2026 年 8 月）追蹤 NemoClaw 企業採用率的具體披露。</p>"
     }
   ]
 }
